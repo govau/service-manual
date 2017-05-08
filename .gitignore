@@ -3,9 +3,15 @@
 *.sublime-workspace
 codekit-config.json
 *.codekit
+
+# node / npm
 node_modules
 .sass-cache
 .idea
 validation-report.json
 validation-status.json
 npm-debug.log
+*.log
+
+# phenomic build
+dist
