@@ -1,9 +1,9 @@
 import React, { PropTypes } from "react"
 
-import styles from "./index.css"
+import "./container.scss"
 
 const Container = (props) => (
-  <div className={ styles.container }>
+  <div className="container">
     { props.children }
   </div>
 )
