@@ -19,7 +19,7 @@ dependencies:
     - sudo apt-get install tree     # install tree (soo much nicer)
   override:
     - yarn           # install dependencies
-    - yarn bootstrap # running bootstrap script
+    # - yarn bootstrap # running bootstrap script
     - yarn build     # running build script
   cache_directories:
     - ~/.cache/yarn  # yarn needs this
@@ -30,13 +30,13 @@ test:
     - find . -name "lib" -exec rm -rf '{}' +          # removing all lib/ folders
     - find . -name "src" -exec rm -rf '{}' +          # removing all src/ folder
     - tree -C                                         # let’s log what we got now
-    - cp -r * $CIRCLE_ARTIFACTS/                      # moving all remaining files to $CIRCLE_ARTIFACTS
+    - cp -r dist/* $CIRCLE_ARTIFACTS/                 # moving all remaining files to $CIRCLE_ARTIFACTS
 
 deployment:
   development:
     branch: master # only on master branch
     commands:
-      - cf login -a https://api.system.staging.digital.gov.au -o $CF_ORG_PROD -s $CF_SPACE_PROD -u $CF_USER_PROD -p $CF_PASSWORD_PROD
+      - cf login -a https://api.system.platform.digital.gov.au -o $CF_ORG_PROD -s $CF_SPACE_PROD -u $CF_USER_PROD -p $CF_PASSWORD_PROD
       - cf target -o $CF_ORG_PROD -s $CF_SPACE_PROD
       - cf push -f manifest.yml
   production:
