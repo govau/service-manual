@@ -3,28 +3,17 @@ import path from "path"
 import webpack from "webpack"
 import ExtractTextPlugin from "extract-text-webpack-plugin"
 import { phenomicLoader } from "phenomic"
-import PhenomicLoaderFeedWebpackPlugin
-	from "phenomic/lib/loader-feed-webpack-plugin"
-import PhenomicLoaderSitemapWebpackPlugin
-	from "phenomic/lib/loader-sitemap-webpack-plugin"
+import PhenomicLoaderFeedWebpackPlugin from "phenomic/lib/loader-feed-webpack-plugin"
+import PhenomicLoaderSitemapWebpackPlugin from "phenomic/lib/loader-sitemap-webpack-plugin"
 
 import pkg from "./package.json"
 
-const extractSass = new ExtractTextPlugin({
+const ExtractSass = new ExtractTextPlugin({
 	filename: "[name].[contenthash].css",
+	disable: process.env.NODE_ENV === "development"
 });
 
 export default (config = {}) => {
-
-	// hot loading for postcss config
-	// until this is officially supported
-	// https://github.com/postcss/postcss-loader/issues/66
-	const postcssPluginFile = require.resolve("./postcss.config.js")
-	const postcssPlugins = (webpackInstance) => {
-		webpackInstance.addDependency(postcssPluginFile)
-		delete require.cache[postcssPluginFile]
-		return require(postcssPluginFile)(config)
-	}
 
 	return {
 		...config.dev && {
@@ -70,36 +59,35 @@ export default (config = {}) => {
 					test: /\.scss$/,
 					exclude: /\.global\.scss$/,
 					include: path.resolve(__dirname, "src"),
-					loader: ExtractTextPlugin.extract({
-						fallback: "style-loader",
-						use: [{
-							loader: "style-loader",
-						},
-						{
-							loader: "css-loader",
-						},
-						{
-							loader: "sass-loader",
-						}]
+					use: ExtractSass.extract({
+						use: [
+							{
+								loader: "css-loader"
+							},
+							{
+								loader: "sass-loader"
+							}
+						],
+						fallback: "style-loader"
 					}),
 				},
 				// *.global.css => global (normal) css
 				{
 					test: /\.global\.scss$/,
 					include: path.resolve(__dirname, "src"),
-					loader: ExtractTextPlugin.extract({
-						fallback: "style-loader",
-						use: [{
-							loader: "style-loader",
-						},
-						{
-							loader: "css-loader",
-						},
-						{
-							loader: "sass-loader",
-						}],
+					use: ExtractSass.extract({
+						use: [
+							{
+								loader: "css-loader"
+							},
+							{
+								loader: "sass-loader"
+							}
+						],
+						fallback: "style-loader"
 					}),
 				},
+
 				// ! \\
 				// If you want global CSS only, just remove the 2 sections above
 				// and use the following one
@@ -170,6 +158,8 @@ export default (config = {}) => {
 			// 		context: __dirname,
 			// 	},
 			// }),
+
+			ExtractSass,
 
 			new PhenomicLoaderFeedWebpackPlugin({
 				// here you define generic metadata for your feed
