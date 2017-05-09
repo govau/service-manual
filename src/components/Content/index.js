@@ -3,9 +3,9 @@ import React, { PropTypes } from "react"
 import "./content.scss"
 
 const Content = (props) => (
-  <div className="content">
+  <main className="container">
     { props.children }
-  </div>
+  </main>
 )
 
 Content.propTypes = {

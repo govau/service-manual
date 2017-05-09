@@ -88,7 +88,9 @@
 		"extends": "./node_modules/phenomic/lib/stylelint-config-recommended/index.js"
 	},
 	"devDependencies": {
+		"@gov.au/body": "^0.1.1",
 		"@gov.au/footer": "^0.1.0",
+		"@gov.au/grid-12": "^0.1.0",
 		"@gov.au/header": "^1.0.0",
 		"babel-cli": "^6.14.0",
 		"babel-core": "^6.14.0",
@@ -108,6 +110,7 @@
 		"extract-text-webpack-plugin": "^2.1.0",
 		"file-loader": "^0.10.1",
 		"history": "^2.0.0",
+		"node-sass": "^4.5.2",
 		"npm-run-all": "^1.7.0",
 		"phenomic": "^0.21.1",
 		"postcss-browser-reporter": "^0.4.0",
@@ -124,6 +127,7 @@
 		"react-svg-inline": "^1.1.0",
 		"react-topbar-progress-indicator": "^1.0.0",
 		"redux": "^3.0.0",
+		"sass-loader": "^6.0.3",
 		"style-loader": "^0.13.0",
 		"stylelint": "^7.2.0",
 		"warning": "^3.0.0",
@@ -148,9 +152,7 @@
 		}
 	],
 	"dependencies": {
-		"@gov.au/pancake-sass": "^1.1.0",
-		"node-sass": "^4.5.2",
-		"sass-loader": "^6.0.3"
+		"@gov.au/pancake-sass": "^1.1.0"
 	},
 	"pancake": {
 		"auto-save": false,
