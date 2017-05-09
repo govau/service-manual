@@ -1,10 +1,11 @@
 import path from "path"
 
-import webpack from "webpack"
+import PhenomicLoaderSitemapWebpackPlugin from "phenomic/lib/loader-sitemap-webpack-plugin"
+import PhenomicLoaderFeedWebpackPlugin from "phenomic/lib/loader-feed-webpack-plugin"
 import ExtractTextPlugin from "extract-text-webpack-plugin"
 import { phenomicLoader } from "phenomic"
-import PhenomicLoaderFeedWebpackPlugin from "phenomic/lib/loader-feed-webpack-plugin"
-import PhenomicLoaderSitemapWebpackPlugin from "phenomic/lib/loader-sitemap-webpack-plugin"
+import Autoprefixer from "autoprefixer"
+import webpack from "webpack"
 
 import pkg from "./package.json"
 
@@ -13,7 +14,7 @@ const ExtractSass = new ExtractTextPlugin({
 	disable: process.env.NODE_ENV === "development"
 });
 
-export default (config = {}) => {
+export default ( config = {} ) => {
 
 	return {
 		...config.dev && {
@@ -50,78 +51,25 @@ export default (config = {}) => {
 					],
 				},
 
-				// ! \\
-				// by default *.css files are considered as CSS Modules
-				// And *.global.css are considered as global (normal) CSS
-
-				// *.css => CSS Modules
+				// *.scss => modular (prefixed) css
 				{
 					test: /\.scss$/,
-					exclude: /\.global\.scss$/,
 					include: path.resolve(__dirname, "src"),
 					use: ExtractSass.extract({
 						use: [
 							{
-								loader: "css-loader"
+								loader: "css-loader",
 							},
 							{
-								loader: "sass-loader"
-							}
-						],
-						fallback: "style-loader"
-					}),
-				},
-				// *.global.css => global (normal) css
-				{
-					test: /\.global\.scss$/,
-					include: path.resolve(__dirname, "src"),
-					use: ExtractSass.extract({
-						use: [
-							{
-								loader: "css-loader"
+								loader: "sass-loader",
 							},
-							{
-								loader: "sass-loader"
-							}
-						],
-						fallback: "style-loader"
-					}),
-				},
-
-				// ! \\
-				// If you want global CSS only, just remove the 2 sections above
-				// and use the following one
-				// ! \\ If you want global CSS for node_modules only, just uncomment
-				// this section and the `include` part
-				/*
-				{
-					test: /\.css$/,
-					// depending on your need, you might need to scope node_modules
-					// for global CSS if you want to keep CSS Modules by default
-					// for your own CSS. If so, uncomment the line below
-					// include: path.resolve(__dirname, "node_modules"),
-					loader: ExtractTextPlugin.extract({
-						fallback: "style-loader",
-						use: [
-							"css-loader",
 							{
 								loader: "postcss-loader",
-								query: { "plugins": postcssPlugins },
 							},
-						]
+						],
+						fallback: "style-loader",
 					}),
 				},
-				*/
-				// ! \\ if you want to use Sass or LESS, you can add sass-loader or
-				// less-loader after postcss-loader (or replacing it).
-				// ! \\ You will also need to adjust the file extension
-				// and to run the following command
-				//
-				// Sass: `npm install --save-dev node-sass sass-loader`
-				// https://github.com/jtangelder/sass-loader
-				//
-				// LESS: npm install --save-dev less less-loader
-				// https://github.com/webpack/less-loader
 
 				// copy assets and return generated path in js
 				{
@@ -142,24 +90,22 @@ export default (config = {}) => {
 			],
 		},
 
-		plugins: [
-			// You should be able to remove the block below when the following
-			// issue has been correctly handled (and postcss-loader supports
-			// "plugins" option directly in query, see postcss-loader usage above)
-			// https://github.com/postcss/postcss-loader/issues/99
-			// new webpack.LoaderOptionsPlugin({
-			// 	test: /\.css$/,
-			// 	options: {
-			// 		postcss: postcssPlugins,
-			// 		// required to avoid issue css-loader?modules
-			// 		// this is normally the default value, but when we use
-			// 		// LoaderOptionsPlugin, we must specify it again, otherwise,
-			// 		// context is missing (and css modules names can be broken)!
-			// 		context: __dirname,
-			// 	},
-			// }),
 
+		plugins: [
+			// sass loader
 			ExtractSass,
+
+			// autoprefixer
+			new webpack.LoaderOptionsPlugin({
+				options: {
+					postcss: [ Autoprefixer ],//pkg.pancake.css.browsers, }) ],
+					// required to avoid issue css-loader?modules
+					// this is normally the default value, but when we use
+					// LoaderOptionsPlugin, we must specify it again, otherwise,
+					// context is missing (and css modules names can be broken)!
+					// context: __dirname,
+				},
+			}),
 
 			new PhenomicLoaderFeedWebpackPlugin({
 				// here you define generic metadata for your feed
@@ -172,7 +118,9 @@ export default (config = {}) => {
 					// on different filters
 					"feed.xml": {
 						collectionOptions: {
-							filter: { layout: "Post" },
+							filter: {
+								layout: "Post"
+							},
 							sort: "date",
 							reverse: true,
 							limit: 20,
@@ -192,7 +140,11 @@ export default (config = {}) => {
 
 			...config.production && [
 				new webpack.optimize.UglifyJsPlugin(
-					{ compress: { warnings: false } }
+					{
+						compress: {
+							warnings: false,
+						},
+					}
 				),
 			],
 		],
@@ -203,6 +155,11 @@ export default (config = {}) => {
 			filename: "[name].[hash].js",
 		},
 
-		resolve: { extensions: [ ".js", ".json" ] },
+		resolve: {
+			extensions: [
+				".js",
+				".json",
+			],
+		},
 	}
 }
