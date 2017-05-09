@@ -56,19 +56,10 @@ const Page = (
 				title={ metaTitle }
 				meta={ meta }
 			/>
-			{
-				<div className="hero">
-					hero: { head.hero }
-				</div>
-			}
-			<div className="noidea">
-				{ header }
-				<div className="body">
-					<BodyContainer>{ body }</BodyContainer>
-				</div>
-				{ children }
-				{ footer }
-			</div>
+			{ header }
+			<BodyContainer>{ body }</BodyContainer>
+			{ children }
+			{ footer }
 		</div>
 	)
 }

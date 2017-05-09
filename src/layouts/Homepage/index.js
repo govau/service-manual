@@ -5,7 +5,6 @@ import Page from "../Page"
 const Homepage = ( props ) => {
 	return (
 		<Page { ...props }>
-			yay
 		</Page>
 	)
 }
