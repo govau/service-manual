@@ -10,7 +10,6 @@
 		"lint": "npm-run-all --parallel lint:*",
 		"start": "phenomic start",
 		"build": "phenomic build",
-		"pretest": "npm run lint",
 		"test": "echo \"No tests yet\""
 	},
 	"phenomic": {
