@@ -1,7 +1,8 @@
 ---
 applications:
 - name: service-manual
-  buildpack: staticfile_buildpack
-  memory: 64M
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
+  memory: 256M
   instances: 1
   path: ./
+  command: node server/index.js
