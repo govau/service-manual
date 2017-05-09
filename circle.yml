@@ -18,7 +18,7 @@ dependencies:
     - cf -v                         # logging what we got
     - sudo apt-get install tree     # install tree (soo much nicer)
   override:
-    - sudo npm install forever
+    - yarn global add forever
     - yarn           # install dependencies
     # - yarn bootstrap # running bootstrap script
     - yarn build     # running build script
