@@ -17,8 +17,8 @@ dependencies:
     - sudo dpkg -i cf-cli_amd64.deb # installing it
     - cf -v                         # logging what we got
     - sudo apt-get install tree     # install tree (soo much nicer)
-    - sudo npm install forever
   override:
+    - sudo npm install forever
     - yarn           # install dependencies
     # - yarn bootstrap # running bootstrap script
     - yarn build     # running build script
