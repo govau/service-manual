@@ -19,6 +19,7 @@ dependencies:
     - sudo apt-get install tree     # install tree (soo much nicer)
   override:
     # - yarn global add forever
+    - find . -name "node_modules" -exec rm -rf '{}' + # removing all node_modules/ folder
     - yarn           # install dependencies
     # - yarn bootstrap # running bootstrap script
     - yarn build     # running build script
