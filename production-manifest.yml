@@ -1,7 +1,12 @@
 ---
 
+host: service-manual
 buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
 memory: 256M
 instances: 1
 path: ./
 command: node server/index.js
+
+applications:
+- name: service-manual-blue
+- name: service-manual-green
