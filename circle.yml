@@ -46,4 +46,4 @@ deployment:
     commands:
       - cf login -a https://api.system.staging.digital.gov.au -o $CF_ORG_STAGING -s $CF_SPACE_STAGING -u $CF_USER_STAGING -p $CF_PASSWORD_STAGING
       - cf target -o $CF_ORG_STAGING -s $CF_SPACE_STAGING
-      - cf push -f production-manifest.yml
+      - cf push -f manifest.yml
