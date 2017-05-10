@@ -3,4 +3,4 @@ title: Service manual
 layout: Homepage
 ---
 
-Currently in development 🐣 💻 
+Currently in development 🐣 🚀 💻
