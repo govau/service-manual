@@ -10,12 +10,21 @@
 		"lint": "npm-run-all --parallel lint:*",
 		"start": "phenomic start",
 		"build": "phenomic build",
-		"test": "echo \"No tests yet\""
+		"test": "jest"
 	},
 	"phenomic": {
 		"CNAME": false,
 		"offline": true,
 		"clientScripts": false
+	},
+	"jest": {
+		"testRegex": "\\.test.js$",
+		"collectCoverageFrom": [
+			"src"
+		],
+		"moduleNameMapper": {
+			"\\.(scss)$": "<rootDir>/node_modules/jest-css-modules"
+		}
 	},
 	"#babel": "webpack-(development|production) are useful for webpack 2, otherwise use development|production",
 	"babel": {
@@ -110,6 +119,8 @@
 		"extract-text-webpack-plugin": "^2.1.0",
 		"file-loader": "^0.10.1",
 		"history": "^2.0.0",
+		"jest-cli": "^20.0.0",
+		"jest-css-modules": "^1.1.0",
 		"node-sass": "^4.5.2",
 		"npm-run-all": "^1.7.0",
 		"phenomic": "^0.21.1",
