@@ -97,9 +97,11 @@
 	},
 	"devDependencies": {
 		"@gov.au/body": "^0.1.1",
+		"@gov.au/buttons": "^0.3.0",
 		"@gov.au/footer": "^0.1.0",
 		"@gov.au/grid-12": "^0.1.0",
 		"@gov.au/header": "^1.0.0",
+		"@gov.au/link-list": "^0.1.0",
 		"autoprefixer": "^7.0.1",
 		"babel-cli": "^6.14.0",
 		"babel-core": "^6.14.0",

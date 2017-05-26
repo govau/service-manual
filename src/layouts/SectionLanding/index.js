@@ -1,16 +1,15 @@
 import React from "react"
+import PropTypes from 'prop-types'
 
 import Page from "../Page"
+import SectionBanner from "../../components/SectionBanner"
 import SectionNav from "../../components/SectionNav"
-import { BodyContainer, joinUri } from "phenomic"
 import { StickyContainer, Sticky } from 'react-sticky';
 
 const SectionLanding = ( props ) => {
 	return (
 		<div>
-			<h1>{props.head.title}</h1>
-			<p>{props.head.abstract}</p>
-			<a href={props.head.videoLink}>{props.head.videoTitle}</a>
+			<SectionBanner contents={props.head}/>
 			<StickyContainer>
 				<Sticky>
 					{
@@ -18,7 +17,7 @@ const SectionLanding = ( props ) => {
 							return (
 								<div style={ style }>
 									<SectionNav
-										contents={ [{'title': 'Title', 'link': '#anchor-link'},{'title': 'Title', 'link': '#anchor-link'}] }>
+										contents={ [{'title': 'Title', 'link': '#anchor-link1'},{'title': 'Title', 'link': '#anchor-link2'}] }>
 									</SectionNav>
 								</div>
 							)
@@ -30,6 +29,10 @@ const SectionLanding = ( props ) => {
 			</StickyContainer>
 		</div>
 	)
+}
+
+SectionBanner.propTypes = {
+	head: PropTypes.object,
 }
 
 export default SectionLanding
