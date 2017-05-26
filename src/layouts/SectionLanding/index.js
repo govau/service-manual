@@ -1,6 +1,8 @@
 import React from "react"
 import PropTypes from 'prop-types'
 
+import "./section-landing.scss"
+
 import Page from "../Page"
 import SectionBanner from "../../components/SectionBanner"
 import SectionNav from "../../components/SectionNav"
@@ -16,7 +18,7 @@ const SectionLanding = ( props ) => {
 					{
 						( { style } ) => {
 							return (
-								<div style={ style }>
+								<div className="servicemanual-sticky-container" style={ style }>
 									<SectionNav
 										contents={ [{'title': 'Title', 'link': '#anchor-link1'},{'title': 'Title', 'link': '#anchor-link2'}] }>
 									</SectionNav>
@@ -25,11 +27,18 @@ const SectionLanding = ( props ) => {
 						}
 					}
 				</Sticky>
-				<Page { ...props }>
-				</Page>
+				<div className="container">
+				<div className="row">
+					<div className="grids col-sm-8">
+						<Page { ...props }>
+						</Page>
+					</div>
 
-				<RelatedCriteria contents={ props.head.criteria } />
-
+					<div className="grids col-sm-4">
+						<RelatedCriteria contents={ props.head.criteria } />
+					</div>
+				</div>
+			</div>
 			</StickyContainer>
 		</div>
 	)

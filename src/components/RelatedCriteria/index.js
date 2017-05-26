@@ -78,11 +78,11 @@ const RelatedCriteria = ( { contents } ) => {
 
 				<ul className="servicemanual-related-criteria__list">
 					{ contents.map( ( item, i ) =>
-							<li className="servicemanual-related-criteria__item" key={i}>
-								<a href={Criteria[ ( item -1 ) ].link}>
-									{Criteria[ ( item -1 ) ].title}
-								</a>
-							</li>
+						<li className="servicemanual-related-criteria__item" key={i}>
+							<a href={Criteria[ ( item -1 ) ].link}>
+								{Criteria[ ( item -1 ) ].title}
+							</a>
+						</li>
 					)}
 				</ul>
 			</div>
