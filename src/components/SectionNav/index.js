@@ -18,6 +18,7 @@ import "./section-nav.scss"
 const SectionNav = ( { contents } ) => (
 	<nav className="servicemanual-section-nav">
 		<div className="container">
+			<h2 className="servicemanual-section-nav__title">Page navigation</h2>
 			<ul className="uikit-link-list uikit-link-list--inline">
 				{ contents.map( ( item, i ) =>
 					<li key={ i } className="servicemanual-section-nav__item">

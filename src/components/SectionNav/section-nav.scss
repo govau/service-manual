@@ -4,3 +4,11 @@
 	background: #fff;
 	margin-bottom: 2em;
 }
+
+.servicemanual-section-nav__title {
+	/*@include uikit-sronly();*/
+	visibility: hidden;
+	overflow: hidden;
+	height: 0;
+	margin: 0;
+}

@@ -4,6 +4,9 @@ layout: SectionLanding
 abstract: Accessibility is important
 videoTitle: What is user research?
 videoLink: https://www.youtube.com/
+criteria:
+  - 1
+  - 2
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis, turpis eget bibendum auctor, nunc ex iaculis lacus, vel elementum tortor metus sit amet dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tristique auctor fermentum. Proin justo lectus, lacinia ut orci at, dignissim tincidunt mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras id scelerisque nulla. Duis pellentesque congue mi, in dignissim est elementum at. Phasellus commodo nec metus vitae tempor. Aliquam molestie, libero ut bibendum interdum, orci tortor imperdiet tortor, sit amet posuere quam massa sit amet arcu. Etiam vel elementum ipsum, vel lobortis tellus. Mauris ante enim, ultricies nec nisl a, placerat porta lectus. Nam a tempor ante. Integer sodales lorem nulla, at condimentum tellus imperdiet sed. Nulla sed condimentum sem. Morbi a vulputate quam. Pellentesque at posuere purus.

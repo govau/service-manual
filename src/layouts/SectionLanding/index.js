@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 import Page from "../Page"
 import SectionBanner from "../../components/SectionBanner"
 import SectionNav from "../../components/SectionNav"
+import RelatedCriteria from "../../components/RelatedCriteria"
 import { StickyContainer, Sticky } from 'react-sticky';
 
 const SectionLanding = ( props ) => {
@@ -26,6 +27,9 @@ const SectionLanding = ( props ) => {
 				</Sticky>
 				<Page { ...props }>
 				</Page>
+
+				<RelatedCriteria contents={ props.head.criteria } />
+
 			</StickyContainer>
 		</div>
 	)

@@ -16,7 +16,7 @@
     "@gov.au/core" "^0.1.0"
     "@gov.au/pancake" "~1"
 
-"@gov.au/core@^0.1.0":
+"@gov.au/core@^0.1.0", "@gov.au/core@^0.1.2":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@gov.au/core/-/core-0.1.2.tgz#c51298b5301ec8882cc844b22a405d53a69a58ae"
   dependencies:
