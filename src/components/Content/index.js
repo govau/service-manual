@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import "./content.scss"
 
 const Content = (props) => (
-	<main className="container">
+	<main>
 		{ props.children }
 	</main>
 )
