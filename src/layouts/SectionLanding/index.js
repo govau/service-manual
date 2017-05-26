@@ -9,7 +9,7 @@ import { StickyContainer, Sticky } from 'react-sticky';
 const SectionLanding = ( props ) => {
 	return (
 		<div>
-			<SectionBanner contents={props.head}/>
+			<SectionBanner contents={ props.head }/>
 			<StickyContainer>
 				<Sticky>
 					{
@@ -31,7 +31,7 @@ const SectionLanding = ( props ) => {
 	)
 }
 
-SectionBanner.propTypes = {
+SectionLanding.propTypes = {
 	head: PropTypes.object,
 }
 
