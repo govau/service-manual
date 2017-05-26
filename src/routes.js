@@ -6,6 +6,7 @@ import AppContainer from "./AppContainer"
 import Page from "./layouts/Page"
 import PageError from "./layouts/PageError"
 import Homepage from "./layouts/Homepage"
+import SectionLanding from "./layouts/SectionLanding"
 
 const PageContainer = (props) => (
 	<PhenomicPageContainer
@@ -14,6 +15,7 @@ const PageContainer = (props) => (
 			Page,
 			PageError,
 			Homepage,
+			SectionLanding,
 		}}
 	/>
 )

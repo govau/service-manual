@@ -58,7 +58,7 @@ const Page = (
 				meta={ meta }
 			/>
 			{ header }
-			<BodyContainer>{ body }</BodyContainer>
+			<BodyContainer className="container">{ body }</BodyContainer>
 			{ children }
 			{ footer }
 		</div>

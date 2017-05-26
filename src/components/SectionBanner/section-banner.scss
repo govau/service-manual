@@ -1,0 +1,21 @@
+.servicemanual-section-header {
+	background-color: #0879A3;
+	padding: 2em;
+
+	.servicemanual-section-header__title,
+	.servicemanual-section-header__abstract,
+	.servicemanual-section-header__video {
+		color: #fff;
+		text-align: center;
+	}
+
+	.servicemanual-section-header__abstract {
+		// override the uikit max-width on <p> element...
+		max-width: none;
+	}
+
+	.servicemanual-btn__video {
+		margin: 0 auto;
+		display: block;
+	}
+}
