@@ -1,8 +1,10 @@
-import React from "react"
+import React from 'react';
+
 
 // Styles
-import "../../uikit/sass/header.scss"
-import "./header.scss"
+import '../../uikit/sass/header.scss';
+import './header.scss';
+
 
 // component
 const Header = () => (
@@ -11,6 +13,6 @@ const Header = () => (
 			<h1 className="uikit-header-heading">Service manual global header</h1>
 		</div>
 	</header>
-)
+);
 
-export default Header
+export default Header;

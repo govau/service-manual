@@ -1,9 +1,10 @@
-import React from "react"
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
+
 
 // Styles
-import "../../uikit/sass/link-list.scss"
-import "./section-nav.scss"
+import '../../uikit/sass/link-list.scss';
+import './section-nav.scss';
 
 
 /**
@@ -15,7 +16,7 @@ import "./section-nav.scss"
  * @param  {string}  item.title  - Title of anchor nav
  * @param  {string}  item.link   - Link of anchor nav
  */
-const SectionNav = ( { contents } ) => (
+const SectionNav = ({ contents }) => (
 	<nav className="servicemanual-section-nav">
 		<div className="container">
 			<h2 className="servicemanual-section-nav__title">Page navigation</h2>
@@ -28,10 +29,10 @@ const SectionNav = ( { contents } ) => (
 			</ul>
 		</div>
 	</nav>
-)
+);
 
 SectionNav.propTypes = {
-  contents: PropTypes.array,
-}
+	contents: PropTypes.array,
+};
 
-export default SectionNav
+export default SectionNav;

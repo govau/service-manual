@@ -1,25 +1,28 @@
-import React from "react"
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Container from './components/Container';
+import DefaultHeadMeta from './components/DefaultHeadMeta';
+import Header from './components/Header';
+import Content from './components/Content';
 
-import "./index.global.scss"
 
-import Container from "./components/Container"
-import DefaultHeadMeta from "./components/DefaultHeadMeta"
-import Header from "./components/Header"
-import Content from "./components/Content"
+// Styles
+import './index.global.scss';
 
-const AppContainer = (props) => (
-  <Container>
-    <DefaultHeadMeta />
-    <Header />
-    <Content>
-      { props.children }
-    </Content>
-  </Container>
-)
+
+// component
+const AppContainer = ( props ) => (
+	<Container>
+		<DefaultHeadMeta />
+		<Header />
+		<Content>
+			{ props.children }
+		</Content>
+	</Container>
+);
 
 AppContainer.propTypes = {
-  children: PropTypes.node,
-}
+	children: PropTypes.node,
+};
 
-export default AppContainer
+export default AppContainer;

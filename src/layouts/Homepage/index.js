@@ -1,12 +1,12 @@
-import React from "react"
+import React from 'react';
+import Page from '../Page';
 
-import Page from "../Page"
 
+// component
 const Homepage = ( props ) => {
 	return (
-		<Page { ...props }>
-		</Page>
-	)
-}
+		<Page { ...props } />
+	);
+};
 
-export default Homepage
+export default Homepage;

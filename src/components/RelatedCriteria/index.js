@@ -1,8 +1,17 @@
-import React from "react"
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
+
 
 // Styles
-import "./related-criteria.scss"
+import './related-criteria.scss';
+
+
+/**
+ * The DSS url
+ *
+ * @type {String}
+ */
+const DSSURL = 'https://www.dta.gov.au/standard/';
 
 
 /**
@@ -10,12 +19,8 @@ import "./related-criteria.scss"
  * The DSS related criteria block
  *
  * @param  {array}   contents    - Array or related DSS criteria by number ( 1 - 13 )
- *
  */
 const RelatedCriteria = ( { contents } ) => {
-
-	const DSSURL = 'https://www.dta.gov.au/standard/'
-
 	const Criteria = [
 		{
 			'title': '1. Understand user needs',
@@ -69,7 +74,7 @@ const RelatedCriteria = ( { contents } ) => {
 			'title': '13. Encourage everyone to use the digital service',
 			'link': DSSURL+'13-encourage-use-of-the-digital-service/',
 		},
-	]
+	];
 
 	return (
 		<section className="servicemanual-related-criteria">
@@ -78,9 +83,9 @@ const RelatedCriteria = ( { contents } ) => {
 
 				<ul className="servicemanual-related-criteria__list">
 					{ contents.map( ( item, i ) =>
-						<li className="servicemanual-related-criteria__item" key={i}>
-							<a href={Criteria[ ( item -1 ) ].link}>
-								{Criteria[ ( item -1 ) ].title}
+						<li className="servicemanual-related-criteria__item" key={ i }>
+							<a href={ Criteria[ ( item -1 ) ].link }>
+								{ Criteria[ ( item -1 ) ].title }
 							</a>
 						</li>
 					)}
@@ -88,15 +93,15 @@ const RelatedCriteria = ( { contents } ) => {
 			</div>
 
 			<div className="servicemanual-related-criteria__footer">
-				<a href={DSSURL}>Read the Standard</a>
+				<a href={ DSSURL }>Read the Standard</a>
 			</div>
 
 		</section>
 	)
-}
+};
 
 RelatedCriteria.propTypes = {
-  contents: PropTypes.array,
-}
+	contents: PropTypes.array,
+};
 
-export default RelatedCriteria
+export default RelatedCriteria;

@@ -1,16 +1,20 @@
-import React from "react"
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import "./content.scss"
 
+// Styles
+import './content.scss';
+
+
+// component
 const Content = (props) => (
 	<main>
 		{ props.children }
 	</main>
-)
+);
 
 Content.propTypes = {
 	children: PropTypes.node,
-}
+};
 
-export default Content
+export default Content;
