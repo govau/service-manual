@@ -7,7 +7,7 @@ import Page from '../Page';
 import './page-error.scss';
 
 
-// component
+// Component
 const PageError = ({ error, errorText }) => (
 	<Page head={{
 		hero: 'https://farm8.staticflickr.com/7559/16101654539_bee5151340_k.jpg'

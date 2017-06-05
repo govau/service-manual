@@ -6,7 +6,7 @@ import '../../uikit/sass/header.scss';
 import './header.scss';
 
 
-// component
+// Component
 const Header = () => (
 	<header className="uikit-header uikit-header--dark" role="banner">
 		<div className="container">

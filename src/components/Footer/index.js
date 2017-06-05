@@ -6,7 +6,7 @@ import '../../uikit/sass/footer.scss';
 import './footer.scss';
 
 
-// component
+// Component
 const Footer = () => (
 	<footer className="uikit-footer" role="content-info">
 		<div className="container">

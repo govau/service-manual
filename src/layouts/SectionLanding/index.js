@@ -11,7 +11,7 @@ import { StickyContainer, Sticky } from 'react-sticky';
 import './section-landing.scss';
 
 
-// component
+// Component
 const SectionLanding = ( props ) => {
 	return (
 		<div>
@@ -19,29 +19,26 @@ const SectionLanding = ( props ) => {
 			<StickyContainer>
 				<Sticky>
 					{
-						({ style }) => {
-							return (
-								<div className="servicemanual-sticky-container" style={ style }>
-									<SectionNav contents={[
-										{
-											'title': 'Title',
-											'link': '#anchor-link1'
-										},
-										{
-											'title': 'Title',
-											'link': '#anchor-link2'
-										}
-									]} />
-								</div>
-							)
-						}
+						({ style }) => (
+							<div className="servicemanual-sticky-container" style={ style }>
+								<SectionNav contents={[
+									{
+										'title': 'Title',
+										'link': '#anchor-link1'
+									},
+									{
+										'title': 'Title',
+										'link': '#anchor-link2'
+									}
+								]} />
+							</div>
+						)
 					}
 				</Sticky>
 				<div className="container">
 					<div className="row">
 						<div className="grids col-sm-8">
-							<Page { ...props }>
-							</Page>
+							<Page { ...props } />
 						</div>
 
 						<div className="grids col-sm-4">

@@ -9,7 +9,7 @@ import { BodyContainer, joinUri } from 'phenomic';
 import './page.scss';
 
 
-// component
+// Component
 const Page = (
 	{
 		isLoading,
@@ -59,7 +59,9 @@ const Page = (
 		<div className="page">
 			<Helmet title={ metaTitle } meta={ meta } />
 			{ header }
-			<BodyContainer className="container">{ body }</BodyContainer>
+			<BodyContainer className="container">
+				{ body }
+			</BodyContainer>
 			{ children }
 			{ footer }
 		</div>

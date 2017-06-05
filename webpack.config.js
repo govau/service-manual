@@ -1,11 +1,13 @@
 import path from "path"
 
-import PhenomicLoaderSitemapWebpackPlugin from "phenomic/lib/loader-sitemap-webpack-plugin"
-import PhenomicLoaderFeedWebpackPlugin from "phenomic/lib/loader-feed-webpack-plugin"
-import ExtractTextPlugin from "extract-text-webpack-plugin"
-import { phenomicLoader } from "phenomic"
-import Autoprefixer from "autoprefixer"
-import webpack from "webpack"
+import PhenomicLoaderSitemapWebpackPlugin from "phenomic/lib/loader-sitemap-webpack-plugin";
+import PhenomicLoaderFeedWebpackPlugin from "phenomic/lib/loader-feed-webpack-plugin";
+import ExtractTextPlugin from "extract-text-webpack-plugin";
+import { phenomicLoader } from "phenomic";
+import Autoprefixer from "autoprefixer";
+import webpack from "webpack";
+
+import Render from "./src/parser/customMarkdown";
 
 import pkg from "./package.json"
 
@@ -31,9 +33,17 @@ export default ( config = {} ) => {
 					loader: phenomicLoader,
 					query: {
 						context: path.join(__dirname, config.source),
-						// plugins: [
-						//   ...require("phenomic/lib/loader-preset-markdown").default
-						// ]
+						plugins: [
+							...require("phenomic/lib/loader-preset-default").default,
+							require("phenomic/lib/loader-plugin-markdown-init-head.description-property-from-content").default,
+							// require("phenomic/lib/loader-plugin-markdown-transform-body-property-to-html").default,
+							({ result }) => {
+								return {
+									...result,
+									body: Render( result.body ),
+								};
+							},
+						],
 						// see https://phenomic.io/docs/usage/plugins/
 					},
 				},

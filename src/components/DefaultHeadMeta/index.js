@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 
-// component
+// Component
 const DefaultHeadMeta = ( props, { metadata: { pkg } } ) => (
 	<div hidden>
 		<Helmet

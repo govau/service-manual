@@ -10,13 +10,13 @@ import Content from './components/Content';
 import './index.global.scss';
 
 
-// component
-const AppContainer = ( props ) => (
+// Component
+const AppContainer = ({ children }) => (
 	<Container>
 		<DefaultHeadMeta />
 		<Header />
 		<Content>
-			{ props.children }
+			{ children }
 		</Content>
 	</Container>
 );

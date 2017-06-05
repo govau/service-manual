@@ -2,7 +2,7 @@ import React from 'react';
 import Page from '../Page';
 
 
-// component
+// Component
 const Homepage = ( props ) => {
 	return (
 		<Page { ...props } />

@@ -8,7 +8,7 @@ import '../../uikit/sass/grid-12.scss';
 import './container.scss';
 
 
-// component
+// Component
 const Container = (props) => (
 	<div className="uikit-body uikit-grid">
 		{ props.children }

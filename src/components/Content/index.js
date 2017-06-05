@@ -6,10 +6,10 @@ import PropTypes from 'prop-types';
 import './content.scss';
 
 
-// component
-const Content = (props) => (
+// Component
+const Content = ({ children }) => (
 	<main>
-		{ props.children }
+		{ children }
 	</main>
 );
 
