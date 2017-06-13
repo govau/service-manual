@@ -10,12 +10,12 @@ Server
 	})
 
 	// static assets
-	.use( Express.static( Path.normalize(`${ __dirname }/../dist/`) ) )
+	.use( Express.static( Path.normalize(`${ __dirname }/../site/`) ) )
 
 	// fallback to 404
 	.get('*', ( request, response ) => {
 		response.status( 404 )
-		response.sendFile( Path.normalize(`${ __dirname }/../dist/404.html`) )
+		response.sendFile( Path.normalize(`${ __dirname }/../site/404.html`) )
 	})
 
 	// port
