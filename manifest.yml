@@ -1,5 +1,4 @@
 ---
-
 applications:
 - name: service-manual
   buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git

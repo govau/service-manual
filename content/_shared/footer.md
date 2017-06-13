@@ -1,0 +1,5 @@
+---
+layout: components/footer
+---
+
+footer
