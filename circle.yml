@@ -16,6 +16,11 @@ dependencies:
     - npm i          # install dependencies
     - npm run build  # running build script
 
+test:
+  post:
+    - find . -name "@gov.au" -exec rm -rf '{}' +   # deleting our beloved uikit modules so they don’t break cf
+    - find . -name "node-sass" -exec rm -rf '{}' + # while we’re at it, why not delete bloody node-sass too
+
 deployment:
   development:
     branch: master # only on master branch
