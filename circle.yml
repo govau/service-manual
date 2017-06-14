@@ -15,11 +15,13 @@ dependencies:
     - find . -name "node_modules" -exec rm -rf '{}' + # removing all node_modules/ folder cause circle can’t be trusted with it.
     - npm i          # install dependencies
     - npm run build  # running build script
+    - tree -C        # log what we have
 
 test:
   post:
     - find . -name "@gov.au" -exec rm -rf '{}' +   # deleting our beloved uikit modules so they don’t break cf
     - find . -name "node-sass" -exec rm -rf '{}' + # while we’re at it, why not delete bloody node-sass too
+    - tree -C                                      # for debugging
 
 deployment:
   development:
