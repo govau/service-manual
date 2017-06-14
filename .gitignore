@@ -16,11 +16,8 @@ npm-debug.log
 # build
 site/
 
-# uikit
-src/sass/uikit/
-
 # artifacts
 *.css
 assets/js/site.js
 uikit.js
-uikit.scss
+src/sass/uikit/
