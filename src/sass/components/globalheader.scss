@@ -1,0 +1,98 @@
+.globalheader {
+	font-size: 14px;
+	padding: 0.5em 0;
+
+	&.globalheader--light {
+		background-color: $uikit-colour-Background;
+	}
+
+	&.globalheader--dark {
+		background-color: #000;
+		color: #fff;
+	}
+}
+
+.globalheader__logo {
+	padding-right: 1em;
+	border-right: 1px solid #fff;
+	vertical-align: middle;
+}
+
+.globalheader__logo__svg {
+	height: 1.2em;
+	width: 1.2em;
+	margin-right: 0.5em;
+	vertical-align: middle;
+	margin-top: -2px;
+}
+
+.globalheader__logo__title {
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.globalheader__logo,
+.globalheader__text,
+.globalheader__button {
+	display: inline-block;
+	margin-left: 1.5em;
+	vertical-align: middle;
+}
+
+a.globalheader__button {
+	.globalheader--dark & {
+		color: #fff;
+
+		&:hover,
+		&:focus {
+			color: $uikit-colour-Text;
+		}
+
+		&:after {
+			background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 11">
+				<path fill="#fff" d="M8.333 10.584l-7.916-8 1.98-2 7.915 8"/>
+				<path fill="#fff" d="M8.333 10.584l-1.98-2 7.918-8 1.98 2"/>
+			</svg>') no-repeat;
+		}
+	}
+
+	&:after {
+		content: ' ';
+		display: inline-block;
+		width: 0.9em;
+		height: 0.6em;
+		margin: 0 uikit-space( 0.25 ) 0 uikit-space( 0.25 );
+		background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 11">
+				<path fill="#{ $uikit-colour-Text }" d="M8.333 10.584l-7.916-8 1.98-2 7.915 8"/>
+				<path fill="#{ $uikit-colour-Text }" d="M8.333 10.584l-1.98-2 7.918-8 1.98 2"/>
+			</svg>') no-repeat;
+		transition: margin 0.1s ease-in;
+
+		.ie8 &,
+		.lt-ie8 & {
+			content: ' > ';
+			border: none;
+		}
+	}
+}
+
+.globalheader__content {
+	.js & {
+		height: 0;
+		overflow: hidden;
+	}
+
+	&.is-open {
+		height: auto;
+	}
+}
+
+.globalheader__content__wrapper {
+	max-width: $uikit-maxwidth;
+	margin: 0 auto;
+	padding: 1em 0;
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}

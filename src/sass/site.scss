@@ -1,12 +1,13 @@
 /*! Service manual */
 
 // overwrites
-// @import "base/overwrites.scss";
+@import "base/overwrites.scss";
 
 // the uikit.. yay!
 @import "uikit/uikit.scss";
 
-// bespoke stuff
-// @import "base/something.scss";
+// base
+@import "base/document.scss";
 
-// @import "components/something.scss";
+// bespoke stuff
+@import "components/globalheader.scss";

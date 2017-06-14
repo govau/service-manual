@@ -21,3 +21,6 @@ src/sass/uikit/
 
 # artifacts
 *.css
+assets/js/site.js
+uikit.js
+uikit.scss
