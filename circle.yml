@@ -4,12 +4,6 @@ machine:
     version: 7.10.0  # keeping this real
   timezone:
     Australia/Sydney # timezone is important
-  environment:
-    PATH: "${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin" # need this for yarn
-
-# general:
-#   artifacts:
-#     - $CIRCLE_ARTIFACTS # telling circle to do it’s job / to enable artifacts
 
 dependencies:
   pre:
@@ -18,22 +12,9 @@ dependencies:
     - cf -v                         # logging what we got
     - sudo apt-get install tree     # install tree (soo much nicer)
   override:
-    # - yarn global add forever
-    - find . -name "node_modules" -exec rm -rf '{}' + # removing all node_modules/ folder
-    - yarn           # install dependencies
-    # - yarn bootstrap # running bootstrap script
-    - yarn build     # running build script
-  cache_directories:
-    - ~/.cache/yarn  # yarn needs this
-
-test:
-  post:
-    - rm yarn.lock                                    # remove yarn.lock file so cf doesn’t freak out...
-    # - find . -name "node_modules" -exec rm -rf '{}' + # removing all node_modules/ folder
-    # - find . -name "lib" -exec rm -rf '{}' +          # removing all lib/ folders
-    # - find . -name "src" -exec rm -rf '{}' +          # removing all src/ folder
-    # - tree -C                                         # let’s log what we got now
-    # - cp -r site/* $CIRCLE_ARTIFACTS/                 # moving all remaining files to $CIRCLE_ARTIFACTS
+    - find . -name "node_modules" -exec rm -rf '{}' + # removing all node_modules/ folder cause circle can’t be trusted with it.
+    - npm i          # install dependencies
+    - npm run build  # running build script
 
 deployment:
   development:
