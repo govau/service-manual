@@ -17,7 +17,7 @@
 	border-right: 1px solid #fff;
 	vertical-align: middle;
 
-	&.globalheader--light {
+	.globalheader--light & {
 		border-color: $uikit-colour-Text;
 	}
 }
