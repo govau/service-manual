@@ -43,6 +43,9 @@
 		"onchange": "^3.2.1",
 		"postcss-cli": "^4.1.0"
 	},
+	"engines": {
+		"node": "8.0.0"
+	},
 	"cuttlebelle": {
 		"folder": {
 			"content": "content/",
