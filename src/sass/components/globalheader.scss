@@ -16,6 +16,10 @@
 	padding-right: 1em;
 	border-right: 1px solid #fff;
 	vertical-align: middle;
+
+	&.globalheader--light {
+		border-color: $uikit-colour-Text;
+	}
 }
 
 .globalheader__logo__svg {
