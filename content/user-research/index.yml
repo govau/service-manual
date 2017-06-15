@@ -1,4 +1,5 @@
 title: User research
+theme: light
 partials:
   - /_shared/header
   - /_shared/footer

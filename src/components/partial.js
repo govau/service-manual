@@ -1,7 +1,7 @@
 import React from "react";
 
 export default ( page ) => (
-	<div className="uikit-body">
-		<div>{ page._body }</div>
+	<div className="uikit-body container">
+		<div className="textwrapper">{ page._body }</div>
 	</div>
 );

@@ -10,6 +10,11 @@
 		background-color: #000;
 		color: #fff;
 	}
+
+	&.globalheader--blue {
+		background-color: $uikit-colour-Hero;
+		color: #fff;
+	}
 }
 
 .globalheader__logo {
@@ -44,7 +49,8 @@
 }
 
 a.globalheader__button {
-	.globalheader--dark & {
+	.globalheader--dark &,
+	.globalheader--blue & {
 		color: #fff;
 
 		&:hover,
@@ -81,6 +87,8 @@ a.globalheader__button {
 }
 
 .globalheader__content {
+	padding: 0 1em;
+
 	.js & {
 		height: 0;
 		overflow: hidden;

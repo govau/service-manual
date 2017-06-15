@@ -7,7 +7,14 @@
 @import "uikit/uikit.scss";
 
 // base
+@import "base/variables.scss";
 @import "base/document.scss";
+@import "base/headlines.scss";
 
 // bespoke stuff
 @import "components/globalheader.scss";
+@import "components/header.scss";
+@import "components/intro.scss";
+@import "components/textblock.scss";
+@import "components/quote.scss";
+@import "components/sections.scss";
