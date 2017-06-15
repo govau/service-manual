@@ -43,8 +43,8 @@ const LinkList = ({ inverted, inline, items }) => (
 export default ( page ) => {
 	const breadcrumbs = [];
 
-	page._parents.map( ( parent ) => breadcrumbs.push({
-		link: ( page._sites[ parent ].url === page._sites[ page._myself ].url ? page._sites[ parent ].url : undefined ),
+	page._parents.reverse().map( ( parent ) => breadcrumbs.push({
+		link: ( page._sites[ parent ].url === page._sites[ page._myself ].url ? undefined : page._sites[ parent ].url ),
 		text: page._sites[ parent ].title,
 	}));
 
@@ -58,12 +58,18 @@ export default ( page ) => {
 				<div className="container">
 					<img className="header__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`} />
 					<div className="header__text">
-						<strong className="header__text__headline">{
-							page._sites[ page._myself ]['header-title']
-								? page._sites[ page._myself ]['header-title']
-								: 'Service Manual'
-						}</strong>
-						<Breadcrumbs label="Breadcrumb for this page" items={ breadcrumbs } inverted={ theme === 'blue' || theme === 'dark' } />
+						<strong className="header__text__headline">
+							{
+								page._sites[ page._myself ]['header-title']
+									? page._sites[ page._myself ]['header-title']
+									: 'Service Manual'
+							}
+						</strong>
+						{
+							breadcrumbs.length > 1
+								? <Breadcrumbs label="Breadcrumb for this page" items={ breadcrumbs } inverted={ theme === 'blue' || theme === 'dark' } />
+								: null
+						}
 					</div>
 				</div>
 			</div>

@@ -53,13 +53,13 @@
 	&:before,
 	&:after {
 		content: ' ';
-		position: absolute;
-		display: block;
+		display: inline-block;
 		width: 31px;
 		height: 22px;
 	}
 
 	&:before {
+		position: absolute;
 		top: 0;
 		left: 0;
 		background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 22">
@@ -77,8 +77,7 @@
 	}
 
 	&:after {
-		bottom: 0;
-		right: 0;
+		margin: 0 -1.2em -0.8em 0.25em;
 		background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 22">
 				<path fill="#{ $uikit-colour-Primary }" fill-rule="evenodd" d="M17.477 5.798c0-.688.133-1.377.398-2.065s.663-1.31 1.193-1.867c.53-.556 1.18-1.006
 					1.95-1.35C21.785.172 22.648 0 23.6 0c1.06 0 2.082.2 3.063.596.98.397 1.816.966 2.505 1.707.584.69 1.035 1.51 1.353 2.462.32.953.48 1.96.48 3.018 0
