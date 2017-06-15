@@ -43,7 +43,7 @@ const LinkList = ({ inverted, inline, items }) => (
 export default ( page ) => {
 	const breadcrumbs = [];
 
-	page._parents.reverse().map( ( parent ) => breadcrumbs.push({
+	page._parents.map( ( parent ) => breadcrumbs.push({
 		link: ( page._sites[ parent ].url === page._sites[ page._myself ].url ? undefined : page._sites[ parent ].url ),
 		text: page._sites[ parent ].title,
 	}));
