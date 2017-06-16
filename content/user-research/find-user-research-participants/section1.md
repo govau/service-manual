@@ -15,7 +15,7 @@ Agencies are generally best for recruiting members of the general public. Recrui
  
 You will need to think about and budget for paying incentives to the users who participate in research. Research Recruitment Agencies can handle incentive payments for you as a part of their services.
 
-###Researching at a venue
+### Researching at a venue
 If you want to do pop-up research, which involves going to a specific venue and approaching people directly, you should:
 - go to a place where your target users are likely to be (for example, a library, college or community group, or service centre)
 - get permission to use the area
