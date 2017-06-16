@@ -6,9 +6,9 @@ category: User research
 
 Ipsum is awesome! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem neque minus voluptates aspernatur, sapiente iusto eos amet totam.
 
-* dsfsdfsdf
-* sdfsdfsd f
-- sdsdffsd
+- dsfsdfsdf
+- sdfsdfsd f
+- sdsdffsd 
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem neque minus voluptates aspernatur, sapiente iusto eos amet totam quisquam ipsum
 voluptatem repellendus, accusamus, corrupti placeat? Eos, officia, aliquid. Vero, in!
