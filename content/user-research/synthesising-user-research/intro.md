@@ -4,7 +4,7 @@ subtitle: How to understand your user research and how to feed it into your solu
 category: User research
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem neque minus voluptates aspernatur, sapiente iusto eos amet totam quisquam.
+Ipsum is awesome! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem neque minus voluptates aspernatur, sapiente iusto eos amet totam.
 
 * dsfsdfsdf
 * sdfsdfsd f
