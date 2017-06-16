@@ -2,4 +2,5 @@ title: User research
 theme: light
 partials:
   - /_shared/header
+  - intro
   - /_shared/footer
