@@ -21,7 +21,7 @@ renderer.heading = ( text, level ) => {
 		text = displayText.splice( 1 ).join(']');
 	}
 	else {
-		display = level;
+		display = Object.keys( headingLevels ).reverse()[ level ];
 	}
 
 	return `<h${ level }${ headingLevels[ display ] ? ` class="${ headingLevels[ display ] }"` : `` }>${ text }</h${ level }>`;
