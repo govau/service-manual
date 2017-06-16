@@ -1,6 +1,5 @@
 ---
 layout: components/textblock
-quote: Aim to spend 1 hour analysing every 2 hours of research
 ---
 
 Lorem ipsum dolor sit amet, [consectetur adipisicing](dassad) elit. Quis sint voluptates deserunt odio, fuga dolor adipisci itaque rem dolore, provident hic assumenda

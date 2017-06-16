@@ -1,0 +1,12 @@
+title: Find user research participants
+layout: layout/topic
+theme: blue
+partials:
+  - /_shared/header
+  - intro             # Recruit current or potential future users of the service. 
+  - sections
+  - section1          # Remember to include stuff about pros and cons of pop up research
+  - textblock1
+  - section2
+  - textblock2
+  - /_shared/footer
