@@ -18,6 +18,7 @@
 }
 
 .globalheader__logo {
+	display: inline-block;
 	padding-right: 1em;
 	border-right: 1px solid #fff;
 	vertical-align: middle;
@@ -40,7 +41,6 @@
 	vertical-align: middle;
 }
 
-.globalheader__logo,
 .globalheader__text,
 .globalheader__button {
 	display: inline-block;
