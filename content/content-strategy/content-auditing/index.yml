@@ -1,0 +1,6 @@
+title: Content auditing
+theme: light
+partials:
+  - /_shared/header
+  - intro
+  - /_shared/footer

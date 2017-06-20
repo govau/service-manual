@@ -1,6 +1,6 @@
 ---
 layout: components/intro
-subtitle: How to understand your user research and how to feed it into your solution
+subtitle: Why user research is important and how to feed it into your delivery
 category: User research
 ---
 
