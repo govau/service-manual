@@ -34,6 +34,6 @@ InpageNavSection.defaultProps = {
 
 export default ( page ) => (
 	<div className="uikit-body container sections">
-		<InpageNavSection headingClass='display-3' title={ page.section } link={ Slugify( page.section ) } />
+		<InpageNavSection headingClass='display-3' title={ page.section } link={ Slugify( page.section ).toLowerCase() } />
 	</div>
 );
