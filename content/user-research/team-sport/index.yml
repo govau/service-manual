@@ -1,0 +1,15 @@
+title: User research is a team sport
+layout: layout/topic
+theme: blue
+partials:
+  - /_shared/header
+  - intro             # Synthesizing user research
+  - sections
+  - section1          # Meeting the Digital Service Standard
+  - textblock1
+  - section2          # Plan analysis sessions
+  - textblock2
+  - quote1            # The good boy quote
+  - section3          # Extract observations
+  - textblock3
+  - /_shared/footer
