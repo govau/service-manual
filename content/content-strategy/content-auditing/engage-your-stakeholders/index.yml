@@ -1,0 +1,20 @@
+title: Engage your stakeholders
+layout: layout/topic
+theme: blue
+partials:
+  - /_shared/header
+  - intro             # Engage your stakeholders
+  - sections
+  - section1          # Get agreement
+  - textblock1
+  - section2          # Show the costs and inefficiencies
+  - textblock2
+  - section3          # Compare yours with similar government sites
+  - textblock3
+  - section4          # Get direct user feedback to build empathy with the users
+  - textblock4
+  - section5          # Get direct user feedback to build empathy with the users
+  - textblock5
+  - section6          # Get direct user feedback to build empathy with the users
+  - textblock6
+  - /_shared/footer
