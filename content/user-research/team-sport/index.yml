@@ -9,7 +9,4 @@ partials:
   - textblock1
   - section2          # Plan analysis sessions
   - textblock2
-  - quote1            # The good boy quote
-  - section3          # Extract observations
-  - textblock3
   - /_shared/footer
