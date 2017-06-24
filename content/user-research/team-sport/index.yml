@@ -1,7 +1,7 @@
 title: User research is a team sport
 layout: layout/topic
 theme: blue
-partials:
+main:
   - /_shared/header.md
   - intro.md             # Synthesizing user research
   - sections.md
@@ -9,4 +9,5 @@ partials:
   - textblock1.md
   - section2.md          # Plan analysis sessions
   - textblock2.md
+footer:
   - /_shared/footer.md

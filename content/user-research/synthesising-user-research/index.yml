@@ -1,7 +1,7 @@
 title: Synthesising user research
 layout: layout/topic
 theme: blue
-partials:
+main:
   - /_shared/header.md
   - intro.md             # Synthesizing user research
   - sections.md
@@ -12,4 +12,5 @@ partials:
   - quote1.md            # The good boy quote
   - section3.md          # Extract observations
   - textblock3.md
+footer:
   - /_shared/footer.md

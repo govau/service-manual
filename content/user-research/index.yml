@@ -1,6 +1,7 @@
 title: User research
 theme: light
-partials:
+main:
   - /_shared/header.md
   - intro.md
+footer:
   - /_shared/footer.md

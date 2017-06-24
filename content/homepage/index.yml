@@ -1,5 +1,6 @@
 title: Homepage
-partials:
+main:
   - /_shared/header.md
   - body.md
+footer:
   - /_shared/footer.md

@@ -1,7 +1,7 @@
 title: Engage your stakeholders
 layout: layout/topic
 theme: blue
-partials:
+main:
   - /_shared/header.md
   - intro.md             # Engage your stakeholders
   - sections.md
@@ -17,4 +17,5 @@ partials:
   - textblock5.md
   - section6.md          # Get direct user feedback to build empathy with the users
   - textblock6.md
+footer:
   - /_shared/footer.md
