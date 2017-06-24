@@ -44,11 +44,11 @@ export default ( page ) => {
 	const breadcrumbs = [];
 
 	page._parents.map( ( parent ) => breadcrumbs.push({
-		link: ( page._sites[ parent ].url === page._sites[ page._myself ].url ? undefined : page._sites[ parent ].url ),
-		text: page._sites[ parent ].title,
+		link: ( page._pages[ parent ].url === page._pages[ page._ID ].url ? undefined : page._pages[ parent ].url ),
+		text: page._pages[ parent ].title,
 	}));
 
-	const theme = page._sites[ page._myself ].theme ? page._sites[ page._myself ].theme : 'dark';
+	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 
 	return (
 		<header className="uikit-body">
@@ -60,8 +60,8 @@ export default ( page ) => {
 					<div className="header__text">
 						<strong className="header__text__headline">
 							{
-								page._sites[ page._myself ]['header-title']
-									? page._sites[ page._myself ]['header-title']
+								page._pages[ page._ID ]['header-title']
+									? page._pages[ page._ID ]['header-title']
 									: 'Service Manual'
 							}
 						</strong>

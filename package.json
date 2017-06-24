@@ -46,7 +46,7 @@
 	"devDependencies": {
 		"autoprefixer": "^7.1.1",
 		"concat-cli": "^4.0.0",
-		"cuttlebelle": "^1.0.0-alpha.16",
+		"cuttlebelle": "^1.0.0-alpha.17",
 		"mkdirp": "^0.5.1",
 		"node-sass": "^4.5.3",
 		"npm-run-all": "^4.0.2",
@@ -62,7 +62,7 @@
 			"src": "src/",
 			"assets": "assets/",
 			"site": "site/",
-			"index": "index.yml",
+			"index": "index",
 			"homepage": "homepage"
 		},
 		"layouts": {

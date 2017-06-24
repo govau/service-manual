@@ -1,6 +1,6 @@
 title: Content strategy
 partials:
-  - /_shared/header
-  - intro
-  - /_shared/footer
+  - /_shared/header.md
+  - intro.md
+  - /_shared/footer.md
 

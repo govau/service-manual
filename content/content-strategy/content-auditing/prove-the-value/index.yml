@@ -2,15 +2,15 @@ title: Prove the value
 layout: layout/topic
 theme: blue
 partials:
-  - /_shared/header
-  - intro             # Prove the value
-  - sections
-  - section1          # Benefits of a content audit
-  - textblock1
-  - section2          # Show the costs and inefficiencies
-  - textblock2
-  - section3          # Compare yours with similar government sites
-  - textblock3
-  - section4          # Get direct user feedback to build empathy with the users
-  - textblock4
-  - /_shared/footer
+  - /_shared/header.md
+  - intro.md             # Prove the value
+  - sections.md
+  - section1.md          # Benefits of a content audit
+  - textblock1.md
+  - section2.md          # Show the costs and inefficiencies
+  - textblock2.md
+  - section3.md          # Compare yours with similar government sites
+  - textblock3.md
+  - section4.md          # Get direct user feedback to build empathy with the users
+  - textblock4.md
+  - /_shared/footer.md

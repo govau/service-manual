@@ -16,7 +16,7 @@ export default ( page ) => (
 		<script src="/assets/js/svg4everybody.min.js" />
 	</head>
 	<body>
-		{ page._partials }
+		{ page.partials }
 
 		<script src="/assets/js/site.js" />
 		{ page.script != undefined
