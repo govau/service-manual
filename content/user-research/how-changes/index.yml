@@ -1,0 +1,18 @@
+title: How user research changes during design and delivery
+layout: layout/topic
+theme: blue
+partials:
+  - /_shared/header
+  - intro             # Changes
+  - sections
+  - section1          # User research in Discovery
+  - textblock1
+  - section2          # User research in Alpha
+  - textblock2           
+  - section3          # User research in Beta
+  - textblock3
+  - section4          # Researching your service once it's live
+  - textblock4
+  - section5
+  - textblock5
+  - /_shared/footer

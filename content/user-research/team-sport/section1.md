@@ -1,4 +1,4 @@
 ---
 layout: components/section
-section: Meeting the Digital Service Standard
+section: Why everyone in the team should be involved in user research
 ---
