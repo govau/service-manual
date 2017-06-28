@@ -7,7 +7,7 @@ body {
 
 body {
 	display: flex;
-  flex-direction: column;
+	flex-direction: column;
 }
 
 main {
@@ -27,3 +27,10 @@ main {
 .textwrapper {
 	max-width: ( $uikit-maxwidth - 5);
 }
+
+.uikit-body p + ul,
+.uikit-body p + ol,
+.uikit-body p + dd {
+	margin-top: -1em;
+}
+
