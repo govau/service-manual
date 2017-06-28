@@ -11,7 +11,7 @@ Screeners can look complex but are very important to get right to ensure you hav
 
 You should have a conversation with the recruiter about who will write the screener. If you have specific criteria for recruitment, you can provide questions or a full screen to be used.
 
-### What to put in a recruitment brief
+### [2]What to put in a recruitment brief
 
 In your brief, you should cover:
 - research dates, including times and length of each session, the break you need between sessions, and the number of sessions you wish to do in a single day
@@ -26,7 +26,7 @@ You should make it clear that you welcome participants with access needs and low
 
 Send the agency a written brief, even if they’re happy to take instructions over the phone. This will provide a record in case there are problems with the recruitment.
 
-### Review the screener
+### [2]Review the screener
 
 The agency will send you a screener based on the criteria you sent them.
 
