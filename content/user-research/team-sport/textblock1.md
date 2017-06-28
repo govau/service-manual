@@ -2,6 +2,7 @@
 layout: components/textblock
 quote: User experience is everyone in the team’s responsibility. 
 ---
+User experience is everyone in the team’s responsibility. Team members that see users interacting with their service, have empathy with users. Those team members then have insight into what the team is trying to achieve. This happens in their individual discipline and specific work on the product.
 
 Participation in user research helps your team:
 - understand what people experience when using your service
