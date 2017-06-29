@@ -1,6 +1,7 @@
 ---
 layout: components/sections
 sections:
-  - Why everyone in the team should be involved in user research 
+  - Meeting the Digital Service Standard
+  - Why everyone in the team should be involved in user research
   - Case studies and examples
 ---
