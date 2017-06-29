@@ -1,0 +1,19 @@
+title: Plan your audit
+layout: layout/topic
+theme: blue
+main:
+  - /_shared/header.md
+  - intro.md             # Plan your audit
+  - sections.md
+  - section1.md          # Purpose of the website
+  - textblock1.md
+  - section2.md          # Articulate a goal
+  - textblock2.md
+  - section3.md          # Decide on scope and type of content audit
+  - textblock3.md
+  - section4.md          # Define your scope and prioritise
+  - textblock4.md
+  - section5.md          # Create a project plan
+  - textblock5.md
+footer:
+  - /_shared/footer.md

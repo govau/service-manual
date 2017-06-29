@@ -1,0 +1,31 @@
+.intro {
+	padding: 2em 0;
+	background-color: $uikit-colour-Background;
+	margin-bottom: 2em;
+	margin-top: -2em;
+}
+
+.intro__category {
+	text-transform: uppercase;
+	font-weight: bold;
+	border-left: 2px solid $uikit-colour-Primary;
+	padding-left: 0.5em;
+}
+
+.intro__headline {
+	font-size: 62px;
+	font-weight: normal;
+	line-height: 1.1;
+	color: $uikit-colour-Primary;
+}
+
+.intro__subtitle {
+	font-size: 28px;
+	line-height: 1.2;
+}
+
+.intro__text {
+	*:last-child {
+		margin-bottom: 0;
+	}
+}

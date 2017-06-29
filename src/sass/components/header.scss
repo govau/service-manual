@@ -1,0 +1,40 @@
+.header {
+	overflow: hidden;
+	padding: 2em 0;
+	margin-bottom: 2em;
+
+	&.header--blue {
+		background-color: $uikit-colour-Primary;
+		color: #fff;
+	}
+
+	&.header--dark {
+		background-color: $uikit-colour-Secondary;
+		color: #fff;
+	}
+
+	.uikit-link-list.uikit-link-list--inverted {
+		background-color: transparent;
+	}
+}
+
+.header__logo,
+.header__text {
+	float: left;
+	height: 5.4em;
+}
+
+.header__logo {
+	width: 118px;
+	max-width: 100%;
+}
+
+.header__text {
+	margin-left: 1em;
+}
+
+.header__text__headline {
+	display: inline-block;
+	font-size: 25px;
+	margin-top: uikit-space( 0.25 );
+}
