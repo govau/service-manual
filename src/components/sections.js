@@ -42,7 +42,7 @@ export default ( page ) => {
 
 	return (
 		<div className="uikit-body container sections">
-			<InpageNavLinks title="Contents" sections={ sections } />
+			<InpageNavLinks sections={ sections } />
 		</div>
 	);
 };
