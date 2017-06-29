@@ -5,9 +5,11 @@ main:
   - /_shared/header.md
   - intro.md             # Synthesizing user research
   - sections.md
-  - section1.md          # Meeting the Digital Service Standard
-  - textblock1.md
-  - section2.md          # Plan analysis sessions
-  - textblock2.md
+  - meeting-head.md
+  - meeting.md
+  - everyone-head.md          # Meeting the Digital Service Standard
+  - everyone.md
+  - case-head.md
+  - case.md
 footer:
-  - /_shared/footer.md
+  - /_shared/footer-gds.md
