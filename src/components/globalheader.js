@@ -8,7 +8,7 @@ const headerClasses = {
 };
 
 export default ({ page }) => {
-	const theme = page._sites[ page._myself ].theme ? page._sites[ page._myself ].theme : 'dark';
+	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 
 	return (
 		<div className={`globalheader ${ headerClasses[ theme ] }`}>
@@ -16,7 +16,7 @@ export default ({ page }) => {
 				<div className="globalheader__logo">
 					<svg className="globalheader__logo__svg" role="img" title="The Commonwealth Star">
 						<use xlinkHref={`/assets/svg/map.svg#${
-							page._sites[ page._myself ].theme === 'light' || page._sites[ page._myself ].theme === 'white'
+							page._pages[ page._ID ].theme === 'light' || page._pages[ page._ID ].theme === 'white'
 								? 'star-dark'
 								: 'star'
 							}`}/>

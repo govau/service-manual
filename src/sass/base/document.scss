@@ -1,7 +1,17 @@
 html,
 body {
+	height: 100%;
 	margin: 0;
 	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
 }
 
 .container {
@@ -17,3 +27,10 @@ body {
 .textwrapper {
 	max-width: ( $uikit-maxwidth - 5);
 }
+
+.uikit-body p + ul,
+.uikit-body p + ol,
+.uikit-body p + dd {
+	margin-top: -1em;
+}
+

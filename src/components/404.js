@@ -1,20 +1,11 @@
 import React from "react";
+import { Navigation } from "./nav";
 
 export default ( page ) => (
-	<div className="uikit-body">
-		<div>{ page._body }</div>
-		<ul>
-			{
-				Object.keys( page._sites ).map( ( site, i ) => {
-					if( site !== '404' ) {
-						return (
-							<li key={ i }>
-								<a href={ `${ page._sites[ site ].url }` }>{ page._sites[ site ].title }</a>
-							</li>
-						)
-					}
-				})
-			}
-		</ul>
+	<div className="uikit-body container page404">
+		<div className="textwrapper">
+			<div className="page404__text">{ page._body }</div>
+			<Navigation nav={ page._nav } pages={ page._pages } ID={ page._ID } relativeURL={ page._relativeURL } />
+		</div>
 	</div>
 );

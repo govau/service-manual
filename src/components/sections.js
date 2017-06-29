@@ -36,7 +36,7 @@ export default ( page ) => {
 	const sections = [];
 
 	page.sections.map( ( section ) => sections.push({
-		link: Slugify( section ),
+		link: Slugify( section ).toLowerCase(),
 		title: section,
 	}));
 

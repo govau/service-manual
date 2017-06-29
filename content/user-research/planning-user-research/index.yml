@@ -1,0 +1,12 @@
+title: Planning user research
+layout: layout/topic
+theme: blue
+main:
+  - /_shared/header.md
+  - intro.md             # Planning user research
+  - sections.md
+  - section1.md          # Meeting the Digital Service Standard
+  - textblock1.md
+  - textblock2.md
+footer:
+  - /_shared/footer.md

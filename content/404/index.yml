@@ -1,5 +1,6 @@
 title: Error 404
-partials:
-  - /_shared/header
-  - body
-  - /_shared/footer
+main:
+  - /_shared/header.md
+  - body.md
+footer:
+  - /_shared/footer.md
