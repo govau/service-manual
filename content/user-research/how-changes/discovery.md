@@ -3,13 +3,15 @@ layout: components/textblock
 quote: Teams need to do ongoing research to understand the evolving needs of their service.
 ---
 
-Before you start to design anything, find out about your users so that you can understand how the service you’re designing can meet their needs.  
+Before you start to design anything, find out about your users so that you can understand how the service you’re designing can meet their needs.
 
 There are different ways to learn more about your users and their need.
 
 ### [2]Observe users
 
 Do contextual qualitative research to see how the users do things now and what problems or barriers they face.
+
+Don't use market research for this: we want to [find the users' real problems by observation](https://www.dta.gov.au/blog/i-want-a-pony/).
 
 ### [2]Interview users
 
