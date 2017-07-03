@@ -30,8 +30,6 @@ InpageNavLinks.defaultProps = {
 	title: 'Contents',
 };
 
-
-
 export default ( page ) => {
 	const sections = [];
 

@@ -1,6 +1,6 @@
 .footer {
     border-top: 0px;
-    padding-top: uikit-space( 1.75 );
+    padding: uikit-space( 1.75 ) 0 uikit-space( 1 ) 0;
     font-size: 14px;
 
     &.footer--dark {
@@ -24,7 +24,6 @@
 }
 
 .uikit-body {
-
 	.footer__links__wrapper {
 		border-bottom: 1px solid $uikit-colour-Border;
         border-top: 1px solid $uikit-colour-Border;
