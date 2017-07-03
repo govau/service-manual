@@ -39,8 +39,12 @@ export default ( page ) => {
 	}));
 
 	return (
-		<div className="uikit-body container sections">
-			<InpageNavLinks title="In this section" sections={ sections } />
+		<div className="uikit-body uikit-grid container sections">
+			<div className="row">
+				<div className="col-md-12">
+					<InpageNavLinks title="In this section" sections={ sections } />
+				</div>
+			</div>
 		</div>
 	);
 };

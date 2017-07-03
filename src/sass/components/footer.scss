@@ -33,6 +33,7 @@
 }
 
 .uikit-body {
+
 	&.footer--blue {
 
 		.footer__links__wrapper {
@@ -48,7 +49,7 @@
 	.footer__links__wrapper {
 		border-bottom: 1px solid $uikit-colour-Border;
 		border-top: 1px solid $uikit-colour-Border;
-		padding: uikit-space( 0.35 ) 0 uikit-space( 0.75 ) 0;
+		padding: uikit-space( 0.35 ) 0 0 0;
 		margin-bottom: uikit-space( 0.75 );
 
 		@include uikit-media( md ) {
@@ -59,37 +60,22 @@
 	.footer__listitem {
 		display: block;
 		width: 100%;
+		margin: uikit-space( 0.25 ) uikit-space( 0.5 ) uikit-space( 1 ) uikit-space( 0.5 );
 
 		@include uikit-media( sm ) {
 			width: auto;
 		}
 
 	}
+
 	.footer__links {
 		display: block;
-		width: 100%;
-		margin-right: uikit-space( -0.25 );
-		margin-left: uikit-space( -0.25 );
-
-		@include uikit-media( xs ) {
-			margin-right: uikit-space( -0.5 );
-			margin-left: uikit-space( -0.5 );
-		}
-
-		@include uikit-media( sm ) {
-			display: flex;
-			flex-flow: row wrap;
-			justify-content: space-between;
-		}
+		margin-right: uikit-space( -0.5 );
+		margin-left: uikit-space( -0.5 );
 	}
 
 	.footer__link {
 		padding-bottom: uikit-space( 0.125 );
-
-		@include uikit-media( xs ) {
-			margin-right: uikit-space( 0.25 );
-			margin-left: uikit-space( 0.25 );
-		}
 	}
 
 	.footer__text--small {
