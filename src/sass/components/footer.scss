@@ -1,10 +1,10 @@
 .footer {
-    border-top: 0px;
+    border-top: 0;
     padding-top: uikit-space( 1.75 );
     font-size: 14px;
 
     &.footer--dark {
-        background-color: #313131;
+        background-color: $uikit-colour-Secondary;
         color: #fff;
 
         a {
@@ -19,7 +19,7 @@
     margin-bottom: uikit-space( 1.3 );
 
     @include uikit-media( md ) {
-        margin-bottom: 0em;
+        margin-bottom: 0;
     }
 }
 
@@ -27,12 +27,12 @@
 
 	.footer__links__wrapper {
 		border-bottom: 1px solid $uikit-colour-Border;
-        border-top: 1px solid $uikit-colour-Border;
-		padding: uikit-space( 0.35 ) 0px uikit-space( 0.75 ) 0px;
-        margin-bottom: uikit-space( 0.75 );
+		border-top: 1px solid $uikit-colour-Border;
+		padding: uikit-space( 0.35 ) 0 uikit-space( 0.75 ) 0;
+		margin-bottom: uikit-space( 0.75 );
 
 		@include uikit-media( md ) {
-			border-top: 0px solid $uikit-colour-Border;
+			border-top: 0 solid $uikit-colour-Border;
 		}
 	}
 
