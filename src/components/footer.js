@@ -13,7 +13,7 @@ export default ( page ) => {
 					</div>
 					<div className="col-md-10">
 						<div className="footer__links__wrapper">
-							<ul className="footer__links uikit-link-list uikit-link-list--inline uikit-link-list--inverted">
+							<ul className={`footer__links uikit-link-list uikit-link-list--inline uikit-link-list--inverted`}>
 								{
 									page.links && page.links.map( ( link, i ) =>
 										<li key={ i } className="footer__listitem" >
