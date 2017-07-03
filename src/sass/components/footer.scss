@@ -1,0 +1,65 @@
+.footer {
+    border-top: 0px;
+    padding-top: uikit-space( 1.75 );
+    font-size: 14px;
+
+    &.footer--dark {
+        background-color: #313131;
+        color: #fff;
+
+        a {
+            color: $uikit-colour-Text-30;
+        }
+    }
+}
+
+.footer__logo {
+    width: 118px;
+    max-width: 100%;
+    margin-bottom: uikit-space( 1.3 );
+
+    @include uikit-media( md ) {
+        margin-bottom: 0em;
+    }
+}
+
+.uikit-body {
+
+	.footer__links__wrapper {
+		border-bottom: 1px solid $uikit-colour-Border;
+        border-top: 1px solid $uikit-colour-Border;
+		padding: uikit-space( 0.35 ) 0px uikit-space( 0.75 ) 0px;
+        margin-bottom: uikit-space( 0.75 );
+
+		@include uikit-media( md ) {
+			border-top: 0px solid $uikit-colour-Border;
+		}
+	}
+
+    .footer__links {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		margin-right: uikit-space( -0.25 );
+		margin-left: uikit-space( -0.25 );
+
+		@include uikit-media( xs ) {
+			margin-right: uikit-space( -0.5 );
+			margin-left: uikit-space( -0.5 );
+		}
+    }
+
+    .footer__link {
+        padding-bottom: uikit-space( 0.125 );
+
+		@include uikit-media( xs ) {
+			margin-right: uikit-space( 0.25 );
+			margin-left: uikit-space( 0.25 );
+		}
+    }
+
+    .footer__text--small {
+        font-size: 87.5%;
+        color: $uikit-colour-Text-30;
+    }
+}
