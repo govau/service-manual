@@ -14,9 +14,12 @@ export default ( page ) => {
 					<div className="col-md-10">
 						<div className="footer__links__wrapper">
 							<ul className="footer__links uikit-link-list uikit-link-list--inline uikit-link-list--inverted">
-								{ page.links && page.links.map( ( link, i ) => {
-									return (<li key={ i } className="footer__listitem" ><a href={ page._pages[ link ].url } className="footer__link">{ page._pages[ link ].title }</a></li> )
-									})
+								{
+									page.links && page.links.map( ( link, i ) =>
+										<li key={ i } className="footer__listitem" >
+											<a href={ page._pages[ link ].url } className="footer__link">{ page._pages[ link ].title }</a>
+										</li>
+									)
 								}
 							</ul>
 						</div>
