@@ -8,9 +8,9 @@ When you agree on what you’ve learned, write it as a finding or ‘insight’ 
 
 ### [2]User research insights
 
-**[IMAGE HERE]**
-
+<img src="/assets/img/User-research-insights.jpg" alt="" width="100%">
 Caption: examples of user research insights on cards.
+
 [Original photo of research insights](https://www.flickr.com/photos/135679646@N07/23885729860/sizes/l) by [adrian yee](https://www.flickr.com/photos/135679646@N07/) under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
 
 ‘We print out insights from user research so the team can constantly be referring back to what we’ve learned from our users as we design the service.’

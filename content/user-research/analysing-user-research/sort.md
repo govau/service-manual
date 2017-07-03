@@ -12,8 +12,7 @@ Allow people to move notes placed by other people. The idea is to look for patte
 
 ### [2]Affinity mapping
 
-**[IMAGE HERE]**
-
+<img src="/assets/img/Affinity-mapping.jpg" alt="" width="100%">
 Caption: an example of an affinity mapping session in action.
 
 ‘We did affinity mapping in Alpha; other teams do it earlier in Discovery. It’s what we did after we spoke to the users. We used it to gather the user insights to find high level topics and headings. Those fed into design hypotheses. Going analogue like this gave us good visibility. It’s hands on. If we did it digitally straight away the team might not have had the level of comfort to all get involved.’

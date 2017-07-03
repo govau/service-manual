@@ -7,8 +7,7 @@ After analysing your research, you should write up your findings so you can shar
 
 ### [2]Debriefing usability research
 
-**[IMAGE HERE]**
-
+<img src="/assets/img/Debriefing-usability-research.jpg" alt="" width="100%">
 Caption: an example of a user research shareback wall.
 
 ‘Sharebacks are a technique to bring back what we learnt from user research to the team. We can use it to quickly identify what’s working (green) and where there’s problems we still need to solve (in red and orange).’
