@@ -9,6 +9,10 @@
 
 		a {
 			color: $uikit-colour-Text-30;
+
+			&:focus {
+				outline: 1px solid #fff;
+			}
 		}
 	}
 
@@ -18,6 +22,10 @@
 
 		a {
 			color: #fff;
+
+			&:focus {
+				outline: 1px solid #fff;
+			}
 		}
 	}
 
