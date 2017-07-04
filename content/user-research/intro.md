@@ -1,5 +1,5 @@
 ---
-layout: components/intro
+layout: components/intro_with_nav
 subtitle: Why user research is important and how to feed it into your delivery
 category: User research
 ---
