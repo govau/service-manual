@@ -1,4 +1,4 @@
 ---
 layout: components/section
-section: User research in Beta
+section: Sort observations
 ---

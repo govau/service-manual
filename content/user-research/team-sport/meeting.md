@@ -2,7 +2,7 @@
 layout: components/textblock
 ---
 
-You must do user research when designing your service as part of meeting the following criteria:
+The whole team should be involved in user research to meet the following criteria:
 - [Criteria 1: Understand user needs](https://www.dta.gov.au/standard/1-user-needs/)
 - [Criteria 2: Agile and user-centred process](https://www.dta.gov.au/standard/2-multidisciplinary-team/)
 - [Criteria 9: Make it accessible](https://www.dta.gov.au/standard/9-make-it-accessible/)

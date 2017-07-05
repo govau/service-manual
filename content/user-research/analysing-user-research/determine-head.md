@@ -1,4 +1,4 @@
 ---
 layout: components/section
-section: User research in Alpha
+section: Determine findings
 ---

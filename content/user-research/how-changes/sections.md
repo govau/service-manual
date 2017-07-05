@@ -1,9 +1,10 @@
 ---
 layout: components/sections
 sections:
-  - User research in Discovery
-  - User research in Alpha
-  - User research in Beta
+  - Meeting the Digital Service Standard
+  - User research in Discovery stage
+  - User research in Alpha stage
+  - User research in Beta stage
   - Research your service when it is live
   - Case studies and examples
 ---

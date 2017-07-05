@@ -1,0 +1,23 @@
+title: Analysing user research
+layout: layout/topic
+theme: blue
+main:
+  - /_shared/header.md
+  - intro.md
+  - sections.md
+  - meeting-head.md
+  - meeting.md
+  - plan-head.md
+  - plan.md
+  - extract-head.md
+  - extract.md
+  - sort-head.md
+  - sort.md
+  - determine-head.md
+  - determine.md
+  - decide-head.md
+  - decide.md
+  - share-head.md
+  - share.md
+footer:
+  - /_shared/footer-gds.md
