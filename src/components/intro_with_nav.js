@@ -11,7 +11,10 @@ export default ( page ) => {
 				<div className="row">
 					<div className="col-md-12">
 
-						<h1 className="intro__headline">{ page.title ? page.title : page._pages[ page._ID ].title }</h1>
+						<div className="textwrapper intro__textwrapper__withnav">
+							<h1 className="intro__headline">{ page.title ? page.title : page._pages[ page._ID ].title }</h1>
+						</div>
+
 						<Childnav page={ page } />
 
 						<div className="textwrapper">

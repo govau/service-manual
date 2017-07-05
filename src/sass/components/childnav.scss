@@ -1,5 +1,15 @@
 .uikit-body {
 
+	.js-childnav {
+		float: none;
+		margin-bottom: uikit-space( 1.5 );
+
+		@include uikit-media( md ) {
+			float: right;
+			margin-top: uikit-space( 2.5 );
+		}
+	}
+
 	.childnav__container {
 		width: 300px;
 	}
@@ -17,13 +27,13 @@
 		&:before {
 			content: ' ';
 			display: inline-block;
-			width: uikit-space( 1 );
+			width: uikit-space( 1.1 );
 			height: uikit-space( 1 );
 			float: left;
 			position: relative;
 			margin: 0 uikit-space( 0.5 ) 0 uikit-space( 0.5 );
 			background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 17">
-					<path fill="#{ $uikit-colour-Primary }" d="M24 16c0 .27-.1.505-.297.703-.198.198-.432.297-.703.297H1c-.27
+					<path fill="#{ $uikit-colour-Border-40 }" d="M24 16c0 .27-.1.505-.297.703-.198.198-.432.297-.703.297H1c-.27
 					0-.505-.1-.703-.297C.1 16.505 0 16.27 0 16v-1c0-.27.1-.505.297-.703C.495 14.1.73 14 1 14h22c.27 0
 					.505.1.703.297.198.198.297.432.297.703v1zm0-7c0 .27-.1.505-.297.703C23.505 9.9 23.27 10 23 10H1c-.27 0-.505-.1-.703-.297C.1 9.505 0 9.27 0
 					9V8c0-.27.1-.505.297-.703C.495 7.1.73 7 1 7h22c.27 0 .505.1.703.297.198.198.297.432.297.703v1zm0-7c0 .27-.1.505-.297.703C23.505 2.9 23.27 3
@@ -46,14 +56,35 @@
 					<path fill="#{ $uikit-colour-Primary }" d="M8.333 10.584l-1.98-2 7.918-8 1.98 2"/>
 				</svg>') no-repeat;
 		}
+
+		&:hover {
+			cursor: pointer;
+		}
+
+		@include uikit-media( xs ) {
+			display: none;
+
+			&:before {
+				display: none;
+			}
+
+			&:after {
+				display: none;
+			}
+		}
 	}
 
-	.childnav {
+	.childnav__list {
 		width: 300px;
 		background: #fff;
 		padding-left: 0;
-		margin-top: 0;
+		margin: 0;
 		list-style: none;
+		overflow: hidden;
+
+		&.is-open {
+		    height: auto;
+		}
 
 		.navigation__item__span {
 			color: $uikit-colour-Primary;
@@ -72,7 +103,8 @@
 
 		.navigation__item {
 			list-style: none;
-			padding-left: 0px;
+			padding-left: 0;
+			margin-bottom: 0;
 			border-bottom: 1px solid $uikit-colour-Border-40;
 
 			&.navigation__item--has-nested {
@@ -87,6 +119,20 @@
 
 		.navigation__item__anchor {
 			border-bottom: 0;
+		}
+	}
+}
+
+.childnav__list {
+	.js .js-childnav .childnav__container > & {
+		height: 0;
+	}
+}
+
+.childnav__list {
+	&.is-open {
+		.js .js-childnav .childnav__container > & {
+			height: auto;
 		}
 	}
 }
