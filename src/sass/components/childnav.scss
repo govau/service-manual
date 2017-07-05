@@ -1,0 +1,92 @@
+.uikit-body {
+
+	.childnav__container {
+		width: 300px;
+	}
+
+	.childnav__controls {
+		display: block;
+		width: 100%;
+		height: 40px;
+		padding: 0;
+		border-radius: 0;
+		border: 0;
+		outline: 0;
+		background: #fff;
+
+		&:before {
+			content: ' ';
+			display: inline-block;
+			width: uikit-space( 1 );
+			height: uikit-space( 1 );
+			float: left;
+			position: relative;
+			margin: 0 uikit-space( 0.5 ) 0 uikit-space( 0.5 );
+			background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 17">
+					<path fill="#{ $uikit-colour-Primary }" d="M24 16c0 .27-.1.505-.297.703-.198.198-.432.297-.703.297H1c-.27
+					0-.505-.1-.703-.297C.1 16.505 0 16.27 0 16v-1c0-.27.1-.505.297-.703C.495 14.1.73 14 1 14h22c.27 0
+					.505.1.703.297.198.198.297.432.297.703v1zm0-7c0 .27-.1.505-.297.703C23.505 9.9 23.27 10 23 10H1c-.27 0-.505-.1-.703-.297C.1 9.505 0 9.27 0
+					9V8c0-.27.1-.505.297-.703C.495 7.1.73 7 1 7h22c.27 0 .505.1.703.297.198.198.297.432.297.703v1zm0-7c0 .27-.1.505-.297.703C23.505 2.9 23.27 3
+					23 3H1c-.27 0-.505-.1-.703-.297C.1 2.505 0 2.27 0 2V1C0 .73.1.495.297.297.495.1.73 0 1 0h22c.27 0 .505.1.703.297C23.9.495 24 .73 24 1v1z"/>
+				</svg>'
+			) no-repeat center;
+		}
+
+		&:after {
+			content: ' ';
+			display: inline-block;
+			width: uikit-space( 0.85 );
+			height: uikit-space( 0.75 );
+			top: 4px;
+			margin: 0 uikit-space( 0.5 ) 0 uikit-space( 0.5 );
+			float: right;
+			position: relative;
+			background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 11">
+					<path fill="#{ $uikit-colour-Primary }" d="M8.333 10.584l-7.916-8 1.98-2 7.915 8"/>
+					<path fill="#{ $uikit-colour-Primary }" d="M8.333 10.584l-1.98-2 7.918-8 1.98 2"/>
+				</svg>') no-repeat;
+		}
+	}
+
+	.childnav {
+		width: 300px;
+		background: #fff;
+		padding-left: 0;
+		margin-top: 0;
+		list-style: none;
+
+		.navigation__item__span {
+			color: $uikit-colour-Primary;
+			font-weight: bold;
+			display: block;
+			padding: uikit-space( 0.25 );
+			border-bottom: 1px solid $uikit-colour-Border-40;
+		}
+
+		&.navigation--level-1,
+		&.navigation--level-2 {
+			.navigation__item {
+				padding: uikit-space( 0.25 );
+			}
+		}
+
+		.navigation__item {
+			list-style: none;
+			padding-left: 0px;
+			border-bottom: 1px solid $uikit-colour-Border-40;
+
+			&.navigation__item--has-nested {
+				border-bottom: 0;
+				padding: 0;
+			}
+
+			&:last-child {
+				border: 0;
+			}
+		}
+
+		.navigation__item__anchor {
+			border-bottom: 0;
+		}
+	}
+}

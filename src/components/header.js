@@ -51,25 +51,28 @@ export default ( page ) => {
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 
 	return (
-		<header className="uikit-body">
+		<header className="uikit-body uikit-grid">
 			<GlobalHeader page={ page } />
-
 			<div className={`header header--${ theme }`}>
 				<div className="container">
-					<img className="header__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`} />
-					<div className="header__text">
-						<strong className="header__text__headline">
-							{
-								page._pages[ page._ID ]['header-title']
-									? page._pages[ page._ID ]['header-title']
-									: 'Service Manual'
-							}
-						</strong>
-						{
-							breadcrumbs.length > 1
-								? <Breadcrumbs label="Breadcrumb for this page" items={ breadcrumbs } inverted={ theme === 'blue' || theme === 'dark' } />
-								: null
-						}
+					<div className="row">
+						<div className="col-md-12">
+							<img className="header__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`} />
+							<div className="header__text">
+								<strong className="header__text__headline">
+									{
+										page._pages[ page._ID ]['header-title']
+											? page._pages[ page._ID ]['header-title']
+											: 'Service Manual'
+									}
+								</strong>
+								{
+									breadcrumbs.length > 1
+										? <Breadcrumbs label="Breadcrumb for this page" items={ breadcrumbs } inverted={ theme === 'blue' || theme === 'dark' } />
+										: null
+								}
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

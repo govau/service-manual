@@ -30,8 +30,6 @@ InpageNavLinks.defaultProps = {
 	title: 'Contents',
 };
 
-
-
 export default ( page ) => {
 	const sections = [];
 
@@ -41,8 +39,14 @@ export default ( page ) => {
 	}));
 
 	return (
-		<div className="uikit-body container sections">
-			<InpageNavLinks sections={ sections } />
+		<div className="uikit-body uikit-grid sections">
+			<div className="container">
+				<div className="row">
+					<div className="col-md-12">
+						<InpageNavLinks title="In this section" sections={ sections } />
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 };
