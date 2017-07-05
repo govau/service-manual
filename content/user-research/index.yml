@@ -3,5 +3,13 @@ theme: light
 main:
   - /_shared/header.md
   - intro.md
+  - sections.md
+  - why-head.md
+  - why.md
+  - when-head.md
+  - when.md
+  - how-head.md
+  - how.md
+  - support.md
 footer:
-  - /_shared/footer.md
+  - /_shared/footer-GDS.md

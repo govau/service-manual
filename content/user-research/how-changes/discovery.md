@@ -3,13 +3,15 @@ layout: components/textblock
 quote: Teams need to do ongoing research to understand the evolving needs of their service.
 ---
 
-Before you start to design anything, find out about your users so that you can understand how the service you’re designing can meet their needs.  
+Before you start to design anything, find out about your users so that you can understand how the service you’re designing can meet their needs.
 
 There are different ways to learn more about your users and their need.
 
 ### [2]Observe users
 
 Do contextual qualitative research to see how the users do things now and what problems or barriers they face.
+
+Don't use market research for this: we want to [find the users' real problems by observation](https://www.dta.gov.au/blog/i-want-a-pony/).
 
 ### [2]Interview users
 
@@ -44,7 +46,7 @@ You’ll have done enough research when you understand the different kinds of pe
 
 From these activities you should get:
 - an understanding of what problem your service is trying to solve for the user
-- a list of users’ touchpoints as they try to achieve their goal &mdash; often expressed as a journey map, service map or mental model (alignment diagram)
+- a list of users’ touchpoints as they try to achieve their goal — often expressed as a journey map, service map or mental model (alignment diagram)
 - sets of needs and task models for different types of users
 - key insights about users that you’ve gained from analysing the research
 - a list of research gaps or limitations of the current research and opportunities for further research

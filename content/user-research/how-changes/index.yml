@@ -15,5 +15,7 @@ main:
   - beta.md
   - live-head.md          # Researching your service once it's live
   - live.md
+  - case-head.md
+  - case.md
 footer:
-  - /_shared/footer-gds.md
+  - /_shared/footer-GDS.md
