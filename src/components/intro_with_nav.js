@@ -17,9 +17,7 @@ export default ( page ) => {
 
 						<Childnav page={ page } />
 
-						<div className="textwrapper">
-							{ page.category && <span className="intro__category">{ page.category }</span> }
-							{ page.subtitle && <p className="intro__subtitle">{ page.subtitle }</p> }
+						<div className="textwrapper intro__textwrapper__withnav">
 							<div className="intro__text">{ page._body }</div>
 						</div>
 

@@ -126,6 +126,10 @@
 .childnav__list {
 	.js .js-childnav .childnav__container > & {
 		height: 0;
+
+		@include uikit-media( xs ) {
+			height: auto;
+		}
 	}
 }
 
