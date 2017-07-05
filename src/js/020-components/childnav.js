@@ -19,7 +19,8 @@ $('.js-childnav .childnav__controls').on('click', function( event ) {
 			window.onresize = function(event) {
 				if ( window.innerWidth > 575 ) {
 					$( element ).css('height', 'auto');
-			   } else {
+				}
+				else {
 					if (element.style.removeProperty) {
 						element.style.removeProperty('height');
 					} else {
