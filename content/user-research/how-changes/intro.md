@@ -14,8 +14,8 @@ There are different kinds of research that you do, depending on:
 - research questions you are trying to answer
 
 There are 2 main types of research:
-- generative &mdash; research to make sure we are designing the right thing
-- evaluative &mdash; research to make sure we are designing it the right way research
+- generative — research to make sure we are designing the right thing
+- evaluative — research to make sure we are designing it the right way research
 
 Always do research with a broad range of users, including those with access needs and low digital skills.
 
