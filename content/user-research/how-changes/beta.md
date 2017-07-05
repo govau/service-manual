@@ -22,7 +22,7 @@ Keep doing what you were doing before but add:
 - analytics (including reporting KPIs to dashboard)
 - interviews / shadowing of real users
 - live intercepts
-- A/B testing (comparing 2 versions of a web page to see which performs better) or multivariate testing &mdash; think about whether the sample size will be useful to test your beta service
+- A/B testing (comparing 2 versions of a web page to see which performs better) or multivariate testing — think about whether the sample size will be useful to test your beta service
 - feedback from frontline staff / operational people
 - face-to-face and remote usability tests to find usability and accessibility issues
 - an accessibility audit to uncover accessibility issues and get recommended fixes

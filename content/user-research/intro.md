@@ -1,17 +1,11 @@
 ---
 layout: components/intro_with_nav
-subtitle: Why user research is important and how to feed it into your delivery
+subtitle: User research helps you to learn about users and create services that meet their needs.
 category: User research
 childnavtitle: lorem ipsum
 ---
 
-Ipsum is awesome! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem neque minus voluptates aspernatur, sapiente iusto eos amet totam.
+## [3]What is user research?
+**[VIDEO]**
 
-* dsfsdfsdf
-* sdfsdfsd
-- sdsdffsd
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem neque minus voluptates aspernatur, sapiente iusto eos amet totam quisquam ipsum
-voluptatem repellendus, accusamus, corrupti placeat? Eos, officia, aliquid. Vero, in!
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem neque minus voluptates aspernaturero, in!
+Read [What is user research? transcript](#).
