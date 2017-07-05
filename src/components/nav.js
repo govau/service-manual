@@ -7,6 +7,7 @@ export const Navigation = ({
 	relativeURL = ( URL ) => URL,
 	noParents = false,
 	level = 0,
+	wrappingId = '',
 	wrappingClass = 'navigation',
 	itemClass = 'navigation__item',
 	nestedItemClass = 'navigation__item--has-nested',
@@ -15,7 +16,8 @@ export const Navigation = ({
 	spanClass = 'navigation__item__span',
 	noanchorClass = 'navigation__item--noanchor',
 }) => (
-	<ul className={`${ wrappingClass } ${ levelClass }${ level }`}>
+
+	<ul { ...( wrappingId && { id: wrappingId } ) } className={`${ wrappingClass } ${ levelClass }${ level }`}>
 		{
 			Object.keys( nav ).map( ( pageID, i ) => {
 				const page = nav[ pageID ];

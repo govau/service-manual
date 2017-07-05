@@ -1,4 +1,3 @@
-
 $('.js-globalheader').on('click', function( event ) {
 	event.preventDefault();
 
