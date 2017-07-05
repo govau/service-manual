@@ -1,5 +1,5 @@
 ---
-layout: components/intro
+layout: components/intro_with_nav
 subtitle: User research helps you to learn about users and create services that meet their needs.
 category: User research
 ---

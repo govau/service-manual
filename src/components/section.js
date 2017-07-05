@@ -30,10 +30,14 @@ InpageNavSection.defaultProps = {
 	sectionLink: 'Link to section',
 };
 
-
-
 export default ( page ) => (
-	<div className="uikit-body container sections">
-		<InpageNavSection headingClass='display-3' title={ page.section } link={ Slugify( page.section ).toLowerCase() } />
+	<div className="uikit-body uikit-grid sections">
+		<div className="container">
+			<div className="row">
+				<div className="col-md-12">
+					<InpageNavSection headingClass='display-3' title={ page.section } link={ Slugify( page.section ).toLowerCase() } />
+				</div>
+			</div>
+		</div>
 	</div>
 );
