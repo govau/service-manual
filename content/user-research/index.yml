@@ -1,5 +1,5 @@
 title: User research
-theme: light
+theme: blue
 main:
   - /_shared/header.md
   - intro.md

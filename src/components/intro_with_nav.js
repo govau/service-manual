@@ -6,7 +6,7 @@ export default ( page ) => {
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 
 	return (
-		<div className={`uikit-body uikit-grid intro intro__wrapper intro--${ theme }`}>
+		<div className={`uikit-body uikit-grid intro intro--withnav intro__wrapper intro--${ theme }`}>
 			<div className="container">
 				<div className="row">
 					<div className="col-md-12">
