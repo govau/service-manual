@@ -1,127 +1,129 @@
-.uikit-body {
+.childnav {
+	float: none;
+	margin-bottom: uikit-space( 1.5 );
 
-	.js-childnav {
-		float: none;
-		margin-bottom: uikit-space( 1.5 );
+	@include uikit-media( md ) {
+		float: right;
+		margin-top: uikit-space( 2.5 );
+	}
+}
 
-		@include uikit-media( md ) {
-			float: right;
-			margin-top: uikit-space( 2.5 );
+.childnav__container {
+	width: 100%;
+
+	@include uikit-media( xs ) {
+		width: 18em;
+	}
+}
+
+.childnav__controls {
+	display: block;
+	width: 100%;
+	height: 2.5em;
+	padding: 0;
+	border-radius: 0;
+	border: 0;
+	outline: 0;
+	background: #fff;
+	text-align: left;
+	padding-left: uikit-space( 0.5 );
+	font-size: uikit-space( 0.631 );
+
+	&:after {
+		content: ' ';
+		display: inline-block;
+		width: uikit-space( 0.85 );
+		height: uikit-space( 0.75 );
+		top: 4px;
+		margin: 0 uikit-space( 0.5 ) 0 uikit-space( 0.5 );
+		float: right;
+		position: relative;
+		font-size: uikit-space( 0.5 );
+		transition: transform 0.3s ease;
+		background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 11">
+				<path fill="#{ $uikit-colour-Primary }" d="M8.333 10.584l-7.916-8 1.98-2 7.915 8"/>
+				<path fill="#{ $uikit-colour-Primary }" d="M8.333 10.584l-1.98-2 7.918-8 1.98 2"/>
+			</svg>') no-repeat;
+	}
+
+	&:hover {
+		cursor: pointer;
+	}
+
+	&.is-open {
+		&:after {
+			transform: rotate( 180deg );
+			transform-origin: 9px 6px;
 		}
 	}
 
-	.childnav__container {
-		width: 100%;
-
-		@include uikit-media( xs ) {
-			width: 300px;
-		}
-	}
-
-	.childnav__controls {
-		display: block;
-		width: 100%;
-		height: 40px;
-		padding: 0;
-		border-radius: 0;
-		border: 0;
-		outline: 0;
-		background: #fff;
-		text-align: left;
-		padding-left: uikit-space( 0.5 );
-		font-size: uikit-space( 0.631 );
+	@include uikit-media( xs ) {
+		display: none;
 
 		&:after {
-			content: ' ';
-			display: inline-block;
-			width: uikit-space( 0.85 );
-			height: uikit-space( 0.75 );
-			top: 4px;
-			margin: 0 uikit-space( 0.5 ) 0 uikit-space( 0.5 );
-			float: right;
-			position: relative;
-			font-size: uikit-space( 0.5 );
-			background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 11">
-					<path fill="#{ $uikit-colour-Primary }" d="M8.333 10.584l-7.916-8 1.98-2 7.915 8"/>
-					<path fill="#{ $uikit-colour-Primary }" d="M8.333 10.584l-1.98-2 7.918-8 1.98 2"/>
-				</svg>') no-repeat;
-		}
-
-		&:hover {
-			cursor: pointer;
-		}
-
-		&.is-open {
-			&:after {
-				transform:rotate(180deg);
-				transform-origin: 9px 6px;
-			}
-		}
-
-		@include uikit-media( xs ) {
 			display: none;
-
-			&:after {
-				display: none;
-			}
-		}
-	}
-
-	.childnav__list {
-		width: 100%;
-		background: #fff;
-		padding-left: 0;
-		margin: 0;
-		list-style: none;
-		overflow: hidden;
-
-		&.is-open {
-		    height: auto;
-		}
-
-		.navigation__item__span {
-			color: $uikit-colour-Primary;
-			font-weight: bold;
-			display: block;
-			padding: uikit-space( 0.25 ) uikit-space( 0.5 );
-			border-bottom: 1px solid $uikit-colour-Border-40;
-		}
-
-		&.navigation--level-1,
-		&.navigation--level-2 {
-			.navigation__item {
-				padding: uikit-space( 0.25 ) uikit-space( 0.5 );
-			}
-		}
-
-		.navigation__item {
-			list-style: none;
-			padding-left: 0;
-			margin-bottom: 0;
-			border-bottom: 1px solid $uikit-colour-Border-40;
-
-			&.navigation__item--has-nested {
-				border-bottom: 0;
-				padding: 0;
-			}
-
-			&:last-child {
-				border: 0;
-			}
-		}
-
-		.navigation__item__anchor {
-			border-bottom: 0;
-		}
-
-		@include uikit-media( xs ) {
-			width: 300px;
 		}
 	}
 }
 
 .childnav__list {
-	.js .js-childnav .childnav__container > & {
+	width: 100%;
+	background: #fff;
+	list-style: none;
+	overflow: hidden;
+
+	.uikit-body & {
+		padding-left: 0;
+		margin: 0;
+	}
+
+	&.is-open {
+		height: auto;
+	}
+
+	.navigation__item__span {
+		color: $uikit-colour-Primary;
+		font-weight: bold;
+		display: block;
+	}
+
+	.navigation__item__anchor,
+	.navigation__item__span {
+		display: block;
+		padding: uikit-space( 0.25 ) uikit-space( 0.5 );
+	}
+
+	&.navigation--level-2 {
+		border-top: 1px solid $uikit-colour-Border-40;
+	}
+
+	.navigation__item {
+		list-style: none;
+		padding-left: 0;
+		margin-bottom: 0;
+		border-bottom: 1px solid $uikit-colour-Border-40;
+
+		&.navigation__item--has-nested {
+			border-bottom: 0;
+			padding: 0;
+		}
+
+		&:last-child {
+			border: 0;
+		}
+	}
+
+	.navigation__item__anchor {
+		border-bottom: 0;
+	}
+
+	@include uikit-media( xs ) {
+		width: 18em;
+	}
+}
+
+.childnav__list {
+	.js .childnav .childnav__container > & {
 		height: 0;
 
 		@include uikit-media( xs ) {
@@ -132,7 +134,7 @@
 
 .childnav__list {
 	&.is-open {
-		.js .js-childnav .childnav__container > & {
+		.js .childnav .childnav__container > & {
 			height: auto;
 		}
 	}

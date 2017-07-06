@@ -4,6 +4,7 @@ export const Navigation = ({
 	nav = {},
 	pages = {},
 	ID = '',
+	startID = '',
 	relativeURL = ( URL ) => URL,
 	noParents = false,
 	level = 0,
@@ -20,11 +21,12 @@ export const Navigation = ({
 	<ul { ...( wrappingId && { id: wrappingId } ) } className={`${ wrappingClass } ${ levelClass }${ level }`}>
 		{
 			Object.keys( nav ).map( ( pageID, i ) => {
+				const homepage = Object.keys( nav )[ 0 ];
 				const page = nav[ pageID ];
-				const _displayItem = noParents && pageID.startsWith( ID ) || !noParents;
+				const _displayItem = noParents && pageID.startsWith( startID ) || !noParents;
 
 				if( typeof page === 'object' ) {
-					if( noParents && ID.startsWith( pageID ) || !noParents ) {
+					if( noParents && pageID.startsWith( startID ) || noParents && pageID === homepage || !noParents ) {
 						return <li className={`${ itemClass } ${ nestedItemClass }`} key={ i }>
 							{
 								_displayItem
@@ -43,6 +45,7 @@ export const Navigation = ({
 								nav={ page }
 								pages={ pages }
 								ID={ ID }
+								startID={ startID }
 								relativeURL={ relativeURL }
 								noParents={ noParents }
 								level={ level + 1 }

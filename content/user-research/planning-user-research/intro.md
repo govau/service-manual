@@ -1,5 +1,5 @@
 ---
-layout: components/intro
+layout: components/intro_with_nav
 category: User research
 ---
 

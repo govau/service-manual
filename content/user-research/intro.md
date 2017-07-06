@@ -5,7 +5,7 @@ category: User research
 childnavtitle: lorem ipsum
 ---
 
-## [3]What is user research?
+What is user research?
 **[VIDEO]**
 
 Read [What is user research? transcript](#).

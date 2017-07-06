@@ -1,5 +1,5 @@
 ---
-layout: components/intro
+layout: components/intro_with_nav
 subtitle: The kind of research you do with users changes depending on where you are in your service delivery process.
 category: User research
 ---
