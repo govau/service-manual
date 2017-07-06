@@ -47,7 +47,7 @@ const Sections = ( page ) => {
 		<div className="uikit-body uikit-grid sections">
 			<div className="container">
 				<div className="row">
-					<div className="col-md-12">
+					<div className="col-md-12 js-sections">
 						<InpageNavLinks title="In this section" sections={ sections } />
 					</div>
 				</div>
