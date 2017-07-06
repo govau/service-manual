@@ -1,6 +1,7 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import Slugify from 'slugify';
+import React from 'react';
+
 
 // UIKIT
 export const InpageNavSection = ({ title, link, children, level, headingClass, sectionLink, sectionLinkOnClick }) => {
@@ -30,7 +31,12 @@ InpageNavSection.defaultProps = {
 	sectionLink: 'Link to section',
 };
 
-export default ( page ) => (
+
+
+/**
+ * The section component
+ */
+const Section = ( page ) => (
 	<div className="uikit-body uikit-grid sections">
 		<div className="container">
 			<div className="row">
@@ -41,3 +47,17 @@ export default ( page ) => (
 		</div>
 	</div>
 );
+
+
+Section.propTypes = {
+	/**
+	 * section: This important section
+	 */
+	section: PropTypes.string.isRequired,
+};
+
+
+Section.defaultProps = {};
+
+
+export default Section;

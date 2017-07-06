@@ -1,7 +1,16 @@
-import React from "react";
-import { Navigation } from "./nav";
+import PropTypes from 'prop-types';
+import React from 'react';
 
-export default ({ page }) => {
+// LOCAL
+import { Navigation } from './nav';
+
+
+/**
+ * Childnav for use in intro_with_nav
+ *
+ * @disable-docs
+ */
+const Childnav = ({ page }) => {
 
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 	const parentID = page._parents[ 0 ];
@@ -25,3 +34,13 @@ export default ({ page }) => {
 		</div>
 	);
 }
+
+
+Childnav.propTypes = {};
+
+
+Childnav.defaultProps = {};
+
+
+export default Childnav;
+

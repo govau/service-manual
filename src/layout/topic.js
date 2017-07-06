@@ -1,6 +1,11 @@
-import React from "react";
+import PropTypes from 'prop-types';
+import React from 'react';
 
-export default ( page ) => (
+
+/**
+ * The topic layout component
+ */
+const Topic = ( page ) => (
 	<html>
 	<head>
 		<title>Service manual - { page.title }</title>
@@ -30,3 +35,22 @@ export default ( page ) => (
 	</body>
 	</html>
 );
+
+
+Topic.propTypes = {
+	/**
+	 * main: (partials)(5)
+	 */
+	main: PropTypes.node.isRequired,
+
+	/**
+	 * page: (partials)(2)
+	 */
+	footer: PropTypes.node.isRequired,
+};
+
+
+Topic.defaultProps = {};
+
+
+export default Topic;

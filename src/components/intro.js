@@ -1,7 +1,11 @@
-import React from "react";
-import Childnav from "./childnav";
+import PropTypes from 'prop-types';
+import React from 'react';
 
-export default ( page ) => {
+
+/**
+ * The intro component
+ */
+const Intro = ( page ) => {
 
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 
@@ -22,3 +26,28 @@ export default ( page ) => {
 		</div>
 	);
 }
+
+
+Intro.propTypes = {
+	/**
+	 * category: Content strategy
+	 */
+	category: PropTypes.string,
+
+	/**
+	 * subtitle: Welcome to our intro
+	 */
+	subtitle: PropTypes.string,
+
+	/**
+	 * partials: (partials)(1)
+	 */
+	_body: PropTypes.node.isRequired,
+};
+
+
+Intro.defaultProps = {};
+
+
+export default Intro;
+

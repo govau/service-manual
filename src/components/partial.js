@@ -1,6 +1,11 @@
-import React from "react";
+import PropTypes from 'prop-types';
+import React from 'react';
 
-export default ( page ) => (
+
+/**
+ * The partial component
+ */
+const Partial = ( page ) => (
 	<div className="uikit-body uikit-grid">
 		<div className="container">
 			<div className="row">
@@ -11,3 +16,17 @@ export default ( page ) => (
 		</div>
 	</div>
 );
+
+
+Partial.propTypes = {
+	/**
+	 * partials: (partials)(4)
+	 */
+	_body: PropTypes.node.isRequired,
+};
+
+
+Partial.defaultProps = {};
+
+
+export default Partial;

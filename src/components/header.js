@@ -1,6 +1,8 @@
-import React from "react";
 import PropTypes from 'prop-types';
-import GlobalHeader from "./globalheader";
+import React from 'react';
+
+// LOCAL
+import GlobalHeader from './globalheader';
 
 
 // UIKIT
@@ -39,8 +41,10 @@ const LinkList = ({ inverted, inline, items }) => (
 );
 
 
-
-export default ( page ) => {
+/**
+ * The header component
+ */
+const Header = ( page ) => {
 	const breadcrumbs = [];
 
 	page._parents.map( ( parent ) => breadcrumbs.push({
@@ -52,7 +56,9 @@ export default ( page ) => {
 
 	return (
 		<header className="uikit-body uikit-grid">
+
 			<GlobalHeader page={ page } />
+
 			<div className={`header header--${ theme }`}>
 				<div className="container">
 					<div className="row">
@@ -79,3 +85,28 @@ export default ( page ) => {
 		</header>
 	);
 }
+
+
+Header.propTypes = {
+	/**
+	 * links: This is totally official
+	 */
+	text: PropTypes.string,
+
+	/**
+	 * button: An official website
+	 */
+	button: PropTypes.string.isRequired,
+
+	/**
+	 * partials: (partials)(2)
+	 */
+	_body: PropTypes.node.isRequired,
+};
+
+
+Header.defaultProps = {};
+
+
+export default Header;
+

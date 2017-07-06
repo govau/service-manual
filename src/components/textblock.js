@@ -1,6 +1,11 @@
-import React from "react";
+import PropTypes from 'prop-types';
+import React from 'react';
 
-export default ( page ) => (
+
+/**
+ * The textblock component
+ */
+const Textblock = ( page ) => (
 	<div className="uikit-body uikit-grid textblock">
 		<div className="container">
 			<div className="row">
@@ -14,3 +19,22 @@ export default ( page ) => (
 		</div>
 	</div>
 );
+
+
+Textblock.propTypes = {
+	/**
+	 * quote: This is pulled out of the text
+	 */
+	quote: PropTypes.string,
+
+	/**
+	 * partials: (partials)(4)
+	 */
+	_body: PropTypes.node.isRequired,
+};
+
+
+Textblock.defaultProps = {};
+
+
+export default Textblock;

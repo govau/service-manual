@@ -1,6 +1,7 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import Slugify from 'slugify';
+import React from 'react';
+
 
 // UIKIT
 export const InpageNavLinksItem = ({ section }) => {
@@ -30,7 +31,11 @@ InpageNavLinks.defaultProps = {
 	title: 'Contents',
 };
 
-export default ( page ) => {
+
+/**
+ * The sections component
+ */
+const Sections = ( page ) => {
 	const sections = [];
 
 	page.sections.map( ( section ) => sections.push({
@@ -50,3 +55,21 @@ export default ( page ) => {
 		</div>
 	);
 };
+
+
+Sections.propTypes = {
+	/**
+	 * sections:
+	 *   - Why
+	 *   - When
+	 *   - How
+	 *   - Support
+	 */
+	sections: PropTypes.array.isRequired,
+};
+
+
+Sections.defaultProps = {};
+
+
+export default Sections;

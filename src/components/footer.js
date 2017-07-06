@@ -1,6 +1,11 @@
-import React from "react";
+import PropTypes from 'prop-types';
+import React from 'react';
 
-export default ( page ) => {
+
+/**
+ * Footer layout
+ */
+const Footer = ( page ) => {
 
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 
@@ -32,3 +37,27 @@ export default ( page ) => {
 		</footer>
 	);
 }
+
+
+Footer.propTypes = {
+	/**
+	 * links:
+	 *   - homepage
+	 *   - user-research/team-sport
+	 *   - user-research/how-changes
+	 *   - content-strategy/content-auditing/prove-the-value
+	 *   - content-strategy/content-auditing/plan-your-audit
+	 */
+	links: PropTypes.arrayOf( PropTypes.string ).isRequired,
+
+	/**
+	 * partials: (partials)(1)
+	 */
+	_body: PropTypes.node.isRequired,
+};
+
+
+Footer.defaultProps = {};
+
+
+export default Footer;
