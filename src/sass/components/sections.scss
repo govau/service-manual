@@ -4,3 +4,11 @@
 		color: $uikit-colour-Primary;
 	}
 }
+
+.section__section {
+	text-transform: uppercase;
+	border-left: 2px solid $uikit-colour-Primary;
+	padding-left: 0.5em;
+	margin-top: 0;
+	font-weight: bold;
+}

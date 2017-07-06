@@ -22,8 +22,8 @@ const CategorySections = ( page ) => {
 						<ul className="category-sections__list">
 							{
 								page.sections.map( ( section, i ) => (
-									<div className="category-sections__list__item__wrapper">
-										<li key={ i } className="category-sections__list__item">
+									<div key={ i } className="category-sections__list__item__wrapper">
+										<li className="category-sections__list__item">
 											<a className="category-sections__list__link" href={`#${ Slugify( section ).toLowerCase() }`}>{ section }</a>
 										</li>{ ' ' }
 									</div>
