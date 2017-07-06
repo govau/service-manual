@@ -62,7 +62,7 @@ const CRITERIA = {
 /**
  * The section component
  */
-const Section = ( page ) => (
+const DSSSection = ( page ) => (
 	<div className="uikit-body uikit-grid dss-section">
 		<div className="container">
 			<div className="row">
@@ -90,7 +90,7 @@ const Section = ( page ) => (
 );
 
 
-Section.propTypes = {
+DSSSection.propTypes = {
 	/**
 	 * dss:
 	 *   - 1
@@ -99,7 +99,7 @@ Section.propTypes = {
 	 *   - 13
 	 */
 	dss: PropTypes.arrayOf(
-		PropTypes.oneOf([ '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13' ])
+		PropTypes.oneOf([ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 ])
 	).isRequired,
 
 	/**
@@ -114,7 +114,7 @@ Section.propTypes = {
 };
 
 
-Section.defaultProps = {};
+DSSSection.defaultProps = {};
 
 
-export default Section;
+export default DSSSection;

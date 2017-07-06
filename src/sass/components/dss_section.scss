@@ -6,12 +6,18 @@
 }
 
 .dss-section__criteria {
-	float: right;
+	float: none;
 	background-color: $uikit-colour-Primary;
 	color: #fff;
-	width: 17em;
+	width: auto;
 	padding: 2em;
-	margin-top: 4em;
+	margin: 0 0 1.5em 0;
+
+	@include uikit-media( sm ) {
+		float: right;
+		width: 17em;
+		margin: 4em 0 1em 1em;
+	}
 }
 
 .dss-section__criteria__headline {
@@ -55,6 +61,14 @@
 					1.994-1.993V1.993c0-.545-.223-1.043-.584-1.405V.584z"/>
 			</svg>');
 		}
+	}
+}
+
+.dss-section__section {
+	clear: both;
+
+	@include uikit-media( xs ) {
+		clear: none;
 	}
 }
 
