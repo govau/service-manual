@@ -22,7 +22,11 @@ const Footer = ( page ) => {
 								{
 									page.links && page.links.map( ( link, i ) =>
 										<li key={ i } className="footer__listitem" >
-											<a href={ page._pages[ link ].url } className="footer__link">{ page._pages[ link ].title }</a>
+											{
+												page._pages[ link ]
+													? <a href={ page._pages[ link ].url } className="footer__link">{ page._pages[ link ].title }</a>
+													: <a href='#' className="footer__link">{ link }</a>
+											}
 										</li>
 									)
 								}
@@ -51,7 +55,7 @@ Footer.propTypes = {
 	links: PropTypes.arrayOf( PropTypes.string ).isRequired,
 
 	/**
-	 * partials: (partials)(1)
+	 * partials: (partials)(2)
 	 */
 	_body: PropTypes.node.isRequired,
 };
