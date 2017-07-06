@@ -1,9 +1,16 @@
-import React from "react";
-import { Navigation } from "./nav";
+import PropTypes from 'prop-types';
+import React from 'react';
 
-export default ( page ) => (
+// LOCAL
+import { Navigation } from './nav';
+
+
+/**
+ * 404 Page layout
+ */
+const Page404 = ( page ) => (
 	<div className="uikit-body uikit-grid page404">
-		<div className="container ">
+		<div className="container">
 			<div className="row">
 				<div className="col-md-12">
 					<div className="textwrapper">
@@ -15,3 +22,17 @@ export default ( page ) => (
 		</div>
 	</div>
 );
+
+
+Page404.propTypes = {
+	/**
+	 * partials: (partials)(1)
+	 */
+	_body: PropTypes.node.isRequired,
+};
+
+
+Page404.defaultProps = {};
+
+
+export default Page404;

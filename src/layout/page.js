@@ -1,6 +1,11 @@
-import React from "react";
+import PropTypes from 'prop-types';
+import React from 'react';
 
-export default ( page ) => (
+
+/**
+ * The page layout component
+ */
+const Page = ( page ) => (
 	<html>
 	<head>
 		<title>Service manual - { page.title }</title>
@@ -30,3 +35,22 @@ export default ( page ) => (
 	</body>
 	</html>
 );
+
+
+Page.propTypes = {
+	/**
+	 * main: (partials)(5)
+	 */
+	main: PropTypes.node.isRequired,
+
+	/**
+	 * page: (partials)(2)
+	 */
+	footer: PropTypes.node.isRequired,
+};
+
+
+Page.defaultProps = {};
+
+
+export default Page;

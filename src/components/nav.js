@@ -1,5 +1,12 @@
-import React from "react";
+import PropTypes from 'prop-types';
+import React from 'react';
 
+
+/**
+ * Navigation for use in other components
+ *
+ * @disable-docs
+ */
 export const Navigation = ({
 	nav = {},
 	pages = {},

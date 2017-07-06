@@ -1,6 +1,8 @@
-import React from "react";
+import PropTypes from 'prop-types';
+import React from 'react';
 
-export default ( page ) => (
+
+const Quote = ( page ) => (
 	<div className="uikit-body uikit-grid quote">
 		<div className="container">
 			<div className="row">
@@ -16,3 +18,22 @@ export default ( page ) => (
 		</div>
 	</div>
 );
+
+
+Quote.propTypes = {
+	/**
+	 * quote: Woof woof woff
+	 */
+	quote: PropTypes.string.isRequired,
+
+	/**
+	 * by: Good boy
+	 */
+	by: PropTypes.string,
+};
+
+
+Quote.defaultProps = {};
+
+
+export default Quote;
