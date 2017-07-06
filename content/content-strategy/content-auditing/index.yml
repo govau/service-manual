@@ -4,4 +4,5 @@ main:
   - /_shared/header.md
   - intro.md
 footer:
+  - /_shared/legal.md
   - /_shared/footer.md

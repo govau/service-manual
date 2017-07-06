@@ -16,4 +16,5 @@ main:
   - case-heading.md
   - case.md
 footer:
-  - /_shared/footer-GDS.md
+  - /_shared/legal-GDS.md
+  - /_shared/footer.md
