@@ -16,4 +16,5 @@ main:
   - section5.md          # Create a project plan
   - textblock5.md
 footer:
+  - /_shared/legal.md
   - /_shared/footer.md

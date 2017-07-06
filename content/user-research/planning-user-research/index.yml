@@ -9,4 +9,5 @@ main:
   - textblock1.md
   - textblock2.md
 footer:
+  - /_shared/legal-GDS.md
   - /_shared/footer.md

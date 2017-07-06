@@ -9,11 +9,11 @@
 		"build:pages": "cuttlebelle",
 		"build:sass": "node-sass --output-style compressed -o assets/css src/sass/site.scss",
 		"build:autoprefixer": "postcss -u autoprefixer -r assets/css/*",
-		"build:js": "mkdirp assets/js/ && concat-cli -f src/js/**/*.js -o assets/js/site.js",
+		"build:js": "mkdirp assets/js/ && concat-cli -f scripts/js/**/*.js -o assets/js/site.js",
 		"build": "npm-run-all build:sass build:autoprefixer build:js build:pages",
 		"watch:pages": "cuttlebelle -w",
 		"watch:css": "onchange 'src/sass/**/*.scss' -- npm-run-all build:sass build:autoprefixer",
-		"watch:js": "onchange 'src/js/**/*.js' -- npm run build:js",
+		"watch:js": "onchange 'scripts/js/**/*.js' -- npm run build:js",
 		"watch": "npm-run-all --parallel watch:*",
 		"test": "echo \"Error: no test specified\" && exit 0"
 	},
@@ -77,7 +77,7 @@
 		},
 		"site": {
 			"doctype": "<!DOCTYPE html><!--[if lt IE 8]><html class=\"no-js lt-ie8 lt-ie9\" lang=\"en\"><![endif]--><!--[if IE 8]><html class=\"no-js lt-ie9 ie8\" lang=\"en\"><![endif]--><!--[if IE 9 ]><html class=\"no-js ie9\" lang=\"en\"><![endif]--><!--[if !(IE)]><!--><html class=\"no-js\" lang=\"en\"><!--<![endif]-->",
-			"markdownRenderer": "src/markdown/renderer.js"
+			"markdownRenderer": "scripts/markdown/renderer.js"
 		}
 	},
 	"pancake": {
