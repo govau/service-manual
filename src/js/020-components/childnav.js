@@ -8,6 +8,7 @@ $('.js-childnav .childnav__controls').on('click', function( event ) {
 		prefunction: function( element, state ) {
 			if( state === 'opening' ) {
 				$( self ).addClass('is-open');
+				$( element ).addClass('is-opening');
 			}
 			else {
 				$( self ).removeClass('is-open');
@@ -19,6 +20,7 @@ $('.js-childnav .childnav__controls').on('click', function( event ) {
 			}
 			else {
 				$( element ).removeClass('is-open');
+				$( element ).removeClass('is-opening');
 			}
 
 			// reset height on larger devices

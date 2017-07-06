@@ -17,14 +17,16 @@
 }
 
 .childnav__controls {
+	-webkit-appearance: none;
 	display: block;
 	width: 100%;
 	height: 2.5em;
 	padding: 0;
 	border-radius: 0;
-	border: 0;
+	border: 1px solid $uikit-colour-Primary;
 	outline: 0;
-	background: #fff;
+	background: $uikit-colour-Primary-5;
+	color: $uikit-colour-Text;
 	text-align: left;
 	padding-left: uikit-space( 0.5 );
 	font-size: uikit-space( 0.631 );
@@ -49,6 +51,8 @@
 	&:hover {
 		cursor: pointer;
 	}
+
+	@include uikit-focus();
 
 	&.is-open {
 		&:after {
@@ -126,8 +130,10 @@
 .childnav__list {
 	.js .childnav .childnav__container > & {
 		height: 0;
+		display: none;
 
 		@include uikit-media( xs ) {
+			display: block;
 			height: auto;
 		}
 	}
@@ -137,6 +143,11 @@
 	&.is-open {
 		.js .childnav .childnav__container > & {
 			height: auto;
+		}
+	}
+	.js .childnav .childnav__container > & {
+		&.is-opening {
+			display: block;
 		}
 	}
 }
