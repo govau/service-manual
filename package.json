@@ -95,7 +95,7 @@
 		},
 		"js": {
 			"modules": false,
-			"location": "src/js/000-uikit/",
+			"location": "script/js/000-uikit/",
 			"name": "uikit.js"
 		}
 	}
