@@ -5,6 +5,7 @@
 	"twitter": "DTA",
 	"repository": "https://github.com/govau/service-manual",
 	"scripts": {
+		"docs": "cuttlebelle --docs",
 		"build:pages": "cuttlebelle",
 		"build:sass": "node-sass --output-style compressed -o assets/css src/sass/site.scss",
 		"build:autoprefixer": "postcss -u autoprefixer -r assets/css/*",
@@ -51,7 +52,7 @@
 	"devDependencies": {
 		"autoprefixer": "^7.1.1",
 		"concat-cli": "^4.0.0",
-		"cuttlebelle": "^1.0.0-alpha.19",
+		"cuttlebelle": "^1.0.0-alpha.22",
 		"mkdirp": "^0.5.1",
 		"node-sass": "^4.5.3",
 		"npm-run-all": "^4.0.2",
