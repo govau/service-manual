@@ -1,12 +1,6 @@
 ---
 layout: components/header
-text: 
+text:
 button: An official website
----
 
-The global header content The global header content The global header content The global header content The global header content The global header content
-The global header content The global header content The global header content The global header content The global header content The global header content
-The global header content The global header content The global header content The global header content The global header content The global header content
-The global header content The global header content The global header content The global header content The global header content The global header content
-The global header content The global header content The global header content The global header content The global header content The global header content
-The global header content The global header content The global header content The global header content The global header content The global header content
+---

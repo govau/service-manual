@@ -28,7 +28,18 @@ export default ({ page }) => {
 						{ page.text && <span className="globalheader__text">{ page.text }</span> }
 						<a href="#global-header-content" className="globalheader__button js-globalheader">{ page.button }</a>
 						<div id="global-header-content" className="globalheader__content">
-							<div className="globalheader__content__wrapper">{ page._body }</div>
+							<div className="col-md-3">
+								<div className="globalheader__lock">x</div>
+							</div>
+							<div className="col-md-3">
+								<div className="globalheader__lock"></div>
+							</div>
+							<div className="col-md-3">
+								<div className="globalheader__lock"></div>
+							</div>
+							<div className="col-md-3">
+								<div className="globalheader__lock"></div>
+							</div>
 						</div>
 					</div>
 				</div>
