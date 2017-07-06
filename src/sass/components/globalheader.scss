@@ -1,13 +1,15 @@
 .globalheader {
 	font-size: 14px;
-	padding: 0.5em 0;
+	padding: uikit-space( 0.3 ) 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 
 	&.globalheader--light {
 		background-color: $uikit-colour-Background;
 	}
 
 	&.globalheader--dark {
-		background-color: #000;
+		background-color: $uikit-colour-Primary--80;
 		color: #fff;
 	}
 
@@ -19,7 +21,7 @@
 
 .globalheader__logo {
 	display: inline-block;
-	padding-right: 1em;
+	padding-right: uikit-space( 0.65 );
 	border-right: 1px solid #fff;
 	vertical-align: middle;
 
@@ -31,9 +33,9 @@
 .globalheader__logo__svg {
 	height: 1.2em;
 	width: 1.2em;
-	margin-right: 0.5em;
+	margin-right: uikit-space( 0.32 );
 	vertical-align: middle;
-	margin-top: -2px;
+	margin-top: uikit-space( -0.06 );
 }
 
 .globalheader__logo__title {
@@ -44,11 +46,32 @@
 .globalheader__text,
 .globalheader__button {
 	display: inline-block;
-	margin-left: 1.5em;
+	margin-left: uikit-space( 1 );
 	vertical-align: middle;
 }
 
 a.globalheader__button {
+
+	&:after {
+		content: ' ';
+		display: inline-block;
+		position: absolute;
+		top: 9px;
+		width: 0.9em;
+		height: 0.6em;
+		margin: 0 uikit-space( 0.25 ) 0 uikit-space( 0.25 );
+		background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 11">
+				<path fill="#{ $uikit-colour-Text }" d="M8.333 10.584l-7.916-8 1.98-2 7.915 8"/>
+				<path fill="#{ $uikit-colour-Text }" d="M8.333 10.584l-1.98-2 7.918-8 1.98 2"/>
+			</svg>') no-repeat;
+		transition: margin 0.1s ease-in, transform 0.3s ease;
+		.ie8 &,
+		.lt-ie8 & {
+			content: ' > ';
+			border: none;
+		}
+	}
+
 	.globalheader--dark &,
 	.globalheader--blue & {
 		color: #fff;
@@ -66,28 +89,25 @@ a.globalheader__button {
 		}
 	}
 
-	&:after {
-		content: ' ';
-		display: inline-block;
-		width: 0.9em;
-		height: 0.6em;
-		margin: 0 uikit-space( 0.25 ) 0 uikit-space( 0.25 );
-		background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 11">
-				<path fill="#{ $uikit-colour-Text }" d="M8.333 10.584l-7.916-8 1.98-2 7.915 8"/>
-				<path fill="#{ $uikit-colour-Text }" d="M8.333 10.584l-1.98-2 7.918-8 1.98 2"/>
-			</svg>') no-repeat;
-		transition: margin 0.1s ease-in;
-
-		.ie8 &,
-		.lt-ie8 & {
-			content: ' > ';
-			border: none;
+	&.is-open {
+		&:after {
+			transform: rotate( 180deg );
+			transform-origin: 6px 4px;
 		}
 	}
 }
 
+.globalheader__title {
+	font-weight: bold;
+	display: block;
+
+	.globalheader__content--blue & {
+		color: #fff;
+	}
+}
+
 .globalheader__content {
-	padding: 0 1em;
+	font-size: 14px;
 
 	.js & {
 		height: 0;
@@ -96,15 +116,120 @@ a.globalheader__button {
 
 	&.is-open {
 		height: auto;
+		border-top: 1px solid $uikit-colour-Border;
+	}
+
+	&.is-opening {
+		border-top: 1px solid $uikit-colour-Border;
+	}
+}
+
+.globalheader__content--dark {
+	background: $uikit-colour-Primary--70;
+	color: $uikit-colour-Text-5;
+}
+
+.globalheader__content--blue {
+	background: $uikit-colour-Primary--10;
+	color: $uikit-colour-Text-5;
+}
+
+.globalheader__content--light {
+	background: $uikit-colour-Background-20;
+	color: $uikit-colour-Text;
+
+	&.is-open {
+		height: auto;
+		border-top: 1px solid $uikit-colour-Border-30;
+	}
+
+	&.is-opening {
+		border-top: 1px solid $uikit-colour-Border-30;
 	}
 }
 
 .globalheader__content__wrapper {
-	max-width: $uikit-maxwidth;
 	margin: 0 auto;
-	padding: 1em 0;
+	padding: uikit-space( 1.5 ) 0 uikit-space( 1.5 ) 0;
+	overflow: auto;
+}
 
-	p:last-child {
+.globalheader__emblem__wrapper {
+	position: relative;
+	text-align: center;
+}
+
+.globalheader__emblem {
+	height: 60px;
+	margin: 0 auto uikit-space( 0.75 ) auto;
+
+	@include uikit-media( sm ) {
+		margin: 0 auto;
+	}
+}
+
+.globalheader__lock {
+	background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 39">
+		<path fill="#fff" fill-rule="evenodd" d="M770.183717,604.296077 C770.183717,602.059438 770.181779,599.522697 770.181779,598.345277 C770.181779,592.640074
+		765.61555,588 760.005169,588 C754.391557,588 749.820806,592.640074 749.820806,598.345277 C749.820806,599.529921 749.820806,602.064691 749.818221,604.296077
+		C747.158087,604.296077 745,606.484122 745,609.187658 L745,622.108419 C745,624.811955 747.158087,627 749.818221,627 L770.183717,627 C772.844497,627
+		775,624.809985 775,622.108419 L775,609.185688 C775,606.484122 772.844497,604.296077 770.183717,604.296077 L770.183717,604.296077 Z M753.695025,604.296077
+		C753.700194,602.064691 753.702778,599.532548 753.702778,598.345277 C753.702778,594.815642 756.52703,591.942684 760.002585,591.942684 C763.475555,591.942684
+		766.302391,594.815642 766.302391,598.345277 C766.302391,599.520071 766.304975,602.056811 766.304975,604.296077 L753.695025,604.296077 Z"
+		transform="translate(-745 -588)"/>
+	</svg>') no-repeat center;
+	opacity: 0.3;
+	height: 33px;
+	margin: 0 auto uikit-space( 1 ) auto;
+
+	.globalheader__content--blue & {
+		background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 39">
+			<path fill="#{ $uikit-colour-Border-70 }" fill-rule="evenodd" d="M770.183717,604.296077 C770.183717,602.059438 770.181779,599.522697 770.181779,598.345277 C770.181779,592.640074
+			765.61555,588 760.005169,588 C754.391557,588 749.820806,592.640074 749.820806,598.345277 C749.820806,599.529921 749.820806,602.064691 749.818221,604.296077
+			C747.158087,604.296077 745,606.484122 745,609.187658 L745,622.108419 C745,624.811955 747.158087,627 749.818221,627 L770.183717,627 C772.844497,627
+			775,624.809985 775,622.108419 L775,609.185688 C775,606.484122 772.844497,604.296077 770.183717,604.296077 L770.183717,604.296077 Z M753.695025,604.296077
+			C753.700194,602.064691 753.702778,599.532548 753.702778,598.345277 C753.702778,594.815642 756.52703,591.942684 760.002585,591.942684 C763.475555,591.942684
+			766.302391,594.815642 766.302391,598.345277 C766.302391,599.520071 766.304975,602.056811 766.304975,604.296077 L753.695025,604.296077 Z"
+			transform="translate(-745 -588)"/>
+		</svg>') no-repeat center;
+		opacity: 0.5;
+	}
+
+	.globalheader__content--light & {
+		background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 39">
+			<path fill="#{ $uikit-colour-Border-70 }" fill-rule="evenodd" d="M770.183717,604.296077 C770.183717,602.059438 770.181779,599.522697 770.181779,598.345277 C770.181779,592.640074
+			765.61555,588 760.005169,588 C754.391557,588 749.820806,592.640074 749.820806,598.345277 C749.820806,599.529921 749.820806,602.064691 749.818221,604.296077
+			C747.158087,604.296077 745,606.484122 745,609.187658 L745,622.108419 C745,624.811955 747.158087,627 749.818221,627 L770.183717,627 C772.844497,627
+			775,624.809985 775,622.108419 L775,609.185688 C775,606.484122 772.844497,604.296077 770.183717,604.296077 L770.183717,604.296077 Z M753.695025,604.296077
+			C753.700194,602.064691 753.702778,599.532548 753.702778,598.345277 C753.702778,594.815642 756.52703,591.942684 760.002585,591.942684 C763.475555,591.942684
+			766.302391,594.815642 766.302391,598.345277 C766.302391,599.520071 766.304975,602.056811 766.304975,604.296077 L753.695025,604.296077 Z"
+			transform="translate(-745 -588)"/>
+		</svg>') no-repeat center;
+		opacity: 0.5;
+	}
+
+	@include uikit-media( sm ) {
+		margin: uikit-space( 0.2 ) auto 0 auto;
+	}
+}
+
+.globalheader__content1 {
+	padding-left: 0;
+	text-align: center;
+	margin-bottom: uikit-space( 1 );
+
+	@include uikit-media( sm ) {
+		padding-left: uikit-space( 0.75 );
 		margin-bottom: 0;
+		text-align: left;
+	}
+}
+
+.globalheader__content2 {
+	padding-left: 0;
+	text-align: center;
+
+	@include uikit-media( sm ) {
+		text-align: left;
 	}
 }
