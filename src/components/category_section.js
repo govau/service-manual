@@ -6,7 +6,7 @@ import React from 'react';
 /**
  * The section component
  */
-const Section = ( page ) => (
+const CategorySection = ( page ) => (
 	<div className="uikit-body uikit-grid category-section">
 		<div className="container">
 			<div className="row">
@@ -20,7 +20,7 @@ const Section = ( page ) => (
 );
 
 
-Section.propTypes = {
+CategorySection.propTypes = {
 	/**
 	 * section: Guides
 	 */
@@ -33,7 +33,7 @@ Section.propTypes = {
 };
 
 
-Section.defaultProps = {};
+CategorySection.defaultProps = {};
 
 
-export default Section;
+export default CategorySection;

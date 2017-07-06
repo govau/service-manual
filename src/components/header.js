@@ -6,7 +6,7 @@ import GlobalHeader from './globalheader';
 
 
 // UIKIT
-export const LinkListItem = ({ item }) => {
+const LinkListItem = ({ item }) => {
 	const attributeOptions = {};
 
 	if( typeof item.onClick === 'function' ) {
@@ -89,7 +89,7 @@ const Header = ( page ) => {
 
 Header.propTypes = {
 	/**
-	 * links: This is totally official
+	 * text: This is totally official
 	 */
 	text: PropTypes.string,
 
@@ -99,7 +99,27 @@ Header.propTypes = {
 	button: PropTypes.string.isRequired,
 
 	/**
-	 * partials: (partials)(2)
+	 * title1: The .gov.au means its official
+	 */
+	title1: PropTypes.string.isRequired,
+
+	/**
+	 * content1: Lorem ipsum dolor sit amet, vix civibus deserunt te, sit eu nulla discere consulatu, ei graeci consectetuer has.
+	 */
+	content1: PropTypes.string.isRequired,
+
+	/**
+	 * title2: This site is also protected by SSL
+	 */
+	title2: PropTypes.string.isRequired,
+
+	/**
+	 * content2: Lorem ipsum dolor sit amet, vix civibus deserunt te, sit eu nulla discere consulatu, ei graeci consectetuer has.
+	 */
+	content2: PropTypes.string.isRequired,
+
+	/**
+	 * _body: (partials)(2)
 	 */
 	_body: PropTypes.node.isRequired,
 };

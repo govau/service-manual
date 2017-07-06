@@ -4,7 +4,7 @@ import React from 'react';
 
 
 // UIKIT
-export const InpageNavLinksItem = ({ section }) => {
+const InpageNavLinksItem = ({ section }) => {
 	const attributeOptions = {};
 
 	if( typeof section.onClick === 'function' ) {
@@ -18,7 +18,7 @@ export const InpageNavLinksItem = ({ section }) => {
 	);
 };
 
-export const InpageNavLinks = ({ title, sections }) => (
+const InpageNavLinks = ({ title, sections }) => (
 	<nav className="uikit-inpage-nav-links">
 		<h2 className="uikit-inpage-nav-links__heading uikit-display-2">{ title }</h2>
 		<ul className="uikit-link-list">

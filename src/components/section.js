@@ -4,7 +4,7 @@ import React from 'react';
 
 
 // UIKIT
-export const InpageNavSection = ({ title, link, children, level, headingClass, sectionLink, sectionLinkOnClick }) => {
+const InpageNavSection = ({ title, link, children, level, headingClass, sectionLink, sectionLinkOnClick }) => {
 	const attributeOptions = {};
 
 	if( typeof sectionLinkOnClick === 'function' ) {

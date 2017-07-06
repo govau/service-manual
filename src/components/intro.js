@@ -40,7 +40,7 @@ Intro.propTypes = {
 	subtitle: PropTypes.string,
 
 	/**
-	 * partials: (partials)(1)
+	 * _body: (partials)(1)
 	 */
 	_body: PropTypes.node.isRequired,
 };

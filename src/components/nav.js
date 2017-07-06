@@ -7,7 +7,7 @@ import React from 'react';
  *
  * @disable-docs
  */
-export const Navigation = ({
+const Navigation = ({
 	nav = {},
 	pages = {},
 	ID = '',
@@ -87,7 +87,7 @@ export const Navigation = ({
 );
 
 
-export const NavigationItem = ({ itemClass, ancorClass, spanClass, href, title, thisPage }) => {
+const NavigationItem = ({ itemClass, ancorClass, spanClass, href, title, thisPage }) => {
 	if( thisPage ) {
 		return <span className={ spanClass }>{ title }</span>;
 	}
@@ -95,3 +95,6 @@ export const NavigationItem = ({ itemClass, ancorClass, spanClass, href, title, 
 		return <a className={ ancorClass } href={ href }>{ title }</a>
 	}
 };
+
+
+export default Navigation;

@@ -44,7 +44,7 @@ Page.propTypes = {
 	main: PropTypes.node.isRequired,
 
 	/**
-	 * page: (partials)(2)
+	 * footer: (partials)(2)
 	 */
 	footer: PropTypes.node.isRequired,
 };

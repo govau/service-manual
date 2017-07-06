@@ -20,7 +20,7 @@ const Partial = ( page ) => (
 
 Partial.propTypes = {
 	/**
-	 * partials: (partials)(4)
+	 * _body: (partials)(4)
 	 */
 	_body: PropTypes.node.isRequired,
 };

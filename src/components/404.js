@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 // LOCAL
-import { Navigation } from './nav';
+import Navigation from './nav';
 
 
 /**
@@ -26,7 +26,7 @@ const Page404 = ( page ) => (
 
 Page404.propTypes = {
 	/**
-	 * partials: (partials)(1)
+	 * _body: (partials)(1)
 	 */
 	_body: PropTypes.node.isRequired,
 };

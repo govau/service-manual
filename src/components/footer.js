@@ -55,7 +55,7 @@ Footer.propTypes = {
 	links: PropTypes.arrayOf( PropTypes.string ).isRequired,
 
 	/**
-	 * partials: (partials)(2)
+	 * _body: (partials)(2)
 	 */
 	_body: PropTypes.node.isRequired,
 };
