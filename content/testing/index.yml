@@ -1,0 +1,16 @@
+title: Testing
+theme: blue
+main:
+  - /_shared/header.md
+  - category-sections.md
+  - why-head.md
+  - why.md
+  - guides-head.md
+  - guides.md
+  - how-head.md
+  - how.md
+  - community-head.md
+  - community.md
+footer:
+  - /_shared/legal-GDS.md
+  - /_shared/footer.md

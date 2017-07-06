@@ -60,10 +60,10 @@ const Sections = ( page ) => {
 Sections.propTypes = {
 	/**
 	 * sections:
-	 *   - Why
-	 *   - When
-	 *   - How
-	 *   - Support
+	 *   - First section
+	 *   - Second section
+	 *   - Even more sections
+	 *   - Last section
 	 */
 	sections: PropTypes.array.isRequired,
 };
