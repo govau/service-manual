@@ -48,11 +48,11 @@ export default ({ page }) => {
 							<div className="globalheader__content__wrapper">
 								<div className="col-sm-2 col-md-2">
 									<div className="globalheader__emblem__wrapper">
-										<img className="globalheader__emblem" alt="" src="/assets/img/coa_dark@2x.png" />
+										<img className="globalheader__emblem" alt="" src="/assets/img/coa_gray_all_sml.png" />
 									</div>
 								</div>
 								<div className="col-sm-4 col-md-4">
-									<div className="globalheader__official">
+									<div className="globalheader__content1">
 										<span className="globalheader__title">{ page.title1 }</span>
 										<span>{ page.content1 }</span>
 									</div>
@@ -61,7 +61,7 @@ export default ({ page }) => {
 									<div className="globalheader__lock"></div>
 								</div>
 								<div className="col-sm-4 col-md-4">
-									<div className={`globalheader__security`}>
+									<div className="globalheader__content2">
 										<span className="globalheader__title">{ page.title2 }</span>
 										<span>{ page.content2 }</span>
 									</div>
