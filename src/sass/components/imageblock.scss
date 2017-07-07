@@ -1,0 +1,31 @@
+.imageblock {
+	background-color: $uikit-colour-Primary-90;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	padding: uikit-space( 20 ) 0 0 0;
+
+	@include uikit-media( sm ) {
+		background-position: calc(50% + 1200px) calc(100%);
+		padding: uikit-space( 5 ) 0;
+	}
+}
+
+.imageblock__content--dark {
+	background-color: $uikit-colour-Primary-90;
+	margin: 0px -12px;
+	padding: uikit-space( 2 ) 12px uikit-space( 2 ) 12px;
+	height: 100%;
+
+	@include uikit-media( sm ) {
+		background-color: transparent;
+		margin: auto;
+	}
+}
+
+.imageblock__headline {
+	color: #FFFFFF;
+	font-size: 62px;
+	font-weight: normal;
+	line-height: 1.1;
+}

@@ -45,7 +45,7 @@
 		"@gov.au/link-list": "^0.2.0",
 		"@gov.au/pancake": "^1.1.0",
 		"@gov.au/pancake-js": "^1.0.9",
-		"@gov.au/pancake-sass": "^1.1.0",
+		"@gov.au/pancake-sass": "^1.1.1",
 		"express": "^4.15.2",
 		"react": "^15.6.0",
 		"slugify": "^1.1.0"
