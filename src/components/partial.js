@@ -4,6 +4,8 @@ import React from 'react';
 
 /**
  * The partial component
+ *
+ * @disable-docs
  */
 const Partial = ( page ) => (
 	<div className="uikit-body uikit-grid">
