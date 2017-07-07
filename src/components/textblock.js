@@ -28,7 +28,7 @@ Textblock.propTypes = {
 	quote: PropTypes.string,
 
 	/**
-	 * _body: (partials)(4)
+	 * _body: (text)(7)
 	 */
 	_body: PropTypes.node.isRequired,
 };
