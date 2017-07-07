@@ -18,6 +18,7 @@ site/
 
 # artifacts
 *.css
+!docs/**/*.css
 assets/js/site.js
 uikit.js
 src/sass/uikit/
