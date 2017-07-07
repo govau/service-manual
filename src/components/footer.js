@@ -45,16 +45,16 @@ const Footer = ( page ) => {
 Footer.propTypes = {
 	/**
 	 * links:
-	 *   - homepage
-	 *   - user-research/team-sport
-	 *   - user-research/how-changes
+	 *   - page1 # this needs to be page IDs
+	 *   - page2 # they are converted to titles later
+	 *   - page2/nested
 	 *   - content-strategy/content-auditing/prove-the-value
 	 *   - content-strategy/content-auditing/plan-your-audit
 	 */
 	links: PropTypes.arrayOf( PropTypes.string ).isRequired,
 
 	/**
-	 * _body: (partials)(2)
+	 * _body: (text)(2)
 	 */
 	_body: PropTypes.node.isRequired,
 };

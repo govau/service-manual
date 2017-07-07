@@ -117,11 +117,6 @@ Header.propTypes = {
 	 * content2: Lorem ipsum dolor sit amet, vix civibus deserunt te, sit eu nulla discere consulatu, ei graeci consectetuer has.
 	 */
 	content2: PropTypes.string.isRequired,
-
-	/**
-	 * _body: (partials)(2)
-	 */
-	_body: PropTypes.node.isRequired,
 };
 
 
