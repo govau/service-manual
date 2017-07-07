@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-
 const headerClasses = {
 	light: 'globalheader--light',
 	dark: 'globalheader--dark',
@@ -15,7 +14,6 @@ const headerContentClasses = {
 	white: 'globalheader__content--white',
 	blue: 'globalheader__content--blue',
 };
-
 
 /**
  * The globalheader component
