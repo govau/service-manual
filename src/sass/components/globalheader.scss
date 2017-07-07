@@ -179,8 +179,8 @@ a.globalheader__button {
 	}
 
 	@include uikit-media( md ) {
+		padding: 0 0 0 32%;
 		background-position: 2% center;
-		padding: 0 0 0 35%;
 	}
 }
 
