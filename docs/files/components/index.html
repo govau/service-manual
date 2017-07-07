@@ -1,0 +1,390 @@
+<html><head><title>Category components</title><link rel="stylesheet" href="../../assets/style.css"/><link rel="stylesheet" href="../../assets/pages/css/site.css"/></head><body class="cuttlebelle-docs"><aside class="cuttlebelle-docs__aside"><div class="cuttlebelle-docs__wrapper"><a class="cuttlebelle-docs__aside__headline" href="../..">Documentation</a><ul class="cuttlebelle-nav cuttlebelle-nav--level-0"><li class="cuttlebelle-nav__item cuttlebelle-nav__item--has-nested"><ul class="cuttlebelle-nav cuttlebelle-nav--level-1"><li class="cuttlebelle-nav__item"><span class="cuttlebelle-nav__item__span">components</span></li><li class="cuttlebelle-nav__item"><a class="cuttlebelle-nav__item__anchor" href="../layout">layout</a></li></ul></li></ul></div></aside><main class="cuttlebelle-docs__main"><div class="cuttlebelle-docs__wrapper"><h1 class="cuttlebelle-docs__main__headline">Category components</h1><p>In this category</p><ul class="cuttlebelle-docs__main__contents"><li class="cuttlebelle-docs__main__contents__item"><a href="#components/404" class="cuttlebelle-docs__main__contents__item__link">components/404</a></li><li class="cuttlebelle-docs__main__contents__item"><a href="#components/category_section" class="cuttlebelle-docs__main__contents__item__link">components/category_section</a></li><li class="cuttlebelle-docs__main__contents__item"><a href="#components/category_sections" class="cuttlebelle-docs__main__contents__item__link">components/category_sections</a></li><li class="cuttlebelle-docs__main__contents__item"><a href="#components/dss-section" class="cuttlebelle-docs__main__contents__item__link">components/dss-section</a></li><li class="cuttlebelle-docs__main__contents__item"><a href="#components/footer" class="cuttlebelle-docs__main__contents__item__link">components/footer</a></li><li class="cuttlebelle-docs__main__contents__item"><a href="#components/header" class="cuttlebelle-docs__main__contents__item__link">components/header</a></li><li class="cuttlebelle-docs__main__contents__item"><a href="#components/intro" class="cuttlebelle-docs__main__contents__item__link">components/intro</a></li><li class="cuttlebelle-docs__main__contents__item"><a href="#components/intro_with_nav" class="cuttlebelle-docs__main__contents__item__link">components/intro_with_nav</a></li><li class="cuttlebelle-docs__main__contents__item"><a href="#components/partial" class="cuttlebelle-docs__main__contents__item__link">components/partial</a></li><li class="cuttlebelle-docs__main__contents__item"><a href="#components/quote" class="cuttlebelle-docs__main__contents__item__link">components/quote</a></li><li class="cuttlebelle-docs__main__contents__item"><a href="#components/section" class="cuttlebelle-docs__main__contents__item__link">components/section</a></li><li class="cuttlebelle-docs__main__contents__item"><a href="#components/sections" class="cuttlebelle-docs__main__contents__item__link">components/sections</a></li><li class="cuttlebelle-docs__main__contents__item"><a href="#components/textblock" class="cuttlebelle-docs__main__contents__item__link">components/textblock</a></li></ul><div id="components/404" class="cuttlebelle-docs__main__component"><h2 class="cuttlebelle-docs__main__component__name">components/404</h2><div class="cuttlebelle-docs__main__component__example"><div><div class="uikit-body uikit-grid page404"><div class="container"><div class="row"><div class="col-md-12"><div class="textwrapper"><div class="page404__text"><div><img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> </div></div><ul class="navigation navigation--level-0"><li class="navigation__item navigation__item--has-nested"><a class="navigation__item__anchor" href="/">Homepage</a><ul class="navigation navigation--level-1"><li class="navigation__item"><a class="navigation__item__anchor" href="/page1">Page 1</a></li><li class="navigation__item navigation__item--has-nested"><span class="navigation__item__span">Page 2</span><ul class="navigation navigation--level-2"><li class="navigation__item"><a class="navigation__item__anchor" href="/page2/nested">Nested in page 2</a></li></ul></li><li class="navigation__item"><a class="navigation__item__anchor" href="/page3">Page 3</a></li></ul></li></ul></div></div></div></div></div></div></div><pre class="cuttlebelle-docs__main__component__yaml"><div>_body: 
+  - partial1.md
+  - partial2.md
+  - partial3.md
+</div></pre><details class="cuttlebelle-docs__main__component__html"><summary class="cuttlebelle-docs__main__component__html__showhide">Show/Hide</summary><pre><code>&lt;div class=&quot;uikit-body uikit-grid page404&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-md-12&quot;&gt;
+        &lt;div class=&quot;textwrapper&quot;&gt;
+          &lt;div class=&quot;page404__text&quot;&gt;
+            &lt;div&gt;
+              &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt; &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;ul class=&quot;navigation navigation--level-0&quot;&gt;
+            &lt;li class=&quot;navigation__item navigation__item--has-nested&quot;&gt;
+              &lt;a class=&quot;navigation__item__anchor&quot; href=&quot;/&quot;&gt;Homepage&lt;/a&gt;
+              &lt;ul class=&quot;navigation navigation--level-1&quot;&gt;
+                &lt;li class=&quot;navigation__item&quot;&gt;
+                  &lt;a class=&quot;navigation__item__anchor&quot; href=&quot;/page1&quot;&gt;Page 1&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;navigation__item navigation__item--has-nested&quot;&gt;&lt;span class=&quot;navigation__item__span&quot;&gt;Page 2&lt;/span&gt;
+                  &lt;ul class=&quot;navigation navigation--level-2&quot;&gt;
+                    &lt;li class=&quot;navigation__item&quot;&gt;
+                      &lt;a class=&quot;navigation__item__anchor&quot; href=&quot;/page2/nested&quot;&gt;Nested in page 2&lt;/a&gt;
+                    &lt;/li&gt;
+                  &lt;/ul&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;navigation__item&quot;&gt;
+                  &lt;a class=&quot;navigation__item__anchor&quot; href=&quot;/page3&quot;&gt;Page 3&lt;/a&gt;
+                &lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre></details></div><div id="components/category_section" class="cuttlebelle-docs__main__component"><h2 class="cuttlebelle-docs__main__component__name">components/category_section</h2><div class="cuttlebelle-docs__main__component__example"><div><div class="uikit-body uikit-grid category-section"><div class="container"><div class="row"><div class="col-md-12" id="guides"><h3 class="section__section category-section__section">Guides</h3><h4 class="category-section__headline display-3">Examples and case studies</h4></div></div></div></div></div></div><pre class="cuttlebelle-docs__main__component__yaml"><div>section: Guides
+title: Examples and case studies
+</div></pre><details class="cuttlebelle-docs__main__component__html"><summary class="cuttlebelle-docs__main__component__html__showhide">Show/Hide</summary><pre><code>&lt;div class=&quot;uikit-body uikit-grid category-section&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-md-12&quot; id=&quot;guides&quot;&gt;
+        &lt;h3 class=&quot;section__section category-section__section&quot;&gt;Guides&lt;/h3&gt;
+        &lt;h4 class=&quot;category-section__headline display-3&quot;&gt;Examples and case studies&lt;/h4&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre></details></div><div id="components/category_sections" class="cuttlebelle-docs__main__component"><h2 class="cuttlebelle-docs__main__component__name">components/category_sections</h2><div class="cuttlebelle-docs__main__component__example"><div><div class="uikit-body uikit-grid category-sections"><div class="container"><div class="row"><div class="col-md-12 js-sections"><ul class="category-sections__list"><div class="category-sections__list__item__wrapper"><li class="category-sections__list__item"><a class="category-sections__list__link" href="#why">Why</a></li> </div><div class="category-sections__list__item__wrapper"><li class="category-sections__list__item"><a class="category-sections__list__link" href="#when">When</a></li> </div><div class="category-sections__list__item__wrapper"><li class="category-sections__list__item"><a class="category-sections__list__link" href="#how">How</a></li> </div><div class="category-sections__list__item__wrapper"><li class="category-sections__list__item"><a class="category-sections__list__link" href="#support">Support</a></li> </div></ul></div></div></div></div></div></div><pre class="cuttlebelle-docs__main__component__yaml"><div>sections:
+  - Why
+  - When
+  - How
+  - Support
+</div></pre><details class="cuttlebelle-docs__main__component__html"><summary class="cuttlebelle-docs__main__component__html__showhide">Show/Hide</summary><pre><code>&lt;div class=&quot;uikit-body uikit-grid category-sections&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-md-12 js-sections&quot;&gt;
+        &lt;ul class=&quot;category-sections__list&quot;&gt;
+          &lt;div class=&quot;category-sections__list__item__wrapper&quot;&gt;
+            &lt;li class=&quot;category-sections__list__item&quot;&gt;
+              &lt;a class=&quot;category-sections__list__link&quot; href=&quot;#why&quot;&gt;Why&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;category-sections__list__item__wrapper&quot;&gt;
+            &lt;li class=&quot;category-sections__list__item&quot;&gt;
+              &lt;a class=&quot;category-sections__list__link&quot; href=&quot;#when&quot;&gt;When&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;category-sections__list__item__wrapper&quot;&gt;
+            &lt;li class=&quot;category-sections__list__item&quot;&gt;
+              &lt;a class=&quot;category-sections__list__link&quot; href=&quot;#how&quot;&gt;How&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;category-sections__list__item__wrapper&quot;&gt;
+            &lt;li class=&quot;category-sections__list__item&quot;&gt;
+              &lt;a class=&quot;category-sections__list__link&quot; href=&quot;#support&quot;&gt;Support&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;/div&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre></details></div><div id="components/dss-section" class="cuttlebelle-docs__main__component"><h2 class="cuttlebelle-docs__main__component__name">components/dss-section</h2><div class="cuttlebelle-docs__main__component__example"><div><div class="uikit-body uikit-grid dss-section"><div class="container"><div class="row"><div class="col-md-12" id="guides"><div class="dss-section__criteria"><strong class="dss-section__criteria__headline">Digital Service Standard</strong><ul class="dss-section__criteria__list"><li class="dss-section__criteria__list__item"><span class="dss-section__criteria__list__item__digit">1</span><a class="dss-section__criteria__list__item__link" href="https://www.dta.gov.au/standard/1-user-needs/" rel="external">Understand user needs</a></li><li class="dss-section__criteria__list__item"><span class="dss-section__criteria__list__item__digit">3</span><a class="dss-section__criteria__list__item__link" href="https://www.dta.gov.au/standard/3-agile-and-user-centred/" rel="external">Agile and user-centred process</a></li><li class="dss-section__criteria__list__item"><span class="dss-section__criteria__list__item__digit">8</span><a class="dss-section__criteria__list__item__link" href="https://www.dta.gov.au/standard/8-make-source-code-open/" rel="external">Make source code open</a></li><li class="dss-section__criteria__list__item"><span class="dss-section__criteria__list__item__digit">13</span><a class="dss-section__criteria__list__item__link" href="https://www.dta.gov.au/standard/13-encourage-use-of-the-digital-service/" rel="external">Encourage everyone to use the digital service</a></li></ul><a class="dss-section__criteria__cta uikit-cta-link" href="https://www.dta.gov.au/standard/">Read the Criteria</a></div><h3 class="section__section dss-section__section">Guides</h3><div class="dss-section__text"><div><p>The year 1866 was signalised by a remarkable incident, a mysterious and puzzling phenomenon, which doubtless no one has yet forgotten. Not to mention rumours which agitated the maritime population and excited the public mind, even in the interior of continents, seafaring men were particularly excited. Merchants, common sailors, captains of vessels, skippers, both of Europe and America, naval officers of all countries, and the Governments of several States on the two continents, were deeply interested in the matter.</p> <p>For some time past vessels had been met by &quot;an enormous thing,&quot; a long object, spindle-shaped, occasionally phosphorescent, and infinitely larger and more rapid in its movements than a whale.</p> <p>The facts relating to this apparition (entered in various log-books) agreed in most respects as to the shape of the object or creature in question, the untiring rapidity of its movements, its surprising power of locomotion, and the peculiar life with which it seemed endowed. If it was a whale, it surpassed in size all those hitherto classified in science. Taking into consideration the mean of observations made at divers times—rejecting the timid estimate of those who assigned to this object a length of two hundred feet, equally with the exaggerated opinions which set it down as a mile in width and three in length—we might fairly conclude that this mysterious being surpassed greatly all dimensions admitted by the learned ones of the day, if it existed at all.</p> </div></div></div></div></div></div></div></div><pre class="cuttlebelle-docs__main__component__yaml"><div>dss:
+  - 1
+  - 3
+  - 8
+  - 13
+section: Guides
+_body: The year 1866 was signalised by a remarkable incident...
+</div></pre><details class="cuttlebelle-docs__main__component__html"><summary class="cuttlebelle-docs__main__component__html__showhide">Show/Hide</summary><pre><code>&lt;div class=&quot;uikit-body uikit-grid dss-section&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-md-12&quot; id=&quot;guides&quot;&gt;
+        &lt;div class=&quot;dss-section__criteria&quot;&gt;&lt;strong class=&quot;dss-section__criteria__headline&quot;&gt;Digital Service Standard&lt;/strong&gt;
+          &lt;ul class=&quot;dss-section__criteria__list&quot;&gt;
+            &lt;li class=&quot;dss-section__criteria__list__item&quot;&gt;&lt;span class=&quot;dss-section__criteria__list__item__digit&quot;&gt;1&lt;/span&gt;
+              &lt;a class=&quot;dss-section__criteria__list__item__link&quot; href=&quot;https://www.dta.gov.au/standard/1-user-needs/&quot; rel=&quot;external&quot;&gt;Understand user needs&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class=&quot;dss-section__criteria__list__item&quot;&gt;&lt;span class=&quot;dss-section__criteria__list__item__digit&quot;&gt;3&lt;/span&gt;
+              &lt;a class=&quot;dss-section__criteria__list__item__link&quot; href=&quot;https://www.dta.gov.au/standard/3-agile-and-user-centred/&quot; rel=&quot;external&quot;&gt;Agile and user-centred process&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class=&quot;dss-section__criteria__list__item&quot;&gt;&lt;span class=&quot;dss-section__criteria__list__item__digit&quot;&gt;8&lt;/span&gt;
+              &lt;a class=&quot;dss-section__criteria__list__item__link&quot; href=&quot;https://www.dta.gov.au/standard/8-make-source-code-open/&quot; rel=&quot;external&quot;&gt;Make source code open&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class=&quot;dss-section__criteria__list__item&quot;&gt;&lt;span class=&quot;dss-section__criteria__list__item__digit&quot;&gt;13&lt;/span&gt;
+              &lt;a class=&quot;dss-section__criteria__list__item__link&quot; href=&quot;https://www.dta.gov.au/standard/13-encourage-use-of-the-digital-service/&quot; rel=&quot;external&quot;&gt;Encourage everyone to use the digital service&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+          &lt;a class=&quot;dss-section__criteria__cta uikit-cta-link&quot; href=&quot;https://www.dta.gov.au/standard/&quot;&gt;Read the Criteria&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;h3 class=&quot;section__section dss-section__section&quot;&gt;Guides&lt;/h3&gt;
+        &lt;div class=&quot;dss-section__text&quot;&gt;
+          &lt;div&gt;
+            &lt;p&gt;The year 1866 was signalised by a remarkable incident, a mysterious and puzzling phenomenon, which doubtless no one has yet forgotten. Not to mention rumours which agitated the maritime population and excited the public mind, even in the interior
+              of continents, seafaring men were particularly excited. Merchants, common sailors, captains of vessels, skippers, both of Europe and America, naval officers of all countries, and the Governments of several States on the two continents, were
+              deeply interested in the matter.&lt;/p&gt;
+            &lt;p&gt;For some time past vessels had been met by &amp;quot;an enormous thing,&amp;quot; a long object, spindle-shaped, occasionally phosphorescent, and infinitely larger and more rapid in its movements than a whale.&lt;/p&gt;
+            &lt;p&gt;The facts relating to this apparition (entered in various log-books) agreed in most respects as to the shape of the object or creature in question, the untiring rapidity of its movements, its surprising power of locomotion, and the peculiar
+              life with which it seemed endowed. If it was a whale, it surpassed in size all those hitherto classified in science. Taking into consideration the mean of observations made at divers times—rejecting the timid estimate of those who assigned
+              to this object a length of two hundred feet, equally with the exaggerated opinions which set it down as a mile in width and three in length—we might fairly conclude that this mysterious being surpassed greatly all dimensions admitted by
+              the learned ones of the day, if it existed at all.&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre></details></div><div id="components/footer" class="cuttlebelle-docs__main__component"><h2 class="cuttlebelle-docs__main__component__name">components/footer</h2><div class="cuttlebelle-docs__main__component__example"><div><footer class="uikit-grid uikit-body uikit-footer footer footer--dark" role="contentinfo"><div class="container"><div class="row"><div class="col-md-2"><img class="footer__logo" src="/assets/img/coa-white.png"/></div><div class="col-md-10"><div class="footer__links__wrapper"><ul class="footer__links uikit-link-list uikit-link-list--inline uikit-link-list--inverted"><li class="footer__listitem"><a href="#" class="footer__link">homepage</a></li><li class="footer__listitem"><a href="#" class="footer__link">user-research/team-sport</a></li><li class="footer__listitem"><a href="#" class="footer__link">user-research/how-changes</a></li><li class="footer__listitem"><a href="#" class="footer__link">content-strategy/content-auditing/prove-the-value</a></li><li class="footer__listitem"><a href="#" class="footer__link">content-strategy/content-auditing/plan-your-audit</a></li></ul></div><div class="footer__text footer__text--small"><div><img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> <img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> </div></div></div></div></div></footer></div></div><pre class="cuttlebelle-docs__main__component__yaml"><div>links:
+  - homepage
+  - user-research/team-sport
+  - user-research/how-changes
+  - content-strategy/content-auditing/prove-the-value
+  - content-strategy/content-auditing/plan-your-audit
+_body: 
+  - partial1.md
+  - partial2.md
+  - partial3.md
+</div></pre><details class="cuttlebelle-docs__main__component__html"><summary class="cuttlebelle-docs__main__component__html__showhide">Show/Hide</summary><pre><code>&lt;footer class=&quot;uikit-grid uikit-body uikit-footer footer footer--dark&quot; role=&quot;contentinfo&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-md-2&quot;&gt;
+        &lt;img class=&quot;footer__logo&quot; src=&quot;/assets/img/coa-white.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-md-10&quot;&gt;
+        &lt;div class=&quot;footer__links__wrapper&quot;&gt;
+          &lt;ul class=&quot;footer__links uikit-link-list uikit-link-list--inline uikit-link-list--inverted&quot;&gt;
+            &lt;li class=&quot;footer__listitem&quot;&gt;
+              &lt;a href=&quot;#&quot; class=&quot;footer__link&quot;&gt;homepage&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class=&quot;footer__listitem&quot;&gt;
+              &lt;a href=&quot;#&quot; class=&quot;footer__link&quot;&gt;user-research/team-sport&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class=&quot;footer__listitem&quot;&gt;
+              &lt;a href=&quot;#&quot; class=&quot;footer__link&quot;&gt;user-research/how-changes&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class=&quot;footer__listitem&quot;&gt;
+              &lt;a href=&quot;#&quot; class=&quot;footer__link&quot;&gt;content-strategy/content-auditing/prove-the-value&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class=&quot;footer__listitem&quot;&gt;
+              &lt;a href=&quot;#&quot; class=&quot;footer__link&quot;&gt;content-strategy/content-auditing/plan-your-audit&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;footer__text footer__text--small&quot;&gt;
+          &lt;div&gt;
+            &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt;
+            &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt; &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;</code></pre></details></div><div id="components/header" class="cuttlebelle-docs__main__component"><h2 class="cuttlebelle-docs__main__component__name">components/header</h2><div class="cuttlebelle-docs__main__component__example"><div><header class="uikit-body uikit-grid"><div><div class="uikit-grid globalheader globalheader--dark"><div class="container"><div class="row"><div class="col-md-12"><div class="globalheader__logo"><svg class="globalheader__logo__svg" role="img" title="The Commonwealth Star"><use xlink:href="/assets/svg/map.svg#star"></use></svg><span class="globalheader__logo__title">GOV.AU</span></div><span class="globalheader__text">This is totally official</span><a href="#global-header-content" class="globalheader__button js-globalheader">An official website</a></div></div></div></div><div id="global-header-content" class="globalheader__content globalheader__content--dark "><div class="container"><div class="row"><div class="col-md-12"><div class="globalheader__content__wrapper"><div class="col-sm-2 col-md-2"><div class="globalheader__emblem__wrapper"><img class="globalheader__emblem" alt="" src="/assets/img/coa_gray_all_sml.png"/></div></div><div class="col-sm-4 col-md-4"><div class="globalheader__content1"><span class="globalheader__title">The .gov.au means its official</span><span>Lorem ipsum dolor sit amet, vix civibus deserunt te, sit eu nulla discere consulatu, ei graeci consectetuer has.</span></div></div><div class="col-sm-2 col-md-2"><div class="globalheader__lock"></div></div><div class="col-sm-4 col-md-4"><div class="globalheader__content2"><span class="globalheader__title">This site is also protected by SSL</span><span>Lorem ipsum dolor sit amet, vix civibus deserunt te, sit eu nulla discere consulatu, ei graeci consectetuer has.</span></div></div></div></div></div></div></div></div><div class="header header--dark"><div class="container"><div class="row"><div class="col-md-12"><img class="header__logo" src="/assets/img/coa-white.png"/><div class="header__text"><strong class="header__text__headline">Service Manual</strong></div></div></div></div></div></header></div></div><pre class="cuttlebelle-docs__main__component__yaml"><div><span class="cuttlebelle-flag cuttlebelle-flag--optional">Optional</span>text: This is totally official
+button: An official website
+title1: The .gov.au means its official
+content1: Lorem ipsum dolor sit amet, vix civibus deserunt te, sit eu nulla discere consulatu, ei graeci consectetuer has.
+title2: This site is also protected by SSL
+content2: Lorem ipsum dolor sit amet, vix civibus deserunt te, sit eu nulla discere consulatu, ei graeci consectetuer has.
+_body: 
+  - partial1.md
+  - partial2.md
+  - partial3.md
+</div></pre><details class="cuttlebelle-docs__main__component__html"><summary class="cuttlebelle-docs__main__component__html__showhide">Show/Hide</summary><pre><code>&lt;header class=&quot;uikit-body uikit-grid&quot;&gt;
+  &lt;div&gt;
+    &lt;div class=&quot;uikit-grid globalheader globalheader--dark&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-md-12&quot;&gt;
+            &lt;div class=&quot;globalheader__logo&quot;&gt;
+              &lt;svg class=&quot;globalheader__logo__svg&quot; role=&quot;img&quot; title=&quot;The Commonwealth Star&quot;&gt;
+                &lt;use xlink:href=&quot;/assets/svg/map.svg#star&quot;&gt;&lt;/use&gt;
+              &lt;/svg&gt;&lt;span class=&quot;globalheader__logo__title&quot;&gt;GOV.AU&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;globalheader__text&quot;&gt;This is totally official&lt;/span&gt;
+            &lt;a href=&quot;#global-header-content&quot; class=&quot;globalheader__button js-globalheader&quot;&gt;An official website&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;global-header-content&quot; class=&quot;globalheader__content globalheader__content--dark &quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;div class=&quot;col-md-12&quot;&gt;
+            &lt;div class=&quot;globalheader__content__wrapper&quot;&gt;
+              &lt;div class=&quot;col-sm-2 col-md-2&quot;&gt;
+                &lt;div class=&quot;globalheader__emblem__wrapper&quot;&gt;
+                  &lt;img class=&quot;globalheader__emblem&quot; alt=&quot;&quot; src=&quot;/assets/img/coa_gray_all_sml.png&quot; /&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;col-sm-4 col-md-4&quot;&gt;
+                &lt;div class=&quot;globalheader__content1&quot;&gt;&lt;span class=&quot;globalheader__title&quot;&gt;The .gov.au means its official&lt;/span&gt;&lt;span&gt;Lorem ipsum dolor sit amet, vix civibus deserunt te, sit eu nulla discere consulatu, ei graeci consectetuer has.&lt;/span&gt;&lt;/div&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;col-sm-2 col-md-2&quot;&gt;
+                &lt;div class=&quot;globalheader__lock&quot;&gt;&lt;/div&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;col-sm-4 col-md-4&quot;&gt;
+                &lt;div class=&quot;globalheader__content2&quot;&gt;&lt;span class=&quot;globalheader__title&quot;&gt;This site is also protected by SSL&lt;/span&gt;&lt;span&gt;Lorem ipsum dolor sit amet, vix civibus deserunt te, sit eu nulla discere consulatu, ei graeci consectetuer has.&lt;/span&gt;&lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;header header--dark&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-12&quot;&gt;
+          &lt;img class=&quot;header__logo&quot; src=&quot;/assets/img/coa-white.png&quot; /&gt;
+          &lt;div class=&quot;header__text&quot;&gt;&lt;strong class=&quot;header__text__headline&quot;&gt;Service Manual&lt;/strong&gt;&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/header&gt;</code></pre></details></div><div id="components/intro" class="cuttlebelle-docs__main__component"><h2 class="cuttlebelle-docs__main__component__name">components/intro</h2><div class="cuttlebelle-docs__main__component__example"><div><div class="uikit-body uikit-grid intro intro--dark"><div class="container"><div class="row"><div class="col-md-12"><div class="textwrapper"><span class="section__section intro__category">Content strategy</span><h1 class="intro__headline">Page 2</h1><p class="intro__subtitle">Welcome to our intro</p><div class="intro__text"><div><img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> </div></div></div></div></div></div></div></div></div><pre class="cuttlebelle-docs__main__component__yaml"><div><span class="cuttlebelle-flag cuttlebelle-flag--optional">Optional</span>category: Content strategy
+<span class="cuttlebelle-flag cuttlebelle-flag--optional">Optional</span>subtitle: Welcome to our intro
+_body: 
+  - partial1.md
+  - partial2.md
+  - partial3.md
+</div></pre><details class="cuttlebelle-docs__main__component__html"><summary class="cuttlebelle-docs__main__component__html__showhide">Show/Hide</summary><pre><code>&lt;div class=&quot;uikit-body uikit-grid intro intro--dark&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-md-12&quot;&gt;
+        &lt;div class=&quot;textwrapper&quot;&gt;&lt;span class=&quot;section__section intro__category&quot;&gt;Content strategy&lt;/span&gt;
+          &lt;h1 class=&quot;intro__headline&quot;&gt;Page 2&lt;/h1&gt;
+          &lt;p class=&quot;intro__subtitle&quot;&gt;Welcome to our intro&lt;/p&gt;
+          &lt;div class=&quot;intro__text&quot;&gt;
+            &lt;div&gt;
+              &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt; &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre></details></div><div id="components/intro_with_nav" class="cuttlebelle-docs__main__component"><h2 class="cuttlebelle-docs__main__component__name">components/intro_with_nav</h2><div class="cuttlebelle-docs__main__component__example"><div><div class="uikit-body uikit-grid intro intro--withnav intro__wrapper intro--dark"><div class="container"><div class="row"><div class="col-md-12"><div class="textwrapper intro__textwrapper__withnav"><h1 class="intro__headline">Page 2</h1></div><div class="childnav js-childnav childnav--dark"><div class="childnav__container"><button class="childnav__controls">In this section</button><ul id="childnav-list" class="childnav__list navigation--level-0"><li class="navigation__item navigation__item--has-nested"><ul class="childnav__list navigation--level-1"><li class="navigation__item navigation__item--has-nested"><span class="navigation__item__span">Page 2</span><ul class="childnav__list navigation--level-2"><li class="navigation__item"><a class="navigation__item__anchor" href="/page2/nested">Nested in page 2</a></li></ul></li></ul></li></ul></div></div><div class="textwrapper intro__textwrapper__withnav"><div class="intro__text"><div><img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> </div></div></div></div></div></div></div></div></div><pre class="cuttlebelle-docs__main__component__yaml"><div><span class="cuttlebelle-flag cuttlebelle-flag--optional">Optional</span>category: Content strategy
+<span class="cuttlebelle-flag cuttlebelle-flag--optional">Optional</span>subtitle: Welcome to our intro
+<span class="cuttlebelle-flag cuttlebelle-flag--optional">Optional</span>childnavtitle: In this section
+_body: 
+  - partial1.md
+  - partial2.md
+  - partial3.md
+</div></pre><details class="cuttlebelle-docs__main__component__html"><summary class="cuttlebelle-docs__main__component__html__showhide">Show/Hide</summary><pre><code>&lt;div class=&quot;uikit-body uikit-grid intro intro--withnav intro__wrapper intro--dark&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-md-12&quot;&gt;
+        &lt;div class=&quot;textwrapper intro__textwrapper__withnav&quot;&gt;
+          &lt;h1 class=&quot;intro__headline&quot;&gt;Page 2&lt;/h1&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;childnav js-childnav childnav--dark&quot;&gt;
+          &lt;div class=&quot;childnav__container&quot;&gt;
+            &lt;button class=&quot;childnav__controls&quot;&gt;In this section&lt;/button&gt;
+            &lt;ul id=&quot;childnav-list&quot; class=&quot;childnav__list navigation--level-0&quot;&gt;
+              &lt;li class=&quot;navigation__item navigation__item--has-nested&quot;&gt;
+                &lt;ul class=&quot;childnav__list navigation--level-1&quot;&gt;
+                  &lt;li class=&quot;navigation__item navigation__item--has-nested&quot;&gt;&lt;span class=&quot;navigation__item__span&quot;&gt;Page 2&lt;/span&gt;
+                    &lt;ul class=&quot;childnav__list navigation--level-2&quot;&gt;
+                      &lt;li class=&quot;navigation__item&quot;&gt;
+                        &lt;a class=&quot;navigation__item__anchor&quot; href=&quot;/page2/nested&quot;&gt;Nested in page 2&lt;/a&gt;
+                      &lt;/li&gt;
+                    &lt;/ul&gt;
+                  &lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;textwrapper intro__textwrapper__withnav&quot;&gt;
+          &lt;div class=&quot;intro__text&quot;&gt;
+            &lt;div&gt;
+              &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt; &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre></details></div><div id="components/partial" class="cuttlebelle-docs__main__component"><h2 class="cuttlebelle-docs__main__component__name">components/partial</h2><div class="cuttlebelle-docs__main__component__example"><div><div class="uikit-body uikit-grid"><div class="container"><div class="row"><div class="col-md-12"><div class="textwrapper"><div><img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> <img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> <img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> <img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> </div></div></div></div></div></div></div></div><pre class="cuttlebelle-docs__main__component__yaml"><div>_body: 
+  - partial1.md
+  - partial2.md
+  - partial3.md
+</div></pre><details class="cuttlebelle-docs__main__component__html"><summary class="cuttlebelle-docs__main__component__html__showhide">Show/Hide</summary><pre><code>&lt;div class=&quot;uikit-body uikit-grid&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-md-12&quot;&gt;
+        &lt;div class=&quot;textwrapper&quot;&gt;
+          &lt;div&gt;
+            &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt;
+            &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt;
+            &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt;
+            &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt; &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre></details></div><div id="components/quote" class="cuttlebelle-docs__main__component"><h2 class="cuttlebelle-docs__main__component__name">components/quote</h2><div class="cuttlebelle-docs__main__component__example"><div><div class="uikit-body uikit-grid quote"><div class="container"><div class="row"><div class="col-md-12"><blockquote><div class="textwrapper"><div class="quote__text">Woof woof woff</div><cite class="quote__by">Good boy</cite></div></blockquote></div></div></div></div></div></div><pre class="cuttlebelle-docs__main__component__yaml"><div>quote: Woof woof woff
+<span class="cuttlebelle-flag cuttlebelle-flag--optional">Optional</span>by: Good boy
+</div></pre><details class="cuttlebelle-docs__main__component__html"><summary class="cuttlebelle-docs__main__component__html__showhide">Show/Hide</summary><pre><code>&lt;div class=&quot;uikit-body uikit-grid quote&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-md-12&quot;&gt;
+        &lt;blockquote&gt;
+          &lt;div class=&quot;textwrapper&quot;&gt;
+            &lt;div class=&quot;quote__text&quot;&gt;Woof woof woff&lt;/div&gt;
+            &lt;cite class=&quot;quote__by&quot;&gt;Good boy&lt;/cite&gt;
+          &lt;/div&gt;
+        &lt;/blockquote&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre></details></div><div id="components/section" class="cuttlebelle-docs__main__component"><h2 class="cuttlebelle-docs__main__component__name">components/section</h2><div class="cuttlebelle-docs__main__component__example"><div><div class="uikit-body uikit-grid sections"><div class="container"><div class="row"><div class="col-md-12"><div><h2 class="uikit-inpage-nav-section display-3">This important section<a id="this-important-section" class="uikit-inpage-nav-section-link" href="#this-important-section">Link to section</a></h2></div></div></div></div></div></div></div><pre class="cuttlebelle-docs__main__component__yaml"><div>section: This important section
+</div></pre><details class="cuttlebelle-docs__main__component__html"><summary class="cuttlebelle-docs__main__component__html__showhide">Show/Hide</summary><pre><code>&lt;div class=&quot;uikit-body uikit-grid sections&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-md-12&quot;&gt;
+        &lt;div&gt;
+          &lt;h2 class=&quot;uikit-inpage-nav-section display-3&quot;&gt;This important section
+            &lt;a id=&quot;this-important-section&quot; class=&quot;uikit-inpage-nav-section-link&quot; href=&quot;#this-important-section&quot;&gt;Link to section&lt;/a&gt;
+          &lt;/h2&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre></details></div><div id="components/sections" class="cuttlebelle-docs__main__component"><h2 class="cuttlebelle-docs__main__component__name">components/sections</h2><div class="cuttlebelle-docs__main__component__example"><div><div class="uikit-body uikit-grid sections"><div class="container"><div class="row"><div class="col-md-12 js-sections"><nav class="uikit-inpage-nav-links"><h2 class="uikit-inpage-nav-links__heading uikit-display-2">In this section</h2><ul class="uikit-link-list"><li><a href="#first-section">First section</a></li><li><a href="#second-section">Second section</a></li><li><a href="#even-more-sections">Even more sections</a></li><li><a href="#last-section">Last section</a></li></ul></nav></div></div></div></div></div></div><pre class="cuttlebelle-docs__main__component__yaml"><div>sections:
+  - First section
+  - Second section
+  - Even more sections
+  - Last section
+</div></pre><details class="cuttlebelle-docs__main__component__html"><summary class="cuttlebelle-docs__main__component__html__showhide">Show/Hide</summary><pre><code>&lt;div class=&quot;uikit-body uikit-grid sections&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-md-12 js-sections&quot;&gt;
+        &lt;nav class=&quot;uikit-inpage-nav-links&quot;&gt;
+          &lt;h2 class=&quot;uikit-inpage-nav-links__heading uikit-display-2&quot;&gt;In this section&lt;/h2&gt;
+          &lt;ul class=&quot;uikit-link-list&quot;&gt;
+            &lt;li&gt;
+              &lt;a href=&quot;#first-section&quot;&gt;First section&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;a href=&quot;#second-section&quot;&gt;Second section&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;a href=&quot;#even-more-sections&quot;&gt;Even more sections&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;a href=&quot;#last-section&quot;&gt;Last section&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/nav&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre></details></div><div id="components/textblock" class="cuttlebelle-docs__main__component"><h2 class="cuttlebelle-docs__main__component__name">components/textblock</h2><div class="cuttlebelle-docs__main__component__example"><div><div class="uikit-body uikit-grid textblock"><div class="container"><div class="row"><div class="col-md-12"><div class="textwrapper textblock__text"><div><p>The year 1866 was signalised by a remarkable incident, a mysterious and puzzling phenomenon, which doubtless no one has yet forgotten. Not to mention rumours which agitated the maritime population and excited the public mind, even in the interior of continents, seafaring men were particularly excited. Merchants, common sailors, captains of vessels, skippers, both of Europe and America, naval officers of all countries, and the Governments of several States on the two continents, were deeply interested in the matter.</p> <p>For some time past vessels had been met by &quot;an enormous thing,&quot; a long object, spindle-shaped, occasionally phosphorescent, and infinitely larger and more rapid in its movements than a whale.</p> <p>The facts relating to this apparition (entered in various log-books) agreed in most respects as to the shape of the object or creature in question, the untiring rapidity of its movements, its surprising power of locomotion, and the peculiar life with which it seemed endowed. If it was a whale, it surpassed in size all those hitherto classified in science. Taking into consideration the mean of observations made at divers times—rejecting the timid estimate of those who assigned to this object a length of two hundred feet, equally with the exaggerated opinions which set it down as a mile in width and three in length—we might fairly conclude that this mysterious being surpassed greatly all dimensions admitted by the learned ones of the day, if it existed at all.</p> </div></div><blockquote class="textblock__quote">This is pulled out of the text</blockquote></div></div></div></div></div></div><pre class="cuttlebelle-docs__main__component__yaml"><div><span class="cuttlebelle-flag cuttlebelle-flag--optional">Optional</span>quote: This is pulled out of the text
+_body: The year 1866 was signalised by a remarkable incident...
+</div></pre><details class="cuttlebelle-docs__main__component__html"><summary class="cuttlebelle-docs__main__component__html__showhide">Show/Hide</summary><pre><code>&lt;div class=&quot;uikit-body uikit-grid textblock&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-md-12&quot;&gt;
+        &lt;div class=&quot;textwrapper textblock__text&quot;&gt;
+          &lt;div&gt;
+            &lt;p&gt;The year 1866 was signalised by a remarkable incident, a mysterious and puzzling phenomenon, which doubtless no one has yet forgotten. Not to mention rumours which agitated the maritime population and excited the public mind, even in the interior
+              of continents, seafaring men were particularly excited. Merchants, common sailors, captains of vessels, skippers, both of Europe and America, naval officers of all countries, and the Governments of several States on the two continents, were
+              deeply interested in the matter.&lt;/p&gt;
+            &lt;p&gt;For some time past vessels had been met by &amp;quot;an enormous thing,&amp;quot; a long object, spindle-shaped, occasionally phosphorescent, and infinitely larger and more rapid in its movements than a whale.&lt;/p&gt;
+            &lt;p&gt;The facts relating to this apparition (entered in various log-books) agreed in most respects as to the shape of the object or creature in question, the untiring rapidity of its movements, its surprising power of locomotion, and the peculiar
+              life with which it seemed endowed. If it was a whale, it surpassed in size all those hitherto classified in science. Taking into consideration the mean of observations made at divers times—rejecting the timid estimate of those who assigned
+              to this object a length of two hundred feet, equally with the exaggerated opinions which set it down as a mile in width and three in length—we might fairly conclude that this mysterious being surpassed greatly all dimensions admitted by
+              the learned ones of the day, if it existed at all.&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;blockquote class=&quot;textblock__quote&quot;&gt;This is pulled out of the text&lt;/blockquote&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre></details></div></div></main></body></html>

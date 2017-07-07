@@ -53,7 +53,7 @@
 	"devDependencies": {
 		"autoprefixer": "^7.1.1",
 		"concat-cli": "^4.0.0",
-		"cuttlebelle": "^1.0.0-alpha.22",
+		"cuttlebelle": "^1.0.0-alpha.23",
 		"mkdirp": "^0.5.1",
 		"node-sass": "^4.5.3",
 		"npm-run-all": "^4.0.2",
