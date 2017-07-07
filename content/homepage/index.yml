@@ -2,6 +2,7 @@ title: Homepage
 main:
   - /_shared/header.md
   - body.md
+  - imageblock.md
 footer:
   - /_shared/legal.md
   - /_shared/footer.md
