@@ -7,6 +7,8 @@ import Navigation from './nav';
 
 /**
  * 404 Page layout
+ *
+ * @disable-docs
  */
 const Page404 = ( page ) => (
 	<div className="uikit-body uikit-grid page404">
