@@ -51,27 +51,17 @@ const GlobalHeader = ({ page }) => {
 			<div id="global-header-content" className={`globalheader__content ${ headerContentClasses[ theme ] } `}>
 				<div className="container">
 					<div className="row">
-						<div className="col-md-12">
-							<div className="globalheader__content__wrapper">
-								<div className="col-sm-2 col-md-2">
-									<div className="globalheader__emblem__wrapper">
-										<img className="globalheader__emblem" alt="" src="/assets/img/coa_gray_all_sml.png" />
-									</div>
+						<div className="globalheader__content__wrapper">
+							<div className="col-md-6 col-sm-6">
+								<div className="globalheader__content1">
+									<span className="globalheader__title">{ page.title1 }</span>
+									<span className="globalheader__text">{ page.content1 }</span>
 								</div>
-								<div className="col-sm-4 col-md-4">
-									<div className="globalheader__content1">
-										<span className="globalheader__title">{ page.title1 }</span>
-										<span>{ page.content1 }</span>
-									</div>
-								</div>
-								<div className="col-sm-2 col-md-2">
-									<div className="globalheader__lock"></div>
-								</div>
-								<div className="col-sm-4 col-md-4">
-									<div className="globalheader__content2">
-										<span className="globalheader__title">{ page.title2 }</span>
-										<span>{ page.content2 }</span>
-									</div>
+							</div>
+							<div className="col-md-6 col-sm-6">
+								<div className="globalheader__content2">
+									<span className="globalheader__title">{ page.title2 }</span>
+									<span className="globalheader__text">{ page.content2 }</span>
 								</div>
 							</div>
 						</div>

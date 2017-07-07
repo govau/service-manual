@@ -9,6 +9,7 @@ $('.js-globalheader').on('click', function( event ) {
 			if( state === 'opening' ) {
 				$( self ).addClass('is-opening');
 				$( element ).addClass('is-opening');
+				$( self ).addClass('is-open');
 			} else {
 				$( self ).removeClass('is-open');
 			}
@@ -16,7 +17,6 @@ $('.js-globalheader').on('click', function( event ) {
 		postfunction: function( element, state ) {
 			if( state === 'open' ) {
 				$( element ).addClass('is-open');
-				$( self ).addClass('is-open');
 				$( self ).removeClass('is-opening');
 				$( element ).removeClass('is-opening');
 			}
