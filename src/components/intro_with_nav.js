@@ -43,6 +43,11 @@ IntroNav.propTypes = {
 	category: PropTypes.string,
 
 	/**
+	 * title: Page title  # if not given, it takes the title from the current page
+	 */
+	title: PropTypes.string,
+
+	/**
 	 * subtitle: Welcome to our intro
 	 */
 	subtitle: PropTypes.string,
