@@ -8,13 +8,10 @@ import Slugify from 'slugify';
  *
  * @disable-docs
  */
-
 const Imageblock = ( page ) => {
 
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
-	const image = page.image ? page.image : '';
-	//const backgroundImage = ` url(/assets/img/${ image }) `;
-	const backgroundImage = " url('https://via.placeholder.com/1000x550')";
+	const backgroundImage = page.image.startsWith('http') ? ` url('${ page.image }') ` : ` url('/assets/img/${ page.image }') `;
 	const reverse = page.reverse ? 'imageblock--reverse' : '';
 
 
@@ -38,7 +35,32 @@ const Imageblock = ( page ) => {
 }
 
 
-Imageblock.propTypes = {};
+Imageblock.propTypes = {
+	/**
+	 * text: https://via.placeholder.com/500x500
+	 */
+	image: PropTypes.string,
+
+	/**
+	 * button: Content strategy
+	 */
+	section: PropTypes.string.isRequired,
+
+	/**
+	 * title: How do i get started
+	 */
+	title: PropTypes.string,
+
+	/**
+	 * reverse: true
+	 */
+	reverse: PropTypes.boolean,
+
+	/**
+	 * _body: (text)(4)
+	 */
+	_body: PropTypes.node.isRequired,
+};
 
 
 Imageblock.defaultProps = {};

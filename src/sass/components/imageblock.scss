@@ -1,6 +1,6 @@
 .imageblock {
 	background-color: $uikit-colour-Primary-90;
-	color: #FFFFFF;
+	color: #fff;
 
 	@include uikit-media( sm ) {
 		padding: 0 0;
@@ -15,7 +15,7 @@
 	overflow: auto;
 	width: 100%;
 	position: relative;
-	z-index: -0;
+	z-index: 0;
 
 	@include uikit-media( sm ) {
 		background-position: right center;
@@ -88,7 +88,7 @@
 }
 
 .imageblock__headline {
-	color: #FFFFFF;
+	color: #fff;
 	font-size: 62px;
 	font-weight: normal;
 	line-height: 1.1;
