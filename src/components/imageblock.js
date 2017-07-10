@@ -4,12 +4,12 @@ import React from 'react';
 import Slugify from 'slugify';
 
 /**
- * Imageevent for use on page
+ * Imageblock for use on page
  *
  * @disable-docs
  */
 
-const Imageevent = ( page ) => {
+const Imageblock = ( page ) => {
 
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 	const image = page.image ? page.image : '';
@@ -38,10 +38,10 @@ const Imageevent = ( page ) => {
 }
 
 
-Imageevent.propTypes = {};
+Imageblock.propTypes = {};
 
 
-Imageevent.defaultProps = {};
+Imageblock.defaultProps = {};
 
 
-export default Imageevent;
+export default Imageblock;
