@@ -1,0 +1,20 @@
+title: Own the whole user experience
+layout: layout/topic
+theme: blue
+main:
+  - /_shared/header.md
+  - intro.md
+  - sections.md
+  - meeting-head.md
+  - meeting.md
+  - understanding-head.md
+  - understanding.md
+  - user-xp-head.md
+  - user-xp.md
+  - manager-head.md
+  - manager.md
+  - needs-head.md
+  - needs.md
+footer:
+  - /_shared/legal-GDS.md
+  - /_shared/footer.md
