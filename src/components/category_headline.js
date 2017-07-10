@@ -3,9 +3,7 @@ import React from 'react';
 
 
 /**
- * The partial component
- *
- * @disable-docs
+ * The category heading component
  */
 const CategoryHeadline = ( page ) => {
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';

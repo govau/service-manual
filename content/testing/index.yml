@@ -4,6 +4,7 @@ main:
   - /_shared/header.md
   - category-sections.md
   - why.md
+  - cards-category.md
   - guides-head.md
   - guides.md
   - how-head.md
