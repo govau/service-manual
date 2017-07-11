@@ -1,6 +1,6 @@
 ---
 layout: components/imageblock
-image: https://via.placeholder.com/500x500
+image: https://via.placeholder.com/1000x500
 section: Content strategy
 title: How do i get started
 reverse: false
