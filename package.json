@@ -14,6 +14,7 @@
 		"watch:pages": "cuttlebelle -w -n",
 		"watch:css": "onchange 'src/sass/**/*.scss' -- npm-run-all build:sass build:autoprefixer",
 		"watch:js": "onchange 'scripts/js/**/*.js' -- npm run build:js",
+		"watch:components": "onchange 'src/**/*.js' -- cuttlebelle docs",
 		"watch": "npm run build && npm-run-all --parallel watch:*",
 		"test": "echo \"Error: no test specified\" && exit 0"
 	},

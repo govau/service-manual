@@ -8,11 +8,13 @@ import React from 'react';
  * @disable-docs
  */
 const Card = ({ link, background, image, headline, text, cta }) => (
-	<a href={ link } className='cards' style={{ backgroundColor: background }}>
-		{ image && <img className='cards__image' src={ image } alt="" /> }
-		<strong className='cards__headline'>{ headline }</strong>
-		<div className='cards__text'>{ text }</div>
-		<span className='cards__cta'>{ cta }</span>
+	<a href={ link } className='card' style={{ backgroundColor: background }}>
+		{ image && <img className='card__image' src={ image } alt="" /> }
+		<div className='card__wrapper'>
+			<strong className='card__headline'>{ headline }</strong>
+			<div className='card__text'>{ text }</div>
+			{ cta && <span className='card__cta uikit-cta-link'>{ cta }</span> }
+		</div>
 	</a>
 );
 

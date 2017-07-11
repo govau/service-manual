@@ -1,28 +1,37 @@
 ---
-layout: components/cards_category
+layout: components/cards
 cards:
+  - image: http://via.placeholder.com/350x150
+    headline: Agile delivery
+    text: How to work in an agile way: principles.
+    link: '#url'
+  - headline: Agile delivery
+    text: How to work in an agile way: principles, tools and governance.
+    link: '#url'
+    cta: Read the case study
+  - image: http://via.placeholder.com/350x150
+    headline: Agile delivery
+    text: How to work in an agile way: principles, tools and governance. And way more things
+    link: '#url'
+    cta: Check it out
   - headline: Agile delivery
     text: How to work in an agile way: principles, tools and governance.
     link: '#url'
   - headline: Agile delivery
     text: How to work in an agile way: principles, tools and governance.
     link: '#url'
-  - headline: Agile delivery
+    cta: I am cta
+  - image: http://via.placeholder.com/350x150
+    headline: Agile delivery
     text: How to work in an agile way: principles, tools and governance.
     link: '#url'
-  - headline: Agile delivery
+  - image: http://via.placeholder.com/350x150
+    headline: Agile delivery
     text: How to work in an agile way: principles, tools and governance.
     link: '#url'
-  - headline: Agile delivery
-    text: How to work in an agile way: principles, tools and governance.
-    link: '#url'
-  - headline: Agile delivery
-    text: How to work in an agile way: principles, tools and governance.
-    link: '#url'
-  - headline: Agile delivery
-    text: How to work in an agile way: principles, tools and governance.
-    link: '#url'
-  - headline: Agile delivery
+    cta: do it
+  - image: http://via.placeholder.com/350x150
+    headline: Agile delivery
     text: How to work in an agile way: principles, tools and governance.
     link: '#url'
 ---
