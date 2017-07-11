@@ -15,11 +15,9 @@ const Imageblockevent = ( page ) => {
 	const reverse = page.reverse ? 'imageblock--reverse' : '';
 
 	const date = page.event.date;
-	const monthNames = ["January", "February", "March", "April", "May", "June",
-  						"July", "August", "September", "October", "November", "December"
-						];
-
+	const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 	const eventDate = `${ date.getDay() } ${ monthNames[date.getMonth()] } ${ date.getFullYear() }`;
+
 	const HeadingTag = `h${ page.level }`;
 
 	return (
@@ -41,6 +39,13 @@ const Imageblockevent = ( page ) => {
 								<span className="eventblock__title">{ page.event.title }</span>
 
 								<div className="eventblock__datewrapper">
+									<svg className="eventblock__date__svg" role="img" title="Calendar date">
+										<use xlinkHref={`/assets/svg/map.svg#${
+											page._pages[ page._ID ].theme === 'light' || page._pages[ page._ID ].theme === 'white'
+												? 'calendar-dark'
+												: 'calendar'
+											}`}/>
+									</svg>
 									<span className="eventblock__date">{ eventDate } - </span>
 									<span className="eventblock__location">{ page.event.location }</span>
 								</div>

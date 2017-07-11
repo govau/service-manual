@@ -4,9 +4,7 @@ import React from 'react';
 import Slugify from 'slugify';
 
 /**
- * Imageblock for use on page
- *
- * @disable-docs
+ * The Imageblock component
  */
 const Imageblock = ( page ) => {
 
@@ -22,7 +20,7 @@ const Imageblock = ( page ) => {
 				<div className="container">
 					<div className="row">
 						<div className={`imageblock__content imageblock__content--${ theme }`}>
-							{ page.section && <h3 className="section__section intro__category" id={ Slugify( page.section ).toLowerCase() } >{ page.section }</h3> }
+							{ page.section && <span className="section__section intro__category" id={ Slugify( page.section ).toLowerCase() } >{ page.section }</span> }
 							<div className="textwrapper">
 								<HeadingTag className={ `imageblock__headline display-3` }>
 									{ page.title ? page.title : page._pages[ page._ID ].title }
