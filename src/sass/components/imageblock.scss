@@ -89,6 +89,10 @@
 		}
 	}
 
+	.section__section {
+		margin-bottom: uikit-space( 1.5 );
+	}
+
 	&.imageblock__content--blue,
 	&.imageblock__content--dark {
 		.display-3 {
@@ -138,6 +142,7 @@ a {
 .imageblock__headline {
 	color: #fff;
 	font-weight: normal;
+	margin-bottom: uikit-space( 0.7 );
 
 	.imageblock__content--white & {
 		color: $uikit-colour-Primary;
