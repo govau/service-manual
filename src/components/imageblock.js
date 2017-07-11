@@ -60,6 +60,11 @@ Imageblock.propTypes = {
 	reverse: PropTypes.bool,
 
 	/**
+	 * level: 2
+	 */
+	level: PropTypes.number,
+
+	/**
 	 * _body: (text)(4)
 	 */
 	_body: PropTypes.node.isRequired,

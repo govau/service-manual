@@ -5,8 +5,6 @@ import Slugify from 'slugify';
 
 /**
  * Imageblockevent for use on page
- *
- * @disable-docs
  */
 const Imageblockevent = ( page ) => {
 
@@ -36,21 +34,17 @@ const Imageblockevent = ( page ) => {
 							</div>
 
 							<div className={`eventblock eventblock--${ theme }`}>
-								<span className="eventblock__title">{ page.event.title }</span>
+								{ page.event.title && <span className="eventblock__title">{ page.event.title }</span> }
 
 								<div className="eventblock__datewrapper">
 									<svg className="eventblock__date__svg" role="img" title="Calendar date">
-										<use xlinkHref={`/assets/svg/map.svg#${
-											page._pages[ page._ID ].theme === 'light' || page._pages[ page._ID ].theme === 'white'
-												? 'calendar-dark'
-												: 'calendar'
-											}`}/>
+										<use xlinkHref='/assets/svg/map.svg#calendar' />
 									</svg>
 									<span className="eventblock__date">{ eventDate } - </span>
-									<span className="eventblock__location">{ page.event.location }</span>
+									{ page.event.location && <span className="eventblock__location">{ page.event.location }</span> }
 								</div>
 
-								<span className="eventblock__description">{ page.event.description }</span>
+								{ page.event.description && <span className="eventblock__description">{ page.event.description }</span> }
 							</div>
 
 							{ page._body }
@@ -66,12 +60,12 @@ const Imageblockevent = ( page ) => {
 
 Imageblockevent.propTypes = {
 	/**
-	 * text: https://via.placeholder.com/500x500
+	 * image: https://via.placeholder.com/500x500
 	 */
-	image: PropTypes.string,
+	image: PropTypes.string.isRequired,
 
 	/**
-	 * button: Content strategy
+	 * section: Content strategy
 	 */
 	section: PropTypes.string.isRequired,
 
@@ -83,7 +77,26 @@ Imageblockevent.propTypes = {
 	/**
 	 * reverse: true
 	 */
-	reverse: PropTypes.boolean,
+	reverse: PropTypes.bool,
+
+	/**
+	 * level: 2
+	 */
+	level: PropTypes.number,
+
+	/**
+	 * event:
+	 *   title: Introduction training on user research
+	 *   date: 2017-12-20
+	 *   location: Canberra
+	 *   description: Find out how to get started with user research.
+	 */
+	event: PropTypes.shape({
+		title: PropTypes.string,
+		date: PropTypes.instanceOf( Date ).isRequired,
+		location: PropTypes.string,
+		description: PropTypes.string,
+	}),
 
 	/**
 	 * _body: (text)(4)
@@ -93,7 +106,7 @@ Imageblockevent.propTypes = {
 
 
 Imageblockevent.defaultProps = {
-	level: '2'
+	level: 2
 };
 
 
