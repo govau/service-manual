@@ -4,13 +4,12 @@
 }
 
 .textblock__text {
-	counter-reset: large-bullets;
-
 	@media (min-width: 970px) {
 		float: left;
 	}
 
 	ol {
+		counter-reset: large-bullets;
 		list-style: none;
 		padding-left: 2.5em;
 
