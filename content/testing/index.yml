@@ -1,5 +1,5 @@
 title: Testing
-theme: dark
+theme: blue
 main:
   - /_shared/header.md
   - category-sections.md
@@ -11,6 +11,7 @@ main:
   - community-head.md
   - community.md
   - imageblock.md
+  - imageblockevent.md
 
 footer:
   - /_shared/legal-GDS.md
