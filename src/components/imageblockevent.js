@@ -20,6 +20,7 @@ const Imageblockevent = ( page ) => {
 						];
 
 	const eventDate = `${ date.getDay() } ${ monthNames[date.getMonth()] } ${ date.getFullYear() }`;
+	const HeadingTag = `h${ page.level }`;
 
 	return (
 		<div className={`imageblock imageblockevent imageblock--${ theme } ${ reverse } uikit-body uikit-grid`}>
@@ -31,7 +32,9 @@ const Imageblockevent = ( page ) => {
 							{ page.section && <h3 className="section__section intro__category" id={ Slugify( page.section ).toLowerCase() } >{ page.section }</h3> }
 
 							<div className="textwrapper">
-								<h1 className="imageblock__headline display-3">{ page.title ? page.title : page._pages[ page._ID ].title }</h1>
+								<HeadingTag className={ `imageblock__headline display-3` }>
+									{ page.title ? page.title : page._pages[ page._ID ].title }
+								</HeadingTag>
 							</div>
 
 							<div className={`eventblock eventblock--${ theme }`}>
@@ -84,7 +87,9 @@ Imageblockevent.propTypes = {
 };
 
 
-Imageblockevent.defaultProps = {};
+Imageblockevent.defaultProps = {
+	level: '2'
+};
 
 
 export default Imageblockevent;

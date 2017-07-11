@@ -1,5 +1,6 @@
 ---
 layout: components/imageblockevent
+level: 2
 image: https://via.placeholder.com/1500x1200
 section: Community
 title: Events

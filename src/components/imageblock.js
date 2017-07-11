@@ -13,6 +13,7 @@ const Imageblock = ( page ) => {
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 	const backgroundImage = page.image.startsWith('http') ? ` url('${ page.image }') ` : ` url('/assets/img/${ page.image }') `;
 	const reverse = page.reverse ? 'imageblock--reverse' : '';
+	const HeadingTag = `h${ page.level }`;
 
 
 	return (
@@ -23,7 +24,9 @@ const Imageblock = ( page ) => {
 						<div className={`imageblock__content imageblock__content--${ theme }`}>
 							{ page.section && <h3 className="section__section intro__category" id={ Slugify( page.section ).toLowerCase() } >{ page.section }</h3> }
 							<div className="textwrapper">
-								<h1 className="imageblock__headline display-3">{ page.title ? page.title : page._pages[ page._ID ].title }</h1>
+								<HeadingTag className={ `imageblock__headline display-3` }>
+									{ page.title ? page.title : page._pages[ page._ID ].title }
+								</HeadingTag>
 							</div>
 							{ page._body }
 						</div>
@@ -33,6 +36,8 @@ const Imageblock = ( page ) => {
 		</div>
 	);
 }
+
+
 
 
 Imageblock.propTypes = {
@@ -63,7 +68,9 @@ Imageblock.propTypes = {
 };
 
 
-Imageblock.defaultProps = {};
+Imageblock.defaultProps = {
+	level: '2'
+};
 
 
 export default Imageblock;

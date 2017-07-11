@@ -1,5 +1,6 @@
 ---
 layout: components/imageblock
+level: 2
 image: https://via.placeholder.com/1000x500
 section: Content strategy
 title: How do i get started
