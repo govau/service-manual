@@ -21,9 +21,9 @@ const Imageblock = ( page ) => {
 				<div className="container">
 					<div className="row">
 						<div className={`imageblock__content imageblock__content--${ theme }`}>
-							{ page.section && <span className="section__section intro__category" id={ Slugify( page.section ).toLowerCase() } >{ page.section }</span> }
+							{ page.section && <h3 className="section__section intro__category" id={ Slugify( page.section ).toLowerCase() } >{ page.section }</h3> }
 							<div className="textwrapper">
-								<h1 className="imageblock__headline">{ page.title ? page.title : page._pages[ page._ID ].title }</h1>
+								<h1 className="imageblock__headline display-3">{ page.title ? page.title : page._pages[ page._ID ].title }</h1>
 							</div>
 							{ page._body }
 						</div>
