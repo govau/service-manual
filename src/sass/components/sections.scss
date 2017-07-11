@@ -6,9 +6,12 @@
 }
 
 .section__section {
+	display: block;
 	text-transform: uppercase;
 	border-left: 2px solid $uikit-colour-Primary;
 	padding-left: 0.5em;
 	margin-top: 0;
+	margin-bottom: uikit-space( 0.75 );
 	font-weight: bold;
+	line-height: 1.2;
 }

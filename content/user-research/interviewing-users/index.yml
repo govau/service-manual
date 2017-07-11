@@ -1,0 +1,20 @@
+title: Interviewing users
+layout: layout/topic
+theme: blue
+main:
+  - /_shared/header.md
+  - intro.md
+  - sections.md
+  - meeting-head.md
+  - meeting.md
+  - planning-head.md
+  - planning.md
+  - designing-head.md
+  - designing.md
+  - doing-head.md
+  - doing.md
+  - observing-head.md
+  - observing.md
+footer:
+  - /_shared/legal-GDS.md
+  - /_shared/footer.md

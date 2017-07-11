@@ -1,0 +1,10 @@
+title: Testing
+theme: dark
+main:
+  - /_shared/header.md
+  - cards.md
+  - cards-category.md
+
+footer:
+  - /_shared/legal-GDS.md
+  - /_shared/footer.md
