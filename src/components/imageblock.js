@@ -37,12 +37,12 @@ const Imageblock = ( page ) => {
 
 Imageblock.propTypes = {
 	/**
-	 * text: https://via.placeholder.com/500x500
+	 * image: https://via.placeholder.com/500x500
 	 */
 	image: PropTypes.string,
 
 	/**
-	 * button: Content strategy
+	 * section: Content strategy
 	 */
 	section: PropTypes.string.isRequired,
 
@@ -54,7 +54,7 @@ Imageblock.propTypes = {
 	/**
 	 * reverse: true
 	 */
-	reverse: PropTypes.boolean,
+	reverse: PropTypes.bool,
 
 	/**
 	 * _body: (text)(4)

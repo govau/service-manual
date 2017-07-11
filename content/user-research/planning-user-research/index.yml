@@ -3,11 +3,22 @@ layout: layout/topic
 theme: blue
 main:
   - /_shared/header.md
-  - intro.md             # Planning user research
+  - intro.md
   - sections.md
-  - section1.md          # Meeting the Digital Service Standard
-  - textblock1.md
-  - textblock2.md
+  - meeting-head.md
+  - meeting.md
+  - who-head.md
+  - who.md
+  - plan-head.md
+  - plan.md
+  - plan-ahead-head.md
+  - plan-ahead.md
+  - involve-head.md
+  - involve.md
+  - share-head.md
+  - share.md
+  - where-head.md
+  - where.md
 footer:
   - /_shared/legal-GDS.md
   - /_shared/footer.md
