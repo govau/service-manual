@@ -39,7 +39,7 @@ const GlobalHeader = ({ page }) => {
 								</svg>
 								<span className="globalheader__logo__title">GOV.AU</span>
 							</div>
-							{ page.text && <span className="globalheader__text">{ page.text }</span> }
+							{ page.text && <span className="globalheader__headtext">{ page.text }</span> }
 							<a href="#global-header-content" className="globalheader__button js-globalheader">{ page.button }</a>
 						</div>
 					</div>
