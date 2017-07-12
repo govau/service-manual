@@ -1,14 +1,30 @@
 .banner {
 	color: #fff;
-	background: $uikit-colour-Primary;
+	background: url('/assets/img/dssbanner.png') no-repeat;
+	background-color: $uikit-colour-Primary;
+
+    background-position: right;
 	padding: uikit-space( 1.5 ) 0 uikit-space( 1.5 ) 0;
 	margin-top: -2em;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
 	@include uikit-media( xs ) {
-		padding: uikit-space( 1.5 ) 0 uikit-space( 2 ) 0;
+		background-size: cover;
 	}
+
+	@include uikit-media( sm ) {
+		background-size: contain;
+	}
+
+	@include uikit-media( md ) {
+		background-size: contain;
+	}
+
+	@include uikit-media( lg ) {
+		background-size: 55%;
+	}
+
 }
 
 .section__section {
@@ -25,14 +41,16 @@
 	}
 }
 
+
+
 .banner__box {
 	width: auto;
-	border: 1px solid white;
 	padding: uikit-space( 1 ) uikit-space( 1 ) uikit-space( 1 ) uikit-space( 1 );
 	margin: uikit-space( 1.2 ) auto 0 auto;
+	background: $uikit-colour-Primary;
 
 	@include uikit-media( sm ) {
-		padding: uikit-space( 1 ) uikit-space( 1 ) uikit-space( 0.3 ) uikit-space( 1 );
+		padding: uikit-space( 1 ) uikit-space( 1 ) uikit-space( 0.7 ) uikit-space( 1 );
 		margin: uikit-space( 3.1 ) auto 0 auto;
 		width: 75%;
 	}
@@ -44,9 +62,25 @@
 
 .banner__box__headline {
 	color: #fff;
+	font-weight: bold;
 }
 
 a.banner__box__link {
 	color: #fff;
 	border-bottom: 1px solid $uikit-colour-Link;
+	font-size: 1em;
+	display: inline;
+
+	&:after {
+		height: 0.7em;
+		width: 0.8em;
+		background-image: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+				<path fill="#fff" d="M128 64l-64 64-16-16 64-64"/>
+				<path fill="#fff" d="M128 64l-16 16-64-64L64 0"/>
+			</svg>');
+		background-repeat: no-repeat;
+		top: 1px;
+	    position: relative;
+	    margin: 0 0 0 uikit-space( 0.2 );
+	}
 }

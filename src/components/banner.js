@@ -24,7 +24,9 @@ const Banner = ( page ) => {
 						</div>
 
 						<div className="textwrapper">
-							{ page.description }
+							<div className="banner__description">
+								{ page.description }
+							</div>
 						</div>
 					</div>
 					<div className="col-md-6 col-sm-5">
