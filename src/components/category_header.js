@@ -60,28 +60,28 @@ const Categoryheader = ( page ) => {
 				<div className="container">
 					<div className="row">
 						<div className="col-md-12">
-							<img className="header__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`} />
-							<div className="header__text">
-								<strong className="header__text__headline">
-									{
-										page._pages[ page._ID ]['header-title']
-											? page._pages[ page._ID ]['header-title']
-											: 'Service Manual'
-									}
-								</strong>
+							<div className="category__header__subheader">
+								<img className="header__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`} />
+								<div className="header__text">
+									<strong className="header__text__headline">
+										{
+											page._pages[ page._ID ]['header-title']
+												? page._pages[ page._ID ]['header-title']
+												: 'Service Manual'
+										}
+									</strong>
 
-									{
-										breadcrumbs.length > 1
-											? <Breadcrumbs label="Breadcrumb for this page" items={ breadcrumbs } inverted={ theme === 'blue' || theme === 'dark' } />
-											: null
-									}
+										{
+											breadcrumbs.length > 1
+												? <Breadcrumbs label="Breadcrumb for this page" items={ breadcrumbs } inverted={ theme === 'blue' || theme === 'dark' } />
+												: null
+										}
+								</div>
+
+								<div className="category__header__menu">
+									<span className="menu">Menu</span>
+								</div>
 							</div>
-
-							<div className="category__header__menu">
-
-								<span className="menu">Menu</span>
-							</div>
-
 
 							<div className="textwrapper">
 								<div className="category__header__title">
