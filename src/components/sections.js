@@ -48,7 +48,7 @@ const Sections = ( page ) => {
 			<div className="container">
 				<div className="row">
 					<div className="col-md-12 js-sections">
-						<InpageNavLinks title="In this section" sections={ sections } />
+						<InpageNavLinks title="In this section" sections={ sections } title={ page.title } />
 					</div>
 				</div>
 			</div>
@@ -58,6 +58,11 @@ const Sections = ( page ) => {
 
 
 Sections.propTypes = {
+	/**
+	 * title: Contents
+	 */
+	title: PropTypes.string,
+
 	/**
 	 * sections:
 	 *   - First section
@@ -69,7 +74,9 @@ Sections.propTypes = {
 };
 
 
-Sections.defaultProps = {};
+Sections.defaultProps = {
+	title: 'Contents',
+};
 
 
 export default Sections;

@@ -4,9 +4,7 @@ import React from 'react';
 // LOCAL
 import GlobalHeader from './globalheader';
 /**
- * The partial component
- *
- * @disable-docs
+ * The category heading component
  */
 const CategoryHeadline = ( page ) => {
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';

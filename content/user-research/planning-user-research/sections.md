@@ -3,7 +3,7 @@ layout: components/sections
 sections:
   - Meeting the Digital Service Standard
   - Find out who your users are
-  - Plan for each stage
+  - Think about each stage
   - Plan ahead
   - Involve your team
   - Share your findings
