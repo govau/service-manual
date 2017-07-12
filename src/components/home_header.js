@@ -41,7 +41,7 @@ const Breadcrumbs = ({ inverted, label, items }) =>	(
 	</nav>
 );
 
-const Categoryheader = ( page ) => {
+const Homeheader = ( page ) => {
 
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 	const breadcrumbs = [];
@@ -56,7 +56,7 @@ const Categoryheader = ( page ) => {
 
 			<GlobalHeader page={ page } />
 
-			<div className={`category__header category__header--${ theme } header`}>
+			<div className={`home__header header`}>
 				<div className="container">
 					<div className="row">
 						<div className="col-md-12">
@@ -83,6 +83,12 @@ const Categoryheader = ( page ) => {
 								</div>
 							</div>
 
+							<div className="home__header__logo">
+								<svg className="home__header__logo__svg" role="img" title="Govau logo">
+									<use xlinkHref="/assets/svg/map.svg#govau_logo" />
+								</svg>
+							</div>
+
 							<div className="textwrapper">
 								<div className="header__title">
 									{ page.title }
@@ -100,7 +106,7 @@ const Categoryheader = ( page ) => {
 	);
 }
 
-Categoryheader.propTypes = {
+Homeheader.propTypes = {
 	/**
 	 * title:  User research
 	 */
@@ -113,7 +119,7 @@ Categoryheader.propTypes = {
 };
 
 
-Categoryheader.defaultProps = {};
+Homeheader.defaultProps = {};
 
 
-export default Categoryheader;
+export default Homeheader;
