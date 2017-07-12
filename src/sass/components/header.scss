@@ -13,6 +13,10 @@
 		color: #fff;
 	}
 
+	.uikit-link-list {
+		padding-top: 0;
+	}
+
 	.uikit-link-list.uikit-link-list--inverted {
 		background-color: transparent;
 	}
@@ -29,11 +33,11 @@
 }
 
 .header__text {
-	margin-left: 1em;
+	margin-left: 1.5em;
 }
 
 .header__text__headline {
 	display: inline-block;
-	font-size: 25px;
+	font-size: 1.4em;
 	margin-top: uikit-space( 0.25 );
 }

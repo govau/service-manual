@@ -77,6 +77,12 @@ const Categoryheader = ( page ) => {
 									}
 							</div>
 
+							<div className="category__header__menu">
+
+								<span className="menu">Menu</span>
+							</div>
+
+
 							<div className="textwrapper">
 								<div className="category__header__title">
 									{ page.title }
