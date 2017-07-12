@@ -32,7 +32,7 @@ const Banner = ( page ) => {
 					<div className="col-md-6 col-sm-5">
 						<div className="banner__box">
 							<h3 className="banner__box__headline display-1">{ page.boxHeading }</h3>
-							<a id={ page.linkText } className="banner__box__link uikit-cta-link" href={ `#${ page.linkUrl }` }>{ page.linkText }</a>
+							<a id={ page.linkText } className="banner__box__link uikit-cta-link" href={ `${ page.linkUrl }` }>{ page.linkText }</a>
 						</div>
 					</div>
 				</div>
@@ -51,13 +51,27 @@ Banner.propTypes = {
 	/**
 	 * title: Digital Service Standard
 	 */
-	title: PropTypes.string,
+	title: PropTypes.string.isRequired,
 
 	/**
 	 * description: The Digital Service Standard ensures digital teams build government services that are simple, clear and fast
 	 */
 	descrption: PropTypes.string,
 
+	/**
+	 * boxheading: What is the Digital Service Standard?
+	 */
+	boxHeading: PropTypes.string.isRequired,
+
+	/**
+	 * boxheading: What is the Digital Service Standard?
+	 */
+	linkText: PropTypes.string.isRequired,
+
+	 /**
+	  * linkurl: http://google.com
+	  */
+	linkUrl: PropTypes.string.isRequired,
 };
 
 

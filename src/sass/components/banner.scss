@@ -3,7 +3,7 @@
 	background: url('/assets/img/dssbanner.png') no-repeat;
 	background-color: $uikit-colour-Primary;
 
-    background-position: right;
+	background-position: right;
 	padding: uikit-space( 1.5 ) 0 uikit-space( 1.5 ) 0;
 	margin-top: -2em;
 	-webkit-font-smoothing: antialiased;
@@ -80,7 +80,7 @@ a.banner__box__link {
 			</svg>');
 		background-repeat: no-repeat;
 		top: 1px;
-	    position: relative;
-	    margin: 0 0 0 uikit-space( 0.2 );
+		position: relative;
+		margin: 0 0 0 uikit-space( 0.2 );
 	}
 }
