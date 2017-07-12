@@ -94,19 +94,16 @@ const Categoryheader = ( page ) => {
 	);
 }
 
-
 Categoryheader.propTypes = {
-	page: PropTypes.shape({
-		/**
-		 * title:  User research
-		 */
-		title: PropTypes.string.isRequired,
+	/**
+	 * title:  User research
+	 */
+	title: PropTypes.string.isRequired,
 
-		/**
-		 * description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-		 */
-		description: PropTypes.string.isRequired,
-	})
+	/**
+	 * description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+	 */
+	description: PropTypes.string.isRequired,
 };
 
 
