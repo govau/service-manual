@@ -81,7 +81,7 @@ const DSSSection = ( page ) => (
 						</ul>
 						<a className="dss-section__criteria__cta uikit-cta-link" href="https://www.dta.gov.au/standard/">Read the Criteria</a>
 					</div>
-					<h3 className="section__section dss-section__section">{ page.section }</h3>
+					<span className="section__section dss-section__section">{ page.section }</span>
 					<div className="dss-section__text">{ page._body }</div>
 				</div>
 			</div>

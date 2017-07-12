@@ -1,0 +1,22 @@
+title: Action your audit
+layout: layout/topic
+theme: blue
+main:
+  - /_shared/header.md
+  - intro.md             # Action your audit
+  - sections.md
+  - section1.md          # Action the data
+  - textblock1.md
+  - section2.md          # Report your findings
+  - textblock2.md
+  - section3.md          # Delete content
+  - textblock3.md
+  - section4.md          # Archive content
+  - textblock4.md
+  - section5.md          # Rewrite content
+  - textblock5.md
+  - section6.md          # Maintain content
+  - textblock6.md
+footer:
+  - /_shared/legal.md
+  - /_shared/footer.md
