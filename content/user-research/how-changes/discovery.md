@@ -26,6 +26,8 @@ This will help you to understand:
 
 Create a [user journey map](#) of the experience of the people who want to do the task your service provides.
 
+**[VISUAL EXAMPLE]**
+
 Do research to understand the real journey, not just the journey the business would like to think they have.
 
 ### [2]Examine existing data
@@ -52,9 +54,13 @@ From these activities you should get:
 - a list of research gaps or limitations of the current research and opportunities for further research
 - descriptions of different types of users and the characteristics that are significant for this service
 
+**[EXPLAIN MENTAL MODEL / alignment diagram]**
+
 ### [2]Combine personas with real stories
 
 Descriptions of users are often expressed as user profiles or personas. In general we prefer to use profiles combined with actual stories from users the team has met.
+
+**[BREAKOUT BOX maybe something from https://digitalservicestandardaus.tumblr.com/post/142050945483/empathy-wall-this-represents-all-of-the-empathy]**
 
 This tends to be more effective than developing personas, as empathy for an actual user is likely to be more authentic than empathy for a persona.
 
