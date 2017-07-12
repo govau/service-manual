@@ -15,4 +15,8 @@ Make sure you have space for a research wall, along with post-its, pens and acce
 
 Use the wall to highlight questions the team is exploring and share information about your research goals and findings.
 
-18F (US Government) have created [user research and design method cards](https://methods.18f.gov/) for each stage of delivering a service.
+If you need help identifying activities, [18F has quick reference guides to things you can do at each stage]((https://methods.18f.gov/).
+
+**FIX LINK**
+
+There are [user research and design method cards] (created by 18F) that show you .

@@ -4,10 +4,19 @@ subtitle: The kind of research you do with users changes depending on where you 
 category: User research
 ---
 
+The needs and goals of the users define the service.
+
+
 **[REVISIT]**
 
-At the beginning of the project it is important for the team to frame the service around the needs and goals of your users. This is why the [Discovery stage](#) is important.
 
+The work on the service should start with
+
+The team should start thinking about the service from the
+
+At the beginning the team should
+
+frame the service around the needs and goals of your users. This is why the [Discovery stage](#) is important.
 
 
 You will change the way you do user research as you move through Discovery, Alpha, Beta and Live.

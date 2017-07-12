@@ -1,6 +1,6 @@
 ---
 layout: components/textblock
-quote: Be prepared to throw ideas (and prototypes) away if they do not meet user needs.
+quote: Throw ideas and prototypes away if they don't meet user needs.
 ---
 
 In the Alpha stage, you try lots of different approaches to meet user needs and find out which approach works best.

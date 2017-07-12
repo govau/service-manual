@@ -18,7 +18,7 @@ You should identify hypothesises in your research. These are ideas about how you
 
 Use a structured approach to evaluation so you can be clear about what is working well and where there is more do to.
 
-Make sure you are doing accessibility testing with people who have access needs. Commission an external review of accessibility before you put the service into real beta.
+Make sure you do accessibility testing with people who have access needs. Commission an external review of accessibility before you put the service into a working beta.
 
 ### [2]2. Researching with users of a working beta service
 
