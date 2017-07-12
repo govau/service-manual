@@ -1,7 +1,7 @@
 title: Content auditing
-theme: light
+theme: dark
 main:
-  - /_shared/header.md
+  - category-header.md
   - intro.md
 footer:
   - /_shared/legal.md

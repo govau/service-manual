@@ -21,6 +21,7 @@ const headerContentClasses = {
  * @disable-docs
  */
 const GlobalHeader = ({ page }) => {
+
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 
 	return (

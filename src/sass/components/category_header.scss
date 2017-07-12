@@ -1,0 +1,33 @@
+.category__header {
+	background: $uikit-colour-Primary;
+	background-image: url('http://via.placeholder.com/1000x500');
+	background-repeat: no-repeat;
+	background-position: right;
+	color: #fff;
+	padding: uikit-space( 1.3 ) 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.header__logo {
+	.category__header & {
+		margin-bottom: uikit-space( 0.5 );
+	}
+}
+
+.category__header__title {
+	clear: left;
+	float: left;
+	font-size: 3.875em;
+	line-height: 1.2;
+	font-weight: bold;
+	margin-bottom: uikit-space( 0.1 );
+	position: relative;
+}
+
+.category__header__description {
+	clear: left;
+	float: left;
+	font-size: 1em;
+	position: relative;
+}

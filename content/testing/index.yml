@@ -1,10 +1,10 @@
 title: Testing
-theme: white
+theme: blue
 main:
-  - /_shared/header.md
-  - category-sections.md
-  - why.md
-  - guides-head.md
+  - category-header.md
+  #- category-sections.md
+  #- why.md
+  #- guides-head.md
   - guides.md
   - how-head.md
   - how.md
