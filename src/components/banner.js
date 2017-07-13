@@ -56,22 +56,27 @@ Banner.propTypes = {
 	/**
 	 * description: The Digital Service Standard ensures digital teams build government services that are simple, clear and fast
 	 */
-	descrption: PropTypes.string,
+	description: PropTypes.string,
 
 	/**
-	 * boxheading: What is the Digital Service Standard?
+	 * boxHeading: What is the Digital Service Standard?
 	 */
 	boxHeading: PropTypes.string.isRequired,
 
 	/**
-	 * boxheading: What is the Digital Service Standard?
+	 * linkText: What is the Digital Service Standard?
 	 */
 	linkText: PropTypes.string.isRequired,
 
 	 /**
-	  * linkurl: http://google.com
+	  * linkUrl: http://google.com
 	  */
 	linkUrl: PropTypes.string.isRequired,
+
+	/**
+	 * level: 2
+	 */
+	level: PropTypes.number
 };
 
 
