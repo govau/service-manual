@@ -81,7 +81,7 @@ Banner.propTypes = {
 
 
 Banner.defaultProps = {
-	level: '2'
+	level: 2
 };
 
 

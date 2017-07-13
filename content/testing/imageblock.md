@@ -1,11 +1,15 @@
 ---
 layout: components/imageblock
-level: 2
-image: https://via.placeholder.com/1000x500
+image: https://via.placeholder.com/500x500
 section: Content strategy
 title: How do i get started
-reverse: false
+reverse: true
 ---
-Sharebacks are a technique to bring back what we learnt from user research to the team. We can use it to quickly identify what’s working (green) and where there’s problems we still need to solve (in red and orange).
 
-What’s working (green) and where there’s problems we still need to solve (in red and orange).
+The year 1866 was signalised by a remarkable incident, a mysterious and puzzling phenomenon, which doubtless no one has yet forgotten. Not to mention rumours
+which agitated the maritime population and excited the public mind, even in the interior of continents, seafaring men were particularly excited. Merchants,
+common sailors, captains of vessels, skippers, both of Europe and America, naval officers of all countries, and the Governments of several States on the two
+continents, were deeply interested in the matter.
+
+For some time past vessels had been met by "an enormous thing," a long object, spindle-shaped, occasionally phosphorescent, and infinitely larger and more rapid
+in its movements than a whale...
