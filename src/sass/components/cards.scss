@@ -99,7 +99,13 @@
 	padding: 0;
 	display: flex;
 	flex-wrap: wrap;
+
+	.uikit-grid & {
+		padding: 0;
+		margin-bottom: 0;
+	}
 }
+
 
 .cards .cards__list > .cards__list__item {
 	margin-bottom: 1em;
