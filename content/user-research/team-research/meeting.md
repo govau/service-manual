@@ -10,6 +10,4 @@ The whole team should be involved in user research to meet the following criteri
 - [Criteria 12: Don’t forget the non-digital experience](https://www.dta.gov.au/standard/12-non-digital-experience/)
 - [Criteria 13: Encourage everyone to use the digital service](https://www.dta.gov.au/standard/13-encourage-use-of-the-digital-service/)
 
-You may have to explain how you did this in your service assessments.
-
 The [Digital Service Standard](https://www.dta.gov.au/standard/) guides teams to build services that are simpler, clearer and faster.
