@@ -12,9 +12,7 @@ You can do more of the same research as you you were doing in Alpha as you build
 
 Do task-based usability testing with a wide range of users.
 
-You should identify hypothesises in your research. These are ideas about how you think the design will meet a user need.
-
-**[BREAKOUT EXAMPLE / MICRO CASE STUDY ON DESIGN hypothesises]**
+You should identify hypotheses in your research. These are ideas about how you think the design will meet a user need.
 
 Use a structured approach to evaluation so you can be clear about what is working well and where there is more do to.
 

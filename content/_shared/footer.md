@@ -2,7 +2,7 @@
 layout: components/footer
 links:
   - user-research/team-sport
-  - user-research/how-changes
+  - user-research/research-stages
   - content-strategy/content-auditing/prove-the-value
   - homepage
   - content-strategy/content-auditing/plan-your-audit
