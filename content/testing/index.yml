@@ -2,9 +2,10 @@ title: Testing
 theme: dark
 main:
   - home-header.md
-  #- category-sections.md
-  #- why.md
-  #- guides-head.md
+  - banner.md
+ #- category-sections.md
+ #- why.md
+  - guides-head.md
   - guides.md
   - how-head.md
   - how.md

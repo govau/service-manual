@@ -1,15 +1,12 @@
 ---
 layout: components/textblock
-quote: Teams need to do ongoing research to understand the evolving needs of their service.
 ---
 
 Before you start to design anything, find out about your users so that you can understand how the service you’re designing can meet their needs.
 
-There are different ways to learn more about your users and their need.
-
 ### [2]Observe users
 
-Do contextual qualitative research to see how the users do things now and what problems or barriers they face.
+Watch how users do things now and what problems or barriers they face (contextual qualitative research).
 
 Don't use market research for this: we want to [find the users' real problems by observation](https://www.dta.gov.au/blog/i-want-a-pony/).
 
@@ -25,6 +22,8 @@ This will help you to understand:
 ### [2]Map the user journey
 
 Create a [user journey map](#) of the experience of the people who want to do the task your service provides.
+
+**[VISUAL EXAMPLE]**
 
 Do research to understand the real journey, not just the journey the business would like to think they have.
 
@@ -52,9 +51,13 @@ From these activities you should get:
 - a list of research gaps or limitations of the current research and opportunities for further research
 - descriptions of different types of users and the characteristics that are significant for this service
 
+**[EXPLAIN MENTAL MODEL / alignment diagram also explain SERVICE MAP]**
+
 ### [2]Combine personas with real stories
 
 Descriptions of users are often expressed as user profiles or personas. In general we prefer to use profiles combined with actual stories from users the team has met.
+
+**[BREAKOUT BOX maybe something from https://digitalservicestandardaus.tumblr.com/post/142050945483/empathy-wall-this-represents-all-of-the-empathy]**
 
 This tends to be more effective than developing personas, as empathy for an actual user is likely to be more authentic than empathy for a persona.
 
