@@ -1,7 +1,7 @@
 title: Testing
-theme: blue
+theme: dark
 main:
-  - /_shared/header.md
+  - home-header.md
   - banner.md
  #- category-sections.md
  #- why.md

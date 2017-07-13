@@ -1,0 +1,21 @@
+.home__header {
+	background: $uikit-colour-Primary--30;
+	color: #fff;
+	padding: uikit-space( 1.3 ) 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.home__header__logo {
+	margin: 0 0 uikit-space( 1 ) 0;
+}
+
+.home__header__logo__svg {
+	width: 155px;
+	height: 40px;
+
+	@include uikit-media( xs ) {
+		width: 215px;
+		height: 40px;
+	}
+}

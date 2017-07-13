@@ -1,7 +1,6 @@
 .imageblock {
 	background-color: $uikit-colour-Primary-90;
 	color: #fff;
-	margin-bottom: 2em;
 
 	@include uikit-media( sm ) {
 		padding: 0 0;
