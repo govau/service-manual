@@ -14,7 +14,7 @@ How to get support in your agency to do user research.
 [Planning user research](planning-user-research)
 How to create a user research plan.
 
-[User research is a team sport](team-sport)
+[Involve the team in research](team-research)
 Why everyone in the team needs to do user research.
 
 [Consent forms for research](#)
