@@ -22,10 +22,12 @@
 	}
 }
 
+
 .header__logo,
 .header__text {
 	float: left;
 }
+
 
 .header__logo {
 	margin-bottom: uikit-space( 0.5 );
@@ -36,9 +38,11 @@
 	}
 }
 
+
 .header__text {
 	margin-left: 1.5em;
 }
+
 
 .header__text__headline {
 	display: inline-block;
@@ -48,7 +52,6 @@
 	@include uikit-media( xs ) {
 		font-size: 1.4em;
 	}
-
 }
 
 
@@ -89,13 +92,14 @@
 	}
 }
 
+
 .header__title {
 	clear: left;
 	float: left;
 	font-size: 2.375em;
 	line-height: 1.2;
 	font-weight: bold;
-	margin-bottom: uikit-space( 0.1 );
+	margin-bottom: uikit-space( 0.3 );
 	position: relative;
 
 	@include uikit-media( xs ) {
@@ -103,9 +107,11 @@
 	}
 }
 
+
 .header__description {
 	clear: left;
 	float: left;
+	line-height: 1.2;
 	font-size: 1.125em;
 	position: relative;
 

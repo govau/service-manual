@@ -1,5 +1,5 @@
 title: Testing
-theme: blue
+theme: dark
 main:
   - home-header.md
   #- category-sections.md
