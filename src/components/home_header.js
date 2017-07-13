@@ -116,8 +116,32 @@ Homeheader.propTypes = {
 	 * description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 	 */
 	description: PropTypes.string.isRequired,
-};
 
+	/**
+	 * button: An official website
+	 */
+	button: PropTypes.string.isRequired,
+
+	/**
+	 * title1: The .gov.au means its official
+	 */
+	title1: PropTypes.string.isRequired,
+
+	/**
+	 * content1: Lorem ipsum dolor sit amet, vix civibus deserunt te, sit eu nulla discere consulatu, ei graeci consectetuer has.
+	 */
+	content1: PropTypes.string.isRequired,
+
+	/**
+	 * title2: This site is also protected by SSL
+	 */
+	title2: PropTypes.string.isRequired,
+
+	/**
+	 * content2: Lorem ipsum dolor sit amet, vix civibus deserunt te, sit eu nulla discere consulatu, ei graeci consectetuer has.
+	 */
+	content2: PropTypes.string.isRequired,
+};
 
 Homeheader.defaultProps = {};
 
