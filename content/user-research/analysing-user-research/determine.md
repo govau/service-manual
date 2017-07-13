@@ -1,6 +1,6 @@
 ---
 layout: components/textblock
-quote:
+quote: What's the problem that the user is experiencing?
 ---
 The final part of analysis involves reviewing the notes in each group to determine what the observations are telling you.
 
