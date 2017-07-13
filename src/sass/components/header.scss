@@ -46,7 +46,7 @@
 
 .header__text__headline {
 	display: inline-block;
- 	margin-top: uikit-space( 0.25 );
+	margin-top: uikit-space( 0.25 );
 	font-size: 1.1em;
 
 	@include uikit-media( xs ) {
@@ -80,11 +80,11 @@
 
 	.menu {
 		top: 22px;
-	    position: relative;
-	    font-size: 0.7em;
-	    text-align: center;
-	    margin: 0 auto;
-	    display: block;
+		position: relative;
+		font-size: 0.7em;
+		text-align: center;
+		margin: 0 auto;
+		display: block;
 	}
 
 	@include uikit-media( xs ) {
