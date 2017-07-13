@@ -6,6 +6,11 @@
 	&.header--blue {
 		background-color: $uikit-colour-Primary;
 		color: #fff;
+		background: $uikit-colour-Primary; /* Old browsers */
+		background: -moz-linear-gradient(left, $uikit-colour-Primary--40 0%, $uikit-colour-Primary--40 7%, $uikit-colour-Primary--40 44%, $uikit-colour-Primary 78%, $uikit-colour-Primary 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left, $uikit-colour-Primary--40 0%,$uikit-colour-Primary--40 7%,$uikit-colour-Primary--40 44%,$uikit-colour-Primary 78%,$uikit-colour-Primary 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right, $uikit-colour-Primary--40 0%,$uikit-colour-Primary--40 7%,$uikit-colour-Primary--40 44%,$uikit-colour-Primary 78%,$uikit-colour-Primary 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$uikit-colour-Primary--40}', endColorstr='#{$uikit-colour-Primary}',GradientType=1 ); /* IE6-9 */
 	}
 
 	&.header--dark {
