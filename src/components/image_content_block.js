@@ -36,7 +36,7 @@ const ImageContentblock = ( page ) => {
 		<div className={`imagecontentblock imagecontentblock--${ theme } uikit-body uikit-grid`}>
 			<div className="container">
 				<div className="row">
-					<div className="col-md-6"> { page.reverse }
+					<div className="col-md-6">
 						{ page.reverse ? image : content }
 					</div>
 					<div className="col-md-6">
@@ -89,8 +89,7 @@ ImageContentblock.propTypes = {
 
 ImageContentblock.defaultProps = {
 	level: 2,
-	imageAlt: ''
-
+	imageAlt: '',
 };
 
 
