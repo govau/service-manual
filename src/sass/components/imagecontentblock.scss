@@ -11,6 +11,11 @@
 	@include uikit-media( sm ) {
 		margin-bottom: uikit-space( 1.25 );
 	}
+
+	&.imagecontentblock--white {
+		background-color: #fff;
+		color: $uikit-colour-Text;
+	}
 }
 
 
@@ -20,8 +25,11 @@
 	margin-bottom: uikit-space( 0.7 );
 	line-height: 1.2;
 
-	.imagecontentblock__content--white & {
-		color: $uikit-colour-Primary;
+
+	&.display-3 {
+		.imagecontentblock--white & {
+			color: $uikit-colour-Text;
+		}
 	}
 }
 

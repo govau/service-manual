@@ -1,5 +1,5 @@
 title: Testing
-theme: dark
+theme: white
 main:
   - home-header.md
   - banner.md
