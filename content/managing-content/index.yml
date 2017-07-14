@@ -1,0 +1,18 @@
+title: Managing content
+theme: blue
+main:
+  - /_shared/header.md
+  - intro.md
+  - category_sections.md
+  - why-head.md
+  - intro2.md
+  - why.md
+  - how-head.md
+  - imageblock1.md
+  - guides-head.md
+  - guides-cards.md
+  - support-head.md
+  - support.md
+footer:
+  - /_shared/legal.md
+  - /_shared/footer.md
