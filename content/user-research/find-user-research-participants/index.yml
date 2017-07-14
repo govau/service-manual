@@ -13,6 +13,8 @@ main:
   - brief.md
   - bias-heading.md
   - bias.md
+  - pop-up-heading.md
+  - pop-up.md
   - case-heading.md
   - case.md
 footer:
