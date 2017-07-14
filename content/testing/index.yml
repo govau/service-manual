@@ -1,9 +1,10 @@
 title: Testing
-theme: blue
+theme: white
 main:
-  - /_shared/header.md
-  - category-sections.md
-  - why.md
+  - home-header.md
+  - banner.md
+ #- category-sections.md
+ #- why.md
   - guides-head.md
   - guides.md
   - how-head.md
@@ -12,6 +13,8 @@ main:
   - community.md
   - imageblock.md
   - imageblockevent.md
+  - feedback.md
+  - imagecontentblock.md
 
 footer:
   - /_shared/legal-GDS.md

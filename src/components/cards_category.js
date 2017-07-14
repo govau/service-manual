@@ -27,6 +27,8 @@ const CardsCategory = ( page ) => (
 					))
 				}
 			</ul>
+
+			{ page.cardsLink && <a className="uikit-cta-link" href={ `${ page.cardsLink.url }` }>{ page.cardsLink.text }</a> }
 		</div>
 	</div>
 );
@@ -53,6 +55,18 @@ CardsCategory.propTypes = {
 	 *     background: rebeccapurple
 	 */
 	cards: PropTypes.array.isRequired,
+
+	cardsLink: PropTypes.shape({
+		/**
+		 * text: View more
+		 */
+		text: PropTypes.string.isRequired,
+
+		/**
+		 * url: /content-strategy/content-auditing
+		 */
+		url: PropTypes.string.isRequired
+	})
 };
 
 

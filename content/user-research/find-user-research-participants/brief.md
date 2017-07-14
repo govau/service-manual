@@ -1,7 +1,9 @@
 ---
 layout: components/textblock
-quote: You should make it clear that you welcome participants with access needs and low digital skills.
+quote: Don't forget to include participants with access needs and low digital skills.
 ---
+
+You should do the user research yourself so that you build empathy with the users and you **[[INCLUDE CONTENT ABOUT AVOIDING OTHERS' BIAS]] https://www.dta.gov.au/blog/i-want-a-pony/ **.
 
 A recruitment brief is a set of instructions sent to an agency for recruiting user research participants.
 

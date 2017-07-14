@@ -63,4 +63,19 @@ renderer.link = ( href, title, text ) => {
 };
 
 
+/**
+ * Pre-parse function
+ *
+ * @param  {string} markdown - The markdown coming from our partials
+ *
+ * @return {string}          - The markdown after we’re finished with it
+ */
+renderer.preparse = ( markdown ) => {
+	return markdown
+		.replace(/\—/g, '<span class="markdown-mdash">&mdash;</span>')
+		.replace(/\–/g, '<span class="markdown-ndash">&ndash;</span>')
+		.replace(/\.\.\./g, '<span class="markdown-ellipsis">&hellip;</span>');
+};
+
+
 module.exports = renderer;

@@ -72,7 +72,7 @@ Imageblock.propTypes = {
 
 
 Imageblock.defaultProps = {
-	level: '2'
+	level: 2
 };
 
 

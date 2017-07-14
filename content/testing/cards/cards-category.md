@@ -42,4 +42,7 @@ cards:
     text: How to work in an agile way: principles, tools and governance.
     link: '#url'
     background: rebeccapurple
+cardsLink:
+    text: View all
+    url: /testing
 ---
