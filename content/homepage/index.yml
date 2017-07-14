@@ -1,4 +1,5 @@
 title: Homepage
+theme: dark
 main:
   - /_shared/header.md
   - body.md

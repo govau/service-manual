@@ -1,7 +1,7 @@
 .header {
 	overflow: hidden;
 	padding: 2em 0;
-	margin-bottom: 2em;
+	margin-bottom: uikit-space( 1.25 );
 
 	&.header--blue {
 		background-color: $uikit-colour-Hero;

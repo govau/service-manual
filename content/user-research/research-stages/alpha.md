@@ -1,9 +1,14 @@
 ---
 layout: components/textblock
-quote: Throw ideas and prototypes away if they don't meet user needs.
+quote: Throw away ideas and prototypes if they don't meet user needs.
 ---
 
 In the Alpha stage, you try lots of different approaches to meet user needs and find out which approach works best.
+
+This is an important stage and you should make sure you have budget for it. The Alpha stage will help you reduce the risks around:
+- design — making sure you get the right scope for the service
+- business processes — finding out if government can deliver the service
+- technical — being sure you can integrate the service and make it secure
 
 ### [2]Work out what works, not what's popular
 
