@@ -1,0 +1,51 @@
+.imagecontentblock {
+	padding: uikit-space( 1.55 ) 12px uikit-space( 1.55 ) 12px;
+	background-color: $uikit-colour-Primary-90;
+	color: #fff;
+
+	@include uikit-media( xs ) {
+		color: #fff;
+	}
+}
+
+
+.imagecontentblock__headline {
+	color: #fff;
+	font-weight: normal;
+	margin-bottom: uikit-space( 0.7 );
+	line-height: 1.2;
+
+	.imagecontentblock__content--white & {
+		color: $uikit-colour-Primary;
+	}
+}
+
+
+.imagecontentblock__content {
+	height: 100%;
+
+	@include uikit-media( sm ) {
+		padding: 0 12px 0 12px;
+		margin: auto;
+		float: left;
+	}
+
+	.section__section {
+		margin-bottom: uikit-space( 1.5 );
+	}
+
+	&.imagecontentblock__content--blue,
+	&.imagecontentblock__content--dark {
+		.display-3 {
+			color: #fff;
+		}
+	}
+}
+
+.imagecontentblock__image {
+	margin: 0;
+}
+
+.imagecontentblock__image__caption {
+	font-size: 0.875em;
+}

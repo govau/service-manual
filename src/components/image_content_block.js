@@ -1,0 +1,90 @@
+import PropTypes from 'prop-types';
+import React from 'react';
+
+import Slugify from 'slugify';
+
+/**
+ * The Imageblock component
+ */
+const ImageContentblock = ( page ) => {
+
+	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
+	const imageSrc = page.image.startsWith('http') ? `${ page.image }` : `/assets/img/${ page.image }`;
+
+	const HeadingTag = `h${ page.level }`;
+
+	const content = (
+		<div className={`imagecontentblock__content imagecontentblock__content--${ theme }`}>
+			{ page.section && <span className="section__section intro__category" id={ Slugify( page.section ).toLowerCase() } >{ page.section }</span> }
+			<div className="textwrapper">
+				<HeadingTag className={ `imageblockcontent__headline display-3` }>
+					{ page.title ? page.title : page._pages[ page._ID ].title }
+				</HeadingTag>
+			</div>
+			{ page._body }
+		</div>
+	);
+
+	const image = (
+		<figure className="imagecontentblock__image">
+		  <img src={ imageSrc } alt={ page.imageAlt } />
+		  <figcaption className="imagecontentblock__image__caption">Caption: { page.caption }</figcaption>
+		</figure>
+	);
+
+	return (
+		<div className={`imagecontentblock imagecontentblock--${ theme } uikit-body uikit-grid`}>
+			<div className="container">
+				<div className="row">
+					<div className="col-md-6"> { page.reverse }
+						{ page.reverse ? image : content }
+					</div>
+					<div className="col-md-6">
+						{ page.reverse ? content : image }
+					</div>
+				</div>
+			</div>
+		</div>
+	);
+}
+
+
+ImageContentblock.propTypes = {
+	/**
+	 * image: https://via.placeholder.com/500x500
+	 */
+	image: PropTypes.string,
+
+	/**
+	 * section: Content strategy
+	 */
+	section: PropTypes.string.isRequired,
+
+	/**
+	 * title: How do i get started
+	 */
+	title: PropTypes.string,
+
+	/**
+	 * reverse: true
+	 */
+	reverse: PropTypes.bool,
+
+	/**
+	 * level: 2
+	 */
+	level: PropTypes.number,
+
+	/**
+	 * _body: (text)(4)
+	 */
+	_body: PropTypes.node.isRequired,
+};
+
+
+ImageContentblock.defaultProps = {
+	level: 2
+};
+
+
+export default ImageContentblock;
