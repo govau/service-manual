@@ -1,3 +1,11 @@
 title: Going live and maintaining the service
 layout: layout/topic
 theme: blue
+main:
+  - /_shared/header.md
+  - cards.md
+  - cards-category.md
+
+footer:
+  - /_shared/legal-GDS.md
+  - /_shared/footer.md
