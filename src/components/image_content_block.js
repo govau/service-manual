@@ -56,11 +56,6 @@ ImageContentblock.propTypes = {
 	image: PropTypes.string,
 
 	/**
-	 * section: Content strategy
-	 */
-	section: PropTypes.string.isRequired,
-
-	/**
 	 * title: How do i get started
 	 */
 	title: PropTypes.string,
@@ -69,6 +64,16 @@ ImageContentblock.propTypes = {
 	 * reverse: true
 	 */
 	reverse: PropTypes.bool,
+
+	/**
+	 * imageAlt: this is an image
+	 */
+	imageAlt: PropTypes.string,
+
+	/**
+	 * caption :An example of an affinity mapping session in action.
+	 */
+	caption: PropTypes.string,
 
 	/**
 	 * level: 2
@@ -83,7 +88,9 @@ ImageContentblock.propTypes = {
 
 
 ImageContentblock.defaultProps = {
-	level: 2
+	level: 2,
+	imageAlt: ''
+
 };
 
 
