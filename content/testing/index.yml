@@ -13,6 +13,7 @@ main:
   - community.md
   - imageblock.md
   - imageblockevent.md
+  - imagecontentblock.md
 
 footer:
   - /_shared/legal-GDS.md

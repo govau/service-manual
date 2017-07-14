@@ -4,6 +4,8 @@ import React from 'react';
 
 // LOCAL
 import GlobalHeader from './globalheader';
+
+
 /**
  * The Category header component
  */
