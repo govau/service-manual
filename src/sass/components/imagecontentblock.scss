@@ -6,6 +6,10 @@
 	@include uikit-media( xs ) {
 		color: #fff;
 	}
+
+	@include uikit-media( sm ) {
+		margin-bottom: uikit-space( 1.25 );
+	}
 }
 
 
