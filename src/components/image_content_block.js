@@ -92,6 +92,7 @@ ImageContentblock.propTypes = {
 ImageContentblock.defaultProps = {
 	level: 2,
 	imageAlt: '',
+	reverse: false,
 };
 
 
