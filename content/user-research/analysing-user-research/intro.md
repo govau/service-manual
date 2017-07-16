@@ -13,4 +13,4 @@ You need to filter, organise and interpret this data so you can produce useful a
 
 Follow your [user research plan](#) and keep asking yourself 'What's the problem that the user is experiencing?'.
 
-Read [how user research changes](/user-research/how-changes/) through the Discovery to Live stages.
+Read [how user research changes](/user-research/research-stages/) through the Discovery to Live stages.

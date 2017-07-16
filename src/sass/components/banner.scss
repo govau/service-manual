@@ -15,6 +15,7 @@
 
 	@include uikit-media( sm ) {
 		background-size: contain;
+		margin-bottom: uikit-space( 1.25 );
 	}
 
 	@include uikit-media( md ) {

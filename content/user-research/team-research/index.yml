@@ -9,6 +9,8 @@ main:
   - meeting.md
   - everyone-head.md          # Meeting the Digital Service Standard
   - everyone.md
+  - how-head.md
+  - how.md
   - case-head.md
   - case.md
 footer:

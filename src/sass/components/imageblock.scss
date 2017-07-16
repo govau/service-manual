@@ -3,7 +3,8 @@
 	color: #fff;
 
 	@include uikit-media( sm ) {
-		padding: 0 0;
+		padding: 0;
+		margin-bottom: uikit-space( 1.25 );
 	}
 }
 

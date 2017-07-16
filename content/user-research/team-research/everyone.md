@@ -1,11 +1,10 @@
 ---
 layout: components/textblock
-quote: All team members should watch real users interacting with your service and talking about it, ideally for at least 2 hours every 6 weeks.
 ---
 
 User experience is everyone in the team’s responsibility.
 
-Team members that see users interacting with their service, have empathy with users. Those team members then have insight into what the team is trying to achieve. This happens in their individual discipline work as well as specific work on the service.
+Team members that see users interacting with their service and  have empathy with users. Those team members then have insight into what the team is trying to achieve. This happens in their individual discipline work as well as specific work on the service.
 
 Participation in user research helps your team:
 - understand what people experience when using your service
