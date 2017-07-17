@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 // LOCAL
-import Navigation from './nav';
+import Navigation from './nav/nav';
 
 
 /**
@@ -43,4 +43,3 @@ Childnav.defaultProps = {};
 
 
 export default Childnav;
-
