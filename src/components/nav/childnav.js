@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 // LOCAL
-import Navigation from './nav/nav';
+import Navigation from './nav';
 
 
 /**
