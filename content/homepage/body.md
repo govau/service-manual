@@ -2,8 +2,6 @@
 title: Body
 ---
 
-Currently in development 🐣 🚀 👷 💻
-
 <!-- # headline 1
 ## headline 2
 ### headline 3
@@ -18,10 +16,5 @@ Currently in development 🐣 🚀 👷 💻
 #### [6]headl(on 6)ine 4
 ##### [4]headlin[e 5 on 4
 ###### [5]headli[n]e 6 on 5
-
-testing...
-testing gitFlow
-it was a success!
-Love you Trebzzzz
 
 [link](http://url) -->
