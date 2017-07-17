@@ -6,10 +6,10 @@ title: Events
 reverse: true
 level: 2
 event:
-title: Introduction training on user research
-date: 2017-12-20
-location: Canberra
-description: Find out how to get started with user research.
+  title: Introduction training on user research
+  date: 2017-12-20
+  location: Canberra
+  description: Find out how to get started with user research.
 ---
 
 ## [3]Join the service design community
