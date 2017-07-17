@@ -1,5 +1,6 @@
 ---
 layout: components/textblock
+section: When
 ---
 
 You should do user research in every iteration of every development stage — starting in Discovery and continuing throughout Live.
