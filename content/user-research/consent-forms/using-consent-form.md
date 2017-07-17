@@ -2,7 +2,7 @@
 layout: components/textblock
 ---
 
-You should start [interviews with users](#) by explaining the purpose of the research and showing them the consent form.
+You should start [interviews with users](/user-research/interviewing-users) by explaining the purpose of the research and showing them the consent form.
 
 You should explain to the participant that they have a choice about what they wish to consent to, and get permission before starting any form of recording (audio, visual and written).
 
