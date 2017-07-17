@@ -63,7 +63,7 @@ ImageContentblock.propTypes = {
 	title: PropTypes.string,
 
 	/**
-	 * reverse: true
+	 * reverse: false
 	 */
 	reverse: PropTypes.bool,
 
