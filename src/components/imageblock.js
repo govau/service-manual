@@ -36,8 +36,6 @@ const Imageblock = ( page ) => {
 }
 
 
-
-
 Imageblock.propTypes = {
 	/**
 	 * image: https://via.placeholder.com/500x500
