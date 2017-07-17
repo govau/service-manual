@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: text/textblock
 ---
 
 Before you can do user research you need to get the consent of the user.

@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: text/textblock
 ---
 
 A ‘qualitative evaluation’ helps to decide whether the content supports a user need when they interact with government.

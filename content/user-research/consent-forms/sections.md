@@ -1,5 +1,5 @@
 ---
-layout: components/sections
+layout: nav/sections
 sections:
   - Meeting the Digital Service Standard
   - Get consent before you research

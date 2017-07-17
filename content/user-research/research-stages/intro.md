@@ -1,5 +1,5 @@
 ---
-layout: components/intro
+layout: intros/intro
 subtitle: The kind of user research you do changes depending on where you are in the service design and delivery process.
 category: User research
 ---

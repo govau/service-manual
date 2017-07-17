@@ -1,5 +1,5 @@
 ---
-layout: components/sections
+layout: nav/sections
 sections:
   - Identify stakeholders
   - Get agreement

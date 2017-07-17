@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: text/textblock
 ---
 
 When you set up a new service team you need to make sure everyone in the team understands why user research is important.

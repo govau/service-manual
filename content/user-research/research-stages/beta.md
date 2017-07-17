@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: text/textblock
 ---
 
 There are two different research stages in Beta:

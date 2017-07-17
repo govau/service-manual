@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: text/textblock
 ---
 
 Sometimes you may have to start work without having access to a full-time user researcher. You should make it a priority to get this resource as soon as you can.

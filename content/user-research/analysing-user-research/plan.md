@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: text/textblock
 ---
 Invite anyone who observed the user research to take part in the analysis session. You should do analysis as soon as you can after each round of research, while it is still fresh in people’s minds.
 

@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: text/textblock
 ---
 
 Some content will require rework. It’s important to think about this as you’re analysing the content.

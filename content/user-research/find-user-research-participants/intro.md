@@ -1,5 +1,5 @@
 ---
-layout: components/intro
+layout: intros/intro
 subtitle: Recruit current or future potential users of the service.
 category: User research
 ---

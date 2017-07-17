@@ -1,5 +1,5 @@
 ---
-layout: components/dss-section
+layout: other/dss-section
 dss:
   - 1
   - 2

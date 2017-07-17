@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: text/textblock
 ---
 You normally do in-depth interviews with 1 user at a time. You can also speak to people in pairs or small groups if they use a service together (for example, family members who help each other, or members of a team who work together on tasks).
 

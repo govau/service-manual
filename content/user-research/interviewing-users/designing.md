@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: text/textblock
 quote: Write questions that are open and neutral.
 ---
 To create an interview structure:

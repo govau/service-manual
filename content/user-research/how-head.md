@@ -1,5 +1,5 @@
 ---
-layout: components/category_section
+layout: category/category_section
 section: How
 title: Get started
 ---

@@ -1,5 +1,5 @@
 ---
-layout: components/cards
+layout: cards/cards
 cards:
   - headline: Getting support for user research
     text: How to get support in your agency to do user research.

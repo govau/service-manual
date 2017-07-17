@@ -1,5 +1,5 @@
 ---
-layout: components/imageblockevent
+layout: blocks/imageblockevent
 image: https://via.placeholder.com/500x500
 section: Support
 title: Events

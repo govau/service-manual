@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 // LOCAL
-import Childnav from './childnav';
+import Childnav from '../nav/childnav';
 
 
 /**

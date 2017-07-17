@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 // LOCAL
-import GlobalHeader from './globalheader';
+import GlobalHeader from '../structure/globalheader';
 /**
  * The category heading component
  */
