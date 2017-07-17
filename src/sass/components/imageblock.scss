@@ -95,8 +95,10 @@
 
 	&.imageblock__content--blue,
 	&.imageblock__content--dark {
-		.display-3 {
-			color: #fff;
+		@for $i from 1 through 6 {
+		  .display-#{$i} {
+			  color: #fff;
+		  }
 		}
 	}
 }

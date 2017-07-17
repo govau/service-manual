@@ -27,7 +27,6 @@ const IntroNav = ( page ) => {
 						<div className="textwrapper intro__textwrapper__withnav">
 							<div className="intro__text">{ page._body }</div>
 						</div>
-
 					</div>
 				</div>
 			</div>
