@@ -1,5 +1,15 @@
 ---
-layout: components/textblock
+layout: components/imageblockevent
+image: https://via.placeholder.com/500x500
+section: Support
+title: Events
+reverse: true
+level: 2
+event:
+  title: Introduction training on user research
+  date: 2017-12-20
+  location: Canberra
+  description: Find out how to get started with user research.
 ---
 
 ## [3]Join the service design community
