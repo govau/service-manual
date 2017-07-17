@@ -1,5 +1,5 @@
 ---
-layout: components/text/textblock
+layout: text/textblock
 ---
 You can use your findings to make decisions about what to work on, change or research next. This supports the agile method of planning continuously based on new facts or requirements.
 

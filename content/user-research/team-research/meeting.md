@@ -1,5 +1,5 @@
 ---
-layout: components/text/textblock
+layout: text/textblock
 ---
 
 The whole team should be involved in user research to meet the following criteria:

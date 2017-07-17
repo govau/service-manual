@@ -1,5 +1,5 @@
 ---
-layout: components/other/404
+layout: other/404
 ---
 
 Sorry but we were unable to find the page you are looking for.

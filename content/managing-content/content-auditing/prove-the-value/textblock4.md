@@ -1,5 +1,5 @@
 ---
-layout: components/text/textblock
+layout: text/textblock
 ---
 
 Your manager or stakeholder may be unaware of how your website stacks up against best practice benchmarks, whole-of-government requirements (for example, accessibility) and similar government sites.

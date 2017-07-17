@@ -1,5 +1,5 @@
 ---
-layout: components/text/textblock
+layout: text/textblock
 ---
 
 To decide on the scope and type of content audit, you'll need to consider:

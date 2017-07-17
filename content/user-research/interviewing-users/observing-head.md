@@ -1,4 +1,4 @@
 ---
-layout: components/nav/section
+layout: nav/section
 section: Taking notes and observing
 ---

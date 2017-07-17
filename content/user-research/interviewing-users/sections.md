@@ -1,5 +1,5 @@
 ---
-layout: components/nav/sections
+layout: nav/sections
 sections:
   - Meeting the Digital Service Standard
   - Planning research sessions

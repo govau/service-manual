@@ -1,4 +1,4 @@
 ---
-layout: components/nav/section
+layout: nav/section
 section: Checking the data
 ---

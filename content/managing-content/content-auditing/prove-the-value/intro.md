@@ -1,5 +1,5 @@
 ---
-layout: components/intros/intro_with_nav
+layout: intros/intro_with_nav
 subtitle: One of the first questions you may be asked when pitching a content audit project, is what the return on investment will be.
 category: Content strategy
 ---

@@ -1,4 +1,4 @@
 ---
-layout: components/category_headline
+layout: category_headline
 title: Testing
 ---

@@ -1,5 +1,5 @@
 ---
-layout: components/text/textblock
+layout: text/textblock
 quote: Try to stay quiet — the more you talk, the less your participant will talk.
 ---
 Once you’ve started the session and the participant is settled:

@@ -1,4 +1,4 @@
 ---
-layout: components/intros/intro
+layout: intros/intro
 subtitle: How we handle information about you.
 ---

@@ -1,5 +1,5 @@
 ---
-layout: components/category/category_section
+layout: category/category_section
 section: How
 title: Our tools
 ---

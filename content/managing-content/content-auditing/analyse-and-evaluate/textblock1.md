@@ -1,5 +1,5 @@
 ---
-layout: components/text/textblock
+layout: text/textblock
 ---
 
 Work with nominated content owners or subject matter experts to review content for its accuracy, currency and any specialist meaning, policy intent and legal requirements. As you go through, ask questions such as:

@@ -1,5 +1,5 @@
 ---
-layout: components/text/textblock
+layout: text/textblock
 quote: Throw away ideas and prototypes if they don't meet user needs.
 ---
 

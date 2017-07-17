@@ -1,5 +1,5 @@
 ---
-layout: components/text/textblock
+layout: text/textblock
 quote: We force people to learn how government is structured to do what they need to do.
 ---
 

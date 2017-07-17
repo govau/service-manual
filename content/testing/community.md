@@ -1,5 +1,5 @@
 ---
-layout: components/text/textblock
+layout: text/textblock
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt dicta est veritatis, fugiat praesentium, numquam quaerat porro animi, nisi non eius.

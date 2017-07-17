@@ -1,5 +1,5 @@
 ---
-layout: components/text/textblock
+layout: text/textblock
 ---
 
 When you service reaches the Live stage you need to keep researching to make sure it is still meeting the needs of the users. It also tells you how to improve the service.

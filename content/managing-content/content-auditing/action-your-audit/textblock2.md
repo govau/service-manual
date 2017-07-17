@@ -1,5 +1,5 @@
 ---
-layout: components/text/textblock
+layout: text/textblock
 ---
 
 Reporting on your audit can allow you to illustrate some important points around your content to get internal stakeholder support for actioning the data. For example:

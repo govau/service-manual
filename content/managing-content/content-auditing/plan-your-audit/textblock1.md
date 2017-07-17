@@ -1,5 +1,5 @@
 ---
-layout: components/text/textblock
+layout: text/textblock
 ---
 
 Some websites can change over time or get hijacked by similar websites under the same policy.

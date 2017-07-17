@@ -1,5 +1,5 @@
 ---
-layout: components/text/textblock
+layout: text/textblock
 quote: Don't forget to include participants with access needs and low digital skills.
 ---
 

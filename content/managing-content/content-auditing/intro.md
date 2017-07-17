@@ -1,5 +1,5 @@
 ---
-layout: components/intros/intro_with_nav
+layout: intros/intro_with_nav
 subtitle: With millions of gov.au web pages currently live, we need to reduce the clutter so that our users can find and do what they need. A content audit is where we begin.
 category: Content Strategy
 ---

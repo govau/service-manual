@@ -1,5 +1,5 @@
 ---
-layout: components/dss-section
+layout: dss-section
 section: Why
 dss:
   - 1

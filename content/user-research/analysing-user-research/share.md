@@ -1,5 +1,5 @@
 ---
-layout: components/text/textblock
+layout: text/textblock
 quote:
 ---
 

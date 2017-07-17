@@ -1,5 +1,5 @@
 ---
-layout: components/text/textblock
+layout: text/textblock
 ---
 
 Every user research session is different. You need to think about all of the kinds of information you may need to capture during the research and adjust the consent form to include this (for example, the user may be sharing artifacts that contain their address and details of disability).

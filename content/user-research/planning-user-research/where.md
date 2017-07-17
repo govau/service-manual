@@ -1,5 +1,5 @@
 ---
-layout: components/text/textblock
+layout: text/textblock
 ---
 
 When you plan what kind of research you want to do, choose a location that works for the participants and that kind of research.

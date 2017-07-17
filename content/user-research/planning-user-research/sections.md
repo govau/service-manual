@@ -1,5 +1,5 @@
 ---
-layout: components/nav/sections
+layout: nav/sections
 sections:
   - Meeting the Digital Service Standard
   - Find out who your users are

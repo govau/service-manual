@@ -1,5 +1,5 @@
 ---
-layout: components/intros/intro
+layout: intros/intro
 category: Service design and delivery process
 title: Own the whole user experience
 subtitle: A service may have multiple products built by different teams — you need a service manager who understands and owns the whole user experience.

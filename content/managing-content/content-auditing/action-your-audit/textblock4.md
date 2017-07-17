@@ -1,5 +1,5 @@
 ---
-layout: components/text/textblock
+layout: text/textblock
 ---
 
 In other instances you may need to decide on how best to retain content for archiving. The tasks involved may vary, for example:

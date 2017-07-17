@@ -1,5 +1,5 @@
 ---
-layout: components/structure/home_header
+layout: structure/home_header
 title: Service manual
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 button: An official website

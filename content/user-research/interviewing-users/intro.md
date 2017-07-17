@@ -1,5 +1,5 @@
 ---
-layout: components/intros/intro
+layout: intros/intro
 category: User research
 title: Interviewing users
 subtitle: Interviews are a technique to help you learn more about users and their experience, how they use a service and what they need from it.

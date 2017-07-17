@@ -1,5 +1,5 @@
 ---
-layout: components/text/textblock
+layout: text/textblock
 ---
 
 Think about what skills you might need and if you can use anyone in your existing team.  

@@ -1,5 +1,5 @@
 ---
-layout: components/text/textblock
+layout: text/textblock
 ---
 
 Using your website’s purpose as a focus, try to articulate a high-level goal for the audit. For example if you were auditing a health campaign website your goal could be to make it easier for a person to find information on a certain sport.

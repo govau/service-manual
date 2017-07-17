@@ -1,5 +1,5 @@
 ---
-layout: components/text/textblock
+layout: text/textblock
 ---
 
 Audits have proven success and there are also benefits to your internal stakeholders.
