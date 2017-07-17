@@ -25,8 +25,18 @@
 	border-right: 1px solid #fff;
 	vertical-align: middle;
 
+	.uikit-body & {
+		color: #fff;
+		border-bottom: 0;
+
+		&:hover {
+			color: $uikit-colour-Text;
+		}
+	}
+
 	.globalheader--light & {
 		border-color: $uikit-colour-Text;
+		color: $uikit-colour-Text;
 	}
 }
 

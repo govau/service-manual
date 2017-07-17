@@ -4,7 +4,3 @@ subtitle: User research helps you to learn about users and create services that 
 category: User research
 childnavtitle: lorem ipsum
 ---
-
-**[VIDEO]**
-
-Read [What is user research? transcript](#).

@@ -9,7 +9,7 @@ dss:
   - 13
 section: Why
 ---
-
+### [3]Why should you do user research?
 To deliver a service that meets your users’ needs, you have to understand:
 - who your likely users are
 - what they’re trying to do

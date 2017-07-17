@@ -30,7 +30,7 @@ const GlobalHeader = ({ page }) => {
 				<div className="container">
 					<div className="row">
 						<div className="col-md-12">
-							<div className="globalheader__logo">
+							<a href="/" className="globalheader__logo">
 								<svg className="globalheader__logo__svg" role="img" title="The Commonwealth Star">
 									<use xlinkHref={`/assets/svg/map.svg#${
 										page._pages[ page._ID ].theme === 'light' || page._pages[ page._ID ].theme === 'white'
@@ -39,7 +39,7 @@ const GlobalHeader = ({ page }) => {
 										}`}/>
 								</svg>
 								<span className="globalheader__logo__title">GOV.AU</span>
-							</div>
+							</a>
 							{ page.text && <span className="globalheader__headtext">{ page.text }</span> }
 							<a href="#global-header-content" className="globalheader__button js-globalheader">{ page.button }</a>
 						</div>

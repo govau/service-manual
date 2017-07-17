@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg">
 	<symbol id="star" viewBox="0 0 22 22">
 		<title>The Commonwealth Star</title>
-		<path fill="#fff" fill-rule="evenodd" d="M11 0L8.553 6.36 2.178 4.356l3.322 5.93-5.5 3.86 6.59 1.035L6.103 22 11 17.36 15.895 22l-.483-6.82L22
+		<path fill="currentColor" fill-rule="evenodd" d="M11 0L8.553 6.36 2.178 4.356l3.322 5.93-5.5 3.86 6.59 1.035L6.103 22 11 17.36 15.895 22l-.483-6.82L22
 			14.148l-5.5-3.862 3.322-5.928-6.374 2.002"/>
 	</symbol>
 	<symbol id="star-dark" viewBox="0 0 22 22">

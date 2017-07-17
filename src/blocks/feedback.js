@@ -4,8 +4,6 @@ import React from 'react';
 
 /**
  * The Feedback component to be used after all content blocks
- *
- * @disable-docs
  */
 const Feedback = ( page ) => (
 	<div className="uikit-body uikit-grid feedback">
@@ -26,7 +24,7 @@ const Feedback = ( page ) => (
 Feedback.propTypes = {
 
 	/**
-	 * caption: This is the first release of Gov.au Service Manual. We’d love to know what’s missing or could be done better
+	 * caption: This is the first release of Gov.au Service Manual. We'd love to know what's missing or could be done better
 	 */
 	caption: PropTypes.string.isRequired,
 

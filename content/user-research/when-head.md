@@ -1,4 +1,5 @@
 ---
-layout: nav/section
-section: When do you do user research?
+layout: category/category_section
+section: When
+title: When do you do user research?
 ---
