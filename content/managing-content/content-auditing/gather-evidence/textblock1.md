@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: text/textblock
 ---
 
 Use a spreadsheet to manually create a complete list of data. This could include pages, documents, applications and videos – see the content audit template under Tools for examples of what to include.

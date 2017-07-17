@@ -1,5 +1,5 @@
 ---
-layout: components/cards
+layout: cards/cards
 cards:
   - headline: Step 1. Prove the value
     text: One of the first questions you may be asked when pitching a content audit project, is what the return on investment     will be.

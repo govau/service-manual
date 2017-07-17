@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: text/textblock
 ---
 
 If web editors don’t know who stakeholders or page owners are you could run an internal survey. Your survey should ask people to indicate whether they need to have input into a particular page.

@@ -8,7 +8,7 @@ import Card from './card';
 /**
  * The partial component
  */
-const CardsCategory = ( page ) => (
+const Cards = ( page ) => (
 	<div className={`uikit-body uikit-grid cards`}>
 		<div className="container">
 			<ul className="row cards__list">
@@ -34,7 +34,7 @@ const CardsCategory = ( page ) => (
 );
 
 
-CardsCategory.propTypes = {
+Cards.propTypes = {
 	/**
 	 * cards:
 	 *   - image: http://via.placeholder.com/350x150
@@ -67,7 +67,7 @@ CardsCategory.propTypes = {
 };
 
 
-CardsCategory.defaultProps = {};
+Cards.defaultProps = {};
 
 
-export default CardsCategory;
+export default Cards;

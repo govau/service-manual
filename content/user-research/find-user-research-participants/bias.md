@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: text/textblock
 ---
 
 It’s hard to recruit an unbiased sample of user research participants. This is because you’re likely to include some people and exclude others depending on:

@@ -6,7 +6,6 @@
 	-moz-osx-font-smoothing: grayscale;
 
 	@include uikit-media( sm ) {
-		padding: 0;
 		margin-bottom: uikit-space( 1.25 );
 	}
 }

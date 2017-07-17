@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: text/textblock
 ---
 
 A content audit is a collaborative exercise where everyone works together for the common goal of better meeting user needs.
