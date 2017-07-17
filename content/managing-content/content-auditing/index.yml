@@ -1,0 +1,10 @@
+title: Content auditing
+theme: dark
+main:
+  - /_shared/header.md
+  - intro.md
+  - how-audit.md
+  - how-audit-articles.md
+footer:
+  - /_shared/legal.md
+  - /_shared/footer.md

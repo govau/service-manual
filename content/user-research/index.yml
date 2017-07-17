@@ -10,8 +10,8 @@ main:
   - when.md
   - how-head.md
   - how.md
-  - support-head.md
+  - guides.md
+  - cstudies.md
   - support.md
 footer:
-  - /_shared/legal-GDS.md
   - /_shared/footer.md

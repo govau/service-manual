@@ -36,7 +36,7 @@ This can reveal new issues and provide quantitative evidence for qualitative ins
 
 It's better to review previous user research after you have conducted your own primary research to avoid bias.
 
-No matter how much research has previously been done, [the team needs to do their own research]((http://www.andybudd.com/archives/2017/05/the_real_value_of_original_research/)) to help build a direct understanding and empathy for the user and their needs.
+No matter how much research has previously been done, [the team needs to do their own research](http://www.andybudd.com/archives/2017/05/the_real_value_of_original_research/) to help build a direct understanding and empathy for the user and their needs.
 
 ### [2]What you'll find out in Discovery
 

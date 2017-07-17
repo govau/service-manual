@@ -3,8 +3,21 @@ layout: layout/topic
 theme: blue
 main:
   - /_shared/header.md
-  - cards.md
-  - cards-category.md
+  - intro.md             
+  - sections.md
+  - meeting-heading.md
+  - meeting.md
+  - how-buy-in-head.md
+  - how-buy-in.md
+  - plan-continual-head.md
+  - plan-continual.md
+  - whole-team-head.md
+  - whole-team.md
+  - extra-support-head.md
+  - extra-support.md
+  - case-heading.md
+  - case.md
+
 
 footer:
   - /_shared/legal-GDS.md

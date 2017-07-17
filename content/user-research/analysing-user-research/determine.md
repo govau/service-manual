@@ -16,7 +16,7 @@ Caption: examples of user research insights on cards.
 
 ‘We print out insights from user research so the team can constantly be referring back to what we’ve learned from our users as we design the service.’ — User researcher
 
-You should write findings as short statements that summarise what you’ve learned, for example:
+Write findings as short statements that summarise what you’ve learned, for example:
 - ‘The legal declaration is threatening and difficult to understand.’
 - ‘People think they can click the progress bar to navigate.’
 - ‘Users are confused about what’s required because so many questions are optional.’

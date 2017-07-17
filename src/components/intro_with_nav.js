@@ -25,9 +25,9 @@ const IntroNav = ( page ) => {
 						{ page && <Childnav page={ page } /> }
 
 						<div className="textwrapper intro__textwrapper__withnav">
+							{ page.subtitle && <p className="intro__subtitle">{ page.subtitle }</p> }
 							<div className="intro__text">{ page._body }</div>
 						</div>
-
 					</div>
 				</div>
 			</div>
