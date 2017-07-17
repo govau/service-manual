@@ -1,5 +1,5 @@
 ---
-layout: components/cards
+layout: components/cards/cards
 cards:
   - image: http://via.placeholder.com/350x150
     headline: Agile delivery

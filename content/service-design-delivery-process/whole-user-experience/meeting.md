@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 
 Planning your research will help you meet the following criteria:

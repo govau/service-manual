@@ -1,8 +1,8 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 
-This is a specific form of user research where researchers go into the field and intercept people in context for short interviews or usability tests. Commonly known as ‘guerilla testing’, we prefer the term ‘pop-up’ as guerilla indicates that the research is unauthorised by the agency and we’d like to get your agency on board with research. 
+This is a specific form of user research where researchers go into the field and intercept people in context for short interviews or usability tests. Commonly known as ‘guerilla testing’, we prefer the term ‘pop-up’ as guerilla indicates that the research is unauthorised by the agency and we’d like to get your agency on board with research.
 
 Pop-up research works best when you have clear, simple objectives (for example, you want to see if people can find certain guidance or provide specific information).
 

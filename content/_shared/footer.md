@@ -1,5 +1,5 @@
 ---
-layout: components/footer
+layout: components/structure/footer
 links:
   - user-research/team-research
   - user-research/research-stages

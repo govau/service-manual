@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 
 You need to be able to analyse your user research to meet the following criteria:

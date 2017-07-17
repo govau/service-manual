@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 Follow these steps to gather observations:
 1. Hand out sticky notes (use just one colour).

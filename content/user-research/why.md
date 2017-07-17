@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 
 To deliver a service that meets your users’ needs, you have to understand:

@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 quote: Allow the research plan to evolve in response to what you learn in each round.
 ---
 

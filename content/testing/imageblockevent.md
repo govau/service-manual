@@ -1,5 +1,5 @@
 ---
-layout: components/imageblockevent
+layout: components/blocks/imageblockevent
 level: 2
 image: https://via.placeholder.com/1500x1200
 section: Community

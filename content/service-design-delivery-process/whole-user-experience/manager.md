@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 quote: The service manager makes sure each product works together to give the user a consistent experience.
 ---
 

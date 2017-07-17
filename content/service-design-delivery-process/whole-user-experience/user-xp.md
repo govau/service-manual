@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 
 A user journey is the series of processes and touchpoints that the user needs to go through to complete the service. Different users could go through similar user journeys but may have completely different user experiences.

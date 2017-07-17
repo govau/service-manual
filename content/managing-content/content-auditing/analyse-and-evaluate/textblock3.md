@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 
 Use data from web analytics tools to measure, rate, test and evaluate content. This can include things like page views, bounce rate, page referral, search referral, new vs return visitors, and user feedback.

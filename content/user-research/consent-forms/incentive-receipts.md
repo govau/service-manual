@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 
 Consent forms and [incentive receipts](#) are separate parts of the research process.

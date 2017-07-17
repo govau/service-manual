@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 
 Your website should be maintained and updated to continue to be useful for the user throughout the content lifecycle.

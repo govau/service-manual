@@ -1,5 +1,5 @@
 ---
-layout: components/imageblock
+layout: components/blocks/imageblock
 image: http://via.placeholder.com/350x150
 section: Content strategy
 title: How do i get started

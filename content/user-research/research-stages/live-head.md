@@ -1,4 +1,4 @@
 ---
-layout: components/section
+layout: components/nav/section
 section: Researching when your service is live
 ---

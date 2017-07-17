@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 
 Learn how to [get support for doing user research](#) and then [develop a plan](#). Find out why [everyone in the team does user research](team-sport).

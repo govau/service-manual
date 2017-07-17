@@ -1,5 +1,5 @@
 ---
-layout: components/sections
+layout: components/nav/sections
 sections:
   - Purpose of the website
   - Articulate a goal

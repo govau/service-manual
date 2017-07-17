@@ -1,5 +1,5 @@
 ---
-layout: components/intro
+layout: components/intros/intro
 subtitle: How to understand your user research and use insights to build the right service.
 category: User research
 ---

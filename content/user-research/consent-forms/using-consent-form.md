@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 
 You should start [interviews with users](#) by explaining the purpose of the research and showing them the consent form.

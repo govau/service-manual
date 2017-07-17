@@ -1,5 +1,5 @@
 ---
-layout: components/cards
+layout: components/cards/cards
 cards:
   - headline: GOV.AU Content Guide
     text: A guide to help Australian Government teams design simple, clear and fast content.

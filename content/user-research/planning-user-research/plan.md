@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 
 At the beginning of each stage of the [service design and delivery process](#), you must work as a team to:
