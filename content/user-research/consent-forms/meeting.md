@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 You need to make sure you have informed consent from your users to do user research. You must do user research to meet the following criteria:
 

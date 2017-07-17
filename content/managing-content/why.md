@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 
 All content created should be governed by a content strategy, with the proper framework in place you’ll be able to:

@@ -1,5 +1,5 @@
 ---
-layout: components/sections
+layout: components/nav/sections
 sections:
   - Is it current, accurate and complete?
   - Content quality check

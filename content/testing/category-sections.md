@@ -1,5 +1,5 @@
 ---
-layout: components/category_sections
+layout: components/category/category_sections
 sections:
   - Why
   - How

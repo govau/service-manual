@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 To build services that are complete and reflect the whole user experience we need to [start with needs: user needs, not government needs](https://www.dta.gov.au/standard/design-principles/#start-with-needs-user-needs-not-government-needs).
 

@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 quote: Be careful about using a laptop to take notes — this may be distracting and make the participant uncomfortable.
 ---
 The interview will usually have a note taker, and maybe 1 or more observers. If you are not taking notes you should just watch and listen.

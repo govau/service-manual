@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 
 You must do user research when designing and building your service to meet the following criteria:

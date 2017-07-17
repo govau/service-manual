@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 
 You can dial-back the scope of the audit and strategically select areas for focus.

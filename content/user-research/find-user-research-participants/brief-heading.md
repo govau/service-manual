@@ -1,4 +1,4 @@
 ---
-layout: components/section
+layout: components/nav/section
 section: Write a recruitment brief
 ---

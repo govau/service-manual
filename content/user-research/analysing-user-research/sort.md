@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 
 Once they’ve written down their observations, ask your team members to place their sticky notes on a wall and start sorting them into similar themes.You can group by:

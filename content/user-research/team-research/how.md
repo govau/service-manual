@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 quote: At least 2 hours every 6 weeks.
 ---
 

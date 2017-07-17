@@ -1,10 +1,10 @@
 ---
-layout: components/sections
+layout: components/nav/sections
 sections:
   - Action the data
-  - Report your findings 
-  - Delete content 
-  - Archive content 
+  - Report your findings
+  - Delete content
+  - Archive content
   - Rewrite content
-  - Maintain content 
+  - Maintain content
 ---

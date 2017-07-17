@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 
 To show costs and efficiencies it helps to identify what it costs your agency to:

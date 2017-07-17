@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 Follow these steps to gather observations:
 1. Hand out sticky notes. You can use the colour of sticky notes strategically. For example, red to note pain points, green for notes about what works well. 

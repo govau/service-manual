@@ -1,5 +1,5 @@
 ---
-layout: components/sections
+layout: components/nav/sections
 sections:
   - Meeting the Digital Service Standard
   - User research in Discovery stage

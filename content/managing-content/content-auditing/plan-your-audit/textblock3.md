@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 
 To decide on the scope and type of content audit, you'll need to consider:
@@ -9,7 +9,7 @@ To decide on the scope and type of content audit, you'll need to consider:
 
 ### [1]Types of audit
 
-- Full 
+- Full
 All content items on the website - pages and other items like downloadable files or videos
 - Partial
 For example, the past 6 months of content, or content about a certain topic

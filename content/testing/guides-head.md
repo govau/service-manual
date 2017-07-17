@@ -1,5 +1,5 @@
 ---
-layout: components/category_section
+layout: components/category/category_section
 section: Guides
 title: We got you covered
 ---

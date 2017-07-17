@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: components/text/textblock
 ---
 
 Now that you've gathered the evidence on why you need a content audit, your plan should outline:

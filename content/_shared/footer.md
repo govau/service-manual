@@ -1,5 +1,5 @@
 ---
-layout: components/footer
+layout: components/structure/footer
 links:
   - homepage
   - privacy-statement
