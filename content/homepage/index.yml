@@ -1,8 +1,10 @@
-title: Homepage
+title: GOV.AU
 theme: dark
 main:
-  - /_shared/header.md
+  - header.md
+  - dss.md
+  - categories-head.md
+  - categories.md
   - body.md
 footer:
-  - /_shared/legal.md
   - /_shared/footer.md
