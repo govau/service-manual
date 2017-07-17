@@ -4,7 +4,6 @@ main:
   - /_shared/header.md
   - intro.md
   - sections.md
-  - why-head.md
   - why.md
   - when-head.md
   - when.md
