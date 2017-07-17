@@ -1,0 +1,63 @@
+.display-1 {
+	font-size: 28px;
+	color: $uikit-colour-Text;
+	font-weight: normal;
+	line-height: 1.2;
+	margin-top: 0;
+}
+
+.display-2 {
+	font-size: 32px;
+	color: $uikit-colour-Primary;
+	font-weight: normal;
+	line-height: 1.2;
+	margin-top: 0;
+}
+
+.display-3 {
+	font-size: 32px;
+	color: $uikit-colour-Primary;
+	font-weight: normal;
+	line-height: 1.2;
+	margin-top: 0;
+
+	@include uikit-media( xs ) {
+		font-size: 48px;
+	}
+}
+
+.display-4 {
+	font-size: 48px;
+	color: $uikit-colour-Primary;
+	font-weight: normal;
+	line-height: 1.2;
+	margin-top: 0;
+
+	@include uikit-media( xs ) {
+		font-size: 64px;
+	}
+}
+
+.display-5 {
+	font-size: 64px;
+	color: $uikit-colour-Primary;
+	font-weight: normal;
+	line-height: 1.2;
+	margin-top: 0;
+
+	@include uikit-media( xs ) {
+		font-size: 80px;
+	}
+}
+
+.display-6 {
+	font-size: 80px;
+	color: $uikit-colour-Primary;
+	font-weight: normal;
+	line-height: 1.2;
+	margin-top: 0;
+
+	@include uikit-media( xs ) {
+		font-size: 96px;
+	}
+}

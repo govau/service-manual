@@ -1,0 +1,18 @@
+title: Analyse and evaluate
+layout: layout/topic
+theme: blue
+main:
+  - /_shared/header.md
+  - intro.md             # Analyse and evaluate
+  - sections.md
+  - section1.md          # Is it current, accurate and complete?
+  - textblock1.md
+  - section2.md          # Content quality check
+  - textblock2.md
+  - section3.md          # Checking the data
+  - textblock3.md
+  - section4.md          # Tools
+  - textblock4.md
+footer:
+  - /_shared/legal.md
+  - /_shared/footer.md

@@ -1,0 +1,17 @@
+title: User research
+theme: blue
+main:
+  - /_shared/header.md
+  - intro.md
+  - sections.md
+  - why-head.md
+  - why.md
+  - when-head.md
+  - when.md
+  - how-head.md
+  - how.md
+  - support-head.md
+  - support.md
+footer:
+  - /_shared/legal-GDS.md
+  - /_shared/footer.md

@@ -1,0 +1,33 @@
+.eventwrapper {
+	margin: uikit-space( 2 ) 0;
+}
+
+.eventblock__title {
+	border-bottom: 1px solid $uikit-colour-Link;
+	margin-bottom: uikit-space( 0.6 );
+	display: inline-block;
+}
+
+.eventblock__date {
+	position: relative;
+	top: 3px;
+}
+
+.eventblock__location {
+	position: relative;
+	top: 3px;
+}
+
+.eventblock__datewrapper {
+	font-weight: bold;
+	padding: 0;
+	height: 60px;
+}
+
+.eventblock__date__svg {
+	height: uikit-space( 1.6 );
+	width: uikit-space( 1.6 );
+	margin-right: uikit-space( 0.7 );
+	vertical-align: middle;
+	display: inline-block;
+}

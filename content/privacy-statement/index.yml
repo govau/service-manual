@@ -1,0 +1,7 @@
+title: Privacy statement
+main:
+  - /_shared/header.md
+  - intro.md
+  - body.md
+footer:
+  - /_shared/footer.md

@@ -1,0 +1,24 @@
+title: Planning user research
+layout: layout/topic
+theme: blue
+main:
+  - /_shared/header.md
+  - intro.md
+  - sections.md
+  - meeting-head.md
+  - meeting.md
+  - who-head.md
+  - who.md
+  - plan-head.md
+  - plan.md
+  - plan-ahead-head.md
+  - plan-ahead.md
+  - involve-head.md
+  - involve.md
+  - share-head.md
+  - share.md
+  - where-head.md
+  - where.md
+footer:
+  - /_shared/legal-GDS.md
+  - /_shared/footer.md

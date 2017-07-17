@@ -1,0 +1,18 @@
+title: User research is a team sport
+layout: layout/topic
+theme: blue
+main:
+  - /_shared/header.md
+  - intro.md             # Synthesizing user research
+  - sections.md
+  - meeting-head.md
+  - meeting.md
+  - everyone-head.md          # Meeting the Digital Service Standard
+  - everyone.md
+  - how-head.md
+  - how.md
+  - case-head.md
+  - case.md
+footer:
+  - /_shared/legal-GDS.md
+  - /_shared/footer.md

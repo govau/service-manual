@@ -1,0 +1,20 @@
+title: Prove the value
+layout: layout/topic
+theme: blue
+main:
+  - /_shared/header.md
+  - intro.md             # Prove the value
+  - sections.md
+  - section1.md          # Benefits of a content audit
+  - textblock1.md
+  - section2.md          # Align your strategy with agency priorities
+  - textblock2.md
+  - section3.md          # Show the costs and inefficiencies
+  - textblock3.md
+  - section4.md          # Compare yours with similar government sites
+  - textblock4.md
+  - section5.md          # Get direct user feedback to build empathy with the users
+  - textblock5.md
+footer:
+  - /_shared/legal.md
+  - /_shared/footer.md

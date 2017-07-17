@@ -1,0 +1,20 @@
+title: Gather evidence
+layout: layout/topic
+theme: blue
+main:
+  - /_shared/header.md
+  - intro.md             # Gather evidence
+  - sections.md
+  - section1.md          # Start a spreadsheet
+  - textblock1.md
+  - section2.md          # Categorise the data
+  - textblock2.md
+  - section3.md          # Assign owners
+  - textblock3.md
+  - section4.md          # Next steps
+  - textblock4.md
+  - section5.md          # Tools
+  - textblock5.md
+footer:
+  - /_shared/legal.md
+  - /_shared/footer.md
