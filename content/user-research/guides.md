@@ -1,5 +1,5 @@
 ---
-layout: components/cards
+layout: cards/cards
 cards:
   - image: http://via.placeholder.com/350x150
     headline: Getting support for user research
@@ -44,7 +44,9 @@ cards:
   - image: http://via.placeholder.com/350x150
     headline: Reporting on user research
     text: Guide to come
+    link: ''
   - image: http://via.placeholder.com/350x150
     headline: Moderated usability testing
     text: Guide to come
+    link: ''
 ---

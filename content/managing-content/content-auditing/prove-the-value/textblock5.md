@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: text/textblock
 ---
 
 Your website is often the first thing about you that people notice – and first impressions last.

@@ -1,4 +1,4 @@
 ---
-layout: components/section
+layout: nav/section
 section: Government services and products
 ---

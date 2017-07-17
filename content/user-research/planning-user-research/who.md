@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: text/textblock
 ---
 
 The first part of user research on a service is [identifying the users and their needs](/user-research/identifying-users-needs/).

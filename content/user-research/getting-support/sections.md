@@ -1,5 +1,5 @@
 ---
-layout: components/sections
+layout: nav/sections
 sections:
   - Meeting the Digital Service Standard
   - How to get buy-in for user research

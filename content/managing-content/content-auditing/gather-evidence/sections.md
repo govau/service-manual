@@ -1,5 +1,5 @@
 ---
-layout: components/sections
+layout: nav/sections
 sections:
   - Start a spreadsheet
   - Categorise the data

@@ -1,5 +1,5 @@
 ---
-layout: components/sections
+layout: nav/sections
 sections:
   - Benefits of a content audit
   - Align your strategy with agency priorities

@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: text/textblock
 quote: What works is more important than what people prefer.
 ---
 

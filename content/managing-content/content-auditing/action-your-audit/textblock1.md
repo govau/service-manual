@@ -1,5 +1,5 @@
 ---
-layout: components/textblock
+layout: text/textblock
 ---
 
 Once you have agreement from your stakeholders, use the data in your spreadsheet combined with research and knowledge of users to make content decisions.

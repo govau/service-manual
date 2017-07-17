@@ -1,4 +1,4 @@
 ---
-layout: components/section
+layout: nav/section
 section: Pop-up research
 ---

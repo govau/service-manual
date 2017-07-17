@@ -1,5 +1,5 @@
 ---
-layout: components/legalterms
+layout: text/legalterms
 ---
 
 **License & copyright**

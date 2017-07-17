@@ -1,4 +1,4 @@
 ---
-layout: components/section
+layout: nav/section
 section: Plan to research continually
 ---

@@ -1,5 +1,5 @@
 ---
-layout: components/intro
+layout: intros/intro
 subtitle: How to show the value of user research and get support in your agency.
 category: User research
 ---

@@ -1,5 +1,5 @@
 ---
-layout: components/category_header
+layout: category_header
 title: Testing
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 button: An official website
