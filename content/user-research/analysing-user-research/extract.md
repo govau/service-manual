@@ -2,13 +2,13 @@
 layout: components/textblock
 ---
 Follow these steps to gather observations:
-1. Hand out sticky notes (use just one colour).
-2. Ask people to review their notes and write down anything interesting or relevant that they saw or heard during the session.
-3. If you have recordings, make them available so people can confirm their observations and get verbatim quotes.
+1. Hand out sticky notes. You can use the colour of sticky notes strategically. For example, red to note pain points, green for notes about what works well. 
+2. Ask people to review the notes they took during the research and write down anything interesting or relevant that they saw or heard during the session on the sticky notes.
+3. If you have recordings, you can make them available so people can confirm their observations and get verbatim quotes.
 4. Tell the group to use a single note for each observation and write exactly what they saw or heard (for example, quotes or observed behaviour), not what they think it means. This way, the notes will be unbiased and can represent the voice of the user.
 
 ### [2]Capturing observations during research sessions
 
 If your team is experienced and you’re doing research in a lab, they may be able to capture their observations on sticky notes during the session itself.
 
-This only works for lab-based sessions because it’s difficult with most research methods to know which observations are important until you’ve reviewed all the data.
+If you go into a session wanting to capture 1 main thing, you might be able to capture that straight onto sticky notes during the research session. For example, if you only want verbatims, you can capture these straight onto sticky notes during the sessions. 

@@ -3,9 +3,7 @@ layout: components/textblock
 ---
 You can use your findings to make decisions about what to work on, change or research next. This supports the agile method of planning continuously based on new facts or requirements.
 
-As a group, discuss if there are any obvious actions you want to take. Write these on a third colour sticky note and add it to the relevant group.
-
-These might include:
+As a group, discuss if there are any obvious actions you want to take. Write these on a third colour sticky note and add it to the relevant group on your affinity map. Actions might include:
 - new design ideas to work on
 - new questions to include in user research
 - things you want to change in a prototype and test in another research session
