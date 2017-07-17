@@ -1,4 +1,4 @@
 ---
 layout: components/section
-section: Think about each stage
+section: Plan ahead
 ---
