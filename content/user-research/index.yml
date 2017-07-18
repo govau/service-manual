@@ -14,5 +14,6 @@ main:
   - guides.md
   - cstudies.md
   - support.md
+  - feedback.md
 footer:
   - /_shared/footer.md

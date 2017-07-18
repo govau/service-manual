@@ -15,12 +15,15 @@ main:
   - extract.md
   - sort-head.md
   - sort.md
+  - affinity.md
   - determine-head.md
   - determine.md
+  - insights.md
   - decide-head.md
   - decide.md
   - share-head.md
   - share.md
+  - shareback.md
 footer:
   - /_shared/legal-GDS.md
   - /_shared/footer.md
