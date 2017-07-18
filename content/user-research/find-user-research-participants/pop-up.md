@@ -4,7 +4,7 @@ image: pop-up-research.jpg
 title: Pop-up research
 reverse: false
 imageAlt: ""
-caption: an example of a pop-up research session.
+caption: Caption: an example of a pop-up research session.
 default: 2
 section: Finding participants
 ---
