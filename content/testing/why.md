@@ -1,5 +1,5 @@
 ---
-layout: dss-section
+layout: other/dss_section
 section: Why
 dss:
   - 1
