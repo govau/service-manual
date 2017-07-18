@@ -1,6 +1,7 @@
 title: GOV.AU
 theme: dark
 header:
+  - /_shared/globalheader.md
   - header.md
 main:
   - dss.md

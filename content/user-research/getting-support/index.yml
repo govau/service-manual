@@ -5,7 +5,7 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - intro.md             
+  - intro.md
   - sections.md
   - meeting-heading.md
   - meeting.md
@@ -22,5 +22,4 @@ main:
 
 
 footer:
-  - /_shared/legal-GDS.md
-  - /_shared/footer.md
+  - /_shared/footer-gds.md

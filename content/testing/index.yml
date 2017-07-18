@@ -1,21 +1,9 @@
-title: Testing
+title: Testing main page
 theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
 main:
-  - home-header.md
-  - banner.md
- #- category-sections.md
- #- why.md
-  - guides-head.md
-  - guides.md
-  - how-head.md
-  - how.md
-  - community-head.md
-  - community.md
-  - imageblock.md
-  - imageblockevent.md
-  - feedback.md
-  - imagecontentblock.md
-
+  - body.md
 footer:
-  - /_shared/legal-GDS.md
-  - /_shared/footer.md
+  - /_shared/footer-gds.md

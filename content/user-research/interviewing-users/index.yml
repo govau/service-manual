@@ -18,5 +18,4 @@ main:
   - observing-head.md
   - observing.md
 footer:
-  - /_shared/legal-GDS.md
-  - /_shared/footer.md
+  - /_shared/footer-gds.md

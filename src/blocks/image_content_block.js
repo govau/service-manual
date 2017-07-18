@@ -73,7 +73,7 @@ ImageContentblock.propTypes = {
 	imageAlt: PropTypes.string,
 
 	/**
-	 * caption :An example of an affinity mapping session in action.
+	 * caption: An example of an affinity mapping session in action.
 	 */
 	caption: PropTypes.string,
 
