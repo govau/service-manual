@@ -22,5 +22,4 @@ main:
   - where-head.md
   - where.md
 footer:
-  - /_shared/legal-GDS.md
-  - /_shared/footer.md
+  - /_shared/footer-gds.md
