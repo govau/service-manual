@@ -1,5 +1,5 @@
 ---
-layout: other/dss-section
+layout: other/dss_section
 dss:
   - 1
   - 3
