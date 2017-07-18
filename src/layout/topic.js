@@ -21,6 +21,10 @@ const Topic = ( page ) => (
 		<script src="/assets/js/svg4everybody.min.js" />
 	</head>
 	<body>
+		<header className="uikit-body uikit-grid">
+			{ page.header }
+		</header>
+
 		<main>
 			{ page.main }
 		</main>

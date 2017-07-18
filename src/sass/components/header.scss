@@ -63,9 +63,15 @@
 	display: inline-block;
 	margin-top: uikit-space( 0.25 );
 	font-size: 1.1em;
+	font-weight: bold;
 
 	@include uikit-media( xs ) {
 		font-size: 1.4em;
+	}
+
+	.uikit-body & {
+		color: #fff;
+		border-bottom: 0;
 	}
 }
 

@@ -1,6 +1,8 @@
 .childnav {
 	float: none;
 	margin-bottom: uikit-space( 1.5 );
+	border: 1px solid $uikit-colour-Border-40;
+	display: inline-block;
 
 	@include uikit-media( md ) {
 		float: right;

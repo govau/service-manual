@@ -1,10 +1,6 @@
 ---
-layout: blocks/image_content_block
-image: https://via.placeholder.com/500x500
-imageAlt: This is an image alt tag
-title: Affinity mapping
-caption: An example of an affinity mapping session in action.
-reverse: false
+layout: text/textblock
+quote: This is pulled out of the text
 ---
 
 The year 1866 was signalised by a remarkable incident, a mysterious and puzzling phenomenon, which doubtless no one has yet forgotten. Not to mention rumours
