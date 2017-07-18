@@ -18,6 +18,8 @@ These research activities will usually give you:
 - insight into usability and accessibility issues and how to fix them
 - ideas for ways to improve your service in future
 
-###[2]How often to research in Live
+### [2]How often to research in Live
 
-The frequency and depth of your research once you reach Live depends on what you are trying to find out. For example, if you are looking to add a new component to your service, you would start discovery again. If your product is to be decomissioned, you need to find out how people use it now to know the gap that will be created when the service is gone.
+The frequency and depth of your research once you reach Live stage depends on what you are trying to find out. For example, if you are looking to add a new component to your service, you would start Discovery again.
+
+If your product is to be decommissioned, you need to find out how people use it now to know the gap that will be created when the service is gone.
