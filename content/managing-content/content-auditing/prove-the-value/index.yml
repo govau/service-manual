@@ -1,8 +1,10 @@
 title: Prove the value
 layout: layout/topic
 theme: blue
-main:
+header:
+  - /_shared/globalheader.md
   - /_shared/header.md
+main:
   - intro.md             # Prove the value
   - sections.md
   - section1.md          # Benefits of a content audit

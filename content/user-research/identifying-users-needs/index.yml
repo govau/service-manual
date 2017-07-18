@@ -1,8 +1,10 @@
 title: identifying users and their needs
 layout: layout/topic
 theme: blue
-main:
+header:
+  - /_shared/globalheader.md
   - /_shared/header.md
+main:
   - cards.md
   - cards-category.md
 

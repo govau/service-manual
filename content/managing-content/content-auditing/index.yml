@@ -1,7 +1,9 @@
 title: Content auditing
 theme: dark
-main:
+header:
+  - /_shared/globalheader.md
   - /_shared/header.md
+main:
   - intro.md
   - how-audit.md
   - how-audit-articles.md

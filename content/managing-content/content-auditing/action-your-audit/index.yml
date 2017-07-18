@@ -1,8 +1,10 @@
 title: Action your audit
 layout: layout/topic
 theme: blue
-main:
+header:
+  - /_shared/globalheader.md
   - /_shared/header.md
+main:
   - intro.md             # Action your audit
   - sections.md
   - section1.md          # Action the data
