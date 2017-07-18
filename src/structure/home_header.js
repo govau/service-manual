@@ -74,16 +74,20 @@ const Homeheader = ( page ) => {
 									}
 							</div>
 
+							{ /*	removed until nav is ready
 							<div className="header__menu">
 								<span className="menu">Menu</span>
 							</div>
+							*/ }
 						</div>
 
+						{ /*	removed until nav is ready
 						<div className="home__header__logo">
 							<svg className="home__header__logo__svg" role="img" title="Govau logo">
 								<use xlinkHref="/assets/svg/map.svg#govau_logo" />
 							</svg>
 						</div>
+						*/}
 
 						<div className="textwrapper">
 							<div className="header__title">
