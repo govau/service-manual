@@ -12,4 +12,4 @@ Your research must include all the [different kinds of people](https://www.dta.g
  - come from cultures with different experiences of government
  - may need help to use your service
 
-Make sure this is documented in your [user research plan](#).
+Make sure this is documented in your [user research plan](/user-research/planning-user-research/).
