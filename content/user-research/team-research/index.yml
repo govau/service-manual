@@ -1,8 +1,10 @@
 title: Involve the team in research
 layout: layout/topic
 theme: blue
-main:
+header:
+  - /_shared/globalheader.md
   - /_shared/header.md
+main:
   - intro.md             # Synthesizing user research
   - sections.md
   - meeting-head.md

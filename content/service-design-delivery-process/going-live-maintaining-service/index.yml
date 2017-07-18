@@ -1,8 +1,10 @@
 title: Going live and maintaining the service
 layout: layout/topic
 theme: blue
-main:
+header:
+  - /_shared/globalheader.md
   - /_shared/header.md
+main:
   - cards.md
   - cards-category.md
 

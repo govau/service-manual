@@ -1,8 +1,10 @@
 title: Engage your stakeholders
 layout: layout/topic
 theme: blue
-main:
+header:
+  - /_shared/globalheader.md
   - /_shared/header.md
+main:
   - intro.md             # Get agreement
   - sections.md
   - section1.md          # Engage your stakeholders

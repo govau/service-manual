@@ -1,7 +1,9 @@
 title: Service design delivery process
 theme: blue
-main:
+header:
+  - /_shared/globalheader.md
   - /_shared/header.md
+main:
   - FILL ME
 
 footer:
