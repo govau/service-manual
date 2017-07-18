@@ -6,7 +6,7 @@ reverse: false
 imageAlt: ""
 caption: an example of a pop-up research session.
 default: 2
-section: Pop-up research
+section: Finding participants
 ---
 
 Pop-up research is a specific form of user research. Researchers go into the field and intercept people in context for short interviews or usability tests. Commonly known as ‘guerrilla testing’, we prefer the term ‘pop-up’ as guerrilla indicates that the research is unauthorised by the agency and we’d like to get your agency on board with research.

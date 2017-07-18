@@ -56,12 +56,6 @@ Descriptions of users are often expressed as user profiles or personas. In gener
 
 This tends to be more effective than developing personas, as empathy for an actual user is likely to be more authentic than empathy for a persona.
 
-#### [1]Empathy walls
-
-**https://digitalservicestandardaus.tumblr.com/post/142050945483/empathy-wall-this-represents-all-of-the-empathy image**
-
-'This represents all of the empathy we built through Discovery with the real users. It’s a great way to introduce new people to the project. We used red post-its to flag pain points in user journeys and blue for where our research validated existing research.' — Service designer
-
 ### [2]Keep on discovering
 
 Discovery research does not just happen in the Discovery phase. Teams need ongoing research to understand the evolving needs of their service.

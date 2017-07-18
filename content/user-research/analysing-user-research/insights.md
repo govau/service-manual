@@ -4,9 +4,9 @@ image: user-research-insights.jpg
 title: User research insights
 reverse: false
 imageAlt: ""
-caption: examples of user research insights on cards.
+caption: Caption: examples of user research insights on cards.
 default: 2
-section: User research insights
+section: Determine findings
 ---
 
 ‘We print out insights from user research so the team can constantly be referring back to what we’ve learned from our users as we design the service.’ — User researcher
