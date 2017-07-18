@@ -1,8 +1,10 @@
 title: Own the whole user experience
 layout: layout/topic
 theme: blue
-main:
+header:
+  - /_shared/globalheader.md
   - /_shared/header.md
+main:
   - intro.md
   - sections.md
   - meeting-head.md
