@@ -9,6 +9,8 @@ main:
   - /testing/_shared/textblock.md
   - /testing/_shared/section.md
   - /testing/_shared/cards_category.md
+  - /testing/_shared/section.md
+  - /testing/_shared/cards_category-nolink.md
 
 footer:
   - /testing/_shared/legalterms.md

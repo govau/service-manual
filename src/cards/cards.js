@@ -28,7 +28,7 @@ const Cards = ( page ) => (
 				}
 			</ul>
 
-			{ page.cardsLink && <a className="uikit-cta-link" href={ `${ page.cardsLink.url }` }>{ page.cardsLink.text }</a> }
+			{ page.cardsLink && <a className="cards__link uikit-cta-link" href={ `${ page.cardsLink.url }` }>{ page.cardsLink.text }</a> }
 		</div>
 	</div>
 );

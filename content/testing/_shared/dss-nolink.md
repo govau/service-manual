@@ -3,7 +3,7 @@ layout: other/dss_section
 dss:
   - 1
   - 3
-  - 12
+  - 8
   - 13
 section: Guides
 ---

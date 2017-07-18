@@ -5,56 +5,56 @@ import React from 'react';
 
 const CRITERIA = {
 	'1': {
-		title: 'Understand user needs',
-		link: 'https://www.dta.gov.au/standard/1-user-needs/',
+		title: `Understand user needs`,
+		link: `https://www.dta.gov.au/standard/1-user-needs/`,
 	},
 	'2': {
-		title: 'Have a multidisciplinary team',
-		link: 'https://www.dta.gov.au/standard/2-multidisciplinary-team/',
+		title: `Have a multidisciplinary team`,
+		link: `https://www.dta.gov.au/standard/2-multidisciplinary-team/`,
 	},
 	'3': {
-		title: 'Agile and user-centred process',
-		link: 'https://www.dta.gov.au/standard/3-agile-and-user-centred/',
+		title: `Agile and user-centred process`,
+		link: `https://www.dta.gov.au/standard/3-agile-and-user-centred/`,
 	},
 	'4': {
-		title: 'Understand tools and systems',
-		link: 'https://www.dta.gov.au/standard/4-tools-and-systems/',
+		title: `Understand tools and systems`,
+		link: `https://www.dta.gov.au/standard/4-tools-and-systems/`,
 	},
 	'5': {
-		title: 'Make it secure',
-		link: 'https://www.dta.gov.au/standard/5-make-it-secure/',
+		title: `Make it secure`,
+		link: `https://www.dta.gov.au/standard/5-make-it-secure/`,
 	},
 	'6': {
-		title: 'Consistent and responsive design',
-		link: 'https://www.dta.gov.au/standard/6-consistent-and-responsive/',
+		title: `Consistent and responsive design`,
+		link: `https://www.dta.gov.au/standard/6-consistent-and-responsive/`,
 	},
 	'7': {
-		title: 'Use open standards and common platforms',
-		link: 'https://www.dta.gov.au/standard/7-open-standards-and-common-platforms/',
+		title: `Use open standards and common platforms`,
+		link: `https://www.dta.gov.au/standard/7-open-standards-and-common-platforms/`,
 	},
 	'8': {
-		title: 'Make source code open',
-		link: 'https://www.dta.gov.au/standard/8-make-source-code-open/',
+		title: `Make source code open`,
+		link: `https://www.dta.gov.au/standard/8-make-source-code-open/`,
 	},
 	'9': {
-		title: 'Make it accessible',
-		link: 'https://www.dta.gov.au/standard/9-make-it-accessible/',
+		title: `Make it accessible`,
+		link: `https://www.dta.gov.au/standard/9-make-it-accessible/`,
 	},
 	'10': {
-		title: 'Test the service',
-		link: 'https://www.dta.gov.au/standard/10-test-the-service/',
+		title: `Test the service`,
+		link: `https://www.dta.gov.au/standard/10-test-the-service/`,
 	},
 	'11': {
-		title: 'Measure performance',
-		link: 'https://www.dta.gov.au/standard/11-measure-performance/',
+		title: `Measure performance`,
+		link: `https://www.dta.gov.au/standard/11-measure-performance/`,
 	},
 	'12': {
-		title: 'Don&rsquo;t forget the non-digital experience',
-		link: 'https://www.dta.gov.au/standard/12-non-digital-experience/',
+		title: `Don’t forget the non-digital experience`,
+		link: `https://www.dta.gov.au/standard/12-non-digital-experience/`,
 	},
 	'13': {
-		title: 'Encourage everyone to use the digital service',
-		link: 'https://www.dta.gov.au/standard/13-encourage-use-of-the-digital-service/',
+		title: `Encourage everyone to use the digital service`,
+		link: `https://www.dta.gov.au/standard/13-encourage-use-of-the-digital-service/`,
 	},
 };
 
