@@ -27,7 +27,9 @@ const Navigation = ({
 
 	<ul { ...( wrappingId && { id: wrappingId } ) } className={`${ wrappingClass } ${ levelClass }${ level }`}>
 		{
-			Object.keys( nav ).map( ( pageID, i ) => {
+			Object.keys( nav )
+				.sort( ( keyA, keyB ) => pages[ keyA ].weight - pages[ keyB ].weight )
+				.map( ( pageID, i ) => {
 				const homepage = Object.keys( nav )[ 0 ];
 				const page = nav[ pageID ];
 				const _displayItem = noParents && pageID.startsWith( startID ) || !noParents;
