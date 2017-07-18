@@ -1,7 +1,7 @@
 ---
 layout: blocks/image_content_block
 image: empathy-wall.jpg
-title: Shareback wall
+title: Empathy wall
 reverse: false
 imageAlt: ""
 caption: Caption: an example of a user research shareback wall.
