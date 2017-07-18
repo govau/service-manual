@@ -1,8 +1,10 @@
 title: Analysing user research
 layout: layout/topic
 theme: blue
-main:
+header:
+  - /_shared/globalheader.md
   - /_shared/header.md
+main:
   - intro.md
   - sections.md
   - meeting-head.md
@@ -13,12 +15,15 @@ main:
   - extract.md
   - sort-head.md
   - sort.md
+  - affinity.md
   - determine-head.md
   - determine.md
+  - insights.md
   - decide-head.md
   - decide.md
   - share-head.md
   - share.md
+  - shareback.md
 footer:
   - /_shared/legal-GDS.md
   - /_shared/footer.md

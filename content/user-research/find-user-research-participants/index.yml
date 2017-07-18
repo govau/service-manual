@@ -1,20 +1,21 @@
 title: Find user research participants
 layout: layout/topic
 theme: blue
-main:
+header:
+  - /_shared/globalheader.md
   - /_shared/header.md
-  - intro.md             # Recruit current or potential future users of the service.
+main:
+  - intro.md
   - sections.md
   - meeting-heading.md
   - meeting.md
-  - finding-heading.md          # Remember to include stuff about pros and cons of pop up research
+  - finding-heading.md
   - finding.md
+  - pop-up.md
   - brief-heading.md
   - brief.md
   - bias-heading.md
   - bias.md
-  - pop-up-heading.md
-  - pop-up.md
   - case-heading.md
   - case.md
 footer:

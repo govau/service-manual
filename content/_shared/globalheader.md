@@ -1,7 +1,5 @@
 ---
-layout: category_header
-title: Testing
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+layout: structure/globalheader
 button: An official website
 title1: The .gov.au means its official
 content1: Lorem ipsum dolor sit amet, vix civibus deserunt te, sit eu nulla discere consulatu, ei graeci consectetuer has. At usu albucius invidunt, ea quo iusto postea.
