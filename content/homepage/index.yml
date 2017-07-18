@@ -1,7 +1,8 @@
 title: GOV.AU
 theme: dark
-main:
+header:
   - header.md
+main:
   - dss.md
   - categories-head.md
   - categories.md

@@ -1,8 +1,10 @@
 title: Plan your audit
 layout: layout/topic
 theme: blue
-main:
+header:
+  - /_shared/globalheader.md
   - /_shared/header.md
+main:
   - intro.md             # Plan your audit
   - sections.md
   - section1.md          # Purpose of the website

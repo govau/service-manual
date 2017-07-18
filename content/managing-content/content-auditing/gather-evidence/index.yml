@@ -1,8 +1,10 @@
 title: Gather evidence
 layout: layout/topic
 theme: blue
-main:
+header:
+  - /_shared/globalheader.md
   - /_shared/header.md
+main:
   - intro.md             # Gather evidence
   - sections.md
   - section1.md          # Start a spreadsheet
