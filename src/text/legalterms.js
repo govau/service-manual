@@ -4,8 +4,6 @@ import React from 'react';
 
 /**
  * The legalterm component to be used inside the footer
- *
- * @disable-docs
  */
 const LegalTerms = ( page ) => (
 	<div className="uikit-body uikit-grid legalterms">
@@ -22,7 +20,7 @@ const LegalTerms = ( page ) => (
 
 LegalTerms.propTypes = {
 	/**
-	 * _body: (partials)(4)
+	 * _body: (text)(4)
 	 */
 	_body: PropTypes.node.isRequired,
 };

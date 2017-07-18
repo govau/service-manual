@@ -30,7 +30,7 @@ const ImageContentblock = ( page ) => {
 			<a href={ imageSrc }>
 				<img src={ imageSrc } alt={ page.imageAlt } />
 			</a>
-			<figcaption className="imagecontentblock__image__caption">Caption: { page.caption }</figcaption>
+			<figcaption className="imagecontentblock__image__caption">{ page.caption }</figcaption>
 		</figure>
 	);
 
