@@ -11,4 +11,4 @@ There are different ways to recruit participants:
 
 Agencies are generally best for recruiting end users. Recruiting participants requires quite a lot of work and agencies tend to be able to do this at a reasonable rate which can be good value for money. For specific user groups, a relevant professional body, charity or community group might be more effective.
 
-You will need to think about and budget for [paying incentives to the users](#) who participate in research. Research Recruitment Agencies can handle incentive payments for you as a part of their services.
+You will need to think about and budget for paying incentives to the users who participate in research. Research Recruitment Agencies can handle incentive payments for you as a part of their services.

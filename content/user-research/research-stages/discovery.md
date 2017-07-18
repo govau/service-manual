@@ -44,7 +44,7 @@ You’ll have done enough research when you understand the different kinds of pe
 
 From these activities you should get:
 - an understanding of what problem your service is trying to solve for the user
-- a list of users’ touchpoints as they try to achieve their goal — often expressed as a [journey map](https://designnotes.blog.gov.uk/2016/04/21/how-to-make-a-user-journey-map/), service map or mental model (alignment diagram)
+- a list of users’ touchpoints as they try to achieve their goal — often expressed as a journey map, service map or mental model (alignment diagram)
 - sets of needs and task models for different types of users
 - key insights about users that you’ve gained from analysing the research
 - a list of research gaps or limitations of the current research and opportunities for further research
