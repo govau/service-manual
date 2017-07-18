@@ -1,4 +1,5 @@
 title: Content auditing
+weight: 10
 theme: dark
 header:
   - /_shared/globalheader.md
