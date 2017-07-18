@@ -56,6 +56,11 @@ CardsCategory.propTypes = {
 	 */
 	cards: PropTypes.array.isRequired,
 
+	/**
+	 * cardsLink:
+	 *   text: View more
+	 *   url: /content-strategy/content-auditing
+	 */
 	cardsLink: PropTypes.shape({
 		/**
 		 * text: View more
