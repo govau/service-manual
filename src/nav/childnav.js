@@ -16,6 +16,7 @@ const Childnav = ({ page }) => {
 	const parentID = page._parents[ 0 ];
 	const childNavTitle = page.childnavtitle == undefined ? 'In this section' : page.childnavtitle;
 
+
 	return (
 		<div className={`childnav js-childnav childnav--${ theme }`}>
 			<div className="childnav__container">
