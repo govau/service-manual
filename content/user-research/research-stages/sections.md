@@ -5,6 +5,6 @@ sections:
   - User research in Discovery stage
   - User research in Alpha stage
   - User research in Beta stage
-  - Research your service when it is live
+  - Researching when your service is live
   - Case studies and examples
 ---
