@@ -4,7 +4,7 @@ layout: text/textblock
 
 You must do user research when designing and building your service to meet the following criteria:
 - [Criteria 1: Understand user needs](https://www.dta.gov.au/standard/1-user-needs/)
-- [Criteria 2: Agile and user-centred process](https://www.dta.gov.au/standard/2-multidisciplinary-team/)
+- [Criteria 3: Agile and user-centred process](https://www.dta.gov.au/standard/3-agile-and-user-centred/)
 - [Criteria 9: Make it accessible](https://www.dta.gov.au/standard/9-make-it-accessible/)
 - [Criteria 10: Test the service](https://www.dta.gov.au/standard/2-multidisciplinary-team/)
 - [Criteria 12: Don’t forget the non-digital experience](https://www.dta.gov.au/standard/12-non-digital-experience/)
