@@ -1,9 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-// LOCAL
-import GlobalHeader from './globalheader';
-
 
 // UIKIT
 const LinkListItem = ({ item }) => {
@@ -55,69 +52,36 @@ const Header = ( page ) => {
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 
 	return (
-		<header className="uikit-body uikit-grid">
-
-			<GlobalHeader page={ page } />
-
-			<div className={`header header--${ theme }`}>
-				<div className="container">
-					<div className="row">
-						<div className="col-md-12">
+		<div className={`header header--${ theme }`}>
+			<div className="container">
+				<div className="row">
+					<div className="col-md-12">
+						<a href="/">
 							<img className="header__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`} />
-							<div className="header__text">
-								<strong className="header__text__headline">
-									{
-										page._pages[ page._ID ]['header-title']
-											? page._pages[ page._ID ]['header-title']
-											: 'Service Manual'
-									}
-								</strong>
+						</a>
+						<div className="header__text">
+							<a href="/" className="header__text__headline">
 								{
-									breadcrumbs.length > 1
-										? <Breadcrumbs label="Breadcrumb for this page" items={ breadcrumbs } inverted={ theme === 'blue' || theme === 'dark' } />
-										: null
+									page._pages[ page._ID ]['header-title']
+										? page._pages[ page._ID ]['header-title']
+										: 'Service Manual'
 								}
-							</div>
+							</a>
+							{
+								breadcrumbs.length > 1
+									? <Breadcrumbs label="Breadcrumb for this page" items={ breadcrumbs } inverted={ theme === 'blue' || theme === 'dark' } />
+									: null
+							}
 						</div>
 					</div>
 				</div>
 			</div>
-		</header>
+		</div>
 	);
 }
 
 
-Header.propTypes = {
-	/**
-	 * text: This is totally official
-	 */
-	text: PropTypes.string,
-
-	/**
-	 * button: An official website
-	 */
-	button: PropTypes.string.isRequired,
-
-	/**
-	 * title1: The .gov.au means its official
-	 */
-	title1: PropTypes.string.isRequired,
-
-	/**
-	 * content1: Lorem ipsum dolor sit amet, vix civibus deserunt te, sit eu nulla discere consulatu, ei graeci consectetuer has.
-	 */
-	content1: PropTypes.string.isRequired,
-
-	/**
-	 * title2: This site is also protected by SSL
-	 */
-	title2: PropTypes.string.isRequired,
-
-	/**
-	 * content2: Lorem ipsum dolor sit amet, vix civibus deserunt te, sit eu nulla discere consulatu, ei graeci consectetuer has.
-	 */
-	content2: PropTypes.string.isRequired,
-};
+Header.propTypes = {};
 
 
 Header.defaultProps = {};

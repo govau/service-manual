@@ -3,7 +3,7 @@ layout: text/textblock
 quote: Don't forget to include participants with access needs and low digital skills.
 ---
 
-You should do the user research yourself so that you build empathy with the users and you **[[INCLUDE CONTENT ABOUT AVOIDING OTHERS' BIAS]] https://www.dta.gov.au/blog/i-want-a-pony/ **.
+You should do user research yourself so that you build empathy with the users. It also means you will understand the relationship between the questions that were asked and the answers that you get.
 
 A recruitment brief is a set of instructions sent to an agency for recruiting user research participants.
 
@@ -23,8 +23,6 @@ In your brief, you should cover:
 - incentives (you can ask the agency to handle cash incentives)
 
 You should make it clear that you welcome participants with access needs and low digital skills. This is important because recruiters often exclude these groups by default.
-
-**[insert example or template]**
 
 Send the agency a written brief, even if they’re happy to take instructions over the phone. This will provide a record in case there are problems with the recruitment.
 

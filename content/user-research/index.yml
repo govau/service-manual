@@ -1,7 +1,9 @@
 title: User research
 theme: blue
-main:
+header:
+  - /_shared/globalheader.md
   - /_shared/header.md
+main:
   - intro.md
   - sections.md
   - why.md
@@ -12,5 +14,6 @@ main:
   - guides.md
   - cstudies.md
   - support.md
+  - feedback.md
 footer:
   - /_shared/footer.md
