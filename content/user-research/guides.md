@@ -31,6 +31,4 @@ cards:
   - headline: Analysing user research
     text: How to act on your user research.
     link: '/user-research/analysing-user-research/'
-
-
 ---

@@ -9,7 +9,9 @@ import React from 'react';
  */
 const Card = ({ link, background, image, headline, text, cta }) => {
 
-	const image = image.startsWith('http') ? ` url('${ image }') ` : ` url('/assets/img/${ image }') `;
+	if( image ) {
+		image = image.startsWith('http') ? image : `/assets/img/${ image }`;
+	}
 
 	return (
 	<a href={ link } className='card' style={{ backgroundColor: background }}>
