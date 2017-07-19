@@ -7,7 +7,11 @@ import React from 'react';
  *
  * @disable-docs
  */
-const Card = ({ link, background, image, headline, text, cta }) => (
+const Card = ({ link, background, image, headline, text, cta }) => {
+
+	const image = image.startsWith('http') ? ` url('${ image }') ` : ` url('/assets/img/${ image }') `;
+
+	return (
 	<a href={ link } className='card' style={{ backgroundColor: background }}>
 		{ image && <img className='card__image' src={ image } alt="" /> }
 		<div className='card__wrapper'>
@@ -16,7 +20,7 @@ const Card = ({ link, background, image, headline, text, cta }) => (
 			{ cta && <span className='card__cta uikit-cta-link'>{ cta }</span> }
 		</div>
 	</a>
-);
+)};
 
 
 Card.propTypes = {
