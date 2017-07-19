@@ -111,8 +111,14 @@
 
 .cards .cards__list > .cards__list__item {
 	margin-bottom: 1em;
-	display: flex;
-	align-items: stretch;
+	display: block;
+	flex-basis: 100%;
+
+	@include uikit-media( sm ) {
+		display: flex;
+		align-items: stretch;
+		flex-basis: auto;
+	}
 }
 
 .cards__link {
