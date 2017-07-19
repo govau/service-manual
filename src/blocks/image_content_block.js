@@ -70,7 +70,7 @@ ImageContentblock.propTypes = {
 	/**
 	 * imageAlt: this is an image
 	 */
-	imageAlt: PropTypes.string,
+	imageAlt: PropTypes.string.isRequired,
 
 	/**
 	 * caption: An example of an affinity mapping session in action.
@@ -91,7 +91,6 @@ ImageContentblock.propTypes = {
 
 ImageContentblock.defaultProps = {
 	level: 2,
-	imageAlt: '',
 };
 
 
