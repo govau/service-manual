@@ -16,6 +16,6 @@ main:
   - cstudies-section.md
   - cstudies.md
   - support.md
-  - feedback.md
+  - /_shared/feedback.md
 footer:
   - /_shared/footer.md

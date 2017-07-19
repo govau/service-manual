@@ -18,6 +18,7 @@ main:
   - textblock4.md
   - section5.md          # Tools
   - textblock5.md
+  - /_shared/feedback.md
 footer:
   - /_shared/legal.md
   - /_shared/footer.md

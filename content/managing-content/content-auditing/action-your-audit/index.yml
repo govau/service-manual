@@ -20,6 +20,7 @@ main:
   - textblock5.md
   - section6.md          # Maintain content
   - textblock6.md
+  - /_shared/feedback.md
 footer:
   - /_shared/legal.md
   - /_shared/footer.md
