@@ -3,7 +3,7 @@ layout: blocks/image_content_block
 image: user-research-insights.jpg
 title: User research insights
 reverse: false
-imageAlt: ""
+imageAlt: "Two people sitting in front of two cardboard walls with a lot of print-outs and sketches, stuck on them"
 caption: Caption: examples of user research insights on cards.
 default: 2
 section: Determine findings

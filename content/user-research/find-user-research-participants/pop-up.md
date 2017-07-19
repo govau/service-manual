@@ -3,7 +3,7 @@ layout: blocks/image_content_block
 image: pop-up-research.jpg
 title: Pop-up research
 reverse: false
-imageAlt: ""
+imageAlt: "Two people talking in a white filled office setting"
 caption: Caption: an example of a pop-up research session.
 default: 2
 section: Finding participants
