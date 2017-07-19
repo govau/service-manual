@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import Slugify from 'slugify';
 import React from 'react';
 
 
@@ -50,7 +51,7 @@ const Categoryheader = ( page ) => {
 	}));
 
 	return (
-		<div className={`category__header category__header--${ theme } header`}>
+		<div className={`category__header category__header--${ theme } header category__header--ID-${ Slugify( page._ID ).toLowerCase() }`}>
 			<div className="container">
 				<div className="row">
 					<div className="col-md-12">
@@ -72,16 +73,14 @@ const Categoryheader = ( page ) => {
 									}
 							</div>
 
-							<div className="header__menu">
-								<span className="menu">Menu</span>
-							</div>
+							{ /*
+								<div className="header__menu">
+									<span className="menu">Menu</span>
+								</div>
+							*/ }
 						</div>
 
 						<div className="textwrapper">
-							<div className="header__title">
-								{ page.title }
-							</div>
-
 							<div className="header__description">
 								{ page.description }
 							</div>
@@ -93,7 +92,12 @@ const Categoryheader = ( page ) => {
 	);
 }
 
-Categoryheader.propTypes = {};
+Categoryheader.propTypes = {
+	/**
+	 * description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+	 */
+	description: PropTypes.string,
+};
 
 
 Categoryheader.defaultProps = {};

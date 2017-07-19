@@ -3,7 +3,7 @@ weight: 40
 theme: blue
 header:
   - /_shared/globalheader.md
-  - /_shared/header.md
+  - /_shared/header_category.md
 main:
   - intro.md
   - category_sections.md
