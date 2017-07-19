@@ -22,5 +22,6 @@ main:
   - share.md
   - where-head.md
   - where.md
+  - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md

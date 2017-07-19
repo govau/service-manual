@@ -25,5 +25,6 @@ main:
   - share-head.md
   - share.md
   - shareback.md
+  - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md

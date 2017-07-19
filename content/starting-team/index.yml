@@ -7,6 +7,7 @@ header:
 main:
   - cards.md
   - cards-category.md
+  - /_shared/feedback.md
 
 footer:
   - /_shared/footer-gds.md
