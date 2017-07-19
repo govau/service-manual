@@ -28,7 +28,7 @@ const ImageContentblock = ( page ) => {
 	const image = (
 		<figure className="imagecontentblock__image">
 			<a href={ imageSrc }>
-				<img src={ imageSrc } alt={ page.imageAlt } />
+				<img className="imagecontentblock__image__img" src={ imageSrc } alt={ page.imageAlt } />
 			</a>
 			<figcaption className="imagecontentblock__image__caption">{ page.caption }</figcaption>
 		</figure>
