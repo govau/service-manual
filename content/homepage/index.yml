@@ -8,5 +8,6 @@ main:
   - categories-head.md
   - categories.md
   - body.md
+  - /_shared/feedback.md
 footer:
   - /_shared/footer.md

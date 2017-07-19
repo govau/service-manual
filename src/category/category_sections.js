@@ -16,22 +16,18 @@ const CategorySections = ( page ) => {
 
 	return (
 		<div className="uikit-body uikit-grid category-sections">
-			<div className="container">
-				<div className="row">
-					<div className="col-md-12 js-sections">
-						<ul className="category-sections__list">
-							{
-								page.sections.map( ( section, i ) => (
-									<div key={ i } className="category-sections__list__item__wrapper">
-										<li className="category-sections__list__item">
-											<a className="category-sections__list__link" href={`#${ Slugify( section ).toLowerCase() }`}>{ section }</a>
-										</li>{ ' ' }
-									</div>
-								))
-							}
-						</ul>
-					</div>
-				</div>
+			<div className="category-sections__wrapper js-sections">
+				<ul className="category-sections__list">
+					{
+						page.sections.map( ( section, i ) => (
+							<div key={ i } className="category-sections__list__item__wrapper">
+								<li className="category-sections__list__item">
+									<a className="category-sections__list__link" href={`#${ Slugify( section ).toLowerCase() }`}>{ section }</a>
+								</li>{ ' ' }
+							</div>
+						))
+					}
+				</ul>
 			</div>
 		</div>
 	);

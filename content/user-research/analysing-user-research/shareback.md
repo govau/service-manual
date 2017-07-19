@@ -3,7 +3,7 @@ layout: blocks/image_content_block
 image: debriefing-usability-research.jpg
 title: Shareback wall
 reverse: false
-imageAlt: ""
+imageAlt: "A wall with a lot of post-it notes in different colours"
 caption: Caption: an example of a user research shareback wall.
 default: 2
 section: Share your findings

@@ -20,6 +20,7 @@ main:
   - textblock5.md
   - section6.md          # Get direct user feedback to build empathy with the users
   - textblock6.md
+  - /_shared/feedback.md
 footer:
   - /_shared/legal.md
   - /_shared/footer.md

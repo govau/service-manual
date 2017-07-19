@@ -3,7 +3,7 @@ layout: blocks/image_content_block
 image: affinity-mapping.jpg
 title: Affinity mapping
 reverse: false
-imageAlt: ""
+imageAlt: "A wall with a lot of post-it notes in different colours"
 caption: Caption: an example of an affinity mapping session in action.
 default: 2
 section: Sort observations

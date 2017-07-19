@@ -16,6 +16,7 @@ main:
   - guides-cards.md
   - support-head.md
   - support.md
+  - /_shared/feedback.md
 footer:
   - /_shared/legal.md
   - /_shared/footer.md

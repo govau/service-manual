@@ -21,5 +21,6 @@ main:
   - live.md
   - case-head.md
   - case.md
+  - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md

@@ -28,7 +28,7 @@ const ImageContentblock = ( page ) => {
 	const image = (
 		<figure className="imagecontentblock__image">
 			<a href={ imageSrc }>
-				<img src={ imageSrc } alt={ page.imageAlt } />
+				<img className="imagecontentblock__image__img" src={ imageSrc } alt={ page.imageAlt } />
 			</a>
 			<figcaption className="imagecontentblock__image__caption">{ page.caption }</figcaption>
 		</figure>
@@ -70,7 +70,7 @@ ImageContentblock.propTypes = {
 	/**
 	 * imageAlt: this is an image
 	 */
-	imageAlt: PropTypes.string,
+	imageAlt: PropTypes.string.isRequired,
 
 	/**
 	 * caption: An example of an affinity mapping session in action.
@@ -91,7 +91,6 @@ ImageContentblock.propTypes = {
 
 ImageContentblock.defaultProps = {
 	level: 2,
-	imageAlt: '',
 };
 
 
