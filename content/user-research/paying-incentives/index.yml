@@ -6,8 +6,13 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - cards.md
-  - cards-category.md
+  - intro.md
+  - meeting-head.md
+  - meeting.md
+  - if-head.md
+  - if.md
+  - what-to-pay-head.md
+  - what-to-pay.md 
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md
