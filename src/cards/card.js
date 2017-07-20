@@ -17,9 +17,11 @@ const Card = ({ link, background, image, headline, text, cta }) => {
 	<a href={ link } className='card' style={{ backgroundColor: background }}>
 		{ image && <img className='card__image' src={ image } alt="" /> }
 		<div className='card__wrapper'>
-			<strong className='card__headline'>{ headline }</strong>
-			<div className='card__text'>{ text }</div>
-			{ cta && <span className='card__cta uikit-cta-link'>{ cta }</span> }
+			<div className='card__headline__wrapper'>
+				<strong className='card__headline'>{ headline }</strong>
+			</div>
+				<div className='card__text'>{ text }</div>
+				{ cta && <span className='card__cta uikit-cta-link'>{ cta }</span> }
 		</div>
 	</a>
 )};

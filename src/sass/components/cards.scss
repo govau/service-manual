@@ -35,10 +35,13 @@
 	width: 100%;
 }
 
-.card__headline {
-	display: inline-block;
-	border-bottom: solid 1px $uikit-colour-Primary;
+.card__headline__wrapper {
 	margin-bottom: uikit-space( 1 );
+}
+
+.card__headline {
+	display: inline;
+	border-bottom: solid 1px $uikit-colour-Primary;
 
 	.cards--category & {
 		border: none;

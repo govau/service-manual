@@ -6,7 +6,7 @@ section: Community
 title: Events
 reverse: true
 event:
-  title: Introduction training on user research
+  title: Introduction training on user research long title with words so we can see how it all wrapps
   date: 2017-12-20
   location: Canberra
   description: Find out how to get started with user research.

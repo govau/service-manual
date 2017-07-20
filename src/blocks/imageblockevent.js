@@ -34,7 +34,9 @@ const Imageblockevent = ( page ) => {
 							</div>
 
 							<div className={`eventblock eventblock--${ theme }`}>
-								{ page.event.title && <span className="eventblock__title">{ page.event.title }</span> }
+								<div className="eventblock__title__wrapper">
+									{ page.event.title && <span className="eventblock__title">{ page.event.title }</span> }
+								</div>
 
 								<div className="eventblock__datewrapper">
 									<svg className="eventblock__date__svg" role="img" title="Calendar date">
