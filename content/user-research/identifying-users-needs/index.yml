@@ -25,6 +25,19 @@ main:
   - specify-targets.md
   - make-inclusive-head.md
   - make-inclusive.md
+  - diversity.md
+  - non-digital-head.md
+  - non-digital.md
+  - share-head.md
+  - share.md
+  - writing-needs.md
+  - validating-head.md
+  - validating.md
+  - show-head.md
+  - show.md
+  - dashboard.md
+  - link-needs-head.md
+  - link-needs.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md
