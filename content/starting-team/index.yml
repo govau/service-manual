@@ -3,7 +3,7 @@ weight: 30
 theme: blue
 header:
   - /_shared/globalheader.md
-  - /_shared/header.md
+  - /_shared/header_category.md
 main:
   - cards.md
   - cards-category.md

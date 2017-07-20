@@ -1,6 +1,6 @@
 ---
 layout: blocks/image_content_block
-image: https://via.placeholder.com/500x500
+image: https://via.placeholder.com/1500x1000
 imageAlt: This is an image alt tag
 title: Affinity mapping
 caption: An example of an affinity mapping session in action.

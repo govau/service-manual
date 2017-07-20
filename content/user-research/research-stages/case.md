@@ -1,5 +1,9 @@
 ---
-layout: text/textblock
+layout: cards/cards
+cards:
+- image: '/user-research/pony-hero.png'
+  headline: I want a pony!
+  text: The critical difference between user research and market research.
+  link: 'https://www.dta.gov.au/blog/i-want-a-pony/'
+  cta: Read on DTA blog
 ---
-
-Read the DTA blog post [‘I want a pony!’ — or the critical difference between user research and market research](https://www.dta.gov.au/blog/i-want-a-pony/).
