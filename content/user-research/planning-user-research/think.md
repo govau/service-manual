@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-At the beginning of each stage of the [service design and delivery process](/service-design-delivery-process/), you must work as a team to:
+At the beginning of each stage of the service design and delivery process, you must work as a team to:
 
 - write your research questions (or ‘unknowns’) and group them by theme
 - decide what user research activities will help you answer your questions
