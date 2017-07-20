@@ -13,7 +13,7 @@ const Imageblockevent = ( page ) => {
 	const reverse = page.reverse ? 'imageblock--reverse' : '';
 
 	const date = page.event.date;
-	const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+	const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 	const eventDate = `${ date.getDay() } ${ monthNames[date.getMonth()] } ${ date.getFullYear() }`;
 
 	const HeadingTag = `h${ page.level }`;
@@ -28,7 +28,7 @@ const Imageblockevent = ( page ) => {
 							{ page.section && <h3 className="section__section intro__category" id={ Slugify( page.section ).toLowerCase() } >{ page.section }</h3> }
 
 							<div className="textwrapper">
-								<HeadingTag className={ `imageblock__headline display-3` }>
+								<HeadingTag className={ `imageblock__headline display-${ page.display }` }>
 									{ page.title ? page.title : page._pages[ page._ID ].title }
 								</HeadingTag>
 							</div>
@@ -85,6 +85,11 @@ Imageblockevent.propTypes = {
 	level: PropTypes.number,
 
 	/**
+	 * display: 3
+	 */
+	display: PropTypes.number,
+
+	/**
 	 * event:
 	 *   title: Introduction training on user research
 	 *   date: 2017-12-20
@@ -106,7 +111,8 @@ Imageblockevent.propTypes = {
 
 
 Imageblockevent.defaultProps = {
-	level: 2
+	level: 2,
+	display: 3,
 };
 
 

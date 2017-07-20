@@ -22,7 +22,7 @@ const Imageblock = ( page ) => {
 						<div className={`imageblock__content imageblock__content--${ theme }`}>
 							{ page.section && <span className="section__section intro__category" id={ Slugify( page.section ).toLowerCase() } >{ page.section }</span> }
 							<div className="textwrapper">
-								<HeadingTag className={ `imageblock__headline display-3` }>
+								<HeadingTag className={ `imageblock__headline display-${ page.display }` }>
 									{ page.title ? page.title : page._pages[ page._ID ].title }
 								</HeadingTag>
 							</div>
@@ -63,6 +63,11 @@ Imageblock.propTypes = {
 	level: PropTypes.number,
 
 	/**
+	 * display: 3
+	 */
+	display: PropTypes.number,
+
+	/**
 	 * _body: (text)(4)
 	 */
 	_body: PropTypes.node.isRequired,
@@ -70,7 +75,8 @@ Imageblock.propTypes = {
 
 
 Imageblock.defaultProps = {
-	level: 2
+	level: 2,
+	display: 3,
 };
 
 

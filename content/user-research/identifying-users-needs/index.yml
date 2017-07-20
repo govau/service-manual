@@ -6,7 +6,25 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - FILL ME
+  - intro.md
+  - sections.md
+  - meeting-heading.md
+  - meeting.md
+  - what-head.md
+  - what.md
+  - design-head.md
+  - design.md
+  - keep-researching-head.md
+  - keep-researching.md
+  - how-to-head.md
+  - how-to.md
+  - who-to-head.md
+  - who-to.md
+  - research-wide-head.md
+  - research-wide.md
+  - specify-targets.md
+  - make-inclusive-head.md
+  - make-inclusive.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md

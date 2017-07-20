@@ -10,11 +10,13 @@ dss:
 section: Why
 ---
 ### [3]Why should you do user research?
-To deliver a service that meets your users’ needs, you have to understand:
-- who your likely users are
-- what they’re trying to do
-- how they’re trying to do it now
-- how their life or work influences what they do and how
-- how they use and experience existing services
-
 The better you understand your users, the more likely you are to design and build a service that works well for them.
+
+User research delivers many benefits for your agency, because you:
+
+ - reduce the risk of expensive failures by making fewer assumptions about your users
+ - reduce delivery time by having more certainty about what to build
+ - are adaptable when you release increments of the service as you gain new knowledge about your users
+
+
+

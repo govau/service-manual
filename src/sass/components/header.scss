@@ -142,9 +142,9 @@
 
 	.category__header--blue & {
 		@for $i from 1 through 6 {
-		  .display-#{$i} {
-			  color: #fff;
-		  }
+			.display-#{$i} {
+				color: #fff;
+			}
 		}
 
 
