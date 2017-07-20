@@ -2,10 +2,12 @@
 	margin: uikit-space( 2 ) 0;
 }
 
+.eventblock__title__wrapper {
+	margin-bottom: uikit-space( 0.6 );
+}
+
 .eventblock__title {
 	border-bottom: 1px solid $uikit-colour-Link;
-	margin-bottom: uikit-space( 0.6 );
-	display: inline-block;
 }
 
 .eventblock__date {
