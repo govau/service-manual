@@ -82,7 +82,7 @@ const Categoryheader = ( page ) => {
 
 						<div className="textwrapper">
 							<div className="header__description">
-								{ page.description }
+								{ page._body }
 							</div>
 						</div>
 					</div>
@@ -94,9 +94,9 @@ const Categoryheader = ( page ) => {
 
 Categoryheader.propTypes = {
 	/**
-	 * description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+	 * _body: (text)(4)
 	 */
-	description: PropTypes.string,
+	_body: PropTypes.node,
 };
 
 
