@@ -6,7 +6,7 @@ Even if you understand the value of user research you may need to convince other
 
 Getting support to stand up a proper multidisciplinary team with a full-time user researcher can be hard.
 
-### [2]Creating a pitch
+### [2]Create a pitch
 
 To start work on a new service, or improve an existing one, you may need to explain the value of user research in your pitch.
 

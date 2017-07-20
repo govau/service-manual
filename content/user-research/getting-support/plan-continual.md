@@ -14,7 +14,7 @@ Doing this means you can:
 - reduce risk by learning quickly whether the things you are building work well for users
 - respond to changing user behaviour and feedback to continuously improve the service
 
-###[2]Allow enough time for research
+### [2]Allow enough time for research
 You won’t be able to develop a clear user research plan until you’ve kicked off the product, but you can still talk about about how you will schedule user research.
 
 Throughout each development stage, user researchers should typically be:
@@ -27,10 +27,10 @@ It can take a long time to recruit users for research, so it’s important to ge
 
 ### [2]Qualitative and quantitative research
 
-You need to make sure you have support to use more than just quantitative sources like website analytics and surveys.
+Make sure you have support to use more than just quantitative sources like website analytics and surveys.
 
 Don’t rely only on quantitative sources. They only give you a very limited view of who the users are and what they need.
 
-It’s important in the Discovery stage to start with qualitative research, like in-depth interviews with users. You can use quantitative sources to help you identify more users to talk to.
+It’s important in the Discovery stage to start with qualitative research like in-depth interviews with users. You can use quantitative sources to help you identify more users to talk to.
 
 
