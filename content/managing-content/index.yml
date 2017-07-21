@@ -6,6 +6,7 @@ header:
   - header.md
 main:
   - category_sections.md
+  - why-head.md
   - why.md
   - when-head.md
   - when.md
@@ -13,10 +14,8 @@ main:
   - how.md
   - guides-cards.md
   - cstudies-head.md
-  - cstudies-text.md
-  #- cstudies.md
-  #- support-head.md
-  #- support.md
+  - cstudies.md
+  - support.md
   - /_shared/feedback.md
 footer:
   - /_shared/legal.md
