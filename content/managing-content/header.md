@@ -1,5 +1,5 @@
 ---
 layout: category/category_header
-title: Managing content
-description: The GOV.AU Content Strategy is being created to help Australian Government teams get their digital estates in order.
+title: Content strategy
+description: A content strategy guides the creation, delivery and governance of useful, usable content.
 ---
