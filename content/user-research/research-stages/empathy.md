@@ -4,7 +4,7 @@ image: empathy-wall.jpg
 title: Empathy wall
 reverse: false
 imageAlt: "A wall with a lot of pictures, post-it notes and drawings"
-caption: Caption: an example of a user research shareback wall.
+caption: An example of a user research shareback wall
 default: 2
 section: User research in Discovery stage
 ---
