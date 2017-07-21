@@ -1,6 +1,6 @@
 ---
 layout: structure/home_header
-title:  Service Manual
+title:  Guides
 description: Helping government teams research, design and build services.
 button: An official website
 title1: The .gov.au means its official

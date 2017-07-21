@@ -56,15 +56,17 @@ const Categoryheader = ( page ) => {
 				<div className="row">
 					<div className="col-md-12">
 						<div className="header__subheader">
-							<img className="header__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`} />
+							<a href="/">
+								<img className="header__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`} />
+							</a>
 							<div className="header__text">
-								<strong className="header__text__headline">
+								<a href="/" className="header__text__headline">
 									{
 										page._pages[ page._ID ]['header-title']
 											? page._pages[ page._ID ]['header-title']
-											: 'Service Manual'
+											: 'Guides'
 									}
-								</strong>
+								</a>
 
 									{
 										breadcrumbs.length > 1

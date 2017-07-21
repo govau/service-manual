@@ -8,7 +8,7 @@ import React from 'react';
 const Topic = ( page ) => (
 	<html>
 	<head>
-		<title>Service Manual - { page.title }</title>
+		<title>Guides - { page.title }</title>
 
 		<meta http-equiv="x-ua-compatible" content="ie=edge" />
 
