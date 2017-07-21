@@ -8,7 +8,7 @@ import React from 'react';
 const Page = ( page ) => (
 	<html>
 	<head>
-		<title>Service Manual - { page.title }</title>
+		<title>Guides - { page.title }</title>
 
 		<meta http-equiv="x-ua-compatible" content="ie=edge" />
 
@@ -17,6 +17,7 @@ const Page = ( page ) => (
 			? ( <link rel="stylesheet" href={ `/assets/css/${ page.stylesheet }.css` } /> )
 			: null
 		}
+		<script src="/assets/js/analytics.js" />
 		<script src="/assets/js/no-js.js" />
 		<script src="/assets/js/svg4everybody.min.js" />
 	</head>

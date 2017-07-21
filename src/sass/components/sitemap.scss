@@ -1,0 +1,15 @@
+.sitemap {
+	margin-bottom: 2em;
+
+	.navigation--level-1,
+	.navigation--level-2 {
+		border-top: 0;
+	}
+
+	&.uikit-body {
+		ul,
+		li {
+			margin: 0;
+		}
+	}
+}

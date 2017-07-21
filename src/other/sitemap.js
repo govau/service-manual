@@ -6,9 +6,8 @@ import Navigation from '../nav/nav';
 
 
 /**
- * 404 Page layout
+ * sitemap layout
  *
- * @disable-docs
  */
 const Page404 = ( page ) => (
 	<div className="uikit-body uikit-grid sitemap">
@@ -28,7 +27,7 @@ const Page404 = ( page ) => (
 
 Page404.propTypes = {
 	/**
-	 * _body: (partials)(1)
+	 * _body: (text)(1)
 	 */
 	_body: PropTypes.node.isRequired,
 };
