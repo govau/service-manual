@@ -6,7 +6,6 @@ header:
   - header.md
 main:
   - category_sections.md
-  - why-head.md
   - why.md
   - when-head.md
   - when.md
@@ -18,5 +17,4 @@ main:
   - support.md
   - /_shared/feedback.md
 footer:
-  - /_shared/legal.md
   - /_shared/footer.md

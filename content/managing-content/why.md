@@ -1,6 +1,14 @@
 ---
-layout: text/textblock
+layout: other/dss_section
+dss:
+  - 1
+  - 6
+  - 9
+  - 10
+  - 12
+section: Why
 ---
+### [3]Why is content strategy important?
 All government content should be guided by a content strategy. This gives you a framework to:
 
 - define and create content that meets your users and agency’s needs
