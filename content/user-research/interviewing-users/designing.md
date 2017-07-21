@@ -15,7 +15,7 @@ For each topic:
 2. add possible follow-up questions you might ask to learn more
 3. test your questions and structure by interviewing a colleague — revise any questions that aren’t clear and re-order your topics if the interview doesn’t flow well
 
-If you are doing [usability testing as part of the interview](#), the structure will be different.
+If you are doing [usability testing as part of the interview](/user-research/interviewing-users/), the structure will be different.
 
 ### [2]Writing interview questions
 Write questions that are open and neutral.
@@ -26,7 +26,7 @@ Learn about confirmation bias and other [cognitive biases in user research](http
 
 ### [2]Create discussion guide
 Once you have questions, create a ‘discussion guide’. This should include:
-- your introduction script — this tells the participant who you are, explains the research and asks them for [consent to talk to them and record](#)
+- your introduction script — this tells the participant who you are, explains the research and asks them for [consent to talk to them and record](/user-research/consent-forms/)
 - the interview topics — including starter and follow-up questions, and instructions for any activities
 - a planning checklist to make sure you have everything you need on the day
 
