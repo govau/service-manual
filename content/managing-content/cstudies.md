@@ -1,9 +1,9 @@
 ---
 layout: cards/cards
 cards:
-  - image: user-research/user-research-hero.jpg
-    headline: Ensuring informed consent in user research
-    text: To design better services, we need to understand our users. At DTA, user researchers work with members of the public to better understand user needs.
-    link: 'https://www.dta.gov.au/blog/informed-consent-in-user-research/'
-    cta: Read on DTA blog
+  - image: /content-strategy/content-experts.jpg
+    headline: NEEDS TITLE HERE
+    text: We have come together with over 30 government agencies to produce guidance that helps government teams implement their own content strategy.
+    link: https://www.dta.gov.au/what-we-do/platforms/govau/
+    cta: Read on DTA site
 ---

@@ -1,21 +1,15 @@
 ---
-layout: blocks/imageblockevent
-image: https://via.placeholder.com/500x500
-section: Content strategy
-title: How do i get started
+layout: blocks/imageblock
+image: /content-strategy/dto-content-design.jpg
+section: Support
+title: Join the content community
 reverse: true
-default: 2level: 2
-event:
-  title: Introduction training on user research
-  date: 2017-12-20
-  location: Canberra
-  description: Find out how to get started with user research.
+level: 2
 ---
+Content Design in Australian Government is a community of practice for people working in government content — including content editing, content design, content strategy, communications, marketing, publishing, user experience, accessibility and more.
 
-## [2]Join the content community
-[Service Design in Australian Government](https://groups.google.com/a/digital.gov.au/forum/#!forum/service-design-in-australian-government) is a group for people who are doing design (all kinds!), user research, content design, web analytics, product management, accessibility — anything that is contributing to great service design for public services in Australia.
 
-It is for all parts of government: federal, state and local. We're sharing our experiences here so that we can all help to deliver better public services for Australians.
+The group shares experiences, ideas and learnings so that we can all help to deliver better public services for Australians. It is open to anyone working in government who can provide a government email.
 
-## [3]Contact us
-Ask questions and give feedback on this page: [guides@digital.gov.au](mailto:guides@digital.gov.au)
+
+To become a part of this group please email [content@digital.gov.au](mailto:content@digital.gov.au)
