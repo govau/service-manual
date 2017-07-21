@@ -63,7 +63,7 @@ const Homeheader = ( page ) => {
 									{
 										page._pages[ page._ID ]['header-title']
 											? page._pages[ page._ID ]['header-title']
-											: 'Service Manual'
+											: 'Guides'
 									}
 								</a>
 

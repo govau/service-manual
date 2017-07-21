@@ -10,4 +10,4 @@ With the exception of the [Commonwealth Coat of Arms](https://www.dpmc.gov.au/go
 
 This page uses content adapted from the UK [Government Digital Service](https://www.gov.uk/government/organisations/government-digital-service) under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
-[GOV.AU Service Manual  on GitHub](https://github.com/govau/service-manual/).
+[Guides on GitHub](https://github.com/govau/service-manual/).
