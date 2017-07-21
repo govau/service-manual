@@ -1,0 +1,19 @@
+---
+layout: text/textblock
+section: When
+---
+### [2]At the start of a new project
+A content strategy is a critical step at the beginning of any new project that involves content. It happens before the content is created. You can use a content strategy for:
+
+- new services
+- new applications
+- new websites
+- website redesign
+
+### [2]To improve the quality of existing content
+
+A content strategy can also be used to improve existing content. For example:
+
+- adding new information to a website
+- machinery of Government (MOG) changes
+- migrating content to a new system
