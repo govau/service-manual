@@ -28,7 +28,8 @@ const Navigation = ({
 	<ul { ...( wrappingId && { id: wrappingId } ) } className={`${ wrappingClass } ${ levelClass }${ level }`}>
 		{
 			Object.keys( nav )
-				.sort( ( keyA, keyB ) => pages[ keyA ].weight - pages[ keyB ].weight )
+				.filter( ( key ) => pages[ key ].hidden === undefined || pages[ key ].hidden === false ) // hiding pages that have hidden set to not false
+				.sort( ( keyA, keyB ) => pages[ keyA ].weight - pages[ keyB ].weight )                   // sort by weight
 				.map( ( pageID, i ) => {
 				const homepage = Object.keys( nav )[ 0 ];
 				const page = nav[ pageID ];

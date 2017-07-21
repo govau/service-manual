@@ -1,5 +1,6 @@
 title: Own the whole user experience
 weight: 20
+hidden: true
 layout: layout/topic
 theme: blue
 header:
@@ -18,6 +19,6 @@ main:
   - manager.md
   - needs-head.md
   - needs.md
-  - /_shared/feedback.md  
+  - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md
