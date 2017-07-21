@@ -7,7 +7,7 @@ Before you start to design anything, find out about your users so that you can u
 
 ### [2]Observe users
 
-Watch how users do things now and what problems or barriers they face (contextual qualitative research).
+Watch how users do things now and what problems or barriers they face. This is called contextual qualitative research.
 
 Don't use market research for this: we want to [find the users' real problems by observation](https://www.dta.gov.au/blog/i-want-a-pony/).
 
@@ -25,7 +25,7 @@ This will help you to understand:
 Create a [user journey map](https://designnotes.blog.gov.uk/2016/04/21/how-to-make-a-user-journey-map/) of the experience of the people who want to do the task your service provides.
 
 Do research to understand the real journey, not just the journey the business would like to think they have.
-
+s
 ### [2]Examine existing data
 
 Look at the data that exists (for example, analytics, back-office workflow and support logs).
@@ -36,7 +36,7 @@ This can reveal new issues and provide quantitative evidence for qualitative ins
 
 It's better to review previous user research after you have conducted your own primary research to avoid bias.
 
-No matter how much research has previously been done, [the team needs to do their own research](http://www.andybudd.com/archives/2017/05/the_real_value_of_original_research/) to help build a direct understanding and empathy for the user and their needs.
+No matter how much research has been done previously, [the team needs to do their own research](http://www.andybudd.com/archives/2017/05/the_real_value_of_original_research/). This will help them build a deeper understanding as well as empathy for the user and their needs.
 
 ### [2]What you'll find out in Discovery
 
