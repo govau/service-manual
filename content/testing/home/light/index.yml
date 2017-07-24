@@ -1,5 +1,6 @@
 title: Testing home page in light
 theme: light
+hidden: true
 header:
   - /testing/_shared/globalheader.md
   - /testing/_shared/header_home.md

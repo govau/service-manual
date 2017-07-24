@@ -6,16 +6,15 @@ header:
   - header.md
 main:
   - category_sections.md
-  - why-head.md
-  - intro2.md
   - why.md
+  - when-head.md
+  - when.md
   - how-head.md
-  - imageblock1.md
-  - guides-head.md
+  - how.md
   - guides-cards.md
-  - support-head.md
+  - cstudies-head.md
+  - cstudies.md
   - support.md
   - /_shared/feedback.md
 footer:
-  - /_shared/legal.md
   - /_shared/footer.md
