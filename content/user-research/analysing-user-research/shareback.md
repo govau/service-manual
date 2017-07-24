@@ -4,7 +4,8 @@ image: user-research/shareback-wall_sml.jpg
 link: user-research/shareback-wall.jpg
 title: Shareback wall
 display: 2
-imageAlt: "A wall with a lot of post-it notes in different colours"
+level: 3
+imageAlt: "A wall with a lot of post-it notes in different colours."
 caption: Caption: an example of a user research shareback wall.
 ---
 

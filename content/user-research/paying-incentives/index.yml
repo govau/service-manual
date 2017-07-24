@@ -7,12 +7,13 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - sections.md
   - meeting-head.md
   - meeting.md
   - if-head.md
   - if.md
   - what-to-pay-head.md
-  - what-to-pay.md 
+  - what-to-pay.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md

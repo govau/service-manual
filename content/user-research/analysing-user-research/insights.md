@@ -4,9 +4,9 @@ image: user-research/user-research-insights_sml.jpg
 link: user-research/user-research-insights.jpg
 title: User research insights
 display: 2
+level: 3
 reverse: false
 imageAlt: "Two people sitting in front of two cardboard walls with a lot of print-outs and sketches, stuck on them"
-caption: Caption: examples of user research insights on cards.
 ---
 
 ‘We print out insights from user research so the team can constantly be referring back to what we’ve learned from our users as we design the service.’ — User researcher

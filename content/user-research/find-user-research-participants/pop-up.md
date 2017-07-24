@@ -2,9 +2,10 @@
 layout: blocks/imageblock
 image: user-research/pop-up-research.jpg
 title: Pop-up research
-display: 3
+display: 2
+level: 3
 reverse: true
-imageAlt: "Two people talking in a white filled office setting"
+imageAlt: "Two people talking in a white filled office setting."
 caption: Caption: an example of a pop-up research session.
 ---
 

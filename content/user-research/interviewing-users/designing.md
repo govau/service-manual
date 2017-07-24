@@ -15,7 +15,7 @@ For each topic:
 2. add possible follow-up questions you might ask to learn more
 3. test your questions and structure by interviewing a colleague — revise any questions that aren’t clear and re-order your topics if the interview doesn’t flow well
 
-If you are doing [usability testing as part of the interview](/user-research/interviewing-users/), the structure will be different.
+If you are doing usability testing as part of the interview, the structure will be different.
 
 ### [2]Writing interview questions
 Write questions that are open and neutral.
