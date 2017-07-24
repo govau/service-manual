@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: What are user needs?
+section: How to recognise user needs
 ---
