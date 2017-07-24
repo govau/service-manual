@@ -8,3 +8,7 @@ You can learn about users and their needs by:
 
 
 Treat any opinions or suggestions that don’t come from users as assumptions that have to be proven by doing research.
+
+### [2]Keep researching through the whole process
+
+You must keep [researching through each stage](../research-stages/) of the design and delivery process to make sure your service continues to meet user needs.
