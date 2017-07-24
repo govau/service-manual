@@ -14,6 +14,8 @@ main:
   - textblock2.md
   - section3.md          # Decide on scope and type of content audit
   - textblock3.md
+  - how-long-head.md
+  - how-long.md
   - section4.md          # Define your scope and prioritise
   - textblock4.md
   - section5.md          # Create a project plan
