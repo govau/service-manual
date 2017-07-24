@@ -8,12 +8,12 @@ header:
 main:
   - intro.md             # Gather evidence
   - sections.md
-  - spreadsjeet-head.md          # Start a spreadsheet
+  - spreadsheet-head.md          # Start a spreadsheet
   - spreadsheet.md
   - categorise-head.md          # Categorise the data
   - categorise.md
-  - section3.md          # Assign owners
-  - textblock3.md
+  - assign-head.md          # Assign owners
+  - assign.md
   - next-steps-head.md          # Next steps
   - next-steps.md
   - templates-tools-head.md          # Tools
