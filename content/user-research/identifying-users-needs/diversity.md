@@ -4,7 +4,7 @@ image: /user-research/diversity-research.jpg
 title: Diversity in user research
 reverse: false
 imageAlt: "A wall with a lot of post-it notes and dot stickers"
-caption: Caption: a wall showing user research demographics.
+caption: A wall showing user research demographics
 level: 3
 ---
 
