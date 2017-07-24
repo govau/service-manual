@@ -1,13 +1,13 @@
 ---
-layout: blocks/image_content_block
+layout: blocks/imageblock
 image: /user-research/user-need-pink.jpg
-section: Writing user needs
 title: Writing user needs
-reverse: false
+display: 2
+reverse: true
 imageAlt: "A post-it that says 'As an Australian I need a passport so that I can go overseas and prove who I am'."
 caption: Caption: an example of a user need.
-default: 2
 ---
+
 Once you have a good understanding of your users’ needs, you should write them down and add them to your descriptions of users.
 
 

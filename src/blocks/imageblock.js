@@ -45,7 +45,7 @@ Imageblock.propTypes = {
 	/**
 	 * section: Content strategy
 	 */
-	section: PropTypes.string.isRequired,
+	section: PropTypes.string,
 
 	/**
 	 * title: How do i get started
