@@ -8,16 +8,16 @@ header:
 main:
   - intro.md             # Gather evidence
   - sections.md
-  - section1.md          # Start a spreadsheet
-  - textblock1.md
-  - section2.md          # Categorise the data
-  - textblock2.md
+  - spreadsjeet-head.md          # Start a spreadsheet
+  - spreadsheet.md
+  - categorise-head.md          # Categorise the data
+  - categorise.md
   - section3.md          # Assign owners
   - textblock3.md
-  - section4.md          # Next steps
-  - textblock4.md
-  - section5.md          # Tools
-  - textblock5.md
+  - next-steps-head.md          # Next steps
+  - next-steps.md
+  - templates-tools-head.md          # Tools
+  - templates-tools.md
   - /_shared/feedback.md
 footer:
   - /_shared/legal.md
