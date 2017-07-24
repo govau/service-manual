@@ -1,5 +1,6 @@
 title: Testing content page in dark
 theme: dark
+hidden: true
 header:
   - /testing/_shared/globalheader.md
   - /testing/_shared/header.md

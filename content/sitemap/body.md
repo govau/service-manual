@@ -1,0 +1,3 @@
+---
+layout: other/sitemap
+---

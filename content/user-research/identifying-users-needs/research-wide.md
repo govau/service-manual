@@ -1,7 +1,7 @@
 ---
 layout: text/textblock
 ---
-For government services, it’s best to start broad and go narrow in your user research.
+For government services, it’s best to start wide and then narrow down in your user research.
 
 
 Begin by looking at as many different users of your service as possible. That way you’ll see the entire spectrum of users, from the mainstream to the edges. You should cover them all in the [Discovery stage](../research-stages/#user-research-in-discovery-stage).

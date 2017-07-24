@@ -1,5 +1,6 @@
 title: Error 404
 weight: 60
+hidden: true
 header:
   - /_shared/globalheader.md
   - /_shared/header.md

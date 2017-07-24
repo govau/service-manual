@@ -3,6 +3,7 @@ layout: structure/footer
 links:
   - homepage
   - privacy-statement
+  - sitemap
 ---
 
 With the exception of the [Commonwealth Coat of Arms](https://www.dpmc.gov.au/government/commonwealth-coat-arms) and where otherwise noted, this work is

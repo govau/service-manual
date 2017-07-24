@@ -2,6 +2,8 @@
 layout: text/textblock
 ---
 
+To prove the benefits of a content audit you should first show how much can be saved by fixing bad content.
+
 To show costs and efficiencies it helps to identify what it costs your agency to:
 
 - handle calls relating to the clarification or lack of web content

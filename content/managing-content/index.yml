@@ -13,11 +13,8 @@ main:
   - how.md
   - guides-cards.md
   - cstudies-head.md
-  - cstudies-text.md
-  #- cstudies.md
-  #- support-head.md
-  #- support.md
+  - cstudies.md
+  - support.md
   - /_shared/feedback.md
 footer:
-  - /_shared/legal.md
   - /_shared/footer.md

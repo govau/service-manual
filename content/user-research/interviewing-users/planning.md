@@ -18,12 +18,12 @@ You need to make sure the participants can easily access the location.
 
 There are different ways to [find people to participate in user research](/user-research/find-user-research-participants/). These people should be current or likely users of the service you’re researching.
 
-Plan for any [incentives you’ll pay to the participants](#).
+Plan for any [incentives you’ll pay to the participants](/user-research/paying-incentives/).
 
 Make sure you arrange for interpreters or assistants to help participants that need them.
 
 ### [2]Prepare consent forms
-You’ll need to make sure you have [informed consent from the participants](#) before you interview them.
+You’ll need to make sure you have [informed consent from the participants](/user-research/consent-forms/) before you interview them.
 
 Think about about if you need to record the session and make sure the consent forms cover this.
 

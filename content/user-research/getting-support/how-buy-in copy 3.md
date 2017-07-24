@@ -26,7 +26,7 @@ Quantitative sources like website analytics can help you establish a need for bu
 
 There are resources that can help you calculate the return on investment of user experience and prove the value of good user experience.
 
-### [2]Support for the pitch
+### [2]Get support for the pitch
 
 Look for champions and digital leaders in your agency. Talk to other teams that are following the service design and delivery process. They may have got started through the support of an influential person in your agency. Ask them for help.
 
