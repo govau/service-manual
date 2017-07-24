@@ -6,7 +6,6 @@ sections:
   - Extract observations
   - Sort observations
   - Determine findings
-  - User research insights
   - Decide actions
   - Share your findings
 ---
