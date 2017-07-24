@@ -8,10 +8,10 @@ header:
 main:
   - intro.md             # Action your audit
   - sections.md
-  - section1.md          # Action the data
-  - textblock1.md
-  - section2.md          # Report your findings
-  - textblock2.md
+  - action-data-head.md          # Action the data
+  - action-data.md
+  - report-findings-head.md          # Report your findings
+  - report-findings.md
   - section3.md          # Delete content
   - textblock3.md
   - section4.md          # Archive content

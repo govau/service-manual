@@ -18,7 +18,7 @@ Get a content expert to evaluate each content item in the spreadsheet, applying 
 
 ## [1]Findability
 - Does the navigation help the user find information?
-- Are the information arcitecture (IA) labels easy to understand?
+- Are the information architecture (IA) labels easy to understand?
 - Is the meta description written as a call-to-action using relevant keywords?
 - Is the information easily found using the site’s search?
 - Is the information easily found using a search engine?
