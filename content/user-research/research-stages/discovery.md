@@ -25,7 +25,7 @@ This will help you to understand:
 Create a [user journey map](https://designnotes.blog.gov.uk/2016/04/21/how-to-make-a-user-journey-map/) of the experience of the people who want to do the task your service provides.
 
 Do research to understand the real journey, not just the journey the business would like to think they have.
-s
+
 ### [2]Examine existing data
 
 Look at the data that exists (for example, analytics, back-office workflow and support logs).
