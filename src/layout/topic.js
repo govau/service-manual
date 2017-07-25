@@ -11,6 +11,7 @@ const Topic = ( page ) => (
 		<title>Guides - { page.title }</title>
 
 		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<link rel="stylesheet" href={ `/assets/css/site.css` } />
 		{ page.stylesheet != undefined
