@@ -31,12 +31,12 @@ const ForwardSSL = ( request, response, next ) => {
  *
  * @return {object}            - Express object
  */
-const AddPassword = ( request, response, next ) => {
+const AddFakePassword = ( request, response, next ) => {
 	if( process.argv.indexOf( 'staging' ) !== -1 ) {
-		const auth = {
-			login: 'guides',
-			password: 'guides',
-		};
+		const auth = {        // Alright don’t freak out. This is not to keep anything protected.
+			login: 'guides',    // We’re using this to help Google with indexing and to keep people
+			password: 'guides', // from getting confused around between staging and prod.
+		};                    // By all means please share this password :)
 
 		const b64auth = ( request.headers.authorization || '' ).split(' ')[ 1 ] || '';
 		const [ login, password ] = new Buffer( b64auth, 'base64' ).toString().split(':');
@@ -71,7 +71,7 @@ Server
 	.all( '*', ForwardSSL )
 
 	// Let's make sure we had the password passed in
-	.get( '*', AddPassword )
+	.get( '*', AddFakePassword )
 
 	// Then we add dynamic routes that overwrite static ones
 	.get( '/dynamic/', ( request, response ) => {
