@@ -6,4 +6,4 @@ layout: text/textblock
 
 This is the first release of Guides. We’d love to know what’s missing or could be done better.
 
-Gives us feedback via email: [servicemanual-team@digital.gov.au](mailto:servicemanual-team@digital.gov.au)
+Gives us feedback via email: [guides-feedback@digital.gov.au](mailto:guides-feedback@digital.gov.au)
