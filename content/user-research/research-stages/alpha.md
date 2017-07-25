@@ -14,9 +14,9 @@ This is an important stage and you should make sure you have budget for it. The 
 
 Be prepared to throw ideas (and prototypes) away if they do not meet user needs.
 
-You will know that something works best because people will be able to get from one end to the other most easily. They will understand what they are doing and won't make mistakes.
-
 Do task-based testing so that you can clearly understand which version is most effective: [we care about what works, not what people tell us they prefer](https://userresearch.blog.gov.uk/2017/04/18/why-we-care-more-about-effectiveness-than-efficiency-or-satisfaction/).
+
+You will know that something works best because people will be able to get from one end to the other most easily. They will understand what they are doing and won't make mistakes.
 
 ### [2]Keep iterating and testing
 
