@@ -9,6 +9,6 @@ cards:
   - image: content_card.jpg
     headline: Content strategy
     text: A content strategy guides the creation, delivery and governance of useful, usable content.
-    link: '/managing-content/'
+    link: '/content-strategy/'
     background: '#1B7991'
 ---
