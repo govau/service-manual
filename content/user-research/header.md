@@ -1,5 +1,5 @@
 ---
 layout: category/category_header
 title: User research
-description: User research shows you how your service is seen by your end user and helps you build the right thing.
+description: User research helps you to learn about users and create services that meet their needs.
 ---

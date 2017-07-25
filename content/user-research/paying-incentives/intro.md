@@ -2,7 +2,7 @@
 layout: intros/intro
 category: User research
 title: Paying incentives for user research
-subtitle: It’s normal to pay people for their time when they help with research, but sometimes it isn’t appropriate.
+subtitle: It’s normal to pay people for their time when they help with research, but sometimes this isn’t appropriate.
 ---
 
 Paying incentives to participants is acceptable in many types of research. It reflects your appreciation for the participants’ input to the service.
