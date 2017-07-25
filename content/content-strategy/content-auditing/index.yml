@@ -1,6 +1,6 @@
 title: Content auditing
 weight: 10
-theme: dark
+theme: blue
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
