@@ -33,3 +33,8 @@ main {
 .uikit-body p + dd {
 	margin-top: -1em;
 }
+
+.uikit-body [tabindex="0"]:focus,
+.uikit-body :target {
+	outline: none;
+}

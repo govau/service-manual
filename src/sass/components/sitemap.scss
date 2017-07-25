@@ -1,9 +1,13 @@
 .sitemap {
 	margin-bottom: 2em;
 
-	.navigation--level-1,
-	.navigation--level-2 {
+	.navigation--level-3 {
 		border-top: 0;
+
+		& .navigation__item__anchor,
+		& .navigation__item__span {
+			padding-left: 1em;
+		}
 	}
 
 	&.uikit-body {
