@@ -72,6 +72,10 @@
 	.uikit-body & {
 		color: #fff;
 		border-bottom: 0;
+
+		&:hover {
+			color: $uikit-colour-Text;
+		}
 	}
 }
 
@@ -80,6 +84,15 @@
 	display: inline-block;
 	width: 100%;
 	margin-bottom: uikit-space( 1 );
+}
+
+.header__sub,
+.header__subheader {
+	& > a {
+		&:focus {
+			outline: 1px solid #fff;
+		}
+	}
 }
 
 

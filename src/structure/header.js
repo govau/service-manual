@@ -55,9 +55,10 @@ const Header = ( page ) => {
 		<div className={`header header--${ theme }`}>
 			<div className="container">
 				<div className="row">
-					<div className="col-md-12">
-						<a href="/">
-							<img className="header__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`} />
+					<div className="col-md-12 header__sub">
+						<a href="/" title="Guides home">
+							<img className="header__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`}
+								alt="The Australian Government coat of Arms"/>
 						</a>
 						<div className="header__text">
 							<a href="/" className="header__text__headline">

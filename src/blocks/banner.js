@@ -25,7 +25,7 @@ const Banner = ( page ) => {
 
 						<div className="textwrapper">
 							<div className="banner__description">
-								{ page.description }
+								{ page._body }
 							</div>
 						</div>
 					</div>
@@ -54,11 +54,6 @@ Banner.propTypes = {
 	title: PropTypes.string.isRequired,
 
 	/**
-	 * description: The Digital Service Standard ensures digital teams build government services that are simple, clear and fast
-	 */
-	description: PropTypes.string,
-
-	/**
 	 * boxHeading: What is the Digital Service Standard?
 	 */
 	boxHeading: PropTypes.string.isRequired,
@@ -76,7 +71,12 @@ Banner.propTypes = {
 	/**
 	 * level: 2
 	 */
-	level: PropTypes.number
+	level: PropTypes.number,
+
+	/**
+	 * _body: (text)(1)
+	 */
+	_body: PropTypes.node,
 };
 
 
