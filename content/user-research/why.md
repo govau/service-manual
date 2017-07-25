@@ -9,7 +9,8 @@ dss:
   - 13
 section: Why
 ---
-### [3]Why should you do user research?
+
+## [3]Why should you do user research?
 The better you understand your users, the more likely you are to design and build a service that works well for them.
 
 User research delivers many benefits for your agency, because you:

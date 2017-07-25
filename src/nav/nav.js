@@ -31,59 +31,65 @@ const Navigation = ({
 				.filter( ( key ) => pages[ key ].hidden === undefined || pages[ key ].hidden === false ) // hiding pages that have hidden set to not false
 				.sort( ( keyA, keyB ) => pages[ keyA ].weight - pages[ keyB ].weight )                   // sort by weight
 				.map( ( pageID, i ) => {
-				const homepage = Object.keys( nav )[ 0 ];
-				const page = nav[ pageID ];
-				const _displayItem = noParents && pageID.startsWith( startID ) || !noParents;
+					const homepage = Object.keys( nav )[ 0 ];
+					const page = nav[ pageID ];
+					const _displayItem = noParents && pageID.startsWith( startID ) || !noParents;
 
-				if( typeof page === 'object' ) {
-					if( noParents && pageID.startsWith( startID ) || noParents && pageID === homepage || !noParents ) {
-						return <li className={`${ itemClass } ${ nestedItemClass }`} key={ i }>
-							{
-								_displayItem
-									? <NavigationItem
-											href={ relativeURL( pages[ pageID ].url, ID ) }
-											title={ pages[ pageID ].title }
-											thisPage={ pageID === ID }
-											itemClass={ itemClass }
-											ancorClass={ ancorClass }
-											spanClass={ spanClass }
-										/>
-									: null
-							}
+					if( typeof page === 'object' ) {
+						<li>
+							noParents: { noParents }
+							pageID: { pageID }
+							homepage: { homepage }
+						</li>
 
-							<Navigation
-								nav={ page }
-								pages={ pages }
-								ID={ ID }
-								startID={ startID }
-								relativeURL={ relativeURL }
-								noParents={ noParents }
-								level={ level + 1 }
-								wrappingClass={ wrappingClass }
-								itemClass={ itemClass }
-								nestedItemClass={ nestedItemClass }
-								levelClass={ levelClass }
-								ancorClass={ ancorClass }
-								spanClass={ spanClass }
-								noanchorClass={ noanchorClass }
-							/>
-						</li>
+						if( _displayItem || noParents && pageID === homepage || !noParents ) {
+							return <li className={`${ itemClass } ${ nestedItemClass }`} key={ i }>
+								{
+									_displayItem
+										? <NavigationItem
+												href={ relativeURL( pages[ pageID ].url, ID ) }
+												title={ pages[ pageID ].title }
+												thisPage={ pageID === ID }
+												itemClass={ itemClass }
+												ancorClass={ ancorClass }
+												spanClass={ spanClass }
+											/>
+										: null
+								}
+
+								<Navigation
+									nav={ page }
+									pages={ pages }
+									ID={ ID }
+									startID={ startID }
+									relativeURL={ relativeURL }
+									noParents={ noParents }
+									level={ level + 1 }
+									wrappingClass={ wrappingClass }
+									itemClass={ itemClass }
+									nestedItemClass={ nestedItemClass }
+									levelClass={ levelClass }
+									ancorClass={ ancorClass }
+									spanClass={ spanClass }
+									noanchorClass={ noanchorClass }
+								/>
+							</li>
+						}
 					}
-				}
-				else {
-					if( _displayItem ) {
-						return <li className={ itemClass } key={ i }>
-							<NavigationItem
-								href={ relativeURL( pages[ page ].url, ID ) }
-								title={ pages[ page ].title }
-								thisPage={ page === ID }
-								itemClass={ itemClass }
-								ancorClass={ ancorClass }
-								spanClass={ spanClass }
-							/>
-						</li>
+					else {
+						if( _displayItem ) {
+							return <li className={ itemClass } key={ i }>
+								<NavigationItem
+									href={ relativeURL( pages[ page ].url, ID ) }
+									title={ pages[ page ].title }
+									thisPage={ page === ID }
+									itemClass={ itemClass }
+									ancorClass={ ancorClass }
+									spanClass={ spanClass }
+								/>
+							</li>
+						}
 					}
-				}
 			})
 		}
 	</ul>
