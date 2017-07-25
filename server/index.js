@@ -7,12 +7,13 @@ const Server = Express();
 /**
  * Check that server is requested securely middle-ware
  *
- * @param  {object} request  - Express request object
- * @param  {object} response - Express response object
+ * @param  {object}   request  - Express request object
+ * @param  {object}   response - Express response object
+ * @param  {function} next     - Express next function
  *
- * @return {object}          - Express object
+ * @return {object}            - Express object
  */
-const forwardSSL = ( request, response, next ) => {
+const ForwardSSL = ( request, response, next ) => {
 	if( request.headers['x-forwarded-proto'] === 'https' ) {
 		return next();
 	}
@@ -22,11 +23,55 @@ const forwardSSL = ( request, response, next ) => {
 
 
 /**
+ * Adding basic auth to our staging site
+ *
+ * @param  {object}   request  - Express request object
+ * @param  {object}   response - Express response object
+ * @param  {function} next     - Express next function
+ *
+ * @return {object}            - Express object
+ */
+const AddPassword = ( request, response, next ) => {
+	if( process.argv.indexOf( 'staging' ) !== -1 ) {
+		const auth = {
+			login: 'guides',
+			password: 'guides',
+		};
+
+		const b64auth = ( request.headers.authorization || '' ).split(' ')[ 1 ] || '';
+		const [ login, password ] = new Buffer( b64auth, 'base64' ).toString().split(':');
+
+		// Verify login and password are set and correct
+		if(
+			!login ||
+			!password ||
+			login !== auth.login ||
+			password !== auth.password
+		) {
+			response.set('WWW-Authenticate', 'Basic realm="Please authenticate"');
+			response.status( 401 ).send(`I'm sorry.`);
+
+			return;
+		}
+		else {
+			return next();
+		}
+	}
+	else {
+		return next();
+	}
+};
+
+
+/**
  * Start server
  */
 Server
 	// First we make sure all requests come through HTTPS
-	.all( '*', forwardSSL )
+	.all( '*', ForwardSSL )
+
+	// Let's make sure we had the password passed in
+	.get( '*', AddPassword )
 
 	// Then we add dynamic routes that overwrite static ones
 	.get( '/dynamic/', ( request, response ) => {
