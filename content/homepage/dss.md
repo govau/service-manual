@@ -8,3 +8,5 @@ level: 2
 ---
 
 The [Digital Service Standard](https://www.dta.gov.au/standard/) ensures digital teams build government services that are simple, clear and fast.
+
+These Guides help teams to understand how to deliver and manage services that meet the Digital Service Standard.
