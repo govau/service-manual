@@ -60,6 +60,7 @@
 
 
 .header__text__headline {
+	position: relative;
 	display: inline-block;
 	margin-top: uikit-space( 0.25 );
 	font-size: 1.1em;
@@ -76,6 +77,20 @@
 		&:hover {
 			color: $uikit-colour-Text;
 		}
+	}
+
+	&:after {
+		display: inline-block;
+		position: relative;
+		content: 'Beta';
+		background-color: #fff;
+		padding: 0 0.55em 0 0.55em;
+		color: $uikit-colour-Primary;
+		font-size: 10px;
+		border-radius: 10px;
+		text-transform: uppercase;
+		margin-left: 0.9em;
+		top: -0.3em;
 	}
 }
 
