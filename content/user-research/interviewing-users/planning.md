@@ -28,6 +28,6 @@ You’ll need to make sure you have [informed consent from the participants](/us
 Think about about if you need to record the session and make sure the consent forms cover this.
 
 ### [2]Prepare for observers
-Invite observers and arrange a note taker for each session.
+Invite [observers and arrange a note taker](/user-research/interviewing-users/#taking-notes-and-observing) for each session.
 
-Observers are important for certain kinds of research, like lab-based usability testing. Sometimes you should not invite observers (beyond the note taker) in the room. Think about how their presence may affect the users.
+Observers are important for certain kinds of research, like lab-based usability testing. Sometimes you should not invite observers (beyond the note taker) in the room. Think about how their presence may affect the participants.
