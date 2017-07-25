@@ -1,0 +1,13 @@
+title: Homepage
+theme: dark
+header:
+  - /_shared/globalheader.md
+  - header.md
+main:
+  - dss.md
+  - categories-head.md
+  - categories.md
+  - body.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md
