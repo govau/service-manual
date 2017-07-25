@@ -14,7 +14,7 @@ User needs are usually written in the format:
 - I need/want/expect to … (What does the user want to do?)
 - So that … (Why does the user want to do this?)
 
-If it’s helpful, you can add:
+You can add:
 - As a … (Which type of user has this need?)
 - When … (What triggers the user’s need?)
 - Because … (Is the user limited by any circumstances?)
