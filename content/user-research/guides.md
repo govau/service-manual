@@ -5,7 +5,7 @@ cards:
     text: User needs are the starting point for any service work.
     link: '/user-research/identifying-users-needs/'
   - headline: Getting support for user research
-    text: How to get support in your agency to do user research.
+    text: How to get support in your organisation to do user research.
     link: '/user-research/getting-support/'
   - headline: Involve the team in research
     text: Why everyone in the team needs to do user research.
@@ -14,7 +14,7 @@ cards:
     text: How to create a user research plan.
     link: '/user-research/planning-user-research/'
   - headline: How user research changes during design and delivery
-    text: What activities you should do in each stage of the service design and delivery process.
+    text: The research activities you should do in each stage of the service design and delivery process.
     link: '/user-research/research-stages/'
   - headline: Find user research participants
     text: How to recruit people to research with.
