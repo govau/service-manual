@@ -1,7 +1,6 @@
 .childnav {
 	float: none;
 	margin-bottom: uikit-space( 1.5 );
-	border: 1px solid $uikit-colour-Border-40;
 	display: inline-block;
 
 	@include uikit-media( md ) {
@@ -127,6 +126,11 @@
 
 .navigation--level-3 {
 	border-top: 1px solid $uikit-colour-Border-40;
+
+	& .navigation__item__anchor,
+	& .navigation__item__span {
+		padding-left: 1.5em;
+	}
 }
 
 .childnav__list {
