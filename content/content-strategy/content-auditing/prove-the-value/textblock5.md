@@ -8,4 +8,4 @@ While [expert user research](/user-research/) is preferred, there are some low-c
 
 To help your stakeholders find empathy with your users, you can try asking them to find something:
 - on your website using the site's navigation menu and Google or another search engine
-- on a similar-sized organisation’s website using the site’s navigation menu and Google or another search engine.
+- on a similar-sized organisation’s website using the site’s navigation menu and Google or another search engine

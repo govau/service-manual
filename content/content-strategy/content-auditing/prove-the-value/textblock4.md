@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-Your manager or stakeholder may be unaware of how your website/s measure against content best practice (for example, user-centred, accessible content written in plain English), and whole-of-government requirements (for example, [the Digital Service Standard])(https://www.dta.gov.au/standard/).
+Your manager or stakeholder may be unaware of how your websites measure against content best practice (for example, user-centred, accessible content written in plain English), and whole-of-government requirements (for example, [the Digital Service Standard](https://www.dta.gov.au/standard/).
 
 Gather any statistics and data that can help you paint a picture of how you perform against these benchmarks, criteria and similar sites.
 

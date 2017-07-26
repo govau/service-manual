@@ -15,4 +15,4 @@ You could establish a ‘cost per view rate’ where you collate the yearly cost
 
 With data on user-satisfaction rates, you could plot the yearly spend against user-satisfaction rates and see if there are any relationships or trends.
 
-If you use different processes for managing content development and publishing, you could map. This is a way of identifying any inefficiencies or blockages in the current process, which you could potentially remove.
+If you use different processes for managing content development and publishing, you could map these out on a process map. This is a way of identifying any inefficiencies or blockages in the current process, which you could potentially remove.

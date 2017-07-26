@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Content quality check
+section: Check content quality
 ---
