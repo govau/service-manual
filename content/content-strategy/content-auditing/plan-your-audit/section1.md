@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Purpose of the website
+section: Define your purpose
 ---
