@@ -11,8 +11,4 @@ Using this data, you can frame problems by illustrating them as percentages, for
 
 Diagrams and charts can also help you to visually present the current state.
 
-Keep it clear and simple. Summarise the number of pages that need to be:
-
- - removed
- - improved
- - don't need any work
+The [UK Government Digital Service content audit template](/assets/files/GOV.UK example audit sheet .xlsx) has a clear and simple automated summary on the first page.
