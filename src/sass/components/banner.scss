@@ -2,8 +2,7 @@
 	color: #fff;
 	background: url('/assets/img/dssbanner.png') no-repeat;
 	background-color: $uikit-colour-Primary;
-
-	background-position: right;
+	background-position: 600px 0;
 	padding: uikit-space( 1.5 ) 0 uikit-space( 1.5 ) 0;
 	margin-top: -2em;
 	-webkit-font-smoothing: antialiased;
@@ -20,6 +19,7 @@
 
 	@include uikit-media( md ) {
 		background-size: contain;
+		background-position: right;
 	}
 
 	@include uikit-media( lg ) {
