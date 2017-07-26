@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-Your [audit plan](/content-auditing/plan-your-audit/) should define the type of audit you are going to do. 
+Your [content audit plan](/content-strategy/content-auditing/plan-your-audit/) should define the type of audit you are going to do. 
 
 If you are short of time and resources the most useful method is to audit a section of your website. You can scale back an audit, but still be methodical in your approach. 
 
