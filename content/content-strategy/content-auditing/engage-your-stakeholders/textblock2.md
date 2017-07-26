@@ -2,8 +2,7 @@
 layout: text/textblock
 ---
 
-Before your content audit, get buy-in from everyone involved, ideally from the top down. Bring them along on the journey with regular communication and evidence of what’s not working well.
+Before you start your content audit, get buy-in from everyone involved, ideally from the top down. Bring them along on the journey with regular communication and evidence of what’s not working well.
 
-Forging early agreements will pave the way for the project to proceed smoothly.  
+Sharing your content audit plan widely and forging early agreements will help things move along more smoothly.  
 
-Seek agreement on your plan.

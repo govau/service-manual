@@ -6,8 +6,9 @@ Think about what skills you might need and if you can use anyone in your existin
 
 ## [1]Skills required
 
-- A leader who is user and relationship-focused
-- Subject matter expertise
-- Accessible online writing and editing expertise
-- Analytical/IT/SEO ability or expertise
-- Web publishing knowledge
+It is useful to have the following people in your team:
+- a leader who is user-focused and good at building relationships
+- subject matter expert
+- accessible online writing and editing expert
+- someone with analytical/IT/SEO knowledge
+- someone with web publishing knowledge

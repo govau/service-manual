@@ -2,11 +2,11 @@
 layout: text/textblock
 ---
 
-- Website content analytics, such as Google Analytics
-- User research feedback tools, such as surveys and behaviour tracking
-- Readability checkers
-- Link checkers
-- Search engine optimisation tools
-- Behaviour analysis and content structure tools, such as Treejack
+- website content analytics, such as Google Analytics
+- user research feedback tools, such as surveys and behaviour tracking
+- readability checkers
+- link checkers
+- search engine optimisation tools
+- behaviour analysis and content structure tools, such as Treejack
 - HTML validation tools
-- Accessibility checker tools
+- accessibility checker tools
