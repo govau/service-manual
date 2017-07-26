@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Align your strategy with agency priorities
+section: Align your goals with agency priorities
 ---

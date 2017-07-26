@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Benefits of a content audit
+section: Talk about team benefits
 ---

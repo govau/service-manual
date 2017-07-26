@@ -4,4 +4,4 @@ subtitle: To start on your content audit focus on proving to what extent each we
 category: Content strategy
 ---
 
-Think about a high-level goal to aim for and why you are doing the work.Follow this up by exploring limitations and quick wins, using any available research to help put together a plan.
+Think about a high-level goal to aim for and why you are doing the work. For example, to remove all outdated content, or to identify what content needs to be rewritten to meet user needs. Follow this up by exploring quick wins and identifying possible limitations, using any available research to help put together a plan.

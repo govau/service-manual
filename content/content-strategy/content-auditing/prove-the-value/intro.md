@@ -4,4 +4,4 @@ subtitle: One of the first questions you may be asked when pitching a content au
 category: Content strategy
 ---
 
-To sell your idea, you will typically identify links between how much it will cost to do the audit and fix things, versus what it costs to leave them as they are. In effect, to prove the value.
+To 'sell' your idea, you will typically need to identify links between how much it will cost to do the audit and fix things, versus what it costs to leave them as they are. In effect, to prove the value.
