@@ -20,5 +20,4 @@ main:
   - textblock5.md
   - /_shared/feedback.md
 footer:
-  - /_shared/legal.md
   - /_shared/footer.md
