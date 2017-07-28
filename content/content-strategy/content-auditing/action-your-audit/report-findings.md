@@ -2,17 +2,13 @@
 layout: text/textblock
 ---
 
-Reporting on your audit can allow you to illustrate some important points around your content to get internal stakeholder support for actioning the data. For example:
+Through an audit report you can illustrate important points around your content to get internal stakeholder support to action the data. For example:
 - the amount of targeted content on your website
 - any information architecture (IA) or navigation problems
-- how much inaccurate or out of date content there is
+- how much inaccurate or out-of-date content there is
 
-Using this data, you can frame problems by illustrating them as percentages, for example ‘45% of our online content is inaccurate’.
+Using this data, you can frame problems by showing them as percentages, for example ‘45% of our online content is out of date’.
 
 Diagrams and charts can also help you to visually present the current state.
 
-Keep it clear and simple. Summarise the number of pages that need to be:
-
- - removed
- - improved
- - don't need any work
+The [UK Government Digital Service content audit template](/assets/files/GOV.UK example audit sheet .xlsx) has a clear and simple automated summary on the first page.

@@ -2,8 +2,8 @@
 layout: text/textblock
 ---
 
-Your manager or stakeholder may be unaware of how your website stacks up against best practice benchmarks, whole-of-government requirements (for example, accessibility) and similar government sites.
+Your manager or stakeholder may be unaware of how your websites measure against content best practice (for example, user-centred, accessible content written in plain English), and whole-of-government requirements (for example, [the Digital Service Standard](https://www.dta.gov.au/standard/).
 
-Gather any statistics and benchmarks that can help you paint a picture of how you perform against these benchmarks and similar sites.
+Gather any statistics and data that can help you paint a picture of how you perform against these benchmarks, criteria and similar sites.
 
-Look at how other similar sites are performing to get ideas about how you can improve your website. This will be useful when selling your content audit to stakeholders.
+Look at similar sites to get ideas about how you can improve your website. This will be useful when pitching your content audit to stakeholders.

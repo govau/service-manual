@@ -2,12 +2,13 @@
 layout: text/textblock
 ---
 
-Some content will require rework. It’s important to think about this as you’re analysing the content.
+Some content will need reworking. It’s important to think about this as you’re analysing the content.
 
-The tasks may involve:
-- streamlining to make it clearer by rewriting as active tense and reducing the number of words
-- rewriting to update the information to be accurate and current
-- rewriting to make the content task-focused and to include a call-to-action
+The tasks may involve making your content clearer by:
+- rewriting in the active voice and reducing the number of words
+- rewriting in plain English and improving readability and accessibility
+- updating the information to be accurate and current
+- making the content task-focused and including a call-to-action
 
 Add ‘rewrite’ as a task to the audit spreadsheet as you go.
 

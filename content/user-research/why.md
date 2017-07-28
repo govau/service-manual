@@ -17,7 +17,4 @@ User research delivers many benefits for your agency, because you:
 
  - reduce the risk of expensive failures by making fewer assumptions about your users
  - reduce delivery time by having more certainty about what to build
- - are adaptable when you release increments of the service as you gain new knowledge about your users
-
-
-
+ - release increments of the service based on the new knowledge you gain about your users

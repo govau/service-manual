@@ -4,16 +4,16 @@
 	margin-bottom: uikit-space( 1.25 );
 
 	&.header--blue {
-		background-color: $uikit-colour-Hero;
+		background-color: $uikit-colour-Primary;
 		color: #fff;
 
-		@include uikit-media( xs ) {
-			background: $uikit-colour-Hero; /* Old browsers */
+		// @include uikit-media( xs ) {
+			// background: $uikit-colour-Hero; /* Old browsers */
 			// background: -moz-linear-gradient(left, $uikit-colour-Hero 0%, $uikit-colour-Hero 7%, $uikit-colour-Hero 44%, $uikit-colour-Hero-80 78%, $uikit-colour-Hero-80 100%); /* FF3.6-15 */
 			// background: -webkit-linear-gradient(left, $uikit-colour-Hero 0%,$uikit-colour-Hero 7%,$uikit-colour-Hero 44%,$uikit-colour-Hero-80 78%,$uikit-colour-Hero-80 100%); /* Chrome10-25,Safari5.1-6 */
 			// background: linear-gradient(to right, $uikit-colour-Hero 0%,$uikit-colour-Hero 7%,$uikit-colour-Hero 44%,$uikit-colour-Hero-80 78%,$uikit-colour-Hero-80 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 			// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$uikit-colour-Hero}', endColorstr='#{$uikit-colour-Hero-80}',GradientType=1 ); /* IE6-9 */
-		}
+		// }
 	}
 
 	&.header--dark {
@@ -60,6 +60,7 @@
 
 
 .header__text__headline {
+	position: relative;
 	display: inline-block;
 	margin-top: uikit-space( 0.25 );
 	font-size: 1.1em;
@@ -76,6 +77,20 @@
 		&:hover {
 			color: $uikit-colour-Text;
 		}
+	}
+
+	&:after {
+		display: inline-block;
+		position: relative;
+		content: 'Beta';
+		background-color: #fff;
+		padding: 0 0.55em 0 0.55em;
+		color: $uikit-colour-Primary;
+		font-size: 10px;
+		border-radius: 10px;
+		text-transform: uppercase;
+		margin-left: 0.9em;
+		top: -0.3em;
 	}
 }
 

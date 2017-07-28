@@ -8,12 +8,12 @@ A content strategy is a critical step at the beginning of any new project that i
 - new services
 - new applications
 - new websites
-- website redesign.
+- website redesign
 
-### [2]To improve the quality of existing content
+### [2]If content needs improving
 
 A content strategy can also be used to improve existing content. For example:
 
 - adding new information to a website
 - Machinery of Government (MOG) changes
-- migrating content to a new system.
+- migrating content to a new system

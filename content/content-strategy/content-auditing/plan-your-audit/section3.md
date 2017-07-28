@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Decide on scope and type of content audit
+section: Decide on content audit size and type
 ---

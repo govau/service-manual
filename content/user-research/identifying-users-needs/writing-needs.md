@@ -19,7 +19,8 @@ You can add:
 - When … (What triggers the user’s need?)
 - Because … (Is the user limited by any circumstances?)
 
-Write user needs from a personal perspective using words that users would recognise and use themselves.
+Write user needs from a personal perspective using words that users would recognise and use themselves. For example:
 
+> 'As an **Australian** I need **a passport** so that **I can go overseas and prove who I am**.'
 
 Focus on what’s most important for your users so you don’t create an unmanageable list of user needs.

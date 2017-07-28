@@ -1,6 +1,6 @@
 title: Content auditing
 weight: 10
-theme: dark
+theme: blue
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
@@ -10,5 +10,4 @@ main:
   - how-audit-articles.md
   - /_shared/feedback.md
 footer:
-  - /_shared/legal.md
   - /_shared/footer.md

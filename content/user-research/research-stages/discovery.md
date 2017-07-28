@@ -7,9 +7,7 @@ Before you start to design anything, find out about your users so that you can u
 
 ### [2]Observe users
 
-Watch how users do things now and what problems or barriers they face. This is called contextual qualitative research.
-
-Don't use market research for this: we want to [find the users' real problems by observation](https://www.dta.gov.au/blog/i-want-a-pony/).
+Watch how users do things now and what problems or barriers they face. This is called contextual qualitative research. Don't use market research for this: we want to [find the users' real problems by observation](https://www.dta.gov.au/blog/i-want-a-pony/).
 
 ### [2]Interview users
 
@@ -52,10 +50,10 @@ From these activities you should get:
 
 ### [2]Combine personas with real stories
 
-Descriptions of users are often expressed as user profiles or personas. In general we prefer to use profiles combined with actual stories from users the team has met.
+Descriptions of users are often expressed as user profiles or personas.
 
-This tends to be more effective than developing personas, as empathy for an actual user is likely to be more authentic than empathy for a persona.
+We prefer to use profiles combined with actual stories from users the team has met. This tends to be more effective than developing personas, as empathy for an actual user is likely to be more authentic than empathy for a persona.
 
 ### [2]Keep on discovering
 
-Discovery research does not just happen in the Discovery phase. Teams need ongoing research to understand the evolving needs of their service.
+Discovery research doesn't just happen in the Discovery phase. Teams need ongoing research to understand the evolving needs of their service.
