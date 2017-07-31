@@ -1,0 +1,229 @@
+.globalheader {
+	font-size: 14px;
+	padding: uikit-space( 0.3 ) 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	&.globalheader--light {
+		background-color: $uikit-colour-Background;
+	}
+
+	&.globalheader--dark {
+		background-color: $uikit-colour-Primary--80;
+		color: #fff;
+	}
+
+	&.globalheader--blue {
+		background-color: $uikit-colour-Hero;
+		color: #fff;
+	}
+}
+
+.globalheader__logo {
+	display: inline-block;
+	padding-right: uikit-space( 0.65 );
+	border-right: 1px solid #fff;
+	vertical-align: middle;
+
+	.uikit-body & {
+		color: #fff;
+		border-bottom: 0;
+
+		&:hover {
+			color: $uikit-colour-Text;
+		}
+	}
+
+	.globalheader--light & {
+		border-color: $uikit-colour-Text;
+		color: $uikit-colour-Text;
+	}
+}
+
+.globalheader__logo__svg {
+	height: 1.2em;
+	width: 1.2em;
+	margin-right: uikit-space( 0.32 );
+	vertical-align: middle;
+	margin-top: uikit-space( -0.06 );
+}
+
+.globalheader__logo__title {
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.globalheader__headtext,
+.globalheader__button {
+	display: inline-block;
+	margin-left: uikit-space( 1 );
+	vertical-align: middle;
+}
+
+a.globalheader__button {
+
+	&:after {
+		content: ' ';
+		display: inline-block;
+		position: absolute;
+		top: 9px;
+		width: 0.9em;
+		height: 0.6em;
+		margin: 0 uikit-space( 0.25 ) 0 uikit-space( 0.25 );
+		background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 11">
+				<path fill="#{ $uikit-colour-Text }" d="M8.333 10.584l-7.916-8 1.98-2 7.915 8"/>
+				<path fill="#{ $uikit-colour-Text }" d="M8.333 10.584l-1.98-2 7.918-8 1.98 2"/>
+			</svg>') no-repeat;
+		transition: margin 0.1s ease-in, transform 0.3s ease;
+		.ie8 &,
+		.lt-ie8 & {
+			content: ' > ';
+			border: none;
+		}
+	}
+
+	.globalheader--dark &,
+	.globalheader--blue & {
+		color: #fff;
+
+		&:hover,
+		&:focus {
+			color: $uikit-colour-Text;
+		}
+
+		&:after {
+			background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 11">
+				<path fill="#fff" d="M8.333 10.584l-7.916-8 1.98-2 7.915 8"/>
+				<path fill="#fff" d="M8.333 10.584l-1.98-2 7.918-8 1.98 2"/>
+			</svg>') no-repeat;
+		}
+	}
+
+	&.is-open {
+		&:after {
+			transform: rotate( 180deg );
+			transform-origin: 6px 4px;
+		}
+	}
+}
+
+.globalheader__title {
+	font-weight: bold;
+	display: block;
+
+	.globalheader__content--blue & {
+		color: #fff;
+	}
+}
+
+.globalheader__content {
+	font-size: 13px;
+
+	.js & {
+		height: 0;
+		overflow: hidden;
+	}
+
+	&.is-open {
+		height: auto;
+		border-top: 1px solid $uikit-colour-Border;
+	}
+
+	&.is-opening {
+		border-top: 1px solid $uikit-colour-Border;
+	}
+}
+
+.globalheader__content--dark {
+	background: $uikit-colour-Primary--70;
+	color: $uikit-colour-Text-5;
+}
+
+.globalheader__content--blue {
+	background: $uikit-colour-Hero;
+	color: $uikit-colour-Text-5;
+
+	&.is-open {
+		height: auto;
+		border-top: 1px solid $uikit-colour-Primary;
+	}
+
+	&.is-opening {
+		border-top: 1px solid $uikit-colour-Primary;
+	}
+}
+
+.globalheader__content--light {
+	background: $uikit-colour-Background-20;
+	color: $uikit-colour-Text;
+
+	&.is-open {
+		height: auto;
+		border-top: 1px solid $uikit-colour-Border-30;
+	}
+
+	&.is-opening {
+		border-top: 1px solid $uikit-colour-Border-30;
+	}
+}
+
+.globalheader__content__wrapper {
+	margin: 0 auto;
+	padding: uikit-space( 1.5 ) 0 uikit-space( 1.5 ) 0;
+	overflow: auto;
+}
+
+.globalheader__content1 {
+	text-align: center;
+	margin-bottom: uikit-space( 1 );
+	background: url('/assets/img/coa_gray_all_sml.png') no-repeat;
+	background-position: center 0;
+	padding: uikit-space( 4 ) 0 0 0;
+	background-size: 6em;
+
+	@include uikit-media( sm ) {
+		background-position: left center;
+		padding: 0 0 0 39%;
+		margin-bottom: 0;
+		text-align: left;
+	}
+
+	@include uikit-media( md ) {
+		padding: 0 0 0 32%;
+		background-position: 2% center;
+	}
+}
+
+.globalheader__content2 {
+	background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 39">
+			<path fill="#A0A6A7" fill-rule="evenodd" d="M25.184 16.296l-.002-5.95C25.182 4.64 20.616 0 15.005 0 9.392 0 4.82 4.64 4.82 10.345c0 1.185 0 3.72-.002
+			5.95-2.66 0-4.818 2.19-4.818 4.893v12.92C0 36.812 2.158 39 4.818 39h20.366C27.844 39 30 36.81 30 34.108V21.186c0-2.702-2.156-4.89-4.816-4.89zm-16.49
+			0c.006-2.23.01-4.763.01-5.95 0-3.53 2.823-6.403 6.3-6.403 3.472 0 6.298 2.873 6.298 6.402 0 1.175.003 3.712.003 5.95H8.695z"/>
+		</svg>') no-repeat;
+	background-position: center 0.5em;
+	background-size: 2em;
+	padding: uikit-space( 3 ) 0 0 0;
+	text-align: center;
+
+	@include uikit-media( sm ) {
+		background-position: 9% center;
+		padding: 0 0 0 35%;
+		text-align: left;
+	}
+
+	@include uikit-media( md ) {
+		background-position: 13% center;
+	}
+}
+
+.globalheader__text {
+	@include uikit-media( xs ) {
+		width: 60%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	@include uikit-media( sm ) {
+		width: auto;
+	}
+}

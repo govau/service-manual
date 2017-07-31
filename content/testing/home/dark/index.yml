@@ -1,0 +1,18 @@
+title: Testing home page in dark
+theme: dark
+hidden: true
+header:
+  - /testing/_shared/globalheader.md
+  - /testing/_shared/header_home.md
+main:
+  - /testing/_shared/banner.md
+  - /testing/_shared/category_sections.md
+  - /testing/_shared/textblock.md
+  - /testing/_shared/section.md
+  - /testing/_shared/cards_category.md
+  - /testing/_shared/section.md
+  - /testing/_shared/cards_category-nolink.md
+
+footer:
+  - /testing/_shared/legalterms.md
+  - /testing/_shared/footer.md

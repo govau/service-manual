@@ -1,0 +1,135 @@
+.cards {
+	margin-bottom: 2em;
+}
+
+.card {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	border-radius: $uikit-border-radius;
+	overflow: hidden;
+	width: 100%;
+
+	.uikit-body & {
+		transition: box-shadow 0.2s ease, background 0.2s ease;
+		border: $uikit-borderize;
+	}
+
+	.cards--category & {
+		color: #fff;
+	}
+}
+
+.card__wrapper {
+	padding: uikit-space( 0.75 );
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	flex: auto;
+}
+
+.card__text {
+	margin-bottom: auto;
+
+	.cards--category & {
+		margin-bottom: 1em;
+	}
+}
+
+.card__image {
+	width: 100%;
+}
+
+.card__headline__wrapper {
+	margin-bottom: uikit-space( 1 );
+}
+
+.card__headline {
+	display: inline;
+	border-bottom: solid 1px $uikit-colour-Primary;
+
+	.cards--category & {
+		border: none;
+		font-size: 25px;
+	}
+}
+
+.card:hover,
+.card:focus {
+	box-shadow: 0px 0px 15px -2px rgba( 0, 0, 0, 0.26 );
+
+	.uikit-body & {
+		border-color: $uikit-colour-Border;
+	}
+
+	.card__headline {
+		background-color: $uikit-colour-Link;
+		border-color: transparent;
+
+		.cards--category & {
+			background-color: transparent;
+			text-decoration: underline;
+		}
+	}
+
+	.card__cta {
+		background-color: $uikit-colour-Link;
+		border-color: transparent;
+		color: $uikit-colour-Text; //sets the hover back to what it used to be.
+
+		.cards--category & {
+			background-color: transparent;
+		}
+
+		&:after {
+			margin: 0 uikit-space( 0.1 ) 0 uikit-space( 0.4 ); //move arrow by just uikit-space( 0.1 ); this is not a magic number …
+		}
+	}
+}
+
+.card__cta {
+	&.uikit-cta-link {
+		margin: 2em 0 0 0;
+		font-size: 16px;
+
+		.cards--category & {
+			border-color: #fff;
+			color: #fff;
+
+			&:after {
+				background-image: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+					<path fill="#fff" d="M128 64l-64 64-16-16 64-64"/>
+					<path fill="#fff" d="M128 64l-16 16-64-64L64 0"/>
+				</svg>');
+			}
+		}
+	}
+}
+
+.cards__list {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+
+	.uikit-grid & {
+		padding: 0;
+		margin-bottom: 0;
+	}
+}
+
+.cards .cards__list > .cards__list__item {
+	margin-bottom: 1em;
+	display: block;
+	flex-basis: 100%;
+
+	@include uikit-media( sm ) {
+		display: flex;
+		align-items: stretch;
+		flex-basis: auto;
+	}
+}
+
+.cards__link {
+	margin-bottom: 0;
+}

@@ -13,8 +13,13 @@ validation-status.json
 npm-debug.log
 *.log
 
-# phenomic build
-dist
+# build
+site/
 
-# uikit
-src/uikit/
+# artifacts
+*.css
+!docs/**/*.css
+assets/js/site.js
+uikit.js
+src/sass/uikit/
+scripts/uikit/

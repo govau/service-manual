@@ -1,9 +1,10 @@
 ---
-
 host: service-manual
 buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
 memory: 256M
 instances: 1
+env:
+  NODE_MODULES_CACHE: false
 path: ./
 command: node server/index.js
 

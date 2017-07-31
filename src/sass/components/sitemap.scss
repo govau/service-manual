@@ -1,0 +1,19 @@
+.sitemap {
+	margin-bottom: 2em;
+
+	.navigation--level-3 {
+		border-top: 0;
+
+		& .navigation__item__anchor,
+		& .navigation__item__span {
+			padding-left: 1em;
+		}
+	}
+
+	&.uikit-body {
+		ul,
+		li {
+			margin: 0;
+		}
+	}
+}

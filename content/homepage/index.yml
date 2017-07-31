@@ -1,0 +1,17 @@
+title: Homepage
+theme: dark
+header:
+  - /_shared/globalheader.md
+  - header.md
+main:
+  - dss.md
+  - categories-head.md
+  - categories.md
+  - featuredtopics-section.md
+  - featuredtopics.md
+  - cstudies-section.md
+  - cstudies.md
+  - body.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

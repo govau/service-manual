@@ -1,0 +1,14 @@
+title: Starting and managing a team
+weight: 30
+hidden: true
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - header.md
+main:
+  - cards.md
+  - cards-category.md
+  - /_shared/feedback.md
+
+footer:
+  - /_shared/footer-gds.md

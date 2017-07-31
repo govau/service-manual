@@ -1,0 +1,165 @@
+.imageblock {
+	background-color: $uikit-colour-Primary-90;
+	color: #fff;
+	margin-bottom: uikit-space( 1.25 );
+
+	@include uikit-media( sm ) {
+		padding: 0;
+	}
+}
+
+
+.imageblock__image {
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: auto 32em;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	z-index: 0;
+
+	@include uikit-media( sm ) {
+		background-position: right center;
+		background-size: cover;
+
+		&:after {
+			content: '';
+			background-color: $uikit-colour-Primary-90;
+			top: 0;
+			left: 0;
+			right: 50%;
+			bottom: 0;
+			position: absolute;
+			z-index: -1;
+		}
+	}
+
+	@include uikit-media( lg ) {
+		background-size: contain;
+	}
+
+	.imageblock--white & {
+		&:after {
+			background-color: #fff;
+		}
+	}
+
+	.imageblock--reverse & {
+		@include uikit-media( sm ) {
+			background-position: left center;
+
+			&:after {
+				left: 50%;
+				right: 0;
+			}
+		}
+	}
+}
+
+
+.imageblock__content--blue,
+.imageblock__content--dark {
+	background-color: $uikit-colour-Primary-90;
+
+	@include uikit-media( sm ) {
+		background-color: $uikit-colour-Primary-90;
+	}
+}
+
+
+.imageblock__content--white {
+	background-color: #fff;
+	color: $uikit-colour-Text;
+
+	@include uikit-media( sm ) {
+		background-color: #fff;
+	}
+}
+
+
+.imageblock__content {
+	margin: uikit-space( 20 ) 0 0 0;
+	padding: uikit-space( 3 ) uikit-space( 1.5 );
+	height: 100%;
+
+	@include uikit-media( sm ) {
+		padding: uikit-space( 2 ) uikit-space( 1.5 ) uikit-space( 2 ) uikit-space( 1.5 );
+		margin: auto;
+		float: left;
+		max-width: 20em;
+
+		.imageblock--reverse & {
+			float: right;
+		}
+	}
+
+	@include uikit-media( md ) {
+		max-width: 30em;
+	}
+
+	@include uikit-media( lg ) {
+		max-width: 40em;
+	}
+
+	.section__section {
+		margin-bottom: uikit-space( 1.5 );
+	}
+
+	&.imageblock__content--blue,
+	&.imageblock__content--dark {
+		@for $i from 1 through 6 {
+			.display-#{$i} {
+				color: #fff;
+			}
+		}
+	}
+}
+
+
+a {
+	.imageblock__content & {
+		color: #ffffff;
+		font-weight: 600;
+		text-decoration: none;
+		padding-bottom: 1px;
+		border-bottom: solid 1px #5bcbe3;
+
+		&[rel~='external']:after {
+			background-image: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+				<path fill="#fff" d="M24.002 8C15.155 8 8 15.164 8 24.002v79.996C8 112.845 15.164 120 24.002 120h79.996c8.847 0 16.002-7.164
+					16.002-16.002V82.005c0-1.107-.895-2.005-1.994-2.005h-12.012c-1.1 0-1.994.893-1.994 1.995v16.008c0 3.312-2.685 5.997-5.997 5.997H29.997C26.685
+					104 24 101.315 24 98.003V29.997C24 26.685 26.685 24 29.997 24h16.008C47.107 24 48 23.105 48 22.006V9.994C48 8.894 47.103 8 45.995 8H24.002z"/>
+				<path fill="#fff" d="M127.416.584c-.36-.36-.86-.584-1.41-.584H73.994C72.904 0 72 .893 72 1.994v12.012c0 1.1.892 1.994 1.993 1.994H96L49.41
+					62.59c-.777.777-.774 2.046.01 2.83l13.16 13.16c.793.793 2.052.788 2.83.01L112 32v22.007c0 1.09.893 1.993 1.994 1.993h12.012c1.1 0 1.994-.892
+					1.994-1.993V1.993c0-.545-.223-1.043-.584-1.405V.584z"/>
+			</svg>');
+		}
+	}
+
+	.imageblock__content--white.imageblock__content & {
+		color: $uikit-colour-Text;
+
+		&[rel~='external']:after {
+			background-image: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+				<path fill="#{ $uikit-colour-Primary }" d="M24.002 8C15.155 8 8 15.164 8 24.002v79.996C8 112.845 15.164 120 24.002 120h79.996c8.847 0 16.002-7.164
+					16.002-16.002V82.005c0-1.107-.895-2.005-1.994-2.005h-12.012c-1.1 0-1.994.893-1.994 1.995v16.008c0 3.312-2.685 5.997-5.997 5.997H29.997C26.685
+					104 24 101.315 24 98.003V29.997C24 26.685 26.685 24 29.997 24h16.008C47.107 24 48 23.105 48 22.006V9.994C48 8.894 47.103 8 45.995 8H24.002z"/>
+				<path fill="#{ $uikit-colour-Primary }" d="M127.416.584c-.36-.36-.86-.584-1.41-.584H73.994C72.904 0 72 .893 72 1.994v12.012c0 1.1.892 1.994 1.993 1.994H96L49.41
+					62.59c-.777.777-.774 2.046.01 2.83l13.16 13.16c.793.793 2.052.788 2.83.01L112 32v22.007c0 1.09.893 1.993 1.994 1.993h12.012c1.1 0 1.994-.892
+					1.994-1.993V1.993c0-.545-.223-1.043-.584-1.405V.584z"/>
+			</svg>');
+		}
+	}
+}
+
+
+.imageblock__headline {
+	color: #fff;
+	font-weight: normal;
+	margin-bottom: uikit-space( 0.7 );
+	line-height: 1.2;
+
+	.imageblock__content--white & {
+		color: $uikit-colour-Primary;
+	}
+}

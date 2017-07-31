@@ -1,0 +1,40 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+.container {
+	max-width: 100%;
+	margin: 0 12px;
+
+	@media (min-width: 1124px) {
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+}
+
+.textwrapper {
+	max-width: ( $uikit-maxwidth - 5);
+}
+
+.uikit-body p + ul,
+.uikit-body p + ol,
+.uikit-body p + dd {
+	margin-top: -1em;
+}
+
+.uikit-body [tabindex="0"]:focus,
+.uikit-body :target {
+	outline: none;
+}

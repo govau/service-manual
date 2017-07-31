@@ -1,0 +1,15 @@
+title: Testing category page in light
+theme: light
+hidden: true
+header:
+  - /testing/_shared/globalheader.md
+  - /testing/_shared/category_header.md
+main:
+  - /testing/_shared/category_headline.md
+  - /testing/_shared/category_sections.md
+  - /testing/_shared/category_section.md
+  - /testing/_shared/textblock.md
+
+footer:
+  - /testing/_shared/legalterms.md
+  - /testing/_shared/footer.md
