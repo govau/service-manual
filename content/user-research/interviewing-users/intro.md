@@ -11,6 +11,6 @@ Use interviews when you want to:
 - get a deeper understanding of any problems that users tell you about
 - explore their understanding or perspective on a topic
 
-Interviews are an important part of the Discovery stage, but you’ll keep using them as part of your [research through the other stages](/user-research/how-changes/) of the service design and delivery process.
+Interviews are an important part of the Discovery stage, but you’ll keep using them as part of your [research through the other stages](/user-research/research-stages/) of the service design and delivery process.
 
-In Alpha and the later stages you’ll often combine [interviews with usability testing](/user-research/interviewing-users/).
+In Alpha and the later stages you’ll often combine interviews with usability testing.
