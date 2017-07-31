@@ -4,7 +4,9 @@
 
 .card {
 	box-sizing: border-box;
+	display: block;
 	display: flex;
+	clear: both;
 	flex-direction: column;
 	border-radius: $uikit-border-radius;
 	overflow: hidden;
@@ -121,6 +123,8 @@
 .cards .cards__list > .cards__list__item {
 	margin-bottom: 1em;
 	display: block;
+	float: left;
+
 	flex-basis: 100%;
 
 	@include uikit-media( sm ) {
@@ -128,7 +132,12 @@
 		align-items: stretch;
 		flex-basis: auto;
 	}
+
+	&:nth-child(5) {
+		clear: both;
+	}
 }
+
 
 .cards__link {
 	margin-bottom: 0;
