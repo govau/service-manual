@@ -47,9 +47,16 @@
 .header__logo {
 	margin-bottom: uikit-space( 0.5 );
 	width: 3.8em;
+	outline: 0;
+
+	border: 0;
 
 	@include uikit-media( xs ) {
 		width: 7em;
+	}
+
+	&:focus {
+		outline: 0;
 	}
 }
 

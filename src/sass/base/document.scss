@@ -14,6 +14,10 @@ main {
 	flex: 1 0 auto;
 }
 
+img {
+	border: 0;
+}
+
 .container {
 	max-width: 100%;
 	margin: 0 12px;
@@ -32,4 +36,11 @@ main {
 .uikit-body p + ol,
 .uikit-body p + dd {
 	margin-top: -1em;
+}
+
+.uikit-body a[rel~='external']:after {
+	.ie9 & {
+		width: 1.3em;
+		height: 1em;
+	}
 }
