@@ -10,7 +10,6 @@
 	flex-direction: column;
 	border-radius: $uikit-border-radius;
 	overflow: hidden;
-	background: red;
 	.uikit-body & {
 		transition: box-shadow 0.2s ease, background 0.2s ease;
 		border: $uikit-borderize;
