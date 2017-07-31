@@ -23,12 +23,6 @@
 
 	.uikit-link-list {
 		padding-top: 0;
-
-		> li:not(:last-child) {
-			&:after {
-				background-repeat: no-repeat;
-			}
-		}
 	}
 
 	.uikit-link-list.uikit-link-list--inverted {

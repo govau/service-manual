@@ -2,34 +2,7 @@ import PropTypes from 'prop-types';
 import Slugify from 'slugify';
 import React from 'react';
 
-
-// UIKIT
-const InpageNavLinksItem = ({ section }) => {
-	const attributeOptions = {};
-
-	if( typeof section.onClick === 'function' ) {
-		attributeOptions.onClick = section.onClick;
-	}
-
-	return (
-		<li>
-			<a href={ `#${ section.link }` } { ...attributeOptions }>{ section.title }</a>
-		</li>
-	);
-};
-
-const InpageNavLinks = ({ title, sections }) => (
-	<nav className="uikit-inpage-nav-links">
-		<h2 className="uikit-inpage-nav-links__heading uikit-display-2">{ title }</h2>
-		<ul className="uikit-link-list">
-			{ sections.map( ( section, i ) => <InpageNavLinksItem key={ i } section={ section } /> ) }
-		</ul>
-	</nav>
-);
-
-InpageNavLinks.defaultProps = {
-	title: 'Contents',
-};
+import { InpageNavLinksItem, InpageNavLinks } from '../../scripts/uikit/inpage-nav';
 
 
 /**
