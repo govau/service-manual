@@ -80,7 +80,12 @@ a.globalheader__button {
 			content: ' > ';
 			border: none;
 		}
+
+		.ie9 & {
+			width: 1.5em;
+		}
 	}
+
 
 	.globalheader--dark &,
 	.globalheader--blue & {
@@ -181,6 +186,11 @@ a.globalheader__button {
 	padding: uikit-space( 4 ) 0 0 0;
 	background-size: 6em;
 
+	.ie9 & {
+		background-image: none;
+		padding-left: 0;
+	}
+
 	@include uikit-media( sm ) {
 		background-position: left center;
 		padding: 0 0 0 39%;
@@ -201,9 +211,14 @@ a.globalheader__button {
 			0c.006-2.23.01-4.763.01-5.95 0-3.53 2.823-6.403 6.3-6.403 3.472 0 6.298 2.873 6.298 6.402 0 1.175.003 3.712.003 5.95H8.695z"/>
 		</svg>') no-repeat;
 	background-position: center 0.5em;
-	background-size: 2em;
+	background-size: 2em 2em;
 	padding: uikit-space( 3 ) 0 0 0;
 	text-align: center;
+
+	.ie9 & {
+		background-image: none;
+		padding-left: 0;
+	}
 
 	@include uikit-media( sm ) {
 		background-position: 9% center;
