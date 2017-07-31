@@ -1,9 +1,10 @@
 ---
 layout: nav/sections
 sections:
-  - Purpose of the website
+  - Define your purpose
   - Articulate a goal
-  - Decide on scope and type of content audit
+  - Decide on content audit size and type
+  - Think about timings
   - Prioritise
   - Create a plan
 ---
