@@ -8,4 +8,4 @@ You must [involve the team in research](/user-research/team-research/). This mea
 
 The [user research guides](/user-research/) will help you and your team understand what you need to do.
 
-Sharing [case studies on how user research helps teams](http://localhost:8080/user-research/#examples-and-case-studies) can help people to understand why user research is important.
+Sharing [case studies on how user research helps teams](/user-research/getting-support/#case-studies-and-examples) can help people to understand why user research is important.
