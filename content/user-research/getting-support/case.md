@@ -1,8 +1,8 @@
 ---
 layout: cards/cards
 cards:
-- headline: 6 case studies: using research and data to improve a live service
-  text: GOV.UK published six case studies on how they used research and data to improve live services.
-  link: 'https://userresearch.blog.gov.uk/2014/09/17/6-case-studies-using-research-and-data-to-improve-a-live-service'
+- headline: Why everyone should be involved in user research
+  text: Read on GOV.UK's User Research blog about why user research is a team sport.
+  link: 'https://userresearch.blog.gov.uk/2014/08/06/have-you-had-your-recommended-dose-of-research/'
   cta: Read on GOV.UK blog
 ---

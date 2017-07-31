@@ -1,4 +1,4 @@
-title: GOV.AU
+title: Homepage
 theme: dark
 header:
   - /_shared/globalheader.md
@@ -7,6 +7,10 @@ main:
   - dss.md
   - categories-head.md
   - categories.md
+  - featuredtopics-section.md
+  - featuredtopics.md
+  - cstudies-section.md
+  - cstudies.md
   - body.md
   - /_shared/feedback.md
 footer:

@@ -3,9 +3,8 @@ weight: 10
 theme: blue
 header:
   - /_shared/globalheader.md
-  - /_shared/header_category.md
+  - header.md
 main:
-  - intro.md
   - sections.md
   - why.md
   - when-head.md
@@ -18,4 +17,4 @@ main:
   - support.md
   - /_shared/feedback.md
 footer:
-  - /_shared/footer.md
+  - /_shared/footer-gds.md

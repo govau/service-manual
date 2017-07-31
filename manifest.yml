@@ -6,7 +6,7 @@ instances: 1
 env:
   NODE_MODULES_CACHE: false
 path: ./
-command: node server/index.js
+command: node server/index.js staging
 
 applications:
 - name: service-manual-blue

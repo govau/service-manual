@@ -8,7 +8,7 @@ You must do user research when designing your service as part of meeting the fol
 - [Criteria 6: Test the service](https://www.dta.gov.au/standard/6-consistent-and-responsive/)
 - [Criteria 9: Make it accessible](https://www.dta.gov.au/standard/9-make-it-accessible/)
 - [Criteria 10: Test the service](https://www.dta.gov.au/standard/10-test-the-service/)
-
+- [Criteria 13: Encourage everyone to use the digital service](https://www.dta.gov.au/standard/13-encourage-use-of-the-digital-service/)
 
 You may have to explain how you did this in your service assessments.
 

@@ -9,7 +9,7 @@ A recruitment brief is a set of instructions sent to an agency for recruiting us
 
 The recruitment brief is then usually converted into a recruitment ‘screener’ which is used by the agency to interview potential participants and ensure you have the correct mix of people for your research.
 
-Screeners can look complex but are very important to get right to ensure you have the right people participating in the research.
+Screeners can look complex, but they are very important to get right to ensure you have the right people participating in the research.
 
 You should have a conversation with the recruiter about who will write the screener. If you have specific criteria for recruitment, you can provide questions or a full screen to be used.
 

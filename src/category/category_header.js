@@ -56,15 +56,18 @@ const Categoryheader = ( page ) => {
 				<div className="row">
 					<div className="col-md-12">
 						<div className="header__subheader">
-							<img className="header__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`} />
+							<a href="/" title="Guides home">
+								<img className="header__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`}
+									alt="The Australian Government coat of Arms"/>
+							</a>
 							<div className="header__text">
-								<strong className="header__text__headline">
+								<a href="/" className="header__text__headline">
 									{
 										page._pages[ page._ID ]['header-title']
 											? page._pages[ page._ID ]['header-title']
-											: 'Service Manual'
+											: 'Guides'
 									}
-								</strong>
+								</a>
 
 									{
 										breadcrumbs.length > 1
@@ -81,6 +84,10 @@ const Categoryheader = ( page ) => {
 						</div>
 
 						<div className="textwrapper">
+							<h1 className="header__title">
+								{ page.title }
+							</h1>
+
 							<div className="header__description">
 								{ page.description }
 							</div>
@@ -93,6 +100,11 @@ const Categoryheader = ( page ) => {
 }
 
 Categoryheader.propTypes = {
+	/**
+	 * title: User research
+	 */
+	title: PropTypes.string,
+
 	/**
 	 * description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 	 */

@@ -3,7 +3,7 @@ layout: text/textblock
 quote: Try to stay quiet — the more you talk, the less your participant will talk.
 ---
 Once you’ve started the session and the participant is settled:
-- get the participant’s [informed consent](#)
+- get the participant’s [informed consent](/user-research/consent-forms/)
 - run through your introduction script
 - start with a few general questions to help the participant relax (for example, ask them about their journey or to tell you about their job)
 - take time to adjust to their conversation pace and style

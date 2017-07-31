@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: The whole team needs to value user research
+section: Encourage the whole team to value user research
 ---

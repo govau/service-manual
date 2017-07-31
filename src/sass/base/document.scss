@@ -38,6 +38,7 @@ img {
 	margin-top: -1em;
 }
 
+ 
 .uikit-body a[rel~='external']:after {
 	.ie9 & {
 		width: 1.3em;
@@ -50,4 +51,8 @@ img {
 		width: 1.1em;
 		height: 0.8em;
 	}
+}
+.uikit-body [tabindex="0"]:focus,
+.uikit-body :target {
+	outline: none;
 }

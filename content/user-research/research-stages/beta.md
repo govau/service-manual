@@ -8,7 +8,7 @@ There are two different research stages in Beta:
 
 ### [2]1. Researching as you build the beta service
 
-You can do more of the same research as you you were doing in Alpha as you build the beta service. But you are aiming to refine a solution for launch.
+You can do more of the same research as you were doing in Alpha as you build the beta service. But you are aiming to refine a solution for launch.
 
 Do task-based usability testing with a wide range of users.
 

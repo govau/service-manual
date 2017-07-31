@@ -10,14 +10,20 @@ const ImageContentblock = ( page ) => {
 
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 	const imageSrc = page.image.startsWith('http') ? `${ page.image }` : `/assets/img/${ page.image }`;
-
 	const HeadingTag = `h${ page.level }`;
 
-	const content = (
+	let imageLink = page.link;
+	if( imageLink ) {
+		imageLink = imageLink.startsWith('http')
+			? page.link
+			: `/assets/img/${ page.link }`;
+	}
+
+	const Content = (
 		<div className={`imagecontentblock__content imagecontentblock__content--${ theme }`}>
 			{ page.section && <span className="section__section intro__category" id={ Slugify( page.section ).toLowerCase() } >{ page.section }</span> }
 			<div className="textwrapper">
-				<HeadingTag className={ `imagecontentblock__headline display-3` }>
+				<HeadingTag className={ `imagecontentblock__headline display-${ page.display }` }>
 					{ page.title ? page.title : page._pages[ page._ID ].title }
 				</HeadingTag>
 			</div>
@@ -25,11 +31,12 @@ const ImageContentblock = ( page ) => {
 		</div>
 	);
 
-	const image = (
+	const Figure = (
 		<figure className="imagecontentblock__image">
-			<a href={ imageSrc }>
-				<img className="imagecontentblock__image__img" src={ imageSrc } alt={ page.imageAlt } />
-			</a>
+			{ imageLink === undefined
+				? ( <img className="imagecontentblock__image__img" src={ imageSrc } alt={ page.imageAlt } /> )
+				: ( <a href={ imageLink }><img className="imagecontentblock__image__img" src={ imageSrc } alt={ page.imageAlt } /></a> )
+			}
 			<figcaption className="imagecontentblock__image__caption">{ page.caption }</figcaption>
 		</figure>
 	);
@@ -39,10 +46,16 @@ const ImageContentblock = ( page ) => {
 			<div className="container">
 				<div className="row">
 					<div className="col-md-6">
-						{ page.reverse ? image : content }
+						{ page.reverse
+							? Figure
+							: Content
+						}
 					</div>
 					<div className="col-md-6">
-						{ page.reverse ? content : image }
+						{ page.reverse
+							? Content
+							: Figure
+						}
 					</div>
 				</div>
 			</div>
@@ -56,6 +69,11 @@ ImageContentblock.propTypes = {
 	 * image: https://via.placeholder.com/500x500
 	 */
 	image: PropTypes.string,
+
+	/**
+	 * link: https://via.placeholder.com/500x500
+	 */
+	link: PropTypes.string,
 
 	/**
 	 * title: How do i get started
@@ -83,6 +101,11 @@ ImageContentblock.propTypes = {
 	level: PropTypes.number,
 
 	/**
+	 * display: 3
+	 */
+	display: PropTypes.number,
+
+	/**
 	 * _body: (text)(4)
 	 */
 	_body: PropTypes.node.isRequired,
@@ -91,6 +114,7 @@ ImageContentblock.propTypes = {
 
 ImageContentblock.defaultProps = {
 	level: 2,
+	display: 3,
 };
 
 

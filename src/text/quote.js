@@ -2,6 +2,9 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 
+/**
+ * The quote component
+ */
 const Quote = ( page ) => (
 	<div className="uikit-body uikit-grid quote">
 		<div className="container">
