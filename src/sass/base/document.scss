@@ -44,3 +44,10 @@ img {
 		height: 1em;
 	}
 }
+
+.uikit-breadcrumbs > .uikit-link-list > li:after {
+	.ie9 & {
+		width: 1.1em;
+		height: 0.8em;
+	}
+}

@@ -80,7 +80,12 @@ a.globalheader__button {
 			content: ' > ';
 			border: none;
 		}
+
+		.ie9 & {
+			width: 1.5em;
+		}
 	}
+
 
 	.globalheader--dark &,
 	.globalheader--blue & {
