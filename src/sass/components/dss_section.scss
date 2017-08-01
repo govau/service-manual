@@ -65,6 +65,15 @@
 					1.994-1.993V1.993c0-.545-.223-1.043-.584-1.405V.584z"/>
 			</svg>');
 		}
+
+		&:hover,
+		&:focus {
+			color: $uikit-colour-Text;
+		}
+
+		&:focus {
+			outline: 1px solid #fff;
+		}
 	}
 }
 
@@ -86,5 +95,14 @@
 				<path fill="#fff" d="M128 64l-64 64-16-16 64-64"/>
 				<path fill="#fff" d="M128 64l-16 16-64-64L64 0"/>
 			</svg>');
+	}
+
+	&:hover,
+	&:focus {
+		color: $uikit-colour-Text;
+	}
+
+	&:focus {
+		outline: 1px solid #fff;
 	}
 }

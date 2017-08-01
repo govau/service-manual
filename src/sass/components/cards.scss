@@ -10,6 +10,7 @@
 	flex-direction: column;
 	border-radius: $uikit-border-radius;
 	overflow: hidden;
+	width: 100%;
 
 	.uikit-body & {
 		transition: box-shadow 0.2s ease, background 0.2s ease;
@@ -32,20 +33,27 @@
 
 .card__text {
 	margin-bottom: auto;
-	width: 100%;
+
+	.cards--category & {
+		margin-bottom: 1em;
+	}
 }
 
 .card__image {
 	width: 100%;
 }
 
-.card__headline {
-	display: inline-block;
-	border-bottom: solid 1px $uikit-colour-Primary;
+.card__headline__wrapper {
 	margin-bottom: uikit-space( 1 );
+}
+
+.card__headline {
+	display: inline;
+	border-bottom: solid 1px $uikit-colour-Primary;
 
 	.cards--category & {
 		border: none;
+		font-size: 25px;
 	}
 }
 

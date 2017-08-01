@@ -1,6 +1,6 @@
 ---
 layout: intros/intro
-subtitle: Recruit current or future potential users of the service.
+subtitle: How to recruit current or future potential users of the service.
 category: User research
 ---
 

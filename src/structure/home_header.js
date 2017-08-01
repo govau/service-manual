@@ -55,15 +55,16 @@ const Homeheader = ( page ) => {
 				<div className="row">
 					<div className="col-md-12">
 						<div className="header__subheader">
-							<a href="/">
-								<img className="header__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`} />
+							<a href="/" title="Guides home">
+								<img className="header__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`}
+									alt="The Australian Government coat of Arms"/>
 							</a>
 							<div className="header__text">
 								<a href="/" className="header__text__headline">
 									{
 										page._pages[ page._ID ]['header-title']
 											? page._pages[ page._ID ]['header-title']
-											: 'Service Manual'
+											: 'Guides'
 									}
 								</a>
 
@@ -90,9 +91,9 @@ const Homeheader = ( page ) => {
 						*/}
 
 						<div className="textwrapper">
-							<div className="header__title">
+							<h1 className="header__title">
 								{ page.title }
-							</div>
+							</h1>
 
 							<div className="header__description">
 								{ page.description }

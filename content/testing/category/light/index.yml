@@ -1,5 +1,6 @@
 title: Testing category page in light
 theme: light
+hidden: true
 header:
   - /testing/_shared/globalheader.md
   - /testing/_shared/category_header.md

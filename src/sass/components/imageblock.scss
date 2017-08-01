@@ -1,10 +1,10 @@
 .imageblock {
 	background-color: $uikit-colour-Primary-90;
 	color: #fff;
+	margin-bottom: uikit-space( 1.25 );
 
 	@include uikit-media( sm ) {
 		padding: 0;
-		margin-bottom: uikit-space( 1.25 );
 	}
 }
 
@@ -32,6 +32,10 @@
 			position: absolute;
 			z-index: -1;
 		}
+	}
+
+	@include uikit-media( lg ) {
+		background-size: contain;
 	}
 
 	.imageblock--white & {
@@ -94,7 +98,7 @@
 	}
 
 	@include uikit-media( lg ) {
-		max-width: none;
+		max-width: 40em;
 	}
 
 	.section__section {
@@ -104,9 +108,9 @@
 	&.imageblock__content--blue,
 	&.imageblock__content--dark {
 		@for $i from 1 through 6 {
-		  .display-#{$i} {
-			  color: #fff;
-		  }
+			.display-#{$i} {
+				color: #fff;
+			}
 		}
 	}
 }

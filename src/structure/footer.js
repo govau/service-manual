@@ -13,7 +13,8 @@ const Footer = ( page ) => {
 			<div className="container">
 				<div className="row">
 					<div className="col-md-2">
-						<img className="footer__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`} />
+						<img className="footer__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`}
+							alt="The Australian Government coat of Arms" />
 					</div>
 					<div className="col-md-10">
 						<div className="footer__links__wrapper">

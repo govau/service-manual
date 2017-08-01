@@ -82,9 +82,16 @@
 
 
 .imagecontentblock__image {
+	position: relative;
 	margin: 0;
+
+	@include uikit-media( md ) {
+		margin: -(uikit-space( 1.55 )) 0 -(uikit-space( 1.55 )) 0;
+	}
+
 	a {
 		border-bottom: 0;
+
 		&:hover {
 			background-color: transparent;
 		}
@@ -96,9 +103,16 @@
 }
 
 .imagecontentblock__image__img {
-	max-width: 100%;
+	width: 100%;
+	display: block;
 }
 
 .imagecontentblock__image__caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	font-size: 0.875em;
+	padding: uikit-space( 0.5 );
+	background-color: rgba( 0, 0, 0, 0.5 );
 }

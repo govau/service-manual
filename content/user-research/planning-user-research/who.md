@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-The first part of user research on a service is [identifying the users and their needs](/user-research/identifying-users-needs/).
+The first part of user research for a service is [identifying the users and their needs](/user-research/identifying-users-needs/).
 
 You can learn about users by:
 

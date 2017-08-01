@@ -1,5 +1,6 @@
 title: Testing main page
 weight: 100
+hidden: true
 theme: blue
 header:
   - /_shared/globalheader.md
