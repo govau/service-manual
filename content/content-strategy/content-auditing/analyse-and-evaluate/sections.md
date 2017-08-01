@@ -3,7 +3,7 @@ layout: nav/sections
 sections:
   - Prioritise
   - Is it current, accurate and complete?
-  - Content quality check
+  - Check content quality 
   - Checking the data
   - Tools
 ---

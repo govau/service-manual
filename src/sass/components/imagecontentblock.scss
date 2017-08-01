@@ -86,7 +86,7 @@
 	margin: 0;
 
 	@include uikit-media( md ) {
-		margin: -(uikit-space( 1.55 )) 0 -(uikit-space( 1.55 )) 0;
+		margin: uikit-space( 0.80 ) 0 uikit-space( 1 ) 0;
 	}
 
 	a {

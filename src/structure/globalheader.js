@@ -36,6 +36,7 @@ const GlobalHeader = ( page ) => {
 											: 'star'
 										}`}/>
 								</svg>
+
 								<span className="globalheader__logo__title">GOV.AU</span>
 							</a>
 							{ page.text && <span className="globalheader__headtext">{ page.text }</span> }
