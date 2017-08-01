@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import Slugify from 'slugify';
 import React from 'react';
 
-
 const CRITERIA = {
 	'1': {
 		title: `Understand user needs`,
@@ -62,7 +61,9 @@ const CRITERIA = {
 /**
  * The section component
  */
-const DSSSection = ( page ) => (
+const DSSSection = ( page ) => {
+
+	return (
 	<div className="uikit-body uikit-grid dss-section">
 		<div className="container">
 			<div className="row">
@@ -88,6 +89,7 @@ const DSSSection = ( page ) => (
 		</div>
 	</div>
 );
+}
 
 
 DSSSection.propTypes = {
