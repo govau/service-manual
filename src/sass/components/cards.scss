@@ -25,12 +25,14 @@
 	padding: uikit-space( 0.75 );
 	display: flex;
 	flex-direction: column;
-	align-items: baseline;
+	align-items: flex-start;
 	flex: auto;
+	justify-content: flex-start;
 }
 
 .card__text {
 	margin-bottom: auto;
+	width: 100%;
 }
 
 .card__image {
