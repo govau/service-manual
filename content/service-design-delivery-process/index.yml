@@ -1,12 +1,20 @@
 title: Service design delivery process
 weight: 20
-hidden: true
 theme: blue
 header:
   - /_shared/globalheader.md
   - header.md
 main:
-  - FILL ME
+  - category_sections.md
+  - what.md
+  - why-head.md
+  - why.md
+  - when-head.md
+  - when.md
+  - how-head.md
+  - how.md
+  - guides-cards.md
+  - /_shared/support-service-design.md
   - /_shared/feedback.md
 
 footer:
