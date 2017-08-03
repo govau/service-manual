@@ -11,4 +11,4 @@ Using this data, you can frame problems by showing them as percentages, for exam
 
 Diagrams and charts can also help you to visually present the current state.
 
-The [UK Government Digital Service content audit template](/assets/files/GOV.UK example audit sheet .xlsx) has a clear and simple automated summary on the first page.
+The [UK Government Digital Service content audit template](/assets/files/gov.uk-example-audit-sheet.xlsx) has a clear and simple automated summary on the first page.
