@@ -6,8 +6,15 @@ header:
   - /_shared/globalheader.md
   - header.md
 main:
-  - cards.md
-  - cards-category.md
+  - sections.md
+  - dss.md
+  - what.md
+  - when-head.md
+  - when.md
+  - how-head.md
+  - how.md
+  - cases-head.md
+  - cases.md
   - /_shared/feedback.md
 
 footer:
