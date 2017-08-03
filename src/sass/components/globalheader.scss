@@ -65,11 +65,11 @@ a.globalheader__button {
 	&:after {
 		content: ' ';
 		display: inline-block;
-		position: relative;
+		position: absolute;
 		top: 0px;
 		width: 0.9em;
 		height: 0.6em;
-		margin: 0 uikit-space( 0.25 ) 0 uikit-space( 0.25 );
+		margin: uikit-space( 0.45 ) uikit-space( 0.25 ) 0 uikit-space( 0.25 );
 		background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 11">
 				<path fill="#{ $uikit-colour-Text }" d="M8.333 10.584l-7.916-8 1.98-2 7.915 8"/>
 				<path fill="#{ $uikit-colour-Text }" d="M8.333 10.584l-1.98-2 7.918-8 1.98 2"/>
@@ -123,6 +123,8 @@ a.globalheader__button {
 
 .globalheader__content {
 	font-size: 13px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 
 	.js & {
 		height: 0;
