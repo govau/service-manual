@@ -16,11 +16,6 @@ The team uses in-depth user research when they start to make decisions about wha
 
 ### [2]Multidisciplinary teams make it easier to deliver
 
-Traditionally government has built digital products and services using different teams of people with specialist skills working on their own (for example, a visual design team and a web development team in different parts of an organisation).
+Traditionally government has formed teams around agency structures and they typically work in a linear way. Multiple teams ‘own’ different parts of the product. Specialists don’t get the chance to work together to come up with creatives solutions.
 
-Projects build this way are usually led by a project manager using waterfall development approaches. In this way of working:
-design and development are linear and outsourced processes
-multiple teams ‘own’ different parts of the product
-specialists don’t get the chance to work together to come up with creatives solutions
-
-Multidisciplinary teams change this by starting with all the roles you need in the same team. The decision makers are also part of the team so it’s quicker to remove blockers and to find creative solutions. The most creative and innovative solutions are reached when team members extend themselves into other skillsets. There are unexpected connections that occur in multidisciplinary teams.
+Multidisciplinary teams change this by forming teams around a problem or a service. The team is formed with all the right skills to deliver incremental bits of value that meet a user need. The team is formed with the correct capability and skills to be autonomous and minimise dependencies. The teams are small (less than 10) and are co-located and are empowered to make decisions and to iterate rapidly.
