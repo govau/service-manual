@@ -10,7 +10,7 @@
 		"build:sass": "node-sass --output-style compressed -o assets/css src/sass/site.scss",
 		"build:autoprefixer": "postcss -u autoprefixer -flexbox 'no-2009' -r assets/css/*",
 		"build:js": "mkdirp assets/js/ && concat-cli -f scripts/js/**/*.js -o assets/js/site.js",
-		"build": "npm-run-all build:sass build:autoprefixer  build:js build:pages",
+		"build": "npm-run-all build:sass build:autoprefixer build:js build:pages",
 		"watch:pages": "cuttlebelle -w -n",
 		"watch:css": "onchange 'src/sass/**/*.scss' -- npm-run-all build:sass build:autoprefixer",
 		"watch:js": "onchange 'scripts/js/**/*.js' -- npm run build:js",
