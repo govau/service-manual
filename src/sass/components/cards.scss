@@ -5,9 +5,6 @@
 .card {
 	box-sizing: border-box;
 	display: block;
-	display: flex;
-	clear: both;
-	flex-direction: column;
 	border-radius: $uikit-border-radius;
 	overflow: hidden;
 	width: 100%;
@@ -46,6 +43,7 @@
 
 .card__headline__wrapper {
 	margin-bottom: uikit-space( 1 );
+	width: 100%;
 }
 
 .card__headline {
