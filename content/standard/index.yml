@@ -1,0 +1,17 @@
+title: Digital Service Standard
+weight: 20
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - the-criteria-head.md
+  - the-criteria.md
+  - understand-user-needs.md
+  - have-a-multidisciplinary-team.md
+  - agile-user-centred.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer-gds.md
