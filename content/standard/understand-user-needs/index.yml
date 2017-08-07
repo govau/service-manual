@@ -14,8 +14,8 @@ main:
   - how.md
   - guidance-head.md
   - guidance.md
-  - cstudies-section.md
-  - cstudies.md
+  #- cstudies-section.md
+  #- cstudies.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md
