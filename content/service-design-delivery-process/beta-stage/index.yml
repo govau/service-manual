@@ -1,5 +1,5 @@
-title: Discovery stage: exploring the problem
-weight: 30
+title: Beta stage: building and testing the service
+weight: 50
 hidden: true
 layout: layout/topic
 theme: blue
@@ -10,6 +10,5 @@ main:
   - cards.md
   - cards-category.md
   - /_shared/feedback.md
-
 footer:
   - /_shared/footer-gds.md

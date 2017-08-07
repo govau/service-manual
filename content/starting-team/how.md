@@ -9,5 +9,5 @@ cards:
     link: '/starting-team/multidisciplinary-team/'
   - headline: Digital capability of the team
     text: The better the team can collaborate the quicker you will deliver the right thing.
-    link: '#url'
+    link: '/starting-team/digital-capability-team/'
 ---
