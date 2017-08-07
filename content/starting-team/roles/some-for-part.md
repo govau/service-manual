@@ -11,4 +11,4 @@ There are some roles with specific skills or capabilities that the team will onl
 -  ethical hacker
 -  performance analyst
 -  IT security specialists
--  procurement and contract managers.
+-  procurement and contract managers
