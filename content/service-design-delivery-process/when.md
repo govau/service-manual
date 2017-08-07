@@ -1,6 +1,5 @@
 ---
 layout: text/textblock
-section: When
 ---
 The service design and delivery process is there to guide you from [finding out who the users are and their needs](/user-research/identifying-users-needs/) all the way through to improving the live service.
 

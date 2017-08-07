@@ -6,13 +6,13 @@ header:
   - header.md
 main:
   - category_sections.md
+  - what-head.md
   - what.md
   - why-head.md
   - why.md
   - when-head.md
   - when.md
   - how-head.md
-  - how.md
   - guides-cards.md
   - /_shared/support-service-design.md
   - /_shared/feedback.md
