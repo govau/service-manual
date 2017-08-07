@@ -10,7 +10,7 @@ A team with people who have a low levels of experience may have high digital cap
 -  open to collaborating
 -  keen to work as a [multidisciplinary team](../multidisciplinary-team/)
 -  innovative
--  not afraid to take risks.
+-  not afraid to take risks
 
 A team of experienced people may have low digital capability because they:
 
@@ -18,4 +18,4 @@ A team of experienced people may have low digital capability because they:
 -  don’t focus on meeting user needs
 -  work in silos
 -  do things the way things have always been done
--  are risk averse.
+-  are risk averse
