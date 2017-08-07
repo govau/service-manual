@@ -5,5 +5,4 @@ sections:
   - Why
   - When
   - How
-  - Support
 ---

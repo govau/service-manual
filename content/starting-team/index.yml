@@ -7,8 +7,6 @@ header:
   - header.md
 main:
   - sections.md
-  - what-head.md
-  - what.md
   - why-head.md
   - why.md
   - when-head.md
