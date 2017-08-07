@@ -1,9 +1,5 @@
 ---
-layout: other/dss_section
-dss:
-  - 1
-  - 3
-  - 13
+layout: text/textblock
 section: What
 ---
 
