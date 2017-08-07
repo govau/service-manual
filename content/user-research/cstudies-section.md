@@ -1,6 +1,4 @@
 ---
-layout: category/category_section
-level: 2
-section: How
-title: Examples and case studies
+layout: nav/section
+section: Examples and case studies
 ---
