@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: The criteria
+section: Posters for teams
 ---
