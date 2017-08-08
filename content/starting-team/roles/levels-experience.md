@@ -4,7 +4,7 @@ quote: Multidisciplinary teams are a great way for people to increase their skil
 ---
 It’s important that each team member is a practitioner in their role (for example, interaction design or user research). They should also have some knowledge about other related roles.
 
-People who have both expertise in their role and the ability to collaborate across others are said to have [T-shaped skills](../multidisciplinary-team).
+People who have both expertise in their role and the ability to collaborate across others are said to have [T-shaped skills](../multidisciplinary-team/#get-the-right-mindset-and-skills).
 
 It’s fine if a team member is still building experience in their role, but they do need a depth of knowledge about the area in which they’re working. A person with generalist skills usually won’t be able to deliver what the team needs.
 
