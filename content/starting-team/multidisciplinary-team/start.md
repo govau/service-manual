@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-You’ll need to have specific [roles in the multidisciplinary team](../roles/) before you start Discovery stage. The same roles will be in the team through Alpha and Beta stages to release of the service in Live stage. There might be other roles in the team at different stages to support them.
+You will need to have specific [roles in the multidisciplinary team](../roles/) before you start Discovery stage. The same roles will be in the team through Alpha and Beta stages to release of the service in Live stage. There might be other roles in the team at different stages to support them.
 
 You might need to recruit people for the team or there may be people you are already working with.
 
