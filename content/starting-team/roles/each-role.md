@@ -62,7 +62,7 @@ The content designer makes sure that the content in the service meets user needs
 -  develop content plans and strategies based on user needs
 -  write clear, usable content in plain English
 -  review content to make sure it’s accurate, relevant and written in line with the [GOV.AU Content Guide](https://guides.service.gov.au/content-guide/)
--  communicate the principles of content design to your service team and others across your organisation
+-  communicate the principles of content design to the service team and others across your organisation
 -  advocate for users of the service by challenging requests that don’t support their needs
 
 #### Interaction designer
@@ -79,7 +79,7 @@ Interaction designers work closely with other members of the team:
  -  technical team members — to develop and iterate prototypes to help improve the service
 
 #### Developer
-The developer designs quality, well-tested software and sites according to standards and best practice. They:
+The developer designs quality well-tested software and sites according to standards and best practice. They:
 
 -  build software with a focus on what users need from your service and how they’ll use it
 -  write quality well-tested code and try to find the simplest solution to a given problem
