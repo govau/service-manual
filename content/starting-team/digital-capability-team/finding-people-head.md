@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Finding people who work well together
+section: Find people who work well together
 ---

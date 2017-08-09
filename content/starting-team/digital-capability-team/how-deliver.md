@@ -3,7 +3,7 @@ layout: text/textblock
 ---
 Often teams will have people of different levels of experience, but their individual experience is not a clear measure of the team’s digital capability.
 
-A team with people who have a low levels of experience may have high digital capability because they are:
+A team of people who have low levels of experience may have high digital capability because they are:
 
 -  passionate about meeting user needs
 -  led by a very experienced product manager
