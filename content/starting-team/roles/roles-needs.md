@@ -10,4 +10,4 @@ A team building a government service needs to have people with the following rol
 -  designers (content designer, service designer and interaction designer)
 -  developer
 
-You may not need all roles in all stages of the [service design and delivery process](../../service-design-delivery-process/). Sometimes you may need additional capacity in some stages of the process (for example, you may bring in subject matter experts in Alpha stage.)
+You may not need all roles in all stages of the [service design and delivery process](../../service-design-delivery-process/). Sometimes you may need additional capacity in some stages of the process (for example, you may bring in subject matter experts in Alpha stage).

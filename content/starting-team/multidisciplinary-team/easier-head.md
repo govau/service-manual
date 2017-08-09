@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Work out if you will pay an incentive
+section: Multidisciplinary teams make it easier to deliver
 ---

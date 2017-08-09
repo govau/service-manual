@@ -7,6 +7,6 @@ sections:
   - The team self-organises
   - People can have different levels of experience in their roles
   - What each role does
-  - You may need some roles for only part of the process
+  - You may need other roles for only part of the process
   - Case studies and examples
 ---
