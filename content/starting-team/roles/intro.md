@@ -1,6 +1,6 @@
 ---
 layout: intros/intro
-category: Starting and managing a team
+category: Starting a team
 title: Roles
 subtitle: Team capabilities are key to building and maintaining a user-centred service. You need team members with a range of skills and who are open to collaborating.
 ---

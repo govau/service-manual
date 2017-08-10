@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Teams with high digital capability
+section: Identifying teams with high digital capability
 ---
