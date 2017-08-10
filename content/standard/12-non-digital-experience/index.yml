@@ -1,0 +1,19 @@
+title: 12. Don't forget the non-digital experience
+weight: 20
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - toc.md
+  - why-head.md
+  - why.md
+  - how-head.md
+  - how.md
+  #- cstudies-section.md
+  #- cstudies.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer-gds.md
