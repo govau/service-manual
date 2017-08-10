@@ -7,8 +7,14 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - cards.md
-  - cards-category.md
+  - intro.md
+  - meeting-heading.md
+  - meeting.md
+  - stages-head.md
+  - stages.md
+  - diamond-head.md
+  - diamond.md
+  
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md
