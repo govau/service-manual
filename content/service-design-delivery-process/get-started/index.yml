@@ -10,19 +10,15 @@ main:
   - intro.md
   - meeting-heading.md
   - meeting.md
+  - user-needs-image.md
   - stages-head.md
   - stages.md
   - diamond-image.md
-  - start-user-needs-head.md
-  - start-user-needs.md
-  - user-needs-image.md
-  - deliver-quickly-reduce-risk-head.md
-  - deliver-quickly-reduce-risk.md
-  - value-early-head.md
-  - value-early.md
   - support-decision-makers-head.md
   - support-decision-makers.md
-  
+  - deliver-quickly-reduce-risk-head.md
+  - deliver-quickly-reduce-risk.md
+
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md
