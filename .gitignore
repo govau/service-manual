@@ -12,6 +12,7 @@ validation-report.json
 validation-status.json
 npm-debug.log
 *.log
+package-lock.json
 
 # build
 site/
