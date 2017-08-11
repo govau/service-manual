@@ -12,8 +12,16 @@ main:
   - meeting.md
   - stages-head.md
   - stages.md
-  - diamond-head.md
-  - diamond.md
+  - diamond-image.md
+  - start-user-needs-head.md
+  - start-user-needs.md
+  - user-needs-image.md
+  - deliver-quickly-reduce-risk-head.md
+  - deliver-quickly-reduce-risk.md
+  - value-early-head.md
+  - value-early.md
+  - support-decision-makers-head.md
+  - support-decision-makers.md
   
   - /_shared/feedback.md
 footer:
