@@ -1,7 +1,7 @@
 ---
 layout: blocks/image_content_block
-image: sddp/doublediamond.jpg
-link: sddp/doublediamond.jpg
+image: sddp/double-diamond.jpg
+link: sddp/double-diamond.jpg
 title: Service design and the double diamond
 display: 2
 level: 2
