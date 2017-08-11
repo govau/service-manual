@@ -7,6 +7,7 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - toc.md
   - transactional-head.md
   - transactional.md
   - information-head.md
