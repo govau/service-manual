@@ -9,7 +9,7 @@ Some service delivery investments are exempt from the moratorium.
  - the investment has been agreed by the Cabinet or the Prime Minister
  - it is an information or transactional service and the service team can demonstrate they are applying the [Digital Service Standard](/standard/); for example, an assessment team is in place and the service is reporting its progress on the dashboard
  - emergency or critical unforeseen events require the investment (for example, natural disasters)
- - funding for the investment was provided before or through the 2015-16 Budget process.
+ - funding for the investment was provided before or through the 2015-16 Budget process
 
 You need to notify your agency’s Digital Transformation Coordinator if your service is automatically exempt. The Digital Transformation Coordinator must then advise the Digital Transformation Agency. The Digital Transformation Agency will confirm whether an automatic exemption applies.
 
@@ -21,12 +21,12 @@ Some investments that **may be granted exemption** include:
  - establishing a mobile or temporary shopfront
  - service delivery capability outside Australia (such as a visa office)
  - delivering a service jointly with state and territory entities
- - where there will be significant user benefit that cannot happen through an existing service delivery channel.
+ - where there will be significant user benefit that cannot happen through an existing service delivery channel
 
 You will **not** be granted an exemption if your investment will:
 
  - duplicate existing Australian Government capabilities
  - fragment users’ experience
- - reduce government efficiency.
+ - reduce government efficiency
 
 If your investment is not exempt, the Digital Transformation Agency will work with you to find a better way to meet your users’ needs.
