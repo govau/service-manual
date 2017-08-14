@@ -11,4 +11,4 @@ Your service is ready to move on to the Live stage when you’re sure:
 
 There are different [ways your service will be assessed](https://www.dta.gov.au/standard/meeting-standard/) against the Digital Service Standard. In most cases, you’ll go through an assessment on the public beta service at the end of the Beta stage.
 
-When you pass this assessment, you’ll be able to go to Live stage and replace the existing service.
+When you pass this assessment, you’ll be able to go to [Live stage](../live-stage/) and replace the existing service.

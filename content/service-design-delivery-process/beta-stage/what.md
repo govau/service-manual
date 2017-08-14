@@ -7,9 +7,9 @@ At the start of Beta stage, you take the prototype you agreed on at the end of A
 
 The team will keep iterating the private beta as you test it in short rounds of user research. These rounds of feedback become shorter as you refine the product.
 
-You keep running the private beta service until you are ready for the [private to public beta assessment]() against the Digital Service Standard. Then you’ll open it up as a [public beta service]() that people can use alongside the existing service. As real users trial the new service you’ll keep testing it to find out how to improve it.
+You keep running the private beta service until you are ready for the [private to public beta assessment](#releasing-the-private-beta-and-public-beta) against the Digital Service Standard. Then you’ll open it up as a public beta service that people can use alongside the existing service. As real users trial the new service you’ll keep testing it to find out how to improve it.
 
-Once the public beta service has proven to be a better solution and it will go through the [Beta to Live assessment]() against the Digital Service Standard. If it passes you can move on to the Live stage where the public beta service will replace the existing live service.
+Once the public beta service has proven to be a better solution and it will go through the [Beta to Live assessment](#when-you-re-ready-to-move-on-to-live-stage) against the Digital Service Standard. If it passes you can move on to the Live stage where the public beta service will replace the existing live service.
 
 The primary activities in Beta are:
 - development
