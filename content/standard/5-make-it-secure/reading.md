@@ -1,8 +1,7 @@
 ---
 layout: text/textblock
 ---
-- [Usability.gov - Benefits of user-centered design](https://www.usability.gov/what-and-why/benefits-of-ucd.html)
-- [GDS - Measuring success](https://www.gov.uk/service-manual/measuring-success)
-- [GDS - Performance dashboards](https://www.gov.uk/performance)
-- [18F - Dashboard](https://analytics.usa.gov)
-- [DTA Blog - Performance Dashboard – Practising what we preach](https://www.dta.gov.au/blog/dashboard-practising-what-we-preach/)
+- [Google Analytics and collection of IP addresses](https://support.google.com/analytics/answer/2763052?hl=en)
+- [GDS - Information security](https://www.gov.uk/service-manual/technology/securing-your-information)
+- [18F Blog - Compliance Masonry: Building a Risk management platform, brick by brick](https://18f.gsa.gov/2016/04/15/compliance-masonry-buildling-a-risk-management-platform/)
+- [18F Blog - Complexity is the adversary](https://18f.gsa.gov/2015/11/04/complexity-is-the-adversary/)
