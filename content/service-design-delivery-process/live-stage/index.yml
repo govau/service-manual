@@ -1,5 +1,5 @@
 title: Live stage: improving the service
-weight: 60
+weight: 40
 hidden: true
 layout: layout/topic
 theme: blue
@@ -7,8 +7,20 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - cards.md
-  - cards-category.md
+  - intro.md
+  - sections.md
+  - meeting-heading.md
+  - meeting.md
+  - before-head.md
+  - before.md
+  - team-head.md
+  - team.md
+  - after-head.md
+  - after.md
+  - measuring-head.md
+  - measuring.md
+  - retiring-head.md
+  - retiring.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md
