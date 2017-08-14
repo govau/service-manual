@@ -49,23 +49,23 @@ Designers help your team create user-focused services and a consistent user expe
 
 Depending on the type of service you’re building, you may need a team of designers with a range of different skills (for example, in interaction or user experience design).
 
-##### Service designer
+#### Service designer
 The service designer works from the user research to identify how a service could be delivered so that it better meets user needs. They:
 
 -  design user-focused services that meet web standards for all users, channels and touchpoints
 -  create a blueprint or map of the proposed service to make sure the key parts are built in from the start
 -  help the team in the development and continual iteration of services, making sure that there are consistent user experiences
 
-##### Content designer
+#### Content designer
 The content designer makes sure that the content in the service meets user needs. They are focused on written content, but also work on the visual and interactive parts of products. They:
 
 -  develop content plans and strategies based on user needs
 -  write clear, usable content in plain English
 -  review content to make sure it’s accurate, relevant and written in line with the [GOV.AU Content Guide](https://guides.service.gov.au/content-guide/)
--  communicate the principles of content design to your service team and others across your organisation
+-  communicate the principles of content design to the service team and others across your organisation
 -  advocate for users of the service by challenging requests that don’t support their needs
 
-##### Interaction designer
+#### Interaction designer
 The interaction designer is responsible for designing a user-focused and accessible service, and making use of established design patterns. They:
 
 -  create the user interface for the service, ensuring that it is designed to work across devices and browsers
@@ -79,7 +79,7 @@ Interaction designers work closely with other members of the team:
  -  technical team members — to develop and iterate prototypes to help improve the service
 
 #### Developer
-The developer designs quality, well-tested software and sites according to standards and best practice. They:
+The developer designs quality well-tested software and sites according to standards and best practice. They:
 
 -  build software with a focus on what users need from your service and how they’ll use it
 -  write quality well-tested code and try to find the simplest solution to a given problem

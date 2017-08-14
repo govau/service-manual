@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Helping teams increase their digital capability
+section: Help teams increase their digital capability
 ---
