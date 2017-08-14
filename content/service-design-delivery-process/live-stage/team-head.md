@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: The team you need in live
+section: The team you need in Live stage
 ---
