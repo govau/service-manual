@@ -7,8 +7,32 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - cards.md
-  - cards-category.md
+  - intro.md
+  - TOC.md
+  - meeting-head.md
+  - meeting.md
+  - team-head.md
+  - team.md
+  - what-head.md
+  - what.md
+  - register-head.md
+  - reigster.md
+  - metrics-head.md
+  - metrics.md
+  - activities-head.md
+  - activities.md
+  - test-head.md
+  - test.md
+  - mvp-head.md
+  - mvp.md
+  - finished-head.md
+  - finished.md
+  - beta-head.md
+  - beta.md
+  - assessment-head.md
+  - assessment.md
+  - case-head.md
+  - case.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md
