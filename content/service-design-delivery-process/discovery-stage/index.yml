@@ -8,12 +8,25 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - meeting-head.md
+  - meeting-heading.md
   - meeting.md
   - get-ready-head.md
   - get-ready.md
+  - what-to-do-head.md
+  - what-to-do.md
+  - kick-off-head.md
+  - kick-off.md
   - contextual-research-head.md
   - contextual-reserach.md
+  - create-artefacts-head.md
+  - create-artefacts.md
+  - user-journey-map.md
+  - group-pain-head.md
+  - group-pain.md
+  - prioritise-pain-head.md
+  - prioritise-pain.md
+  - document-process-head.md
+  - document-process.md
   - cards.md
   - cards-category.md
   - /_shared/feedback.md
