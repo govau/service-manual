@@ -7,6 +7,13 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
+  - intro.md
+  - meeting-head.md
+  - meeting.md
+  - get-ready-head.md
+  - get-ready.md
+  - contextual-research-head.md
+  - contextual-reserach.md
   - cards.md
   - cards-category.md
   - /_shared/feedback.md
