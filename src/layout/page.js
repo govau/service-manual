@@ -23,7 +23,7 @@ const Page = ( page ) => (
 		<script src="/assets/js/svg4everybody.min.js" />
 	</head>
 	<body>
-		<header className="uikit-body uikit-grid">
+		<header role="banner" className="uikit-body uikit-grid">
 			{ page.header }
 		</header>
 
