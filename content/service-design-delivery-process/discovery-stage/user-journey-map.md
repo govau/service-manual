@@ -5,7 +5,7 @@ link:
 title: User journey map
 display: 2
 level: 3
-imageAlt: "null"
+imageAlt: 
 ---
 
 The user journey map is the most important artefact you will start in Discovery.
