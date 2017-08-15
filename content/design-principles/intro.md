@@ -18,3 +18,5 @@ Like the [UK Government Digital Service Design Principles](https://www.gov.uk/de
 - [Build digital services, not websites.](#build-digital-services-not-websites-)
 - [Be consistent, not uniform.](#be-consistent-not-uniform-)
 - [Make things open: it makes things better.](#make-things-open:-it-makes-things-better-)
+
+There are [digital transformation culture posters 109KB PDF](../assets/files/design-principles/dta-culture-posters.pdf) also available for teams.
