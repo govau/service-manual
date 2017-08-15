@@ -20,7 +20,7 @@ A good prototype is not the real service but needs to show how the service works
 
 The team tests which of these prototypes (if any) are best to carry forward, iterate based on feedback and test again.
 
-Don’t spend too much time building the prototypes, as you will as you keep throwing them away and building new ones based on user feedback.
+Don’t spend too much time building the prototypes, as you will keep throwing them away and building new ones based on user feedback.
 
 A prototype shouldn’t be functionally complete, have full end-to-end transactions or integrate with any working back-end systems. Just build the user journeys and use hypotheses you need to test.
 
@@ -34,7 +34,7 @@ Prototype by sketching in code, using HTML, CSS and JavaScript. Software like Ax
 
 ### [2]Use a static-site generator
 
-Choose a static-site generator like [Jekyll](https://jekyllrb.com/).
+Use a static-site generator (for example, [Jekyll](https://jekyllrb.com/)).
 
 A static-site generator allows you to keep your prototype simple, with just HTML, CSS and JavaScript, but allows you to easily share templates and stylesheets across multiple pages.
 
@@ -42,22 +42,28 @@ It is also easy for designers to make changes directly to the prototype, without
 
 Use a version control system, like [GitHub](https://github.com/), to store the code for your prototype so that everyone in the team can work across the same copy and collaborate on changes.
 
-For the best results, deploy the prototype to a cloud service so that you can easily share it around the team and with your stakeholders (for example, [Amazon Web Services](https://aws.amazon.com/)).
+Deploy the prototype to a cloud service so that you can easily share it around the team and with your stakeholders (for example, [Amazon Web Services](https://aws.amazon.com/)).
 
 If you configure the service to automatically deploy whenever changes are made (sometimes called ‘creating a build pipeline’), then everyone will always be able to access the most up-to-date version.
-Use simple technology to make an interactive feature
-For most prototypes, include some interactivity to simulate a working service (for example, capturing user details on a form).
 
-Don’t use server-side technology for this functionality (for example, Java, .NET or Ruby). You want to keep the technology simple so it’s quick and easy to update your prototypes.
+### [2]Use simple technology to make an interactive feature
 
-Use client-side technologies like the Web Storage API, combined with a JavaScript framework like jQuery, to quickly store and retrieve information for the user’s session. Make it easy to reset and start again at the end of a user research session.
-Don’t support every browser in the prototypes
-Users are likely to be using the prototype in a controlled environment, such as a user research lab or on one of the team’s computers. This means that you need to support fewer browsers than a public website.
+Include some interactivity to simulate a working service in most prototypes (for example, capturing user details on a form). Don’t use server-side technology for this functionality (for example, Java, .NET or Ruby). You want to keep the technology simple so it’s quick and easy to update your prototypes.
+
+Use client-side technologies (for example,  [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)) combined with a JavaScript framework (for example, [jQuery](https://jquery.com/)) to quickly store and retrieve information for the user’s session. Make it easy to reset and start again at the end of a user research session.
+
+### [2]Don’t support every browser in the prototypes
+
+Users are likely to be using the prototype in a controlled environment, such as a user research lab or on a team member's computer. This means that you need to support fewer browsers than a public website.
 
 Support the latest version of each major browser (Chrome, Firefox, IE and Safari). Support a specific browser or version if a specific group of users or stakeholders depend on it.
 
-As part of the user research, test your prototypes with users who have accessibility needs. Use semantic and accessible markup across prototypes. Test with screen reader software and other assistive technology.
-Mobile first
+Use semantic and accessible markup across prototypes.
+
+As part of the user research test your prototypes with users who have accessibility needs. Test with screen reader software and other assistive technology.
+
+### [2]Mobile first
+
 More users are accessing government services using mobile devices than ever before. If you design and build for mobile first, you can test prototypes in a more realistic context.
 
 To design for mobile you should make simple screen, with only 1 or 2 things on each page. This means that users with larger screens will also have an easier experience.
