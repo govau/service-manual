@@ -4,7 +4,7 @@ layout: text/textblock
 
 ### [2]In Discovery and Alpha stages
 
-Your user research will give you a good understanding of where people want to access your service and their levels of digital skill. Through the [Discovery](/service-design-delivery-process/discovery-stage/) and [Alpha](/service-design-delivery-process/alpha-stage/) stages you need to understand:
+Your user research will give you a good understanding of where people want to access your service and their levels of digital skill. Through the [Discovery stage](/service-design-delivery-process/discovery-stage/) and [Alpha stage](/service-design-delivery-process/alpha-stage/) you need to understand:
 - the users’ journeys and how they interact with your service, digitally or otherwise
 - existing alternative channels and how users currently interact with them
 - what percentage of users access digital and non-digital channels

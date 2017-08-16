@@ -26,7 +26,7 @@ During the [Beta stage](/service-design-delivery-process/beta-stage/) you will b
 * have the ability to conduct technical health checks of the service
 * arrange for appropriate ongoing technical support and service level agreements for underlying or dependent services
 
-By the time you go [live](/service-design-delivery-process/live-stage/) you should have in place:
+By the time you [go live](/service-design-delivery-process/live-stage/) you should have in place:
 
 * procedures for ongoing operations, including iterations, maintenance, monitoring, patching and upgrading system components
 * funding to cover the long-term life of the product, including activities such as security accreditation

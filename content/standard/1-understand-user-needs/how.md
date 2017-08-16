@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 ### [2]In Discovery and Alpha stages
-During the [Discovery](/service-design-delivery-process/discovery-stage/) and [Alpha](/service-design-delivery-process/alpha-stage/) stages the entire team should have spent a lot of time with end users and learned a lot about their needs. You should understand and be able to show evidence to demonstrate the following.
+During the [Discovery stage](/service-design-delivery-process/discovery-stage/) and [Alpha stage](/service-design-delivery-process/alpha-stage/) the entire team should have spent a lot of time with end users and learned a lot about their needs. You should understand and be able to show evidence to demonstrate the following.
 
 #### [1]Who are the users?
 
@@ -61,6 +61,6 @@ What the significant design challenges are, for example through key insights, ho
 
 Make sure that research has fed into the [metrics you have developed](../11-measure-performance/) to know that you continue to meet your user needs.
 
-By the time you are ready to go [live](/service-design-delivery-process/live-stage/) you should be able to show greater depth of knowledge for all the points above. You should also:
+By the time you are ready to [go live](/service-design-delivery-process/live-stage/) you should be able to show greater depth of knowledge for all the points above. You should also:
 -  show how you are using data from real users to understand which parts of the task users are finding difficult, and how you are designing experiments to reduce friction and increase success for users
 -  know how you will [measure and monitor your service](../11-measure-performance/) to ensure it is serving its users well

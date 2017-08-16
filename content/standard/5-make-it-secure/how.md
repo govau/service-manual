@@ -59,7 +59,7 @@ You should build detection and prevention mechanisms into the solution, includin
   - logging solution that can fully trace a user as they traverse each part of the system
   - appropriate business rules that check the validity of interactions with the solution
 
-As you go [live](/service-design-delivery-process/live-stage/) you should be able to show that you have created a robust secure solution that meets all security, legislative and legal requirements. It should:
+As you [go live](/service-design-delivery-process/live-stage/) you should be able to show that you have created a robust secure solution that meets all security, legislative and legal requirements. It should:
 
 - manage frequent security updates
 - identify malicious or fraudulent activity
