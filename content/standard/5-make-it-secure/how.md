@@ -1,7 +1,10 @@
 ---
 layout: text/textblock
 ---
-During Alpha you’ll have an understanding of the users, data and threats that affect your service. You will have established an appropriate approach to integrate relevant security and privacy measures into your design with minimal user impact.
+
+### [2]In Alpha stage
+
+During [Alpha stage](/service-design-delivery-process/alpha-stage/) you’ll have an understanding of the users, data and threats that affect your service. You will have established an appropriate approach to integrate relevant security and privacy measures into your design with minimal user impact.
 
 You should:
 
@@ -19,24 +22,30 @@ To support the work in Alpha you should:
 - understand what existing statistical datasets may be relevant to your service and the [Australian Government principles on data integration](http://statistical-data-integration.govspace.gov.au/)
 - understand which data you collect is (and isn’t) personal information and how it might be stored, accessed and disseminated
 - involve relevant security professionals throughout the Alpha stage
-- understand the service requirements relating to
-  * legal constraints
-  * [records management](http://www.naa.gov.au/information-management/managing-information-and-records/index.aspx)
-  * privacy, including the [Privacy Act](https://www.legislation.gov.au/Series/C2004A03712) and [Australian Privacy Principles](https://www.oaic.gov.au/individuals/privacy-fact-sheets/general/privacy-fact-sheet-17-australian-privacy-principles)
-  * copyright and open licensing, including the [principles on open public sector information](https://www.oaic.gov.au/information-policy/information-policy-resources/principles-on-open-public-sector-information), [Australian Government intellectual property rules](https://www.communications.gov.au/policy/policy-listing/australian-government-intellectual-property-rules) and [Australia’s commitment to the Open Government Partnership](https://www.opengovpartnership.org/countries/australia)
-  * the [Freedom of Information Act](https://www.oaic.gov.au/freedom-of-information/foi-act)
-  * the [Spam Act](https://www.legislation.gov.au/Series/C2004A01214)
-  * state and territory government policies, if relevant
 
-During the Beta stage you’ll develop a secure system that integrates seamlessly into the proposed solution. It will have appropriate security controls embedded within it to mitigate all identified threats. You should:
+You should understand the service requirements relating to:
 
-- involve all relevant stakeholders within the project, including
-    - business owners
-    - information risk and compliance teams
-    - SIRO (Senior Information Risk Owner)
-    - IAO (Information Asset Owner)
-    - IT security teams
-    - internal fraud teams, if appropriate
+* legal constraints
+* [records management](http://www.naa.gov.au/information-management/managing-information-and-records/index.aspx)
+* privacy, including the [Privacy Act](https://www.legislation.gov.au/Series/C2004A03712) and [Australian Privacy Principles](https://www.oaic.gov.au/individuals/privacy-fact-sheets/general/privacy-fact-sheet-17-australian-privacy-principles)
+* copyright and open licensing, including the [principles on open public sector information](https://www.oaic.gov.au/information-policy/information-policy-resources/principles-on-open-public-sector-information), [Australian Government intellectual property rules](https://www.communications.gov.au/policy/policy-listing/australian-government-intellectual-property-rules) and [Australia’s commitment to the Open Government Partnership](https://www.opengovpartnership.org/countries/australia)
+* the [Freedom of Information Act](https://www.oaic.gov.au/freedom-of-information/foi-act)
+* the [Spam Act](https://www.legislation.gov.au/Series/C2004A01214)
+* state and territory government policies, if relevant
+
+### [2]In Beta stage
+
+During the [Beta stage](/service-design-delivery-process/beta-stage/) you’ll develop a secure system that integrates seamlessly into the proposed solution. It will have appropriate security controls embedded within it to mitigate all identified threats.
+
+You should involve all relevant stakeholders within the project, including:
+  - business owners
+  - information risk and compliance teams
+  - SIRO (Senior Information Risk Owner)
+  - IAO (Information Asset Owner)
+  - IT security teams
+  - internal fraud teams, if appropriate
+
+You should also:
 - address all legal and privacy issues associated with protecting and sharing user data
 - develop an appropriate cookie and privacy policy, and keep it up to date
 - create a solution to test and implement security patches quickly and efficiently
@@ -44,12 +53,13 @@ During the Beta stage you’ll develop a secure system that integrates seamlessl
 - integrate into or create relevant security documentation
 - create a risk treatment plan to track risks and mitigations
 - test the security of the solution and address all vulnerabilities discovered
-- build detection and prevention mechanisms into the solution, including
-    - incident response plan
-    - logging solution that can fully trace a user as they traverse each part of the system
-    - appropriate business rules that check the validity of interactions with the solution
 
-As you go live you should be able to show that you have created a robust secure solution that meets all security, legislative and legal requirements. It should:
+You should build detection and prevention mechanisms into the solution, including:
+  - incident response plan
+  - logging solution that can fully trace a user as they traverse each part of the system
+  - appropriate business rules that check the validity of interactions with the solution
+
+As you go [live](/service-design-delivery-process/live-stage/) you should be able to show that you have created a robust secure solution that meets all security, legislative and legal requirements. It should:
 
 - manage frequent security updates
 - identify malicious or fraudulent activity

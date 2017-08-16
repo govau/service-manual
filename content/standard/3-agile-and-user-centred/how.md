@@ -12,11 +12,11 @@ During the [Discovery](/service-design-delivery-process/discovery-stage/) and [A
 
 * test hypotheses and underlying assumptions with several prototypes
 * follow a user-centred approach; include the user in all areas of the prototyping (design, iterations and so on)
-* work out incrementally what is the 'right thing to build'
+* work out incrementally what is the right thing to build
 * determine the minimum viable product (MVP)
 
-During the [Beta](/service-design-delivery-process/beta-stage/) and through to the [Live stage](/service-design-delivery-process/live-stage/) you would be working closely with users. You should be able to:
+During the [Beta stage](/service-design-delivery-process/beta-stage/) and through to the [Live stage](/service-design-delivery-process/live-stage/) you will be working closely with users. You should be able to:
 
 * show how the service has responded to user research and usability testing
 * clearly describe the lifecycle of a user story, from user research to production
-* explain the deployment process and how you are able to support frequent deployments with minimal impact to users.
+* explain the deployment process and how you are able to support frequent deployments with minimal impact to users

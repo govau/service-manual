@@ -17,7 +17,7 @@ As you continue developing your service and start testing it with users in [Beta
 - be increasing digital take-up; revising your targets and considering relevant performance metrics
 - have a plan of how to move users to the digital channel where possible, including a communications plan to promote the service
 - have agreed analytics/metrics for the volume of usage across channels
-- understand the full impact of retiring any potentially redundant services and channels.
+- understand the full impact of retiring any potentially redundant services and channels
 
 As you progress your service to [Live stage](/service-design-delivery-process/live-stage/) you will need to show:
 
@@ -25,4 +25,4 @@ As you progress your service to [Live stage](/service-design-delivery-process/li
 - what you’ve learned from testing different approaches to encourage users (including users we need to assist) to choose the digital service over non-digital alternatives, and which ones you’ll use in the Live stage
 - your retirement strategy for any redundant services and channels
 - that your service load capacity is scalable to meet increased digital take-up
-- how you will promote your service and encourage people to use it, including how your messaging will appear in places where the users will see it.
+- how you will promote your service and encourage people to use it, including how your messaging will appear in places where the users will see it

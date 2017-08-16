@@ -9,4 +9,4 @@ Open source helps to:
 - avoid lock-in
 - stop duplication
 - increase transparency
-- add benefits, from improvements by other developers.
+- add benefits, from improvements by other developers

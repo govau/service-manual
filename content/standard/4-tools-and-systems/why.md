@@ -1,7 +1,7 @@
 ---
 layout: text/textblock
 ---
-The technology you choose to build your service must help you respond quickly and regularly to the needs and expectations of users. This criteria ensures you:
+The technology you choose to build your service must help you respond quickly and regularly to the needs and expectations of users. This criteria makes sure you:
 
 * consider all the risks and constraints associated with the technology you choose
 * avoid contracts that lock you into particular solutions and limit your ability to make decisions to improve the service

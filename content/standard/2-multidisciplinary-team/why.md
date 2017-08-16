@@ -1,7 +1,7 @@
 ---
 layout: text/textblock
 ---
-Good government services are built quickly and iteratively, based on user needs. Your [digital delivery team](/starting-team/roles/) must be set up in the right way to do this.
+Good government services are built quickly and iteratively, based on user needs. Your [digital delivery team](/starting-team/) must be set up in the right way to do this.
 
 They need:
 - a broad mix of skills and roles from the start
