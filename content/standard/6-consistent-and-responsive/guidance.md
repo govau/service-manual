@@ -1,8 +1,6 @@
 ---
-layout: cards/cards
-cards:
-  - headline: GOV.AU Guides
-    link: https://guides.service.gov.au
-  - headline: Australian Government Style manual
-    link: http://www.australia.gov.au/about-government/publications/style-manual
+layout: text/textblock
 ---
+
+- [GOV.AU Content Guide](https://guides.service.gov.au/content-guide/)
+- [Australian Government Style Manual](http://www.australia.gov.au/about-government/publications/style-manual)
