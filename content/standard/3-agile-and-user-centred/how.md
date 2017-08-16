@@ -1,7 +1,7 @@
 ---
 layout: text/textblock
 ---
-This criterion applies through all stages of the [service design and delivery process](/service-design-delivery-process/). You should:
+This criteria applies through all stages of the [service design and delivery process](/service-design-delivery-process/). You should:
 
 * work in an agile way, based on [agile values and principles](http://www.agilemanifesto.org/principles.html), and using agile tools and techniques
 * review and iterate your processes to be able to respond to feedback, continue to improve and adapt to change

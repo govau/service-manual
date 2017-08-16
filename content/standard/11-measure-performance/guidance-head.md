@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Guidance related to this criterion
+section: Guidance related to this criteria
 ---

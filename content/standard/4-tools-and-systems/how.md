@@ -11,7 +11,7 @@ During the Alpha stage you should be thinking about what you need to build the s
 * understand the development tool chain required for Beta
 * understand the existing IT systems, data stores and in-flight processes for the service
 * understand any potential external dependencies or integrations that would be required to build the product
-* know the initial and ongoing costs for proposed tools and systems.
+* know the initial and ongoing costs for proposed tools and systems
 
 During the Beta stage you will be building the service and testing prototypes with users. You should:
 
@@ -20,10 +20,10 @@ During the Beta stage you will be building the service and testing prototypes wi
 * procure the appropriate tools, systems and contractual arrangements and ensure you are getting value for money
 * have the ability to conduct technical health checks of the service
 * arrange for appropriate ongoing technical support and service level agreements for underlying or dependent services
-* outsource decision-making about technology only where appropriate.
+* outsource decision-making about technology only where appropriate
 
 By the time you go live you should have in place:
 
 * procedures for ongoing operations, including iterations, maintenance, monitoring, patching and upgrading system components
 * funding to cover the long-term life of the product, including activities such as security accreditation
-* evidence or artefacts that demonstrate you achieved the objective of the criteria for the Live stage.
+* evidence or artefacts that demonstrate you achieved the objective of the criteria for the Live stage
