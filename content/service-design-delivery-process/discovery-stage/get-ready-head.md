@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Get ready
+section: Get ready for Discovery stage
 ---
