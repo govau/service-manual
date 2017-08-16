@@ -14,6 +14,8 @@ main:
   - how.md
   - guidance-head.md
   - guidance.md
+  - further-head.md
+  - further.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md

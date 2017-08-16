@@ -2,8 +2,7 @@
 layout: text/textblock
 ---
 This criteria applies through [all service design and delivery stages](/service-design-delivery-process). The composition of the team will change depending on the stage and need. You must be able to:
-
-- describe your digital delivery team - it should have, or easily get, the following roles, as relevant to your service
+- describe your digital delivery team — it should have, or easily get, the following roles, as relevant to your service
     - service manager
     - product manager
     - delivery manager
@@ -22,4 +21,4 @@ This criteria applies through [all service design and delivery stages](/service-
 - show that the team’s user research activities were developed and overseen by an experienced user researcher and that all team members - participated in research
 - demonstrate an understanding of where gaps may emerge in the team structure and how to fill them
 - demonstrate how you plan to share information, collaborate and troubleshoot issues within the team as well as with key people external to the team
-- explain your plan to transfer knowledge and skills from any external people who work with the team.
+- explain your plan to transfer knowledge and skills from any external people who work with the team
