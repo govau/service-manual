@@ -1,7 +1,10 @@
 ---
 layout: text/textblock
 ---
-During the [Discovery]() stage you will have developed a good understanding of how your users may access your service. To make sure everyone will be able to use your service you need to show:
+
+### [2]In Discovery stage
+
+During the [Discovery stage](/service-design-delivery-process/discovery-stage/) you will have developed a good understanding of how your users may access your service. To make sure everyone will be able to use your service you need to show:
 
 - the type of environments users may access the service in, including with different browsers and desktop and mobile devices, and when connections are slower and there may be limited data; for example, through user stories
 - diversity in research recruitment and targeted users, including people from different cultural backgrounds and people with disability
@@ -9,13 +12,16 @@ During the [Discovery]() stage you will have developed a good understanding of h
 - the plan to meet accessibility requirements in the design of the product, for example how it will meet [WCAG 2.0 AA](https://www.w3.org/WAI/intro/wcag)
 - what digital assistance might be needed to support users; for example web chat, telephone assistance, face-to-face, clear instructions, checklists, and so on.
 
-During the Alpha stage, you should be able to show:
+### [2]In Alpha stage
 
+During the [Alpha stage](/service-design-delivery-process/alpha-stage/), you should be able to show:
 - your prototypes can accommodate users from different backgrounds and users with disability
 - any accessibility issues and barriers that might need addressing in the Beta stage
 - you have access to facilities to perform testing on various devices or platforms, for example a plan for testing.
 
-During the Beta stage you will be developing your service and you must ensure accessibility requirements and needs of all your users are being met.
+### [2]In Beta stage
+
+During the [Beta stage](/service-design-delivery-process/beta-stage/) you will be developing your service and you must ensure accessibility requirements and needs of all your users are being met.
 
 You will need to show:
 

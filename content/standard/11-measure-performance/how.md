@@ -1,7 +1,10 @@
 ---
 layout: text/textblock
 ---
-You’ll have started early measurement activity during [Discovery]() with your user research dashboard.
+
+### [2]In Discovery stage
+
+You’ll have started early measurement activity during [Discovery](/service-design-delivery-process/discovery-stage/) with your user research dashboard.
 
 You will need to consider how you’ll measure your service in more detail as you enter Alpha. By the end of Alpha you should have:
 
@@ -10,6 +13,8 @@ You will need to consider how you’ll measure your service in more detail as yo
 - estimated the number of people you expect to use the service
 - started creating a performance framework outlining your objectives and what metrics your team will use to demonstrate you meet them
 - considered the metrics you will need to [measure the 4 KPIs](https://www.dta.gov.au/standard/measuring-performance/) and where the data will come from.
+
+### [2]In Beta stage
 
 By the end of Beta you will be able to show:
 

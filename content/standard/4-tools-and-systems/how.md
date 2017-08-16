@@ -1,6 +1,9 @@
 ---
 layout: text/textblock
 ---
+
+### [2]In Alpha stage
+
 During the Alpha stage you should be thinking about what you need to build the service. You should:
 
 * review the types of tools and systems already available
@@ -13,6 +16,8 @@ During the Alpha stage you should be thinking about what you need to build the s
 * understand any potential external dependencies or integrations that would be required to build the product
 * know the initial and ongoing costs for proposed tools and systems
 
+### [2]In Beta stage
+
 During the Beta stage you will be building the service and testing prototypes with users. You should:
 
 * manage any constraints that the chosen development tools and software have placed on the service
@@ -20,7 +25,6 @@ During the Beta stage you will be building the service and testing prototypes wi
 * procure the appropriate tools, systems and contractual arrangements and ensure you are getting value for money
 * have the ability to conduct technical health checks of the service
 * arrange for appropriate ongoing technical support and service level agreements for underlying or dependent services
-* outsource decision-making about technology only where appropriate
 
 By the time you go live you should have in place:
 
