@@ -1,11 +1,5 @@
 ---
-layout: blocks/image_content_block
-image: 
-link: 
-title: User journey map
-display: 2
-level: 3
-imageAlt: "null"
+layout: text/textblock
 ---
 
 The user journey map is the most important artefact you will start in Discovery.
