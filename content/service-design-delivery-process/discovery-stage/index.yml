@@ -8,6 +8,7 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - toc.md
   - meeting-head.md
   - meeting.md
   - get-ready-head.md
@@ -40,7 +41,7 @@ main:
   - stopping.md
   - case-head.md
   - dta-blog.md
-  - case.md 
+  - case.md
   - gds-blog.md
   - case-uk.md
   - /_shared/feedback.md
