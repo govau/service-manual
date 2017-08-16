@@ -79,7 +79,7 @@
 
 .imageblock__content {
 	margin: uikit-space( 20 ) 0 0 0;
-	padding: uikit-space( 3 ) uikit-space( 1.5 );
+	padding: uikit-space( 3 ) 12px;
 	height: 100%;
 
 	@include uikit-media( sm ) {
