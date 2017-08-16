@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-The purpose of Discovery is to do user research to understand the problem you need to solve. You will examine:
+In Discovery the team does user research to understand the problems that users need to be solved. You will examine:
 - all the channels and touchpoints of the service (not just digital)
 - the end-to-end user experience
 - key user groups
