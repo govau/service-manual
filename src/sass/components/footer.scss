@@ -80,6 +80,7 @@
 		}
 
 		.footer__text {
+
 			a {
 				color: $uikit-colour-Text;
 				border-bottom: 1px solid $uikit-colour-Link;
@@ -139,8 +140,13 @@
 
 	.footer__text--small {
 		font-size: 87.5%;
+		line-height: 1.9;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
+
+		@include uikit-media( sm ) {
+			line-height: 1.5;
+		}
 	}
 }
 
