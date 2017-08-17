@@ -1,0 +1,29 @@
+title: The 13 Criteria
+weight: 20
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - the-criteria-head.md
+  - the-criteria.md
+  - understand-user-needs.md
+  - have-a-multidisciplinary-team.md
+  - agile-user-centred.md
+  - understand-tools-systems.md
+  - make-secure.md
+  - consistent-responsive-design.md
+  - open-standards-common-platforms.md
+  - make-source-code-open.md
+  - make-accessible.md
+  - test-service.md
+  - measure-performance.md
+  - non-digital-experience.md
+  - encourage-everyone.md
+  - tools-head.md
+  - tools.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer-gds.md
