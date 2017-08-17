@@ -5,7 +5,7 @@ quote: Find what works, not what's popular.
 
 At the start of Alpha stage, you should have a good understanding of the user journey and know what the major stages of the user journey are.
 
-The team will keep improving the [user journey map](discovery-stage/#user-journey-map) as their understanding of the journey grows.
+The team will keep improving the [user journey map](/service-design-delivery-process/discovery-stage/#user-journey-map) as their understanding of the journey grows.
 You should work in an agile way, iterating regularly so that you can learn quickly.
 
 When the team has some certainty about the journey of users, create a user story map. This will help you [define the minimum viable product](#define-the-minimum-viable-product) (MVP).
