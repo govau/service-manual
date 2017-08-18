@@ -1,6 +1,6 @@
 ---
 layout: blocks/imageblock
-image: user-research/pop-up-research.jpg
+image: starting-team/t-shape-meeting.jpg
 title: Find people with T-shaped skills
 display: 2
 level: 3
