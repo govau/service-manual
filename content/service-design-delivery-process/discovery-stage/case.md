@@ -13,7 +13,7 @@ cards:
   cta: Read on DTA blog
 - image: '/sddp/immigration-user-research.jpg'
   headline: Doing Discovery in Government
-  text: Working Agile in a traditional government setting can be tricky. But it can be done.
+  text: Working agile in a traditional government setting can be tricky. But it can be done.
   link: 'https://www.dta.gov.au/blog/doing-discovery-in-government/'
   cta: Read on DTA blog
 - image: '/sddp/end-of-discovery.jpg'
@@ -22,5 +22,3 @@ cards:
   link: 'https://www.dta.gov.au/blog/wrapping-up-discovery-on-starting-a-business/'
   cta: Read on DTA blog
 ---
-
-
