@@ -12,7 +12,7 @@ You will need to consider how you’ll measure your service in more detail as yo
 - collected baseline data for the service operation in all of its channels
 - estimated the number of people you expect to use the service
 - started creating a performance framework outlining your objectives and what metrics your team will use to demonstrate you meet them
-- considered the metrics you will need to [measure the 4 KPIs](https://www.dta.gov.au/standard/measuring-performance/) and where the data will come from
+- considered the metrics you will need to measure the 4 KPIs and where the data will come from
 
 ### [2]In Beta stage
 
@@ -20,7 +20,7 @@ By the end of [Beta stage](/service-design-delivery-process/beta-stage/) you wil
 
 - which metrics and measurements you will use to monitor your KPIs
 - the baseline measures and the benchmarks for success
-- that the team is ready to report their performance on the [Performance Dashboard](https://www.dta.gov.au/what-we-do/platforms/performance/)
+- that the team is ready to report their performance on the [Performance Dashboard](https://dashboard.gov.au/)
 - which tools you use for analysis and web analytics in Beta (and Alpha if appropriate)
 - what you have learned from qualitative and quantitative data (for example, key evidence).
 

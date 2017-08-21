@@ -1,7 +1,7 @@
 ---
 layout: text/textblock
 ---
-Every service must aim for continuous improvement. Metrics are an important starting point for discussions about a service’s strengths and weaknesses. By [identifying and capturing the right metrics](https://www.dta.gov.au/standard/measuring-performance/) — with the right tools — you can make sure all your decisions to improve the service are supported by data.
+Every service must aim for continuous improvement. Metrics are an important starting point for discussions about a service’s strengths and weaknesses. By identifying and capturing the right metrics — with the right tools — you can make sure all your decisions to improve the service are supported by data.
 
 ### [2]Key performance indicators
 

@@ -16,4 +16,4 @@ The first 3 stages of the service design and delivery process are similar to the
 - In Alpha stage you test your hypotheses using prototypes until you can define a minimum viable product (Develop — the first half of the second diamond).
 - In Beta stage you build the minimum viable product (Deliver — the second half of the second diamond).
 
-The [Digital Transformation Office design principles](https://www.dta.gov.au/standard/design-principles/) guide teams following the service design and delivery process. 
+The [Digital Transformation Office design principles](/design-principles/) guide teams following the service design and delivery process.
