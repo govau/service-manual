@@ -29,4 +29,4 @@ During the private beta, you will need to:
 
 During public beta you will need to:
 - publish your service dashboard on the Performance Dashboard
-- plan how you’ll maintain your service dashboard and how you’ll add improvements to your metrics and data
+- plan how you will maintain your service dashboard and how you will add improvements to your metrics and data
