@@ -9,5 +9,5 @@ At the end of the Alpha stage, you should have:
 - a basic working system with limited functionality that you can demonstrate to users
 - an understanding of legacy systems you need to replace or integrate with
 - a decision on whether or not to progress to Beta stage
-- analysis on the user needs research you’ve done
+- analysis on the user needs research you have done
 - a decision on your minimum viable product

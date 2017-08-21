@@ -8,7 +8,6 @@ sections:
   - Identify service performance metrics
   - Activities for each sprint
   - Test with different kinds of prototypes
-  - Define the minimum viable product
   - How you know Alpha stage is finished
   - Moving on to Beta stage
   - Your Alpha to Beta assessment

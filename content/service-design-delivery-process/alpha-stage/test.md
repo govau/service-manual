@@ -22,9 +22,9 @@ The team tests which of these prototypes (if any) are best to carry forward, ite
 
 Don’t spend too much time building the prototypes, as you will keep throwing them away and building new ones based on user feedback.
 
-A prototype shouldn’t be functionally complete, have full end-to-end transactions or integrate with any working back-end systems. Just build the user journeys and use hypotheses you need to test.
+A prototype should not be functionally complete, have full end-to-end transactions or integrate with any working back-end systems. Just build the user journeys and user hypotheses you need to test.
 
-It’s completely fine (and strongly recommended) to throw away the prototypes you build. You may choose to re-use some design patterns or components when you build the Beta, but you shouldn’t re-use a whole prototype.
+It’s completely fine (and strongly recommended) to throw away the prototypes you build. You may choose to re-use some design patterns or components when you build in Beta stage, but you should not re-use a whole prototype.
 
 ### [2]Tools and technology for your prototypes
 
