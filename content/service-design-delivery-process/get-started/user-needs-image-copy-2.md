@@ -1,7 +1,7 @@
 ---
 layout: blocks/image_content_block
-image: sddp/new-process.jpg
-link: sddp/new-process.jpg
+image: sddp/service-design-delivery-process.jpg
+link: sddp/service-design-delivery-process.jpg
 display: 2
 level: 3
 reverse: false
