@@ -1,11 +1,11 @@
 ---
 layout: blocks/image_content_block
-image: /sddp/mvp.jpg
-link: /sddp/mvp.jpg
+image: sddp/mvp.jpg
+link: sddp/mvp.jpg
 title: Define the minimum viable product
 display: 2
 level: 3
-caption: Caption: Everything above the dotted line will be in the minumum viable product
+caption: Caption: Everything above the dotted line will be in the minimum viable product
 imageAlt: "A whiteboard drawing of a user journey map. It has squares to represent sticky notes that are activities across the top and user stories or tasks in columns. There is a  horizontal broken line across the map. Everything above the line is in the minimum viable product."
 ---
 
