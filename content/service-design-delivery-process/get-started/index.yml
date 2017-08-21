@@ -8,6 +8,7 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - sections.md
   - meeting-heading.md
   - meeting.md
   - user-needs-image-copy.md
