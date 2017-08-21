@@ -12,6 +12,4 @@ At the end of Discovery, it’s good idea to produce a document or slide deck th
 - how you will measure improvements to the service
 - photos and feedback quotes
 
-You should also have started a [decision register](/alpha-stage/#keep-the-decision-register). You will keep using this in Alpha stage and beyond.
-
-
+You should also have started a [decision register](../alpha-stage/#keep-the-decision-register). You will keep using this in Alpha stage and beyond.

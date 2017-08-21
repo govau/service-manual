@@ -8,5 +8,4 @@ You should move on to the Alpha stage if:
 - you are working on needs that only government can meet
 - you won’t duplicate other government services or products
 - you have support from senior stakeholders and they understand your plans
-- you know how you’ll measure success
-
+- you know how you will measure success

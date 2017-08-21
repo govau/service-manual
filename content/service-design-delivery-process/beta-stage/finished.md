@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-At the end of the Beta stage, you’ll have:
+At the end of the Beta stage you will have:
 - launched a private beta service followed by a public end-to-end service
 - made a prioritised list of work to be done (your backlog)
 - made a plan for ongoing user research

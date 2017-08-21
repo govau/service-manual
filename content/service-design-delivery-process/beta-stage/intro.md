@@ -4,6 +4,6 @@ subtitle: In Beta stage, the team builds an end-to-end service based on what the
 category: Service design and delivery process
 ---
 
-In Beta stage, you focus on building the minimum viable product that you defined at the end of Alpha stage. This is the simplest thing you can build that meets the user need.
+In Beta stage you focus on building the minimum viable product that you defined at the end of Alpha stage. This is the simplest thing you can build that meets the user need.
 
 You will keep testing the service with users first in a private beta and then a public beta.
