@@ -1,7 +1,7 @@
 ---
 layout: blocks/image_content_block
-image: /sddp/mvp.jpg
-link: /sddp/mvp.jpg
+image: sddp/mvp.jpg
+link: sddp/mvp.jpg
 title: Define the minimum viable product
 display: 2
 level: 3
