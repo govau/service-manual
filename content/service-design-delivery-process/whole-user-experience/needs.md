@@ -1,7 +1,7 @@
 ---
 layout: text/textblock
 ---
-To build services that are complete and reflect the whole user experience we need to [start with needs: user needs, not government needs](https://www.dta.gov.au/standard/design-principles/#start-with-needs-user-needs-not-government-needs).
+To build services that are complete and reflect the whole user experience we need to [start with needs: user needs, not government needs](/design-principles/#start-with-needs:-user-needs-not-government-needs-).
 
 Owning the whole user experience means a service:
 - reflects how users think about the service, what they want to do and is built on users’ needs

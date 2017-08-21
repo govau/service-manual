@@ -4,7 +4,7 @@ layout: text/textblock
 
 A ‘qualitative evaluation’ helps to decide whether the content supports a user need when they interact with government.
 
-Get a content expert to evaluate each content item in the spreadsheet, applying best practice guidelines such as the [Digital Service Standard](https://www.dta.gov.au/standard/), the [GOV.AU Content Guide](https://guides.service.gov.au/content-guide/) and relevant tools (if available). You should assess your content against the following criteria.
+Get a content expert to evaluate each content item in the spreadsheet, applying best practice guidelines such as the [Digital Service Standard](/digital-service-standard/), the [GOV.AU Content Guide](https://guides.service.gov.au/content-guide/) and relevant tools (if available). You should assess your content against the following criteria.
 
 ## [1]Usability
 - Who is the intended user of the content?

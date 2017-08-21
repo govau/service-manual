@@ -1,7 +1,7 @@
 ---
 layout: text/textblock
 ---
-You must have the right roles in your team to meet [Criteria 2: Have a multidisciplinary team](https://www.dta.gov.au/standard/2-multidisciplinary-team/) of the [Digital Service Standard](https://www.dta.gov.au/standard/).
+You must have the right roles in your team to meet [Criteria 2: Have a multidisciplinary team](/digital-service-standard/criteria/2-multidisciplinary-team/) of the [Digital Service Standard](/digital-service-standard/).
 
 In your assessments you will need to explain how these roles have been filled.
 
