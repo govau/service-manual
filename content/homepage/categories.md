@@ -11,7 +11,7 @@ cards:
     text: A content strategy guides the creation, delivery and governance of useful, usable content.
     link: '/content-strategy/'
     background: '#1B7991'
-  - image:
+  - image: delivery-card.jpg
     headline: Service design and delivery process
     text: An agile process that helps teams build services that are simpler, clearer and faster.
     link: '/service-design-delivery-process/'
