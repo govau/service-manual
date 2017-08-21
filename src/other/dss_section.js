@@ -5,55 +5,55 @@ import React from 'react';
 const CRITERIA = {
 	'1': {
 		title: `Understand user needs`,
-		link: `https://www.dta.gov.au/standard/1-user-needs/`,
+		link: `/digital-service-standard/criteria/1-understand-user-needs/`,
 	},
 	'2': {
 		title: `Have a multidisciplinary team`,
-		link: `https://www.dta.gov.au/standard/2-multidisciplinary-team/`,
+		link: `/digital-service-standard/criteria/2-multidisciplinary-team/`,
 	},
 	'3': {
 		title: `Agile and user-centred process`,
-		link: `https://www.dta.gov.au/standard/3-agile-and-user-centred/`,
+		link: `/digital-service-standard/criteria/3-agile-and-user-centred/`,
 	},
 	'4': {
 		title: `Understand tools and systems`,
-		link: `https://www.dta.gov.au/standard/4-tools-and-systems/`,
+		link: `/digital-service-standard/criteria/4-tools-and-systems/`,
 	},
 	'5': {
 		title: `Make it secure`,
-		link: `https://www.dta.gov.au/standard/5-make-it-secure/`,
+		link: `/digital-service-standard/criteria/5-make-it-secure/`,
 	},
 	'6': {
 		title: `Consistent and responsive design`,
-		link: `https://www.dta.gov.au/standard/6-consistent-and-responsive/`,
+		link: `/digital-service-standard/criteria/6-consistent-and-responsive/`,
 	},
 	'7': {
 		title: `Use open standards and common platforms`,
-		link: `https://www.dta.gov.au/standard/7-open-standards-and-common-platforms/`,
+		link: `/digital-service-standard/criteria/7-open-standards-and-common-platforms/`,
 	},
 	'8': {
 		title: `Make source code open`,
-		link: `https://www.dta.gov.au/standard/8-make-source-code-open/`,
+		link: `/digital-service-standard/criteria/8-make-source-code-open/`,
 	},
 	'9': {
 		title: `Make it accessible`,
-		link: `https://www.dta.gov.au/standard/9-make-it-accessible/`,
+		link: `/digital-service-standard/criteria/9-make-it-accessible/`,
 	},
 	'10': {
 		title: `Test the service`,
-		link: `https://www.dta.gov.au/standard/10-test-the-service/`,
+		link: `/digital-service-standard/criteria/10-test-the-service/`,
 	},
 	'11': {
 		title: `Measure performance`,
-		link: `https://www.dta.gov.au/standard/11-measure-performance/`,
+		link: `/digital-service-standard/criteria/11-measure-performance/`,
 	},
 	'12': {
 		title: `Don’t forget the non-digital experience`,
-		link: `https://www.dta.gov.au/standard/12-non-digital-experience/`,
+		link: `/digital-service-standard/criteria/12-non-digital-experience/`,
 	},
 	'13': {
 		title: `Encourage everyone to use the digital service`,
-		link: `https://www.dta.gov.au/standard/13-encourage-use-of-the-digital-service/`,
+		link: `/digital-service-standard/criteria/13-encourage-use-of-the-digital-service/`,
 	},
 };
 
@@ -80,12 +80,12 @@ const DSSSection = ( page ) => {
 								page.dss.map( ( criteria, i ) => (
 									<li key={ i } className="dss-section__criteria__list__item">
 										<span className="dss-section__criteria__list__item__digit">{ criteria }</span>
-										<a className="dss-section__criteria__list__item__link" href={ CRITERIA[ criteria ].link } rel="external">{ CRITERIA[ criteria ].title }</a>
+										<a className="dss-section__criteria__list__item__link" href={ CRITERIA[ criteria ].link }>{ CRITERIA[ criteria ].title }</a>
 									</li>
 								))
 							}
 						</ul>
-						<a className="dss-section__criteria__cta uikit-cta-link" href="https://www.dta.gov.au/standard/">Read the criteria</a>
+						<a className="dss-section__criteria__cta uikit-cta-link" href="/digital-service-standard/criteria/">Read the criteria</a>
 					</div>
 				</div>
 			</div>

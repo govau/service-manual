@@ -3,9 +3,16 @@ weight: 20
 theme: blue
 header:
   - /_shared/globalheader.md
-  - /_shared/header.md
+  - header.md
 main:
-  - intro.md
+  - category_sections.md
+  - what.md
+  - why-head.md
+  - why.md
+  - how-head.md
+  - guides-cards.md
+  - scope-head.md
+  - scope-cards.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md
