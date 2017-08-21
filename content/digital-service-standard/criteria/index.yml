@@ -1,4 +1,4 @@
-title: The 13 Criteria
+title: Digital Service Standard criteria
 weight: 20
 layout: layout/topic
 theme: blue
@@ -22,8 +22,6 @@ main:
   - measure-performance.md
   - non-digital-experience.md
   - encourage-everyone.md
-  - tools-head.md
-  - tools.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md

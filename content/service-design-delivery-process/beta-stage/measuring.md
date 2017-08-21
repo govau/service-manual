@@ -6,7 +6,7 @@ You need to measure and report on the performance of your service. You will have
 
 Performance metrics provide important information about whether your service is meeting user needs. They make sure that the decisions you make to improve your service are based on data.
 
-There are [4 key performance indicators for government services](/standard/11-measure-performance/) that you must measure:
+There are [4 key performance indicators for government services](/digital-service-standard/criteria/11-measure-performance/) that you must measure:
 - user satisfaction
 - digital take-up
 - completion rate
