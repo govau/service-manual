@@ -12,6 +12,7 @@ main:
   - meeting-heading.md
   - meeting.md
   - user-needs-image-copy.md
+  - user-needs-image.md
   - user-needs-image-copy-2.md
   - stages-head.md
   - stages.md
@@ -20,7 +21,6 @@ main:
   - support-decision-makers.md
   - deliver-quickly-reduce-risk-head.md
   - deliver-quickly-reduce-risk.md
-
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md
