@@ -18,7 +18,7 @@ The product manager leads strategic direction and product delivery. They:
 -  facilitate travel
 
 #### Service manager
-The service manager owns and is responsible for the whole user experience of the digital service. They are:
+The service manager owns and is responsible for the [whole user experience](/service-design-delivery-process/whole-user-experience/) of the digital service. They are:
 
 -  a senior executive with the capacity to unblock obstacles, present and champion the service at the most senior levels of the Australian Public Service
 -  experienced leaders with a strong understanding of their service and its users

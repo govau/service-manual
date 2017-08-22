@@ -8,7 +8,7 @@ In Discovery the team does user research to understand the problems that users n
 - the end-to-end user experience
 - key user groups
 
-The team will need to understand the whole user experience and look at other related products and services delivered in their organisation.
+The team will need to [understand the whole user experience](/service-design-delivery-process/whole-user-experience/) and look at other related products and services delivered in their organisation.
 
 To complete a service a user may have to interact with products and websites run by other teams. The user may also have to deal with other parts of government or commercial organisations.
 
