@@ -5,7 +5,7 @@ cards:
     text: Introducing the process we use to build services.
     link: '/service-design-delivery-process/get-started/'
   - headline: Own the whole user experience
-    text: Build services that meet the whole user need.
+    text: Build services that are complete and reflect the whole user experience.
     link: '/service-design-delivery-process/whole-user-experience/'
   - headline: Discovery stage: exploring the problem
     text: Discovery is about really understanding the needs of your users.

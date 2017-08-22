@@ -17,7 +17,7 @@ A service may need smaller products to meet user needs. For example, being able 
 - information on what you need to learn to drive — an information product
 - an online driving knowledge test — a web application product
 - booking a driving test — a calendar booking product
-- getting a driving license — a card-creating product
+- getting a driving license — a process that creates a physical card
 - paying your annual fee — an online payment product
 
 If these products are owned by different parts of government that are working in different ways it can make it harder for the user to do what they need to do.

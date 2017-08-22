@@ -10,6 +10,6 @@ We know that [people struggle to get things done with government](https://www.dt
 
 We need to understand the current user experience and where it includes different products that may be owned by other parts of government.
 
-This means we need to work across government to do the hard work to make it simple for users. We’re [legislatively bound to do work together](http://www.finance.gov.au/resource-management/pgpa-act/) to build better services for people.
+This means we need to work across government to do the hard work to make it simple for users. We’re [legislatively bound to work together](http://www.finance.gov.au/resource-management/pgpa-act/) to build better services for people.
 
 To build the right thing we need a senior service manager who can take responsibility for the whole user experience.
