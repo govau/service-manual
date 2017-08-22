@@ -16,6 +16,21 @@
 		background-color: #fff;
 		color: $uikit-colour-Text;
 	}
+
+	&.imagecontentblock--stacktop {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	&.imagecontentblock--stackmiddle {
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+
+	&.imagecontentblock--stackbottom {
+		padding-top: 0;
+	}
 }
 
 
@@ -86,7 +101,7 @@
 	margin: 0;
 
 	@include uikit-media( md ) {
-		margin: uikit-space( 0.80 ) 0 uikit-space( 1 ) 0;
+		margin: uikit-space( 0.313 ) 0 uikit-space( 1 ) 0;
 	}
 
 	a {
