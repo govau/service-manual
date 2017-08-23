@@ -11,6 +11,7 @@ const ImageContentblock = ( page ) => {
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 	const imageSrc = page.image.startsWith('http') ? `${ page.image }` : `/assets/img/${ page.image }`;
 	const HeadingTag = `h${ page.level }`;
+	const id = (page.title).replace(/\s+/g, '-').toLowerCase();
 	let stack;
 
 	if ( page.stackTop ) {
@@ -32,7 +33,7 @@ const ImageContentblock = ( page ) => {
 		<div className={`imagecontentblock__content imagecontentblock__content--${ theme } `}>
 			{ page.section && <span className="section__section intro__category" id={ Slugify( page.section ).toLowerCase() } >{ page.section }</span> }
 			<div className="textwrapper">
-				{ page.title && <HeadingTag className={ `imagecontentblock__headline display-${ page.display }` }>
+				{ page.title && <HeadingTag id={ id } className={ `imagecontentblock__headline display-${ page.display }` }>
 					{ page.title }
 				</HeadingTag>
 				}

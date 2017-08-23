@@ -9,7 +9,7 @@ import React from 'react';
  */
 const Card = ({ link, background, image, headline, text, cta }) => {
 
-	if( image ) {
+	if ( image ) {
 		image = image.startsWith('http') ? image : `/assets/img/${ image }`;
 	}
 
