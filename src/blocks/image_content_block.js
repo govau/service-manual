@@ -14,7 +14,7 @@ const ImageContentblock = ( page ) => {
 	const id = (page.title).replace(/\s+/g, '-').toLowerCase();
 	let stack;
 
-	if ( page.stackTop ) {
+	if( page.stackTop ) {
 		stack = 'imagecontentblock--stacktop';
 	} else if (page.stackMiddle) {
 		stack = 'imagecontentblock--stackmiddle';
