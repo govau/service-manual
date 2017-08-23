@@ -51,6 +51,7 @@
 		"slugify": "^1.1.0"
 	},
 	"devDependencies": {
+		"@gov.au/pancake": "^1.1.0",
 		"autoprefixer": "^7.1.1",
 		"concat-cli": "^4.0.0",
 		"cuttlebelle": "^1.0.0-alpha.29",
