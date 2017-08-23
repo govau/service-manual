@@ -8,8 +8,8 @@ header:
 main:
   - intro.md
   - toc.md
-  - why-head.md
-  - why.md
+  #- why-head.md
+  #- why.md
   - how-head.md
   - how.md
   - guidance-head.md

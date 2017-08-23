@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Scope
+section: Scope of moratorium
 ---
