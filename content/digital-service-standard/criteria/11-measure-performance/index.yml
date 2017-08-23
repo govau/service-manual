@@ -9,8 +9,8 @@ main:
   - intro.md
   - toc.md
   - why-head.md
-  - why.md
-  - how-head.md
+  #- why.md
+  #- how-head.md
   - how.md
   - guidance-head.md
   - guidance.md
