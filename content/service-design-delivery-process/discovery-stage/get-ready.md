@@ -3,7 +3,7 @@ layout: text/textblock
 ---
 
 Before you start the Discovery stage, make sure you:
-- have the right roles in the team and understand how a multidisciplinary team works
+- have the right [roles in the team](/starting-team/roles/) and understand how a [multidisciplinary team](/starting-team/multidisciplinary-team/) works
 - understand user-centred design and why we need to [own the whole user experience](/service-design-delivery-process/whole-user-experience/)
 - understand agile delivery and how you will do budgeting and reporting when using agile
 - identify stakeholders and subject matter experts
