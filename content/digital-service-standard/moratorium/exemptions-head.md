@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Exemptions
+section: Exemptions to moratorium
 ---
