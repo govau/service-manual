@@ -12,6 +12,8 @@ main:
   - transactional.md
   - information-head.md
   - information.md
+  - moratorium-head.md
+  - moratorium.md
   - not-apply-head.md
   - not-apply.md
   - /_shared/feedback.md
