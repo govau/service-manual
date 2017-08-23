@@ -6,14 +6,14 @@ title: Service design and the double diamond
 display: 2
 level: 2
 reverse: false
-imageAlt: "The double diamond design process. Start narrow with Discovery and go wide as you discover and gather data. Then narrow in to get to define the problem and narrow the scope. Start to go wide at the beginning of alpha as you explore possibilities and develop your prototypes. When you are confident you have something like the solution and then go narrow again define the constraints and deliver."
+imageAlt: "Diagram showing the double diamond design process. Go wide to discover and gather data. Then narrow the scope as you define the problem. Go wide again as you explore possibilities and develop prototypes. Then narrow in again to define the constraints and deliver."
 ---
 
-The first 3 stages of the service design and delivery process are similar to the double diamond process of discover, define, develop and deliver:
+The first 3 stages of the service design and delivery process are similar to the double diamond phases of discover, define, develop and deliver:
 
-- In the first half of Discovery stage you are going wide with user research to understand the problem (discover — the first half of the first diamond).
-- In the second half of Discovery you narrow in on the biggest pain points to really understand them so you can define hypotheses (Define — the second half of the first diamond).
-- In Alpha stage you test your hypotheses using prototypes until you can define a minimum viable product (Develop — the first half of the second diamond).
-- In Beta stage you build the minimum viable product (Deliver — the second half of the second diamond).
+- In the first half of the Discovery stage you go wide with user research to understand the problem (discover phase).
+- In the second half of the Discovery stage you narrow in on the biggest pain points to really understand them so you can define hypotheses (define phase).
+- In Alpha stage you test your hypotheses using prototypes until you can define a minimum viable product (develop phase).
+- In Beta stage you build the minimum viable product (deliver phase).
 
-The [Digital Transformation Office design principles](/design-principles/) guide teams following the service design and delivery process.
+The [Digital Transformation Office design principles](/design-principles/) guide teams as they follow the service design and delivery process.

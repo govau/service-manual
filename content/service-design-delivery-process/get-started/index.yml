@@ -11,9 +11,9 @@ main:
   - sections.md
   - meeting-heading.md
   - meeting.md
-  - user-needs-image-copy.md
-  - user-needs-image.md
-  - user-needs-image-copy-2.md
+  - user-needs-head.md
+  - user-needs-image-old.md
+  - user-needs-image-new.md
   - stages-head.md
   - stages.md
   - diamond-image.md
