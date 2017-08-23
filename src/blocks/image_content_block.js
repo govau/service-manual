@@ -11,7 +11,7 @@ const ImageContentblock = ( page ) => {
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 	const imageSrc = page.image.startsWith('http') ? `${ page.image }` : `/assets/img/${ page.image }`;
 	const HeadingTag = `h${ page.level }`;
-	const id = (page.title).replace(/\s+/g, '-').toLowerCase();
+	const id = page.title ? (page.title).replace(/\s+/g, '-').toLowerCase() : null;
 	let stack;
 
 	if( page.stackTop ) {
