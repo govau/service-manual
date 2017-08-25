@@ -3,7 +3,7 @@ layout: intros/intro
 category: Digital Service Standard
 ---
 
-The [Digital Service Standard](/digital-service-standard/criteria/) (the Standard) applies to public facing Australian Government (federal) services owned by [non-corporate Commonwealth entities](http://www.finance.gov.au/resource-management/governance/#flipchart).
+The [Digital Service Standard](../criteria/) (the Standard) applies to public facing Australian Government (federal) services owned by [non-corporate Commonwealth entities](http://www.finance.gov.au/resource-management/governance/#flipchart).
 
 The Standard applies to:
 
