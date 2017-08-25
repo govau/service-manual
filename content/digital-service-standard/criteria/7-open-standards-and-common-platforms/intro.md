@@ -4,7 +4,7 @@ category: Digital Service Standard
 subtitle: Build using open standards and common government platforms where appropriate.
 ---
 
-## [3]Why it's in the Standard
+## [2]Why it's in the Standard
 
 Using [open standards](https://en.wikipedia.org/wiki/Open_standard) and common government platforms helps you to:
 

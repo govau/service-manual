@@ -4,7 +4,7 @@ category: Digital Service Standard
 subtitle: Identify the data and information the service will use or create. Put appropriate legal, privacy and security measures in place.
 ---
 
-## [3]Why it's in the Standard
+## [2]Why it's in the Standard
 
 People who use government services must have confidence that:
 

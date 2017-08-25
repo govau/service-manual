@@ -4,7 +4,7 @@ category: Digital Service Standard
 subtitle: Test the service from end to end, in an environment that replicates the live version.
 ---
 
-## [3]Why it's in the Standard
+## [2]Why it's in the Standard
 
 All government services should be clear, simple and easy to use, regardless of the technology your users use, their expertise with the subject matter, or their level of digital skill.
 

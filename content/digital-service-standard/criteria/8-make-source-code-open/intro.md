@@ -4,7 +4,7 @@ category: Digital Service Standard
 subtitle: Make all new source code open by default.
 ---
 
-## [3]Why it's in the Standard
+## [2]Why it's in the Standard
 
 It’s important to share your source code so others with a similar need can reuse it.
 

@@ -7,8 +7,6 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  # - the-criteria-head.md
-  # - the-criteria.md
   - criteria.md
   - scope-head.md
   - scope.md

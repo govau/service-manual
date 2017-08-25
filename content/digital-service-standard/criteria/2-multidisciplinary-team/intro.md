@@ -4,7 +4,7 @@ category: Digital Service Standard
 subtitle: Establish a sustainable multidisciplinary team to design, build, operate and iterate the service, led by an experienced product manager with decision-making responsibility.
 ---
 
-## [3]Why it's in the Standard
+## [2]Why it's in the Standard
 
 Good government services are built quickly and iteratively, based on user needs. Your [digital delivery team](/starting-team/) must be set up in the right way to do this.
 

@@ -4,7 +4,7 @@ category: Digital Service Standard
 subtitle: Encourage users to choose the digital service and consolidate or phase out existing alternative channels where appropriate.
 ---
 
-## [3]Why it's in the Standard
+## [2]Why it's in the Standard
 
 As we build simpler, clearer and faster government services the digital channel will become more convenient for users than non-digital channels like post, phone and shopfronts. Increased digital take-up will mean users can spend less time interacting with government. This will result in greater cost efficiencies for government.
 
