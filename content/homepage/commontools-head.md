@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Ways of working
+section: Common tools
 ---
