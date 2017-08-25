@@ -7,21 +7,24 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - the-criteria-head.md
-  - the-criteria.md
-  - understand-user-needs.md
-  - have-a-multidisciplinary-team.md
-  - agile-user-centred.md
-  - understand-tools-systems.md
-  - make-secure.md
-  - consistent-responsive-design.md
-  - open-standards-common-platforms.md
-  - make-source-code-open.md
-  - make-accessible.md
-  - test-service.md
-  - measure-performance.md
-  - non-digital-experience.md
-  - encourage-everyone.md
+  - criteria.md
+  - scope-head.md
+  - scope.md
+  - posters-head.md
+  - posters.md
+  # - understand-user-needs.md
+  # - have-a-multidisciplinary-team.md
+  # - agile-user-centred.md
+  # - understand-tools-systems.md
+  # - make-secure.md
+  # - consistent-responsive-design.md
+  # - open-standards-common-platforms.md
+  # - make-source-code-open.md
+  # - make-accessible.md
+  # - test-service.md
+  # - measure-performance.md
+  # - non-digital-experience.md
+  # - encourage-everyone.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md

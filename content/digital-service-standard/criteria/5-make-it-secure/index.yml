@@ -7,9 +7,6 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - toc.md
-  - why-head.md
-  - why.md
   - how-head.md
   - how.md
   - reading-head.md
