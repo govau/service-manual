@@ -1,0 +1,23 @@
+title: Meeting the Standard
+weight: 150
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - toc.md
+  - assurance-head.md
+  - assurance.md
+  - assessment-head.md
+  - assessment.md
+  - report-head.md
+  - report.md
+  - maintain-head.md
+  - maintain.md
+  - reading-head.md
+  - reading.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer-gds.md
