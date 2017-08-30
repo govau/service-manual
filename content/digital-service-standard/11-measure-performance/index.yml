@@ -1,5 +1,6 @@
-title: 13. Encourage everyone to use the digital service
-weight: 130
+title: 11. Measure performance
+weight: 110
+childnav1lvl: true
 layout: layout/topic
 theme: blue
 header:
@@ -11,6 +12,8 @@ main:
   - how.md
   - guidance-head.md
   - guidance.md
+  - reading-head.md
+  - reading.md
   #- cstudies-section.md
   #- cstudies.md
   - /_shared/feedback.md

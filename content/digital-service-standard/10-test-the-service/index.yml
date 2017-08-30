@@ -1,5 +1,6 @@
-title: 8. Make source code open
-weight: 80
+title: 10. Test the service
+weight: 100
+childnav1lvl: true
 layout: layout/topic
 theme: blue
 header:
@@ -7,8 +8,6 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - guidance-head.md
-  - guidance.md
   - reading-head.md
   - reading.md
   #- cstudies-section.md

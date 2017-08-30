@@ -15,6 +15,7 @@ const Childnav = ({ page }) => {
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 	const parentID = page._parents[ ( page._parents.length - ( page._parents.length - 1 ) )];
 	const childNavTitle = page.childnavtitle == undefined ? 'In this section' : page.childnavtitle;
+	const childnav1lvl = page.childnav1lvl ? page.childnav1lvl : page._pages[ page._ID ].childnav1lvl;
 
 	return (
 		<div className={`childnav js-childnav childnav--${ theme }`}>
@@ -27,6 +28,7 @@ const Childnav = ({ page }) => {
 					nav={ page._nav }
 					pages={ page._pages }
 					ID={ page._ID }
+					childnav1lvl={ childnav1lvl }
 					startID={ parentID }
 					relativeURL={ page._relativeURL }
 				/>

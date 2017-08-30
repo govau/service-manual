@@ -1,5 +1,6 @@
-title: 11. Measure performance
-weight: 110
+title: 5. Make it secure
+weight: 50
+childnav1lvl: true
 layout: layout/topic
 theme: blue
 header:
@@ -9,12 +10,8 @@ main:
   - intro.md
   - how-head.md
   - how.md
-  - guidance-head.md
-  - guidance.md
   - reading-head.md
   - reading.md
-  #- cstudies-section.md
-  #- cstudies.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md

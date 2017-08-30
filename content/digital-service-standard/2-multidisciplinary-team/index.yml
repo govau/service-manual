@@ -1,5 +1,6 @@
-title: 7. Use open standards and common platforms
-weight: 70
+title: 2. Have a multidisciplinary team
+weight: 20
+childnav1lvl: true
 layout: layout/topic
 theme: blue
 header:
@@ -11,10 +12,8 @@ main:
   - how.md
   - guidance-head.md
   - guidance.md
-  - reading-head.md
-  - reading.md
-  #- cstudies-section.md
-  #- cstudies.md
+  - further-head.md
+  - further.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md

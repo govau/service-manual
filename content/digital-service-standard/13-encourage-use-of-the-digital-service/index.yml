@@ -1,5 +1,6 @@
-title: 10. Test the service
-weight: 100
+title: 13. Encourage everyone to use the digital service
+weight: 130
+childnav1lvl: true
 layout: layout/topic
 theme: blue
 header:
@@ -7,8 +8,10 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - reading-head.md
-  - reading.md
+  - how-head.md
+  - how.md
+  - guidance-head.md
+  - guidance.md
   #- cstudies-section.md
   #- cstudies.md
   - /_shared/feedback.md
