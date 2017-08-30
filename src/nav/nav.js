@@ -14,7 +14,7 @@ const Navigation = ({
 	startID = '',
 	relativeURL = ( URL ) => URL,
 	noParents = false,
-	level = 1,
+	level = 0,
 	childnav1lvl = false,
 	homepageName = '',
 	wrappingId = '',
