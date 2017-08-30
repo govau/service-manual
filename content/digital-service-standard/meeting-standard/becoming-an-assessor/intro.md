@@ -1,5 +1,5 @@
 ---
-layout: intros/intro
+layout: intros/intro_with_nav
 category: Digital Service Standard
 ---
 All services that fall under the [scope of the Standard](/digital-service-standard/scope-standard/) must be assessed by a team of assessors.

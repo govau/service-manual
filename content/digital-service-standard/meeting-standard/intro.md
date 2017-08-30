@@ -1,5 +1,5 @@
 ---
-layout: intros/intro
+layout: intros/intro_with_nav
 category: Digital Service Standard
 ---
 ## [2]How services are assessed
