@@ -35,7 +35,7 @@ const Navigation = ({
 				.map( ( pageID, i ) => {
 					const homepage = homepageName === '' ? Object.keys( nav )[ 0 ] : homepageName;
 					const page = nav[ pageID ];
-					const _displayItem =  noParents && pageID.startsWith( startID ) || level === 3 && childnav1lvl === true || !noParents;
+					const _displayItem =  noParents && pageID.startsWith( startID ) || level === 2 && childnav1lvl === true || !noParents;
 
 					// We only pursue this element if it either
 					// starts with our startID or is the homepage if we got noParents = true
@@ -85,7 +85,7 @@ const Navigation = ({
 					}
 					else {
 						// Check to see if this is a childnav placed on 1 level only and add the parent item on the first item
-						if (childnav1lvl == true && level === 3 && i === 0) {
+						if (childnav1lvl == true && level === 2 && i === 0) {
 							const parentId = pageID.substring(0, pageID.indexOf('/'));
 							const parent = pages[parentId];
 
