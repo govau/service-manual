@@ -58,11 +58,6 @@ IntroNav.propTypes = {
 	childnavtitle: PropTypes.string,
 
 	/**
-	 * level: 2
-	 */
-	level: PropTypes.number,
-
-	/**
 	 * _body: (text)(4)
 	 */
 	_body: PropTypes.node.isRequired,
