@@ -5,55 +5,55 @@ import React from 'react';
 const CRITERIA = {
 	'1': {
 		title: `Understand user needs`,
-		link: `/digital-service-standard/criteria/1-understand-user-needs/`,
+		link: `/digital-service-standard/1-understand-user-needs/`,
 	},
 	'2': {
 		title: `Have a multidisciplinary team`,
-		link: `/digital-service-standard/criteria/2-multidisciplinary-team/`,
+		link: `/digital-service-standard/2-multidisciplinary-team/`,
 	},
 	'3': {
 		title: `Agile and user-centred process`,
-		link: `/digital-service-standard/criteria/3-agile-and-user-centred/`,
+		link: `/digital-service-standard/3-agile-and-user-centred/`,
 	},
 	'4': {
 		title: `Understand tools and systems`,
-		link: `/digital-service-standard/criteria/4-tools-and-systems/`,
+		link: `/digital-service-standard/4-tools-and-systems/`,
 	},
 	'5': {
 		title: `Make it secure`,
-		link: `/digital-service-standard/criteria/5-make-it-secure/`,
+		link: `/digital-service-standard/5-make-it-secure/`,
 	},
 	'6': {
 		title: `Consistent and responsive design`,
-		link: `/digital-service-standard/criteria/6-consistent-and-responsive/`,
+		link: `/digital-service-standard/6-consistent-and-responsive/`,
 	},
 	'7': {
 		title: `Use open standards and common platforms`,
-		link: `/digital-service-standard/criteria/7-open-standards-and-common-platforms/`,
+		link: `/digital-service-standard/7-open-standards-and-common-platforms/`,
 	},
 	'8': {
 		title: `Make source code open`,
-		link: `/digital-service-standard/criteria/8-make-source-code-open/`,
+		link: `/digital-service-standard/8-make-source-code-open/`,
 	},
 	'9': {
 		title: `Make it accessible`,
-		link: `/digital-service-standard/criteria/9-make-it-accessible/`,
+		link: `/digital-service-standard/9-make-it-accessible/`,
 	},
 	'10': {
 		title: `Test the service`,
-		link: `/digital-service-standard/criteria/10-test-the-service/`,
+		link: `/digital-service-standard/10-test-the-service/`,
 	},
 	'11': {
 		title: `Measure performance`,
-		link: `/digital-service-standard/criteria/11-measure-performance/`,
+		link: `/digital-service-standard/11-measure-performance/`,
 	},
 	'12': {
 		title: `Don’t forget the non-digital experience`,
-		link: `/digital-service-standard/criteria/12-non-digital-experience/`,
+		link: `/digital-service-standard/12-non-digital-experience/`,
 	},
 	'13': {
 		title: `Encourage everyone to use the digital service`,
-		link: `/digital-service-standard/criteria/13-encourage-use-of-the-digital-service/`,
+		link: `/digital-service-standard/13-encourage-use-of-the-digital-service/`,
 	},
 };
 
@@ -85,7 +85,7 @@ const DSSSection = ( page ) => {
 								))
 							}
 						</ul>
-						<a className="dss-section__criteria__cta uikit-cta-link" href="/digital-service-standard/criteria/">Read the criteria</a>
+						<a className="dss-section__criteria__cta uikit-cta-link" href="/digital-service-standard/">Read the criteria</a>
 					</div>
 				</div>
 			</div>

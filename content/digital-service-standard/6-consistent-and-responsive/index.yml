@@ -1,5 +1,6 @@
-title: 2. Have a multidisciplinary team
-weight: 20
+title: 6. Consistent and responsive design
+weight: 60
+childnav1lvl: true
 layout: layout/topic
 theme: blue
 header:
@@ -11,8 +12,10 @@ main:
   - how.md
   - guidance-head.md
   - guidance.md
-  - further-head.md
-  - further.md
+  - reading-head.md
+  - reading.md
+  #- cstudies-section.md
+  #- cstudies.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md

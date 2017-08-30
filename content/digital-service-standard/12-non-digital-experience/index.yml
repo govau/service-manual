@@ -1,5 +1,6 @@
-title: 6. Consistent and responsive design
-weight: 60
+title: 12. Don't forget the non-digital experience
+weight: 120
+childnav1lvl: true
 layout: layout/topic
 theme: blue
 header:
@@ -7,12 +8,6 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - how-head.md
-  - how.md
-  - guidance-head.md
-  - guidance.md
-  - reading-head.md
-  - reading.md
   #- cstudies-section.md
   #- cstudies.md
   - /_shared/feedback.md

@@ -1,5 +1,6 @@
-title: 9. Make it accessible
-weight: 90
+title: 4. Understand tools and systems
+weight: 40
+childnav1lvl: true
 layout: layout/topic
 theme: blue
 header:
@@ -7,12 +8,12 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - how-head.md
+  - how.md
   - guidance-head.md
   - guidance.md
-  - reading-head.md
-  - reading.md
-  #- cstudies-section.md
-  #- cstudies.md
+  - further-head.md
+  - further.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md

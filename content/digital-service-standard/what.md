@@ -1,22 +1,8 @@
 ---
-layout: other/dss_section
-dss:
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
-  - 6
-  - 7
-  - 8
-  - 9
-  - 10
-  - 11
-  - 12
-  - 13
-section: What
+layout: intros/intro
+category: What
+title: What is the Digital Service Standard?  # if not given, it takes the title from the current page
 ---
-## [3]What is the Digital Service Standard?
 
 The Digital Service Standard helps support digital teams build government services that
 are simple, clear and fast.
