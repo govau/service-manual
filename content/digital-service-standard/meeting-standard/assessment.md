@@ -9,7 +9,11 @@ Your service will be assessed as it moves through the stages of the [service des
 
 DTA-led assessments on high volume transactional services will use the model most appropriate for the service and available resources.
 
-For agency self-assessments on all other services, you may choose to use the [in-flight process]() or the [staged assessment process]().
+For agency self-assessments on all other services, you may choose to use the [in-flight process]() or the [staged assessment process](standard/inflight-check-in-spreadsheet).
+
+To help you see what to expect from your assessment, you can read our:
+ - [in-flight check-in spreadsheet (XLSX 19KB)](/assets/files/standard/inflight-check-in-spreadsheet.xlsx) 
+ - [assessment report writing template (DOCX 12KB)](/assets/files/standard/assessment-report-teamplate.docx). 
 
 ## [2]Assessment changes during the service design and delivery stages
 
@@ -37,7 +41,7 @@ You can contact the DTA Standard team by emailing <standard@digital.gov.au> for 
 
 The in-flight assessment focuses on continuous improvement and learning for the digital delivery team and the assessor team. It is less about regular tests and more about a mentoring relationship between both teams. Transitioning between the stages should be a point of celebration for both teams.
 
-**Meet with assessors regularly**
+### [1]Meet with assessors regularly
 
 Your digital delivery team will meet with the assessment at regular intervals during the Discovery, Alpha and Beta stages, until the service is launched as a public beta.
 
@@ -51,7 +55,7 @@ The assessors document what the teams have done well since the last meeting and 
 
 Comments and RAG ratings should be complete by the end of the in-flight session and available for weekly reporting to stakeholders. Assessors will use a spreadsheet to track your progress and record recommendations.
 
-**Agree to transition to the next stage**
+### [10]Agree to transition to the next stage
 
 Both the assessors and the service team agree when the requirements of the stage have been fulfilled and when the service can progress. This may be indicated by relevant criteria being assessed as green in the RAG rating.
 
