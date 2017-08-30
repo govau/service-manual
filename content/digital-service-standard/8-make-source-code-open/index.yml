@@ -1,5 +1,6 @@
-title: 1. Understand user needs
-weight: 10
+title: 8. Make source code open
+weight: 80
+childnav1lvl: true
 layout: layout/topic
 theme: blue
 header:
@@ -7,12 +8,12 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - how-head.md
-  - how.md
   - guidance-head.md
   - guidance.md
-  - further-head.md
-  - further.md
+  - reading-head.md
+  - reading.md
+  #- cstudies-section.md
+  #- cstudies.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md
