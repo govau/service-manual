@@ -7,12 +7,14 @@ header:
 main:
   - category_sections.md
   - what.md
+  - guides-cards.md
   - why-head.md
   - why.md
+  - why02.md
   - how-head.md
-  - guides-cards.md
+  - how-cards.md
   - scope-head.md
-  - scope-cards.md
+  - scope.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md
