@@ -1,14 +1,15 @@
 ---
 layout: blocks/image_content_block
 image: http://placehold.it/800x600/?text=illustration+from+foundations+video
-display: 2
+display: 3
+section: Why
+title: Why should you follow the Digital Service Standard?
 level: 2
 reverse: true
 stackTop: true
-title: Reason one
 imageAlt: "Placeholder image for why the Standard is important."
 ---
-
+## [2]Reason one
 The world is changing fast. Despite our best intentions, many government services are being left behind.
 
 To make government fit for the 21st century, we’re introducing a new and better way of working.
