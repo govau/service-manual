@@ -28,8 +28,10 @@ main:
   - finished.md
   - beta-head.md
   - beta.md
-  - assessment-head.md
-  - assessment.md
+  - not-move-on-head.md
+  - not-move-on.md
+  - new-alpha-head.md
+  - new-alpha.md
   - case-head.md
   - case.md
   - /_shared/feedback.md

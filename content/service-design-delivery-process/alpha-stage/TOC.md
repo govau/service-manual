@@ -10,6 +10,7 @@ sections:
   - Test with different kinds of prototypes
   - How you know Alpha stage is finished
   - Moving on to Beta stage
-  - Your Alpha to Beta assessment
+  - Deciding not to move on to Beta stage
+  - Deciding to start a new Alpha stage
   - Case studies and examples
 ---
