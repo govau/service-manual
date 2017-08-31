@@ -11,10 +11,6 @@ DTA-led assessments on high volume transactional services will use the model mos
 
 For agency self-assessments on all other services, you may choose to use the [in-flight process]() or the [staged assessment process](standard/inflight-check-in-spreadsheet).
 
-To help you see what to expect from your assessment, you can read our:
- - [in-flight check-in spreadsheet (XLSX 19KB)](/assets/files/standard/inflight-check-in-spreadsheet.xlsx) 
- - [assessment report writing template (DOCX 12KB)](/assets/files/standard/assessment-report-teamplate.docx). 
-
 ## [2]Assessment changes during the service design and delivery stages
 
 As your service moves through the [service design and delivery process](/service-design-delivery-process/) the assessments become more comprehensive:
