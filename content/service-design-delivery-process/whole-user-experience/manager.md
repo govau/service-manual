@@ -1,9 +1,9 @@
 ---
 layout: text/textblock
-quote: The service manager makes sure each product works together to give the user a consistent experience.
+quote: The service manager helps the user have a consistent experience.
 ---
 
-Every service needs a single [service manager](#) that owns the whole experience for the user.
+Every service needs a single [service manager](/starting-team/roles/#roles-your-team-needs) that owns the whole experience for the user.
 
 The service manager makes sure each product works together to give the user a consistent experience.
 

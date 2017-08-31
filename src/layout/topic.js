@@ -9,8 +9,9 @@ const Topic = ( page ) => (
 	<html>
 	<head>
 		<title>Guides - { page.title }</title>
-
+		<meta charSet="utf-8" />
 		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<link rel="stylesheet" href={ `/assets/css/site.css` } />
 		{ page.stylesheet != undefined
@@ -44,6 +45,11 @@ const Topic = ( page ) => (
 
 Topic.propTypes = {
 	/**
+	 * title: Homepage
+	 */
+	title: PropTypes.string.isRequired,
+
+	/**
 	 * main: (partials)(5)
 	 */
 	main: PropTypes.node.isRequired,
@@ -52,6 +58,21 @@ Topic.propTypes = {
 	 * footer: (partials)(2)
 	 */
 	footer: PropTypes.node.isRequired,
+
+	/**
+	 * theme: dark
+	 */
+	theme: PropTypes.string,
+
+	/**
+	 * weight: 20
+	 */
+	weight: PropTypes.number,
+
+	/**
+	 * hidden: false
+	 */
+	hidden: PropTypes.bool,
 };
 
 

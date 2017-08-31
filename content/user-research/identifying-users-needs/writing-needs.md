@@ -14,12 +14,13 @@ User needs are usually written in the format:
 - I need/want/expect to … (What does the user want to do?)
 - So that … (Why does the user want to do this?)
 
-If it’s helpful, you can add:
+You can add:
 - As a … (Which type of user has this need?)
 - When … (What triggers the user’s need?)
 - Because … (Is the user limited by any circumstances?)
 
-Write user needs from a personal perspective using words that users would recognise and use themselves.
+Write user needs from a personal perspective using words that users would recognise and use themselves. For example:
 
+> 'As an **Australian** I need **a passport** so that **I can go overseas and prove who I am**.'
 
 Focus on what’s most important for your users so you don’t create an unmanageable list of user needs.

@@ -10,8 +10,16 @@ body {
 	flex-direction: column;
 }
 
+header[role='banner'] {
+	flex: none;
+}
+
 main {
 	flex: 1 0 auto;
+}
+
+img {
+	border: 0;
 }
 
 .container {
@@ -34,6 +42,21 @@ main {
 	margin-top: -1em;
 }
 
+.uikit-body a[rel~='external']:after {
+	height: 0.9em;
+
+	.ie9 & {
+		width: 1.3em;
+		height: 1em;
+	}
+}
+
+.uikit-breadcrumbs > .uikit-link-list > li:after {
+	.ie9 & {
+		width: 1.1em;
+		height: 0.8em;
+	}
+}
 .uikit-body [tabindex="0"]:focus,
 .uikit-body :target {
 	outline: none;

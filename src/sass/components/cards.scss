@@ -4,10 +4,10 @@
 
 .card {
 	box-sizing: border-box;
-	display: flex;
-	flex-direction: column;
+	display: block;
 	border-radius: $uikit-border-radius;
 	overflow: hidden;
+	width: 100%;
 
 	.uikit-body & {
 		transition: box-shadow 0.2s ease, background 0.2s ease;
@@ -19,16 +19,19 @@
 	}
 }
 
+
 .card__wrapper {
 	padding: uikit-space( 0.75 );
 	display: flex;
 	flex-direction: column;
-	align-items: baseline;
+	align-items: flex-start;
 	flex: auto;
+	justify-content: flex-start;
 }
 
 .card__text {
 	margin-bottom: auto;
+	width: 100%;
 
 	.cards--category & {
 		margin-bottom: 1em;
@@ -41,6 +44,7 @@
 
 .card__headline__wrapper {
 	margin-bottom: uikit-space( 1 );
+	width: 100%;
 }
 
 .card__headline {
@@ -120,6 +124,8 @@
 .cards .cards__list > .cards__list__item {
 	margin-bottom: 1em;
 	display: block;
+	float: left;
+
 	flex-basis: 100%;
 
 	@include uikit-media( sm ) {
@@ -127,7 +133,12 @@
 		align-items: stretch;
 		flex-basis: auto;
 	}
+
+	&:nth-child(5) {
+		clear: both;
+	}
 }
+
 
 .cards__link {
 	margin-bottom: 0;

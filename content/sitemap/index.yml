@@ -1,5 +1,6 @@
 title: Sitemap
 weight: 60
+theme: blue
 header:
   - /_shared/globalheader.md
   - /_shared/header.md

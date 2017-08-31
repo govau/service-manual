@@ -11,6 +11,16 @@ const ImageContentblock = ( page ) => {
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 	const imageSrc = page.image.startsWith('http') ? `${ page.image }` : `/assets/img/${ page.image }`;
 	const HeadingTag = `h${ page.level }`;
+	const id = page.title ? Slugify( page.title ).toLowerCase() : null;
+	let stack;
+
+	if( page.stackTop ) {
+		stack = 'imagecontentblock--stacktop';
+	} else if (page.stackMiddle) {
+		stack = 'imagecontentblock--stackmiddle';
+	} else if (page.stackBottom) {
+		stack = 'imagecontentblock--stackbottom';
+	}
 
 	let imageLink = page.link;
 	if( imageLink ) {
@@ -20,12 +30,13 @@ const ImageContentblock = ( page ) => {
 	}
 
 	const Content = (
-		<div className={`imagecontentblock__content imagecontentblock__content--${ theme }`}>
+		<div className={`imagecontentblock__content imagecontentblock__content--${ theme } `}>
 			{ page.section && <span className="section__section intro__category" id={ Slugify( page.section ).toLowerCase() } >{ page.section }</span> }
 			<div className="textwrapper">
-				<HeadingTag className={ `imagecontentblock__headline display-${ page.display }` }>
-					{ page.title ? page.title : page._pages[ page._ID ].title }
+				{ page.title && <HeadingTag id={ id } className={ `imagecontentblock__headline display-${ page.display }` }>
+					{ page.title }
 				</HeadingTag>
+				}
 			</div>
 			{ page._body }
 		</div>
@@ -37,12 +48,12 @@ const ImageContentblock = ( page ) => {
 				? ( <img className="imagecontentblock__image__img" src={ imageSrc } alt={ page.imageAlt } /> )
 				: ( <a href={ imageLink }><img className="imagecontentblock__image__img" src={ imageSrc } alt={ page.imageAlt } /></a> )
 			}
-			<figcaption className="imagecontentblock__image__caption">{ page.caption }</figcaption>
+			{ page.caption && <figcaption className="imagecontentblock__image__caption">{ page.caption }</figcaption> }
 		</figure>
 	);
 
 	return (
-		<div className={`imagecontentblock imagecontentblock--${ theme } uikit-body uikit-grid`}>
+		<div className={`imagecontentblock imagecontentblock--${ theme } ${ stack ? stack : '' } uikit-body uikit-grid`}>
 			<div className="container">
 				<div className="row">
 					<div className="col-md-6">
@@ -84,6 +95,21 @@ ImageContentblock.propTypes = {
 	 * reverse: false
 	 */
 	reverse: PropTypes.bool,
+
+	/**
+	 * stackedTop: true
+	 */
+	stackedTop: PropTypes.bool,
+
+	/**
+	 * stackedMiddle: false
+	 */
+	stackedMiddle: PropTypes.bool,
+
+	/**
+	 * stackedBottom: false
+	 */
+	stackedBottom: PropTypes.bool,
 
 	/**
 	 * imageAlt: this is an image
