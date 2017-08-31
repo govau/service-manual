@@ -3,6 +3,15 @@
 	margin-bottom: 2em;
 }
 
+.textblock--top {
+	margin-bottom: 0;
+}
+
+.textblock--middle {
+	margin-bottom: 0;
+}
+
+
 .textblock__text {
 	@media (min-width: 970px) {
 		float: left;

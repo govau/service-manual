@@ -11,7 +11,10 @@ main:
   - assurance-head.md
   - assurance.md
   - assessment-head.md
-  - assessment.md
+  - assessment-intro.md
+  - assesment-changes.md
+  - assesment-team.md
+  - assesment-inflight.md
   - report-head.md
   - report.md
   - maintain-head.md
