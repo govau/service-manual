@@ -12,15 +12,6 @@ const ImageContentblock = ( page ) => {
 	const imageSrc = page.image.startsWith('http') ? `${ page.image }` : `/assets/img/${ page.image }`;
 	const HeadingTag = `h${ page.level }`;
 	const id = page.title ? Slugify( page.title ).toLowerCase() : null;
-	let stack;
-
-	if( page.stackTop ) {
-		stack = 'imagecontentblock--stacktop';
-	} else if (page.stackMiddle) {
-		stack = 'imagecontentblock--stackmiddle';
-	} else if (page.stackBottom) {
-		stack = 'imagecontentblock--stackbottom';
-	}
 
 	let imageLink = page.link;
 	if( imageLink ) {
@@ -53,7 +44,7 @@ const ImageContentblock = ( page ) => {
 	);
 
 	return (
-		<div className={`imagecontentblock imagecontentblock--${ theme } ${ stack ? stack : '' } uikit-body uikit-grid`}>
+		<div className={`imagecontentblock imagecontentblock--${ theme } ${ page.stackPosition ? 'imagecontentblock--stack' + page.stackPosition : '' }   uikit-body uikit-grid`}>
 			<div className="container">
 				<div className="row">
 					<div className="col-md-6">
@@ -97,19 +88,9 @@ ImageContentblock.propTypes = {
 	reverse: PropTypes.bool,
 
 	/**
-	 * stackedTop: true
+	 * stackPosition: top
 	 */
-	stackedTop: PropTypes.bool,
-
-	/**
-	 * stackedMiddle: false
-	 */
-	stackedMiddle: PropTypes.bool,
-
-	/**
-	 * stackedBottom: false
-	 */
-	stackedBottom: PropTypes.bool,
+	stackPosition: PropTypes.string,
 
 	/**
 	 * imageAlt: this is an image
