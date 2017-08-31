@@ -4,12 +4,11 @@ image: http://placehold.it/640x360/?text=illustration+from+foundations+video
 display: 2
 level: 2
 reverse: false
-title: Reason two
+title: Posters for teams
 imageAlt: "Placeholder image for why the Standard is important."
 ---
+Use these posters to help your team keep the Digital Service Standard top of mind.
 
-The world is changing fast. Despite our best intentions, many government services are being left behind.
+- [Digital Service Standard poster 110KB PDF](/assets/files/standard/digital-service-criteria-2017-poster.pdf)
+- [Digital Service Standard kanban poster 116KB PDF](/assets/files/standard/digital-service-standard-kanban-poster.pdf)
 
-To make government fit for the 21st century, we’re introducing a new and better way of working.
-
-The Digital Service Standard is your guide.
