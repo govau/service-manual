@@ -6,7 +6,6 @@ header:
   - header.md
 main:
   - category_sections.md
-  - what-head.md
   - what.md
   - why.md
   - when-head.md
