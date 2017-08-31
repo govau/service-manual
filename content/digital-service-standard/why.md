@@ -5,7 +5,7 @@ display: 3
 section: Why
 level: 2
 reverse: true
-stackTop: true
+stackPosition: top
 title: Users shouldn't have to understand government to deal with government
 imageAlt: "Placeholder image for why the Standard is important."
 ---
