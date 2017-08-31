@@ -2,6 +2,8 @@
 layout: blocks/image_content_block
 image: /sddp/service-design-delivery-process.jpg
 link: /sddp/service-design-delivery-process.jpg
+section: What
+title: What is the service design and delivery process?
 imageAlt: "Diagram showing 4 stages and arrow going from left to right: Discovery stage and image of computer and speech bubbles; Alpha stage and 2 people; Beta stage and 4 people; Live stage, a computer with a smiley face and 8 people."
 ---
 
