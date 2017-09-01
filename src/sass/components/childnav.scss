@@ -3,7 +3,7 @@
 	margin-bottom: uikit-space( 1.5 );
 	display: inline-block;
 
-	@include uikit-media( sm ) {
+	@include uikit-media( xs ) {
 		width: 100%;
 	}
 
