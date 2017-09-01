@@ -5,7 +5,7 @@ display: 2
 level: 2
 reverse: false
 title: Posters for teams
-imageAlt: "Placeholder image for why the Standard is important."
+imageAlt: "Stack of DTA team posters."
 ---
 Use these posters to help your team keep the Digital Service Standard top of mind.
 

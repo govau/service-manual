@@ -7,7 +7,7 @@ level: 2
 reverse: true
 stackPosition: top
 title: Users shouldn't have to understand government to deal with government
-imageAlt: "Placeholder image for why the Standard is important."
+imageAlt: "User needs venn diagram"
 ---
 The world is changing fast. Despite our best intentions, many government services are being left behind.
 
