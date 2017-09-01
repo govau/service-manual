@@ -1,6 +1,7 @@
 ---
 layout: blocks/image_content_block
-image: http://placehold.it/800x600/?text=illustration+from+foundations+video
+#image: http://placehold.it/800x600/?text=illustration+from+foundations+video
+image: /standard/users-venn.png
 display: 3
 section: Why
 level: 2
