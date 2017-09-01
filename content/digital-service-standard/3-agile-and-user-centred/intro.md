@@ -4,13 +4,13 @@ category: Digital Service Standard
 subtitle: Design and build the service using the service design and delivery process, taking an agile and user-centred approach.
 ---
 
-## [2]Why it's in the Standard
+## [3]Why it's in the Standard
 
 Designing services in a user-centred way means that the services you deliver will be easy to use and convenient for the people who need to use them, helping them to stay in the digital channel.
 
 Designing using agile methods allows you to be more proactive and respond easily to change, both in technology and government policy. Services should be improved frequently; they will be cheaper and more accountable to users.
 
-## [3]How you'll be assessed
+## [3]How you can meet the Standard
 
 This criteria applies through all stages of the [service design and delivery process](/service-design-delivery-process/). You should:
 

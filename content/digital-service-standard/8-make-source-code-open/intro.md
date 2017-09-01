@@ -4,7 +4,7 @@ category: Digital Service Standard
 subtitle: Make all new source code open by default.
 ---
 
-## [2]Why it's in the Standard
+## [3]Why it's in the Standard
 
 It’s important to share your source code so others with a similar need can reuse it.
 
@@ -16,7 +16,7 @@ Open source helps to:
 - increase transparency
 - add benefits, from improvements by other developers
 
-## [3]How you'll be assessed
+## [3]How you can meet the Standard
 
 Final code will not be produced in [Alpha stage](/service-design-delivery-process/alpha-stage/), however you should still be thinking about how you can share what you create. During the Alpha stage, you’ll need to:
 

@@ -4,11 +4,11 @@ category: Digital Service Standard
 subtitle: Measure performance against KPIs set out in the guides. Report on public dashboard.
 ---
 
-## [2]Why it's in the Standard
+## [3]Why it's in the Standard
 
 Every service must aim for continuous improvement. Metrics are an important starting point for discussions about a service’s strengths and weaknesses. By identifying and capturing the right metrics — with the right tools — you can make sure all your decisions to improve the service are supported by data.
 
-### [2]Key performance indicators
+### [3]Key performance indicators
 
 All services must, at a minimum, measure 4 KPIs:
 
