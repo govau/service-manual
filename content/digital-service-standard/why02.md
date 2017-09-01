@@ -1,6 +1,5 @@
 ---
 layout: blocks/image_content_block
-#image: http://placehold.it/640x360/?text=illustration+from+foundations+video
 image: standard/poster-stack-4up.png
 display: 2
 level: 2
