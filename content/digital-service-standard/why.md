@@ -1,20 +1,20 @@
 ---
 layout: blocks/image_content_block
 image: http://placehold.it/800x600/?text=illustration+from+foundations+video
-display: 2
+display: 3
+section: Why
 level: 2
 reverse: true
-stackTop: true
-title: Reason one
+stackPosition: top
+title: Users shouldn't have to understand government to deal with government
 imageAlt: "Placeholder image for why the Standard is important."
 ---
-
 The world is changing fast. Despite our best intentions, many government services are being left behind.
 
-To make government fit for the 21st century, we’re introducing a new and better way of working.
+The Digital Service Standard:
 
-The Digital Service Standard is your guide.
+- puts users of government services first
+- is a faster way to build services
+- is a more efficient way of using technology
 
-Posters for teams:
-- [Digital Service Standard poster 110KB PDF](/assets/files/standard/digital-service-criteria-2017-poster.pdf)
-- [Digital Service Standard kanban poster 116KB PDF](/assets/files/standard/digital-service-standard-kanban-poster.pdf)
+The Standard is a new and better way of working that is making government fit for the 21st century.

@@ -2,8 +2,9 @@
 layout: blocks/image_content_block
 image: sddp/old-process.jpg
 link: sddp/old-process.jpg
+title: Start with user needs, not government needs
 reverse: false
-stackTop: true
+stackPosition: top
 imageAlt: "Diagram showing policy formation, then capturing requirements and procurement, then development, and then launching with 'User needs?' at the end."
 caption: Caption: Traditional service design and delivery in government.
 ---

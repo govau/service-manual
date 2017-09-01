@@ -13,12 +13,6 @@ A private beta allows you to:
 - restrict the volume of transactions that go through the beta service
 - start small and get quick feedback before releasing the service out to a wider audience
 
-### [2]Your private beta to public beta assessment
-
-There are different [ways your service will be assessed](https://www.dta.gov.au/standard/meeting-standard/) against the Digital Service Standard. In most cases, the service will go through an assessment halfway through the Beta stage, after you’ve built and tested the private beta service.
-
-Once you pass the assessment, you launch the service as a public beta. The service will be assessed again before it goes live.
-
 ### [2]Public beta
 
 A public beta is a version of your service that’s available for any member of the public to use. It will exist at the same time as the current available service.

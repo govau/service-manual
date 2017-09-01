@@ -1,5 +1,5 @@
 .imagecontentblock {
-	margin: 0 0 uikit-space( 1.25 ) 0;
+	margin: 0 0 0 0;
 	padding: uikit-space( 1.55 ) 0 uikit-space( 1.55 ) 0;
 	background-color: $uikit-colour-Primary-90;
 	color: #fff;
@@ -9,7 +9,7 @@
 	}
 
 	@include uikit-media( sm ) {
-		margin-bottom: uikit-space( 1.25 );
+		margin-bottom: 0;
 	}
 
 	&.imagecontentblock--white {
