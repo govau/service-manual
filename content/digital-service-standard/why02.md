@@ -1,11 +1,11 @@
 ---
 layout: blocks/image_content_block
-image: http://placehold.it/640x360/?text=illustration+from+foundations+video
+image: standard/poster-stack-4up.png
 display: 2
 level: 2
 reverse: false
 title: Posters for teams
-imageAlt: "Placeholder image for why the Standard is important."
+imageAlt: "Stack of DTA team posters."
 ---
 Use these posters to help your team keep the Digital Service Standard top of mind.
 
