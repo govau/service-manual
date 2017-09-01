@@ -4,7 +4,7 @@ category: Digital Service Standard
 subtitle: Understand user needs. Research to develop a deep knowledge of the users and their context for using the service.
 ---
 
-## [2]Why it's in the Standard
+## [3]Why it's in the Standard
 
 You need to understand the people who use your service (your users) and what they want to do (their user needs) in order to build a service that works for them. You need to understand users and their needs from their point of view and not solely through the lens of the project you have been tasked with.
 
