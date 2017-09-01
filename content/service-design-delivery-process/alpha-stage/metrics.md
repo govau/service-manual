@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-In Alpha stage you will need to identify which metrics you report on the [Performance Dashboard](http://dashboard.gov.au/). These will include the mandatory [4 key performance indicators (KPIs) for government services](/digital-service-standard/criteria/11-measure-performance/):
+In Alpha stage you will need to identify which metrics you report on the [Performance Dashboard](http://dashboard.gov.au/). These will include the mandatory [4 key performance indicators (KPIs) for government services](/digital-service-standard/11-measure-performance/):
 - completion rate
 - cost per transaction
 - digital take-up

@@ -8,7 +8,7 @@ The service design and delivery process helps you deliver value quickly and regu
 
 Make sure that you understand the organisation's goals. You may need to make a business case that shows how using the process will help you meet these goals (for example, the process will help you deliver quicker, which reduces the cost of running a team).
 
-Be clear from the start what support you need from other people. This might include the authority to [recruit the right roles and capability](/roles) for the team.
+Be clear from the start what support you need from other people. This might include the authority to [recruit the right roles and capability](/starting-team/roles/) for the team.
 
 Find out how you need to report on your work. The process uses agile techniques that give you lots of opportunity to show how you are working and produce artefacts to communicate progress.
 
