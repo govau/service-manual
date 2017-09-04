@@ -3,6 +3,7 @@ layout: blocks/image_content_block
 image: standard/poster-stack-4up.png
 display: 2
 level: 2
+stackPosition: bottom
 reverse: false
 title: Posters for teams
 imageAlt: "Stack of DTA team posters."

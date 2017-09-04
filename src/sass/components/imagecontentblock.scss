@@ -1,5 +1,5 @@
 .imagecontentblock {
-	margin: 0 0 0 0;
+	margin: 0 0 2em 0;
 	padding: uikit-space( 1.55 ) 0 uikit-space( 1.55 ) 0;
 	background-color: $uikit-colour-Primary-90;
 	color: #fff;
@@ -9,7 +9,7 @@
 	}
 
 	@include uikit-media( sm ) {
-		margin-bottom: 0;
+		margin-bottom: 2em;
 	}
 
 	&.imagecontentblock--white {
@@ -51,8 +51,9 @@
 
 .imagecontentblock__content {
 	height: 100%;
+	padding: 0 0 0 0;
 
-	@include uikit-media( sm ) {
+	@include uikit-media( md ) {
 		padding: 0 12px 0 12px;
 		margin: auto;
 		float: left;
@@ -98,7 +99,7 @@
 
 .imagecontentblock__image {
 	position: relative;
-	margin: 0;
+	margin: 0 0 1.6em 0;
 
 	@include uikit-media( md ) {
 		margin: uikit-space( 0.313 ) 0 uikit-space( 1 ) 0;
