@@ -25,7 +25,7 @@ cards:
   - headline: Make source code open
     text: Make all new source code open by default.
     link: '/digital-service-standard/8-make-source-code-open/'
-  - headline: Make all new source code open by default.
+  - headline: Make it accessible
     text: Ensure the service is accessible to all users regardless of their ability and environment.
     link: '/digital-service-standard/9-make-it-accessible/'
   - headline: Test the service
