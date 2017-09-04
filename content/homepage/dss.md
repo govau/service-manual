@@ -3,7 +3,7 @@ layout: blocks/banner
 title: Digital Service Standard
 boxHeading: Digital Service Standard
 linkText: Read the 13 criteria
-linkUrl: /digital-service-standard/criteria/
+linkUrl: /digital-service-standard/#what
 level: 2
 ---
 
