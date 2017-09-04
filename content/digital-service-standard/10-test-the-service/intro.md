@@ -4,13 +4,13 @@ category: Digital Service Standard
 subtitle: Test the service from end to end, in an environment that replicates the live version.
 ---
 
-## [2]Why it's in the Standard
+## [3]Why it's in the Standard
 
 All government services should be clear, simple and easy to use, regardless of the technology your users use, their expertise with the subject matter, or their level of digital skill.
 
 You cannot wait until the service is live to discover problems that stop people from using the service. You need to rigorously and comprehensively test every part of the service during development.
 
-## [3]How you'll be assessed
+## [3]How you can meet the Standard
 
 During [Alpha stage](/service-design-delivery-process/alpha-stage/) you should be testing your prototypes with users.
 

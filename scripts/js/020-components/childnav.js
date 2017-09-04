@@ -25,7 +25,7 @@ $('.js-childnav .childnav__controls').on('click', function( event ) {
 
 			// reset height on larger devices
 			window.onresize = function(event) {
-				if( window.innerWidth > 575 ) {
+				if( window.innerWidth > 991 ) {
 					$( element ).css('height', 'auto');
 				}
 				else {

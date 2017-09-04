@@ -4,7 +4,7 @@ category: Digital Service Standard
 subtitle: Understand the tools and systems required to build, host, operate and measure the service and how to adopt, adapt or procure them.
 ---
 
-## [2]Why it's in the Standard
+## [3]Why it's in the Standard
 
 The technology you choose to build your service must help you respond quickly and regularly to the needs and expectations of users. This criteria makes sure you:
 

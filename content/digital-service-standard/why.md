@@ -1,13 +1,13 @@
 ---
 layout: blocks/image_content_block
-image: http://placehold.it/800x600/?text=illustration+from+foundations+video
+image: /standard/users-venn.png
 display: 3
 section: Why
 level: 2
 reverse: true
 stackPosition: top
 title: Users shouldn't have to understand government to deal with government
-imageAlt: "Placeholder image for why the Standard is important."
+imageAlt: "User needs venn diagram"
 ---
 The world is changing fast. Despite our best intentions, many government services are being left behind.
 

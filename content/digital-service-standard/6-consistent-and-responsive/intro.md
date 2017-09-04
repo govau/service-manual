@@ -4,7 +4,7 @@ category: Digital Service Standard
 subtitle: Build the service with responsive design methods using common design patterns and the style guide for digital content.
 ---
 
-## [2]Why it's in the Standard
+## [3]Why it's in the Standard
 
 Using responsive design, following common design patterns and style guidance for digital content, and [making sure the service is accessible](https://guides.service.gov.au/content-guide/accessibility-inclusivity/) means it will be simpler, clearer and faster for all users. It will also be available on the [platforms and devices that users choose](https://www.dta.gov.au/blog/what-do-we-mean-by-digital/).
 

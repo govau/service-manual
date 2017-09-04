@@ -4,13 +4,13 @@ category: Digital Service Standard
 subtitle: Ensure the service is accessible to all users regardless of their ability and environment.
 ---
 
-## [2]Why it's in the Standard
+## [3]Why it's in the Standard
 
 You need to make sure everyone who needs your service can use it. This includes people with disability and older people, and people who can’t use, or struggle with, digital services.
 
 Your service must be accessible to users regardless of their digital confidence and access to a digital environment. This includes users in remote areas and users’ different devices.
 
-## [3]How you'll be assessed
+## [3]How you can meet the Standard
 
 ### [2]In Discovery stage
 

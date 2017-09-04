@@ -1,4 +1,3 @@
 ---
 layout: nav/section
-section: How you'll be assessed
----
+section: How you can meet the Standard
