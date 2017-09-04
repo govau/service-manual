@@ -2,10 +2,8 @@
 	float: none;
 	margin-bottom: uikit-space( 1.5 );
 	display: inline-block;
+	width: 100%;
 
-	@include uikit-media( xs ) {
-		width: 100%;
-	}
 
 	@include uikit-media( md ) {
 		width: auto;
