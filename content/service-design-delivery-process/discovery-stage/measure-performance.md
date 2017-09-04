@@ -4,7 +4,7 @@ layout: text/textblock
 
 In Discovery you should start thinking about how you will measure and report on your service’s performance.
 
-To meet [Criteria 11 of the Digital Service Standard](/digital-service-standard/criteria/11-measure-performance/) you must report on 4 key performance indicators (KPIs):
+To meet [Criteria 11 of the Digital Service Standard](/digital-service-standard/11-measure-performance/) you must report on 4 key performance indicators (KPIs):
 - user satisfaction
 - digital take-up
 - completion rate
