@@ -7,7 +7,7 @@ The [Digital Service Standard](/digital-service-standard) (the Standard) applies
 
 The Standard applies to:
 
-* new and redesigned government services, [information](#information-services) and [transactional](#transactional-services)
-* all [high volume transactional services](#transactional-services) (for example, lodging a tax return online), existing or being designed/redesigned
+- new and redesigned government services, [information](#information-services) and [transactional](#transactional-services)
+- all [high volume transactional services](#transactional-services) (for example, lodging a tax return online), existing or being designed/redesigned
 
 Proposed work on new and redesigned services will be affected by the [moratorium on investment in Australian Government service delivery](#moratorium-on-service-investment).
