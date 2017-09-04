@@ -1,5 +1,6 @@
 ---
 layout: text/textblock
+hidden: true
 ---
 
 We should use the same language and the same design patterns wherever possible. This helps people get familiar with our services, but when this isn’t possible we should make sure our approach is consistent.

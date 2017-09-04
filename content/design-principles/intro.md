@@ -2,6 +2,7 @@
 layout: intros/intro
 subtitle: Guiding principles to design better services.
 category: Design principles
+hidden: true
 ---
 
 Use these principles to guide you to design and build services that meet the [Digital Service Standard](../standard/).
