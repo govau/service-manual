@@ -6,10 +6,10 @@ level: 2
 stackPosition: bottom
 reverse: false
 title: Posters for teams
-imageAlt: "Stack of DTA team posters."
+imageAlt: "Stack of DTA posters, s2 showing the Digital Service Standard and 2 with transformation culture mottos."
 ---
 Use these posters to help your team keep the Digital Service Standard top of mind:
 
 - [Digital Service Standard poster 110KB PDF](/assets/files/standard/digital-service-criteria-2017-poster.pdf)
 - [Digital Service Standard kanban poster 116KB PDF](/assets/files/standard/digital-service-standard-kanban-poster.pdf)
-- [workplace culture posters 109 PDF](/assets/files/design-principles/dta-culture-posters.pdf) 
+- [Workplace culture posters 109 PDF](/assets/files/design-principles/dta-culture-posters.pdf)
