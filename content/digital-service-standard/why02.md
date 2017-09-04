@@ -6,7 +6,7 @@ level: 2
 stackPosition: bottom
 reverse: false
 title: Posters for teams
-imageAlt: "Stack of DTA posters, s2 showing the Digital Service Standard and 2 with transformation culture mottos."
+imageAlt: "Stack of DTA posters: 2 showing the Digital Service Standard and 2 with transformation culture mottos."
 ---
 Use these posters to help your team keep the Digital Service Standard top of mind:
 
