@@ -6,12 +6,12 @@ section: Why
 level: 2
 reverse: true
 stackPosition: top
-title: Users shouldn't have to understand government to deal with government
-imageAlt: "User needs venn diagram"
+title: Users shouldn't have to understand government
+imageAlt: "Venn diagram with 'you' and 'me' in circles and 'empathy' in the overlapping circle."
 ---
 
 The Digital Service Standard:
 
 - puts users of government services first
-- is a faster way to build services
-- is a more efficient way of using technology
+- helps teams build services fast
+- helps government use technology better
