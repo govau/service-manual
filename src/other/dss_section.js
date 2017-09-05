@@ -63,8 +63,10 @@ const CRITERIA = {
  */
 const DSSSection = ( page ) => {
 
+
+
 	return (
-	<div className="uikit-body uikit-grid dss-section">
+	<div className={` uikit-body uikit-grid dss-section ${ page.level ? 'dss-section--level' + page.level : '' } `}>
 		<div className="container">
 			<div className="row">
 				<div className="col-md-8 col-sm-6" id={ Slugify( page.section ).toLowerCase() }>
@@ -111,6 +113,11 @@ DSSSection.propTypes = {
 	 * section: Guides
 	 */
 	section: PropTypes.string.isRequired,
+
+	/**
+	 * level: 2
+	 */
+	level: PropTypes.number,
 
 	/**
 	 * _body: (text)(7)
