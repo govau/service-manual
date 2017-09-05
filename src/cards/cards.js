@@ -14,8 +14,9 @@ const Cards = ( page ) => (
 			<ul className="row cards__list">
 				{
 					page.cards.map( ( card, i ) => (
-						<li key={ i } className="col-sm-6 col-md-4 col-lg-3 cards__list__item">
+						<li key={ i } className="col-xs-12 col-sm-6 col-md-4 col-lg-3 cards__list__item">
 							<Card
+								preheadline={ card.preheadline }
 								link={ card.link }
 								background={ card.background }
 								image={ card.image }

@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Latest categories
+section: Ways of working
 ---

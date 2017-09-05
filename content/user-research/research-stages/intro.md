@@ -12,4 +12,4 @@ You will go from doing more generative research (making sure you are designing t
 
 In all stages:
 - do research with a broad range of users, including those with access needs and low digital skills
-- think about the whole service ecosystem and whole user experience (including offline), not just the product you are delivering
+- think about the whole service ecosystem and [whole user experience](/service-design-delivery-process/whole-user-experience/) (including offline), not just the product you are delivering

@@ -1,8 +1,12 @@
 .dss-section {
 	background-color: $uikit-colour-Background;
-	margin-top: -3em;
+	margin-top: 0;
 	margin-bottom: 3em;
-	padding: 4em 0 2em 0;
+	padding: 3em 0 2em 0;
+}
+
+.dss-section--level2 {
+	margin-top: -2em;
 }
 
 .dss-section__criteria {

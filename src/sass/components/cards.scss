@@ -5,9 +5,6 @@
 .card {
 	box-sizing: border-box;
 	display: block;
-	display: flex;
-	clear: both;
-	flex-direction: column;
 	border-radius: $uikit-border-radius;
 	overflow: hidden;
 	width: 100%;
@@ -21,6 +18,7 @@
 		color: #fff;
 	}
 }
+
 
 .card__wrapper {
 	padding: uikit-space( 0.75 );
@@ -46,6 +44,7 @@
 
 .card__headline__wrapper {
 	margin-bottom: uikit-space( 1 );
+	width: 100%;
 }
 
 .card__headline {
@@ -56,6 +55,12 @@
 		border: none;
 		font-size: 25px;
 	}
+}
+
+.card__preheadline {
+	margin-bottom: 0.5em;
+	font-size: 14px;
+    display: inline-block;
 }
 
 .card:hover,

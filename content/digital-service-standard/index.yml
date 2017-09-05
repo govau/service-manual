@@ -1,0 +1,17 @@
+title: Digital Service Standard
+weight: 20
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - header.md
+main:
+  - category_sections.md
+  - what.md
+  - guides-cards.md
+  - why.md
+  - why02.md
+  - scope-head.md
+  - scope.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer-gds.md

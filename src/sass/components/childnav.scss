@@ -2,17 +2,21 @@
 	float: none;
 	margin-bottom: uikit-space( 1.5 );
 	display: inline-block;
+	width: 100%;
+
 
 	@include uikit-media( md ) {
+		width: auto;
 		float: right;
-		margin-top: uikit-space( 2.5 );
+		margin-top: uikit-space( 1 );
 	}
+
 }
 
 .childnav__container {
 	width: 100%;
 
-	@include uikit-media( xs ) {
+	@include uikit-media( md ) {
 		width: 18em;
 	}
 }
@@ -62,7 +66,7 @@
 		}
 	}
 
-	@include uikit-media( xs ) {
+	@include uikit-media( md ) {
 		display: none;
 
 		&:after {
@@ -138,10 +142,14 @@
 		height: 0;
 		display: none;
 
-		@include uikit-media( xs ) {
+		@include uikit-media( md ) {
 			display: block;
 			height: auto;
 		}
+	}
+
+	@include uikit-media( sm ) {
+		width: 100%;
 	}
 }
 

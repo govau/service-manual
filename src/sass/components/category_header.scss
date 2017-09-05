@@ -14,8 +14,16 @@
 			background-image: url('../img/research-header.jpg');
 		}
 
-		&.category__header--ID-managing-content {
+		&.category__header--ID-content-strategy {
 			background-image: url('../img/content-header.jpg');
+		}
+
+		&.category__header--ID-service-design-delivery-process {
+			background-image: url('../img/delivery-header.jpg');
+    }
+    
+		&.category__header--ID-starting-team {
+			background-image: url('../img/team-header.jpg');
 		}
 	}
 }

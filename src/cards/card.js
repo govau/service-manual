@@ -7,7 +7,7 @@ import React from 'react';
  *
  * @disable-docs
  */
-const Card = ({ link, background, image, headline, text, cta }) => {
+const Card = ({ link, background, image, headline, text, cta, preheadline }) => {
 
 	if( image ) {
 		image = image.startsWith('http') ? image : `/assets/img/${ image }`;
@@ -15,8 +15,13 @@ const Card = ({ link, background, image, headline, text, cta }) => {
 
 	return (
 	<a href={ link } className='card' style={{ backgroundColor: background }}>
-		{ image && <img className='card__image' src={ image } alt="" /> }
+		<div className="card__imagewrap">
+			{ image && <img className='card__image' src={ image } alt="" /> }
+		</div>
 		<div className='card__wrapper'>
+			<div className='card__preheadline__wrapper'>
+				<span className='card__preheadline'>{ preheadline }</span>
+			</div>
 			<div className='card__headline__wrapper'>
 				<strong className='card__headline'>{ headline }</strong>
 			</div>
@@ -42,6 +47,11 @@ Card.propTypes = {
 	 * image: http://via.placeholder.com/350x150
 	 */
 	image: PropTypes.string,
+
+	/**
+	 * preheadline: 1. this is preheadline
+	 */
+	preheadline: PropTypes.string,
 
 	/**
 	 * headline: Agile delivery
