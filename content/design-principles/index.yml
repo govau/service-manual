@@ -2,6 +2,7 @@ title: Design principles
 weight: 20
 layout: layout/topic
 theme: blue
+hidden: true
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
