@@ -63,8 +63,6 @@ const CRITERIA = {
  */
 const DSSSection = ( page ) => {
 
-
-
 	return (
 	<div className={` uikit-body uikit-grid dss-section ${ page.level ? 'dss-section--level' + page.level : '' } `}>
 		<div className="container">
