@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-Find out if any research has already been done on your content within your organisation. This research should show the user needs and pain points your strategy is addressing. You can also do a mini sample audit to identify problems.
+Find out if any research has already been done on your content within your organisation. This research should show the user needs and pain points your strategy is addressing. You can also do a [mini sample audit](/content-strategy/content-auditing/plan-your-audit) to identify problems.
 
 Show your pain points in numbers, for example:
 
