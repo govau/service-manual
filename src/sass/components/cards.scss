@@ -2,6 +2,12 @@
 	margin-bottom: 2em;
 }
 
+.cards--2cols {
+	background-color: $uikit-colour-Background;
+	margin: -2em 0 0 0;
+	padding: 0 0 1em 0;
+}
+
 .card {
 	box-sizing: border-box;
 	display: block;
@@ -48,6 +54,12 @@
 }
 
 .card__headline {
+	.cards--2cols & {
+		font-size: 24px;
+	}
+}
+
+.card__headline {
 	display: inline;
 	border-bottom: solid 1px $uikit-colour-Primary;
 
@@ -59,7 +71,7 @@
 
 .card__preheadline {
 	margin-bottom: 0.5em;
-	font-size: 14px;
+	font-size: 15px;
     display: inline-block;
 }
 
