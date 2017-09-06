@@ -9,7 +9,7 @@ import Card from './card';
  * The partial component
  */
 const Cards = ( page ) => (
-	<div className={`uikit-body uikit-grid cards`}>
+	<div className={`uikit-body uikit-grid cards cards--2cols`}>
 		<div className="container">
 			<ul className="row cards__list">
 				{

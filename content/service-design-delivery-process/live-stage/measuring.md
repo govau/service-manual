@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-After the service goes live you need to keep measuring and reporting on the [Performance Dashboard](https://dashboard.gov.au/). This includes [4 key performance indicators for government services](/digital-service-standard/criteria/11-measure-performance/):
+After the service goes live you need to keep measuring and reporting on the [Performance Dashboard](https://dashboard.gov.au/). This includes [4 key performance indicators for government services](/digital-service-standard/11-measure-performance/):
 - user satisfaction
 - digital take-up
 - completion rate
