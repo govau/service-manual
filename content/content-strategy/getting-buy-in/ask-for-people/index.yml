@@ -8,12 +8,10 @@ header:
 main:
   - intro.md          
   - sections.md
-  - engage-early-head.md
-  - engage-early.md
-  - identify-who-to-engage-with-head.md
-  - identify-who-to-engage-with.md
-  - fit-content-strategy-business-plan-head.md
-  - fit-content-strategy-business-plan.md
+  - number-of-people-head.md
+  - number-of-people.md
+  - skills-you-need-head.md
+  - skills-you-need.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

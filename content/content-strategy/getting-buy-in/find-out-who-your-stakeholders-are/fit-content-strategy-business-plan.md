@@ -10,7 +10,7 @@ It's helpful to offer memorable bite-sized statistics that show pain points, suc
 - 65% of pages haven't been updated for 4 years
 
 Always frame problems or pain points as opportunities for improvement. For example:
->by improving the readability of our website users will be more confident they have found the correct information, which will increase trust in our service.>
+>by improving the readability of our website users will be more confident they have found the correct information, which will increase trust in our service.
 
 Show how content improvement can help achieve organisation goals and support corporate values.
 Selling the need will be more persuasive if you tell a story. Show your perfect future state and exactly how you plan to get there, including what’s standing in the way of reaching this goal.
