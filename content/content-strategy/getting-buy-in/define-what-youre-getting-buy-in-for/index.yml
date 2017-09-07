@@ -1,0 +1,21 @@
+title: Define what you're getting buy-in for
+weight: 10
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md          
+  - sections.md
+  - identify-the-why-head.md          
+  - identify-the-why.md
+  - start-small-think-agile-head.md          
+  - start-small-think-agile.md
+  - start-user-needs-head.md         
+  - start-user-needs.md
+  - use-metrics-and-research-head.md
+  - use-metrics-and-research.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md
