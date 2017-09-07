@@ -8,6 +8,8 @@ header:
 main:
   - intro.md          
   - sections.md
+  - calculate-activities-head.md
+  - calculate-activities.md
   - number-of-people-head.md
   - number-of-people.md
   - skills-you-need-head.md
