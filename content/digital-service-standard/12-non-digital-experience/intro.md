@@ -25,5 +25,5 @@ During the [Beta stage](/service-design-delivery-process/beta-stage/) you will a
 By the end of Beta and [going live](/service-design-delivery-process/live-stage/), you should:
 
 - detail the channels required to support all groups of users of the service
-- understand the non-digital service channels and have a [plan to move users to the digital channel](/standard/13-encourage-use-of-the-digital-service) where appropriate
+- understand the non-digital service channels and have a [plan to move users to the digital channel](/digital-service-standard/13-encourage-use-of-the-digital-service) where appropriate
 - have developed and tested the service so that a user can change channels without repeating themselves
