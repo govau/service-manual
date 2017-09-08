@@ -1,10 +1,10 @@
 ---
 layout: cards/cards
 cards:
-  - headline: Define what you're getting buy-in for
+  - headline: Define your goal
     text: Set your goal and scope so you are clear about what you are selling the need for.
     link: '/content-strategy/getting-buy-in/define-what-youre-getting-buy-in-for/'
-  - headline: Find out who your stakeholders are
+  - headline: Identify your stakeholders
     text: To tailor a buy-in pitch for content improvement you need to know exactly who your stakeholders are.
     link: '/content-strategy/getting-buy-in/find-out-who-your-stakeholders-are/'
   - headline: Ask for budget
