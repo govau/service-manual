@@ -1,8 +1,8 @@
 ---
 layout: intros/intro_with_nav
+subtitle: It is important to conduct usability testing as you develop your IA. 
 category: Content strategy
 ---
-It is important to conduct usability testing as you develop your IA. 
 
 It can be worthwhile to involve some of the same people involved in the initial user research.
 

@@ -6,7 +6,8 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - intro.md          
+  - intro.md 
+  - sections.md         
   - identify-user-needs-head.md
   - identify-user-needs.md
   - list-special-content-requirements-head.md
