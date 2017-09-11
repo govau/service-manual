@@ -7,8 +7,7 @@ header:
   - /_shared/header.md
 main:
   - intro.md          
-  - calculate-activities-head.md
-  - calculate-activities.md
+  - sections.md
   - number-of-people-head.md
   - number-of-people.md
   - skills-you-need-head.md
