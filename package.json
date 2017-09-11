@@ -54,7 +54,7 @@
 		"@gov.au/pancake": "^1.1.0",
 		"autoprefixer": "^7.1.1",
 		"concat-cli": "^4.0.0",
-		"cuttlebelle": "^1.0.0-alpha.29",
+		"cuttlebelle": "^1.0.0-alpha.30",
 		"mkdirp": "^0.5.1",
 		"node-sass": "^4.5.3",
 		"npm-run-all": "^4.0.2",
