@@ -1,12 +1,6 @@
 ---
 layout: intros/intro
 subtitle: Understand and communicate the value of building services using the process.
-metaTitle1: Created by
-metaValue1: Digital Transformation Agency, Department of Immigration and Border Protection
-metaLink1: http://google.com
-metaTitle2: Reviewed on
-metaValue2: 4 June 2017
-metaLink2: http://google.com
 category: Service design and delivery process
 ---
 

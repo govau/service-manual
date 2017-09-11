@@ -1,6 +1,12 @@
 ---
 layout: intros/intro_with_nav
 subtitle: With millions of gov.au web pages currently live, we need to reduce the clutter. Users need to be able to find and do what they need to do easily. A content audit is where we begin.
+metaTitle1: Created by
+metaValue1: Digital Transformation Agency and Department of Industry, Innovation and Science
+metaLink1: https://www.dta.gov.au/
+metaTitle2: Reviewed on
+metaValue2: 4 September 2017
+metaLink2: https://www.dta.gov.au/
 category: Content Strategy
 ---
 
@@ -13,10 +19,8 @@ During the task you will gather evidence to make decisions and plan actions such
 
 
 ## [2]Why audit content?
-[Research tells us](https://www.dta.gov.au/blog/creating-good-content/) that around 55% of Australians who look up government information and services online experience a problem. Government publishes a lot of information and it can be hard to understand. Users often find it hard to work out what we are asking them to do. 
+[Research tells us](https://www.dta.gov.au/blog/creating-good-content/) that around 55% of Australians who look up government information and services online experience a problem. Government publishes a lot of information and it can be hard to understand. Users often find it hard to work out what we are asking them to do.
 
-A good content audit can help you scope and budget for content improvement and reduction projects. 
+A good content audit can help you scope and budget for content improvement and reduction projects.
 
-It also helps you create benchmarks to report on improvements over the content lifecycle. 
-
-This guidance has been co-created with the Department of Industry, Innovation and Science. 
+It also helps you create benchmarks to report on improvements over the content lifecycle.
