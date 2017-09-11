@@ -7,7 +7,6 @@ header:
   - /_shared/header.md
 main:
   - intro.md          
-  - sections.md
   - prove-the-value-head.md
   - prove-the-value.md
   - talk-about-risk-head.md

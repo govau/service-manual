@@ -1,0 +1,12 @@
+title: Information architecture
+weight: 10
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - information-architecture-articles.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md
