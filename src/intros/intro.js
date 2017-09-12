@@ -19,28 +19,26 @@ const Intro = ( page ) => {
 							{ page.category && <span id={ (page.category).toLowerCase() } className="section__section intro__category">{ page.category }</span> }
 							<h1 className="intro__headline">{ page.title ? page.title : page._pages[ page._ID ].title }</h1>
 							{ page.subtitle && <p className="intro__subtitle">{ page.subtitle }</p> }
-
 							{ page.metaTitle1 &&
 								<div className="intro__metadata intro__metadata--intro small">
 								  <dl>
-								  	<dt>{ page.metaTitle1 }</dt>
-								  	<dd>{ page.metaLink1 ? (
+									<dt>{ page.metaTitle1 }</dt>
+									<dd>{ page.metaLink1 ? (
 										<a href={ page.metaLink1 }>{ page.metaValue1 }</a>
 										) : (
-										<span>page.metaValue1</span>
+										<span>{ page.metaValue1 }</span>
 										)}
 									</dd>
-								  	<dt>{ page.metaTitle2 }</dt>
+									<dt>{ page.metaTitle2 }</dt>
 									<dd>{ page.metaLink2 ? (
 										<a href={ page.metaLink2 }>{ page.metaValue2 }</a>
 										) : (
-										<span>page.metaValue2</span>
+										<span>{ page.metaValue2 }</span>
 										)}
 									</dd>
 								  </dl>
 								</div>
 							}
-
 							<div className="intro__text">{ page._body }</div>
 						</div>
 					</div>
