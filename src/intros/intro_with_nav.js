@@ -26,8 +26,6 @@ const IntroNav = ( page ) => {
 
 						<div className="textwrapper intro__textwrapper__withnav">
 							{ page.subtitle && <p className="intro__subtitle">{ page.subtitle }</p> }
-							<div className="intro__text">{ page._body }</div>
-
 							{ page.metaTitle1 &&
 								<div className="intro__metadata intro__metadata--intro small">
 								  <dl>
@@ -48,9 +46,8 @@ const IntroNav = ( page ) => {
 								  </dl>
 								</div>
 							}
+							<div className="intro__text">{ page._body }</div>
 						</div>
-
-
 					</div>
 				</div>
 			</div>
