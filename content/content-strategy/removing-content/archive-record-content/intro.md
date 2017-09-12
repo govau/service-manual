@@ -10,7 +10,7 @@ Websites are Commonwealth records, so there are rules about how major changes to
 
 If you are doing a major update, or decommissioning the website, you’ll need to keep a copy of the website to meet legal and ongoing business requirements.
 
-If it's just a minor update (for example a few pages) the content of the website can be captured in an information management system, such as a CMS.
+If it's just a minor update (for example, a few pages) the content of the website can be captured in an information management system, such as a CMS.
 
 The records and information management people in your agency will be able to inform you about requirements for how long content needs to be kept.
 
@@ -40,7 +40,7 @@ In this case, you can use tools such [HTTrack](https://www.httrack.com/), or sim
 You may need to contact your ICT area to ensure that local HTML files work properly.
 If you have any questions please contact the Archives via the [Agency Service Centre](http://www.naa.gov.au/information-management/support/agency-service-centre/index.aspx).
 
-You do not need to include linked objects which are managed separately from the website, such as transactions and datasets.
+You do not need to include linked objects that are managed separately from the website, such as transactions and datasets.
 
 ## [3]Make a copy for your agency
 

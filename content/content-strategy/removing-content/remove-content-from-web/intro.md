@@ -1,9 +1,8 @@
 ---
 layout: intros/intro_with_nav
 category: Content strategy
+subtitle: Once your stakeholders confirm removal and you’ve archived your content correctly, follow these steps when you take content off your website.
 ---
-
-Once your stakeholders confirm removal and you’ve archived your content correctly, follow these steps when you take content off your website.
 
 This will vary depending on whether you’re decommissioning a whole website or a few pages.
 
@@ -25,7 +24,7 @@ When redirecting, you should consider the user journey and SEO, pointing people 
 Tip: Even if pages receive no traffic, it’s still important to remove and redirect them to:
 - retain your SEO integrity
 - lower maintenance costs
-- reduce the amount of gov.au domains that currently exist
+- reduce the amount of GOV.AU domains that currently exist
 
 ### [2]Using 404 pages
 
@@ -45,11 +44,11 @@ Tip: Don’t forget about intranets.
 
 If you’re removing content in bulk there’s a good chance it will affect your IA. Remember to redirect to the appropriate new area and change mega menus.
 
-More details on [information architecture](/content-strategy/information-architecture/) [link to CS module].
+More details on [information architecture](/content-strategy/information-architecture/).
 
 ## [3]Agree on communication
 
-Internal communication around deleted content is important. Other areas of the agency (such as service centres) may need to know about any changes on the website. Use you Intranets to communicate removal more widely in your agency.
+Internal communication around deleted content is important. Other areas of the agency (such as service centres) may need to know about any changes on the website. Use your intranets to communicate removal more widely in your agency.
 
 This should be in your [removal plan](../removal-plan/).
 

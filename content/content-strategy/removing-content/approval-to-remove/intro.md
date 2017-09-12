@@ -9,6 +9,7 @@ The first step in any website removal is to make sure that all content owners ag
 ## [3]Watch your wording
 
 Some agencies and stakeholders are averse to certain words because they come with the idea of risk.
+
 If so, try to adapt your language. If ‘delete’ and ‘remove’ do not work, use softer wording like ‘retire’, ‘archive’ and ‘decommission’ when explaining your process.
 
 ## [3]Identify risks of not removing content
@@ -19,7 +20,7 @@ This is where your previous [content auditing](/content-strategy/content-auditin
 - not current
 - the wrong information
 - SEO impact
-- no page hits.
+- no page hits
 
 ## [3]Check the content has a user need
 

@@ -14,6 +14,6 @@ Follow the same template as [Identify your stakeholders](../identify-stakeholder
 4. Implementation — the tasks to [responsibly remove content](../remove-content-from-web/).
 5. Schedule — so that all actions happen at the same time.
 
-In addition, you can negotiate standard removal periods for common types of content, such as media releases or industry notices. For example, you might only retain content for current year and previous two years, rather than build up a large backlog online.
+In addition, you can negotiate standard removal periods for common types of content, such as media releases or industry notices. For example, you might only retain content for current year and previous 2 years, rather than build up a large backlog online.
 
 Publish content removal timeframes internally to help with initiating regular content reviews and negotiating removal periods.
