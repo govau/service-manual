@@ -36,14 +36,14 @@ const IntroNav = ( page ) => {
 								<dd>{ page.metaLink1 ? (
 									<a href={ page.metaLink1 }>{ page.metaValue1 }</a>
 									) : (
-									<span>page.metaValue1</span>
+									<span>{ page.metaValue1 }</span>
 									)}
 								</dd>
 								<dt>{ page.metaTitle2 }</dt>
 								<dd>{ page.metaLink2 ? (
 									<a href={ page.metaLink2 }>{ page.metaValue2 }</a>
 									) : (
-									<span>page.metaValue2</span>
+									<span>{ page.metaValue2 }</span>
 									)}
 								</dd>
 							  </dl>
