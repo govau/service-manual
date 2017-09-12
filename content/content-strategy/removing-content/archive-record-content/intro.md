@@ -26,9 +26,9 @@ This meets Commonwealth archival requirements. So if your website is captured, y
 
 ### [2]What to do if your website is not captured
 
-If the site you’re removing is not with the National Library, email them and make sure it's captured in the next website harvest: [recordkeeping@naa.gov.au](mailto:recordkeeping@naa.gov.au)
+If the site you’re removing is not archived with the AGWA, email them and make sure it's captured in the next website harvest: [recordkeeping@naa.gov.au](mailto:recordkeeping@naa.gov.au)
 
-They cannot go back and capture websites. Only under special circumstances would they capture a website on request rather than automatically.
+Only under special circumstances would they capture a website on request rather than automatically.
 
 Tip: Be aware of certain restrictions the National Library capture might have. For example, PDFs might be stored in different systems, there could be complex JavaScript, or downloading is disallowed because of robots.txt.
 
@@ -46,7 +46,7 @@ You do not need to include linked objects that are managed separately from the w
 
 Your agency may require you to keep a record of the various versions of content. If so, you should use a recognised information management system.
 
-A Content Management System (CMS) or Electronic Document Record Management System (EDRMS) are the best ways of capturing your content.
+A content management system (CMS) or electronic document record management system (EDRMS) are the best ways of capturing your content.
 
 If your content hasn’t been captured in a recognised information management system then you'll need to make a copy some other way.
 

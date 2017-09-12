@@ -9,13 +9,13 @@ Implementing a method to track who owns each piece of content is vital. Some age
 It’s important to start contacting all the correct people in your agency. Identify the people involved and what you need to check with them.
 
 ## [3]Responsible content owner
-- reviews if content can be deleted
+- review if content can be deleted
 - confirms content can be deleted
 
 ## [3]Information and records manager
 - assess what you need to keep
-- check with the National Library Archive if your content has been harvested
-- know if you need to make a copy for Archives or business
+- check with the National Library of Australia's Australian Government Web Archive if your content has been harvested
+- know if you need to make a copy for the National Library of Australia or the business
 - know how long you need to keep the information
 - know what system to archive in
 

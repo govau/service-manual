@@ -16,4 +16,4 @@ Follow the same template as [Identify your stakeholders](../identify-stakeholder
 
 In addition, you can negotiate standard removal periods for common types of content, such as media releases or industry notices. For example, you might only retain content for current year and previous 2 years, rather than build up a large backlog online.
 
-Publish content removal timeframes internally to help with initiating regular content reviews and negotiating removal periods.
+Publish your timeframes to remove content internally. This will help you to initiate regular content reviews and to negotiate removal periods.

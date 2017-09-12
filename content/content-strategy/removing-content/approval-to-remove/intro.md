@@ -8,13 +8,13 @@ The first step in any website removal is to make sure that all content owners ag
 
 ## [3]Watch your wording
 
-Some agencies and stakeholders are averse to certain words because they come with the idea of risk.
+Some agencies and stakeholders avoid using certain words because they come with the idea of risk.
 
 If so, try to adapt your language. If ‘delete’ and ‘remove’ do not work, use softer wording like ‘retire’, ‘archive’ and ‘decommission’ when explaining your process.
 
 ## [3]Identify risks of not removing content
 
-This is where your previous [content auditing](/content-strategy/content-auditing/) experience will come in handy. It will contain evidence of the potential risks of not removing your content, such as:
+This is where your previous [content auditing](/content-strategy/content-auditing/) experience will come in handy. The audit will contain evidence of the potential risks of not removing your content, such as:
 - a bad user journey
 - outdated
 - not current
@@ -24,11 +24,9 @@ This is where your previous [content auditing](/content-strategy/content-auditin
 
 ## [3]Check the content has a user need
 
-Each page on your website should have a clear user need associated with it. Start to think about removing pages that do not have a user need.
+Start to think about removing pages that do not have a clear user need.
 
-Read about [understanding user needs](/user-research/identifying-users-needs/).
-
-## [3]Check if content supports the business
+## [3]Check if content supports business goals
 
 If the content does not match your business goals or strategy, this can aid your case for removing it.
 

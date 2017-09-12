@@ -14,7 +14,7 @@ Set up your deletion timeline in your [removal plan](../removal-plan/). This wil
 
 Redirects are an important part of removal. They make sure:
 - you provide users with options to continue their search for information  
-- your website keeps its Search Engine Optimisation (SEO) equity
+- your website keeps its search engine optimisation
 - your website looks maintained
 
 Talking to your ICT department is the usual process. Provide them with the list of your deleted URLs with the new URLs you’d like to redirect to. Provide them with a date to go live, so the redirect process doesn’t happen before you remove content.
@@ -42,7 +42,7 @@ Tip: Don’t forget about intranets.
 
 ## [3]Change your information architecture (IA)
 
-If you’re removing content in bulk there’s a good chance it will affect your IA. Remember to redirect to the appropriate new area and change mega menus.
+If you’re removing content in bulk there’s a good chance it will affect your IA. Remember to redirect to the appropriate new area and update links on your drop down menus.
 
 More details on [information architecture](/content-strategy/information-architecture/).
 
