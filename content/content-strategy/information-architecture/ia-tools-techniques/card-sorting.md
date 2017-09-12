@@ -9,7 +9,7 @@ This process can be done digitally and non-digitally, for both new and existing 
 Card sorting helps you to:
 - visualise how items might be grouped within your IA
 - understand how different groups and individuals would categorise items within an IA
-- decide whether to make your IA subject based, task based or based on user types
+- decide whether to make your IA [subject based, task based or based on user types](/content-strategy/information-architecture/develop-ia/#decide-approach)
 
 Everyone thinks differently, so it’s useful to conduct your card sort with a mixture of participants from your user groups.
 

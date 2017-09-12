@@ -1,8 +1,8 @@
 ---
 layout: intros/intro_with_nav
+subtitle: Before you develop or update an IA, you may need to seek approval for additional resources.
 category: Content strategy
 ---
-Before you develop or update an IA, you may need to seek approval for additional resources.
 
 You will also need to get buy-in from relevant content owners.  
 
