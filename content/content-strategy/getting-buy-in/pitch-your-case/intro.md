@@ -11,6 +11,6 @@ Your pitch should be simple and can be presented in a short slide deck that incl
 - what you need from the decision makers. For example, time, money and people
 - what the risks are
 - what it will involve. For example, a roadmap of the activities, costs and key delivery milestones
-- what comes next: tell them what the first thing is you need from them. For example, approval for a content audit, hiring more people or even getting buy-in from another agency
+- what comes next: tell them the first thing you need from them. For example, approval for a content audit, hiring more people or even getting buy-in from another agency
 
 
