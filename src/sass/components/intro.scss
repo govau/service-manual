@@ -50,7 +50,11 @@
 
 .intro__metadata--intro {
 	background-color: #fff;
-	margin-top: -1em;
+	margin-top: 2em;
+
+	.intro--withnav & {
+		background-color: #f4f8fa;
+	}
 }
 
 .intro__headline {
