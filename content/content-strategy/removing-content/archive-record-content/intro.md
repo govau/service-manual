@@ -10,7 +10,7 @@ Websites are Commonwealth records, so there are rules about how major changes to
 
 If you are doing a major update, or decommissioning the website, you’ll need to keep a copy of the website to meet legal and ongoing business requirements.
 
-If it's just a minor update (for example, a few pages) the content of the website can be captured in an information management system, such as a CMS.
+If it's just a minor update (for example, a few pages) you can capture the content of the website in an information management system, such as a CMS.
 
 The records and information management people in your agency will be able to inform you about requirements for how long content needs to be kept.
 
