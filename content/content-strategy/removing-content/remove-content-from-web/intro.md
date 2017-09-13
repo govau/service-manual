@@ -42,7 +42,7 @@ Tip: Don’t forget about intranets.
 
 ## [3]Change your information architecture (IA)
 
-If you’re removing content in bulk there’s a good chance it will affect your IA. Remember to redirect to the appropriate new area and update links on your drop down menus.
+If you’re removing content in bulk there’s a good chance it will affect your IA. Remember to redirect to the appropriate new area and update links on your dropdown menus.
 
 More details on [information architecture](/content-strategy/information-architecture/).
 
