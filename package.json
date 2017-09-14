@@ -46,27 +46,29 @@
 		"@gov.au/inpage-nav": "^0.3.0",
 		"@gov.au/link-list": "^0.3.0",
 		"@gov.au/pancake-js": "^1.0.9",
-		"express": "^4.15.2",
+		"@gov.au/skip-link": "^0.3.0",
+		"express": "^4.15.4",
 		"react": "^15.6.0",
-		"slugify": "^1.1.0"
+		"slugify": "^1.2.1"
 	},
 	"devDependencies": {
 		"@gov.au/pancake": "^1.1.0",
-		"autoprefixer": "^7.1.1",
+		"autoprefixer": "^7.1.4",
 		"concat-cli": "^4.0.0",
-		"cuttlebelle": "^1.0.0-alpha.29",
+		"cuttlebelle": "^1.0.0-alpha.30",
 		"mkdirp": "^0.5.1",
 		"node-sass": "^4.5.3",
-		"npm-run-all": "^4.0.2",
+		"npm-run-all": "^4.1.1",
 		"onchange": "^3.2.1",
-		"postcss-cli": "^4.1.0"
+		"postcss-cli": "^4.1.1"
 	},
 	"engines": {
 		"node": "7.10.0"
 	},
 	"cuttlebelle": {
 		"folder": {
-			"homepage": "homepage"
+			"homepage": "homepage",
+			"code": "src"
 		},
 		"layouts": {
 			"page": "layout/page",
