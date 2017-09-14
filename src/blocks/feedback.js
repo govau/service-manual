@@ -18,16 +18,17 @@ const Feedback = ( page ) => {
 						<div className="textwrapper">
 							<p className="feedback__caption1">{ page.caption1 }</p>
 							<p className="feedback__button">
-								<a href={ page.buttonUrl } ><button className="uikit-btn">{ page.buttonText }</button></a>
+								<a href="https://www.surveymonkey.com/r/XFWJ5TC">
+									<button className="uikit-btn">Give feedback</button>
+								</a>
 							</p>
-							<p>{ page._body }</p>
+							<span>{ page._body }</span>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	)
-
+	);
 };
 
 
@@ -36,7 +37,7 @@ Feedback.propTypes = {
 	/**
 	 * caption: This is the first release of Gov.au Service Manual. We'd love to know what's missing or could be done better
 	 */
-	caption: PropTypes.string.isRequired,
+	caption: PropTypes.string,
 
 	/**
 	 * buttonUrl: /feedback

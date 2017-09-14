@@ -2,16 +2,15 @@
 	padding: uikit-space( 1.75 ) 0 uikit-space( 1 ) 0;
 	color: #fff;
 	background: $uikit-colour-Primary;
+	margin-top: -2em;
+
+	a {
+		color: #fff;
+	}
 }
 
 .feedback__title {
 	color: #fff;
-}
-
-.feedback {
-	a {
-		color: #fff;
-	}
 }
 
 .feedback__caption {

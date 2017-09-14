@@ -28,7 +28,26 @@
 	.uikit-link-list.uikit-link-list--inverted {
 		background-color: transparent;
 	}
+}
 
+.feedback__btn {
+	.header & {
+		float: left;
+		clear: both;
+		margin-top: uikit-space( 0.5 );
+
+		@include uikit-media( xs ) {
+			float: right;
+			clear: none;
+		}
+	}
+}
+
+.feedback__btn button {
+	.header & {
+		background: #fff;
+		color: $uikit-colour-Secondary;
+	}
 }
 
 
@@ -54,6 +73,12 @@
 	}
 }
 
+
+.header__breadcrumbs {
+	float: left;
+	clear: right;
+	margin-left: 1.5em;
+}
 
 .header__text {
 	margin-left: 1.5em;
@@ -204,6 +229,4 @@
 			}
 		}
 	}
-
-
 }
