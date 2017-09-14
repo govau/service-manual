@@ -5,20 +5,30 @@ import React from 'react';
 /**
  * The Feedback component to be used after all content blocks
  */
-const Feedback = ( page ) => (
-	<div className="uikit-body uikit-grid feedback">
-		<div className="container">
-			<div className="row">
-				<div className="col-sm-12">
-					<span className="feedback__caption">{ page.caption }</span>
-					<div>
-						<a href={ page.buttonUrl } ><button className="uikit-btn">{ page.buttonText }</button></a>
+const Feedback = ( page ) => {
+
+	const HeadingTag = `h${ page.level }`;
+
+	return (
+		<div className="uikit-body uikit-grid feedback">
+			<div className="container">
+				<div className="row">
+					<div className="col-sm-12">
+						<HeadingTag className="feedback__title display-3">{ page.title }</HeadingTag>
+						<div className="textwrapper">
+							<p className="feedback__caption1">{ page.caption1 }</p>
+							<p className="feedback__button">
+								<a href={ page.buttonUrl } ><button className="uikit-btn">{ page.buttonText }</button></a>
+							</p>
+							<p>{ page._body }</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-);
+	)
+
+};
 
 
 Feedback.propTypes = {
