@@ -20,7 +20,7 @@ const Feedback = ( page ) => {
 							<p className="feedback__button">
 								<a href={ page.buttonUrl } ><button className="uikit-btn">{ page.buttonText }</button></a>
 							</p>
-							<p>{ page._body }</p>
+							<span>{ page._body }</span>
 						</div>
 					</div>
 				</div>
