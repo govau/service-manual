@@ -10,6 +10,26 @@
 	}
 }
 
+.feedback__btn {
+	.home__header & {
+		float: left;
+		clear: both;
+		margin-top: uikit-space( 0.5 );
+
+		@include uikit-media( xs ) {
+			float: right;
+			clear: none;
+		}
+	}
+}
+
+.feedback__btn button {
+	.home__header & {
+		background: #fff;
+		color: $uikit-colour-Secondary;
+	}
+}
+
 .home__header__logo {
 	margin: 0 0 uikit-space( 1 ) 0;
 }

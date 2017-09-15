@@ -34,12 +34,18 @@ const Header = ( page ) => {
 										: 'Guides'
 								}
 							</a>
+						</div>
+
+						<a className="feedback__btn" href="https://www.surveymonkey.com/r/XFWJ5TC" ><button className="uikit-btn">Give feedback</button></a>
+
+						<div className="header__breadcrumbs">
 							{
 								breadcrumbs.length > 1
 									? <Breadcrumbs label="Breadcrumb for this page" items={ breadcrumbs } inverted={ theme === 'blue' || theme === 'dark' } />
 									: null
 							}
 						</div>
+
 					</div>
 				</div>
 			</div>
