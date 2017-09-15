@@ -10,7 +10,7 @@ cards:
   - headline: Changing the mindset
     text: Share the responsibility with senior managers. Invest in training. Put together a business case.
     link: '/content-strategy/accessible-content/changing-mindset/'
-  - headline: Approach to accessibility
+  - headline: Tips to improve accessibility
     text: Start by drawing a line in the sand between old practices and a new way forward.
-    link: '/content-strategy/accessible-content/approach-accessibility/'
+    link: '/content-strategy/accessible-content/tips-improve-accessibility/'
 ---

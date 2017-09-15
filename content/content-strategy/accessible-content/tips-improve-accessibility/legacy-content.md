@@ -10,4 +10,4 @@ This kind of contact is good user feedback, so when they do contact you, add the
 
 See [Auditing content](/content-strategy/content-auditing/)
 
-See [Removing content]() 
+See [Removing content](/content-strategy/removing-content/) 

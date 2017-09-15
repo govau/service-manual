@@ -4,7 +4,6 @@ subtitle: The people who most need government services and information often fin
 category: Content Strategy
 ---
 
-### [3]Why accessibility is important
 Think about creating content that is accessible for everyone from the start. You can apply accessibility whether you are:
 - writing a policy
 - publishing a news story
@@ -19,9 +18,9 @@ Almost 1 in 5 Australians live with disability. These figures do not include man
 
 - learning, reading or other cognitive disabilities
 - mental health issues 
-- colour deficiencies (colour blind) 
+- colour vision deficiency
 - temporary impairments or disabilities
 
-Neither do they include many older people with age-related impairments.
+Nor do they include many older people with age-related impairments.
 
 See the GOV.AU Content Guide for more [facts on accessibility and inclusivity](https://guides.service.gov.au/content-guide/accessibility-inclusivity/).
