@@ -20,10 +20,31 @@
 
 		&.category__header--ID-service-design-delivery-process {
 			background-image: url('../img/delivery-header.jpg');
-    }
-    
+		}
+
 		&.category__header--ID-starting-team {
 			background-image: url('../img/team-header.jpg');
 		}
+	}
+}
+
+
+.feedback__btn {
+	.category__header & {
+		float: left;
+		clear: both;
+		margin-top: uikit-space( 0.5 );
+
+		@include uikit-media( xs ) {
+			float: right;
+			clear: none;
+		}
+	}
+}
+
+.feedback__btn button {
+	.category__header & {
+		background: #fff;
+		color: $uikit-colour-Secondary;
 	}
 }
