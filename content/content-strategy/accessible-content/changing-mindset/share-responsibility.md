@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-To create accessible content, everyone is responsible. Start with planning, through creating and checking before it is sent to be signed off. It then needs to be published as accessible in the platform.
+Everyone is responsible for creating accessible content. Start with planning, through creating and checking before it is sent to be signed off. It then needs to be published as accessible content in the platform.
 
 See [Understand the content lifecycle]()
 
