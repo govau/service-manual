@@ -1,5 +1,5 @@
 ---
 layout: intros/intro_with_nav
-subtitle: Here are a range of things to think about while you are developing your IA.
+subtitle: If you don’t follow government policy, you are at risk of complaints that may also attract negative media attention.
 category: Content strategy
 ---

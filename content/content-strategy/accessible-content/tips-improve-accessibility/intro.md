@@ -1,6 +1,6 @@
 ---
 layout: intros/intro_with_nav
-subtitle: Start to improve by drawing a line in the sand between old practices and a new way forward.
+subtitle: Start to improve accessibility by drawing a line in the sand between old practices and a new way forward.
 category: Content strategy
 ---
 
