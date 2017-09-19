@@ -1,6 +1,7 @@
 ---
 layout: intros/intro_with_nav
 subtitle: Information architecture (IA) describes both the practice and the product of how information is arranged on a website.  IA must be developed based on the needs of users rather than the needs of the government.
+category: Content Strategy
 ---
 
 **Created by**: Digital Transformation Agency and Department of Agriculture and Water Resources

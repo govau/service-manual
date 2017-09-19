@@ -22,5 +22,3 @@ During the task you will gather evidence to make decisions and plan actions such
 A good content audit can help you scope and budget for content improvement and reduction projects.
 
 It also helps you create benchmarks to report on improvements over the content lifecycle.
-
-This guidance has been co-created with the Department of Industry, Innovation and Science.
