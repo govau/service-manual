@@ -4,6 +4,10 @@ subtitle: Remove unwanted, redundant and out-of-date content to help users find 
 category: Content Strategy
 ---
 
+**Created by**: Digital Transformation Agency and National Archives of Australia
+
+**Reviewed on**: 13 September 2017
+
 Help for government agencies to know how to remove unwanted, redundant and out-of-date content. It’s the first step in reducing content and helping users find what they need.
 
 ## [3]Why remove content?
