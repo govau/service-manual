@@ -1,6 +1,10 @@
 ---
 layout: intros/intro_with_nav
 subtitle: Remove unwanted, redundant and out-of-date content to help users find what they need.
+metaTitle1: Created by
+metaValue1: Digital Transformation Agency and National Archives of Australia
+metaTitle2: Reviewed on
+metaValue2: 13 September 2017
 category: Content Strategy
 ---
 
