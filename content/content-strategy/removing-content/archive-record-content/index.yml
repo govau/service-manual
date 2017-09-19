@@ -1,0 +1,12 @@
+title: Archive and record content
+weight: 40
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md
