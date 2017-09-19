@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-
+import SkipLink from '../../scripts/uikit/skip-link.js';
 
 /**
  * The page layout component
@@ -23,6 +23,23 @@ const Page = ( page ) => (
 		<script src="/assets/js/svg4everybody.min.js" />
 	</head>
 	<body>
+
+		<SkipLink links={[
+			{
+				link: '#nav',
+				text: 'Skip to navigation',
+			},
+			{
+				link: '#content',
+				text: 'Skip to content',
+			},
+			{
+				link: '#content',
+				text: 'Skip link with onClick',
+				onClick: () => console.log('This function is called when the last skip link is clicked'),
+			},
+		]} />
+
 		<header role="banner" className="uikit-body uikit-grid">
 			{ page.header }
 		</header>
