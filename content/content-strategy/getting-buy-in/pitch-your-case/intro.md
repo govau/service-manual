@@ -3,6 +3,7 @@ layout: intros/intro_with_nav
 category: Content strategy
 ---
 Your pitch for content improvement should ideally be structured around the goal to meet a user need (and in turn a business need).  
+
 Your pitch should be simple and can be presented in a short slide deck that includes:
 - the opportunity for change
 - the need for change. For example, quotes from user research, case studies and statistics that support your case
