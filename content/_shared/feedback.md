@@ -6,5 +6,3 @@ caption1: It's early days, so please take a moment to let us know how Guides mig
 buttonText: Give feedback
 buttonUrl: http://google.com
 ---
-
-Gives us feedback via email: [guides-feedback@digital.gov.au](mailto:guides-feedback@digital.gov.au)
