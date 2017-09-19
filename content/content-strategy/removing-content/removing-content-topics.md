@@ -2,7 +2,7 @@
 layout: cards/cards
 cards:
   - headline: Step 1: Get approval to remove
-    text: Buy-in from your content owner is the first step before you can take anything off of your website.
+    text: You will need to get buy-in from the content owner before you can take anything off your website.
     link: '/content-strategy/removing-content/approval-to-remove/'
   - headline: Step 2: Identify your stakeholders
     text: It’s important to start contacting all the correct people in your agency.
