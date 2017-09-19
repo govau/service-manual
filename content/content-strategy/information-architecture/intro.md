@@ -1,12 +1,11 @@
 ---
 layout: intros/intro_with_nav
 subtitle: Information architecture (IA) describes both the practice and the product of how information is arranged on a website.  IA must be developed based on the needs of users rather than the needs of the government.
-metaTitle1: Created by
-metaValue1: Digital Transformation Agency and Department of Agriculture and Water Resources
-metaTitle2: Reviewed on
-metaValue2: 12 September 2017
-category: Content Strategy
 ---
+
+**Created by**: Digital Transformation Agency and Department of Agriculture and Water Resources
+
+**Reviewed on**: 12 September 2017
 
 Agencies need to work together to make sure IAs complement the IAs of other Australian Government websites to eliminate duplication.
 
