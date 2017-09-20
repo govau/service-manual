@@ -76,7 +76,9 @@ const Categoryheader = ( page ) => {
 									}
 							</div>
 
-							<a className="feedback__btn" href="https://www.surveymonkey.com/r/XFWJ5TC" ><button className="uikit-btn">Give feedback</button></a>
+							<a href="https://www.surveymonkey.com/r/XFWJ5TC" className="feedback__btn uikit-btn">
+								Give feedback
+							</a>
 
 							{ /*
 								<div className="header__menu">

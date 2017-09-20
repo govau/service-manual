@@ -15,9 +15,8 @@ During the task you will gather evidence to make decisions and plan actions such
 - improving the quality of what remains
 - identifying content gaps
 
-
 ## [2]Why audit content?
-[Research tells us](https://www.dta.gov.au/blog/creating-good-content/) that around 55% of Australians who look up government information and services online experience a problem. Government publishes a lot of information and it can be hard to understand. Users often find it hard to work out what we are asking them to do.
+Around 55% of Australians who look up government information and services online experience a problem as [research tells us](https://www.dta.gov.au/blog/creating-good-content/). Government publishes a lot of information and it can be hard to understand. Users often find it hard to work out what we are asking them to do.
 
 A good content audit can help you scope and budget for content improvement and reduction projects.
 
