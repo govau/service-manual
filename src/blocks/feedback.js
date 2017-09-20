@@ -18,8 +18,8 @@ const Feedback = ( page ) => {
 						<div className="textwrapper">
 							<p className="feedback__caption1">{ page.caption1 }</p>
 							<p className="feedback__button">
-								<a href="https://www.surveymonkey.com/r/XFWJ5TC">
-									<button className="uikit-btn">Give feedback</button>
+								<a href="https://www.surveymonkey.com/r/XFWJ5TC" className="uikit-btn">
+									Give feedback
 								</a>
 							</p>
 							<span>{ page._body }</span>
