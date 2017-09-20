@@ -75,7 +75,7 @@ const Homeheader = ( page ) => {
 									}
 							</div>
 
-							<a className="feedback__btn" href="https://www.surveymonkey.com/r/XFWJ5TC" className="uikit-btn">
+							<a href="https://www.surveymonkey.com/r/XFWJ5TC" className="feedback__btn uikit-btn">
 								Give feedback
 							</a>
 
