@@ -13,4 +13,4 @@ This evidence will highlight the good and the bad aspects of your website. Telli
 
 Benchmarking current content before making proposed changes can help you argue how users can benefit from content improvements.
 
-By thinking about your user you will be following Digital Service Standard criteria 1: [understand user needs](/digital-service-standard/1-understand-user-needs/).
+By thinking about your user you will be following criterion 1 of the Digital Service Standard: [understand user needs](/digital-service-standard/1-understand-user-needs/).
