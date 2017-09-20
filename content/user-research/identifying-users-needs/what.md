@@ -6,7 +6,7 @@ Traditionally, governments have looked at user needs from a policy perspective. 
 
 Our way of working asks government to look at our services from the user’s perspective.
 
-Who are our users? They are people who need use government services to get things done.
+Who are our users? They are people who need to use government services to get things done.
 
 For example, people experience a number of touch points with government when they travel overseas. They may need to get a passport, check travel warnings or register their travel details online. All these add up to an entire service from the user’s perspective.
 
