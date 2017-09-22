@@ -1,6 +1,7 @@
 title: Getting buy-in
 weight: 10
 theme: blue
+hidden: true
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
