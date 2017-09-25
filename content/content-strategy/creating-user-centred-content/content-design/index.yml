@@ -1,0 +1,26 @@
+title: Content design
+weight: 10
+theme: blue
+header:
+- /_shared/globalheader.md
+- /_shared/header.md
+main:
+  - intro.md
+  - sections.md
+  - why-head.md
+  - content-design-skills.md
+  - methods-head.md
+  - methods.md
+  - start-users-head.md
+  - start-users.md
+  - design-content-head.md
+  - design-content.md
+  - easy-understand-head.md
+  - easy-understand.md
+  - balance-needs-head.md
+  - balance-needs.md
+  - continually-work-head.md
+  - continually-work.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md
