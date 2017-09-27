@@ -5,6 +5,16 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
+  - intro.md
+  - sections.md
+  - existing-research-head.md
+  - existing-research.md
+  - identifying-existing-research-head.md
+  - identifying-existing-research.md
+  - identify-other-research-head.md
+  - identify-other-research.md
+  - bringing-research-together-head.md
+  - bringing-research-together.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
