@@ -7,7 +7,7 @@ cards:
     link: '/user-research/'
   - headline: Use existing research
     text: Use research that may already be available about your users’ needs.
-    link: '#'
+    link: 'using-existing-research'
   - headline: Understanding diversity
     text: Recognise and be aware that users have diverse needs and capabilities.
     link: 'understanding-diversity'
