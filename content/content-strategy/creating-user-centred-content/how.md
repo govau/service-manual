@@ -1,7 +1,7 @@
 ---
 layout: cards/cards
 cards:
-  - image: user-research/user-research-card.jpg
+  - image: user-research-card.jpg
     headline: User research
     text: Do user research in every iteration of every development stage.
     link: '/user-research/'
