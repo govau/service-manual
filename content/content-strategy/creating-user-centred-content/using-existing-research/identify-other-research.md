@@ -30,4 +30,4 @@ There may be public information available about your users. Possible sources inc
 - Industry bodies and associations
 - Other government agencies
 
-Content design in government community of practice (email [content@digital.gov.au](mailto:content@digital.gov.au)
+Content design in government community of practice (email [content@digital.gov.au](mailto:content@digital.gov.au))

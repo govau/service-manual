@@ -14,4 +14,4 @@ This can help gain support in your organisation for:
 
 Existing research is a good starting point, but it shouldn’t be relied on as comprehensive.  Sometimes sources may be limited or dated. Doing your own user research is the best way to learn about users and create services that meet their needs.
 
-See also [Getting buy-in]()
+See also [Getting buy-in](/content-strategy/getting-buy-in/)
