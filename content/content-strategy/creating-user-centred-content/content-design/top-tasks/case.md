@@ -10,7 +10,7 @@ cards:
   link: 'http://gerrymcgovern.com/top-tasks-management-for-uk-councils/'
   cta: Read on gerrymcgovern.com
 - headline: Understanding social top tasks
-  text: Read about the methodology Cisco used to tailor social media conteng.
+  text: Read about the methodology Cisco used to tailor social media content.
   link: 'http://gerrymcgovern.com/understanding-social-top-tasks/'
   cta: Read on gerrymcgovern.com
 ---
