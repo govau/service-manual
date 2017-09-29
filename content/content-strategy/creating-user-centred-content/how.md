@@ -20,4 +20,7 @@ cards:
   - headline: Content design
     text: Design content so users find the information they need quickly and easily.
     link: 'content-design'
+  - headline: Testing content
+    text: How to test and check your content is easy to read and use.
+    link: 'testing-content'
 ---
