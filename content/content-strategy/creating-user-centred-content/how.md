@@ -1,7 +1,7 @@
 ---
 layout: cards/cards
 cards:
-  - image: user-research/user-research-card.jpg
+  - image: user-research-card.jpg
     headline: User research
     text: Do user research in every iteration of every development stage.
     link: '/user-research/'
@@ -20,4 +20,7 @@ cards:
   - headline: Content design
     text: Design content so users find the information they need quickly and easily.
     link: 'content-design'
+  - headline: Testing content
+    text: How to test and check your content is easy to read and use.
+    link: 'testing-content'
 ---
