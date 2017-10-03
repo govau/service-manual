@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Check content for accessibility
+section: Task based observation
 ---
