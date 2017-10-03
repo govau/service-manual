@@ -11,6 +11,12 @@
 	}
 }
 
+.uikit-inpage-nav-section-link {
+	.sections & {
+		display: none;
+	}
+}
+
 .section__section {
 	display: block;
 	text-transform: uppercase;
