@@ -1,7 +1,7 @@
 ---
 layout: intros/intro
 subtitle: A website’s top tasks are the top 5 or 10 tasks users want to complete on your website. By working out the top tasks you will define your users’ priorities.
-category: top-tasks
+category: Creating user-centred content
 ---
 
 Top tasks are a useful method used in [content design](/content-strategy/creating-user-centred-content/content-design/).

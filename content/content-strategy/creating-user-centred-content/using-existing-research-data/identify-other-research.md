@@ -16,16 +16,15 @@ Providing information on what has worked in similar cases can help you gain supp
 
 Consider looking at these types of resources to get started:
 
-- Usability blogs
-- Research papers
-- Case studies
-
+- usability blogs
+- research papers
+- case studies
 
 ### [2]Source information about users
 
 There may be public information available about your users. Possible sources include:
 - [Australian Bureau of Statistics](http://www.abs.gov.au)
 - [Data.gov.au](http://data.gov.au)
-- Industry bodies and associations
-- Other government agencies
-- Content design in government community of practice (email [content@digital.gov.au](mailto:content@digital.gov.au))
+- industry bodies and associations
+- other government agencies
+- Content Design in Australian Government community of practice (email [content@digital.gov.au](mailto:content@digital.gov.au))
