@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Check content for accessibility
+section: Test and get feedback when live
 ---

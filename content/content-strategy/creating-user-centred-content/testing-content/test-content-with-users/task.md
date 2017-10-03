@@ -1,29 +1,26 @@
 ---
 layout: text/textblock
 ---
+Conduct task-based observation testing with users of your service. This is where users complete typical tasks while observers take notes.  
 
-An informal critique session with colleagues can be a useful way to get quick feedback. It should ideally be facilitated by someone in the team.
+You can test usability of your content designs using [prototypes](https://www.usability.gov/how-to-and-tools/methods/prototyping.html). Prototypes can be low fidelity paper samples of content, or higher fidelity mock-ups for screen-based testing.
 
-Critiques are an easy way for new eyes to see your content and to fix problems you may have missed.
+## [2]Cognitive load testing
+Tests if your content is easy to understand.
 
-### [2]Critique process
+## [2]Eye tracking
+[Tracks eye movements](https://www.usability.gov/how-to-and-tools/methods/eye-tracking.html) of users to test if they can easily find information in your web service, and other behaviours.
 
-- Content designer shares the content with people in the critique.
-- Designer discusses the design process and user needs.
-- Collaborative editing, and discussion of how to improve the content.
-- Action items for further editing are noted.
+See also [Eyetracking Web Usability](https://www.nngroup.com/books/eyetracking-web-usability/)
 
-Try to include people from different disciplines to get fresh ideas and perspectives.
+## [2]A/B testing
+Testing transactional content can be done through A/B testing. This involves showing two versions of your content to users, to see which performs better.
 
-A content critique should be a positive, constructive forum. For example, if you raise an issue with the wording of a sentence, try to offer a solution also.
+For example, you might want to test online content that is part of an application process. You can do scenario-based testing and show half your testing participants design A (the existing content). Show design B (new content) to the other half.
 
-Content critiques can allow others to give feedback about elements like:
+Compare each group of participants. Observe higher rates of successful completion of the application process. You should assess:
 
-- readability
-- comprehension
-- effectiveness
-- tone
-
-### [2]Resources
-- [Content crits: conquering through collaboration](https://insidegovuk.blog.gov.uk/2016/03/03/content-crits-conquering-through-collaboration/)
-- [Design Critiques: Encourage a Positive Culture to Improve Products](https://www.nngroup.com/articles/design-critiques/)
+- if they submitted the application
+- how long they took
+- how easy they rated the process
+- any wrong clicks they made during the process

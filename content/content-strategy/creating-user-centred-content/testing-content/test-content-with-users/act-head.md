@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Check content for accessibility
+section: Act on your test findings
 ---
