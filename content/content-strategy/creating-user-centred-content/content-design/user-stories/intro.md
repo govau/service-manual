@@ -1,7 +1,7 @@
 ---
 layout: intros/intro
 subtitle: A user story describes why and how a user interacts with services and information.
-category: Creating user-centred content
+category: Content design
 ---
 
 Writing user stories is an important part of [content design](/content-strategy/creating-user-centred-content/content-design/)
