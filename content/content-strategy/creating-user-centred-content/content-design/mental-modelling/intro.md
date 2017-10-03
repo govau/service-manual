@@ -1,6 +1,7 @@
 ---
 layout: intros/intro
 subtitle: A mental model maps a user’s thoughts and behaviours as they navigate a website or access information.
+category: Content design
 ---
 A mental model looks at a user’s thought process as they navigate a website or service. This is useful as it helps you anticipate a user’s behaviour, and then design a system that meets the need driving this behaviour.
 

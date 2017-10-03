@@ -5,6 +5,12 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
+  - intro.md
+  - sections.md
+  - why-be-inclusive-head.md
+  - why-be-inclusive.md
+  - include-diverse-users-head.md
+  - include-diverse-users.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

@@ -1,4 +1,4 @@
-title: Using existing research
+title: Using existing research and data
 weight: 30
 theme: blue
 header:
@@ -7,8 +7,10 @@ header:
 main:
   - intro.md
   - sections.md
-  - existing-research-head.md
-  - existing-research.md
+  - when-to-use-existing-research-head.md
+  - when-to-use-existing-research.md
+  - why-use-existing-research-head.md
+  - why-use-existing-research.md
   - identifying-existing-research-head.md
   - identifying-existing-research.md
   - identify-other-research-head.md

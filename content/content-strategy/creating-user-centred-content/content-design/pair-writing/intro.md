@@ -1,6 +1,7 @@
 ---
 layout: intros/intro
 subtitle: Pair writing is creating content side-by-side with a subject matter expert. This may be a technical expert, lawyer or policy writer.
+category: Content design
 ---
 Pair writing is an important method used in [content design](/content-strategy/creating-user-centred-content/content-design/)
 
