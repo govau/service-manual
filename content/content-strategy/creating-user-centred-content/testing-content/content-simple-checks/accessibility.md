@@ -13,4 +13,4 @@ Accessibility tools, and checks from your desktop, include:
 - CommonLook [Global Access](http://commonlook.com/accessibility-software/commonlook-pdf/) and [Clarity](http://commonlook.com/accessibility-software/commonlook-clarity/)
 - [Simpler Accessibility for Google Suite](https://www.grackledocs.com/)
 
-See also [Accessibility and inclusivity](https://guides.service.gov.au/content-guide/accessibility-inclusivity/)
+See also [Accessibility and inclusivity](https://guides.service.gov.au/content-guide/accessibility-inclusivity/).
