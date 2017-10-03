@@ -8,7 +8,7 @@ Our way of working asks government to look at our services from the user’s per
 
 Who are our users? They are people who need to use government services to get things done.
 
-For example, people experience a number of touch points with government when they travel overseas. They may need to get a passport, check travel warnings or register their travel details online. All these add up to an entire service from the user’s perspective.
+For example, people experience several touch points with government when they travel overseas. They may need to get a passport, check travel warnings or register their travel details online. All these add up to an entire service from the user’s perspective.
 
 Our services work when we make it easy for people to understand how we want them to do these things.
 

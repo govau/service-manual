@@ -2,8 +2,7 @@
 layout: text/textblock
 ---
 
-Every user research session is different. You need to think about all of the kinds of information you may need to capture during the research and adjust the consent form to include them. For example, the participant may be sharing artifacts that contain their address and details of disability.
-
+Every user research session is different. You need to think about all of the kinds of information you may need to capture during the research and adjust the consent form to include them. For example, the participant may be sharing artefacts that contain their address and details of disability.
 
 The most important information you need in a consent form is:
 - who is conducting the research — the researcher, the team and also the agency

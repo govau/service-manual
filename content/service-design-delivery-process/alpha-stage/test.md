@@ -40,7 +40,7 @@ A static-site generator allows you to keep your prototype simple, with just HTML
 
 It is also easy for designers to make changes directly to the prototype, without having to wait on a developer to make changes.
 
-Use a version control system, like [GitHub](https://github.com/), to store the code for your prototype so that everyone in the team can work across the same copy and collaborate on changes.
+Use a version control system, like [GitHub](https://github.com/), to store the code for your prototype so that everyone in the team can work across the same copy and changes.
 
 Deploy the prototype to a cloud service so that you can easily share it around the team and with your stakeholders (for example, [Amazon Web Services](https://aws.amazon.com/)).
 
