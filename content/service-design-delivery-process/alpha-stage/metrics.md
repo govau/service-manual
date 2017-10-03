@@ -10,7 +10,7 @@ In Alpha stage you will need to identify which metrics you report on the [Perfor
 
 To do this you should:
 - have an analyst as part of your team (or available to your team) so you can start working out how you’re going to measure service performance
-- use your hypotheses to help you define the goals and benefits you hope to deliver
+- use your hypotheses to help you define your goals and benefits
 - develop a measurement plan that starts to define what metrics your service will report on (in addition to the mandatory KPIs)
 - clearly define the start and end points for your service
 - engage with the Performance Dashboard team to discuss your metrics and to understand how to publish your service dashboard: [performance-dashboard@digital.gov.au](mailto:performance-dashboard@digital.gov.au)

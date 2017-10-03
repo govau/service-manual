@@ -27,7 +27,7 @@ The service manager owns and is responsible for the [whole user experience](/ser
 -  available to the team, but not necessarily present with them at all times
 
 #### Delivery manager
-The delivery manager enables the team to deliver high-quality services. They remove blockers to progress and run product meetings. They:
+The delivery manager enables the team to build high-quality services. They remove blockers to progress and run product meetings. They:
 
 -  deliver products and services using agile methodologies, iterating products and processes frequently to meet users’ needs
 -  work with product managers to plan the work needed to deliver products and services
