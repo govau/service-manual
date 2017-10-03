@@ -91,4 +91,4 @@ Your team might have a mixture of developers that specialise in being front-end 
 
 Some developers may need mentoring in user-centred design. If you involve them from the Discovery stage, it will help them to build empathy with users. They’ll also gain experience in user research and bring their expertise to the insights gained.
 
-Sometimes the team will need a technical lead to make it easier to prioritise work. This person is still part of the team and collaborates with everyone to make decisions.
+Sometimes the team will need a technical lead to make it easier to prioritise work. This person is still part of the team and works with everyone to make decisions.
