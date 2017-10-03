@@ -6,7 +6,7 @@ cards:
   link: 'https://insidegovuk.blog.gov.uk/2013/11/29/topic-analysis-and-top-tasks/'
   cta: Read on GOV.UK blog
 - headline: Top tasks management for UK councils
-  text: 
+  text: Measuring success of task completion on government websites
   link: 'http://gerrymcgovern.com/top-tasks-management-for-uk-councils/'
   cta: Read on gerrymcgovern.com
 - headline: Understanding social top tasks

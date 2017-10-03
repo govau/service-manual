@@ -6,15 +6,15 @@ Your organisation may already have research about users and their needs. There a
 
 ### [2]Previous research reports
 
-Many large organisations will already have conducted user research. This research can help you identify different user groups and their needs.
+Many large organisations will have already conducted user research. This research can help you identify different user groups and their needs.
 
 ### [2]Other organisational reports
 
-Other reports your organisation creates can also provide information on users. For example, annual reports and strategy documents. These often contain information on numbers and demographics of your users.
+Other reports your organisation creates can also provide information on users. For example, annual reports and strategy documents often contain information on user numbers and demographics.
 
-### [2]Client engagement or outreach teams
+### [2]Outreach teams
 
-Many organisations have teams that directly engage with clients. These teams can provide valuable insights.
+Many organisations have teams that engage directly with users. These teams can provide valuable insights.
 
 ### [2]Call centre data
 
@@ -28,13 +28,13 @@ Surveys may already be set up. Use them to find user pain points and areas that 
 
 ### [2]Web analytics
 
-Web analytics involves analysing the behaviour of users on your website. The most common source is Google Analytics. Analytics can help identify usability problems and user types. Often analytics are set up but the data has not been analysed.
+Web analytics involves analysing quantitative data the behaviour of users on your website. The most common source is Google Analytics. Analytics can help identify usability problems and user types. Often analytics are set up but the data is not analysed.
 
 See also [Three Uses for Analytics in User-Experience Practice](https://www.nngroup.com/articles/analytics-user-experience/)
 
 ### [2]Search logs
 
-Search logs are often overlooked but have a lot of information about what users want and how they look for it. Logs can highlight when users are struggling with language in your site. Looking at search terms can provide guidance on the wordslanguage people actually use. Identifying these problems in the search logs can provide evidence for usability problems.
+Search logs are often overlooked but have a lot of information about what users want and how they look for it. Logs can highlight when users are struggling with the way information is presented on your site. Looking at search terms can provide guidance on the words people actually use. Identifying these problems in the search logs can provide evidence for usability problems.
 
 See also [Search-Log Analysis: The Most Overlooked Opportunity in Web UX Research](https://www.nngroup.com/articles/search-log-analysis/)
 

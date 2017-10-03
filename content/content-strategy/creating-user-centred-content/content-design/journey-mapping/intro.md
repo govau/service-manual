@@ -1,8 +1,9 @@
 ---
 layout: intros/intro
-subtitle: A user journey map shows a user’s experience of an overall service. For example, a pregnant woman will have to interact with government at different times throughout her pregnancy experience as she applies for financial support, registers her baby, and so on.
+subtitle: A user journey map shows a user’s experience of an overall service. 
 category: journey-mapping
 ---
+For example, a pregnant woman will have to interact with government at different times throughout her pregnancy experience as she applies for financial support, registers her baby, and so on.
 
 User journey mapping is an important method used in [content design](/content-strategy/creating-user-centred-content/content-design/)
 

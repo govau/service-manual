@@ -5,9 +5,9 @@ cards:
     headline: User research
     text: Do user research in every iteration of every development stage.
     link: '/user-research/'
-  - headline: Use existing research
+  - headline: Using existing research and data
     text: Use research that may already be available about your users’ needs.
-    link: 'using-existing-research'
+    link: 'using-existing-research-data'
   - headline: Understanding diversity
     text: Recognise and be aware that users have diverse needs and capabilities.
     link: 'understanding-diversity'
