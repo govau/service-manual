@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Why test content?
+section: When should you test content?
 ---

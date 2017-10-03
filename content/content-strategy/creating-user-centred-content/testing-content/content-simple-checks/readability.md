@@ -10,5 +10,4 @@ You can also use the DTA’s [plain English word list](https://guides.service.go
 
 - instead of ‘ascertain’, use ‘find out’
 - instead of ‘implement’, use ‘apply’, ‘install’, or ‘do’
-0 instead of ‘subsequently’, use ‘after’
-Check content for accessibility
+- instead of ‘subsequently’, use ‘after’
