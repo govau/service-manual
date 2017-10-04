@@ -10,7 +10,7 @@ Other governments, including the UK and the US, are following a similar processe
 The process focuses teams on building end-to-end services. This helps people to get things done in the way that suits them best. It also helps users with additional needs to get things done.
 
 ### [2]Deliver quickly
-Frequent incremental releases provide value for users early on and gives feedback on what needs more work. This helps the team to prioritise its resources so they keep building what users actually need.
+Frequent incremental releases increase value for users and give feedback on what needs more work. This helps the team to prioritise its resources so they keep building what users actually need.
 
 ### [2]More visibility
 Regular showcases of work are build into how teams follow the process. They discover very quickly if something is not meeting user’s needs.
