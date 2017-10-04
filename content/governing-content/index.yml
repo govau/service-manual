@@ -1,0 +1,11 @@
+title: Governing content
+weight: 70
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - header.md
+main:
+
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md
