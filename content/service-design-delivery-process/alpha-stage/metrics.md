@@ -14,4 +14,4 @@ To do this you should:
 - develop a measurement plan that starts to define what metrics your service will report on (in addition to the mandatory KPIs)
 - clearly define the start and end points for your service
 - engage with the Performance Dashboard team to discuss your metrics and to understand how to publish your service dashboard: [performance-dashboard@digital.gov.au](mailto:performance-dashboard@digital.gov.au)
-- engage with key stakeholders to raise their awareness of your measurement plan and to decide the process for signing off and publishing the metrics
+- engage with stakeholders to raise their awareness of your measurement plan and to decide the process for signing off and publishing the metrics

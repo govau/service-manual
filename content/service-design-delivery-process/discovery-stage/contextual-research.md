@@ -9,7 +9,7 @@ The [team will do research with users](/user-research/research-stages/#user-rese
 
 You will discover [all kinds of user needs](https://identityassurance.blog.gov.uk/2015/07/24/gov-uk-verify-how-we-talk-about-user-needs/), including:
 - stated needs — the things that users explicitly tell you that they need (for example, they may need your service to be mobile responsive)
-- unstated needs — the things that users take for granted that you will provide and that are just as essential to a successful service (for example, they may need information that’s easy to understand)
+- unstated needs — the things that users take for granted that your service will have (for example, they may need information that’s easy to understand)
 - created needs — the things that users are forced to do because of policy and the way government works (for example, they may have to use different online accounts for different stages of the same service)
 
 The research you do in Discovery should include all users:
