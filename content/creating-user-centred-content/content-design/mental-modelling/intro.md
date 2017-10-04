@@ -5,13 +5,13 @@ category: Content design
 ---
 A mental model looks at a user’s thought process as they navigate a website or service. This is useful as it helps you anticipate a user’s behaviour, and then design a system that meets the need driving this behaviour.
 
-Mental modelling is a method used in [content design](/content-strategy/creating-user-centred-content/content-design/)
+Mental modelling is a method used in [content design](/creating-user-centred-content/content-design/)
 
 Other content design methods include:
-- [pair writing](/content-strategy/creating-user-centred-content/content-design/pair-writing)
-- [user stories](/content-strategy/creating-user-centred-content/content-design/user-stories/)
-- [journey mapping](/content-strategy/creating-user-centred-content/content-design/journey-mapping/)
-- [top tasks](/content-strategy/creating-user-centred-content/content-design/top-tasks/)
+- [pair writing](/creating-user-centred-content/content-design/pair-writing)
+- [user stories](/creating-user-centred-content/content-design/user-stories/)
+- [journey mapping](/creating-user-centred-content/content-design/journey-mapping/)
+- [top tasks](/creating-user-centred-content/content-design/top-tasks/)
 
 Mental modelling is part of the [service design and delivery process](/service-design-delivery-process/).
 
