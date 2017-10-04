@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Multidisciplinary teams make it easier to deliver
+section: Multidisciplinary teams make it easier to build
 ---

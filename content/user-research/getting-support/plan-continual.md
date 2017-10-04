@@ -18,7 +18,7 @@ Doing this means you can:
 You'll be able to develop a clear user research plan after you product kicks off. In the mean time, you can still talk about about how you will schedule user research.
 
 Throughout each development stage, user researchers should be:
-- part of the team 
+- part of the team
 - running user research sessions at least every 2 weeks
 
 Build research activities and analysis sessions into the team’s regular schedule, so everyone knows when they’re happening and can make time to take part.
@@ -31,6 +31,4 @@ Make sure you have support to use more than just quantitative sources like websi
 
 Don’t rely only on quantitative sources. They only give you a very limited view of who the users are and what they need.
 
-It’s important in the Discovery stage to start with qualitative research like in-depth interviews with users. You can use quantitative sources to help you identify more users to talk to.
-
-
+It’s important in the Discovery stage to start with qualitative research like in-depth interviews with users. You can use quantitative sources to help you work out which other kinds of users you should to talk to.

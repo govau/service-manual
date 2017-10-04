@@ -8,7 +8,7 @@ At the beginning of each stage of the service design and delivery process, you m
 - agree the groups of users you want to do research with
 - decide how to recruit participants for each activity
 - review and share the findings of any existing research
-- identify any challenges or deadlines that may influence your research plan
+- find any challenges or deadlines that may influence your research plan
 - decide what user research activities will help you answer your questions — read the [18F Method Cards](https://methods.18f.gov/) for quick guides to activities
 
 You will need:

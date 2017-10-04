@@ -7,9 +7,9 @@ You should encourage people with more experience to mentor those who are new to 
 
 Give people with skills and expertise in their role the chance to work in a multidisciplinary team and they will often flourish.
 
-There may be other people in your organisation who are not as experienced but who are keen to learn and collaborate. Be open to pairing people who have less experience with experienced people from inside and outside of government.
+There may be other people in your organisation who are not as experienced but who are keen to learn and work in a multidisciplinary team. Be open to pairing people who have less experience with experienced people from inside and outside of government.
 
-Sometimes it’s possible to use secondments to temporarily transfer people who are keen to collaborate from other parts of government to fill gaps in the team.
+Sometimes it’s possible to use secondments to temporarily transfer people from other parts of government to fill gaps in the team.
 
 ### [2]Communicate the value early
 It can be hard to get support for working in a new way in government. The best way to help people is to show the value to them.
@@ -31,6 +31,3 @@ Make sure you listen and respond to all problems. Be honest about the roles and 
 The Guides show what is needed to do the different activities the team does when the follow the process.
 
 You might need to plan some time for people to transition to the new way of working. But it’s important that the team steps away from business as usual work to focus completely on working on the service. Make sure you communicate when this transition period ends and the Discovery stage starts.
-
-
-
