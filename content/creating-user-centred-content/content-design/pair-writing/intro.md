@@ -3,13 +3,13 @@ layout: intros/intro
 subtitle: Pair writing is creating content side-by-side with a subject matter expert. This may be a technical expert, lawyer or policy writer.
 category: Content design
 ---
-Pair writing is an important method used in [content design](/content-strategy/creating-user-centred-content/content-design/)
+Pair writing is an important method used in [content design](/creating-user-centred-content/content-design/)
 
 Other content design methods include:
-- [user stories](/content-strategy/creating-user-centred-content/content-design/user-stories/)
-- [journey mapping](/content-strategy/creating-user-centred-content/content-design/journey-mapping/)
-- [mental modelling](/content-strategy/creating-user-centred-content/content-design/mental-modelling/)
-- [top tasks](/content-strategy/creating-user-centred-content/content-design/top-tasks/)
+- [user stories](/creating-user-centred-content/content-design/user-stories/)
+- [journey mapping](/creating-user-centred-content/content-design/journey-mapping/)
+- [mental modelling](/creating-user-centred-content/content-design/mental-modelling/)
+- [top tasks](/creating-user-centred-content/content-design/top-tasks/)
 
 Mental modelling is part of the [service design and delivery process](/service-design-delivery-process/).
 

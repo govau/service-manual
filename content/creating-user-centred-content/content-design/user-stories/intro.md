@@ -4,13 +4,13 @@ subtitle: A user story describes why and how a user interacts with services and 
 category: Content design
 ---
 
-Writing user stories is an important part of [content design](/content-strategy/creating-user-centred-content/content-design/)
+Writing user stories is an important part of [content design](/creating-user-centred-content/content-design/)
 
 Other content design methods include:
-- [mental modelling](/content-strategy/creating-user-centred-content/content-design/mental-modelling/)
-- [journey mapping](/content-strategy/creating-user-centred-content/content-design/journey-mapping/)
-- [top tasks](/content-strategy/creating-user-centred-content/content-design/top-tasks/)
-- [pair writing](/content-strategy/creating-user-centred-content/content-design/pair-writing)
+- [mental modelling](/creating-user-centred-content/content-design/mental-modelling/)
+- [journey mapping](/creating-user-centred-content/content-design/journey-mapping/)
+- [top tasks](/creating-user-centred-content/content-design/top-tasks/)
+- [pair writing](/creating-user-centred-content/content-design/pair-writing)
 
 Writing user stories is a [service design and delivery process](/service-design-delivery-process/).
 
