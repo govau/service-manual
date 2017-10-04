@@ -18,4 +18,4 @@ Complete the following work so that you have the right framework for the later s
 - find out what analytics tools your organisation already has and whether they’re suitable for the type and volume of data you’re expecting
 - work out what metrics are currently available and record baselines
 - find out where existing data for the service is kept and how you’re going to access it
-- start thinking about additional data you might require that doesn’t currently exist or isn’t easily accessible
+- start thinking about additional data you might need that doesn’t currently exist or isn’t easily accessible
