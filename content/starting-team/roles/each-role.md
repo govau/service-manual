@@ -15,12 +15,12 @@ The product manager leads strategic direction and product delivery. They:
 -  manage the budget
 -  ensure the right team culture develops
 -  are on hand to answer questions from the team
--  facilitate travel
+-  plan travel
 
 #### Service manager
 The service manager owns and is responsible for the [whole user experience](/service-design-delivery-process/whole-user-experience/) of the digital service. They are:
 
--  a senior executive with the capacity to unblock obstacles, present and champion the service at the most senior levels of the Australian Public Service
+-  a senior executive that can unblock obstacles, present and champion the service at the most senior levels of the Australian Public Service
 -  experienced leaders with a strong understanding of their service and its users
 -  able to to ensure the service is delivered successfully and meets the needs of the users
 -  able to help make sure internal processes are focussed on achieving results for the service
@@ -50,7 +50,7 @@ Designers help your team create user-focused services and a consistent user expe
 Depending on the type of service you’re building, you may need a team of designers with a range of different skills (for example, in interaction or user experience design).
 
 #### Service designer
-The service designer works from the user research to identify how a service could be delivered so that it better meets user needs. They:
+The service designer works from the user research to think about how a service could be delivered so that it better meets user needs. They:
 
 -  design user-focused services that meet web standards for all users, channels and touchpoints
 -  create a blueprint or map of the proposed service to make sure the key parts are built in from the start
