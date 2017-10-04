@@ -7,7 +7,7 @@ At the end of Discovery, it’s good idea to produce a document or slide deck th
 - who you talked to and the pain points you heard
 - the user journey map as you understand it at that point
 - any pain points that are out of scope for Alpha stage
-- justification of how you made decisions and the methodology you used
+- justification of how you made decisions and the method you used
 - current benchmarks of service performance
 - how you will measure improvements to the service
 - photos and feedback quotes
