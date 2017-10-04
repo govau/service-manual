@@ -21,4 +21,8 @@ cards:
     text: A content strategy guides the creation, delivery and governance of useful, usable content.
     link: '/content-strategy/'
     background: '#1B7991'
+  - headline: Creating user-centred content
+    text: Create content that your users will find valuable and easy to use.
+    link: '/creating-user-centred-content/'
+    background: '#1B7991'
 ---

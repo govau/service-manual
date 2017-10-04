@@ -12,10 +12,10 @@ When designing content always refer to the [Content Guide](https://guides.servic
 For more information read the GOV.UK [Introduction to content design: what is content design?](https://www.gov.uk/guidance/content-design/what-is-content-design)
 
 There are several content design methods, including:
-- [user stories](/content-strategy/creating-user-centred-content/content-design/user-stories/)
-- [journey mapping](/content-strategy/creating-user-centred-content/content-design/journey-mapping/)
-- [mental modelling](/content-strategy/creating-user-centred-content/content-design/mental-modelling/)
-- [top tasks](/content-strategy/creating-user-centred-content/content-design/top-tasks/)
-- [pair writing](/content-strategy/creating-user-centred-content/content-design/pair-writing)
+- [user stories](/creating-user-centred-content/content-design/user-stories/)
+- [journey mapping](/creating-user-centred-content/content-design/journey-mapping/)
+- [mental modelling](/creating-user-centred-content/content-design/mental-modelling/)
+- [top tasks](/creating-user-centred-content/content-design/top-tasks/)
+- [pair writing](/creating-user-centred-content/content-design/pair-writing)
 
 Content design is a part of the [service design and delivery process](/service-design-delivery-process/).

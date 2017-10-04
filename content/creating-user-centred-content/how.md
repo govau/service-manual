@@ -13,7 +13,7 @@ cards:
     link: 'understanding-diversity'
   - headline: Identifying users and their needs
     text: Understand your users better so you can design and build a service that works well for them.
-    link: '#'
+    link: '/user-research/identifying-users-needs/'
   - headline: Getting buy-in
     text: Get buy-in from senior leadership and stakeholders for content improvement.
     link: '/content-strategy/getting-buy-in/'
