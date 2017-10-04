@@ -53,7 +53,7 @@ Depending on the type of service you’re building, you may need a team of desig
 The service designer works from the user research to identify how a service could be delivered so that it better meets user needs. They:
 
 -  design user-focused services that meet web standards for all users, channels and touchpoints
--  create a blueprint or map of the proposed service to make sure the key parts are built in from the start
+-  create a blueprint or map of the proposed service to make sure the main parts are built in from the start
 -  help the team in the development and continual iteration of services, making sure that there are consistent user experiences
 
 #### Content designer

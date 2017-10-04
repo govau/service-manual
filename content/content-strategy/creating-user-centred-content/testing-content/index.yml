@@ -1,0 +1,20 @@
+title: Testing content
+weight: 10
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - what-head.md
+  - what.md
+  - why-head.md
+  - why.md
+  - when-head.md
+  - when.md
+  - how-head.md
+  - how.md
+  - subtopics.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

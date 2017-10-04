@@ -11,7 +11,7 @@ You keep running the private beta service until you have a functioning, end-to-e
 
 Once the public beta service has proven to be a better solution, you can move on to the Live stage where the public beta service will replace the existing live service.
 
-The primary activities in Beta are:
+The main activities in Beta are:
 - development
 - design
 - usability research
