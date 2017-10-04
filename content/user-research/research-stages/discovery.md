@@ -20,7 +20,7 @@ This will help you to understand:
 
 ### [2]Map the user journey
 
-Create a [user journey map](https://designnotes.blog.gov.uk/2016/04/21/how-to-make-a-user-journey-map/) of the experience of the people who want to do the task your service provides.
+Create a [user journey map](https://designnotes.blog.gov.uk/2016/04/21/how-to-make-a-user-journey-map/) of the experience of the people who want to do the task that brings them to your service.
 
 Do research to understand the real journey, not just the journey the business would like to think they have.
 
@@ -28,7 +28,7 @@ Do research to understand the real journey, not just the journey the business wo
 
 Look at the data that exists (for example, analytics, back-office workflow and support logs).
 
-This can reveal new issues and provide quantitative evidence for qualitative insights.
+This can reveal new issues and quantitative evidence for qualitative insights.
 
 ### [2]Review previous user research
 
@@ -44,7 +44,7 @@ From these activities you should get:
 - an understanding of what problem your service is trying to solve for the user
 - a list of users’ touchpoints as they try to achieve their goal — often expressed as a journey map, service map or mental model (alignment diagram)
 - sets of needs and task models for different types of users
-- key insights about users that you’ve gained from analysing the research
+- insights about users that you’ve gained from analysing the research
 - a list of research gaps or limitations of the current research and opportunities for further research
 - descriptions of different types of users and the characteristics that are significant for this service
 
