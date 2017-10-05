@@ -9,7 +9,7 @@ Show evidence from [user research](/user-research/) such as:
 - case studies
 - videos of usability testing 
 
-This evidence will highlight the good and the bad aspects of your website. Telling user stories is a powerful way to make the case for content improvement. 
+This evidence will highlight the good and the bad aspects of your website. Telling [user stories](/creating-user-centred-content/content-design/user-stories/) is a powerful way to make the case for content improvement. 
 
 Benchmarking current content before making proposed changes can help you argue how users can benefit from content improvements.
 

@@ -1,4 +1,4 @@
-title: Identify your stakeholders
+title: Know your stakeholders
 weight: 20
 layout: layout/topic
 theme: blue
@@ -10,10 +10,8 @@ main:
   - sections.md
   - engage-early-head.md
   - engage-early.md
-  - identify-who-to-engage-with-head.md
-  - identify-who-to-engage-with.md
-  - fit-content-strategy-business-plan-head.md
-  - fit-content-strategy-business-plan.md
+  - find-out-who-to-engage-with-head.md
+  - find-out-who-to-engage-with.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
