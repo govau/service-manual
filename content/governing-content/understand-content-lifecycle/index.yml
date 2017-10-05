@@ -6,8 +6,6 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - stages-head.md
-  - stages.md
   - ensure-head.md
   - stages-cards.md
   - /_shared/feedback.md
