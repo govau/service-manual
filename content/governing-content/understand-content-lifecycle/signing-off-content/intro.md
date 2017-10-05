@@ -1,9 +1,11 @@
 ---
 layout: intros/intro_with_nav
-subtitle: Start the process of creating content by guiding authors to write in plain English.
-metaTitle1: Creating content
-metaValue1: Start the process of creating content by guiding authors in how to write for plain English and web standards.
+subtitle: Create a brief or checklist for final sign off, so the approver knows what they need to do.
 category: Governing content
 ---
 
-Create a brief or checklist for final sign off, so the approver knows what they need to do.
+## [3]Why use a sign off brief?
+
+- to reduce risk for the approver
+- to let approvers know which aspects of content have been checked
+- to clarify for approvers what you need them to do
