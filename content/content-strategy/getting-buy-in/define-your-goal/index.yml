@@ -8,12 +8,14 @@ header:
 main:
   - intro.md          
   - sections.md
-  - identify-the-why-head.md          
-  - identify-the-why.md
+  - find-the-why-head.md          
+  - find-the-why.md
   - start-small-think-agile-head.md          
   - start-small-think-agile.md
   - start-user-needs-head.md         
   - start-user-needs.md
+  - fit-content-strategy-business-plan-head.md
+  - fit-content-strategy-business-plan.md
   - use-metrics-and-research-head.md
   - use-metrics-and-research.md
   - /_shared/feedback.md
