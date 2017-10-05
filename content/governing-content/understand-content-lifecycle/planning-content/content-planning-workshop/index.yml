@@ -1,0 +1,19 @@
+title: Content planning workshop
+weight: 60
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - sections.md
+  - why-head.md
+  - why.md
+  - start-head.md
+  - start.md
+  - start-quote.md
+  - facilitator-head.md
+  - facilitator.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md
