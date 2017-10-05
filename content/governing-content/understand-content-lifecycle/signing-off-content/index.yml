@@ -8,7 +8,11 @@ main:
   - intro.md
   - workflow-process-head.md
   - workflow-process.md
-  - tools-template-head.md
-  - tools-template.md
+  - sign-off-tools-head.md
+  - sign-off-tools.md
+  - sign-off-skills-head.md
+  - sign-off-skills.md
+  - typical-sign-off-head.md
+  - typical-sign-off.md
 footer:
   - /_shared/footer.md
