@@ -1,0 +1,14 @@
+title: Signing off content
+weight: 20
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - workflow-process-head.md
+  - workflow-process.md
+  - tools-template-head.md
+  - tools-template.md
+footer:
+  - /_shared/footer.md
