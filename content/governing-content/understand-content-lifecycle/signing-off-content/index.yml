@@ -1,4 +1,4 @@
-title: Creating content
+title: Signing off content
 weight: 20
 theme: blue
 header:
@@ -6,14 +6,9 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - sections.md
   - workflow-process-head.md
   - workflow-process.md
   - tools-template-head.md
   - tools-template.md
-  - skills-head.md
-  - skills.md
-  - typical-tasks-head.md
-  - typical-tasks.md
 footer:
   - /_shared/footer.md

@@ -1,0 +1,95 @@
+<html><head><title>Category layout</title><link rel="stylesheet" href="../../assets/style.css"/><link rel="stylesheet" href="../../assets/pages/css/site.css"/></head><body class="cuttlebelle-docs"><aside class="cuttlebelle-docs__aside"><div class="cuttlebelle-docs__wrapper"><a class="cuttlebelle-docs__aside__headline" href="../..">Documentation</a><ul class="cuttlebelle-nav cuttlebelle-nav--level-0"><li class="cuttlebelle-nav__item cuttlebelle-nav__item--has-nested"><ul class="cuttlebelle-nav cuttlebelle-nav--level-1"><li class="cuttlebelle-nav__item"><a class="cuttlebelle-nav__item__anchor" href="../blocks">blocks</a></li><li class="cuttlebelle-nav__item"><a class="cuttlebelle-nav__item__anchor" href="../cards">cards</a></li><li class="cuttlebelle-nav__item"><a class="cuttlebelle-nav__item__anchor" href="../category">category</a></li><li class="cuttlebelle-nav__item"><a class="cuttlebelle-nav__item__anchor" href="../intros">intros</a></li><li class="cuttlebelle-nav__item"><span class="cuttlebelle-nav__item__span">layout</span></li><li class="cuttlebelle-nav__item"><a class="cuttlebelle-nav__item__anchor" href="../nav">nav</a></li><li class="cuttlebelle-nav__item"><a class="cuttlebelle-nav__item__anchor" href="../other">other</a></li><li class="cuttlebelle-nav__item"><a class="cuttlebelle-nav__item__anchor" href="../structure">structure</a></li><li class="cuttlebelle-nav__item"><a class="cuttlebelle-nav__item__anchor" href="../text">text</a></li></ul></li></ul></div></aside><main class="cuttlebelle-docs__main"><div class="cuttlebelle-docs__wrapper"><h1 class="cuttlebelle-docs__main__headline">Category layout</h1><p>In this category</p><ul class="cuttlebelle-docs__main__contents"><li class="cuttlebelle-docs__main__contents__item"><a href="#layout/page" class="cuttlebelle-docs__main__contents__item__link">layout/page</a></li><li class="cuttlebelle-docs__main__contents__item"><a href="#layout/topic" class="cuttlebelle-docs__main__contents__item__link">layout/topic</a></li></ul><div id="layout/page" class="cuttlebelle-docs__main__component"><h2 class="cuttlebelle-docs__main__component__name">layout/page</h2><div class="cuttlebelle-docs__main__component__example"><div><html><head><title>Guides - Homepage</title><meta charset="utf-8"/><meta content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/assets/css/site.css"/><script src="/assets/js/analytics.js"></script><script src="/assets/js/no-js.js"></script><script src="/assets/js/svg4everybody.min.js"></script></head><body><nav class="uikit-skip-link"><a class="uikit-skip-link__link" href="#nav">Skip to navigation</a><a class="uikit-skip-link__link" href="#content">Skip to content</a><a class="uikit-skip-link__link" href="#content">Skip link with onClick</a></nav><header role="banner" class="uikit-body uikit-grid"></header><main><div><img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> <img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> <img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> <img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> <img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> </div></main><div><img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> <img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> </div><script src="/assets/js/site.js"></script></body></html></div></div><pre class="cuttlebelle-docs__main__component__yaml"><div><span class="cuttlebelle-yaml-line">layout: layout/page</span>
+<span class="cuttlebelle-yaml-line">title: Homepage</span>
+<span class="cuttlebelle-yaml-line">main: 
+  - partial1.md
+  - partial2.md
+  - partial3.md</span>
+<span class="cuttlebelle-yaml-line">footer: 
+  - partial1.md
+  - partial2.md
+  - partial3.md</span>
+<span class="cuttlebelle-yaml-line"><span class="cuttlebelle-flag cuttlebelle-flag--optional">Optional</span>theme: dark</span>
+<span class="cuttlebelle-yaml-line"><span class="cuttlebelle-flag cuttlebelle-flag--optional">Optional</span>weight: 20</span>
+<span class="cuttlebelle-yaml-line"><span class="cuttlebelle-flag cuttlebelle-flag--optional">Optional</span>hidden: false</span>
+</div></pre><details class="cuttlebelle-docs__main__component__html"><summary class="cuttlebelle-docs__main__component__html__showhide">Show/Hide</summary><pre><code>&lt;html&gt;
+
+  &lt;head&gt;
+    &lt;title&gt;Guides - Homepage&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta content=&quot;ie=edge&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/site.css&quot; /&gt;
+    &lt;script src=&quot;/assets/js/analytics.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/js/no-js.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/js/svg4everybody.min.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+    &lt;nav class=&quot;uikit-skip-link&quot;&gt;
+      &lt;a class=&quot;uikit-skip-link__link&quot; href=&quot;#nav&quot;&gt;Skip to navigation&lt;/a&gt;
+      &lt;a class=&quot;uikit-skip-link__link&quot; href=&quot;#content&quot;&gt;Skip to content&lt;/a&gt;
+      &lt;a class=&quot;uikit-skip-link__link&quot; href=&quot;#content&quot;&gt;Skip link with onClick&lt;/a&gt;
+    &lt;/nav&gt;
+    &lt;header role=&quot;banner&quot; class=&quot;uikit-body uikit-grid&quot;&gt;&lt;/header&gt;
+    &lt;main&gt;
+      &lt;div&gt;
+        &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt;
+        &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt;
+        &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt;
+        &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt;
+        &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt; &lt;/div&gt;
+    &lt;/main&gt;
+    &lt;div&gt;
+      &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt;
+      &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt; &lt;/div&gt;
+    &lt;script src=&quot;/assets/js/site.js&quot;&gt;&lt;/script&gt;
+  &lt;/body&gt;
+
+&lt;/html&gt;</code></pre></details></div><div id="layout/topic" class="cuttlebelle-docs__main__component"><h2 class="cuttlebelle-docs__main__component__name">layout/topic</h2><div class="cuttlebelle-docs__main__component__example"><div><html><head><title>Guides - Homepage</title><meta charset="utf-8"/><meta content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/assets/css/site.css"/><script src="/assets/js/analytics.js"></script><script src="/assets/js/no-js.js"></script><script src="/assets/js/svg4everybody.min.js"></script></head><body><nav class="uikit-skip-link"><a class="uikit-skip-link__link" href="#nav">Skip to navigation</a><a class="uikit-skip-link__link" href="#content">Skip to content</a><a class="uikit-skip-link__link" href="#content">Skip link with onClick</a></nav><header class="uikit-body uikit-grid"></header><main><div><img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> <img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> <img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> <img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> <img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> </div></main><div><img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> <img src="http://via.placeholder.com/700x100?text=partial" class="cuttlebelle-partial" /> </div><script src="/assets/js/site.js"></script></body></html></div></div><pre class="cuttlebelle-docs__main__component__yaml"><div><span class="cuttlebelle-yaml-line">layout: layout/topic</span>
+<span class="cuttlebelle-yaml-line">title: Homepage</span>
+<span class="cuttlebelle-yaml-line">main: 
+  - partial1.md
+  - partial2.md
+  - partial3.md</span>
+<span class="cuttlebelle-yaml-line">footer: 
+  - partial1.md
+  - partial2.md
+  - partial3.md</span>
+<span class="cuttlebelle-yaml-line"><span class="cuttlebelle-flag cuttlebelle-flag--optional">Optional</span>theme: dark</span>
+<span class="cuttlebelle-yaml-line"><span class="cuttlebelle-flag cuttlebelle-flag--optional">Optional</span>weight: 20</span>
+<span class="cuttlebelle-yaml-line"><span class="cuttlebelle-flag cuttlebelle-flag--optional">Optional</span>hidden: false</span>
+</div></pre><details class="cuttlebelle-docs__main__component__html"><summary class="cuttlebelle-docs__main__component__html__showhide">Show/Hide</summary><pre><code>&lt;html&gt;
+
+  &lt;head&gt;
+    &lt;title&gt;Guides - Homepage&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta content=&quot;ie=edge&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/site.css&quot; /&gt;
+    &lt;script src=&quot;/assets/js/analytics.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/js/no-js.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/js/svg4everybody.min.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+    &lt;nav class=&quot;uikit-skip-link&quot;&gt;
+      &lt;a class=&quot;uikit-skip-link__link&quot; href=&quot;#nav&quot;&gt;Skip to navigation&lt;/a&gt;
+      &lt;a class=&quot;uikit-skip-link__link&quot; href=&quot;#content&quot;&gt;Skip to content&lt;/a&gt;
+      &lt;a class=&quot;uikit-skip-link__link&quot; href=&quot;#content&quot;&gt;Skip link with onClick&lt;/a&gt;
+    &lt;/nav&gt;
+    &lt;header class=&quot;uikit-body uikit-grid&quot;&gt;&lt;/header&gt;
+    &lt;main&gt;
+      &lt;div&gt;
+        &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt;
+        &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt;
+        &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt;
+        &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt;
+        &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt; &lt;/div&gt;
+    &lt;/main&gt;
+    &lt;div&gt;
+      &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt;
+      &lt;img src=&quot;http://via.placeholder.com/700x100?text=partial&quot; class=&quot;cuttlebelle-partial&quot; /&gt; &lt;/div&gt;
+    &lt;script src=&quot;/assets/js/site.js&quot;&gt;&lt;/script&gt;
+  &lt;/body&gt;
+
+&lt;/html&gt;</code></pre></details></div></div></main></body></html>
