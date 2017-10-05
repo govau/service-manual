@@ -1,0 +1,18 @@
+title: Publishing content
+weight: 50
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - sections.md
+  - workflow-head.md
+  - workflow.md
+  - skills-head.md
+  - skills.md
+  - typical-tasks-head.md
+  - typical-tasks.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md
