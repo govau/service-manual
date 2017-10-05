@@ -10,4 +10,4 @@ It’s fine if a team member is still building experience in their role, but the
 
 It can help to pair up people in the same role, so the person with more experience can mentor the other.
 
-Some of the key traits that help people succeed on multidisciplinary teams are openness to trying new things and willingness to ask for help.
+Two traits that help people succeed on multidisciplinary teams are openness to trying new things and willingness to ask for help.
