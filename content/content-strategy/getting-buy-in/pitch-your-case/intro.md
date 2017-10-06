@@ -1,8 +1,8 @@
 ---
 layout: intros/intro_with_nav
+subtitle: Ideally, your pitch for content improvement should be structured around the goal to meet a user need (and in turn a business need).  
 category: Content strategy
 ---
-Ideally, your pitch for content improvement should be structured around the goal to meet a user need (and in turn a business need).  
 
 Find out what works for your stakeholder and tailor your pitch to that. It could be a slide deck, an elevator pitch meeting or even a concise email.
 
