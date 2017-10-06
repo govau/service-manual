@@ -7,6 +7,14 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - sections.md
+  - find-out-head.md
+  - find-out.md
+  - archiving-comm-head.md
+  - archiving-comm.md
+  - archiving-comm02.md
+  - archiving-business-head.md
+  - archiving-business.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
