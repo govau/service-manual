@@ -12,7 +12,7 @@ Only under special circumstances would they capture a website on request rather 
 
 ## [2]Send a copy to the National Archives
 
-You only need to send a copy of your website to the National Archives if it has not been captured by the National Library.
+You only need to send a copy of your website to the National Archives if it has **not been captured by the National Library**.
 
 In this case, you can use tools such [HTTrack](https://www.httrack.com/), or similar software, to snapshot your website for sending to the National Archives.
 You may need to contact your ICT area to ensure that local HTML files work properly.
