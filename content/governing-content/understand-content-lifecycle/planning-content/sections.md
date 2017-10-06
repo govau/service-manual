@@ -4,5 +4,6 @@ sections:
   - Workflow process
   - Activities
   - Templates
+  - Skills
   - Typical tasks
 ---

@@ -1,6 +1,6 @@
 ---
 layout: intros/intro_with_nav
-subtitle: Understand the content lifecycle - know how to create, test and improve content
+subtitle: Know how to use the stages of the content lifecycle to create, test and improve your content’s usability.
 metaTitle1: Created by
 metaValue1: Digital Transformation Agency and the Attorney-General's Department
 metaTitle2: Reviewed on
