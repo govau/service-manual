@@ -8,11 +8,10 @@ import React from 'react';
  */
 const Plaintextblock = ( page ) => {
 
-	console.log(page._body);
-
+	// replace <p> with /n
 	let template = page._body.props.dangerouslySetInnerHTML.__html.replace(/<\/p[\s\/]*>/gm, "\n");
+	// strip other tags
 	template = template.replace(/(<([^>]+)>)/ig,"");
-
 
 	return (
 	<div className={ `uikit-body uikit-grid plaintextblock` } >
