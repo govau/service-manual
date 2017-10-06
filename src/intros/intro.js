@@ -23,15 +23,15 @@ const Intro = ( page ) => {
 								<div className="intro__metadata intro__metadata--intro small">
 								  <dl>
 									<dt>{ page.attrTitle1 }</dt>
-									<dd>{ page.metaLink1 ? (
-										<a href={ page.metaLink1 }>{ page.attrValue1 }</a>
+									<dd>{ page.attrLink1 ? (
+										<a href={ page.attrLink1 }>{ page.attrValue1 }</a>
 										) : (
 										<span>{ page.attrValue1 }</span>
 										)}
 									</dd>
 									<dt>{ page.attrTitle2 }</dt>
-									<dd>{ page.metaLink2 ? (
-										<a href={ page.metaLink2 }>{ page.attrValue2 }</a>
+									<dd>{ page.attrLink2 ? (
+										<a href={ page.attrLink2 }>{ page.attrValue2 }</a>
 										) : (
 										<span>{ page.attrValue2 }</span>
 										)}
@@ -66,9 +66,9 @@ Intro.propTypes = {
 	attrValue1: PropTypes.string,
 
 	/**
-	 * metaLink1: http://google.com
+	 * attrLink1: http://google.com
 	 */
-	metaLink1: PropTypes.string,
+	attrLink1: PropTypes.string,
 
 	/**
 	 * attrTitle2: 4 June 2017
@@ -81,9 +81,9 @@ Intro.propTypes = {
 	attrValue2: PropTypes.string,
 
 	/**
-	 * metaLink2: http://google.com
+	 * attrLink2: http://google.com
 	 */
-	metaLink2: PropTypes.string,
+	attrLink2: PropTypes.string,
 
 	/**
 	 * title: Page title  # if not given, it takes the title from the current page
