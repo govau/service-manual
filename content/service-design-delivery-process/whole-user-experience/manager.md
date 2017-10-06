@@ -10,4 +10,4 @@ The service manager makes sure each product works together to give the user a co
 Service managers are experienced leaders with a strong understanding of their service and its users. They:
 - represent their service at all levels in agencies
 - work to ensure the service is delivered successfully and meets its users’ needs
-- have the decision-making authority to deliver on all aspects of a service
+- have the decision-making authority to complete the service

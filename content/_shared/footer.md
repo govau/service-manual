@@ -10,3 +10,5 @@ With the exception of the [Commonwealth Coat of Arms](https://www.dpmc.gov.au/go
 [licensed under the CC BY 4.0 licence](https://creativecommons.org/licenses/by/4.0/).
 
 [Guides on GitHub](https://github.com/govau/service-manual/).
+
+Contact us: [guides-feedback@digital.gov.au](mailto:guides-feedback@digital.gov.au)

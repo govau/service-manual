@@ -9,4 +9,4 @@ level: 2
 
 The [Digital Service Standard](/digital-service-standard/) ensures digital teams build government services that are simple, clear and fast.
 
-These Guides help teams to understand how to deliver and manage services that meet the Digital Service Standard.
+These Guides help teams to understand how to build and manage services that meet the Digital Service Standard.

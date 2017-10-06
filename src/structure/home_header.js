@@ -75,6 +75,10 @@ const Homeheader = ( page ) => {
 									}
 							</div>
 
+							<a href="https://www.surveymonkey.com/r/XFWJ5TC" className="feedback__btn uikit-btn">
+								Give feedback
+							</a>
+
 							{ /*	removed until nav is ready
 							<div className="header__menu">
 								<span className="menu">Menu</span>

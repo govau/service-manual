@@ -4,7 +4,7 @@ layout: text/textblock
 
 You need to measure and report on the performance of your service. You will have started preparing for this in the Discovery and Alpha stages.
 
-Performance metrics provide important information about whether your service is meeting user needs. They make sure that the decisions you make to improve your service are based on data.
+Performance metrics are sources of information that can help you find out whether your service is meeting user needs. They make sure that the decisions you make to improve your service are based on data.
 
 There are [4 key performance indicators for government services](/digital-service-standard/11-measure-performance/) that you must measure:
 - user satisfaction
@@ -16,7 +16,7 @@ There will be other service metrics you will want to track and report on to help
 
 You will need to:
 - put the measurement plan you developed in Alpha stage into action — this means integrating your APIs, setting up your analytics and so on
-- test the plan’s outcomes with key stakeholders
+- test the plan’s outcomes with stakeholders
 - iterate and improve the plan
 
 During the private beta, you will need to:

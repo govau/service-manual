@@ -1,10 +1,27 @@
 .feedback {
 	padding: uikit-space( 1.75 ) 0 uikit-space( 1 ) 0;
-	color: $uikit-colour-Text;
+	color: #fff;
+	background: $uikit-colour-Primary;
+	margin-top: -2em;
+
+	a {
+		color: #fff;
+	}
+}
+
+.feedback__title {
+	color: #fff;
 }
 
 .feedback__caption {
 	display: block;
 	margin: 0 0 uikit-space( 1 ) 0;
 	max-width: 450px;
+}
+
+.feedback__button {
+	.uikit-btn {
+		background: #fff;
+		color: $uikit-colour-Secondary;
+	}
 }

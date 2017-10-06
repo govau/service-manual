@@ -9,4 +9,4 @@ When you agree on what you’ve learned, write it as a finding or ‘insight’ 
 Write findings as short statements that summarise what you’ve learned, for example:
 - ‘The legal declaration is threatening and difficult to understand.’
 - ‘People think they can click the progress bar to navigate.’
-- ‘Users are confused about what’s required because so many questions are optional.’
+- ‘Users are confused about what they need to do because so many questions are optional.’
