@@ -3,6 +3,8 @@ layout: intros/intro_with_nav
 subtitle: Understand the content lifecycle - know how to create, test and improve content
 attrTitle1: Created by
 attrValue1: Digital Transformation Agency and the Attorney-General's Department
+attrTitle2: Reviewed on
+attrValue2: 31 October 2017
 category: Governing content
 ---
 
