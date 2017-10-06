@@ -1,6 +1,11 @@
 ---
-layout: text/textblock
-section: Content lifecycle stages
+layout: blocks/image_content_block
+image: standard/poster-stack-4up.png
+display: 2
+level: 2
+reverse: false
+title: Using the presentation
+imageAlt: ""
 ---
 [Identify content tasks and skills]()
 
