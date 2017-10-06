@@ -26,21 +26,21 @@ const IntroNav = ( page ) => {
 
 						<div className="textwrapper intro__textwrapper__withnav">
 							{ page.subtitle && <p className="intro__subtitle">{ page.subtitle }</p> }
-							{ page.metaTitle1 &&
+							{ page.attrTitle1 &&
 								<div className="intro__metadata intro__metadata--intro small">
 								  <dl>
-									<dt>{ page.metaTitle1 }</dt>
+									<dt>{ page.attrTitle1 }</dt>
 									<dd>{ page.metaLink1 ? (
-										<a href={ page.metaLink1 }>{ page.metaValue1 }</a>
+										<a href={ page.metaLink1 }>{ page.attrValue1 }</a>
 										) : (
-										<span>{ page.metaValue1 }</span>
+										<span>{ page.attrValue1 }</span>
 										)}
 									</dd>
-									<dt>{ page.metaTitle2 }</dt>
+									<dt>{ page.attrTitle2 }</dt>
 									<dd>{ page.metaLink2 ? (
-										<a href={ page.metaLink2 }>{ page.metaValue2 }</a>
+										<a href={ page.metaLink2 }>{ page.attrValue2 }</a>
 										) : (
-										<span>{ page.metaValue2 }</span>
+										<span>{ page.attrValue2 }</span>
 										)}
 									</dd>
 								  </dl>
@@ -63,14 +63,14 @@ IntroNav.propTypes = {
 	category: PropTypes.string,
 
 	/**
-	 * metaTitle1: Created by
+	 * attrTitle1: Created by
 	 */
-	metaTitle1: PropTypes.string,
+	attrTitle1: PropTypes.string,
 
 	/**
-	 * metaValue1: Digital Transformation Agency, Department of Immigration and Border Protection
+	 * attrValue1: Digital Transformation Agency, Department of Immigration and Border Protection
 	 */
-	metaValue1: PropTypes.string,
+	attrValue1: PropTypes.string,
 
 	/**
 	 * metaLink1: http://google.com
@@ -78,14 +78,14 @@ IntroNav.propTypes = {
 	metaLink1: PropTypes.string,
 
 	/**
-	 * metaTitle2: 4 June 2017
+	 * attrTitle2: 4 June 2017
 	 */
-	metaTitle2: PropTypes.string,
+	attrTitle2: PropTypes.string,
 
 	/**
-	 * metaValue2: 4 June 2017
+	 * attrValue2: 4 June 2017
 	 */
-	metaValue2: PropTypes.string,
+	attrValue2: PropTypes.string,
 
 	/**
 	 * metaLink2: http://google.com
