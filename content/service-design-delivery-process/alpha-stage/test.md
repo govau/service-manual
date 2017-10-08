@@ -13,7 +13,7 @@ Test with users using paper prototypes first. As you learn from your user resear
 A good prototype is not the real service but needs to show how the service works. The prototype must:
 - look and feel like a real digital service
 - have enough features for users to interact with
-- provide a seamless user experience along the ‘happy path’
+- show a seamless user experience along the ‘happy path’
 - use familiar design patterns — the [GOV.AU UI-Kit is an accessible CSS and JavaScript framework](https://github.com/govau/uikit) you can build with
 - include content and data that looks real
 - respond with alerts and feedback in the right places
@@ -40,7 +40,7 @@ A static-site generator allows you to keep your prototype simple, with just HTML
 
 It is also easy for designers to make changes directly to the prototype, without having to wait on a developer to make changes.
 
-Use a version control system, like [GitHub](https://github.com/), to store the code for your prototype so that everyone in the team can work across the same copy and collaborate on changes.
+Use a version control system, like [GitHub](https://github.com/), to store the code for your prototype so that everyone in the team can work across the same copy and changes.
 
 Deploy the prototype to a cloud service so that you can easily share it around the team and with your stakeholders (for example, [Amazon Web Services](https://aws.amazon.com/)).
 

@@ -15,19 +15,19 @@ The product manager leads strategic direction and product delivery. They:
 -  manage the budget
 -  ensure the right team culture develops
 -  are on hand to answer questions from the team
--  facilitate travel
+-  plan travel
 
 #### Service manager
 The service manager owns and is responsible for the [whole user experience](/service-design-delivery-process/whole-user-experience/) of the digital service. They are:
 
--  a senior executive with the capacity to unblock obstacles, present and champion the service at the most senior levels of the Australian Public Service
+-  a senior executive that can unblock obstacles, present and champion the service at the most senior levels of the Australian Public Service
 -  experienced leaders with a strong understanding of their service and its users
 -  able to to ensure the service is delivered successfully and meets the needs of the users
--  able to assist in making sure internal processes are focussed on achieving results for the service
+-  able to help make sure internal processes are focussed on achieving results for the service
 -  available to the team, but not necessarily present with them at all times
 
 #### Delivery manager
-The delivery manager enables the team to deliver high-quality services. They remove blockers to progress and run product meetings. They:
+The delivery manager enables the team to build high-quality services. They remove blockers to progress and run product meetings. They:
 
 -  deliver products and services using agile methodologies, iterating products and processes frequently to meet users’ needs
 -  work with product managers to plan the work needed to deliver products and services
@@ -50,10 +50,10 @@ Designers help your team create user-focused services and a consistent user expe
 Depending on the type of service you’re building, you may need a team of designers with a range of different skills (for example, in interaction or user experience design).
 
 #### Service designer
-The service designer works from the user research to identify how a service could be delivered so that it better meets user needs. They:
+The service designer works from the user research to think about how a service could be delivered so that it better meets user needs. They:
 
 -  design user-focused services that meet web standards for all users, channels and touchpoints
--  create a blueprint or map of the proposed service to make sure the key parts are built in from the start
+-  create a blueprint or map of the proposed service to make sure the main parts are built in from the start
 -  help the team in the development and continual iteration of services, making sure that there are consistent user experiences
 
 #### Content designer
@@ -91,4 +91,4 @@ Your team might have a mixture of developers that specialise in being front-end 
 
 Some developers may need mentoring in user-centred design. If you involve them from the Discovery stage, it will help them to build empathy with users. They’ll also gain experience in user research and bring their expertise to the insights gained.
 
-Sometimes the team will need a technical lead to make it easier to prioritise work. This person is still part of the team and collaborates with everyone to make decisions.
+Sometimes the team will need a technical lead to make it easier to prioritise work. This person is still part of the team and works with everyone to make decisions.

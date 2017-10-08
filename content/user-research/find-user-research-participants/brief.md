@@ -11,7 +11,7 @@ The recruitment brief is then usually converted into a recruitment ‘screener�
 
 Screeners can look complex, but they are very important to get right to ensure you have the right people participating in the research.
 
-You should have a conversation with the recruiter about who will write the screener. If you have specific criteria for recruitment, you can provide questions or a full screen to be used.
+You should have a conversation with the recruiter about who will write the screener. If you have specific criteria for recruitment, you can supply questions or a full screen to be used.
 
 ### [2]What to put in a recruitment brief
 
@@ -24,7 +24,7 @@ In your brief, you should cover:
 
 You should make it clear that you welcome participants with access needs and low digital skills. This is important because recruiters often exclude these groups by default.
 
-Send the agency a written brief, even if they’re happy to take instructions over the phone. This will provide a record in case there are problems with the recruitment.
+Send the agency a written brief, even if they’re happy to take instructions over the phone. This will be a record in case there are problems with the recruitment.
 
 ### [2]Review the screener
 
