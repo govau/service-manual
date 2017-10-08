@@ -2,10 +2,10 @@
 layout: text/textblock
 ---
 
-Understanding your governance and content workflow models will help you [work out who you need to work with](/content-strategy/content-auditing/engage-your-stakeholders/#identify-stakeholders). It will also prevent uncertainty around authority and task allocation. 
+Understanding your governance and content workflow models will help you work out who you need to work with. It will also prevent uncertainty around authority and task allocation. 
 
 You need to split your stakeholders into 2 groups.  
-1. The key decision makers with the most influence.
+1. The decision makers with the most influence.
 2. The groups that will be affected by changes to content.
 
 You may need to get buy-in from stakeholders outside your agency to remove duplicated information, and to join up content across government agencies.
