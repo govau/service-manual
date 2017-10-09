@@ -13,7 +13,7 @@ Pop-up research is a specific form of user research. Researchers go into the fie
 
 Commonly known as ‘guerrilla testing’, we prefer the term ‘pop-up’. Guerrilla indicates that the research is unauthorised by the agency and we’d like to get your organisation on board with research.
 
-Pop-up research works best when you have clear, simple objectives (for example, you want to see if people can find certain guidance or give specific information).
+Pop-up research works best when you have clear, simple objectives (for example, you want to see if people can find specific information).
 
 There are limitations to doing pop-up research (for example, short sessions, random participants, recording problems) so always combine it with other research methods.
 
