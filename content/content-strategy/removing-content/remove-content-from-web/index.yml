@@ -7,6 +7,19 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - sections.md
+  - set-up-head.md
+  - set-up.md
+  - remove-links-head.md
+  - remove-links.md
+  - change-ia-head.md
+  - change-ia.md
+  - agree-head.md
+  - agree.md
+  - deletion-head.md
+  - deletion.md
+  - dns-head.md
+  - dns.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
