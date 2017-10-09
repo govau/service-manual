@@ -19,9 +19,7 @@ const Plaintextblock = ( page ) => {
 			<div className="row">
 				<div className="col-md-12">
 					<div className="plaintextwrapper">
-						<textarea>
-							{ template }
-						</textarea>
+						<textarea value={ template } readOnly="true" />
 					</div>
 				</div>
 			</div>
