@@ -1,5 +1,6 @@
 title: Homepage
 theme: dark
+description: The Digital Service Standard ensures digital teams build government services that are simple, clear and fast.
 header:
   - /_shared/globalheader.md
   - header.md
