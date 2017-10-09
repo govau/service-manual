@@ -6,7 +6,7 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - intro.md          
+  - intro.md       
   - if-pitch-not-successful-head.md
   - if-pitch-not-successful.md
   - /_shared/feedback.md

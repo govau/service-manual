@@ -8,17 +8,23 @@ import { InpageNavSection } from '../../scripts/uikit/inpage-nav';
 /**
  * The section component
  */
-const Section = ( page ) => (
-	<div className="uikit-body uikit-grid sections">
-		<div className="container">
-			<div className="row">
-				<div className="col-md-12">
-					<InpageNavSection headingClass='display-3' title={ page.section } link={ Slugify( page.section ).toLowerCase() } children="" />
+const Section = ( page ) => {
+
+	const HeadingTag = `h${ page.level ? page.level : 2 }`;
+
+	return (
+		<div className="uikit-body uikit-grid sections">
+			<div className="container">
+				<div className="row">
+					<div className="col-md-12">
+						<HeadingTag className={ `display-3` } id={ Slugify( page.section ).toLowerCase() }>
+							 { page.section }
+						</HeadingTag>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-);
+	)};
 
 
 Section.propTypes = {
@@ -29,7 +35,7 @@ Section.propTypes = {
 };
 
 
-Section.defaultProps = {};
-
+Section.defaultProps = {
+};
 
 export default Section;

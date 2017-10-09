@@ -2,5 +2,5 @@
 layout: nav/sections
 sections:
   - Engage early and regularly
-  - Identify who to engage with
+  - Find out who to engage with
 ---
