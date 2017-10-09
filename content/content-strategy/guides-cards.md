@@ -10,9 +10,6 @@ cards:
   - headline: Removing content
     text: Remove unwanted, redundant and out-of-date content to help users find what they need.
     link: removing-content/    
-  - headline: Accessible content
-    text: The people who most need government services and information often find them the hardest to use. Think about creating content that is accessible for everyone from the start.
-    link: accessible-content/
   - headline: GOV.AU Content Guide
     text: This 'living' guide helps government teams create simple, clear and accessible digital content.
     link: https://guides.service.gov.au/content-guide/
