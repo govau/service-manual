@@ -13,7 +13,7 @@ Test with users using paper prototypes first. As you learn from your user resear
 A good prototype is not the real service but needs to show how the service works. The prototype must:
 - look and feel like a real digital service
 - have enough features for users to interact with
-- show a seamless user experience along the ‘happy path’
+- show an end-to-end user experience 
 - use familiar design patterns — the [GOV.AU UI-Kit is an accessible CSS and JavaScript framework](https://github.com/govau/uikit) you can build with
 - include content and data that looks real
 - respond with alerts and feedback in the right places
