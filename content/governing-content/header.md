@@ -1,5 +1,5 @@
 ---
 layout: category/category_header
 title: Governing content
-description: Subtitle for governing content to go here, same as the category card
+description: Governing content aligns the goals of your content strategy for everyone involved – from the top down and agency wide.
 ---

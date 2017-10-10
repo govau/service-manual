@@ -27,7 +27,7 @@ cards:
     background: '#1B7991'
   - image: governing-content-card.jpg
     headline: Governing content
-    text: Subtitle for the governing content category page to go here
+    text: Governing content aligns the goals of your content strategy for everyone involved – from the top down and agency wide.
     link: '/governing-content/'
     background: '#1B7991'
 
