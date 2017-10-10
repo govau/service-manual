@@ -25,4 +25,10 @@ cards:
     text: Create content that your users will find valuable and easy to use.
     link: '/creating-user-centred-content/'
     background: '#1B7991'
+  - image: governing-content-card.jpg
+    headline: Governing content
+    text: Subtitle for the governing content category page to go here
+    link: '/governing-content/'
+    background: '#1B7991'
+
 ---
