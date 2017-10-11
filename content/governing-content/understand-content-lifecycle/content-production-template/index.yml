@@ -1,0 +1,11 @@
+title: Content Productuon Template
+weight: 10
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+   - page-details.md
+
+footer:
+  - /_shared/footer.md

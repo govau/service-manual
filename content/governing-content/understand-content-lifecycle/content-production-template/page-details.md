@@ -1,0 +1,21 @@
+---
+layout: templates/table
+table:
+  -
+    - Page Details
+  -
+    - Content page title
+    - value
+  -
+    - Location in the IA
+    - value
+  -
+    - Content type
+    - value
+  -
+    - Page status (draft/revise/final)
+    - value
+  -
+    - Go-live date
+    - value
+---
