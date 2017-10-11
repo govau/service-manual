@@ -8,4 +8,4 @@ category: Governing content
 ---
 Run a planning workshop to shape a content plan that the broader team can understand.
 
-[Understand the content lifecycle](/governing-content/understand-content-lifecycle/) Know how to use the stages of the content lifecycle to plan, create, test and improve your content’s usability.
+[Using the content lifecycle](/governing-content/content-lifecycle/) Know how to use the stages of the content lifecycle to plan, create, test and improve your content’s usability.
