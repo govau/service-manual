@@ -8,7 +8,7 @@ const Table = ( page ) => {
 	const table = page.table.map((items, index) => {
 
 		if ( index == 0 ) {
-			return <thead><tr colspan="2">  <th scope="col" > <h3>{ items[0 ] }</h3> </th> </tr></thead>
+			return <thead><tr colspan="2">  <th scope="col" > <h4>{ items[0 ] }</h4> </th> </tr></thead>
 		} else {
 
 			const i = items.map(( item ) => {

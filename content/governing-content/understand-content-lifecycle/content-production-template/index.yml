@@ -1,11 +1,12 @@
-title: Content Productuon Template
+title: Content Production Template
 weight: 10
 theme: blue
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-   - page-details.md
-
+  - page-details.md
+  - content-planning.md
+  - quality-content-checks.md
 footer:
   - /_shared/footer.md
