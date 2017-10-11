@@ -4,9 +4,9 @@ cards:
   - headline: Accountability and ownership
     text: Governing content assigns clear lines of accountability and ownership, according to expertise.
     link: accountability-ownership/
-  - headline: Understand the content lifecycle
+  - headline: Using the content lifecycle
     text: Know what’s involved in the cycle of planning, creating, testing, and improving value for the user.
-    link: understand-content-lifecycle/
+    link: content-lifecycle/
   - headline: Identify tasks and skills
     text: Use this workshop in your agency. Explore the typical tasks for each content lifecycle stage, and the skills you need to execute them.
     link: identify-tasks-skills/    
