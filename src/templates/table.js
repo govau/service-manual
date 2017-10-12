@@ -43,32 +43,32 @@ const Table = ( page ) => {
 Table.propTypes = {
 	/**
 	* 	table:
-	*		   -
-	*		     - |
-	*		         Quality content checks
-	*		   -
-	*		     - |
-	*		         **Factual accuracy and relevance**
-	*		     - |
-	*		         Subject matter expert to complete
-	*		   -
-	*		     - |
-	*		         **Product objectives**
-	*		     - |
-	*		         Content owner to complete
-	*		   -
-	*		     - |
-	*		         **Legislative requirement**
-	*		    - |
-	*		         Legal to complete
-	*		   -
-	*		     - |
-	*		         **SEO and metadata**
-	*		         - meta description is engaging
-	*		         - URL is SEO-friendly
-	*		     - |
-	*		         Web usability expert to complete
-	 */
+	*          -
+	*            - |
+	*                Quality content checks
+	*          -
+	*            - |
+	*                **Factual accuracy and relevance**
+	*            - |
+	*                Subject matter expert to complete
+	*          -
+	*            - |
+	*                **Product objectives**
+	*            - |
+	*                Content owner to complete
+	*          -
+	*            - |
+	*                **Legislative requirement**
+	*            - |
+	*                Legal to complete
+	*          -
+	*            - |
+	*                **SEO and metadata**
+	*                - meta description is engaging
+	*                - URL is SEO-friendly
+	*            - |
+	*                Web usability expert to complete
+	**/
 	table: PropTypes.string,
 };
 
