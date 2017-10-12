@@ -14,9 +14,7 @@ const Table = ( page ) => {
 					return (
 						<td scope="col">
 								{
-									item.split("\n").map(i => {
-										return <div>{ i }</div>;
-									})
+									page._parseMD(item.replace(/(?:\r\n|\r|\n)/g, '<br />\n'))
 								}
 						</td>
 					);
@@ -27,7 +25,7 @@ const Table = ( page ) => {
 	})
 
 	return (
-		<div className="uikit-body uikit-grid table">
+		<div className="uikit-body uikit-grid table template-table">
 			<div className="container">
 				<div className="row">
 					<div className="col-sm-12">

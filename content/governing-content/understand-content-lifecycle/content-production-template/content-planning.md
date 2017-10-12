@@ -2,14 +2,18 @@
 layout: templates/table
 table:
   -
-    - Content Planning
+    - |
+        Content Planning
   -
-    - Audience need or user story
-    - value
+    - |
+        Audience need or user story
+    - |
   -
-    - Call-to-action / main message
-    - value
+    - |
+        Call-to-action / main message
+    - |
   -
-    - Meta description / abstract
-    - value
+    - |
+        Meta description / abstract
+    - |
 ---

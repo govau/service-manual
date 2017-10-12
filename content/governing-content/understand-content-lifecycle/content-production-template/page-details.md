@@ -2,20 +2,26 @@
 layout: templates/table
 table:
   -
-    - Page Details
+    - |
+        Page Details
   -
-    - Content page title
-    - value
+    - |
+        Content page title
+    - |
   -
-    - Location in the IA
-    - value
+    - |
+        Location in the IA
+    - |
   -
-    - Content type
-    - value
+    - |
+        Content type
+    - |
   -
-    - Page status (draft/revise/final)
-    - value
+    - |
+        Page status (draft/revise/final)
+    - |
   -
-    - Go-live date
-    - value
+    - |
+        Go-live date
+    - |
 ---
