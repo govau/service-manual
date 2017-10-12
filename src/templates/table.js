@@ -7,12 +7,12 @@ const Table = ( page ) => {
 	const table = page.table.map((items, index) => {
 
 		if ( index == 0 ) {
-			return <thead><tr colspan="2"> <th scope="col" > <h4>{ items[0 ] }</h4> </th> </tr></thead>
+			return <thead key={ index }><tr colspan="2"><th scope="col" ><h4>{ items[0 ] }</h4></th></tr></thead>
 		} else {
-			return ( <tr>
-				{ items.map(( item ) => {
+			return (<tbody key={ index }><tr>
+				{ items.map(( item, index ) => {
 					return (
-						<td scope="col">
+						<td scope="col" key={ index }>
 								{
 									page._parseMD(item.replace(/(?:\r\n|\r|\n)/g, '<br />\n'))
 								}
@@ -20,6 +20,7 @@ const Table = ( page ) => {
 					);
 				}) }
 			</tr>
+			</tbody>
 			);
 		}
 	})
@@ -69,7 +70,7 @@ Table.propTypes = {
 	*            - |
 	*                Web usability expert to complete
 	**/
-	table: PropTypes.string,
+	table: PropTypes.array,
 };
 
 
