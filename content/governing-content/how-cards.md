@@ -15,7 +15,7 @@ cards:
     link: endorse-guides-standards/
   - headline: Content governance models
     text: Be aware of your agency's content maturity to know which content governance model to apply.
-    link: governance-models/
+    link: content-governance-models/
   - headline: Urgent content requests
     text: Urgent content requests happen in all agencies. Tips to ensure quality in the rush to publish.
     link: urgent-content-requests/
