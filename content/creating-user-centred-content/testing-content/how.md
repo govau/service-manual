@@ -10,7 +10,7 @@ Testing content requires a deep understanding of [user research](/user-research/
 
 If you’re unsure what to test your content for, identify key user needs based on previous contact with users. For example:
 
-- [existing research or feedback](/creating-user-centred-content/using-existing-research-data/) collected by your organisation
+- [existing research or feedback](/user-research/planning-user-research/using-existing-research-data/) collected by your organisation
 - findings from your [Discovery stage](/user-research/research-stages/#user-research-in-discovery-stage)
 
 Focus on your previously identified needs when testing your content. For example, previous user feedback may suggest your content is confusing. Try focusing your content testing on readability and comprehension.

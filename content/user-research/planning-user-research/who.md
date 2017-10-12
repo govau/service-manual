@@ -6,7 +6,7 @@ The first part of user research for a service is [identifying the users and thei
 
 You can learn about users by:
 
-- reviewing existing evidence (for example, analytics, search logs, call centre data, previous research reports)
+- [reviewing existing evidence](using-existing-research-data) (for example, analytics, search logs, call centre data, previous research reports)
 - [interviewing and observing](/user-research/interviewing-users/) actual or likely users
 - talking to people inside and outside your organisation who work with actual or likely users
 
