@@ -34,7 +34,9 @@ See also [Three Uses for Analytics in User-Experience Practice](https://www.nngr
 
 ### [2]Search logs
 
-Search logs are often overlooked but have a lot of information about what users want and how they look for it. Logs can highlight when users are struggling with the way information is presented on your site. Looking at search terms can provide guidance on the words people actually use. Identifying these problems in the search logs can provide evidence for usability problems.
+Search logs are often overlooked but have a lot of information about what users want and how they look for it.
+
+Logs can highlight when users are struggling with the way information is presented on your site. Looking at search terms can provide guidance on the words people actually use. Identifying these problems in the search logs can provide evidence for usability problems.
 
 See also [Search-Log Analysis: The Most Overlooked Opportunity in Web UX Research](https://www.nngroup.com/articles/search-log-analysis/)
 
