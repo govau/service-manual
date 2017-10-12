@@ -7,6 +7,11 @@ header:
 main:
   - category-sections.md
   - intro.md
+  - when-head.md
+  - when.md
+  - how-head.md
+  - how-cards.md
+  - support.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

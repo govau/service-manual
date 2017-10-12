@@ -27,7 +27,11 @@
 		}
 
 		&.category__header--ID-governing-content {
-			background-image: url('../img/governing-content-header.jpg')
+			background-image: url('../img/governing-content-header.jpg');
+		}
+
+		&.category__header--ID-creating-user-centred-content {
+			background-image: url('../img/user-centred-content-header.jpg');
 		}
 
 	}

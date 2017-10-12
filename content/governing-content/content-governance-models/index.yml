@@ -1,4 +1,4 @@
-title: Understand the content lifecycle
+title: Content governance models
 weight: 10
 theme: blue
 header:
@@ -6,8 +6,11 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - ensure-head.md
-  - stages-cards.md
+  - sections.md
+  - identify-head.md
+  - identify.md
+  - match-head.md
+  - match.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
