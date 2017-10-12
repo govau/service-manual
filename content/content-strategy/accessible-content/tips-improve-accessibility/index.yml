@@ -1,16 +1,16 @@
 title: Tips to improve accessibility
-weight: 40
+description: Differentiate between your legacy PDFs (or other documents) and focus on making sure any new content is accessible.
 layout: layout/topic
 theme: blue
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - intro.md          
+  - intro.md
   - sections.md
-  - consider-accessibility-from-start-head.md          
+  - consider-accessibility-from-start-head.md
   - consider-accessibility-from-start.md
-  - large-reports-head.md          
+  - large-reports-head.md
   - large-reports.md
   - retrofitting-accessibility-head.md
   - retrofitting-accessibility.md
