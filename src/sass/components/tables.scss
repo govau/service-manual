@@ -1,5 +1,5 @@
 table {
-  margin-bottom: uikit-space( 0.5 );
+	margin-bottom: uikit-space( 0.5 );
 }
 
 .template-table {
@@ -7,30 +7,30 @@ table {
 }
 
 .content-table {
-  width: 100%;
-  border-collapse: collapse;
+	width: 100%;
+	border-collapse: collapse;
 
-  tr:nth-child(even) {
-	  background-color: $uikit-colour-Link-5;
-  }
+	tr:nth-child(even) {
+		background-color: $uikit-colour-Link-5;
+	}
 
-  td {
-	  p:last-child {
-		  margin-bottom: 0px;
-	  }
-  }
+	td {
+		p:last-child {
+			margin-bottom: 0px;
+		}
+	}
 
-  td,
-  th {
-    padding: uikit-space( 0.5 );
-    text-align: left;
-	border-bottom: solid 1px $uikit-colour-Border-20;
+	td,
+	th {
+		padding: uikit-space( 0.5 );
+		text-align: left;
+		border-bottom: solid 1px $uikit-colour-Border-20;
 
-    @include uikit-media( sm ) {
-      padding: uikit-space( 0.5 );
-      font-size: initial;
-    }
-  }
+	@include uikit-media( sm ) {
+		padding: uikit-space( 0.5 );
+		font-size: initial;
+	}
+}
 
 	th {
 		h4 {
@@ -38,7 +38,8 @@ table {
 			margin: 0;
 		}
 	}
-  thead {
-    border-bottom: solid 2px $uikit-colour-Border;
-  }
+
+	thead {
+		border-bottom: solid 2px $uikit-colour-Border;
+	}
 }
