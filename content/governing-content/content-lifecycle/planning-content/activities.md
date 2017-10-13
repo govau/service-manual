@@ -2,7 +2,7 @@
 layout: text/textblock
 section: Activities
 ---
-[Content planning workshop](/sitemap)
+[Content planning workshop](/governing-content/content-lifecycle/planning-content/content-planning-workshop)
 
 Use this planning workshop to shape a visual content plan that the broader team can understand.
 

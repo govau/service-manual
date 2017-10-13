@@ -1,9 +1,9 @@
 ---
 layout: other/dss_section
 dss:
-- 2
-- 3
-- 11
+  - 2
+  - 3
+  - 11
 section: Why
 ---
 ## [3]Why you should govern content
