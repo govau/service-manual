@@ -19,9 +19,9 @@ const Card = ({ link, background, image, headline, text, cta, preheadline }) => 
 			{ image && <img className='card__image' src={ image } alt="" /> }
 		</div>
 		<div className='card__wrapper'>
-			<div className='card__preheadline__wrapper'>
+			{ preheadline && <div className='card__preheadline__wrapper'>
 				<span className='card__preheadline'>{ preheadline }</span>
-			</div>
+			</div> }
 			<div className='card__headline__wrapper'>
 				<strong className='card__headline'>{ headline }</strong>
 			</div>
