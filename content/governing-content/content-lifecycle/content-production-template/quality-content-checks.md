@@ -51,5 +51,5 @@ table:
        Multimedia
        - images and videos: clearance
    - |
-       Publishers
+       Publisher to complete
 ---
