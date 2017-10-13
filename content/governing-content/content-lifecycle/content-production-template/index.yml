@@ -1,0 +1,16 @@
+title: Content production template
+weight: 10
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - page-details.md
+  - content-planning.md
+  - quality-content-checks.md
+  - main-content.md
+  - priority-content2.md
+  - priority-content3.md
+footer:
+  - /_shared/footer.md
