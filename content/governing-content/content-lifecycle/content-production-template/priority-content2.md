@@ -8,4 +8,5 @@ table:
     - |
         Callout content
     - |
+        Publisher to complete
 ---
