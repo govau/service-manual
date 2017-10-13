@@ -9,4 +9,5 @@ table:
         Relevant related links
         Contact details
     - |
+        Publisher to complete
 ---
