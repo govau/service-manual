@@ -4,7 +4,7 @@ hidden: false
 ---
 ### [2]Content production template
 
-Use the <content production template>[link to html page] to prepare content so that it’s ready for publishers to upload to the CMS. The template gives context for authors and reviewers. It also guides those not experienced in web writing.
+Use the [content production template](../content-production-template/) to prepare content so that it’s ready for publishers to upload to the CMS. The template gives context for authors and reviewers. It also guides those not experienced in web writing.
 
 ### [2]Content design
 

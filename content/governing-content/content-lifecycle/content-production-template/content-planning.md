@@ -3,7 +3,7 @@ layout: templates/table
 table:
   -
     - |
-        Content Planning
+        Content planning
   -
     - |
         Audience need or user story

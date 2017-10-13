@@ -3,11 +3,12 @@ layout: templates/table
 table:
   -
     - |
-        Page Details
+        Page details
   -
     - |
         Content page title
     - |
+
   -
     - |
         Location in the IA
