@@ -1,7 +1,7 @@
 ---
 layout: structure/home_header
 title:  Guides
-description: Helping government teams deliver and manage services.
+description: Build and run government services that meet user needs.
 button: An official website
 title1: The .gov.au means its official
 content1: ''
