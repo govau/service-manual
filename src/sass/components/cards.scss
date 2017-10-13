@@ -25,7 +25,6 @@
 	}
 }
 
-
 .card__wrapper {
 	padding: uikit-space( 0.75 );
 	display: flex;
@@ -143,7 +142,6 @@
 	margin-bottom: 1em;
 	display: block;
 	float: left;
-
 	flex-basis: 100%;
 
 	@include uikit-media( sm ) {
