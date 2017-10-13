@@ -6,7 +6,7 @@ const Table = ( page ) => {
 
 	const thead = <tr colspan="2"><th scope="col" ><h4>{ page.table[0][0] }</h4></th></tr>;
 
-	const table = page.table.map((items, index) => {
+	const rows = page.table.map((items, index) => {
 		if ( index > 0 ) {
 			const values = items.map(( item, index ) => {
 				return (
@@ -30,7 +30,7 @@ const Table = ( page ) => {
 						<table className="content-table" >
 							<thead>{ thead }</thead>
 							<tbody>
-								{ table }
+								{ rows }
 							</tbody>
 						</table>
 					</div>
