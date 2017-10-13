@@ -4,24 +4,21 @@ import React from 'react';
 
 const Table = ( page ) => {
 
-	const table = page.table.map((items, index) => {
+	const thead = <tr colspan="2"><th scope="col" ><h4>{ page.table[0][0] }</h4></th></tr>;
 
-		if ( index == 0 ) {
-			return <thead key={ index }><tr colspan="2"><th scope="col" ><h4>{ items[0 ] }</h4></th></tr></thead>
-		} else {
-			return (<tbody key={ index }><tr>
-				{ items.map(( item, index ) => {
-					return (
-						<td scope="col" key={ index }>
-								{
-									page._parseMD(item.replace(/(?:\r\n|\r|\n)/g, '<br />\n'))
-								}
-						</td>
-					);
-				}) }
-			</tr>
-			</tbody>
-			);
+	const table = page.table.map((items, index) => {
+		if ( index > 0 ) {
+			const values = items.map(( item, index ) => {
+				return (
+					<td scope="col" key={ index }>
+						{
+							page._parseMD(item.replace(/(?:\r\n|\r|\n)/g, '<br />\n'))
+						}
+					</td>
+				);
+			});
+
+			return <tr key={ index }>{ values }</tr>
 		}
 	})
 
@@ -31,7 +28,10 @@ const Table = ( page ) => {
 				<div className="row">
 					<div className="col-sm-12">
 						<table className="content-table" >
-							{ table }
+							<thead>{ thead }</thead>
+							<tbody>
+								{ table }
+							</tbody>
 						</table>
 					</div>
 				</div>
