@@ -1,6 +1,6 @@
 ---
 layout: blocks/image_content_block
-image: /content-strategy/dta-content-decision-tree.png
+image: /governing-content/dta-content-decision-tree.png
 link: /governing-content/dta-content-decision-tree-large.png
 display: 3
 level: 2
