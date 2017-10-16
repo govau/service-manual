@@ -4,7 +4,7 @@ layout: text/textblock
 
 ### [2]Subject matters experts / content leads / web writing experts
 
-The doers understand the [stages of the content lifecycle](/governing-content/understand-content-lifecycle/). They work together to source, create, check and publish quality content.
+The doers understand the [stages of the content lifecycle](/governing-content/content-lifecycle/). They work together to source, create, check and publish quality content.
 
 The subject matter expert or a web writing expert may source and write individually, or share the writing. If pair writing, they will need to clarify and balance both business and user needs.
 

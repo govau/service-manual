@@ -2,7 +2,7 @@
 layout: text/textblock
 section: Guidelines
 ---
-These are the types of guidance you should apply throughout the [content lifecycle](/governing-content/understand-content-lifecycle/).
+These are the types of guidance you should apply throughout the [content lifecycle](/governing-content/content-lifecycle/).
 
 ## [2]Accessibility and inclusivity
 [Writing for accessibility](https://guides.service.gov.au/content-guide/accessibility-inclusivity/) and inclusivity has guidance for content authors to know how to apply [WCAG 2.0](https://guides.service.gov.au/content-guide/accessibility-inclusivity/#wcag-2-0-for-content-authors).
@@ -17,6 +17,7 @@ Outlines the goals of your agency's content strategy for user focused, quality c
 A [Content Guide](https://guides.service.gov.au/content-guide/) to help Australian Government teams design simple, clear and fast content.
 
 ## [2]Search engine optimisation (SEO)
-How to [Write for SEO]() to help users find and understand your information.
+How to Write for SEO, to help users find and understand your information.
 
-Why [SEO strategy]() is important, how to apply a strategy, and drive better results.
+Why SEO strategy is important, how to apply a strategy, and drive better results.
+

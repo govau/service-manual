@@ -15,4 +15,4 @@ Include fields for:
 - reviewers to use when checking for accuracy and quality
 - video accessibility checks: i.e. closed captions, transcript and audio transcript. Add phone numbers of transcription services.
 
-See example [content production template]().
+See example [content production template](/governing-content/content-lifecycle/content-production-template/).
