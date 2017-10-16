@@ -1,20 +1,10 @@
 ---
 layout: intros/intro_with_nav
-subtitle: A website’s top tasks are the top 5 or 10 tasks users want to complete on your website. By working out the top tasks you will define your users’ priorities.
-category: Content design
+subtitle: A website’s top tasks are the top 5 or 10 tasks users want to complete on your website.
 ---
-
-Top tasks are a useful method used in [content design](/creating-user-centred-content/content-design/).
-
-Other content design methods include:
-- [user stories](/creating-user-centred-content/content-design/user-stories/)
-- [journey mapping](/creating-user-centred-content/content-design/journey-mapping/)
-- [mental modelling](/creating-user-centred-content/content-design/mental-modelling/)
-- [pair writing](/creating-user-centred-content/content-design/pair-writing)
-
 
 Users are on your website to complete a task. By prioritising these tasks you can focus on the ‘top tasks’ to meet the greatest number of user needs.
 
-For detailed guidance on top tasks see Gerry McGovern’s article on [A list apart](https://alistapart.com/article/what-really-matters-focusing-on-top-tasks).
+For detailed guidance on top tasks see Gerry McGovern’s article on [A list apart](https://alistapart.com/article/what-really-matters-focusing-on-top-tasks) and on [Medium](https://medium.com/@gerrymcgovern/identifying-customer-top-tasks-ee228206b6ed).
 
-The size of your top tasks activity depends on your team's needs, time and budget. For a large scale project, it’s best to use an experienced user researcher, service designer or specialist in this area.
+The size of your top tasks activity depends on your team's needs, time and budget. For a large scale project, it’s best to get guidance from an experienced user researcher, service designer or specialist in this area.
