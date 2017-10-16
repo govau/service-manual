@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Sign off skills
+section: Sign-off skills
 ---

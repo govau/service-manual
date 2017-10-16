@@ -6,6 +6,9 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - content-lifecycle-image.md
+  - why-use-content-lifecycle.head.md
+  - why-use-content-lifecycle.md
   - ensure-head.md
   - stages-cards.md
   - /_shared/feedback.md
