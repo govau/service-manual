@@ -9,5 +9,5 @@ table:
         Relevant related links
         Contact details
     - |
-        Publisher to complete
+        Content creator to complete
 ---

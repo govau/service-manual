@@ -8,5 +8,5 @@ table:
     - |
         Callout content
     - |
-        Publisher to complete
+        Content creator to complete
 ---
