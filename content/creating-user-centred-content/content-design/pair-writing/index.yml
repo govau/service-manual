@@ -6,6 +6,7 @@ header:
 - /_shared/header.md
 main:
   - intro.md
+  - sections.md
   - how-to-pair-write-head.md
   - how-to-pair-write.md
   - top-tip-head.md
