@@ -51,7 +51,7 @@ const Categoryheader = ( page ) => {
 	}));
 
 	return (
-		<div className={`category__header category__header--${ theme } header category__header--ID-${ Slugify( page._ID ).toLowerCase() }`}>
+		<div id="content" className={`category__header category__header--${ theme } header category__header--ID-${ Slugify( page._ID ).toLowerCase() }`}>
 			<div className="container">
 				<div className="row">
 					<div className="col-md-12">

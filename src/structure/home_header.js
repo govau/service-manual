@@ -50,7 +50,7 @@ const Homeheader = ( page ) => {
 	}));
 
 	return (
-		<div className={`home__header header`}>
+		<div className={`home__header header`} id="content">
 			<div className="container">
 				<div className="row">
 					<div className="col-md-12">

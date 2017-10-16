@@ -18,7 +18,7 @@ const Header = ( page ) => {
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 
 	return (
-		<div className={`header header--${ theme }`}>
+		<div className={`header header--${ theme }`} id="content">
 			<div className="container">
 				<div className="row">
 					<div className="col-md-12 header__sub">
