@@ -5,16 +5,6 @@ category: Content design
 ---
 For example, a pregnant woman will have to interact with government at different times throughout her pregnancy experience as she applies for financial support, registers her baby, and so on.
 
-User journey mapping is an important method used in [content design](/creating-user-centred-content/content-design/)
-
-Other content design methods include:
-- [user stories](/creating-user-centred-content/content-design/user-stories/)
-- [mental modelling](/creating-user-centred-content/content-design/mental-modelling/)
-- [top tasks](/creating-user-centred-content/content-design/top-tasks/)
-- [pair writing](/creating-user-centred-content/content-design/pair-writing)
-
-User journey maps are part of the [service design and delivery process](/service-design-delivery-process/).
-
 A user journey map:
 - gives you a perspective of the user’s experience, thinking, pain points and points of interaction with your service
 - helps define scope and shows you where to solve problems by highlighting user pain points
