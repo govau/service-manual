@@ -3,7 +3,7 @@ layout: text/plaintextblock
 hidden: false
 ---
 
-Subject line:  Sign off brief for [content title]
+Subject line:  Sign-off brief for [content title]
 
 Hi [name]
 
