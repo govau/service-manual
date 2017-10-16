@@ -40,7 +40,7 @@ const Header = ( page ) => {
 							Give feedback
 						</a>
 
-						<div className="header__breadcrumbs">
+						<div className="header__breadcrumbs" id="nav">
 							{
 								breadcrumbs.length > 1
 									? <Breadcrumbs label="Breadcrumb for this page" items={ breadcrumbs } inverted={ theme === 'blue' || theme === 'dark' } />

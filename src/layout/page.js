@@ -27,6 +27,10 @@ const Page = ( page ) => (
 
 		<SkipLink links={[
 			{
+				link: '#nav',
+				text: 'Skip to navigation',
+			},
+			{
 				link: '#content',
 				text: 'Skip to content',
 			}

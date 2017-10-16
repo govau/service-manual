@@ -34,7 +34,7 @@ const LinkList = ({ inverted, inline, items }) => (
 );
 
 const Breadcrumbs = ({ inverted, label, items }) =>	(
-	<nav className={ `uikit-breadcrumbs${ inverted ? ' uikit-breadcrumbs--inverted' : '' }` } aria-label={ label }>
+	<nav id="nav" className={ `uikit-breadcrumbs${ inverted ? ' uikit-breadcrumbs--inverted' : '' }` } aria-label={ label }>
 		<LinkList inverted={ inverted } inline items={ items } />
 	</nav>
 );
