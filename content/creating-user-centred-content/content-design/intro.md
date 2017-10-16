@@ -1,5 +1,5 @@
 ---
-layout: intros/intro
+layout: intros/intro_with_nav
 subtitle: Content design is about creating user-centred content.
 category: Creating user-centred content
 ---

@@ -1,5 +1,5 @@
 ---
-layout: intros/intro
+layout: intros/intro_with_nav
 subtitle: A user journey map shows a user’s experience of an overall service.
 category: Content design
 ---
