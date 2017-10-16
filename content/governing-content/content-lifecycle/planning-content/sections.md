@@ -3,7 +3,7 @@ layout: nav/sections
 sections:
   - Workflow process
   - Activities
-  - Templates
+  - Tools and templates
   - Skills
   - Typical tasks
 ---

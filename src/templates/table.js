@@ -10,7 +10,7 @@ const Table = ( page ) => {
 		if ( index > 0 ) {
 			const values = items.map(( item, index ) => {
 				return (
-					<td scope="col" key={ index }>
+					<td scope="col" key={ index } className={ index+1 == items.length ? `text-right` : null } >
 						{
 							page._parseMD(item.replace(/(?:\r\n|\r|\n)/g, '<br />\n'))
 						}
