@@ -33,12 +33,7 @@ const Page = ( page ) => (
 			{
 				link: '#content',
 				text: 'Skip to content',
-			},
-			{
-				link: '#content',
-				text: 'Skip link with onClick',
-				onClick: () => console.log('This function is called when the last skip link is clicked'),
-			},
+			}
 		]} />
 
 		<header role="banner" className="uikit-body uikit-grid">
