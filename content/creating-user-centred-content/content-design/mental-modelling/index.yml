@@ -1,11 +1,12 @@
 title: Mental modelling
-weight: 10
+weight: 30
 theme: blue
 header:
 - /_shared/globalheader.md
 - /_shared/header.md
 main:
   - intro.md
+  - sections.md
   - how-to-create-mental-model-head.md
   - how-to-create-mental-model.md
   - top-tip-head.md
