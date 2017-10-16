@@ -6,6 +6,7 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - download.md
   - page-details.md
   - content-planning.md
   - quality-content-checks.md
