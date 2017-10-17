@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Typical sign off tasks
+section: Typical sign-off tasks
 ---

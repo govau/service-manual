@@ -1,4 +1,5 @@
 title: Signing off content
+description: Create a brief or checklist for final sign off, so the approver knows what they need to do.
 weight: 40
 theme: blue
 header:
@@ -8,8 +9,8 @@ main:
   - intro.md
   - workflow-process-head.md
   - workflow-process.md
-  - sign-off-tools-head.md
-  - sign-off-tools.md
+  - tools-templates-head.md
+  - tools-templates.md
   - sign-off-skills-head.md
   - sign-off-skills.md
   - typical-sign-off-head.md

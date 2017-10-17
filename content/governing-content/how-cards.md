@@ -1,7 +1,7 @@
 ---
 layout: cards/cards
 cards:
-  - headline: Accountability and ownership
+  - headline: Assign accountability and ownership
     text: Governing content assigns clear lines of accountability and ownership, according to expertise.
     link: accountability-ownership/
   - headline: Using the content lifecycle

@@ -2,13 +2,13 @@
 layout: text/textblock
 section: Activities
 ---
-[Content planning workshop](/sitemap)
+[Content planning workshop](/governing-content/content-lifecycle/planning-content/content-planning-workshop)
 
 Use this planning workshop to shape a visual content plan that the broader team can understand.
 
 Once your plan is complete, use it inform everyone involved.
 
-[Content tasks and skills workshop 0KB PPTX](/sitemap)
+[Content tasks and skills workshop 1.4MB PPTX](/assets/files/governing-content/content-tasks-skills-workshop.pptx)
 
 Use this workshop activity with your immediate or broader teams. Explore the tasks involved in each stage of the content lifecycle and the skills you need to execute those tasks.
 

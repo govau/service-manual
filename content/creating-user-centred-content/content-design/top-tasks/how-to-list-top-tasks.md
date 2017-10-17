@@ -3,7 +3,7 @@ layout: text/textblock
 section: how-to-create-user-stories
 ---
 ## [2]Step 1: Research user tasks
-To find the top tasks for users you can use information you already have, or use existing data such as:
+To find the top tasks for users you can use information you already have, or use data from:
 - frontline staff feedback
 - surveys to staff and users
 - social media
@@ -28,7 +28,7 @@ Your first list will likely be very long.
 If you are short on time and resources you can create a list for a section of your website.
 
 ## [2]Step 3: Refine your task list
-You can refine your list with your key stakeholders. Reduce it to under 100 tasks by removing:
+You can refine your list with your stakeholders. Reduce it to under 100 tasks by removing:
 - duplicates
 - audience-specific tasks
 - high-level goals

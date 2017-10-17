@@ -6,10 +6,11 @@ header:
 - /_shared/header.md
 main:
   - intro.md
-  - meeting-head.md
-  - meeting.md
+  - sections.md
   - how-to-create-user-stories-head.md
   - how-to-create-user-stories.md
+  - jobstories-head.md
+  - jobstories.md
   - top-tip-head.md
   - top-tip.md
   - resources-head.md
