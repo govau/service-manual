@@ -8,25 +8,25 @@ table:
     - |
         Content page title
     - |
-        Publisher to complete
+        To complete
   -
     - |
         Location in the IA
     - |
-        Publisher to complete
+        To complete
   -
     - |
         Content type
     - |
-        Publisher to complete
+        To complete
   -
     - |
         Page status (draft/revise/final)
     - |
-        Publisher to complete
+        To complete
   -
     - |
         Go-live date
     - |
-        Publisher to complete
+        To complete
 ---

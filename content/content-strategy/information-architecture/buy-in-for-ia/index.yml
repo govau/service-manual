@@ -1,4 +1,5 @@
 title: Getting buy-in for your IA
+description: Before you develop or update an IA, you may need to seek approval for additional resources.
 weight: 10
 layout: layout/topic
 theme: blue
@@ -6,7 +7,7 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - intro.md          
+  - intro.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

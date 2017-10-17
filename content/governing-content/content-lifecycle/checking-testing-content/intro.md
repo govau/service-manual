@@ -4,6 +4,6 @@ subtitle: Involve the right people and expertise to check and test content quali
 category: Governing content
 ---
 ## [3]Why check and test content?  
-- Checking before sign off prevents prevents double-handling of content.
+- Checking before sign-off prevents prevents double-handling of content.
 - Testing ensures content is user-focused.
 - Checks avoid the buildup of published content that needs to be repurposed for usability.
