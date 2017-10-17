@@ -13,7 +13,7 @@ Content auditing takes a close look at your digital estate. This could be anythi
 During the task you will gather evidence to make decisions and plan actions such as:
 - removing unnecessary content
 - improving the quality of what remains
-- identifying content gaps
+- finding content gaps
 
 ## [2]Why audit content?
 Around 55% of Australians who look up government information and services online experience a problem as [research tells us](https://www.dta.gov.au/blog/creating-good-content/). Government publishes a lot of information and it can be hard to understand. Users often find it hard to work out what we are asking them to do.
