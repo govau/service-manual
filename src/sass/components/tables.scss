@@ -20,10 +20,13 @@ table {
 		}
 	}
 
+	th {
+		text-align: left;
+	}
+
 	td,
 	th {
 		padding: uikit-space( 0.5 );
-		text-align: left;
 		border-bottom: solid 1px $uikit-colour-Border-20;
 
 	@include uikit-media( sm ) {

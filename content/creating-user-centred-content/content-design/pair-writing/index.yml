@@ -1,11 +1,12 @@
 title: Pair writing
-weight: 10
+weight: 50
 theme: blue
 header:
 - /_shared/globalheader.md
 - /_shared/header.md
 main:
   - intro.md
+  - sections.md
   - how-to-pair-write-head.md
   - how-to-pair-write.md
   - top-tip-head.md

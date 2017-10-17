@@ -10,4 +10,4 @@ Offer communications skills and advice to help them craft their messaging. For e
 - what needs to go where on the web
 - other possible content types, like a news story, blog or social media post
 
-You might like to run a [Content planning workshop](/governing-content/content-lifecycle/planning-content/content-planning-workshop/)with your clients.
+You might like to run a [Content planning workshop](/governing-content/content-lifecycle/planning-content/content-planning-workshop/) with your clients.

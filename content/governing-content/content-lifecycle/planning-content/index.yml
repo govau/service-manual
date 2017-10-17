@@ -1,4 +1,5 @@
 title: Planning content
+description: Plan to define the end-to-end content task so the broader team has clarity about user needs and business goals. 
 weight: 10
 theme: blue
 header:
@@ -11,8 +12,8 @@ main:
   - workflow.md
   - activities-head.md
   - activities.md
-  - templates-head.md
-  - templates.md
+  - tools-templates-head.md
+  - tools-templates.md
   - skills-head.md
   - skills.md
   - typical-tasks-head.md

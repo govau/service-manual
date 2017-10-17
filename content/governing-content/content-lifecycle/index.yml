@@ -1,4 +1,5 @@
 title: Using the content lifecycle
+description: Understand the content lifecycle - know how to create, test and improve content
 weight: 10
 theme: blue
 header:
@@ -6,6 +7,9 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - content-lifecycle-image.md
+  - why-use-content-lifecycle.head.md
+  - why-use-content-lifecycle.md
   - ensure-head.md
   - stages-cards.md
   - /_shared/feedback.md
