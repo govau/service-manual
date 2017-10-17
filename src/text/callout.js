@@ -1,16 +1,11 @@
 import PropTypes from 'prop-types';
-import Slugify from 'slugify';
-import React from 'react';
+ import React from 'react';
 
 
 /**
  * The callout component
  */
 const Callout = ( page ) => {
-
-	const HeadingTag = `h${ page.level }`;
-	const id = page.title ? Slugify( page.title ).toLowerCase() : null;
-
 	return (
 	<div className={ `uikit-body uikit-grid callout` } >
 		<div className="container">
