@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-Some content will need reworking. It’s important to think about this as you’re analysing the content.
+Some content will need reworking. Think about this as you’re analysing the content.
 
 The tasks may involve making your content clearer by:
 - rewriting in the active voice and reducing the number of words

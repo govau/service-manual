@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Methods for content design
+section: Content design methods
 ---

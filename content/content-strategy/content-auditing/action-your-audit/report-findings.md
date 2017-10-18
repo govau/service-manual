@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-Through an audit report you can illustrate important points around your content to get internal stakeholder support to action the data. For example:
+Through an audit report you can illustrate valuable points around your content to get internal stakeholder support to action the data. For example:
 - the amount of targeted content on your website
 - any information architecture (IA) or navigation problems
 - how much inaccurate or out-of-date content there is

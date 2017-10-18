@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Templates
+section: Resources
 ---
