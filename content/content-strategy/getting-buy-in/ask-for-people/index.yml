@@ -1,4 +1,5 @@
 title: Ask for people
+description: Ask senior management for the right number of people to improve your content.
 weight: 30
 layout: layout/topic
 theme: blue
@@ -6,8 +7,8 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - intro.md 
-  - sections.md         
+  - intro.md
+  - sections.md
   - calculate-activities-head.md
   - calculate-activities.md
   - number-of-people-head.md

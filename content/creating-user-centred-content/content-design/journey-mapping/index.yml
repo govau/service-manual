@@ -1,5 +1,6 @@
 title: Journey mapping
-weight: 20
+description: A user journey map is useful in content design as it shows a user’s experience of a service.
+weight: 10
 theme: blue
 header:
 - /_shared/globalheader.md
