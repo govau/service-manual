@@ -13,7 +13,7 @@ Be sure to remember and empathise with this if you’re working with line areas 
 ## [1]Tips for successful working relationships
 
 - Define and discuss roles and responsibilities with the teams involved in the content audit so that everyone understands how they can best contribute.
-- Listen to and document any concerns and needs.
+- Listen to and document any concerns and needs that get raised.
 - Communicate often. Set up regular catch-up meetings to discuss progress. This is also a good way for the wider team to get to know your main stakeholders. 
 - Work with stakeholders on the main aspects of the audit, including setting up any technical work and the process you’ll use when auditing the content. You may be able to share skills and knowledge with each other to make things easier and more efficient.
 

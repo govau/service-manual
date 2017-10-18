@@ -11,8 +11,8 @@ To show costs and efficiencies it helps to highlight what it costs your agency t
 - police and prosecute non-compliance that could have been avoided if people knew what to do
 - manage and maintain your current website and what outcomes you’re getting for that investment
 
-You could establish a ‘cost per view rate’ where you collate the yearly costs of managing and maintaining your site. Costs could include technical, staffing and content development. Then divide this by the number of views you get from users.
+You could calculate a ‘cost per view rate’ by collating the yearly costs of managing and maintaining your site. Costs could include technical, staffing and content development. Then divide this by the number of views you get from users.
 
 With data on user-satisfaction rates, you could plot the yearly spend against user-satisfaction rates and see if there are any relationships or trends.
 
-If you use different processes for managing content development and publishing, you could map these out on a process map. This is a way of identifying any inefficiencies or blockages in the current process, which you could potentially remove.
+If you use different processes for managing content development and publishing, you could map these out on a process map. This is a way of finding any inefficiencies or blockages in the current process, which you could potentially remove.
