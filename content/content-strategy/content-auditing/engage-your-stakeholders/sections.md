@@ -1,9 +1,9 @@
 ---
 layout: nav/sections
 sections:
-  - Identify stakeholders
+  - Recognise stakeholders
   - Get agreement
-  - Identify team members
+  - Recognise team members
   - Manage expectations
   - Working with subject matter experts
   - Manage your content publishing schedule
