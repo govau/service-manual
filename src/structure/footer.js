@@ -26,8 +26,8 @@ const Footer = ( page ) => {
 										return (
 											<li key={ i } className="footer__listitem" >
 												{
-													page._pages[ link ]
-														? <a href={ page._pages[ link ].url } className="footer__link">{ page._pages[ link ].title }</a>
+													page._pages[ link[0] ]
+														? <a href={ page._pages[ link[0] ].url } className="footer__link">{ page._pages[ link[0] ].title }</a>
 														: <a href={ link[1] } className="footer__link">{ link[0] }</a>
 												}
 											</li>
