@@ -1,0 +1,10 @@
+.callout__text {
+	padding: uikit-space( 1 );
+	border: 1px solid black;
+	border-left: 5px solid #007B8D;
+    margin: -1.6em 0 1.6em 0;
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
