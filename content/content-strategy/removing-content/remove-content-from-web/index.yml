@@ -12,6 +12,7 @@ main:
   - set-up.md
   - remove-links-head.md
   - remove-links.md
+  - remove-links-callout.md
   - change-ia-head.md
   - change-ia.md
   - agree-head.md
