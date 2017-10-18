@@ -8,6 +8,8 @@ const Footer = ( page ) => {
 
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 
+	console.log(page);
+
 	return (
 		<footer className={`uikit-grid uikit-body uikit-footer footer footer--${ theme }`} role="contentinfo">
 			<div className="container">
@@ -20,15 +22,17 @@ const Footer = ( page ) => {
 						<div className="footer__links__wrapper">
 							<ul className={`footer__links uikit-link-list uikit-link-list--inline uikit-link-list--inverted`}>
 								{
-									page.links && page.links.map( ( link, i ) =>
-										<li key={ i } className="footer__listitem" >
-											{
-												page._pages[ link ]
-													? <a href={ page._pages[ link ].url } className="footer__link">{ page._pages[ link ].title }</a>
-													: <a href='#' className="footer__link">{ link }</a>
-											}
-										</li>
-									)
+									page.links && page.links.map( ( link, i ) => {
+										return (
+											<li key={ i } className="footer__listitem" >
+												{
+													page._pages[ link ]
+														? <a href={ page._pages[ link ].url } className="footer__link">{ page._pages[ link ].title }</a>
+														: <a href={ link[1] } className="footer__link">{ link[0] }</a>
+												}
+											</li>
+										)
+									})
 								}
 							</ul>
 						</div>
