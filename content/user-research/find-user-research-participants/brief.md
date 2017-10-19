@@ -1,6 +1,5 @@
 ---
 layout: text/textblock
-quote: Don't forget to include participants with access needs and low digital skills.
 ---
 
 You should do user research yourself so that you build empathy with the users. It also means you will understand the relationship between the questions that were asked and the answers that you get.
