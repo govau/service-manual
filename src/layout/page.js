@@ -12,6 +12,7 @@ const Page = ( page ) => (
 		<meta charSet="utf-8" />
 		<meta http-equiv="x-ua-compatible" content="ie=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content={ page.description }/>
 
 		<link rel="stylesheet" href={ `/assets/css/site.css` } />
 		{ page.stylesheet != undefined
@@ -32,12 +33,7 @@ const Page = ( page ) => (
 			{
 				link: '#content',
 				text: 'Skip to content',
-			},
-			{
-				link: '#content',
-				text: 'Skip link with onClick',
-				onClick: () => console.log('This function is called when the last skip link is clicked'),
-			},
+			}
 		]} />
 
 		<header role="banner" className="uikit-body uikit-grid">
@@ -65,6 +61,11 @@ Page.propTypes = {
 	 * title: Homepage
 	 */
 	title: PropTypes.string.isRequired,
+
+	/**
+	 * description: (partials)(5)
+	 */
+	description: PropTypes.string,
 
 	/**
 	 * main: (partials)(5)
