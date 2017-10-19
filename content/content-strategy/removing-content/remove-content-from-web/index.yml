@@ -10,6 +10,8 @@ main:
   - sections.md
   - set-up-head.md
   - set-up.md
+  - set-up-callout.md
+  - using-404.md
   - remove-links-head.md
   - remove-links.md
   - remove-links-callout.md
