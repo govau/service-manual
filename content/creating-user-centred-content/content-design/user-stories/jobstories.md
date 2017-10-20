@@ -11,5 +11,5 @@ Job stories follow the format:
 
 For the readability example above the user is a content designer and the job story could be:
 - When I am creating content
-- I want my content to get a readability score of between 5 and 9
-- So that my content is accessible to people with lower literacy levels
+- I want my content to be written simply
+- So that it can be understood by people with lower literacy levels
