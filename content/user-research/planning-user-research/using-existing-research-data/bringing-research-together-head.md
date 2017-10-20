@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Bringing your research together
+section: Bring your research and data together
 ---

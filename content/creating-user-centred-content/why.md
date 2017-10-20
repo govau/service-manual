@@ -8,9 +8,8 @@ dss:
   - 12
 section: Why
 ---
+### [3]Why create user-centred content?
 
-
-Content that is difficult to use and understand can cause frustration and error.
 The benefits of providing user-centred content are:
 
 - improved user compliance — making government services simple helps users do the right thing
