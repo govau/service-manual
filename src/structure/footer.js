@@ -7,9 +7,7 @@ import React from 'react';
 const Footer = ( page ) => {
 
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
-
-	console.log(page);
-
+	
 	return (
 		<footer className={`uikit-grid uikit-body uikit-footer footer footer--${ theme }`} role="contentinfo">
 			<div className="container">
