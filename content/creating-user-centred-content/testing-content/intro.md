@@ -6,4 +6,4 @@ category: Testing content
 
 You should check and test website content during all stages of its development — and even after it’s published, as user needs can change.
 
-Test web content before a service or website goes live. This can help uncover any problems that may make it hard for people to understand and do what they need to.
+Test web content before a service or website goes live. This can help uncover any problems that may make it hard for people to understand and do what they need to. You may also discover new user needs.
