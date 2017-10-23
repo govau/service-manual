@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: When should you use existing research?
+section: When to use existing research and data
 ---

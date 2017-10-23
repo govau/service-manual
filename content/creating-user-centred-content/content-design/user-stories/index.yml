@@ -8,6 +8,8 @@ header:
 main:
   - intro.md
   - sections.md
+  - benefits-head.md
+  - benefits.md
   - how-to-create-user-stories-head.md
   - how-to-create-user-stories.md
   - jobstories-head.md

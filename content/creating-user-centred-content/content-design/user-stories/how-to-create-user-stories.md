@@ -24,12 +24,12 @@ For example, an overarching story might be:
 
 - As a content designer
 - I need to create user-centred content
-- So that my content meets a user need.
+- So that my content meets a user need
 
 A more detailed task-based user story under this could be:
 - As a content designer
 - I need to understand readability requirements
-- So that my content is clear and accessible to people with low literacy levels.
+- So that my content is clear and accessible to people with low literacy levels
 
 ## [2]Step 4: Write acceptance criteria
 To measure how your content meets a user story you can write acceptance criteria on the back of your index cards. When you meet the acceptance criteria you have completed the user story.
@@ -57,7 +57,7 @@ By prioritising content this way, you can create an MVP for testing. Everything 
 ## [2]Step 6: Write content to match your user stories
 Once you have a detailed story map you can create content that aligns with your stories. 
 
-Traditionally, in an Agile team, developers use user stories to create tasks for each sprint. User stories can also help provide structural outline to your content.
+Traditionally, in an Agile team, developers use user stories to create tasks for each sprint. User stories can also help provide the structural outline to your content.
 
 Your content should meet the acceptance criteria for a story. This is so your content meets a user need.
 
