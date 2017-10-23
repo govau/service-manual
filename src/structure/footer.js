@@ -49,11 +49,11 @@ Footer.propTypes = {
 	/**
 	 * 	links:
 	 *      -
-	 *        - page1 # this needs to be page IDs, they are converted to titles later
+	 *        - page1               # this needs to be page ID, they are converted to titles later
 	 *        - http://pagelink.com # External page link
 	 *      -
-	 *	      - page2 # this needs to be page IDs, they are converted to titles later
-	 *        -		  # can be empty
+	 *	  - page2               # this needs to be page ID, they are converted to titles later
+	 *        -                     # can be empty
 	 */
 	links: PropTypes.array.isRequired,
 
