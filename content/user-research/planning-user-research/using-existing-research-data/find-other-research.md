@@ -4,7 +4,7 @@ section: Identify other possible research sources
 ---
 ### [2]Desktop research
 
-There is a wealth of information on the internet that can help you get started. Explore similar products and services that use best practices.
+There is a wealth of information on the internet that can help you get started. Explore similar products and services that use best practice.
 
 Consider questions such as:
 - How are other people doing what you are doing?

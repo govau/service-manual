@@ -5,7 +5,7 @@ cards:
   text: Ways that analytics can help inform your content designs
   link: 'https://www.nngroup.com/articles/analytics-user-experience/'
   cta: Read on Neilsen Norman Group
-- headline: Search-log analysis: the most overlooked ppportunity in web UX research
+- headline: Search-log analysis: the most overlooked opportunity in web UX research
   text: Advice about how to make search logs useful
   link: 'https://www.nngroup.com/articles/search-log-analysis/'
   cta: Read on Neilsen Norman Group

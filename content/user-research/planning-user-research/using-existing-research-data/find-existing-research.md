@@ -2,7 +2,7 @@
 layout: text/textblock
 section: Identifying existing research
 ---
-Your organisation may already have research about users and their needs. There are many sources you can explore. These include:
+Your organisation may already have research and data about users and their needs. There are many sources you can explore. These include:
 
 ### [2]Call centre data
 
@@ -22,11 +22,9 @@ See also [Three Uses for Analytics in User-Experience Practice](https://www.nngr
 
 Search logs have a lot of information about what users want and how they look for it. Information in search logs can provide evidence for usability problems. Logs can highlight when users are struggling with the way information is presented on your site. Looking at search terms can provide guidance on the words people actually use. Identifying these problems in the search logs can provide evidence for usability problems.
 
-See also [Search-Log Analysis: The Most Overlooked Opportunity in Web UX Research](https://www.nngroup.com/articles/search-log-analysis/)
-
 ### [2]Social media
 
-Your organisation's social media channels can help you recognise trends in users' perceptions. Your agency may also have social media monitoring set up. Reviewing this give a broader perspective of user commentary.
+Your organisation's social media channels can help you recognise trends in users' perceptions. Your agency may also have social media monitoring set up. Reviewing this gives a broader perspective of user commentary.
 
 ### [2]Previous research reports
 
