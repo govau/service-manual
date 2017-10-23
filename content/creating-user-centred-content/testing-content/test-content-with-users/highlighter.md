@@ -10,5 +10,3 @@ It involves giving users different coloured highlighters to highlight certain pa
 - red could indicate the content isn’t useful
 
 In testing sessions, ask users why they highlighted the content the way they did. If there are large sections with no highlighting, ask why. For example, if most of your users ignore a large section and say it’s not relevant to them, you may not need it.
-
-See also [‘A simple technique for evaluating content’](https://userresearch.blog.gov.uk/2014/09/02/a-simple-technique-for-evaluating-content/)
