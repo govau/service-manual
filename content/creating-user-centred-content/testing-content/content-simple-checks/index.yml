@@ -8,6 +8,7 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - sections.md
   - readability-head.md
   - readability.md
   - accessibility-head.md
@@ -16,6 +17,10 @@ main:
   - searchability.md
   - critiques-head.md
   - critiques.md
+  - resources-head.md
+  - resources.md
+  - cases-head.md
+  - cases.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
