@@ -90,10 +90,6 @@
 		height: auto;
 	}
 
-	@include uikit-media( xs ) {
-		width: 18em;
-	}
-
 	.navigation__item {
 		list-style: none;
 		padding-left: 0;
