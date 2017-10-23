@@ -10,9 +10,9 @@ Accessibility tools that you can use to do checks from your desktop include:
 - [Adobe Acrobat X Pro accessibility checker](http://www.adobe.com/accessibility/products/acrobat/training.html#11)
 - [PAC (PDF Accessibility Checker) V2.0](http://www.access-for-all.ch/en/pdf-lab/455-new-test-pdf-files-with-the-pdf-accessibility-checker-pac.html)
 - CommonLook [Global Access](http://commonlook.com/accessibility-software/commonlook-pdf/) and [Clarity](http://commonlook.com/accessibility-software/commonlook-clarity/) for PDF documents
-- [Simpler Accessibility for Google Suite](https://www.grackledocs.com/)
+- [Grackle Docs: simpler accessibility for Google suite](https://www.grackledocs.com/)
 - [resizeMyBrowser](http://resizemybrowser.com/)
 
-There is also [guidance available](https://guides.service.gov.au/content-guide/accessibility-inclusivity/) about designing content so everyone can use it.
+There is also guidance available about [designing content so everyone can use it](https://guides.service.gov.au/content-guide/accessibility-inclusivity/).
 
 See also [Accessibility and inclusivity](https://guides.service.gov.au/content-guide/accessibility-inclusivity/).
