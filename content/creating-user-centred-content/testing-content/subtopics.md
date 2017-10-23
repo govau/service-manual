@@ -7,7 +7,4 @@ cards:
   - headline: Test content with users
     text: When designing content, it needs to be tested with users.
     link: '/creating-user-centred-content/testing-content/test-content-with-users/'
-  - headline: Test content for accessibility
-    text: The Digital Service Standard requires newly designed, or redesigned, government services to be accessible to all users. This should be regardless of their ability and environment.
-    link: '/creating-user-centred-content/testing-content/accessibility-content-tests/'
 ---

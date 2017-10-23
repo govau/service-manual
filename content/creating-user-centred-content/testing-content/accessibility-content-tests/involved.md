@@ -1,5 +1,6 @@
 ---
 layout: text/textblock
+hidden: true
 ---
 Within your team and organisation, you can encourage empathy for diverse users by:
 
