@@ -15,6 +15,8 @@ main:
   - when.md
   - how-head.md
   - how.md
+  - accessibility-head.md
+  - accessibility.md
   - subtopics.md
   - /_shared/feedback.md
 footer:

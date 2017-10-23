@@ -3,6 +3,7 @@ description: Test your web content for accessibility.
 weight: 30
 layout: layout/topic
 theme: blue
+hidden: false
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
