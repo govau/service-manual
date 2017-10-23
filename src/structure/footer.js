@@ -7,7 +7,7 @@ import React from 'react';
 const Footer = ( page ) => {
 
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
-	
+
 	return (
 		<footer className={`uikit-grid uikit-body uikit-footer footer footer--${ theme }`} role="contentinfo">
 			<div className="container">
@@ -47,14 +47,15 @@ const Footer = ( page ) => {
 
 Footer.propTypes = {
 	/**
-	 * links:
-	 *   - page1 # this needs to be page IDs
-	 *   - page2 # they are converted to titles later
-	 *   - page2/nested
-	 *   - content-strategy/content-auditing/prove-the-value
-	 *   - content-strategy/content-auditing/plan-your-audit
+	 * 	links:
+	 *      -
+	 *        - page1 # this needs to be page IDs, they are converted to titles later
+	 *        - http://pagelink.com # External page link
+	 *      -
+	 *	      - page2 # this needs to be page IDs, they are converted to titles later
+	 *        -		  # can be empty
 	 */
-	links: PropTypes.arrayOf( PropTypes.string ).isRequired,
+	links: PropTypes.array.isRequired,
 
 	/**
 	 * _body: (text)(2)
