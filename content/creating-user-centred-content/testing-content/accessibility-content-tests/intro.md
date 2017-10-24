@@ -2,6 +2,7 @@
 layout: intros/intro_with_nav
 subtitle: The Digital Service Standard requires newly designed, or redesigned, government services are accessible to all users. This should be regardless of their ability and environment.
 category: Creating user-centred content
+hidden: true
 ---
 Content should be available to users regardless of their digital confidence and access to a digital environment. This includes users in remote areas and using different devices.
 
