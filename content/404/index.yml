@@ -1,10 +1,12 @@
 title: Error 404
 weight: 60
 hidden: true
+theme: blue
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
+  - intro.md
   - body.md
 footer:
   - /_shared/footer.md
