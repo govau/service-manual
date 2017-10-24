@@ -11,6 +11,10 @@
 		margin-top: uikit-space( 1 );
 	}
 
+	@include uikit-media( lg ) {
+		position: absolute;
+		right: 0;
+	}
 }
 
 .childnav__container {
