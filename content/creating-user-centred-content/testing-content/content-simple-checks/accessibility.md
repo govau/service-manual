@@ -14,5 +14,3 @@ Accessibility tools that you can use to do checks from your desktop include:
 - [resizeMyBrowser](http://resizemybrowser.com/)
 
 There is also guidance available about [designing content so everyone can use it](https://guides.service.gov.au/content-guide/accessibility-inclusivity/).
-
-See also [Accessibility and inclusivity](https://guides.service.gov.au/content-guide/accessibility-inclusivity/).

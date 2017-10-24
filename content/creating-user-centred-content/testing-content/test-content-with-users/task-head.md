@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Task based observation
+section: Task-based observation
 ---
