@@ -2,7 +2,7 @@
 layout: text/textblock
 section: Why use existing research?
 ---
-Existing research can complement your own research. This existing research can complement your own research. It is important to have a good understanding of these sources to create content that's user friendly and of value.
+Existing research can complement your own research. Understanding these sources can help you create content that's user friendly and of value.
 
 Using existing research has many benefits:
 - It can save time and money. 
@@ -11,5 +11,3 @@ Using existing research has many benefits:
 This can help [gain support](/content-strategy/getting-buy-in/) in your organisation for:
 - following a user-centred design process
 - allocating budget and resources to a project
-
-See also [Getting buy-in](/content-strategy/getting-buy-in/)

@@ -1,9 +1,9 @@
 ---
 layout: nav/sections
 sections:
-  - When should you use existing research?
-  - Why use existing research?
-  - Identifying existing research and data
-  - Identify other possible research sources
-  - Bringing your research together
+  - Why use existing research and data?
+  - When to use existing research and data?
+  - Find existing research and data
+  - Find other possible sources
+  - Bring your research and data together
 ---
