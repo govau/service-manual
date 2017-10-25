@@ -1,6 +1,9 @@
 ---
 layout: cards/cards
 cards:
+  - headline: Identifying users and their needs
+    text: User needs are the starting point for any service work.
+    link: '/user-research/identifying-users-needs/'
   - headline: Understanding diversity
     text: Recognise and be aware that users have diverse needs and capabilities.
     link: 'understanding-diversity'
