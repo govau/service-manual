@@ -1,6 +1,6 @@
 ---
 layout: intros/intro
-subtitle: Communicate the guides your agency should apply, and the government standards you must meet.
+subtitle: Senior executives should endorse a range of best practice guides and standards for producing government content.
 category: Governing content
 ---
-When you endorse guides and standards, your teams know what they are responsible for when they produce content. You also send a clear message of [accountability and ownership]().
+Make them available from your intranet so everyone is clear about your expectations for consistent and quality content. You also send a clear message of [accountability and ownership](/governing-content/accountability-ownership/) to your teams.
