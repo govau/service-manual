@@ -4,7 +4,7 @@ cards:
 - headline: Mental models
   text: Read about mental modelling in design  
   link: 'https://www.nngroup.com/articles/mental-models/'
-  cta: Read on Neilsen Norman
+  cta: Read on Nielsen Norman Group
 - headline: Mental model diagrams
   text: Article and cartoon explaining mental model diagrams in practice
   link: 'https://www.smashingmagazine.com/2012/04/mental-model-diagrams-cartoon/'
