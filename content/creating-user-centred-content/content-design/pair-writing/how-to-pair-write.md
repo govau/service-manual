@@ -7,7 +7,7 @@ It’s best for a content design pair to include a subject matter expert and a c
 
 You can organise this one-on-one or in a workshop scenario with several pairs working at once.
 
-If you are working remotely you can pair write using video conferencing and a collaborative tool such as Google docs or Microsoft Word.
+If you are working remotely you can pair write using video conferencing and a collaborative tool such as Google Docs or Microsoft Word.
 
 Be clear to your partner about:
 - how much time you need from them
