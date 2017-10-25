@@ -1,8 +1,9 @@
 ---
 layout: nav/sections
 sections:
-  - Why start with editorial guidance?
+  - Why use a sign-off brief?
   - Workflow process
+  - Activities
   - Tools and templates
   - Skills
   - Typical tasks
