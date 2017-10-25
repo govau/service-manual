@@ -15,5 +15,6 @@ Each round should answer specific research questions with specific user groups. 
 
 We recommend doing a series of small studies instead of investing in one large-scale survey.
 
-Understanding and including diverse users should be an ongoing consideration in your testing. Make sure all your users can access information in your web service.
+Understanding and including diverse users should be an ongoing consideration in your testing.
 
+Make sure all your users can access information in your web service. Do this by doing accessibility checks and testing with users who have access needs.
