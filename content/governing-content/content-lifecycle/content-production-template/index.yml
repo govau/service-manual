@@ -6,12 +6,10 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - download.md
-  - page-details.md
-  - content-planning.md
-  - quality-content-checks.md
-  - main-content.md
-  - priority-content2.md
-  - priority-content3.md
+  - sections.md
+  - using-head.md
+  - using.md
+  - resources-cards-head.md
+  - resources-cards.md
 footer:
   - /_shared/footer.md

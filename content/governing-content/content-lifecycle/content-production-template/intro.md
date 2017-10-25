@@ -1,4 +1,6 @@
 ---
 layout: intros/intro_with_nav
-subtitle: Use the content production template to give authors and reviewers context and to guide those not experienced in web writing.
+subtitle: Use the content production template to prepare, write and check for quality content.
 ---
+
+Download the [content production template 68KB DOCX](/assets/files/governing-content/content-production template.docx).
