@@ -7,7 +7,7 @@ import React from 'react';
 const Footer = ( page ) => {
 
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
-	
+
 	return (
 		<footer className={`uikit-grid uikit-body uikit-footer footer footer--${ theme }`} role="contentinfo">
 			<div className="container">
@@ -24,9 +24,9 @@ const Footer = ( page ) => {
 										return (
 											<li key={ i } className="footer__listitem" >
 												{
-													page._pages[ link[0] ]
-														? <a href={ page._pages[ link[0] ].url } className="footer__link">{ page._pages[ link[0] ].title }</a>
-														: <a href={ link[1] } className="footer__link">{ link[0] }</a>
+													page._pages[ link.title ]
+														? <a href={ page._pages[ link.title ].url } className="footer__link">{ page._pages[ link.title ].title }</a>
+														: <a href={ link.url } className="footer__link">{ link.title }</a>
 												}
 											</li>
 										)
@@ -47,14 +47,13 @@ const Footer = ( page ) => {
 
 Footer.propTypes = {
 	/**
-	 * links:
-	 *   - page1 # this needs to be page IDs
-	 *   - page2 # they are converted to titles later
-	 *   - page2/nested
-	 *   - content-strategy/content-auditing/prove-the-value
-	 *   - content-strategy/content-auditing/plan-your-audit
-	 */
-	links: PropTypes.arrayOf( PropTypes.string ).isRequired,
+	*     -  title: homepage
+	*     -  title: privacy-statement
+	*     -  title: Disclaimer
+	*        url: https://www.dta.gov.au/disclaimer/
+	*     -  title: sitemap
+	**/
+	links: PropTypes.array.isRequired,
 
 	/**
 	 * _body: (text)(2)
