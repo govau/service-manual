@@ -15,6 +15,3 @@ Let requesters know why you need notice of timeframes for announcements or initi
 - Does the content impact existing content that will need to be updated or removed?
 - Do you have inaccessible PDFs? If so, make them accessible and provide an extract and contact details.
 - For high profile content that is of poor quality, discuss a way to resolve before publishing.
-
-### [2]Prepare for urgent requests
-Suggestions to help your agency [prepare for urgent requests](/governing-content/urgent-content-requests/prepare-urgent-request).

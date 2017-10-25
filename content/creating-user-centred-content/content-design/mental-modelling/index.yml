@@ -7,9 +7,10 @@ header:
 main:
   - intro.md
   - sections.md
+  - benefits-head.md
+  - benefits.md
   - how-to-create-mental-model-head.md
   - how-to-create-mental-model.md
-  - top-tip-head.md
   - top-tip.md
   - resources-head.md
   - resources.md

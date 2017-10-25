@@ -7,4 +7,5 @@ cards:
 - headline: Consent forms for user research
   text: How to ensure your users are comfortable and feel safe sharing their experiences.
   link: '/user-research/consent-forms'
+hidden: true
 ---

@@ -3,23 +3,18 @@ layout: intros/intro_with_nav
 subtitle: When designing content, it needs to be tested with users.
 category: Creating user-centred content
 ---
-Testing content is a part of usability testing, and involves:
+Testing content is a part of usability testing and involves:
 
-- observing users using your content (on-site or remotely)
+- observing users using your content (on site or remotely)
 - recording your observations
-- identifying problems and areas it could be improved
+- identifying problems and areas where it could be improved
 
-At a minimum, usability testing needs a small sample size of real, representative users to identify issues. Our recommended sample size is 5 to 10 people. This should happen [throughout the design process](/user-research/research-stages/).
+At a minimum, usability testing needs a small sample size of real, representative users to identify issues. Our recommended sample size is 4 to 8 people per round of research.
 
-We recommend doing a series of small studies instead of investing in one large scale survey.
+Each round should answer specific research questions with specific user groups. This should happen [throughout the design process](/user-research/research-stages/).
 
-Usability testing can test your content for:
+We recommend doing a series of small studies instead of investing in one large-scale survey.
 
-- readability
-- findability
-- comprehension
-- agreeability and tone
-- favourability
-- effectiveness
+Understanding and including diverse users should be an ongoing consideration in your testing.
 
-It can also test if your content supports an interactive process, like completing a form.
+Make sure all your users can access information in your web service. Do this by doing accessibility checks and testing with users who have access needs.

@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Top tip
+section: Using the template
 ---

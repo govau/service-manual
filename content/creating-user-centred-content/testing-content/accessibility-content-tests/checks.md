@@ -1,5 +1,6 @@
 ---
 layout: text/textblock
+hidden: true
 ---
 Having a specialist in accessibility check your content before going live is valuable. However, this won't always be possible.
 

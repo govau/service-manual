@@ -5,4 +5,4 @@ category: Governing content
 ---
 Content governance models by their design, produce varying levels of quality content. 
 
-Recognise your agency’s content maturity level to see which governance model will help to improve on efficiencies and quality production.
+You will need to recognise your agency’s level of content maturity to know which governance model will help to improve on efficiencies and quality production

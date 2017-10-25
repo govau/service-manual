@@ -1,5 +1,6 @@
 ---
 layout: text/textblock
+hidden: true
 ---
 Understanding and including diverse users should be an ongoing consideration in your testing. Make sure your users can access information in your web service.
 

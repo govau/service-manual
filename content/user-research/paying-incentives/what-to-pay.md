@@ -1,6 +1,5 @@
 ---
 layout: text/textblock
-quote:
 ---
 
 If you’ve worked out that it is appropriate to pay an incentive, decide on the type of incentive you will offer.
