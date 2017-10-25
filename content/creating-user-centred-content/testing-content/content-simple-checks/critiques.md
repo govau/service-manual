@@ -16,8 +16,6 @@ A content critique involves:
 
 Try to include people from different disciplines to get fresh ideas and perspectives.
 
-A content critique should be a positive, constructive forum. For example, if you raise an issue with the wording of a sentence, also try to offer a solution.
-
 Content critiques can allow others to give feedback about elements like:
 
 - readability
@@ -25,10 +23,4 @@ Content critiques can allow others to give feedback about elements like:
 - effectiveness
 - tone
 
-### [2]Resources
-- [Design Critiques: Encourage a Positive Culture to Improve Products](https://www.nngroup.com/articles/design-critiques/)
-
-### [2]Examples and case studies
-
-- [Content crits: conquering through collaboration](https://insidegovuk.blog.gov.uk/2016/03/03/content-crits-conquering-through-collaboration/)
-
+A content critique should be a positive, constructive forum. For example, if you raise an issue with the wording of a sentence, also try to offer a solution.
