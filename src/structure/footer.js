@@ -24,9 +24,9 @@ const Footer = ( page ) => {
 										return (
 											<li key={ i } className="footer__listitem" >
 												{
-													page._pages[ link[0] ]
-														? <a href={ page._pages[ link[0] ].url } className="footer__link">{ page._pages[ link[0] ].title }</a>
-														: <a href={ link[1] } className="footer__link">{ link[0] }</a>
+													page._pages[ link.title ]
+														? <a href={ page._pages[ link.title ].url } className="footer__link">{ page._pages[ link.title ].title }</a>
+														: <a href={ link.url } className="footer__link">{ link.title }</a>
 												}
 											</li>
 										)
@@ -47,14 +47,12 @@ const Footer = ( page ) => {
 
 Footer.propTypes = {
 	/**
-	 * 	links:
-	 *      -
-	 *        - page1 # this needs to be page IDs, they are converted to titles later
-	 *        - http://pagelink.com # External page link
-	 *      -
-	 *	      - page2 # this needs to be page IDs, they are converted to titles later
-	 *        -		  # can be empty
-	 */
+	*     -  title: homepage
+	*     -  title: privacy-statement
+	*     -  title: Disclaimer
+	*        url: https://www.dta.gov.au/disclaimer/
+	*     -  title: sitemap
+	**/
 	links: PropTypes.array.isRequired,
 
 	/**
