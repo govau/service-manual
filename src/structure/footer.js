@@ -47,13 +47,12 @@ const Footer = ( page ) => {
 
 Footer.propTypes = {
 	/**
-	 * links:
-	 *   - page1 # this needs to be page IDs
-	 *   - page2 # they are converted to titles later
-	 *   - page2/nested
-	 *   - content-strategy/content-auditing/prove-the-value
-	 *   - content-strategy/content-auditing/plan-your-audit
-	 */
+	*     -  title: homepage
+	*     -  title: privacy-statement
+	*     -  title: Disclaimer
+	*        url: https://www.dta.gov.au/disclaimer/
+	*     -  title: sitemap
+	**/
 	links: PropTypes.array.isRequired,
 
 	/**
