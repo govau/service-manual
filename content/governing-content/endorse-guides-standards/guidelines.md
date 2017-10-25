@@ -4,8 +4,10 @@ section: Guidelines
 ---
 These are the types of guidance you should apply throughout the [content lifecycle](/governing-content/content-lifecycle/).
 
-## [2]Accessibility and inclusivity
+## [2]Accessibility, inclusivity and diversity
 [Writing for accessibility](https://guides.service.gov.au/content-guide/accessibility-inclusivity/) and inclusivity has guidance for content authors to know how to apply [WCAG 2.0](https://guides.service.gov.au/content-guide/accessibility-inclusivity/#wcag-2-0-for-content-authors).
+
+[Understand diversity](/creating-user-centred-content/understanding-diversity/) to be sure to consider diverse user groups.
 
 ## [2]Branding and style guide
 How your agency maintains its online brand values including narrative, visuals and tone of voice.
@@ -20,4 +22,3 @@ A [Content Guide](https://guides.service.gov.au/content-guide/) to help Australi
 How to Write for SEO, to help users find and understand your information.
 
 Why SEO strategy is important, how to apply a strategy, and drive better results.
-
