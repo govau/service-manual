@@ -1,6 +1,6 @@
 title: Publishing content
 description: Web publishers/producers prepare and check the usability of content in the CMS platform and publish it live.
-weight: 50
+weight: 90
 theme: blue
 header:
   - /_shared/globalheader.md
