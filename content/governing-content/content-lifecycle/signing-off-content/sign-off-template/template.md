@@ -9,7 +9,8 @@ Hi [name]
 
 We’re asking for your sign off to publish:
 [insert content title]
-[insert staging URL if appropriate].
+[insert staging URL if appropriate]
+[insert go-live date]
 
 Below is a checklist of what we’ve already validated.
 
