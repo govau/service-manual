@@ -32,4 +32,4 @@ Accessibility issues may include:
 
 By addressing accessibility and diversity, we can make our content simple and easy to understand. 
 
-The [Content Guide](https://guides.service.gov.au/content-guide/accessibility-inclusivity/#audience-diversity) has guidance about creating accessible and inclusive content.
+You can find guidance about [Accessibility and inclusivity](https://guides.service.gov.au/content-guide/accessibility-inclusivity/) in the Content Guide.

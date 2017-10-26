@@ -25,9 +25,9 @@ When you include diverse users in research activities, cater for any access need
 
 ### [2] Engage with specialists
 
-You don’t need to work alone. Diversity specialists can help with creating inclusive content. 
+You don’t need to work alone. Diversity and inclusivity specialists can help with creating inclusive content. 
 
-When doing user research, engage with trusted intermediaries. For example, these may include multicultural service officers in your agency. They can help you:
+When doing user research, you can engage with trusted intermediaries. For example, these may include multicultural service officers in your agency. They can help you:
 
 - address inclusivity considerations
 - ensure your research questions are appropriate
@@ -35,7 +35,7 @@ When doing user research, engage with trusted intermediaries. For example, these
 
 You can also:
 
-- engage a subject matter expert to work with your team — this can ensure you understand and consider issues that affect diverse users
+- engage a subject expert to work with your team — this can ensure you understand and consider issues that affect diverse users
 - engage with government or industry working groups, such as the Commonwealth Working Group on CALD Digital Design — email [multicultural.events@humanservices.gov.au](mailto:multicultural.events@humanservices.gov.au)
 
 ### [2] Encourage empathy for users
