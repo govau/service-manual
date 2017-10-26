@@ -1,6 +1,6 @@
 ---
 layout: intros/intro_with_nav
-subtitle: To improve content and workflow processes successfully you need buy-in from the top level in your organisation. 
+subtitle: You need buy-in from the top level in your organisation to improve content and workflow.
 category: Content Strategy
 ---
 
