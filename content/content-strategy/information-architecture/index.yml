@@ -1,5 +1,6 @@
 title: Information architecture
 weight: 10
+hidden: true
 theme: blue
 header:
   - /_shared/globalheader.md

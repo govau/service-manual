@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Identify stakeholders
+section: Recognise stakeholders
 ---
