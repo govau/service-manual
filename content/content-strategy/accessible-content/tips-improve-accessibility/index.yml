@@ -1,16 +1,28 @@
 title: Tips to improve accessibility
+<<<<<<< HEAD
 description: Differentiate between your legacy PDFs (or other documents) and focus on making sure any new content is accessible.
+=======
+weight: 40
+>>>>>>> parent of 9e94c70... Revert "Merge branch 'test-staging' into develop"
 layout: layout/topic
 theme: blue
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
+<<<<<<< HEAD
   - intro.md
   - sections.md
   - consider-accessibility-from-start-head.md
   - consider-accessibility-from-start.md
   - large-reports-head.md
+=======
+  - intro.md          
+  - sections.md
+  - consider-accessibility-from-start-head.md          
+  - consider-accessibility-from-start.md
+  - large-reports-head.md          
+>>>>>>> parent of 9e94c70... Revert "Merge branch 'test-staging' into develop"
   - large-reports.md
   - retrofitting-accessibility-head.md
   - retrofitting-accessibility.md

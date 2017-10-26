@@ -14,5 +14,3 @@ Your pitch should be simple and include:
 - what the risks are
 - what it will involve. For example, a roadmap of the activities, costs and delivery milestones
 - what comes next: tell them the first thing you need. For example, approval for a content audit, hiring more people or even getting buy-in from another agency
-
-
