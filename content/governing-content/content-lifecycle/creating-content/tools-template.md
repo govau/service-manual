@@ -21,4 +21,6 @@ Know how to help users users find the information they need quickly and easily. 
 
 ### [2]Readability check
 
-Use tools to check the readability of your content. Aim for [Year 5 reading level](https://guides.service.gov.au/content-guide/writing-style/#readability) (the same level a 9 year old can understand). When writing to government and industry users, aim for Year 5 but don’t go above a lower high school reading level. See [WCAG for content authors](https://guides.service.gov.au/content-guide/accessibility-inclusivity/#wcag-2-0-for-content-authors).
+Use tools to check the readability of your content. Aim to make content as readable as possible. This makes it more accessible for everyone, not just users with low literacy. Specialist and technical audiences benefit from plain English too.
+
+It's good to aim for a [Year 5 reading level](https://guides.service.gov.au/content-guide/writing-style/#readability) (around age 9).WCAG criteria 3.1.5 (Level AAA) recommends you [write to lower high school (Year 8 or 9) level](https://guides.service.gov.au/content-guide/accessibility-inclusivity/#wcag-2-0-for-content-authors). Even if you aren't able to achieve Year 5 reading level, the more readable you can make content the better it is for everyone.
