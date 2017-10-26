@@ -14,7 +14,7 @@ Participation in user research helps your team:
 - develop empathy for the users of the service
 - understand how people perceive technology
 - learn about ways people overcome issues with the service
-- find evidence for change
+- communicate powerful evidence for change
 - have a point of reference when making decisions
 
 Team members who observe research can then take part in analysis sessions to help agree on the findings and any resulting actions.

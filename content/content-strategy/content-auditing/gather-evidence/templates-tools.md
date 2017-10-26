@@ -13,4 +13,4 @@ Use these kinds of audit tools when collating content:
 - user feedback or ratings
 - readability tools
 - search analysis tools
-- site mapping toolsß
+- site mapping tools
