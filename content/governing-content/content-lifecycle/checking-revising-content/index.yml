@@ -1,4 +1,4 @@
-title: Checking and testing content
+title: Checking and revising content
 description: Involve the right people and expertise to check and test content quality before revising and sending for final sign-off.
 weight: 60
 theme: blue
@@ -8,10 +8,12 @@ header:
 main:
   - intro.md
   - sections.md
-  - templates-head.md
-  - templates.md
+  - why-head.md
+  - why.md
   - workflow-head.md
   - workflow.md
+  - templates-head.md
+  - templates.md
   - skills-head.md
   - skills.md
   - typical-tasks-head.md

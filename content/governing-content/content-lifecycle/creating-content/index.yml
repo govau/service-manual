@@ -8,6 +8,8 @@ header:
 main:
   - intro.md
   - sections.md
+  - why-head.md
+  - why.md
   - workflow-process-head.md
   - workflow-process.md
   - tools-template-head.md
