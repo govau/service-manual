@@ -1,6 +1,6 @@
 title: Starting a team
 weight: 30
-hidden: true
+hidden: false
 theme: blue
 header:
   - /_shared/globalheader.md
