@@ -22,7 +22,7 @@ Make this the start of your pitch. Be confident and clearly explain the problem 
 
 ### [2]Work out the cost of the need
 
-Quantitative sources like website analytics can help you establish a need for building or improving a service. They can also help you work out a cost to government for not improving a service. These should be your starting point — you’ll use qualitative techniques to identify the real problems.
+Quantitative sources like website analytics can help you discover the need for building or improving a service. They can also help you work out a cost to government for not improving a service. These should be your starting point — you’ll use qualitative techniques to find the real problems.
 
 There are resources that can help you [calculate the return on investment of user experience](https://www.usability.gov/what-and-why/benefits-of-ucd.html) and [prove the value of good user experience](https://medium.com/ux-immersion-interactions/a-proven-method-for-showing-the-value-of-good-ux-c25ae0c86fb4).
 

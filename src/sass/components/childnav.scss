@@ -11,6 +11,10 @@
 		margin-top: uikit-space( 1 );
 	}
 
+	@include uikit-media( lg ) {
+		position: absolute;
+		right: 0;
+	}
 }
 
 .childnav__container {
@@ -88,10 +92,6 @@
 
 	&.is-open {
 		height: auto;
-	}
-
-	@include uikit-media( xs ) {
-		width: 18em;
 	}
 
 	.navigation__item {

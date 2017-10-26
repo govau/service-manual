@@ -3,7 +3,7 @@ layout: text/textblock
 quote: "Everyone in the team needs to see the problems and start building empathy with end users."
 ---
 
-In Discovery the team does user research to understand the problems that users need to be solved. You will examine:
+In Discovery the team does user research to understand the problems that users need to be solved. You will look at
 - all the channels and touchpoints of the service (not just digital)
 - the end-to-end user experience
 - main user groups
