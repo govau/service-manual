@@ -1,8 +1,9 @@
 ---
 layout: nav/sections
 sections:
-  - Why ensure usability before publishing live?
+  - Why use a sign-off brief?
   - Workflow process
+  - Activities
   - Tools and templates
   - Skills
   - Typical tasks

@@ -7,6 +7,9 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - sections.md
+  - why-head.md
+  - why.md
   - workflow-process-head.md
   - workflow-process.md
   - tools-templates-head.md

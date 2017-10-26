@@ -8,8 +8,12 @@ header:
 main:
   - intro.md
   - sections.md
+  - why-head.md
+  - why.md
   - workflow-head.md
   - workflow.md
+  - tools-head.md
+  - tools.md
   - skills-head.md
   - skills.md
   - typical-tasks-head.md

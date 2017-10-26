@@ -1,8 +1,9 @@
 ---
 layout: nav/sections
 sections:
-    - Workflow process
-    - Tools and templates
-    - Skills
-    - Typical tasks
+  - Why start with editorial guidance?
+  - Workflow process
+  - Tools and templates
+  - Skills
+  - Typical tasks
 ---
