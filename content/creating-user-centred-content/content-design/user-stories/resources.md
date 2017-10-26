@@ -6,7 +6,7 @@ cards:
   link: 'https://www.gov.uk/service-manual/agile-delivery/writing-user-stories'
   cta: Read on GOV.UK
 - headline: Write user stories to share responsibility for content
-  text: Sarah Richard's talk on user stories at Agile Content Conference 2016
-  link: 'https://www.gov.uk/service-manual/agile-delivery/writing-user-stories'
-  cta: Read on GOV.UK
+  text: Sarah Richard's talk on user stories at agile content conf 2016
+  link: 'https://2016.agilecontentconf.com/richards'
+  cta: View on agile content conference website
 ---
