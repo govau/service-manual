@@ -1,12 +1,8 @@
 ---
-layout: other/dss_section
-dss:
-  - 2
-  - 3
-  - 11
-section: Why
+layout: intros/intro_category
+category: Why
+title: Why you should govern content
 ---
-## [3]Why you should govern content
 When you govern content, you bring together the right people and expertise and assign accountability and ownership.
 
 Use content governance to:

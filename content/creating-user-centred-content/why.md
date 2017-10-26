@@ -1,14 +1,8 @@
 ---
-layout: other/dss_section
-dss:
-  - 1
-  - 3
-  - 9
-  - 10
-  - 12
+layout: intros/intro_category
 section: Why
+title: Why create user-centred content?
 ---
-### [3]Why create user-centred content?
 
 The benefits of providing user-centred content are:
 
