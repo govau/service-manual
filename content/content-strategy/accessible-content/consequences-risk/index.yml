@@ -1,5 +1,8 @@
 title: Consequences and risk
+<<<<<<< HEAD
 description: Agencies risk being reported to the Human Rights Commission and attracting negative media attention when they fail to conform with accessibility.
+=======
+>>>>>>> parent of 9e94c70... Revert "Merge branch 'test-staging' into develop"
 weight: 20
 layout: layout/topic
 theme: blue
@@ -7,7 +10,11 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
+<<<<<<< HEAD
   - intro.md
+=======
+  - intro.md          
+>>>>>>> parent of 9e94c70... Revert "Merge branch 'test-staging' into develop"
   - sections.md
   - current-policy-head.md
   - current-policy.md
