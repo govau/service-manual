@@ -11,11 +11,11 @@ const Imageblock = ( page ) => {
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 	const backgroundImage = page.image.startsWith('http') ? ` url('${ page.image }') ` : ` url('/assets/img/${ page.image }') `;
 	const reverse = page.reverse ? 'imageblock--reverse' : '';
+	const bottomMargin = page.noBottomMargin ? 'imageblock--nobottommargin' : '';
 	const HeadingTag = `h${ page.level }`;
 
-
 	return (
-		<div className={`imageblock imageblock--${ theme } ${ reverse } uikit-body uikit-grid`}>
+		<div className={`imageblock imageblock--${ theme } ${ reverse } ${ bottomMargin } uikit-body uikit-grid`}>
 			<div className="imageblock__image" style={{ backgroundImage }}>
 				<div className="container">
 					<div className="row">
@@ -66,6 +66,11 @@ Imageblock.propTypes = {
 	 * display: 3
 	 */
 	display: PropTypes.number,
+
+	/**
+	 * noBottomMargin: true
+	 */
+	noBottomMargin: PropTypes.bool,
 
 	/**
 	 * _body: (text)(4)

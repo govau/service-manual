@@ -6,6 +6,7 @@ display: 2
 level: 3
 reverse: true
 imageAlt: "A post-it that says 'As an Australian I need a passport so that I can go overseas and prove who I am'."
+noBottomMargin: false
 ---
 
 Once you have a good understanding of your users’ needs, you should write them down and add them to your descriptions of users.

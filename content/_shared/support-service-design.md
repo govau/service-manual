@@ -5,6 +5,7 @@ section: Support
 title: Join the service design community
 reverse: true
 level: 2
+noBottomMargin: true
 ---
 The Australian Cross Government Service Design Community is a place to share experiences and ask questions. It's for people who contribute to designing Australian government services, including:
 * user research
