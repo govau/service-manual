@@ -7,7 +7,6 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-<<<<<<< HEAD
   - sections.md
   - stakeholders-head.md
   - stakeholders.md
@@ -15,8 +14,6 @@ main:
   - features.md
   - standards-head.md
   - standards.md
-=======
->>>>>>> parent of 9e94c70... Revert "Merge branch 'test-staging' into develop"
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

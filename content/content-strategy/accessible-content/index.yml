@@ -1,11 +1,7 @@
 title: Accessible content
-<<<<<<< HEAD
 description: The people who most need government services and information often find them the hardest to use. Think about creating content that is accessible for everyone from the start.
 weight: 10
 hidden: true
-=======
-weight: 10
->>>>>>> parent of 9e94c70... Revert "Merge branch 'test-staging' into develop"
 theme: blue
 header:
   - /_shared/globalheader.md

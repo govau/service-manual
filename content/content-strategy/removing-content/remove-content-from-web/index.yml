@@ -7,7 +7,6 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-<<<<<<< HEAD
   - sections.md
   - set-up-head.md
   - set-up.md
@@ -24,8 +23,6 @@ main:
   - deletion.md
   - dns-head.md
   - dns.md
-=======
->>>>>>> parent of 9e94c70... Revert "Merge branch 'test-staging' into develop"
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
