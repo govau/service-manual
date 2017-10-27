@@ -10,5 +10,5 @@ You need to split your stakeholders into 2 groups.
 
 You may need to get buy-in from stakeholders outside your agency to remove duplicated information, and to join up content across government agencies.
 
-Your approach to getting buy-in will depend whether your stakeholders are champions of content improvement, or if they are resistant to change. Align with your internal content champions and use their support to influence others.
+Your approach to getting buy-in will depend on whether your stakeholders are champions of content improvement, or if they are resistant to change. Align with your internal content champions and use their support to influence others.
 
