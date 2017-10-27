@@ -5,7 +5,7 @@ section: Support
 title: Join the content community
 reverse: true
 level: 2
-noBottomMargin: false
+noBottomMargin: true
 ---
 Content Design in Australian Government is a community of practice for people working in government content — including content editing, content design, content strategy, communications, marketing, publishing, user experience, accessibility and more.
 
