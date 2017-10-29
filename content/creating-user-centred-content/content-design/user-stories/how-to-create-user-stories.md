@@ -36,7 +36,7 @@ To measure how your content meets a user story you can write acceptance criteria
 
 For our readability example above, acceptance criteria might be that:
 - content is in plain English
-- content was tested on a readability tool and scored a Flesch-Kincaid grade level of between (at least) 5 and 9
+- content was tested with a readability tool and scored between a Year 5 (around age 9) and Year 9 (around age 13) reading level
 - content is tested for comprehension with users
 
 Acceptance criteria should state a high-level intent, rather than a solution. You don’t need more than 4 acceptance criteria.
