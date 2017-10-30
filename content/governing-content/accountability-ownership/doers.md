@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-### [2]Subject matters experts / content leads / web writing experts
+### [2]Subject matter experts / content leads / web writing experts
 
 The doers understand the [stages of the content lifecycle](/governing-content/content-lifecycle/). They work together to source, create, check and publish quality content.
 

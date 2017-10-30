@@ -16,8 +16,6 @@ Surveys may already be set up. Use them to find user pain points and areas that 
 
 Web analytics involves analysing quantitative data the behaviour of users on your website. The most common source is Google Analytics. Analytics can help you recognise usability problems and user types. Often analytics are set up but the data isn't analysed.
 
-See also [Three Uses for Analytics in User-Experience Practice](https://www.nngroup.com/articles/analytics-user-experience/)
-
 ### [2]Search logs
 
 Search logs have a lot of information about what users want and how they look for it. Information in search logs can provide evidence for usability problems. Logs can highlight when users are struggling with the way information is presented on your site. Looking at search terms can provide guidance on the words people actually use. Identifying these problems in the search logs can provide evidence for usability problems.
