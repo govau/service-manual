@@ -1,0 +1,48 @@
+table {
+	margin-bottom: uikit-space( 0.5 );
+}
+
+.template-table {
+	margin-bottom: uikit-space( 1.75 );
+}
+
+.content-table {
+	width: 100%;
+	border-collapse: collapse;
+
+	tr:nth-child(even) {
+		background-color: $uikit-colour-Link-5;
+	}
+
+	td {
+		p:last-child {
+			margin-bottom: 0px;
+		}
+	}
+
+	th {
+		text-align: left;
+	}
+
+	td,
+	th {
+		padding: uikit-space( 0.5 );
+		border-bottom: solid 1px $uikit-colour-Border-20;
+
+	@include uikit-media( sm ) {
+		padding: uikit-space( 0.5 );
+		font-size: initial;
+	}
+}
+
+	th {
+		h4 {
+			padding: 0;
+			margin: 0;
+		}
+	}
+
+	thead {
+		border-bottom: solid 2px $uikit-colour-Border;
+	}
+}

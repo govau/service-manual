@@ -40,6 +40,14 @@ img {
 	max-width: ( $uikit-maxwidth - 5);
 }
 
+.text-right {
+	text-align: right;
+}
+
+.text-left {
+	text-align: left;
+}
+
 .uikit-body p + ul,
 .uikit-body p + ol,
 .uikit-body p + dd {

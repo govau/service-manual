@@ -21,4 +21,15 @@ cards:
     text: A content strategy guides the creation, delivery and governance of useful, usable content.
     link: '/content-strategy/'
     background: '#1B7991'
+  - image: user-centred-content-card.jpg
+    headline: Creating user-centred content
+    text: Create content that your users will find valuable and easy to use.
+    link: '/creating-user-centred-content/'
+    background: '#1B7991'
+  - image: governing-content-card.jpg
+    headline: Governing content
+    text: Governing content aligns the goals of your content strategy for everyone involved – from the top down and agency wide.
+    link: '/governing-content/'
+    background: '#1B7991'
+
 ---
