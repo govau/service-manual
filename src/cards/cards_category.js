@@ -11,7 +11,7 @@ import Card from './card';
 const CardsCategory = ( page ) => (
 	<div className={`uikit-body uikit-grid cards cards--category`}>
 		<div className="container">
-			<ul className="row cards__list">
+			<ul className="cards__list">
 				{
 					page.cards.map( ( card, i ) => (
 						<li key={ i } className="col-sm-6 col-md-4 col-lg-3 cards__list__item">
