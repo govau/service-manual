@@ -7,7 +7,7 @@ level: 3
 reverse: true
 imageAlt: "Two people talking in a white filled office setting."
 caption: Caption: an example of a pop-up research session.
-noBottomMargin: true
+noBottomMargin: false
 ---
 
 Pop-up research is a specific form of user research. Researchers go into the field and intercept people in context for short interviews or usability tests.
