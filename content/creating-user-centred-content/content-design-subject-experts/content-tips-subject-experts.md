@@ -43,15 +43,15 @@ You can test your content’s readability level using tools like [Hemingway](htt
  
 ### [2]Write for the web
 Writing for online platforms is very different to writing for print. To improve your digital content you should:
-- break up text with headings - users should be able to understand the context of your content by reading your headings
+- break up text with headings — users should be able to understand the context of your content by reading your headings
 - write in short sentences and short paragraphs
 - use bullet lists
 - avoid jargon
 - use a tone that is clear and friendly, and not too formal
-- front-load your sentences with important information - users generally read on screen in an [F-shaped pattern](https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/)
+- front-load your sentences with important information — users generally read on screen in an [F-shaped pattern](https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/)
 - consider your user’s cognitive load: keep information short and concise
 - write in the [active voice](https://guides.service.gov.au/content-guide/writing-style/#voice)
-- include a call-to-action - what do you want the user to do with this content?
+- include a call-to-action — what do you want the user to do with this content?
 
 ### [2]Make your content accessible
 Your information needs to be accessible to a wide range of users and follow the [Web Content Accessibility Guidelines (WCAG 2.0)](https://www.w3.org/WAI/intro/wcag).

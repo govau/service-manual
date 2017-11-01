@@ -1,15 +1,19 @@
 ---
 layout: intros/intro
-subtitle: Simple content design guidance for content owners and subject experts.
+subtitle: Content creators often work with subject experts to develop content.
 attrTitle1: Created by
 attrValue1: Digital Transformation Agency and IP Australia
 attrTitle2: Reviewed on
 attrValue2: 1 November 2017
 ---
-The relationship between a subject expert and a content creator plays a major role in content development.
- 
-Subject experts need your expertise in content design. You need an expert for their specialised technical knowledge. Experts can have useful insights about users through their experience in other channels. For example, they may have worked in a call centre or shop front.
+Subject experts can include:
+- technical experts
+- legal professionals
+- policy owners
+- business owners
 
-Workflow processes are different in every department. Sometimes subject experts create content and then deliver it to a web editor, publisher or writer to publish live on a platform. Read more about [content governance models](/governing-content/content-governance-models/).
+Content creators are generally editors, writers, content designers and/or web publishers.
  
-It’s best for both subject expert and content creator to be involved early in the process so that content is accurate and publishable. Even specialised technical content needs to be written for everyone.
+When working together, roles and responsibilities must be clear. This helps both content designer and subject expert have clear expectations of the content creation process.
+ 
+This topic provides subject experts with simple guidance to improve content creation skills and workflow.

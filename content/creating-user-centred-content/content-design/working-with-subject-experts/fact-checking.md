@@ -5,4 +5,4 @@ Always meet face-to-face with people you’re creating content with. That will m
 
 You can then use a collaborative tool such as Microsoft Word or Google docs to start a conversation about the content. Or you can try [pair writing](/creating-user-centred-content/content-design/pair-writing).
 
-It may help to introduce experts to content design through guidance, training in writing for the web or a quick discussion on best practice.
+It may help to [introduce experts to content design](/creating-user-centred-content/content-design-subject-experts/) through guidance, training in writing for the web or a quick discussion on best practice.
