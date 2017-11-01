@@ -7,7 +7,7 @@ In the Alpha stage, you try lots of different approaches to meet user needs and 
 
 This is an important stage and you should make sure you have budget for it. The Alpha stage will help you reduce the risks around:
 - design — making sure you get the right scope for the service
-- business processes — finding out if government can deliver the service
+- business processes — finding out if government can build the service
 - technical — being sure you can integrate the service and make it secure
 
 ### [2]Work out what works, not what's popular

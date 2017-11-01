@@ -1,12 +1,12 @@
-title: Error 404
-weight: 60
-hidden: true
+title: Identify your stakeholders
+weight: 20
+layout: layout/topic
 theme: blue
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
   - intro.md
-  - body.md
+  - /_shared/feedback.md
 footer:
   - /_shared/footer.md

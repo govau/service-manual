@@ -1,5 +1,5 @@
 .cards {
-	margin-bottom: 2em;
+	margin-bottom: 4em;
 }
 
 .cards--2cols {
@@ -24,7 +24,6 @@
 		color: #fff;
 	}
 }
-
 
 .card__wrapper {
 	padding: uikit-space( 0.75 );
@@ -136,6 +135,8 @@
 	.uikit-grid & {
 		padding: 0;
 		margin-bottom: 0;
+		margin-left: -12px;
+		margin-right: -12px;
 	}
 }
 
@@ -143,7 +144,6 @@
 	margin-bottom: 1em;
 	display: block;
 	float: left;
-
 	flex-basis: 100%;
 
 	@include uikit-media( sm ) {

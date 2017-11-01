@@ -23,5 +23,5 @@ You must also be able to:
 - know who the stakeholders are
 - show that the team’s user research activities were developed and overseen by an experienced user researcher and that all team members participated in research
 - demonstrate an understanding of where gaps may emerge in the team structure and how to fill them
-- demonstrate how you plan to share information, collaborate and troubleshoot issues within the team as well as with key people external to the team
+- demonstrate how you plan to share information, work together and troubleshoot issues within the team as well as with key people external to the team
 - explain your plan to transfer knowledge and skills from any external people who work with the team

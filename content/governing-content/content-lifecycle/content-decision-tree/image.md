@@ -5,7 +5,6 @@ link: /governing-content/dta-content-decision-tree-large.png
 display: 3
 level: 2
 reverse: true
-stackPosition: top
 imageAlt: "Flow chart diagram, description follows."
 ---
 

@@ -34,7 +34,7 @@ const LinkList = ({ inverted, inline, items }) => (
 );
 
 const Breadcrumbs = ({ inverted, label, items }) =>	(
-	<nav className={ `uikit-breadcrumbs${ inverted ? ' uikit-breadcrumbs--inverted' : '' }` } aria-label={ label }>
+	<nav id="nav" className={ `uikit-breadcrumbs${ inverted ? ' uikit-breadcrumbs--inverted' : '' }` } aria-label={ label }>
 		<LinkList inverted={ inverted } inline items={ items } />
 	</nav>
 );
@@ -50,7 +50,7 @@ const Homeheader = ( page ) => {
 	}));
 
 	return (
-		<div className={`home__header header`}>
+		<div className={`home__header header`} id="content">
 			<div className="container">
 				<div className="row">
 					<div className="col-md-12">
@@ -75,7 +75,9 @@ const Homeheader = ( page ) => {
 									}
 							</div>
 
-							<a className="feedback__btn" href="https://www.surveymonkey.com/r/XFWJ5TC" ><button className="uikit-btn">Give feedback</button></a>
+							<a href="https://www.surveymonkey.com/r/XFWJ5TC" className="feedback__btn uikit-btn">
+								Give feedback
+							</a>
 
 							{ /*	removed until nav is ready
 							<div className="header__menu">

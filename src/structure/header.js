@@ -18,7 +18,7 @@ const Header = ( page ) => {
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 
 	return (
-		<div className={`header header--${ theme }`}>
+		<div className={`header header--${ theme }`} id="content">
 			<div className="container">
 				<div className="row">
 					<div className="col-md-12 header__sub">
@@ -36,9 +36,11 @@ const Header = ( page ) => {
 							</a>
 						</div>
 
-						<a className="feedback__btn" href="https://www.surveymonkey.com/r/XFWJ5TC" ><button className="uikit-btn">Give feedback</button></a>
+						<a href="https://www.surveymonkey.com/r/XFWJ5TC" className="feedback__btn uikit-btn">
+							Give feedback
+						</a>
 
-						<div className="header__breadcrumbs">
+						<div className="header__breadcrumbs" id="nav">
 							{
 								breadcrumbs.length > 1
 									? <Breadcrumbs label="Breadcrumb for this page" items={ breadcrumbs } inverted={ theme === 'blue' || theme === 'dark' } />

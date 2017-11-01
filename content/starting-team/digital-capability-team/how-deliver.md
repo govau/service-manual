@@ -14,7 +14,7 @@ A team of people who have low levels of experience may have high digital capabil
 
 A team of experienced people may have low digital capability because they:
 
--  don’t collaborate well with each other
+-  don’t work well with each other
 -  don’t focus on meeting user needs
 -  work in silos
 -  do things the way things have always been done

@@ -20,15 +20,17 @@ const Footer = ( page ) => {
 						<div className="footer__links__wrapper">
 							<ul className={`footer__links uikit-link-list uikit-link-list--inline uikit-link-list--inverted`}>
 								{
-									page.links && page.links.map( ( link, i ) =>
-										<li key={ i } className="footer__listitem" >
-											{
-												page._pages[ link ]
-													? <a href={ page._pages[ link ].url } className="footer__link">{ page._pages[ link ].title }</a>
-													: <a href='#' className="footer__link">{ link }</a>
-											}
-										</li>
-									)
+									page.links && page.links.map( ( link, i ) => {
+										return (
+											<li key={ i } className="footer__listitem" >
+												{
+													page._pages[ link.title ]
+														? <a href={ page._pages[ link.title ].url } className="footer__link">{ page._pages[ link.title ].title }</a>
+														: <a href={ link.url } className="footer__link">{ link.title }</a>
+												}
+											</li>
+										)
+									})
 								}
 							</ul>
 						</div>
@@ -45,14 +47,13 @@ const Footer = ( page ) => {
 
 Footer.propTypes = {
 	/**
-	 * links:
-	 *   - page1 # this needs to be page IDs
-	 *   - page2 # they are converted to titles later
-	 *   - page2/nested
-	 *   - content-strategy/content-auditing/prove-the-value
-	 *   - content-strategy/content-auditing/plan-your-audit
-	 */
-	links: PropTypes.arrayOf( PropTypes.string ).isRequired,
+	*     -  title: homepage
+	*     -  title: privacy-statement
+	*     -  title: Disclaimer
+	*        url: https://www.dta.gov.au/disclaimer/
+	*     -  title: sitemap
+	**/
+	links: PropTypes.array.isRequired,
 
 	/**
 	 * _body: (text)(2)

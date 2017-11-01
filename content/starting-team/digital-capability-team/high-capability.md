@@ -1,7 +1,7 @@
 ---
 layout: text/textblock
 ---
-Teams with high digital capability deliver quality products that meet user needs. They deliver faster and iterate quickly based on research with users.
+Teams with high digital capability build quality products that meet user needs. They build faster and iterate quickly based on research with users.
 
 Everyone in the team will be expert at collaborating with people in other roles, and people with different levels of experience. They will know how to use modern tools and techniques.
 
