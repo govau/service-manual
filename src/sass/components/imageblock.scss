@@ -1,5 +1,5 @@
 .imageblock {
-	background-color: $uikit-colour-Primary-90;
+	background-color: $uikit-colour-Primary;
 	color: #fff;
 	margin-bottom: uikit-space( 1.25 );
 
@@ -27,7 +27,7 @@
 
 		&:after {
 			content: '';
-			background-color: $uikit-colour-Primary-90;
+			background-color: $uikit-colour-Primary;
 			top: 0;
 			left: 0;
 			right: 50%;
@@ -62,10 +62,10 @@
 
 .imageblock__content--blue,
 .imageblock__content--dark {
-	background-color: $uikit-colour-Primary-90;
+	background-color: $uikit-colour-Primary;
 
 	@include uikit-media( sm ) {
-		background-color: $uikit-colour-Primary-90;
+		background-color: $uikit-colour-Primary;
 	}
 }
 
