@@ -16,4 +16,7 @@ cards:
   - headline: Testing content
     text: How to test and check your content is easy to read and use.
     link: 'testing-content'
+  - headline: Content design for subject experts
+    text: Content creators often work with subject experts to develop content.
+    link: 'content-design-subject-experts'
 ---
