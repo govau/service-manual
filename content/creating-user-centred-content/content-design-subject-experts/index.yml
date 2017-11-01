@@ -1,0 +1,18 @@
+title: Content design for subject experts
+description: Simple content design guidance for content owners and subject experts
+theme: blue
+header:
+- /_shared/globalheader.md
+- /_shared/header.md
+main:
+  - intro.md
+  - sections.md
+  - role-subject-expert-head.md
+  - role-subject-expert.md
+  - content-tips-subject-experts-head.md
+  - content-tips-subject-experts.md
+  - next-steps-head.md
+  - next-steps.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer-gds.md

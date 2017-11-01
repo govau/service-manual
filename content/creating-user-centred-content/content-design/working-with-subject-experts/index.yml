@@ -1,0 +1,25 @@
+title: Working with subject experts
+description: Guidance for content designers working with subject experts to create content
+weight: 60
+theme: blue
+header:
+- /_shared/globalheader.md
+- /_shared/header.md
+main:
+  - intro.md
+  - sections.md
+  - prove-value-head.md
+  - prove-value.md
+  - find-right-person-head.md
+  - find-right-person.md
+  - be-clear-head.md
+  - be-clear.md
+  - careful-with-language-head.md
+  - careful-with-language.md
+  - negotiating-changes-head.md
+  - negotiating-changes.md
+  - fact-checking-head.md
+  - fact-checking.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer-gds.md
