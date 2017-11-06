@@ -8,6 +8,8 @@ header:
 main:
   - intro.md
   - sections.md
+  - relationship-head.md
+  - relationship.md
   - prove-value-head.md
   - prove-value.md
   - find-right-person-head.md
