@@ -18,9 +18,9 @@ Content design is about creating well-structured and clear content that meets a 
 Well-designed content will help you:
 - communicate information to your user quickly and easily
 - save time, money and people by helping users access information they need through content, rather than call centres or face-to-face help
-- create content that isn’t rejected by web publishing teams for style, accessibility or online publishing reasons
-- create content that meets a user need
-- create content for everyone
+- limit rejections by web publishing teams for style, accessibility or online publishing reasons
+- meet a user need
+- ensure your information is accessible for everyone
 
 ### [2]Role of the content creator
 Trust the expertise of web publishing teams and/or communication teams and their knowledge of best practice digital methods.
@@ -37,7 +37,7 @@ It’s also useful to understand your department’s workflow. Talk to the web p
 ### [2]Write in plain English
 Legally, government content needs to be available for users. That means creating content that is clear and easy to understand.
  
-Plain English doesn’t mean ‘dumbing down’. Technical content can be written to help your users access and comprehend the information they need quickly. 
+Plain English doesn’t mean ‘dumbing down’. Technical content can be written in plain English to help your users access and comprehend the information they need quickly. 
  
 You can test your content’s readability level using tools like [Hemingway](http://www.hemingwayapp.com) or Microsoft Word’s readability check.
  
