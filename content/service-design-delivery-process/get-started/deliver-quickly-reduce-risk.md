@@ -4,7 +4,7 @@ layout: text/textblock
 
 The service design and delivery process helps teams start delivering quickly. It also helps them to adjust their work to new information they get about your users and their needs. This reduces the risk of building the wrong thing.
 
-Other governments, including the UK and the US, are following a similar processes to make sure they add value to their citizens. It’s also part of meeting the Digital Service Standard.
+Other governments, including the UK and the US, are following similar processes to make sure they add value to their citizens. It’s also part of meeting the Digital Service Standard.
 
 ### [2]Deliver the right thing
 The process focuses teams on building end-to-end services. This helps people to get things done in the way that suits them best. It also helps users with additional needs to get things done.
@@ -13,7 +13,7 @@ The process focuses teams on building end-to-end services. This helps people to 
 Frequent incremental releases increase value for users and give feedback on what needs more work. This helps the team to prioritise its resources so they keep building what users actually need.
 
 ### [2]More visibility
-Regular showcases of work are build into how teams follow the process. They discover very quickly if something is not meeting user’s needs.
+Regular showcases of work are built into how teams follow the process. They discover very quickly if something is not meeting user’s needs.
 
 ### [2]More adaptable
 The process is iterative and transparent, with quick feedback loops. Teams learn more about user needs earlier on, and can make better decisions about how to meet them with the available resources.

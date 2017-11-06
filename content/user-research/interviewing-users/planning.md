@@ -25,7 +25,7 @@ Make sure you arrange for interpreters or assistants to help participants that n
 ### [2]Prepare consent forms
 You’ll need to make sure you have [informed consent from the participants](/user-research/consent-forms/) before you interview them.
 
-Think about about if you need to record the session and make sure the consent forms cover this.
+Think about whether you need to record the session. If you do, make sure the consent forms cover this.
 
 ### [2]Prepare for observers
 Invite [observers and arrange a note taker](/user-research/interviewing-users/#taking-notes-and-observing) for each session.
