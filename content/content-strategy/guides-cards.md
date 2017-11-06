@@ -4,6 +4,9 @@ cards:
   - headline: Getting buy-in
     text: How to get buy-in from senior leaders and key stakeholders for content improvement throughout the content lifecycle.
     link: getting-buy-in/
+  - headline: Balancing business and user needs
+    text: When creating content, consider and balance the needs of both business and users.
+    link: balance-user-business   
   - headline: Content auditing
     text: By getting a clear understanding of what content sits where — and how useful it is — you can create evidence for improvements and change.
     link: content-auditing/
