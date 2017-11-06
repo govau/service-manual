@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-You will create several artefacts and keep adding to them as you go through Discovery. The team will keep building and validating these artefacts — especially the user journey map — as you go through the later stages.
+You will create several artefacts and keep adding to them as you go through Discovery. The team will keep building and validating these artefacts — especially the user journey map — as it goes through the later stages.
 
 An [empathy wall](/user-research/research-stages/#empathy-wall) helps the team understand how real users get things done and their experience with current service and products.
 

@@ -22,9 +22,9 @@ Tell people how the process will add value to how they work. These Guides and ca
 The service design and delivery process is a big change in how people work in government. It can be helpful to introduce the concepts to a team in somewhere away from the usual workplace.
 
 Talk to people about how the process can help them to:
-experiment more
-have more decision-making influence
-be able increase their skills in new ways
+- experiment more
+- have more decision-making influence
+- be able increase their skills in new ways
 
 Make sure you listen and respond to all problems. Be honest about the roles and capability you need in the team, how you will measure this and what training is available.
 

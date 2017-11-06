@@ -20,7 +20,7 @@ If you are doing usability testing as part of the interview, the structure will 
 ### [2]Writing interview questions
 Write questions that are open and neutral.
 
-Work on questions with your team to avoid confirmation bias. Confirmation bias is when the way a question is asked limits the participant to an answer you want or are already expecting.
+Work on questions with your team to avoid confirmation bias. Confirmation bias can occur when the way a question is asked limits the participant to an answer you want or are already expecting.
 
 Learn about confirmation bias and other [cognitive biases in user research](http://www.uxaustralia.com.au/conferences/uxaustralia-2016/presentation/6-cognitive-biases/).
 

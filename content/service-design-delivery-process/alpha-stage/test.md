@@ -36,7 +36,7 @@ Prototype by sketching in code, using HTML, CSS and JavaScript. Software like Ax
 
 Use a static-site generator (for example, [Jekyll](https://jekyllrb.com/)).
 
-A static-site generator allows you to keep your prototype simple, with just HTML, CSS and JavaScript, but allows you to easily share templates and stylesheets across multiple pages.
+A static-site generator allows you to keep your prototype simple, with just HTML, CSS and JavaScript, but allows you to easily share templates and style sheets across multiple pages.
 
 It is also easy for designers to make changes directly to the prototype, without having to wait on a developer to make changes.
 

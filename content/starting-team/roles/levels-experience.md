@@ -2,7 +2,7 @@
 layout: text/textblock
 quote: Multidisciplinary teams are a great way for people to increase their skills.
 ---
-It’s important that each team member is a practitioner in their role (for example, interaction design or user research). They should also have some knowledge about other related roles.
+It’s important that team members are practitioners in their roles (for example, interaction design or user research). They should also have some knowledge about other related roles.
 
 People who have both expertise in their role and the ability to collaborate across others are said to have [T-shaped skills](../multidisciplinary-team/#get-the-right-mindset-and-skills).
 
