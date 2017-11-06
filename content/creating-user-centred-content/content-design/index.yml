@@ -1,6 +1,7 @@
 title: Content design
 weight: 10
 theme: blue
+description: Content design is about creating user-centred content.
 header:
 - /_shared/globalheader.md
 - /_shared/header.md

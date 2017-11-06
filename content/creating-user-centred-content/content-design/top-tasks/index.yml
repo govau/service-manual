@@ -1,6 +1,7 @@
 title: Top tasks
 weight: 40
 theme: blue
+description: A website’s top tasks are the top 5 or 10 tasks users want to complete on your website.
 header:
 - /_shared/globalheader.md
 - /_shared/header.md
