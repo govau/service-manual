@@ -1,0 +1,21 @@
+title: Engage and understand business
+description: Engage with stakeholders and understand their business needs.
+weight: 10
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - sections.md
+  - understand-head.md  
+  - understand.md
+  - meet-head.md
+  - meet.md
+  - talk-head.md
+  - talk.md
+  - business-needs-head.md
+  - business-needs.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

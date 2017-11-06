@@ -1,0 +1,21 @@
+title: Align with business on user needs
+description: Align with stakeholders to balance business and user needs
+weight: 20
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - sections.md
+  - talk-head.md  
+  - talk.md
+  - show-head.md
+  - show.md
+  - align-head.md
+  - align.md
+  - work-head.md
+  - work.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

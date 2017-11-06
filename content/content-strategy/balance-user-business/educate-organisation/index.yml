@@ -1,0 +1,17 @@
+title: Educate your organisation
+description: Create cultural change in your organisation about the importance of understanding user needs.
+weight: 20
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - sections.md
+  - recruit-head.md  
+  - recruit.md
+  - communicate-head.md
+  - communicate.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md
