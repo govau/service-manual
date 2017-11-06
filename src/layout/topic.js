@@ -64,6 +64,11 @@ Topic.propTypes = {
 	title: PropTypes.string.isRequired,
 
 	/**
+	 * description: (partials)(5)
+	 */
+	description: PropTypes.string,
+
+	/**
 	 * main: (partials)(5)
 	 */
 	main: PropTypes.node.isRequired,
