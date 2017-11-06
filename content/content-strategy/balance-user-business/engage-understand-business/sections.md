@@ -1,10 +1,8 @@
 ---
 layout: nav/sections
 sections:
-  - Action the data
-  - Report your findings
-  - Delete content
-  - Archive content
-  - Rewrite content
-  - Maintain content
+  - Understand the business perspective
+  - Meet with stakeholders
+  - Talk about the content sign-off process
+  - Understand the business needs of your organisation
 ---

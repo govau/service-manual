@@ -1,5 +1,5 @@
 ---
 layout: intros/intro_with_nav
-subtitle: After you’ve completed your audit, you need to report your findings so you get stakeholder support to action the data and improve your content.
+subtitle: It’s important to engage with stakeholders to understand their needs.
 category: Content strategy
 ---

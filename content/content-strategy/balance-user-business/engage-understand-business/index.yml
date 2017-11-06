@@ -1,5 +1,5 @@
 title: Engage and understand business
-description: 
+description: Engage with stakeholders and understand their business needs.
 weight: 10
 layout: layout/topic
 theme: blue
@@ -9,7 +9,7 @@ header:
 main:
   - intro.md
   - sections.md
-  - understand-head.md       
+  - understand-head.md  
   - understand.md
   - meet-head.md
   - meet.md
