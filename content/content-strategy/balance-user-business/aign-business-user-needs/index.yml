@@ -12,6 +12,8 @@ main:
   - talk.md
   - show-head.md
   - show.md
+  - align-head.md
+  - align.md
   - work-head.md
   - work.md
   - /_shared/feedback.md
