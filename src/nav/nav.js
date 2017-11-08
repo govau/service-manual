@@ -35,7 +35,7 @@ const Navigation = ({
 				.map( ( pageID, i ) => {
 					const homepage = homepageName === '' ? Object.keys( nav )[ 0 ] : homepageName;
 					const page = nav[ pageID ];
-					const _displayItem =  noParents && pageID.startsWith( startID ) || level === 2 && childnav1lvl === true || !noParents;
+					const _displayItem =  noParents && (pageID.startsWith( startID ) && (pageID.charAt(startID.length) == '' || pageID.charAt(startID.length) == '/') ) || level === 2 && childnav1lvl === true || !noParents;
 
 					// We only pursue this element if it either
 					// starts with our startID or is the homepage if we got noParents = true
