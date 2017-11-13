@@ -5,10 +5,13 @@ body {
 	padding: 0;
 }
 
-body {
-	display: flex;
-	flex-direction: column;
+@supports (display: flex) {
+	body {
+		flex-direction: column;
+		display: flex;
+	}
 }
+
 
 header[role='banner'] {
 	flex: none;
