@@ -10,6 +10,7 @@ const Page = ( page ) => (
 	<head>
 		<title>Guides - { page.title }</title>
 		<meta charSet="utf-8" />
+		<meta name="google-site-verification" content="fXPmqCfxWVHNxpSlw6Bm6pmuUcMuTILat3eixX8gbM8" />
 		<meta http-equiv="x-ua-compatible" content="ie=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content={ page.description }/>
