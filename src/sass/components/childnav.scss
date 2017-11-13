@@ -137,17 +137,10 @@
 	}
 }
 
-
 .navigation--level-4 {
 	left: 15px;
+	position: relative;
 }
-
-.childnav__list {
-	&.navigation--level-4 {
-		position: absolute;
-	}
-}
-
 
 .childnav__list {
 	.js .childnav .childnav__container > & {
