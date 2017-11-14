@@ -87,7 +87,7 @@ jobs:
       - run: cf version
       - run: cf login -a api.system.y.cld.gov.au -o $CF_ORG_STAGING -s $CF_SPACE_STAGING -u $CF_USER_STAGING -p $CF_PASSWORD_STAGING
       - run: tree -C
-      - run: cf push -f manifest-staging.yml $CIRCLE_BRANCH
+      - run: cf push -f manifest-testing.yml $CIRCLE_BRANCH
 
 
 # OUR WORKFLOW
