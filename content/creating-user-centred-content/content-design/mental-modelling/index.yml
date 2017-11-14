@@ -1,6 +1,7 @@
 title: Mental modelling
 weight: 30
 theme: blue
+description: A mental model maps a user’s thoughts and behaviours as they navigate a website or access information.
 header:
 - /_shared/globalheader.md
 - /_shared/header.md

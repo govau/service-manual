@@ -32,4 +32,4 @@ The research methods you use will determine the number of participants that you 
 - more than 250 participants for benchmarking
 
 
-Do a gap analysis to make sure you don’t miss out on important groups.
+Do a gap analysis to make sure you don’t miss important groups.

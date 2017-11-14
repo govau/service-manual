@@ -11,4 +11,4 @@ Follow these steps to gather observations:
 
 If your team is experienced and you’re doing research in a lab, they may be able to capture their observations on sticky notes during the session itself.
 
-If you go into a session wanting to capture 1 main thing, you might be able to capture that straight onto sticky notes during the research session. For example, if you only want verbatims, you can capture these straight onto sticky notes during the sessions.
+If you go into a session wanting to capture 1 main thing, you might be able to capture that straight onto sticky notes during the research session. For example, if you only want verbatim statements, you can capture these straight onto sticky notes during the sessions.

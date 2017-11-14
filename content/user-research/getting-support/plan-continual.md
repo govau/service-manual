@@ -15,7 +15,7 @@ Doing this means you can:
 - respond to changing user behaviour and feedback to continuously improve the service
 
 ### [2]Allow enough time for research
-You'll be able to develop a clear user research plan after you product kicks off. In the mean time, you can still talk about about how you will schedule user research.
+You'll be able to develop a clear user research plan after your product kicks off. In the meantime, you can still talk about how you will schedule user research.
 
 Throughout each development stage, user researchers should be:
 - part of the team

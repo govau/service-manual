@@ -20,6 +20,6 @@ These research activities will usually give you:
 
 ### [2]How often to research in Live
 
-The frequency and depth of your research once you reach Live stage depends on what you are trying to find out. For example, if you are looking to add a new component to your service, you would start Discovery again.
+The frequency and depth of your research once you reach Live stage depends on what you are trying to find out. For example, if you were looking to add a new component to your service, you would start Discovery again.
 
 If your product is to be decommissioned, you need to find out how people use it now to know the gap that will be created when the service is gone.
