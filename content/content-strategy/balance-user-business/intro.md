@@ -8,8 +8,6 @@ attrValue2: 6 November 2017
 category: Content Strategy
 ---
 
-When creating content, consider and balance the needs of both business and users.
-
 A balance in understanding business and user needs can:
 - reduce silos
 - clarify your team’s goal

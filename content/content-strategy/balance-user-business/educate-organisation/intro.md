@@ -1,9 +1,9 @@
 ---
 layout: intros/intro_with_nav
-subtitle: Some business areas may not understand the value of the content design process.
+subtitle: You may need to help others understand the link between business and user needs. 
 category: Content strategy
 ---
 
-It may also be a wider issue across your organisation. This may mean business areas approach your team with content requests late in a project. 
+Some business areas may not understand the value of the content design process. It may also be a wider issue across your organisation. For example, this may mean business areas approach your team with content requests late in a project. 
 
-You may need to help others understand the link between business and user needs. You can do this by promoting cultural change and education.
+You can help balance business and user needs through cultural change and education.

@@ -10,6 +10,3 @@ Also, encourage and empower stakeholders to get involved where appropriate. Tell
 
 For example, [pair writing](/creating-user-centred-content/content-design/pair-writing/) with a technical or subject expert can be valuable. It can speed up approvals, as it involves the business area early in the content’s development. It also reduces the chance of error and miscommunication between teams. 
 
-To increase awareness in your team about business needs, you can:
-- encourage learning and development opportunities for your team. For example, training courses on engaging stakeholders or project management
-- empower your content team to engage regularly with stakeholders and understand their needs

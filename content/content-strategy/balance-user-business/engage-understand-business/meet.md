@@ -17,3 +17,7 @@ Let stakeholders know how and when they’ll be involved. Find out about their:
 Remember that your stakeholders will need to follow policy and legislation. They may also have a fixed deadline to publish content.
 
 Make sure you and your team understand their business needs. Factor these needs into your content strategy.
+
+To increase awareness in your team about business needs, you can:
+- encourage learning and development opportunities for your team. For example, training courses on engaging stakeholders or project management
+- empower your content team to engage regularly with stakeholders and understand their needs
