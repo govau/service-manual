@@ -1,13 +1,13 @@
 ---
-host: service-manual
+host: guides
 buildpack: nodejs_buildpack
 memory: 256M
-instances: 1
+instances: 3
 env:
   NODE_MODULES_CACHE: false
 path: ./
 command: node server/index.js
 
+domain: service.gov.au
 applications:
-- name: service-manual-blue
-- name: service-manual-green
+- name: guides
