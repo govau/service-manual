@@ -28,6 +28,6 @@ main:
   - consistent-not-uniform.md
   - make-things-open-head.md
   - make-things-open.md
-  - /_shared/feedback.md
+  
 footer:
   - /_shared/footer-gds.md

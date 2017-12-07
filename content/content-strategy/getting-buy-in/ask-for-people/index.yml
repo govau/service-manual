@@ -15,6 +15,6 @@ main:
   - number-of-people.md
   - skills-you-need-head.md
   - skills-you-need.md
-  - /_shared/feedback.md
+  
 footer:
   - /_shared/footer.md

@@ -36,6 +36,6 @@ main:
   - dashboard.md
   - link-needs-head.md
   - link-needs.md
-  - /_shared/feedback.md
+  
 footer:
   - /_shared/footer-gds.md

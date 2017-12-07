@@ -10,6 +10,6 @@ main:
   - image.md
   - longtext-head.md
   - longtext.md
-  - /_shared/feedback.md
+  
 footer:
   - /_shared/footer.md

@@ -23,6 +23,6 @@ main:
   - some-for-part.md
   - cstudies-head.md
   - cstudies.md
-  - /_shared/feedback.md
+  
 footer:
   - /_shared/footer-gds.md

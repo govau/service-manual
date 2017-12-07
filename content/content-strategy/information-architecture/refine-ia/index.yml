@@ -7,6 +7,6 @@ header:
   - /_shared/header.md
 main:
   - intro.md          
-  - /_shared/feedback.md
+  
 footer:
   - /_shared/footer.md

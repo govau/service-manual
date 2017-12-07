@@ -21,6 +21,6 @@ main:
   - textblock4.md
   - section5.md          # Create a project plan
   - textblock5.md
-  - /_shared/feedback.md
+  
 footer:
   - /_shared/footer.md

@@ -19,6 +19,6 @@ main:
   - benchmark.md
   - user-feedback-head.md          # Get direct user feedback to build empathy with the users
   - user-feedback.md
-  - /_shared/feedback.md
+  
 footer:
   - /_shared/footer.md

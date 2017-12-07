@@ -12,6 +12,6 @@ main:
   - why-use-content-lifecycle.md
   - ensure-head.md
   - stages-cards.md
-  - /_shared/feedback.md
+  
 footer:
   - /_shared/footer.md

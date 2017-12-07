@@ -9,6 +9,6 @@ main:
   - intro.md
   - how-audit.md
   - how-audit-articles.md
-  - /_shared/feedback.md
+  
 footer:
   - /_shared/footer.md

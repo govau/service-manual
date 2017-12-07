@@ -19,6 +19,6 @@ main:
   - next-steps.md
   - templates-tools-head.md          # Tools
   - templates-tools.md
-  - /_shared/feedback.md
+  
 footer:
   - /_shared/footer.md

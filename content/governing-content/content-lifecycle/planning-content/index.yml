@@ -20,6 +20,6 @@ main:
   - skills.md
   - typical-tasks-head.md
   - typical-tasks.md
-  - /_shared/feedback.md
+  
 footer:
   - /_shared/footer.md

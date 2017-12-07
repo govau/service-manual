@@ -44,7 +44,7 @@ main:
   - case.md
   - gds-blog.md
   - case-uk.md
-  - /_shared/feedback.md
+  
 
 footer:
   - /_shared/footer-gds.md

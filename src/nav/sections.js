@@ -11,17 +11,18 @@ import { InpageNavLinksItem, InpageNavLinks } from '../../scripts/uikit/inpage-n
 const Sections = ( page ) => {
 	const sections = [];
 
-	page.sections.map( ( section ) => sections.push({
+	page.sections.map(( section ) => sections.push({
 		link: Slugify( section ).toLowerCase(),
 		title: section,
 	}));
 
 	return (
-		<div className="uikit-body uikit-grid sections">
+		<div className="uikit-body uikit-grid">
 			<div className="container">
-				<div className="row">
-					<div className="col-md-6 js-sections">
-						<InpageNavLinks title="In this section" sections={ sections } title={ page.title } />
+				<div id="table-contents" className="table-contents sticky">
+					<InpageNavLinks title="In this section" sections={ sections } title={ page.title } />
+					<div className="table-contents-feedback">
+						<a href="https://www.surveymonkey.com/r/XFWJ5TC" className="uikit-btn">Give feedback</a>
 					</div>
 				</div>
 			</div>

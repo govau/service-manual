@@ -8,6 +8,6 @@ header:
 main:
   - intro.md
   - removing-content-topics.md
-  - /_shared/feedback.md
+  
 footer:
   - /_shared/footer.md

@@ -20,6 +20,6 @@ main:
   - costs.md
   - foi-head.md
   - foi.md
-  - /_shared/feedback.md
+  
 footer:
   - /_shared/footer.md

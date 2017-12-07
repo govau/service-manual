@@ -10,6 +10,6 @@ main:
   - intro.md
   - if-pitch-not-successful-head.md
   - if-pitch-not-successful.md
-  - /_shared/feedback.md
+  
 footer:
   - /_shared/footer.md

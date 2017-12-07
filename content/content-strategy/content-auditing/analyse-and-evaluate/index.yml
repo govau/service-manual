@@ -19,6 +19,6 @@ main:
   - check-data.md
   - tools-head.md          # Tools
   - tools.md
-  - /_shared/feedback.md
+  
 footer:
   - /_shared/footer.md

@@ -19,6 +19,6 @@ main:
   - vendor-contracts.md
   - make-business-case-head.md
   - make-business-case.md
-  - /_shared/feedback.md
+  
 footer:
   - /_shared/footer.md

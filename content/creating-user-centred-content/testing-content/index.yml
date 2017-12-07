@@ -19,6 +19,6 @@ main:
   - accessibility-head.md
   - accessibility.md
   - subtopics.md
-  - /_shared/feedback.md
+  
 footer:
   - /_shared/footer.md

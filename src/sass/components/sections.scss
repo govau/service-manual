@@ -27,3 +27,105 @@
 	font-weight: bold;
 	line-height: 1.2;
 }
+
+.table-contents  {
+	font-size: 12px;
+	width: 242px;
+	position: relative;
+	z-index: 1;
+}
+
+.uikit-btn {
+	.table-contents & {
+		color: #000;
+		background: none;
+		border: 2px solid $uikit-colour-Primary;
+	}
+}
+
+.uikit-inpage-nav-links {
+	.table-contents & {
+		border: 0;
+		background-color: #fff;
+		padding: 20px 20px 20px 0;
+		margin-bottom: 0;
+		margin-top: 2.5em;
+	}
+}
+
+.table-contents-feedback {
+	padding: 1.6em 0;
+	text-align: center;
+	border: 1px solid #ddd;
+	border-top: 0;
+	background: #fff;
+	display: none;
+}
+
+.uikit-inpage-nav-links__heading {
+	.table-contents & {
+		margin-top: 0;
+		font-weight: normal;
+		color: $uikit-colour-Primary;
+	}
+}
+
+.uikit-body .uikit-inpage-nav-links > ul > li {
+	.table-contents & {
+		margin-top: 50px;
+		font-weight: normal;
+	}
+}
+
+.uikit-inpage-nav-links ul li a.active {
+	.table-contents & {
+		background: $uikit-colour-Link;
+	}
+}
+
+#table-contents:after {
+	content: 'widescreen';
+	display: none;
+}
+
+@media screen and (max-width: 1919px){
+	#table-contents:after {
+		content: "extra-extra-large";
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	#table-contents:after {
+		content: "extra-large";
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#table-contents:after {
+		content: "large";
+		display: none;
+	}
+}
+
+@media screen and (max-width: 640px){
+	#table-contents:after {
+		content: "medium";
+		display: none;
+	}
+}
+
+@media screen and (max-width: 480px){
+	#table-contents:after {
+		content: "small";
+		display: none;
+	}
+}
+
+@media screen and (max-width: 320px){
+	#table-contents:after {
+		content: "tiny";
+		display: none;
+	}
+}

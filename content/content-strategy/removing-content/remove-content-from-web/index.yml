@@ -23,6 +23,6 @@ main:
   - deletion.md
   - dns-head.md
   - dns.md
-  - /_shared/feedback.md
+  
 footer:
   - /_shared/footer.md

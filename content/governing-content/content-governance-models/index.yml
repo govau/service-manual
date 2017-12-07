@@ -12,6 +12,6 @@ main:
   - content-maturity-levels.md
   - types-content-governance-head.md
   - types-content-governance.md
-  - /_shared/feedback.md
+  
 footer:
   - /_shared/footer.md
