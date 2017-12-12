@@ -17237,7 +17237,7 @@ if (size == 'widescreen') {
 	$('.sticky').css({
 		position : 'absolute',
 		left : '129px',
-		padding : '20px'
+		padding : '0 20px 20px 20px'
 	});
 }
 

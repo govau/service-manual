@@ -71,7 +71,12 @@ if (size == 'widescreen') {
 	$('.sticky').css({
 		position : 'absolute',
 		left : '129px',
-		padding : '0 20px 20px 20px'
+		padding : '0 20px 20px 20px',
+		top: '233px'
+	});
+
+	$('.uikit-inpage-nav-links').css({
+		paddingTop: '20px'
 	});
 }
 
@@ -90,7 +95,8 @@ $(window).resize(_.debounce(function(e){
 
 		$('.sticky').css({
 			position : 'absolute',
-			left : '129px',
+			left : '115px',
+			top: '233px'
 		});
 
 		$('.uikit-inpage-nav-links').css({
@@ -101,7 +107,7 @@ $(window).resize(_.debounce(function(e){
 
 			var generalSidebarHeight = $('.sticky').innerHeight();
 			var stickyTop = $('.sticky').offset().top;
-			var stickOffset = 0;
+			var stickOffset = 50;
 			var stickyStopperPosition = $stickyrStopper.offset().top;
 			var stopPoint = stickyStopperPosition - generalSidebarHeight - stickOffset;
 			var diff = stopPoint + stickOffset;
@@ -112,13 +118,13 @@ $(window).resize(_.debounce(function(e){
 				var windowTop = $(window).scrollTop();
 
 				if (stopPoint < windowTop) {
-					$('.sticky').css({ position: 'absolute', top: diff });
+					$('.sticky').css({ position: 'absolute', top: '233px' });
 				}
 				else if (stickyTop < windowTop+stickOffset) {
 					$('.sticky').css({ position: 'fixed', top: stickOffset });
 				}
 				else {
-					$('.sticky').css({position: 'absolute', top: 'initial'});
+					$('.sticky').css({position: 'absolute', top: '233px'});
 				}
 			});
 		}

@@ -29,7 +29,7 @@
 }
 
 .table-contents  {
-	font-size: 12px;
+	font-size: 16px;
 	width: 242px;
 	position: relative;
 	z-index: 1;
@@ -88,12 +88,14 @@
 	display: none;
 }
 
+/*
 @media screen and (max-width: 1919px){
 	#table-contents:after {
 		content: "extra-extra-large";
 		display: none;
 	}
 }
+*/
 
 @media screen and (max-width: 1024px){
 	#table-contents:after {
