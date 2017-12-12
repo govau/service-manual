@@ -6,10 +6,9 @@ theme: blue
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
-aside:
-  - sections.md
 main:
   - intro.md
+  - sections.md
   - why-use-existing-research-head.md
   - why-use-existing-research.md
   - when-to-use-existing-research-head.md

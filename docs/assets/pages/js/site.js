@@ -17230,8 +17230,8 @@ if ($('.table-contents')) {
 /***
 * init styles
 */
-
-var size = window.getComputedStyle(document.body,':after').content.replace(/"|'/g, '');
+var element = document.getElementById("table-contents"),
+	size = window.getComputedStyle(element,':after').content.replace(/"|'/g, '');
 
 if (size == 'widescreen') {
 	$('.sticky').css({
@@ -17246,7 +17246,8 @@ if (size == 'widescreen') {
 */
 
 $(window).resize(_.debounce(function(e){
-	var size = window.getComputedStyle('table-contents',':after').content.replace(/"|'/g, ''),
+	var element = document.getElementById("table-contents");
+	var size = window.getComputedStyle(element,':after').content.replace(/"|'/g, ''),
 		$stickyrStopper = $('.footer');
 
 	if (size == 'widescreen') {
