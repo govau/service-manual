@@ -35,6 +35,14 @@ const Header = ( page ) => {
 								}
 							</a>
 						</div>
+
+						<ul className="header__nav">
+							<li>The Standard</li>
+							<li>Articles</li>
+							<li>Tools</li>
+							<li>Events</li>
+							<li>Communities</li>
+						</ul>
 					</div>
 				</div>
 			</div>

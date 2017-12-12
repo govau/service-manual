@@ -167,6 +167,32 @@
 	}
 }
 
+.header__nav {
+	width: auto;
+	display: flex;
+	justify-content: space-around;
+	font-size: 14px;
+	top: 10px;
+
+	li {
+		display: inline-block;
+		padding-bottom: 10px;
+		&:hover {
+			cursor: pointer;
+			border-bottom: 3px solid #fff;
+
+		}
+	}
+}
+
+
+.header__nav {
+	.uikit-body & {
+		margin-top: 20px;
+	}
+}
+
+
 
 .header__title {
 	clear: left;
