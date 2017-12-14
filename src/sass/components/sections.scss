@@ -90,12 +90,51 @@
 
 
 @media screen and (max-width: 1919px){
-	#table-contents:after {
+	/* #table-contents:after {
 		content: "extra-extra-large";
 		display: none;
 	}
+	*/
+	.uikit-grid .container {
+		padding-left: 150px;
+	}
 }
 
+@media screen and (max-width: 1610px){
+	.uikit-grid .container {
+		padding-left: 250px;
+	}
+}
+
+@media screen and (max-width: 1535px){
+	.uikit-grid .container {
+		padding-left: 250px;
+	}
+}
+
+@media screen and (max-width: 1540px){
+	.uikit-grid .container {
+		padding-left: 300px;
+	}
+}
+
+@media screen and (max-width: 1390px){
+	.uikit-grid .container {
+		padding-left: 400px;
+	}
+}
+
+@media screen and (max-width: 1390px){
+	.uikit-grid .container {
+		padding-left: 400px;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.uikit-grid .container {
+		padding-left: 0;
+	}
+}
 
 @media screen and (max-width: 1024px){
 	#table-contents:after {
