@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Get consent before you research
+section: Get informed consent before you research
 ---
