@@ -24,7 +24,7 @@ const Topic = ( page ) => (
 		<script src="/assets/js/no-js.js" />
 		<script src="/assets/js/svg4everybody.min.js" />
 	</head>
-	<body>
+	<body className="topic">
 
 		<SkipLink links={[
 			{
