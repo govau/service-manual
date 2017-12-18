@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Sort observations
+section: Sort observations: make an affinity map
 ---
