@@ -35,14 +35,20 @@ const Header = ( page ) => {
 								}
 							</a>
 						</div>
+						<div className="header__items">
+							<ul className="header__nav">
+								<li>The Standard</li>
+								<li>Articles</li>
+								<li>Tools</li>
+								<li>Events</li>
+								<li>Communities</li>
+							</ul>
 
-						<ul className="header__nav">
-							<li>The Standard</li>
-							<li>Articles</li>
-							<li>Tools</li>
-							<li>Events</li>
-							<li>Communities</li>
-						</ul>
+							<div className="header__search">
+								<input className="header__searchinput"></input>
+								<span className="header__searchicon"></span>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -168,12 +168,10 @@
 }
 
 .header__nav {
-	width: auto;
+	width: 100%;
 	display: flex;
 	justify-content: space-around;
 	font-size: 14px;
-	top: 10px;
-
 	li {
 		display: inline-block;
 		padding-bottom: 10px;
@@ -185,14 +183,45 @@
 	}
 }
 
-
 .header__nav {
 	.uikit-body & {
-		margin-top: 20px;
+		margin-top: 2px;
 	}
 }
 
+.header__search {
+	display: flex;
+}
 
+.header__searchinput {
+	height: 28px;
+	padding-left: 5px;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.header__searchicon {
+	background-image: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1792">
+		<path
+			fill="#1B7991"
+			d="M1216 832q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"/>
+	</svg>');
+	display: inline-block;
+	background-size: 60%;
+	background-color: #fff;
+    background-position: center;
+	background-repeat: no-repeat;
+	border-left: 1px solid #1B7991;
+	width: 34px;
+	height: 34px;
+}
+
+.header__items {
+	margin-top: 19px;
+	width: auto;
+	display: flex;
+	justify-content: space-around;
+}
 
 .header__title {
 	clear: left;
