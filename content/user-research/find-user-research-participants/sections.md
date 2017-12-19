@@ -3,7 +3,7 @@ layout: nav/sections
 sections:
   - Meeting the Digital Service Standard
   - Finding participants
-  - Write a recruitment brief
-  - Avoid bias in recruitment
+  - How to write a recruitment brief
+  - Make your research inclusive
   - Case studies and examples
 ---
