@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: How to research with users
+section: How to learn about user needs
 ---

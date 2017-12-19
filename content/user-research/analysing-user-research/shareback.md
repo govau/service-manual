@@ -10,4 +10,4 @@ caption: Caption: an example of a user research shareback wall.
 stackPosition: top
 ---
 
-‘A shareback wall is a way to bring back what we learnt from user research to the team. We can use it to quickly see what’s working (green) and where there are problems we still need to solve (in red and orange).’ — User researcher
+‘A shareback wall is a way to bring back what we have learnt from user research to the team. We can use it to quickly see what’s working (green) and where there are problems we still need to solve (in red and orange).’ — User researcher

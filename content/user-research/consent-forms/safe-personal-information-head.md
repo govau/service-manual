@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Keep personal information safe
+section: Keep personal information secure
 ---

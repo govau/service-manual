@@ -2,8 +2,9 @@
 layout: nav/sections
 sections:
   - Meeting the Digital Service Standard
-  - Plan analysis sessions
-  - Extract observations
+  - Who to involve in analysing research
+  - When to analyse research
+  - How to extract observations
   - Sort observations
   - Determine findings
   - Decide actions
