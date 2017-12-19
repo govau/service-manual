@@ -64,7 +64,7 @@
 		"postcss-cli": "^4.1.1"
 	},
 	"engines": {
-		"node": "8.8.0"
+		"node": "9.2.0"
 	},
 	"cuttlebelle": {
 		"folder": {
