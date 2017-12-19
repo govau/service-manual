@@ -24,7 +24,7 @@ Write open and neutral questions. Starter questions might include:
 - 'What do you think about...?'
 
 ### [2]Avoiding confirmation bias in interview questions
-Work on questions with your team to avoid confirmation bias. Confirmation bias occurs when the way a question is asked limits answers tho those that confirm research hypotheses. 
+Work on questions with your team to avoid confirmation bias. Confirmation bias occurs when the way a question is asked limits answers to those that confirm research hypotheses. 
 
 Learn about confirmation bias and other [cognitive biases in user research](http://www.uxaustralia.com.au/conferences/uxaustralia-2016/presentation/6-cognitive-biases/).
 

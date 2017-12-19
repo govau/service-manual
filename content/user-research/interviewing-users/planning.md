@@ -7,7 +7,7 @@ Interviews usually take place with 1 user at a time. But you can also speak to p
 - members of a team who work together
 
 ### [2]Work out how much detail you need
-Interviews can take between 30 minutes and 2 hours. The length of time depends on the complexity of the subject and number of questions you have.
+Interviews can take between 30 minutes and 2 hours. The length of time depends on the complexity of the subject and the number of questions you have.
 
 Longer interviews will give you more detail. But they may make it harder to recruit participants.
 
@@ -39,4 +39,4 @@ Think about whether you need to record the session. If you do, make sure the con
 ### [2]Prepare for a note taker and observers
 [Arrange a note taker and consider whether to invite observers](/user-research/interviewing-users/#taking-notes-and-observing) for each session.
 
-Observers are important for certain kinds of research, like lab-based usability testing. But think about how their presence may affect the participants. Sometimes you should not invite observers (beyond the note taker) into the room. 
+Observers are important for certain kinds of research, like lab-based usability testing. But think about how their presence may affect the participants. Sometimes you should not invite observers (aside from the note taker) into the room. 

@@ -8,7 +8,7 @@ There is a risk that groups of people can be included or excluded, depending on:
 - where you do the research
 - the method you use to recruit your users
 
-Limit this risk by using a variety of research activities and recruitment approaches. For example, don't just rely on interviews in Discovery stage. Do some contextual research with with users of existing services.
+Limit this risk by using a variety of research activities and recruitment approaches. For example, don't just rely on interviews in Discovery stage. Do some contextual research with users of existing services.
 
 If you’re using an agency make sure they include a range of participants. For example:
 - people with different levels of digital and literacy skill

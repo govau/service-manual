@@ -20,7 +20,7 @@ During the interview:
 - make sure you understand what the participant has said — ask more questions if you’re not sure
 - don’t change the flow of the interview — if a participant goes off topic, wait for a natural break and gently bring them back to what you want to talk about
 - try to stay quiet — the more you talk, the less your participant will talk
-- don’t stick to your discussion guide —  let the conversation develop naturally and dig into any new and interesting issues
+- don’t stick to your discussion guide — let the conversation develop naturally and dig into any new and interesting issues
 - keep in mind the main questions you need to ask everyone in that round.
 
 Once you’ve finished:

@@ -4,7 +4,7 @@ layout: text/textblock
 ### [2]Who to include in your research
 When you’re researching with users who don’t or can’t use digital services you should focus on the people who are current users of your service or who are likely to use it in future.
 
-Include people in your research who have low levels of digital skill and internet access. They will help you understand support needs that are the most difficult to meet. For example, some users may not be able to leave their homes or have no computer.
+Include people in your research who have low levels of digital skill and internet access. They will help you understand support needs that are the most difficult to meet. For example, some users may not be able to leave their homes or may not have a computer.
 
 Include people in your research who get support to use digital services. For example, they may get help from carers or support workers.
 
