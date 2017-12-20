@@ -3,9 +3,9 @@ layout: text/textblock
 ---
 You can learn about users and their needs by:
 - [interviewing](../interviewing-users/) and observing actual or likely users
-- talking to people who work with actual or likely users
-- reviewing [existing evidence](/user-research/planning-user-research/using-existing-research-data)
+- talking to people inside and outside your organisation who work with actual or likely users
+- reviewing existing evidence (for example, analytics, search logs, call centre data and previous research reports)
 
-Treat any opinions or suggestions that don’t come from users as assumptions. Explore these in your research.
+Treat any opinions or suggestions that don’t come from users as assumptions that have to be proven by doing research.
 
-Keep [researching through each stage](/user-research/research-stages/) of the design and delivery process to make sure your service continues to meet user needs.
+You must keep [researching through each stage](/user-research/research-stages/) of the design and delivery process to make sure your service continues to meet user needs.

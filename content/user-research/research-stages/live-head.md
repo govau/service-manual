@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: User research in Live stage
+section: Researching when your service is live
 ---

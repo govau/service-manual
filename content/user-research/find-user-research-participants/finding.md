@@ -9,8 +9,6 @@ There are different ways to recruit participants:
 - create a panel of potential participants (for regular research with a specific group of people)
 - invite existing users of your service to take part
 
-It's generally best to use a research recruitment agency for recruiting end users. Recruiting participants is a lot of work and agencies tend to be able to do it at a reasonable rate. This can be good value for money. 
+Agencies are generally best for recruiting end users. Recruiting participants is quite a lot of work and agencies tend to be able to do this at a reasonable rate. This can be good value for money. For specific user groups, a relevant professional body, charity or community group might be more effective.
 
-But you may also need to try different ways of finding specific users. Relevant professional bodies, charities or community groups might be more effective.
-
-Think about and budget for [paying incentives](/user-research/paying-incentives/) to research participants. Research recruitment agencies can handle incentive payments.
+You will need to think about and budget for [paying incentives](/user-research/paying-incentives/) to the users who participate in research. Research Recruitment Agencies can handle incentive payments for you as a part of their services.

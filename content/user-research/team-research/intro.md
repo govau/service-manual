@@ -4,10 +4,6 @@ subtitle: Everyone in the service team should be involved in watching and analys
 category: User research
 ---
 
-Involving team members in research helps them to develop empathy for users. For this reason, we recommend doing research yourself rather than outsourcing it. Ideally, involve each of your team members for at least 2 hours every 6 weeks.
+All team members should watch real users interacting with your service and talking about it, ideally for at least 2 hours every 6 weeks.
 
-This research can be any activity in which they observe and listen to users, including:
-
-- interviews
-- home or workplace visits
-- lab-based usability tests
+These ‘exposure hours’ can be interviews, home or workplace visits, lab-based usability tests or any other research activities where people can watch and listen to real users.

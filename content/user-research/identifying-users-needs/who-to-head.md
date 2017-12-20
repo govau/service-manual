@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Who to include in research
+section: Who to research with
 ---
