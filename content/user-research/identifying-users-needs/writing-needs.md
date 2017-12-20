@@ -9,7 +9,7 @@ imageAlt: "A post-it that says 'As an Australian I need a passport so that I can
 noBottomMargin: false
 ---
 
-Once you have a good understanding of your users’ needs, you should write them down and add them to your descriptions of users.
+Once you have a good understanding of your users’ needs, write them down. You can then add them to your descriptions of users.
 
 User needs are usually written in the format:
 - I need/want/expect to … (What does the user want to do?)
@@ -20,7 +20,7 @@ You can add:
 - When … (What triggers the user’s need?)
 - Because … (Is the user limited by any circumstances?)
 
-Write user needs from a personal perspective using words that users would recognise and use themselves. For example:
+Write user needs from a personal perspective. Use words that people would recognise and use themselves. For example:
 
 > 'As an **Australian** I need **a passport** so that **I can go overseas and prove who I am**.'
 

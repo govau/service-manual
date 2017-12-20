@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Extract observations
+section: How to extract observations
 ---

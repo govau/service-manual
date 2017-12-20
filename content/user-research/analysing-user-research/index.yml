@@ -12,6 +12,8 @@ main:
   - meeting.md
   - plan-head.md
   - plan.md
+  - when-head.md
+  - when.md
   - extract-head.md
   - extract.md
   - sort-head.md
