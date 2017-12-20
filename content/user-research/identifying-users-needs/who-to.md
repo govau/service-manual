@@ -1,12 +1,10 @@
 ---
 layout: text/textblock
 ---
-Groups to consider including in user research are people who:
+You must understand the needs of all kinds of people, including those who aren’t currently using your service but may in the future.
 
-- currently use the service
-- don't currently use the service but may need it in the future
-- have problems using the service
-- work in the service (for example, call centre staff)
-- help others use the service (for example, caseworkers, legal professionals or charity workers)
+
+You also have to consider the needs of people who work in the service or support other users (for example, caseworkers, call centre agents, inspectors, lawyers and charity workers).
+
 
 When researching, focus on users who have problems using the existing service and its products. This will help you create a simpler, clearer and faster service that more people can use.

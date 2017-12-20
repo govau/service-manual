@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Make your research inclusive
+section: Avoid bias in recruitment
 ---

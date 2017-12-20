@@ -2,8 +2,8 @@
 layout: nav/sections
 sections:
   - Meeting the Digital Service Standard
-  - How to plan interviews
-  - Structuring interviews
+  - Planning research sessions
+  - Designing interviews
   - Do the interview
   - Taking notes and observing
 ---

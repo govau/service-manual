@@ -27,8 +27,8 @@ It can take a long time to recruit users for research, so it’s important to ge
 
 ### [2]Qualitative and quantitative research
 
-Seek support for both qualitative and quantitative research.
+Make sure you have support to use more than just quantitative sources like website analytics and surveys.
 
-Quantitative research gives you a limited view of who the users are and what they need.
+Don’t rely only on quantitative sources. They only give you a very limited view of who the users are and what they need.
 
-Start the Discovery stage with qualitative research like in-depth interviews with users. You can use quantitative research to help you work out which groups of users you should to talk to.
+It’s important in the Discovery stage to start with qualitative research like in-depth interviews with users. You can use quantitative sources to help you work out which other kinds of users you should to talk to.

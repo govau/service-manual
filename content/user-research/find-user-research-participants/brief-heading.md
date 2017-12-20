@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: How to write a recruitment brief
+section: Write a recruitment brief
 ---
