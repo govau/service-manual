@@ -172,6 +172,7 @@
 	display: flex;
 	justify-content: space-around;
 	font-size: 14px;
+
 	li {
 		display: inline-block;
 		padding-bottom: 10px;
@@ -181,16 +182,30 @@
 
 		}
 	}
+
+	@include uikit-media( sm ) {
+		padding-left: 1.6em;
+	}
 }
 
 .header__nav {
 	.uikit-body & {
 		margin-top: 2px;
+		padding-left: 0;
+		@include uikit-media( md ) {
+			padding-left: 1.6em;
+		}
 	}
 }
 
 .header__search {
-	display: flex;
+	display: block;
+
+	@include uikit-media( md ) {
+		display: flex;
+	}
+
+
 }
 
 .header__searchinput {
@@ -214,13 +229,22 @@
 	border-left: 1px solid #1B7991;
 	width: 34px;
 	height: 34px;
+	top: 12px;
+	position: relative;
+	@include uikit-media( md ) {
+		top: 0
+	}
 }
 
 .header__items {
 	margin-top: 19px;
 	width: auto;
-	display: flex;
+	display: block;
 	justify-content: space-around;
+
+	@include uikit-media( md ) {
+		display: flex;
+	}
 }
 
 .header__title {
