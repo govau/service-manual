@@ -1,12 +1,13 @@
 title: Develop your IA
 weight: 60
+description: Here are a range of things to think about while you are developing your IA.
 layout: layout/topic
 theme: blue
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - intro.md          
+  - intro.md
   - sections.md
   - decide-approach-head.md
   - decide-approach.md

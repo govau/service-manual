@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Plan analysis sessions
+section: Who to involve in analysing research
 ---

@@ -2,9 +2,9 @@
 layout: text/textblock
 ---
 
-Sometimes you may have to start work without having access to a full-time user researcher. You should make it a priority to get this resource as soon as you can.
+Sometimes you may have to start work without access to a full-time user researcher. Make it a priority to get this team member as soon as you can.
 
-There may be some things you may be able to do in the meantime, like [pop-up research](/user-research/find-user-research-participants/#finding-participants). But it’s always better to get help from an experienced user researcher.
+There may be some things you can do in the meantime, like [pop-up research](/user-research/find-user-research-participants/#finding-participants). But it’s always better to get help from an experienced user researcher.
 
 GOV.UK has a useful blog on [getting started with user research](https://userresearch.blog.gov.uk/2015/03/18/so-youre-going-to-be-a-user-researcher-top-tips-to-get-you-going/).
 
@@ -22,4 +22,4 @@ Your agency may have teams that you can engage with to support your user researc
 
 Some agencies have teams to make sure needs are met for users with disability or who speak different languages.
 
-But don’t rely on other teams to do your research. Everyone on your team needs to engage with users. That way, you’ll know you are building the right thing.
+But don’t rely on other teams to do your research. [Everyone on your team](/user-research/team-research/) needs to engage with users. That way, you’ll know you are building the right thing.

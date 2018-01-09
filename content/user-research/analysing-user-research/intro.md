@@ -9,8 +9,8 @@ User research activities produce a lot of raw data, for example:
 - sketches and photos
 - audio and video recordings
 
-You need to filter, organise and interpret this data so you can produce useful and meaningful insights that will help you design and build your service.
+Filtering and organising this data will help you to produce meaningful insights.
 
-Follow your [user research plan](/user-research/planning-user-research) and keep asking yourself 'What's the problem that the user is experiencing?'
+Follow your [user research plan](/user-research/planning-user-research) and keep asking yourself 'What is the problem that the user is experiencing?'
 
 Read [how user research changes](/user-research/research-stages/) through the Discovery to Live stages.

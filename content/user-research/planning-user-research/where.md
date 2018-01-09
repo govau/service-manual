@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-When you plan what kind of research you want to do, choose a location that works for the participants and that kind of research.
+When you plan what kind of research you want to do, choose an appropriate location.
 
 You can run research sessions in:
 
@@ -12,4 +12,4 @@ You can run research sessions in:
 - your office (using a laptop or phone for remote research)
 - public spaces (more information is available about this in [finding research participants](/user-research/find-user-research-participants/#finding-participants))
 
-Include how you will get [informed consent from the participants](/user-research/consent-forms/) in your planning.
+Remember to consider issues about [informed consent](/user-research/consent-forms/) in your plan.

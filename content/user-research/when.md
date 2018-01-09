@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-Do user research in every iteration of every development stage — starting in Discovery and continuing throughout Live.
+Do user research in every iteration of every development stage. Start in Discovery and continue throughout Live.
 
 This allows you to:
 - expand your understanding of users and their needs

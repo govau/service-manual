@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Designing interviews
+section: Structuring interviews
 ---
