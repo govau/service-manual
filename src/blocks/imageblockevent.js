@@ -29,7 +29,7 @@ const Imageblockevent = ( page ) => {
 
 							<div className="textwrapper">
 								<HeadingTag className={ `imageblock__headline display-${ page.display }` }>
-									{ page.title ? page.title : page._pages[ page._ID ].title }
+									{ page.title ? page.title : page._pages[ page._ID ].pagetitle }
 								</HeadingTag>
 							</div>
 

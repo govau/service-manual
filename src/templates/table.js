@@ -4,7 +4,7 @@ import React from 'react';
 
 const Table = ( page ) => {
 
-	const thead = <tr colspan="2"><th scope="col"><h4>{ page.table[0][0] }</h4></th></tr>;
+	const thead = <tr colSpan="2"><th scope="col"><h4>{ page.table[0][0] }</h4></th></tr>;
 
 	const rows = page.table.map((items, index) => {
 		if ( index > 0 ) {

@@ -19,7 +19,7 @@ const Banner = ( page ) => {
 						{ page.section && <span className="section__section">{ page.section }</span> }
 						<div className="textwrapper">
 							<HeadingTag className={ `banner__headline display-3` }>
-								{ page.title ? page.title : page._pages[ page._ID ].title }
+								{ page.title ? page.title : page._pages[ page._ID ].pagetitle }
 							</HeadingTag>
 						</div>
 

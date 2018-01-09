@@ -48,19 +48,18 @@
 		"@gov.au/pancake": "^1.1.0",
 		"@gov.au/pancake-js": "^1.0.9",
 		"@gov.au/skip-link": "^0.3.0",
-		"cuttlebelle": "1.0.0-alpha.30",
+		"cuttlebelle": "^1.0.0-alpha.41",
 		"express": "^4.16.2",
-		"marked": "^0.3.6",
-		"react": "^15.6.2",
-		"slugify": "^1.2.4"
+		"marked": "^0.3.12",
+		"slugify": "^1.2.9"
 	},
 	"devDependencies": {
-		"autoprefixer": "^7.1.4",
+		"autoprefixer": "^7.2.4",
 		"concat-cli": "^4.0.0",
 		"mkdirp": "^0.5.1",
-		"node-sass": "^4.5.3",
-		"npm-run-all": "^4.1.1",
-		"onchange": "^3.2.1",
+		"node-sass": "^4.7.2",
+		"npm-run-all": "^4.1.2",
+		"onchange": "^3.3.0",
 		"postcss-cli": "^4.1.1"
 	},
 	"engines": {

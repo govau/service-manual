@@ -23,7 +23,7 @@ const Imageblock = ( page ) => {
 							{ page.section && <span className="section__section intro__category" id={ Slugify( page.section ).toLowerCase() } >{ page.section }</span> }
 							<div className="textwrapper">
 								<HeadingTag className={ `imageblock__headline display-${ page.display }` }>
-									{ page.title ? page.title : page._pages[ page._ID ].title }
+									{ page.title ? page.title : page._pages[ page._ID ].pagetitle }
 								</HeadingTag>
 							</div>
 							{ page._body }

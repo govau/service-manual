@@ -8,7 +8,7 @@ import SkipLink from '../../scripts/uikit/skip-link.js';
 const Page = ( page ) => (
 	<html>
 	<head>
-		<title>Guides - { page.title }</title>
+		<title>Guides - { page.pagetitle }</title>
 		<meta charSet="utf-8" />
 		<meta name="google-site-verification" content="fXPmqCfxWVHNxpSlw6Bm6pmuUcMuTILat3eixX8gbM8" />
 		<meta httpEquiv="x-ua-compatible" content="ie=edge" />
@@ -59,9 +59,9 @@ const Page = ( page ) => (
 
 Page.propTypes = {
 /**
-	 * title: Homepage
+	 * pagetitle: Homepage
 	 */
-	title: PropTypes.string.isRequired,
+	pagetitle: PropTypes.string.isRequired,
 
 	/**
 	 * description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
