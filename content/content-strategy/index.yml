@@ -1,5 +1,6 @@
-title: Content strategy
+pagetitle: Content strategy
 weight: 40
+description: A content strategy guides the creation, delivery and governance of useful, usable content.
 theme: blue
 header:
   - /_shared/globalheader.md

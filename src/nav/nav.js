@@ -52,8 +52,8 @@ const Navigation = ({
 								{
 									_displayItem
 										? <NavigationItem
-												href={ relativeURL( pages[ pageID ].url, ID ) }
-												title={ pages[ pageID ].title }
+												href={ relativeURL( pages[ pageID ]._url, ID ) }
+												title={ pages[ pageID ].pagetitle }
 												thisPage={ pageID === ID }
 												itemClass={ itemClass }
 												ancorClass={ ancorClass }
@@ -85,15 +85,15 @@ const Navigation = ({
 					}
 					else {
 						// Check to see if this is a childnav placed on 1 level only and add the parent item on the first item
-						if (childnav1lvl == true && level === 2 && i === 0) {
+						if( childnav1lvl == true && level === 2 && i === 0 ) {
 							const parentId = pageID.substring(0, pageID.indexOf('/'));
-							const parent = pages[parentId];
+							const parent = pages[ parentId ];
 
 							return <li key={ i } className={ itemClass }>
 
 										<NavigationItem
-											href={ relativeURL( parent.url, ID ) }
-											title={ parent.title }
+											href={ relativeURL( parent._url, ID ) }
+											title={ parent.pagetitle }
 											itemClass={ itemClass }
 											ancorClass={ ancorClass }
 											spanClass={ spanClass }
@@ -101,8 +101,8 @@ const Navigation = ({
 										/>
 
 										<NavigationItem
-											href={ relativeURL( pages[ page ].url, ID ) }
-											title={ pages[ page ].title }
+											href={ relativeURL( pages[ page ]._url, ID ) }
+											title={ pages[ page ].pagetitle }
 											thisPage={ page === ID }
 											itemClass={ itemClass }
 											ancorClass={ ancorClass }
@@ -112,13 +112,14 @@ const Navigation = ({
 
 									</li>
 
-						}else if( _displayItem ) {
+						}
+						else if( _displayItem ) {
 
 							return <li className={ itemClass } key={ i }>
 
 								<NavigationItem
-									href={ relativeURL( pages[ page ].url, ID ) }
-									title={ pages[ page ].title }
+									href={ relativeURL( pages[ page ]._url, ID ) }
+									title={ pages[ page ].pagetitle }
 									thisPage={ page === ID }
 									itemClass={ itemClass }
 									ancorClass={ ancorClass }

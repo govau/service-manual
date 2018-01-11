@@ -1,5 +1,6 @@
-title: Engage about your IA
+pagetitle: Engage about your IA
 weight: 40
+description: Work with other government agencies and engage with users early in your IA planning.
 layout: layout/topic
 theme: blue
 header:
@@ -7,7 +8,7 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - sections.md          
+  - sections.md
   - work-with-other-agencies-head.md
   - work-with-other-agencies.md
   - talk-to-website-users-head.md

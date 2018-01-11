@@ -1,4 +1,4 @@
-title: Planning user research
+pagetitle: Planning user research
 weight: 40
 layout: layout/topic
 theme: blue
@@ -10,14 +10,10 @@ main:
   - sections.md
   - meeting-head.md
   - meeting.md
-  - who-head.md
-  - who.md
   - think-head.md
   - think.md
   - plan-head.md
   - plan.md
-  - involve-head.md
-  - involve.md
   - share-head.md
   - share.md
   - where-head.md

@@ -1,4 +1,4 @@
-title: Getting support for user research
+pagetitle: Getting support for user research
 weight: 20
 layout: layout/topic
 theme: blue
@@ -10,12 +10,12 @@ main:
   - sections.md
   - meeting-heading.md
   - meeting.md
+  - show-value-head.md
+  - show-value.md
   - how-buy-in-head.md
   - how-buy-in.md
   - plan-continual-head.md
   - plan-continual.md
-  - whole-team-head.md
-  - whole-team.md
   - extra-support-head.md
   - extra-support.md
   - case-heading.md

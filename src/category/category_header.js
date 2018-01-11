@@ -45,9 +45,11 @@ const Categoryheader = ( page ) => {
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 	const breadcrumbs = [];
 
-	page._parents.map( ( parent ) => breadcrumbs.push({
-		link: ( page._pages[ parent ].url === page._pages[ page._ID ].url ? undefined : page._pages[ parent ].url ),
-		text: page._pages[ parent ].title,
+	page._parents
+		.filter( parent => parent !== 'index' )
+		.map( ( parent ) => breadcrumbs.push({
+			link: ( page._pages[ parent ]._url === page._pages[ page._ID ]._url ? undefined : page._pages[ parent ]._url ),
+			text: page._pages[ parent ].pagetitle,
 	}));
 
 	return (

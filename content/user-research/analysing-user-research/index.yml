@@ -1,4 +1,4 @@
-title: Analysing user research
+pagetitle: Analysing user research
 weight: 90
 layout: layout/topic
 theme: blue
@@ -12,6 +12,8 @@ main:
   - meeting.md
   - plan-head.md
   - plan.md
+  - when-head.md
+  - when.md
   - extract-head.md
   - extract.md
   - sort-head.md

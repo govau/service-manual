@@ -2,6 +2,6 @@
 layout: text/textblock
 ---
 
-After analysing your research, collate your findings so you can share them with the wider team and stakeholders (sometimes called a 'shareback'). You can do this on an infinity map, an electronic presentation or whatever medium suits your team.
+Collate your findings so you can share them with the wider team and stakeholders. This is sometimes called a 'shareback'. 
 
-You can share insights in different ways. If you've been testing prototypes you might show printouts with comments on post-its. If you've only just started you might be reading out quotes and observations.
+You can share insights in different ways. If you've been testing prototypes you might show printouts with comments on sticky notes. If you've only just started you might read out quotes and observations. You can also use an electronic presentation or whatever medium suits your team.
