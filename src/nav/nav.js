@@ -85,7 +85,7 @@ const Navigation = ({
 					}
 					else {
 						// Check to see if this is a childnav placed on 1 level only and add the parent item on the first item
-						if (childnav1lvl == true && level === 2 && i === 0) {
+						if( childnav1lvl == true && level === 2 && i === 0 ) {
 							const parentId = pageID.substring(0, pageID.indexOf('/'));
 							const parent = pages[ parentId ];
 
