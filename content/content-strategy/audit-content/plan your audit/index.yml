@@ -1,14 +1,13 @@
-pagetitle: Show the content ecosystem
+pagetitle: Plan your audit
 weight: 10
-description:
-layout: layout/topic
 theme: blue
+description:
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
   - intro.md
-  - sections.md
+  - block-1.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
