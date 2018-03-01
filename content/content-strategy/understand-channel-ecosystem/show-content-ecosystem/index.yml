@@ -1,0 +1,14 @@
+pagetitle: Show the content ecosystem
+weight: 10
+description:
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - sections.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md
