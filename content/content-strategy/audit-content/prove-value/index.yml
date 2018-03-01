@@ -1,13 +1,25 @@
 pagetitle: Prove the value
+description: Prove the value of a content audit by showing the return on investment of good content.
 weight: 10
+layout: layout/topic
 theme: blue
-description:
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
   - intro.md
-  - block-1.md
+  - sections.md
+  - team-benefits-head.md
+  - team-benefits.md
+  - goals-agencies-head.md
+  - goals-agencies.md
+  - inefficiencies-head.md
+  - inefficiencies.md
+  - baseline-head.md
+  - baseline.md
+  - key-takeaway.md #supporting-takeaway
+  - user-feedback-head.md
+  - user-feedback.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
