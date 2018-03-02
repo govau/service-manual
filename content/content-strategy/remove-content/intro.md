@@ -12,7 +12,7 @@ Help for government agencies to know how to remove content.
 
 ## [3]Why remove content?
 
-When you remove unwanted content, you help users find what they need. Reducing the clutter also helps to build user trust, maintain your digital estate and make search results better.
+There are over 40 million GOV.AU web items across the internet today. When you remove unwanted content, you help users find what they need. Reducing the clutter also helps to build user trust, maintain your digital estate and make search results better.
 
 There are **5 steps** to removing your content from the web.
 

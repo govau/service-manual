@@ -4,7 +4,7 @@ section: Find out what you need to keep
 ---
 Websites are Commonwealth records. There are rules about how you manage major changes to government websites.
 
-For major updates, or when you decommission a website (Anchor LINK to content following), you’ll need to keep a copy of the website. This is a legal and business requirement.
+For major updates, or when you [decommission a website](/content-strategy/remove-content/decommission-website/), you’ll need to keep a copy of the website. This is a legal and business requirement.
 
 For minor updates that only affect a few pages, you may be able to use your CMS. 
 

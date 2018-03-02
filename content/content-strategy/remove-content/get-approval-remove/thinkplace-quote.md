@@ -1,5 +1,7 @@
 ---
 layout: text/callout
 ---
+### [2]Quote
 “People like to leave things up, just in case”.
-A quote from the Thinkplace Research, 2016
+
+From the Thinkplace Research, 2016
