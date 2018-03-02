@@ -1,5 +1,5 @@
 pagetitle: What business needs to look for
-description: Abstract
+description: You’ll hear a wide range of business objectives. Know what you’re looking for before you begin.
 weight: 10
 layout: layout/topic
 theme: blue
@@ -8,36 +8,20 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - toc.md #toc
-  - heading.md
-  - section.md #text
-  - heading2.md
-  - steps.md #step
-  - heading3.md
-  - approach.md #approach
-  - heading4.md
-  - summary.md #summary
-  - heading5.md
-  - topic-takeaway.md #topic-takeaway
-  - heading6.md
-  - methods.md #methods
-  - heading7.md
-  - supporting-takeaway.md #supporting-takeaway
-  - heading8.md
-  - example.md #example
-  - heading9.md
-  - fact.md #fact
-  - diagram.md #diagram
-  - heading10.md
-  - attachment.md #attachment
-  - heading11.md
-  - quotes.md #quotes
-  - heading12.md
-  - glossary.md #glossary
-  - heading13.md
-  - references.md #references
-  - heading14.md
-  - text.md #text
+  - sections.md
+  - strategic-pyramid-head.md
+  - strategic-pyramid.md
+  - vision.md
+  - vision-example.md
+  - mission.md
+  - mission-example.md
+  - goals.md
+  - goals-example.md
+  - strategies.md
+  - strategies-example.md
+  - objectives.md
+  - objectives-example.md
+  - other-things.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
