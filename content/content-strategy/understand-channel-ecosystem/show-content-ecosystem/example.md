@@ -1,5 +1,0 @@
----
-layout: text/callout
----
-
-example
