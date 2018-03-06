@@ -1,16 +1,13 @@
 ---
 layout: cards/cards
 cards:
-  - headline: Step
-    text: Description
-    link: https://guides.service.gov.au/
-  - headline: Step
-    text: Description
-    link: https://guides.service.gov.au/
-  - headline: Step
-    text: Description
-    link: https://guides.service.gov.au/
-  - headline: Step
-    text: Description
-    link: https://guides.service.gov.au/
+  - headline: Show the problem with evidence
+    text: Articulate a clear problem to help you argue the value of a content strategy.
+    link: /content-strategy/start-content-strategy/define-problem/
+  - headline: Get senior executive buy-in
+    text: Set up early and regular engagement to ensure continuous buy-in.
+    link: /content-strategy/start-content-strategy/get-senior-executive-buy-in/
+  - headline: Tips for pitching your case
+    text: Be clear about what you are pitching and set a high level goal.
+    link: /content-strategy/start-content-strategy/tips-pitching-case/
 ---

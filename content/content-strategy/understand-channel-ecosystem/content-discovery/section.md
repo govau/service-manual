@@ -2,11 +2,25 @@
 layout: text/textblock
 ---
 
-Paragraph
-- the budget
-- resources available for a defined timeframe
-- the actions you want to take after the audit
+Setup a shared agency document to capture channel information. Explore the agency’s main websites and look for links to other websites (of the agency). 
 
-### [1]Heading 3
+About us pages and footers are good places to start looking for other websites and channels such as social media. Newsletter subscription fields indicate email newsletters. An intranet is another good source. You are looking for any channel that content is produced for. 
 
-Paragraph
+At this stage you are not looking to audit each channel to unpack how much content is there. That comes later. 
+
+### [1]Talk to people
+Set up interviews with people in the agency who have had anything to do with commissioning or owning a channel, or who publish content. Start with the communications, media, social media, and IT teams. 
+
+### [1]Ask questions
+
+Such as:
+- what channels do you currently have or use?
+- what channels do you no longer use or use less?
+- what are the connections between channels? 
+- who owns the channels? 
+- who creates and publishes content on these channels? 
+- who do you think the users are?
+- are there other content formats such as books and leaflets?
+- what is the purpose of each channel?
+
+

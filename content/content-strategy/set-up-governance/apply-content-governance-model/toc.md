@@ -1,5 +1,7 @@
 ---
 layout: nav/sections
 sections:
-  - Heading 2
+  - Decentralised content governance model
+  - Centralised content governance model
+  - Hybrid content governance
 ---

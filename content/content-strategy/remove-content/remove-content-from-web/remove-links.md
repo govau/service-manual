@@ -1,6 +1,6 @@
 ---
 layout: text/textblock
-section: Remove any internal and external links to the page
+section: Remove any internal and external links
 ---
 You’ll need to know what other pages on your website are linking to your content before deleting. Use a link finder to make the job quicker.
 

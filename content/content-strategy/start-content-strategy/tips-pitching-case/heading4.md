@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Summary
+section: What's next
 ---
