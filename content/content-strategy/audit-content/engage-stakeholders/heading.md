@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Text
+section: Get to know your stakeholders
 ---

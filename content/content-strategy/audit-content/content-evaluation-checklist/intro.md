@@ -1,7 +1,6 @@
 ---
 layout: intros/intro_with_nav
-subtitle: Abstract
+subtitle: Work with subject experts and content experts to check and evaluate the content in your audit for quality.
 category: Content strategy
 ---
 
-Paragraph

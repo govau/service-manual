@@ -1,5 +1,10 @@
 ---
 layout: nav/sections
 sections:
-  - Heading 2
+  - Get to know your stakeholders
+  - Get agreement
+  - Skills needed
+  - Manage expectations
+  - Working with subject experts
+  - Manage content publishing schedule
 ---

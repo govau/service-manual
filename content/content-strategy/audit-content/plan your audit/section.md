@@ -2,11 +2,5 @@
 layout: text/textblock
 ---
 
-Paragraph
-- the budget
-- resources available for a defined timeframe
-- the actions you want to take after the audit
+Websites can change over time or get overtaken by similar websites under the same policy. The audit will help you discover whether your website is still doing what it was intended to do. 
 
-### [1]Heading 3
-
-Paragraph

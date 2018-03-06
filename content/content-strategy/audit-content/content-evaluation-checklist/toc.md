@@ -1,5 +1,6 @@
 ---
 layout: nav/sections
 sections:
-  - Heading 2
+  - Check for currency and accuracy
+  - Check content quality
 ---

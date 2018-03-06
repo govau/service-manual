@@ -1,5 +1,8 @@
 ---
 layout: nav/sections
 sections:
-  - Heading 2
+  - Start a spreadsheet
+  - Categorise the data
+  - Assign owners
+  - Next steps
 ---
