@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-This model has the least content maturity. Subject experts create and publish their own content. They may also send their signed off content to a publishing team. This can indicate a basic content maturity level with little or no strategy.
+This model has the least content maturity. Subject experts create and publish their own content. They may also send their signed off content to a publishing team. This model can indicate a basic content maturity level with little or no strategy.
 
 ### [2]Pros
 Faster content approval and publishing.
