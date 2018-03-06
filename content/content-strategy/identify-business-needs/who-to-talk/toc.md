@@ -1,5 +1,7 @@
 ---
 layout: nav/sections
 sections:
-  - Heading 2
+  - Use existing material
+  - Talk to stakeholders
+  - Workshop with stakeholders
 ---

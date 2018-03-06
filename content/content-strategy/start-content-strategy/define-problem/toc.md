@@ -1,5 +1,8 @@
 ---
 layout: nav/sections
 sections:
-  - Heading 2
+  - Use metrics
+  - Use usability tests
+  - Use existing research
+  - Case studies
 ---

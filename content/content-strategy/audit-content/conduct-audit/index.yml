@@ -8,6 +8,9 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - example.md #example
+  - example2.md
+  - attachment.md #attachment
   - toc.md #toc
   - heading.md
   - section.md #text
@@ -24,12 +27,12 @@ main:
   - heading7.md
   - supporting-takeaway.md #supporting-takeaway
   - heading8.md
-  - example.md #example
+
   - heading9.md
   - fact.md #fact
   - diagram.md #diagram
   - heading10.md
-  - attachment.md #attachment
+
   - heading11.md
   - quotes.md #quotes
   - heading12.md

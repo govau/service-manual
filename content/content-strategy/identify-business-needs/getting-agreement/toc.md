@@ -1,5 +1,6 @@
 ---
 layout: nav/sections
 sections:
-  - Heading 2
+  - Collate your research
+  - Get sign off
 ---

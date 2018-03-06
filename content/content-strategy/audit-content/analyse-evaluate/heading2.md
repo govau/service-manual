@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Steps
+section: Checking the data
 ---

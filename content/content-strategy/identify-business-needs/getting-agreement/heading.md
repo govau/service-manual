@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Text
+section: Collate your research
 ---

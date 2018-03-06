@@ -1,5 +1,7 @@
 ---
 layout: nav/sections
 sections:
-  - Heading 2
+  - Project governance
+  - Engage early and regularly
+  - Talk about risk
 ---

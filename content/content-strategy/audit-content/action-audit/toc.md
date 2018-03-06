@@ -1,5 +1,9 @@
 ---
 layout: nav/sections
 sections:
-  - Heading 2
+  - Report your findings
+  - Remove content
+  - Archive content
+  - Rewrite content
+  
 ---

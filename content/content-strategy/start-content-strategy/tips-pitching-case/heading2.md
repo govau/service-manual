@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Steps
+section: Align your pitch to your agency goals 
 ---
