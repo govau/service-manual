@@ -1,13 +1,37 @@
 pagetitle: Decommission a website
-weight: 10
+weight: 60
 theme: blue
-description:
+description: Learn how to take your government website out of service. This is the final part in the process of how to remove website content.
+
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
   - intro.md
-  - block-1.md
+  - sections.md
+  - before-head.md
+  - before.md
+  - before-callout.md
+  - develop-plan.md
+  - tasks.md
+  - budget.md
+  - governance.md
+  - communicate.md
+  - understand.md
+  - managecontent-head.md
+  - managecontent.md
+  - content-audit.md
+  - content-migration.md
+  - key-links.md
+  - retaining-content.md
+  - managesystem-head.md
+  - managesystem.md
+  - technology-audit.md
+  - risk-analysis.md
+  - contracts-licences.md
+  - disposing.md
+  - managedomain-head.md  
+  - managedomain.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

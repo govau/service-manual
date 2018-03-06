@@ -1,13 +1,22 @@
 pagetitle: Get approval to remove
-weight: 10
+weight: 20
+description: How to explain to content owners why their content should be removed.
+layout: layout/topic
 theme: blue
-description:
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
   - intro.md
-  - block-1.md
+  - sections.md
+  - evidence-head.md
+  - evidence.md
+  - thinkplace-quote.md
+  - risks-head.md
+  - risks.md
+  - key-takeaway.md
+  - foi-head.md
+  - foi.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
