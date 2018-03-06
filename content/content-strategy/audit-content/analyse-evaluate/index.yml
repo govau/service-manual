@@ -1,5 +1,5 @@
 pagetitle: Analyse and evaluate
-description: Abstract
+description: Now that you have a view of your content, you’re ready to analyse and evaluate it for accuracy, relevance, quality and performance.
 weight: 10
 layout: layout/topic
 theme: blue
@@ -8,10 +8,13 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - toc.md #toc
+  - supporting-takeaway.md #supporting-takeaway
   - heading.md
-  - section.md #text
-  - heading2.md
+  - section.md
+  - heading2.md #checking #toolstemplates
+  - section2.md #checking #toolstemplates
+  - example.md #example
+
   - steps.md #step
   - heading3.md
   - approach.md #approach
@@ -22,9 +25,7 @@ main:
   - heading6.md
   - methods.md #methods
   - heading7.md
-  - supporting-takeaway.md #supporting-takeaway
   - heading8.md
-  - example.md #example
   - heading9.md
   - fact.md #fact
   - diagram.md #diagram

@@ -1,12 +1,6 @@
 ---
 layout: text/textblock
 ---
-
-Paragraph
-- the budget
-- resources available for a defined timeframe
-- the actions you want to take after the audit
-
-### [1]Heading 3
-
-Paragraph
+Make sure your content is of the highest quality. Work with subject experts and content experts to check and evaluate your content audit. Use the [content evaluation checklist](/content-strategy/audit-content/content-evaluation-checklist/) to check for:
+  * currency, accuracy and completeness
+  * quality, usability, findability, readability, accessibility

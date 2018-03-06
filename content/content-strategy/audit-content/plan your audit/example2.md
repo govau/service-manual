@@ -1,6 +1,5 @@
+
 ---
 layout: text/callout
 ---
-
-example
-
+Example 
