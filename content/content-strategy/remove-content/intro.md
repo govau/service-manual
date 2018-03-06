@@ -4,7 +4,7 @@ subtitle: Remove redundant, out-of-date content. Reduce the clutter so that user
 attrTitle1: Created by
 attrValue1: Digital Transformation Agency and National Archives of Australia
 attrTitle2: Reviewed on
-attrValue2: 30 March 2018
+attrValue2: 28 February 2018
 category: Content Strategy
 ---
 
