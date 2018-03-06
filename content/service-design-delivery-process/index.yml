@@ -7,6 +7,7 @@ header:
 main:
   - category_sections.md
   - what.md
+  - stages.md
   - why.md
   - when-head.md
   - when.md
