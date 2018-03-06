@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Approach
+section: Talk about risk
 ---

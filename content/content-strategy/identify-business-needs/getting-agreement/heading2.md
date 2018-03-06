@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Steps
+section: Get sign off
 ---

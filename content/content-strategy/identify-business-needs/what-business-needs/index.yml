@@ -8,9 +8,7 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - sections.md
-  - strategic-pyramid-head.md
-  - strategic-pyramid.md
+  - diagram.md
   - vision.md
   - vision-example.md
   - mission.md

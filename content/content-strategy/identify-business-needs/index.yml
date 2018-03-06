@@ -10,8 +10,6 @@ main:
   - how.md
   - cards.md
   - supporting-takeaway.md #supporting-takeaway
-  - example.md #example
-  - fact.md #fact
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

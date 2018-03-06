@@ -10,5 +10,3 @@ caption: A caption
 level: 2
 display: 3
 ---
-
-Paragraph

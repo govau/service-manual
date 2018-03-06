@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Approach
+section: Workshop with stakeholders
 ---
