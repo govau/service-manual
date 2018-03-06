@@ -1,5 +1,9 @@
 ---
 layout: nav/sections
 sections:
-  - Heading 2
+  - Talk about team benefits
+  - Align your goals with agency priorities
+  - Show the costs and efficiencies
+  - Baseline your site
+  - Build empathy with user feedback
 ---

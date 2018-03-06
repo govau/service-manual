@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Text
+section: Content evaluation checklist
 ---

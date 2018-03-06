@@ -1,5 +1,5 @@
 pagetitle: Plan your audit
-description: Plan your content audit by defining the purpose of your website and your goal.
+description: To plan your content audit, focus on the extent each website or application is still fulfilling its purpose.
 weight: 20
 layout: layout/topic
 theme: blue
@@ -9,8 +9,6 @@ header:
 main:
   - intro.md             # Plan your audit
   - sections.md
-  - section1.md          # Purpose of the website
-  - textblock1.md
   - section2.md          # Articulate a goal
   - textblock2.md
   - section3.md          # Decide on scope and type of content audit
