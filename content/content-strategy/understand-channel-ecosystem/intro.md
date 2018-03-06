@@ -13,6 +13,4 @@ As you investigate the channels in an agency there may be more than just a few w
 
 Discovering the state of the channel ecosystem is vital to understand the overlaps, gaps and scope. This can then be used to gain executive support for a content strategy program.
 
-There are **4 steps** to removing your content from the web.
-
 ## [3]Understand your ecosystem
