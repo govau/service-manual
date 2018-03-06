@@ -11,10 +11,11 @@ main:
   - sections.md
   - find-out-head.md
   - find-out.md
+  - key-takeaway.md
   - archiving-comm-head.md
   - archiving-comm.md
-  - archiving-comm02.md
   - archiving-comm-callout.md
+  - archiving-comm02.md
   - archiving-business-head.md
   - archiving-business.md
   - /_shared/feedback.md
