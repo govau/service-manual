@@ -7,12 +7,15 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - intro.md
-  - text.md #Show the content ecosystem
-  - diagram.md #Mind map with complexity and duplication
-  - diagram2.md #good mind map
-  - diagram3.md #Venn diagram
-  - screenshots.md #screenshots header
+  - intro.md #text
+  - text.md #text
+  - bad-mind-map.md #diagram
+  - long-text-bad-channel-mind-map.md #longtext
+  - good-mind-map.md #diagram
+  - long-text-description-channel-mind-map.md #longtext
+  - venn.md #diagram
+  - long-text-venn.md #longtext
+  - screenshots.md #text
   - topic-takeaway.md #topic-takeaway
   - /_shared/feedback.md
 footer:
