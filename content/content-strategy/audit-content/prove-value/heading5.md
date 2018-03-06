@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Topic takeaway
+section: Use feedback to build empathy
 ---

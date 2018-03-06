@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Topic takeaway
+section: Working with subject experts
 ---

@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Approach
+section: Decide on audit size and type
 ---

@@ -1,4 +1,5 @@
 ---
 layout: nav/section
-section: Text
+section: Start a spreadsheet
 ---
+

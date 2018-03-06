@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Methods
+section: Manage content publishing schedule
 ---
