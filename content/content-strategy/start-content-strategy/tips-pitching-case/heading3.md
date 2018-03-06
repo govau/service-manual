@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Approach
+section: When to pitch your project and ask for budget
 ---
