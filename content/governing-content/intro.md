@@ -11,3 +11,6 @@ Use content governance to:
 - meet government requirements for content
 - apply standards and checks to ensure quality
 - continuously maintain and improve content
+index.yml
+intro.md
+removing-content-topics.md

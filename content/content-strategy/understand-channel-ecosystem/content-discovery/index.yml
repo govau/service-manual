@@ -7,8 +7,8 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - intro.md
-  - where-to-start.md
+  - intro.md #text
+  - where-to-start.md #text
   - section.md #text
   - /_shared/feedback.md
 footer:
