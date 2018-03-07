@@ -1,5 +1,8 @@
 ---
 layout: nav/sections
 sections:
-  - Heading 2
+  - Accountability, expertise, escalation
+  - Leaders
+  - Doers
+  - Specialists
 ---
