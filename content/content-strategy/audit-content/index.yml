@@ -9,8 +9,8 @@ main:
   - attribution.md #attribution
   - why-head.md
   - why.md
-  - fact.md #fact
   - how.md
+  - fact.md #fact
   - cards.md
   - text:textblock.md #topic-takeaway
   - /_shared/feedback.md

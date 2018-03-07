@@ -1,17 +1,17 @@
 pagetitle: Define user content needs
 weight: 10
 theme: blue
-description:
+description: Get to know your users and create artefacts that help you action what you’ve learned.
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - attribution.md # attribution
+  - attribution.md
+  - why-head.md
+  - why.md
   - how.md
   - cards.md
-  - supporting-takeaway.md #supporting-takeaway
-  - example.md #example
-  - fact.md #fact
+  - supporting-takeaway.md #topic-takeaway
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
