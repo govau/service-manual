@@ -1,5 +1,5 @@
 pagetitle: Journey maps
-description: Abstract
+description: Create a journey map after your user research sessions. You will get a broad view of the experience and how your content fits into that.
 weight: 10
 layout: layout/topic
 theme: blue
@@ -8,36 +8,20 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - toc.md #toc
-  - heading.md
-  - section.md #text
-  - heading2.md
-  - steps.md #step
-  - heading3.md
-  - approach.md #approach
-  - heading4.md
-  - summary.md #summary
-  - heading5.md
-  - topic-takeaway.md #topic-takeaway
-  - heading6.md
-  - methods.md #methods
-  - heading7.md
   - supporting-takeaway.md #supporting-takeaway
-  - heading8.md
-  - example.md #example
-  - heading9.md
-  - fact.md #fact
+  - text1.md #methods
+  - heading.md #methods
+  - section.md #methods
   - diagram.md #diagram
-  - heading10.md
-  - attachment.md #attachment
-  - heading11.md
-  - quotes.md #quotes
-  - heading12.md
-  - glossary.md #glossary
-  - heading13.md
-  - references.md #references
-  - heading14.md
-  - text.md #text
+  - methods.md #methods
+  - text.md #longtext
+  - heading2.md #methods
+  - section2.md #methods
+  - supporting-takeaway2.md
+  - heading3.md
+  - section3.md
+  - heading4.md
+  - section4.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: How to audit content
+section: How to comduct your audit
 ---
