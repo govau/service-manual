@@ -45,4 +45,13 @@ For the readability example above, the user is a content designer and the job st
   * I want my content to be written simply
   * So that people with lower literacy levels can understand it
 
+### [1]Step 4: Write acceptance criteria
+Write acceptance criteria on the back of your index cards to measure how your content meets a user or job story. When you meet the acceptance criteria you have completed the story.
+
+For our readability example in the user story above, acceptance criteria might be that:
+  * content is in plain English
+  * content was tested with a readability tool and scored between a Year 5 (around age 9) and Year 9 (around age 13) reading level
+  * content is tested for comprehension with users
+Acceptance criteria should state a high-level intent, rather than a solution. Use acceptance criteria to test your content and measure performance.
+
 

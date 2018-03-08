@@ -1,4 +1,2 @@
----
-layout: nav/section
-section: Approach
----
+heading3.md
+
