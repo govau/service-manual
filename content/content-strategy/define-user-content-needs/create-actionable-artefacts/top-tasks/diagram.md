@@ -1,11 +1,10 @@
 ---
 layout: blocks/image_content_block
-image: https://via.placeholder.com/500x500
+image: content-strategy/top-tasks.svg
 link: https://via.placeholder.com/500x500
 reverse: false
 stackPosition: top
-imageAlt: Example image
-caption: The top tasks our agency's users need to do online
+imageAlt: top user tasks
 level: 2
 display: 3
 ---

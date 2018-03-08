@@ -8,8 +8,8 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - supporting-takeaway.md #supporting-takeaway
-  - text1.md #methods
+  - supporting-takeaway.md #methods
+  - supporting-takeaway1.md #methods
   - heading.md #methods
   - section.md #methods
   - diagram.md #diagram

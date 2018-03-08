@@ -1,23 +1,13 @@
 ---
 layout: blocks/image_content_block
-image: https://via.placeholder.com/500x500
-link: https://via.placeholder.com/500x500
+image: content-strategy/user-story-map.svg
+link: content-strategy/user-story-map.svg
 reverse: false
 stackPosition: top
 imageAlt: Example user stories and tasks of a content specialist
-caption: An example of user stories
 level: 2
 display: 3
 ---
-
-### [1]Step 4: Write acceptance criteria
-Write acceptance criteria on the back of your index cards to measure how your content meets a user or job story. When you meet the acceptance criteria you have completed the story.
-
-For our readability example in the user story above, acceptance criteria might be that:
-  * content is in plain English
-  * content was tested with a readability tool and scored between a Year 5 (around age 9) and Year 9 (around age 13) reading level
-  * content is tested for comprehension with users
-Acceptance criteria should state a high-level intent, rather than a solution. Use acceptance criteria to test your content and measure performance.
 
 ### [1]Step 5: Map your stories
 

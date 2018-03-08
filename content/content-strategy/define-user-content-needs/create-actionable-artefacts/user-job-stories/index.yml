@@ -9,13 +9,13 @@ header:
 main:
   - intro.md
   - supporting-takeaway.md #methods
-  - text.md #methods
+  - supporting-takeaway1.md
   - heading.md #methods
   - section.md #methods
   - diagram.md #diagram
   - text1.md #longtext
   - section1.md #methods
-  - supporting-takeaway1.md #supporting-takeaway
+  - supporting-takeaway2.md #supporting-takeaway
   - heading2.md #methods
   - section2.md #methods
   - /_shared/feedback.md

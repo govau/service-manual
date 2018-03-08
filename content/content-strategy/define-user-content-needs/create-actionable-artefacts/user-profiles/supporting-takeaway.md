@@ -1,5 +1,5 @@
 ---
 layout: text/callout
 ---
-Your artefacts will help to challenge preconceptions and gain empathy. Your team will have a  shared understanding of the content your users will need.
+### [1]Prep time: 10 mins      Number of people: 1+  Time to run: 1 to 3 hrs
 
