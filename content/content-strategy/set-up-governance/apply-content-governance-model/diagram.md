@@ -1,8 +1,8 @@
 ---
 layout: blocks/image_content_block
-image: https://via.placeholder.com/500x500
-link: https://via.placeholder.com/500x500
-title: Decentralised model
+image: content-strategy/governance/decentralised-content-governance-model.svg
+link: content-strategy/governance/decentralised-content-governance-model.svg
+title: Decentralised content governance model
 reverse: false
 stackPosition: top
 imageAlt: Diagram showing a decentralised content governance model
@@ -11,9 +11,12 @@ level: 2
 display: 3
 ---
 
-Decentralised content governance model: long text description
+This model has the least content maturity. Subject experts create and publish their own content. They may also send their signed off content to a publishing team. This model can indicate a basic content maturity level with little or no strategy.
 
-subject experts link to ‘self publish’ with dotted lines.
-subject experts link to ‘publishing team’ with dotted lines.
+**Pros**
 
-The dotted lines imply the content has been published without quality checks.
+Faster content approval and publishing.
+
+**Cons**
+
+Managing content is localised. For example managing content in a business area rather than agency-wide. There may be a tendency to put business needs before user needs. It’s often impossible to oversee quality standards such as plain English, readability, and accessibility. It’s difficult to establish overall editorial consistency.

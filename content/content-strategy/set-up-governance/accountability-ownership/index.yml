@@ -13,6 +13,7 @@ main:
   - heading.md
   - text.md #text
   - diagram.md #diagram
+  - longtext.md #long text description
   - heading2.md
   - text2.md
   - heading3.md

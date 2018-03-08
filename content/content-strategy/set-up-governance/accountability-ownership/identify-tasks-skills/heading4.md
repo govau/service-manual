@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Summary
+section: Facilitator's notes
 ---

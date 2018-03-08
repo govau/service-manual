@@ -6,5 +6,5 @@ category: Content strategy
 
 Publish the guidelines and standards on your intranet to use throughout the content lifecycle. They will help teams to know what to do and what not to do. 
 
-Everyone should be clear about your agency’s expectations for using them and for consistent and quality content. You also send a clear message of accountability and ownership.
+Everyone should be clear about your agency’s expectations for using them and for consistent and quality content. You also send a clear message of [accountability and ownership](/content-strategy/set-up-governance/accountability-ownership/)
 

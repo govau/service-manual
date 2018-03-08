@@ -19,7 +19,7 @@ main:
   - text4.md
   - heading5.md
   - text5.md
-  - attachment.md #method callout
+  - card.md #method callout
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

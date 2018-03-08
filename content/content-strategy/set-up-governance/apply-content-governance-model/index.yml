@@ -9,15 +9,12 @@ header:
 main:
   - intro.md
   - toc.md #toc
-  - heading.md
-  - text.md #text
   - diagram.md
-  - heading2.md
-  - text2.md
+  - longtext.md #long text description
   - diagram2.md
-  - heading3.md
-  - text3.md
+  - longtext2.md #long text description
   - diagram3.md
+  - longtext3.md #long text description
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

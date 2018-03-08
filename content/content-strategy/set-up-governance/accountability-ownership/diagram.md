@@ -1,35 +1,20 @@
 ---
 layout: blocks/image_content_block
-image: https://via.placeholder.com/500x500
-link: https://via.placeholder.com/500x500
+image: content-strategy/governance/content-teams.svg
+link: content-strategy/governance/content-teams.svg
 title: Content teams
 reverse: false
 stackPosition: top
 imageAlt: Diagram showing accountability of a content team with leaders, doers and specialists
-caption: Content teams showing accountability, expertise, escalation.
+caption: 
 level: 2
 display: 3
 ---
 
-Content teams: accountability, expertise, escalation: long text description
+Content teams showing accountability, expertise, escalation. 
 
-A 3-tiered triangle displays the hierarchy of a content team from leaders to doers and specialists. Roles sit under each of these titles. Accountabilities are adjacent to the roles.
+Set up content teams with content leads as points of escalation. Doers and specialists apply their expertise to the content lifecycle stages. They create and deliver quality content.
 
-Leaders are content strategist, communications manager, senior content lead
+With clear lines of accountability, teams are better able to work together and to break down silos.
 
-Their accountabilities are:
-- lead with strategy
-- champion quality
-- build capability
-- report on success
-- can say ‘no’
-
-Doers are subject experts, content leads, web writing experts.
-Specialists are communications expert, subject expert, graphic designer, search strategist, web analyst, user researcher, information architect
-
-Their accountabilities are:
-- use content lifecycle stages
-- apply skills to tasks
-- follow guides and standards
-- design for users
-- question and check quality
+Regular reporting on measures of success is part of content governance. Reporting helps to build trust and get long-term buy-in.

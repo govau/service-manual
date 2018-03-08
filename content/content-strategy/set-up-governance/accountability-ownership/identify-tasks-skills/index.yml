@@ -1,5 +1,5 @@
-pagetitle: Identify tasks and skills
-description: Abstract
+pagetitle: Identify content tasks and skills
+description: Explore the content tasks that are involved in each stage of the content lifecycle.
 weight: 10
 layout: layout/topic
 theme: blue
@@ -8,36 +8,19 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - toc.md #toc
-  - heading.md
-  - section.md #text
   - heading2.md
-  - steps.md #step
+  - text2.md
+  - attachment.md
+  - preptime-callout.md
+  - heading.md
+  - text.md
+  - key-takeaway.md #topic-takeaway
   - heading3.md
-  - approach.md #approach
+  - text3.md
   - heading4.md
-  - summary.md #summary
+  - text4.md
   - heading5.md
-  - topic-takeaway.md #topic-takeaway
-  - heading6.md
-  - methods.md #methods
-  - heading7.md
-  - supporting-takeaway.md #supporting-takeaway
-  - heading8.md
-  - example.md #example
-  - heading9.md
-  - fact.md #fact
-  - diagram.md #diagram
-  - heading10.md
-  - attachment.md #attachment
-  - heading11.md
-  - quotes.md #quotes
-  - heading12.md
-  - glossary.md #glossary
-  - heading13.md
-  - references.md #references
-  - heading14.md
-  - text.md #text
+  - text5.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
