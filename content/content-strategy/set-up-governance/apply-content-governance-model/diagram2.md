@@ -1,20 +1,22 @@
 ---
 layout: blocks/image_content_block
-image: https://via.placeholder.com/500x500
-link: https://via.placeholder.com/500x500
-title: Centralised model
+image: content-strategy/governance/centralised-content-governance-model.svg
+link: content-strategy/governance/centralised-content-governance-model.svg
+title: Centralised content governance model
 reverse: false
 stackPosition: top
 imageAlt: Diagram showing a centralised content governance model
 
-caption: A centralised content governance model helps create a consistent user experience
+caption:
 level: 2
 display: 3
 ---
-Centralised content governance model: long text description
+Centralised content governance brings a level of strategy, quality standards and a user-focused approach. A central content team oversees content. The team may also be responsible for high-profile services. These may be publishing teams who work on requests from subject experts.
 
-Groups of subject matter experts connect with a dotted line to a pyramid of leaders, doers and specialists. These people apply ‘Strategic content measures and quality checks’ before publishing.
+**Pros**
 
-The dotted lines to the pyramid imply that content needs to be checked for quality.  Connecting to the pyramid also implies that strategic content measures and quality checks are part of workflow.
+A content strategy, supported by guidelines and templates, encourages capability building. This also helps to build a content community. Quality checks are part of the workflow to ensure continuous improvement.
 
-A line from the pyramid goes straight to ‘Publish’.This also implies it is part of workflow.
+**Cons**
+
+Often a complex workflow. There can also be delays in negotiating and finalising content.

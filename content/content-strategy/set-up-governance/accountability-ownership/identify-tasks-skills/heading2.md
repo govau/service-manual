@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Steps
+section: Why identify tasks and skills
 ---

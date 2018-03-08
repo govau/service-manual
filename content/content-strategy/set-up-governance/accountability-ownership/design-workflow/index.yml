@@ -19,6 +19,7 @@ main:
   - heading4.md
   - text4.md
   - diagram.md #diagram
+  - longtext.md #long text description
   - heading5.md
   - text5.md
   - /_shared/feedback.md
