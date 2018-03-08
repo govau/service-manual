@@ -14,20 +14,11 @@ Set up interviews with people in the agency who have had anything to do with com
 ### [1]Ask questions
 
 Such as:
-- what channels do you currently have or use?
-- what channels do you no longer use or use less?
-- what are the connections between channels? 
-- who owns the channels? 
-- who creates and publishes content on these channels? 
-- who do you think the users are?
-- are there other content formats such as books and leaflets?
-- what is the purpose of each channel?
-
  * what channels do you currently have or use?
  * what channels do you no longer use or use less?
-  * what are the connections between channels? 
-  * who owns the channels? 
-  * who creates and publishes content on these channels? 
-  * who do you think the users are?
-  * are there other content formats such as books and leaflets?
-  * what is the purpose of each channel?
+ * what are the connections between channels? 
+ * who owns the channels? 
+ * who creates and publishes content on these channels? 
+ * who do you think the users are?
+ * are there other content formats such as books and leaflets?
+ * what is the purpose of each channel?
