@@ -1,7 +1,7 @@
 ---
 layout: cards/cards
 cards:
-  - headline: Attachment
-    text: Attachment
-    link: /assets/files/content-strategy/nsw-education-content-audit-spreadsheet.xlsx
+  - headline: Content strategy template (pptx 832KB)
+    text: Use this template at each of the phases of your content strategy.
+    link: /assets/files/content-strategy/content-strategy-template.pptx
 ---
