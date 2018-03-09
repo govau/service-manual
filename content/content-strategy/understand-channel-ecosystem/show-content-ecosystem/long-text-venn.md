@@ -2,11 +2,6 @@
 layout: text/textblock
 ---
 
-Skip to a long text description of the Venn diagram
-
-
-Page title:  Venn diagram: long text description
-
 The Venn diagram is titled Guidance Ecosystem Overlaps. 
 
 The diagram is made up of circles that represent digital channels. They vary in size and colour. 3 columns with numbered keys correspond to circles in the diagram. The text is not legible but each number details content-in-common where the circles overlap each other. 

@@ -1,7 +1,7 @@
 ---
 layout: blocks/image_content_block
-image: https://via.placeholder.com/500x500
-link: https://via.placeholder.com/500x500
+image: content-strategy/ecosystem/venn-channel-ecosystem.jpg
+link: content-strategy/ecosystem/venn-channel-ecosystem.jpg
 title: Venn diagram
 reverse: false
 stackPosition: top

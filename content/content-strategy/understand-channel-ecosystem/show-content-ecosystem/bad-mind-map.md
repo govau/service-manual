@@ -1,7 +1,7 @@
 ---
 layout: blocks/image_content_block
-image: https://via.placeholder.com/500x500
-link: https://via.placeholder.com/500x500
+image: content-strategy/ecosystem/bad-ecosystem-map.jpg
+link: content-strategy/ecosystem/bad-ecosystem-map.jpg
 title: Mind map
 reverse: false
 stackPosition: top
