@@ -10,10 +10,8 @@ header:
 main:
   - intro.md
   - toc.md #toc
-  - heading.md
-  - text.md #text
   - diagram.md #diagram
-  - longtext.md #long text description
+  - longtext.md #longtext
   - heading2.md
   - text2.md
   - heading3.md

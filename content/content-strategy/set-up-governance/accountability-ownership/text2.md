@@ -33,6 +33,3 @@ To establish accountability and ownership, you'll need to:
 - educate people who request, provide, review and approve content. 
 - create communities of best practice
 - be responsible for a maintenance plan
-
-
-

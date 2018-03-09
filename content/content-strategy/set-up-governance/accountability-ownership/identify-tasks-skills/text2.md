@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-Research has uncovered the problems Australian Government agencies face throughout the stages of the [content lifecycle](https://guides.service.gov.au/governing-content/content-lifecycle/).
+Research has uncovered the problems Australian Government agencies face throughout the [stages of the content lifecycle](https://guides.service.gov.au/governing-content/content-lifecycle/).
 
 When you discover where there are gaps in applying tasks and skills you can improve your workflow and the quality of your content.
 

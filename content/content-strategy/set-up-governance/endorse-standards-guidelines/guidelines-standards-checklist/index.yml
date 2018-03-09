@@ -8,6 +8,7 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - toc.md
   - heading1.md
   - checklist1.md #checklist
   - heading2.md

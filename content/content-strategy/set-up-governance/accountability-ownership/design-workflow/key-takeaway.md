@@ -1,6 +1,4 @@
 ---
 layout: text/callout
 ---
-
-### [2]Key takeaway
 Having a signed-off workflow is essential for a successful content strategy
