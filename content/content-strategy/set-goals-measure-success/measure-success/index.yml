@@ -1,5 +1,5 @@
-pagetitle: Decide on metrics, analyse them and measure success
-description: Decide on metrics, analyse them and measure success
+pagetitle: Measure success
+description: Select metrics, analyse them and measure success
 weight: 10
 layout: layout/topic
 theme: blue
@@ -8,14 +8,11 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - heading12.md
   - glossary.md #glossary
-  - heading5.md
+  - example-deloitte.md #example
+  - glossary2.md #glossary
   - topic-takeaway.md #topic-takeaway
   - analyse-your-metrics.md
-  - text.md #text
-  - toc.md #toc
-  - heading.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

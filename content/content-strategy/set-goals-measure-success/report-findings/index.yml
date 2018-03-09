@@ -1,5 +1,5 @@
-pagetitle: Report findings
-description: Abstract
+pagetitle: Report your findings
+description: Document your findings, visualise your data, summarise KPIs and performance and build it into a report to communicate to the right people.
 weight: 10
 layout: layout/topic
 theme: blue
@@ -8,36 +8,11 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - toc.md #toc
-  - heading.md
-  - section.md #text
-  - heading2.md
-  - steps.md #step
-  - heading3.md
-  - approach.md #approach
-  - heading4.md
-  - summary.md #summary
-  - heading5.md
-  - topic-takeaway.md #topic-takeaway
-  - heading6.md
-  - methods.md #methods
-  - heading7.md
+  - fact-analytics.md #fact
+  - text-visualise.md #text
+  - fact-dashboards.md #fact
+  - text-reporting.md #text
   - supporting-takeaway.md #supporting-takeaway
-  - heading8.md
-  - example.md #example
-  - heading9.md
-  - fact.md #fact
-  - diagram.md #diagram
-  - heading10.md
-  - attachment.md #attachment
-  - heading11.md
-  - quotes.md #quotes
-  - heading12.md
-  - glossary.md #glossary
-  - heading13.md
-  - references.md #references
-  - heading14.md
-  - text.md #text
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

@@ -1,6 +1,6 @@
 ---
 layout: intros/intro_with_nav
-subtitle: Decide on metrics, set KPIs and analyse the data to measure success. 
+subtitle: Select metrics, set KPIs and analyse and analyse the data to measure success. 
 category: Content strategy
 ---
 
@@ -28,7 +28,7 @@ If you choose to use these as your own objectives, then following are some metri
 ### [1]Usability
 2 ways to measure usability:
 - effectiveness - content needs to answer the user need it was designed for. This can be measured by whether users were able to complete their goal. A feedback mechanism on each page would be a great tool for measuring this. 
-- efficiency - content needs to be easy to find. How quickly users are able to complete their task or meet their need. 
+- efficiency - content needs to be easy to find so that users are able to complete their task or meet their need quickly. 
 
 ### [1]Findability
 3 ways to measure findability:
@@ -46,7 +46,7 @@ All users should be able to access the content including those with a disability
 ### [2]3. More efficient
 3 ways to measure reduced cost:
 - reduced failure demand 
-- estimated cost of content production per piece of content or section. You could also calculate this against number of visits to the content to determine ROI
+- estimated cost of content production and maintenance per piece of content or section. You could also calculate this against number of visits to the content to determine ROI
 - reduced cost per piece of content
 
 

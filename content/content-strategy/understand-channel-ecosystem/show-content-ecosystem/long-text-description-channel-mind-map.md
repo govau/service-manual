@@ -2,11 +2,6 @@
 layout: text/textblock
 ---
 
-Caption: A good channel ecosystem mind map would look like this. Few channels, little duplication and clearly linked. 
-Alt text: A simple and clear content channel mind map showing just a few channels.
-
-Skip to a long text description of a good channel ecosystem mind map
-
 A good channel ecosystem mind map: long text description
 
 At the centre of the mind map is a circle titled website 1. 

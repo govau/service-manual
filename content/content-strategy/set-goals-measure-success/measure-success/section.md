@@ -2,10 +2,7 @@
 layout: text/textblock
 ---
 
-Paragraph
-- the budget
-- resources available for a defined timeframe
-- the actions you want to take after the audit
+Content strategy goals and objectives need to be aligned with the agency and user needs and KPIs show content success.
 
 ### [1]Heading 3
 
