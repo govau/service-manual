@@ -7,7 +7,7 @@ An understanding of your business and how your content strategy will fit in.
 
 Your main output is documented business needs.
 
-Put this in your [Content Strategy Template](#)
+Put this in your [Content Strategy Template](/content-strategy/start-content-strategy/define-problem/content-strategy-template/)
 
 This is part of the research and analyse phase.
 

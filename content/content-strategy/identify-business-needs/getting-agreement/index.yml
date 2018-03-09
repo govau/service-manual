@@ -8,7 +8,6 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - toc.md #toc
   - heading.md
   - text.md #text
   - heading2.md

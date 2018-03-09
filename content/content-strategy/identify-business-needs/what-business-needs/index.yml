@@ -9,17 +9,17 @@ header:
 main:
   - intro.md
   - diagram.md
-  - long-description.md
+  - long-description.md 
   - vision.md
-  - vision-example.md
+  - vision-example.md #example
   - mission.md
-  - mission-example.md
+  - mission-example.md #example
   - goals.md
-  - goals-example.md
+  - goals-example.md #example
   - strategies.md
-  - strategies-example.md
+  - strategies-example.md #example
   - objectives.md
-  - objectives-example.md
+  - objectives-example.md #example
   - other-things.md
   - /_shared/feedback.md
 footer:
