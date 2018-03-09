@@ -2,7 +2,7 @@
 layout: text/callout
 ---
 
-### [2]What you’ll get
+## [3]What you’ll get
 
 You’ll continue to grow your understanding of who is using your channel or service and what they need.
 
@@ -11,8 +11,8 @@ This should be analysed and key insights put into your [content strategy templat
 
 This is part of the Research and analyse phase
 
-### [1]What to do before
+### [2]What to do before
 [Start a content strategy](/content-strategy/start-content-strategy/)
-### [1]What to do next
+### [2]What to do next
 [Audit content](/content-strategy/audit-content/)
 
