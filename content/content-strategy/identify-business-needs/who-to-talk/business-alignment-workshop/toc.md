@@ -1,5 +1,9 @@
 ---
 layout: nav/sections
 sections:
-  - Heading 2
+  - Materials
+  - Why run the workshop
+  - Preparation
+  - How to run the workshop
+  - Follow up
 ---

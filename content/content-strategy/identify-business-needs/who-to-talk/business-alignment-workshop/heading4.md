@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: How to run a business needs workshop
+section: How to run the workshop
 ---

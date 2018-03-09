@@ -7,4 +7,4 @@ If you reach agreement, send an email to confirm. Keep the group of participants
 
 If there’s no agreement, run more workshops to continue understanding business problems. It is critical to understand your business to create a content strategy.
 
-Add your business need to your [content strategy template](#).
+Add your business need to your [content strategy template](http://localhost:8080/content-strategy/start-content-strategy/define-problem/content-strategy-template/).
