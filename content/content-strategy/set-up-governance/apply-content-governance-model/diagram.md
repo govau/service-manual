@@ -2,7 +2,6 @@
 layout: blocks/image_content_block
 image: content-strategy/governance/decentralised-content-governance-model.svg
 link: content-strategy/governance/decentralised-content-governance-model.svg
-title: Decentralised content governance model
 reverse: false
 stackPosition: top
 imageAlt: Diagram showing a decentralised content governance model
@@ -10,6 +9,8 @@ caption: A decentralised content governance model can result in an inconsistent 
 level: 2
 display: 3
 ---
+
+## [3]Decentralised content govrnance model
 
 This model has the least content maturity. Subject experts create and publish their own content. They may also send their signed off content to a publishing team. This model can indicate a basic content maturity level with little or no strategy.
 

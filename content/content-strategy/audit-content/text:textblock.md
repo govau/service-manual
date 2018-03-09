@@ -1,17 +1,15 @@
-
-
-What you’ll get
+### [1]What you’ll get
 
 Doing this will enable you to get an oversight of all the content you have.
 
 Your main artefact is a content audit spreadsheet
 
-This should be analysed and key insights put into your content strategy deck
+This should be analysed and key insights put into your [content strategy template](/content-strategy/start-content-strategy/define-problem/content-strategy-template/)
 
-This is part of the research and analyse phase
+This is part of the Research and analyse phase
 
-What to do before
-[Define user content needs](/content-strategy/define-user-content-needs/)
+### [1]What to do before
+[Start a content strategy](/content-strategy/start-content-strategy/)
 
-What to do next 
-[Set goals and measure](/content-strategy/set-goals-measure-success/)
+### [1]What to do next 
+[Audit content](/content-strategy/audit-content/)

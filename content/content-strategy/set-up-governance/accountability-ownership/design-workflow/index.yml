@@ -7,19 +7,20 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - intro.md
+  - intro.md #method
+  - toc.md
+  - heading2.md
+  - text2.md
   - preptime-callout.md
   - heading.md
   - text.md
-  - heading2.md
-  - text2.md
-  - key-takeaway.md #topic-takeaway
   - heading3.md
   - text3.md
   - heading4.md
   - text4.md
   - diagram.md #diagram
-  - longtext.md #long text description
+  - longtext.md #longtext
+  - key-takeaway.md #topic-takeaway
   - heading5.md
   - text5.md
   - /_shared/feedback.md

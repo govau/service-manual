@@ -4,7 +4,7 @@ subtitle: Set up a content governance model to align with the goals of your cont
 attrTitle1:
 attrValue1: Who helped make this
 attrTitle2: Reviewed on
-attrValue2: 2 March 2018
+attrValue2: 1 March 2018
 category: Content strategy
 ---
 

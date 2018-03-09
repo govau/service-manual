@@ -25,7 +25,7 @@ Apply your current state findings to your new bespoke workflow. Start with what 
 
 Your workflow should reduce complexity and increase efficiency. Allow time for checks (quality and accuracy) and revisions before sending for signoff. Signoff may be in a document or in CMS staging.
 
-#### [1]Users and roles sheet
-- Add columns for: name, title, email
-- Add columns for business owner, manager, reviewer(checker), author, publisher
-- Use this as a guide to start on your diagram
+Prepare a users and roles sheet:
+  * add columns for: name, title, email
+  * add columns for business owner, manager, reviewer(checker), author, publisher
+  * use this as a guide to start on your diagram
