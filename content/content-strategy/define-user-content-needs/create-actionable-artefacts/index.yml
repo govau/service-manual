@@ -1,5 +1,5 @@
 pagetitle: Create actionable artefacts
-description: Abstract
+description: Use the right documents to build on your understanding of the user and communicate what you know.
 weight: 10
 layout: layout/topic
 theme: blue
@@ -8,8 +8,8 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - supporting-takeaway.md #methods
-  - heading.md #methods
+  - supporting-takeaway.md #supporting-takeaway
+  - heading.md
   - section.md #text
   - attachment.md #attachment
   - /_shared/feedback.md
