@@ -15,8 +15,7 @@ main:
   - long-text-description-channel-mind-map.md #longtext
   - venn.md #diagram
   - long-text-venn.md #longtext
-  - screenshots.md #text
-  - topic-takeaway.md #topic-takeaway
+  - screenshots.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

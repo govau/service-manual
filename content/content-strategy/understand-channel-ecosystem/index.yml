@@ -7,9 +7,8 @@ header:
   - /_shared/header.md
 main:
   - intro.md #text
-  - content-discovery-and-picture-cards.md #topic-takeaway
+  - cards.md #topic-takeaway
   - supporting-takeaway.md #supporting-takeaway
-  - before-next.md #text
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

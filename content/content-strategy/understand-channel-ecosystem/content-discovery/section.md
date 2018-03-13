@@ -1,7 +1,7 @@
 ---
 layout: text/textblock
 ---
-
+## [3]Where to start
 Setup a shared agency document to capture channel information. Explore the agency’s main websites and look for links to other websites (of the agency). 
 
 About us pages and footers are good places to start looking for other websites and channels such as social media. Newsletter subscription fields indicate email newsletters. An intranet is another good source. You are looking for any channel that content is produced for. 
