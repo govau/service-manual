@@ -8,30 +8,30 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - sections.md
+  - sections.md #toc
   - before-head.md
-  - before.md
-  - before-callout.md
-  - develop-plan.md
-  - tasks.md
-  - budget.md
-  - governance.md
-  - communicate.md
-  - understand.md
+  - before.md #text
+  - before-callout.md #attachment
+  - develop-plan.md #text
+  - tasks.md #text
+  - budget.md #text
+  - governance.md #text
+  - communicate.md #text
+  - understand.md #text
   - managecontent-head.md
-  - managecontent.md
-  - content-audit.md
-  - content-migration.md
-  - key-links.md
-  - retaining-content.md
+  - managecontent.md #text
+  - content-audit.md #text
+  - content-migration.md #text
+  - key-links.md #text
+  - retaining-content.md #text
   - managesystem-head.md
-  - managesystem.md
-  - technology-audit.md
-  - risk-analysis.md
-  - contracts-licences.md
-  - disposing.md
+  - managesystem.md #text
+  - technology-audit.md #text
+  - risk-analysis.md #text
+  - contracts-licences.md #text
+  - disposing.md #text
   - managedomain-head.md  
-  - managedomain.md
+  - managedomain.md #text
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

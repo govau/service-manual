@@ -2,7 +2,7 @@
 layout: text/textblock
 section: Manage the domain name
 ---
-You'll need to decide whether you'll keep the domain name, [set up a redirect](/content-strategy/remove-content/remove-content-from-web/#set-up-redirects) or dseregister it.
+You'll need to decide whether you'll keep the domain name, [set up a redirect](/content-strategy/remove-content/remove-content-from-web/#set-up-redirects) or deregister it.
 
 Consider: 
 - the profile of the domain name and how well users know it.

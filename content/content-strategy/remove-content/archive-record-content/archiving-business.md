@@ -6,7 +6,7 @@ Your agency may need to keep a record of the versions of content. If so, you sho
 
 The best ways are either:
 A content management system (CMS) or 
-electronic document record management system (EDRMS)
+electronic document record management system (EDRMS).
 
 If you can't capture your content in a recognised information management system, you'll need to find another way.
 

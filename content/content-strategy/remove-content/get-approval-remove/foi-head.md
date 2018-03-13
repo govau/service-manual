@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Freedom of Information (FOI) risks
+section: Freedom of Information risks
 ---

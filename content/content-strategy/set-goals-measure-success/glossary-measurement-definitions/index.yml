@@ -8,7 +8,6 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - glossary-heading.md
   - glossary.md #glossary
   - diagram.md #diagram
   - text.md ##longtext

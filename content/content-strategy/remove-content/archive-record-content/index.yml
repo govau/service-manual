@@ -8,16 +8,16 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - sections.md
+  - sections.md #toc
   - find-out-head.md
-  - find-out.md
-  - key-takeaway.md
+  - find-out.md #text
+  - key-takeaway.md ##topic-takeaway
   - archiving-comm-head.md
-  - archiving-comm.md
+  - archiving-comm.md #text
   - archiving-comm-callout.md
-  - archiving-comm02.md
+  - archiving-comm02.md #text
   - archiving-business-head.md
-  - archiving-business.md
+  - archiving-business.md #text
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

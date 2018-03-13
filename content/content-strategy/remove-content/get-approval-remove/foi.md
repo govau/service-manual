@@ -1,6 +1,6 @@
 ---
 layout: text/textblock
-section: Freedom of Information (FOI) risks
+section: Freedom of Information risks
 ---
 Users have the right to request government information at any time. This is part of the [Freedom of Information Act 1982](https://www.oaic.gov.au/freedom-of-information/).
 

@@ -1,5 +1,5 @@
 ---
 layout: intros/intro_with_nav
 category: Content strategy
-subtitle: You won’t need to do this step for minor updates. Some of the features you would include in a removal plan.
+subtitle: If you're planning a major removal of content, you'll need to get a plan in place. This will involve people, time and responsibilities.
 ---

@@ -7,23 +7,23 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - intro.md
-  - sections.md
+  - intro.md 
+  - sections.md #toc
   - set-up-head.md
-  - set-up.md
-  - set-up-callout.md
-  - using-404.md
-  - deleted-page-search.md
+  - set-up.md #text
+  - set-up-callout.md #attachment
+  - using-404.md #text
+  - deleted-page-search.md #text
   - remove-links-head.md
-  - remove-links.md
+  - remove-links.md #text
   - change-ia-head.md
-  - change-ia.md
+  - change-ia.md #text
   - agree-head.md
-  - agree.md
+  - agree.md #text
   - deletion-head.md
-  - deletion.md
+  - deletion.md #text
   - dns-head.md
-  - dns.md
+  - dns.md #text
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

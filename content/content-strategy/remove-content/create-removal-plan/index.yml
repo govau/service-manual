@@ -8,15 +8,16 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - text.md #text
   - sections.md
   - roles-head.md
-  - roles.md
+  - roles.md #text
   - document-head.md
-  - document.md
+  - document.md #text
   - schedule-head.md
-  - schedule.md
+  - schedule.md #text
   - standards-head.md
-  - standards.md
+  - standards.md #text
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

@@ -8,15 +8,16 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - toc.md
+  - toc.md #toc
   - evidence-head.md
-  - evidence.md
+  - evidence1.md #text
   - thinkplace-quote.md
+  - evidence2.md #text
   - risks-head.md
-  - risks.md
-  - key-takeaway.md
+  - risks.md #text
+  - key-takeaway.md #topic-takeaway
   - foi-head.md
-  - foi.md
+  - foi.md #text
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

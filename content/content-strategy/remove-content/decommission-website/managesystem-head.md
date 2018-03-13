@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Manage the systems
+section: Manage the system
 ---
