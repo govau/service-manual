@@ -16,7 +16,7 @@ Test out your hypotheses by building prototypes in code to explore different way
 
 ### [2]Beta
 
-Define a minimum viable product from the successful prototype in Alpha. Build this as an accessible and secure service. Allow the public to trial the beta alongside the existing service. Use their feedback to improve the service.
+Start building based on the minimum viable product you defined at the end of Alpha. Build this as an accessible and secure service. Allow the public to trial the beta alongside the existing service. Use their feedback to improve the service.
 
 ### [2]Live
 
