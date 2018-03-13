@@ -8,7 +8,7 @@ Before you start the Discovery stage, make sure you:
 - understand agile delivery and how you will do budgeting and reporting when using agile
 - find stakeholders and subject matter experts
 - have all relevant reviews and approvals in place for your proposed research, have started your user research plan and are ready to start researching straight away
-- understand [government domain names policies, guidelines and processes](https://www.domainname.gov.au/)
+- understand [gov.au domain names and subdomain policies](https://www.domainname.gov.au/)
 - have an open space for the team to co-locate with internet access, IT systems and printers
 - have purchased any equipment needed by the team (for example, laptops)
 
