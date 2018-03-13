@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Follow up
+section: How to make a journey map
 ---

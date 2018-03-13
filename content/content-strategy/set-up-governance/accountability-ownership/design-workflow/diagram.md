@@ -12,7 +12,6 @@ display: 3
 
 ### [3]Content production workflow
 - Add each of the roles as vertical labels
-- Write up life cycle stages across the top of the workflow: intent, plan, create,
-- Check and revise, sign off, publish, maintain/improve, remove
+- Write up life cycle stages across the top of the workflow: intent, plan, create, check and revise, sign off, publish, maintain/improve, remove
 - Draw up tasks for each role across the swimlanes under the relevant life cycle stages
 - Chart the interactions between roles

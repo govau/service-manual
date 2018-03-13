@@ -10,14 +10,10 @@ level: 2
 display: 3
 ---
 
-## [3]Decentralised content govrnance model
+## [3]Decentralised content governance model
 
 This model has the least content maturity. Subject experts create and publish their own content. They may also send their signed off content to a publishing team. This model can indicate a basic content maturity level with little or no strategy.
 
-**Pros**
+**Pros**: Faster content approval and publishing.
 
-Faster content approval and publishing.
-
-**Cons**
-
-Managing content is localised. For example managing content in a business area rather than agency-wide. There may be a tendency to put business needs before user needs. It’s often impossible to oversee quality standards such as plain English, readability, and accessibility. It’s difficult to establish overall editorial consistency.
+**Cons**: Managing content is localised. For example managing content in a business area rather than agency-wide. There may be a tendency to put business needs before user needs. It’s often impossible to oversee quality standards such as plain English, readability, and accessibility. It’s difficult to establish overall editorial consistency.

@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Follow up
+section: How to create user profiles
 ---

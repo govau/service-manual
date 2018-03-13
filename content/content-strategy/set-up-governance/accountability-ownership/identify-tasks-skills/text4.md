@@ -3,7 +3,7 @@ layout: text/textblock
 ---
 Use the presentation to work through the activity.
 
-#### [2]Roles exercise
+### [2]Roles exercise
 Keep the list of role ideas visible on a screen during the exercise to help kick-start the activity. It’s best not to use job titles.
 
 #### [2]Tasks exercise

@@ -9,11 +9,9 @@ level: 2
 display: 3
 ---
 
-You can present your user profiles in a range of different ways using content that is relevant to the project. Below are some examples of types of content.
+### [3]Main header: (primary user type) profile
 
-### [1]Main header: (primary user type) profile
-
-### [1]User snapshot
+### [3]User snapshot
 
 You may like to include a:
 

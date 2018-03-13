@@ -9,7 +9,7 @@ level: 2
 display: 3
 ---
 
-### [1]Step 5: Map your stories
+### [3]Step 5: Map your stories
 
 Map your user story cards in a tree format. Start with the broad overarching stories at the top of the tree and then map more specific user needs below this.
 

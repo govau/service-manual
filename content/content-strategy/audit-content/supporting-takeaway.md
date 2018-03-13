@@ -1,7 +1,19 @@
 ---
 layout: text/callout
 ---
-Research shows that 50% of users of government services have difficulty finding information online. Of those, 24% resort to making a telephone call.
+### [3]What you’ll get
 
-Source: KPMG study: 2015 Digital Ease of Use Index.
+Doing this will enable you to get an oversight of all the content you have.
+
+Your main artefact is a content audit spreadsheet
+
+This should be analysed and key insights put into your [content strategy template](/content-strategy/start-content-strategy/define-problem/content-strategy-template/)
+
+This is part of the Research and analyse phase
+
+### [2]What to do before
+[Start a content strategy](/content-strategy/start-content-strategy/)
+
+### [2]What to do next 
+[Audit content](/content-strategy/audit-content/)
 

@@ -8,19 +8,22 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - toc.md
   - supporting-takeaway.md #methods
-  - supporting-takeaway1.md #methods
-  - heading.md #methods
+  - heading.md
+  - text1.md
+  - heading1.md #methods
   - section.md #methods
   - diagram.md #diagram
   - methods.md #methods
   - text.md #longtext
-  - heading2.md #methods
+  - heading3.md #methods
   - section2.md #methods
   - supporting-takeaway2.md
-  - heading3.md
-  - section3.md
+  - text.md
   - heading4.md
+  - section3.md
+  - heading5.md
   - section4.md
   - /_shared/feedback.md
 footer:

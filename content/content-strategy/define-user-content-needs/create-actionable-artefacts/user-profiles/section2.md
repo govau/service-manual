@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-### [1]A user characteristics gauge (in relation to the product or service)
+### [2]A user characteristics gauge (in relation to the product or service)
 Depending on the nature of the project you are working on, you may like to include a characteristics gauge. This will allow you to easily see the differences between each of your different profiles. The gauge can be a simple line that rates a participant from low to high. You can add the characteristics depending on what is relevant to your project. Here are a few examples.
   * Knowledge or expertise
   * Level of interest

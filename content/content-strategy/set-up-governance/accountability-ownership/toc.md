@@ -1,7 +1,7 @@
 ---
 layout: nav/sections
 sections:
-  - Accountability, expertise, escalation
+  - Content teams
   - Leaders
   - Doers
   - Specialists

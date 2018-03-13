@@ -1,2 +1,5 @@
-heading3.md
+---
+layout: nav/section
+section: Follow up
+---
 
