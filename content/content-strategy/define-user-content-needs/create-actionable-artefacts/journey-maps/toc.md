@@ -1,5 +1,10 @@
 ---
 layout: nav/sections
 sections:
-  - Heading 2
+  - Materials
+  - Preparation
+  - How to make a journey map
+  - Follow up
+  - This can be used
+  - References
 ---

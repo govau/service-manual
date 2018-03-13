@@ -1,7 +1,7 @@
 ---
 layout: text/textblock
 ---
-### [1]Step 1: Use pain points to write your stories
+### [2]Step 1: Use pain points to write your stories
 
 Once you have collected your user pain points you can write your stories in response to them. Jot them on an index card so you can visualise and group your stories.
 
@@ -15,7 +15,7 @@ For example:
   * I need to know what I should be getting paid (minimum wage)
   * So that I can negotiate/check this with my employer
 
-### [1]Step 2: Start broad, then get detailed
+### [2]Step 2: Start broad, then get detailed
 
 Keep your stories simple, focused, concise and active. Begin with broad stories by focusing on the overall goal. Then gradually break this down to create stories that reflect an individual task.
 
@@ -29,7 +29,7 @@ A more detailed task-based user story under this could be:
   * I need to understand readability requirements
   * So that my content is clear and accessible to people with low literacy levels
 
-### [1]Step 3: Work out if you need job stories
+### [2]Step 3: Work out if you need job stories
 
 Job stories can be used when you have the same user/s for each story and your stories are starting to sound repetitive. A job story helps you create more detail.
 
@@ -45,7 +45,7 @@ For the readability example above, the user is a content designer and the job st
   * I want my content to be written simply
   * So that people with lower literacy levels can understand it
 
-### [1]Step 4: Write acceptance criteria
+### [2]Step 4: Write acceptance criteria
 Write acceptance criteria on the back of your index cards to measure how your content meets a user or job story. When you meet the acceptance criteria you have completed the story.
 
 For our readability example in the user story above, acceptance criteria might be that:
@@ -53,5 +53,4 @@ For our readability example in the user story above, acceptance criteria might b
   * content was tested with a readability tool and scored between a Year 5 (around age 9) and Year 9 (around age 13) reading level
   * content is tested for comprehension with users
 Acceptance criteria should state a high-level intent, rather than a solution. Use acceptance criteria to test your content and measure performance.
-
 

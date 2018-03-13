@@ -1,5 +1,9 @@
 ---
 layout: nav/sections
 sections:
-  - Heading 2
+  - Materials
+  - Preparation
+  - How to create user profiles
+  - Follow up
+  
 ---
