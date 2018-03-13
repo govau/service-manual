@@ -6,7 +6,7 @@ title: Mind map
 reverse: false
 stackPosition: top
 imageAlt: A confused content channel mind map. It has lots of channels, lots of interconnections and shows both duplication and complexity.
-caption: If your channel ecosystem mind map looks like this one then you need a content strategy.
+caption: If your channel ecosystem mind map looks like this one, then you need a content strategy.
 level: 2
 display: 3
 ---

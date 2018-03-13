@@ -8,9 +8,9 @@ The diagram is made up of circles that represent digital channels. They vary in 
 From the top DTA website is the largest, with 5 other channels and 4 smaller website sections.
 
 Overlaps:
-Guides, FAQs, Design Guide and Service Handbook overlap DTA website. 
-DTA website, Content Strategy, FAQs, Design Guide and Service Handbook overlap Guides.
-Guides, Design System, Content Guide and Style Manual overlap Content Strategy. 
-Content Strategy, Style Manual and Design Guide overlap Design System. 
-Content Strategy, Style Manual and Design System overlap Content Guide.
-Content Strategy, Content Guide, Design System and Design Guide overlap Style Manual.
+- Guides, FAQs, Design Guide and Service Handbook overlap DTA website. 
+- DTA website, Content Strategy, FAQs, Design Guide and Service Handbook overlap Guides.
+- Guides, Design System, Content Guide and Style Manual overlap Content Strategy. 
+- Content Strategy, Style Manual and Design Guide overlap Design System. 
+- Content Strategy, Style Manual and Design System overlap Content Guide.
+- Content Strategy, Content Guide, Design System and Design Guide overlap Style Manual.

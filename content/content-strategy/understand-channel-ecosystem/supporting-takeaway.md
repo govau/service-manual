@@ -7,3 +7,8 @@ The list and ecosystem map will show if there is a channel or content problem. T
 
 
 Your main artefact is an ecosystem map. This should be put in your [content strategy deck](/content-strategy/start-content-strategy/define-problem/content-strategy-template/) 
+### [2]What to do before
+This is the first stage.
+
+### [2]What to do next
+[Start your content strategy](/content-strategy/start-content-strategy/)
