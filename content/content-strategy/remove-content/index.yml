@@ -1,7 +1,7 @@
 pagetitle: Remove content
 weight: 10
 theme: blue
-description: 
+description: Remove redundant, out-of-date content. Reduce clutter so that users can find what they need.
 header:
   - /_shared/globalheader.md
   - /_shared/header.md

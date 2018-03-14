@@ -16,9 +16,9 @@ A goal is the outcome your strategy is aiming to achieve. It describes the resul
 
 ### [1]Key Performance Indicator (KPI)
 
-PThese are targets. They show an increase or substantial change over time. Reaching the KPI targets is evidence of success. Objectives and KPIs can be interchangeable.
+These are targets. They show an increase or substantial change over time. Reaching the KPI targets is evidence of success. Objectives and KPIs can be interchangeable.
 
 ### [1]Objective
 
-Objectives are points or markers that must be reached on the path towards achieving a goal. 
+Objectives are points or markers that must be reached on the path towards achieving a goal.
 

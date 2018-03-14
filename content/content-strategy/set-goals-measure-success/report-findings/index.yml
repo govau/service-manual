@@ -11,6 +11,7 @@ main:
   - fact-analytics.md #fact
   - text-visualise.md #text
   - fact-dashboards.md #fact
+  - text.md
   - text-reporting.md #text
   - supporting-takeaway.md #supporting-takeaway
   - /_shared/feedback.md
