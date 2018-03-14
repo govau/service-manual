@@ -11,8 +11,8 @@ It might be easier to get into smaller groups if you need to brainstorm missions
 
 The goal of the workshop is to get agreed vision, mission and goals of your agency. 
 
-Props can help facilitate the workshop:  
+**Props can help facilitate the workshop:**  
 
 - Use a ‘car park’ board to stick post-its with topics of conversation that take your workshop off on tangents. Address these topics at the end of the workshop or follow up on them after.
-- Use visuals like the [pyramid diagram](/content-strategy/identify-business-needs/what-business-needs/) to get quick understanding. 
-- Follow the rules for writing [vision, missions and goals](/content-strategy/identify-business-needs/what-business-needs/).
+- Use visuals like the [pyramid diagram](/content-strategy/identify-business-needs/what-business-needs/) to get quick understanding — follow the rules for writing vision, missions and goals.
+
