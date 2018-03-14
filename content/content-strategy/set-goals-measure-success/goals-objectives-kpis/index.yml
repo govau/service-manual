@@ -10,8 +10,8 @@ main:
   - intro.md
   - dta-example.md #example
   - text.md #text
-  - agency-example.md #example
   - supporting-takeaway.md #supporting-takeaway
+  - agency-example.md #example
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

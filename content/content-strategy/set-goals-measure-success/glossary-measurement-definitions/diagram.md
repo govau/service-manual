@@ -1,7 +1,7 @@
 ---
 layout: blocks/image_content_block
 image: content-strategy/ecosystem/objectives-goals.svg
-link: https://via.placeholder.com/500x500
+link: content-strategy/ecosystem/objectives-goals.svg
 title: Relationship between objectives and your goal
 reverse: false
 stackPosition: top

@@ -13,7 +13,6 @@ Discuss options with your IT team, business intelligence or analytics teams and 
 
 Pick a team member who will be trained on the tool. They can manage access for other team members, prepare reports and stay up to date.
 
-When choosing a tool think about:
-cookie tracking - many government agencies have strict cookie policies. This may limit the amount of data you can track
+Cookie tracking — many government agencies have strict cookie policies. This may limit the amount of data you can track
 privacy - government agencies have strict data storage rules
 software and hardware restrictions - undertake appropriate assessments with IT before you install any software or hardware packages

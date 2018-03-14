@@ -6,7 +6,7 @@ There are a range of free and paid tools you can use to develop a reporting temp
 
 Establish what the best time frames are for your reporting but they can range from weekly, to monthly and yearly. It depends on the volume and how frequently you are publishing content. Another important part of your reporting template are KPIs. These are the targets you have set and they track how well your content is performing.
 
-To build a template:
+**To build a template:**
 
 - decide what you want to measure
 - list metrics and give each a weighting
@@ -16,12 +16,12 @@ To build a template:
 - all the percentages for each section are calculated into a total percentage and this is the result for that measurement
 
 ### [2]Communicate your results
-Set up a monthly reporting template with a dashboard that shows performance against the KPIs. Keep it short and the important part here is not so much the metrics themselves, but the analytics and tracking performance against KPIs. It is the findings that are most important for senior executives and the wider content team.
+Set up a monthly reporting template with a dashboard that shows performance against the KPIs. Keep it short and the important part here is not so much the metrics themselves, but the analytics and tracking performance against KPIs. It's the findings that are most important for senior executives and the wider content team.
 
 When appropriate, consider reporting content performance to:
 - your direct team
 - the IT team
 - content owners across the agency and also the leaders of their branch
 - the senior executive team
-- to the public
+- the public
 - other agencies 

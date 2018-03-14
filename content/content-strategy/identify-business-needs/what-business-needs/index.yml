@@ -18,6 +18,8 @@ main:
   - goals-example.md #example
   - strategies.md
   - strategies-example.md #example
+  - tactics.md
+  - tactics-example.md #example
   - objectives.md
   - objectives-example.md #example
   - other-things.md

@@ -4,3 +4,5 @@ subtitle: You’ll hear a wide range of business objectives. Know what you’re 
 category: Content strategy
 ---
 
+It's important to know what your vision, mission, goals, strategies, tactics and objectives are.
+
