@@ -1,7 +1,7 @@
 ---
 layout: blocks/image_content_block
 image: content-strategy/top-tasks.svg
-link: https://via.placeholder.com/500x500
+link: content-strategy/top-tasks.svg
 reverse: false
 stackPosition: top
 imageAlt: top user tasks
