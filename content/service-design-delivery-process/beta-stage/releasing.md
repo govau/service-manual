@@ -4,7 +4,9 @@ layout: text/textblock
 
 Once you have built the minimum viable product you will release it to test with real users, first as a private beta and then a public beta, alongside the current service.
 
-Your research may prove the need for a new gov.au domain name or subdomain. Apply through the [gov.au domain name administration system](https://www.domainname.gov.au/).
+Your research should look at the most appropriate way to host the new public beta service. This might be a new subdomain, sub-directory or a domain name.
+
+You will need to apply for a new domain name through the [gov.au domain name administration system](https://www.domainname.gov.au/).
 
 ### [2]Private beta
 

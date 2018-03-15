@@ -6,7 +6,7 @@ Your team should feel confident that you are proposing a service that will work 
 
 Start work on a business proposal for Beta stage as early as possible. You can start this as soon as the team is confident it can and should move to Beta. This gives you time to get approvals and avoids the team losing momentum.
 
-If you think you may need a new [gov.au domain name or subdomain](https://www.domainname.gov.au/) make sure you understand the policies and processes.
+If you think you may need a new [gov.au domain name](https://www.domainname.gov.au/) make sure you understand the policies and processes.
 
 Hold a final demonstration of your Alpha stage prototype with the leaders for your service. Use the demo to show what you have achieved in Alpha stage and explain your vision for the Beta stage.
 
