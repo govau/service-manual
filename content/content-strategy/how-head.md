@@ -1,6 +1,6 @@
 ---
 layout: category/category_section
 section: How
-title: Get started
+title: Where to begin
 level: 2
 ---
