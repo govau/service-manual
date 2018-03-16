@@ -6,7 +6,7 @@ Once you have built the minimum viable product you will release it to test with 
 
 Your research should look at the most appropriate way to host the new public beta service. This might be a new subdomain, sub-directory or a domain name.
 
-You will need to apply for a new domain name through the [gov.au domain name administration system](https://www.domainname.gov.au/).
+Apply for a new domain name through the [gov.au Domain Administration System](https://www.domainname.gov.au/).
 
 ### [2]Private beta
 
