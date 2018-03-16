@@ -1,10 +1,23 @@
 ---
 layout: nav/sections
 sections:
-  - Get to know your stakeholders
-  - Get agreement
-  - Skills needed
-  - Manage expectations
-  - Working with subject experts
-  - Manage content publishing schedule
+  - Keywords
+  - Title tags and page titles
+  - Meta descriptions
+  - Headings
+  - Images
+  - Page URLs
+  - Internal links
+  - Schema
+  - Rich answers
+  - Internal site search
+  - Content relevance
+  - Prioritising content
+  - Content authority
+  - Social media and SEO
+  - SEO user experience
+  - Mobile and SEO
+  - Duplicate content
+  - Over optimising
+  - Google's SEO guidelines
 ---

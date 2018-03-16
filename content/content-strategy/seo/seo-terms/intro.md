@@ -1,6 +1,6 @@
 ---
 layout: intros/intro_with_nav
-subtitle: Now that you have a view of your content, you’re ready to analyse and evaluate it for accuracy, relevance, quality and performance. 
+subtitle: SEO uses a unique set of definitions, acronyms and concepts. It's best to understand these first, to effectively apply SEO methods and techniques.
 category: Content strategy
 ---
 
