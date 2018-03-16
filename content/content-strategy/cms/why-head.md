@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Why audit content
+section: Why use a CMS
 ---

@@ -1,6 +1,15 @@
 ---
 layout: text/textblock
 ---
-Before you start your content audit, get buy-in from everyone involved, ideally from the top down. Bring them along on the journey with regular communication and evidence of what’s working well and what’s not.
+A CMS allows content teams to work together on content. With this in mind, you can set up various user roles for your web team in your CMS. Sometimes these roles may be the responsibility of one or more people.
 
-Share your content audit plan widely and forge early agreements to help things move along more smoothly.
+Each of these roles will have a different purpose and access level. For example, a person whose role is to proofread or edit, may not be able to publish content. This ensures quality control with clear processes.
+Some typical CMS roles include:
+- author: sometimes called a content creator or writer. This is the role of actually preparing and writing content within the CMS itself.
+- editor: edits existing content
+- approver: has the final say on whether to publish a piece of content
+- publisher: pushes content to the ‘live’ site
+
+### [1]Action
+Write down who is responsible for each part of the content lifecycle, and what they will be required to do in the CMS.
+

@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Report your findings
+section: Using a CMS to manage the content lifecycle
 ---
