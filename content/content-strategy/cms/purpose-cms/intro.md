@@ -1,6 +1,6 @@
 ---
 layout: intros/intro_with_nav
-subtitle: Report your findings to get stakeholder support to action your audit data and improve your content.
+subtitle: Your CMS is a service which sits between your content strategy and your website. It’s the middle ground where you can manage your content from beginning to end.
 category: Content strategy
 ---
 

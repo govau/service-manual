@@ -3,17 +3,18 @@ layout: text/callout
 ---
 ### [3]What you’ll get
 
-Doing this will enable you to get an oversight of all the content you have.
+An understanding of how to choose a CMS and manage your content.
 
-Your main artefact is a content audit spreadsheet
+Your main artefact is a [CMS requirements checklist]()
 
-This should be analysed and key insights put into your [content strategy template](/content-strategy/start-content-strategy/define-problem/content-strategy-template/)
+This should be analysed and shared with the development team
 
-This is part of the Research and analyse phase
+
+This is part of the implementing your strategy phase
 
 ### [2]What to do before
-[Start a content strategy](/content-strategy/start-content-strategy/)
+[Develop your SEO](/content-strategy/seo/)
 
 ### [2]What to do next 
-[Audit content](/content-strategy/audit-content/)
+[Apply the content lifecycle](/content-strategy/audit-content/)
 

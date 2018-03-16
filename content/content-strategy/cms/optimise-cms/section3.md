@@ -2,10 +2,7 @@
 layout: text/textblock
 ---
 
-Think about the skills you might need and if you can use anyone in your existing team. It is useful to have the following people in your team:
+Workflow refers to how you manage content in a CMS throughout the content lifecycle.
+Aim to keep your workflow simple. A simple ‘write, edit, approve, publish’ workflow may be enough. If you do have many levels of checks and approvals needed, you may want a more complex workflow. If you want to manage and track workflow, be clear on what levels of clearances you need for publishing content.
 
-  * a leader who is user-focused and good at building relationships
-  * subject matter expert
-  * accessible online writing and editing expert
-  * someone with analytical/IT/SEO knowledge
-  * someone with web publishing knowledge
+Many CMSs will also offer the ability to connect to your own staff directories. This allows you to send notifications for approvals and preview links before publishing.

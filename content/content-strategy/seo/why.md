@@ -1,4 +1,4 @@
 ---
 layout: text/textblock
 ---
-With millions of gov.au web pages, we need to reduce the clutter. A content audit is where we begin. An audit will help you scope and budget for content improvement and reduction projects. It also gives you baselines to report on what you have improved during the content lifecycle.
+Optimised content can improve the user experience by helping people find information quickly. Successful SEO helps direct the right users to the relevant content on your website.

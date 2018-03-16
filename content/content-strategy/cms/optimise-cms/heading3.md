@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Skills needed
+section: Setting up workflow
 ---

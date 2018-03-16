@@ -1,10 +1,14 @@
 ---
 layout: nav/sections
 sections:
-  - Get to know your stakeholders
-  - Get agreement
-  - Skills needed
-  - Manage expectations
-  - Working with subject experts
-  - Manage content publishing schedule
+  - Using your CMS as a service
+  - Defining CMS user roles
+  - Setting up workflow
+  - Making and publishing quick changes
+  - Different types of content fields
+  - WYSIWYG text editor
+  - Site analytics
+  - CMS support community
+  - CMS customisation
+
 ---

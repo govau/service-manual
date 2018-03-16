@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: How to conduct your audit
+section: Actions for better SEO
 ---

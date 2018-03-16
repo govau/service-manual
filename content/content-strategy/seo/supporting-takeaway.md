@@ -3,17 +3,17 @@ layout: text/callout
 ---
 ### [3]What you’ll get
 
-Doing this will enable you to get an oversight of all the content you have.
+A practical understanding of SEO techniques. This will help you get better search results and connect your content with your users.
 
-Your main artefact is a content audit spreadsheet
+- Your main output is to define your SEO strategy.
 
-This should be analysed and key insights put into your [content strategy template](/content-strategy/start-content-strategy/define-problem/content-strategy-template/)
+- This should be put in your [content strategy](/content-strategy/start-content-strategy/) deck
 
-This is part of the Research and analyse phase
+This is part of the implementing your strategy phase
 
 ### [2]What to do before
-[Start a content strategy](/content-strategy/start-content-strategy/)
+[Information architecture](/content-strategy/information-architecture/)
 
 ### [2]What to do next 
-[Audit content](/content-strategy/audit-content/)
+[Content design](/content-strategy/content-design/)
 

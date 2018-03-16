@@ -1,7 +1,6 @@
 ---
 layout: text/callout
 ---
-Research shows that 50% of users of government services have difficulty finding information online. Of those, 24% resort to making a telephone call.
+WYSIWYG is an acronym for ‘what you see is what you get’. A WYSIWYG text editor allows CMS users to create and manipulate text and graphics, as they will appear on screen.
 
-Source: KPMG study: 2015 Digital Ease of Use Index.
 

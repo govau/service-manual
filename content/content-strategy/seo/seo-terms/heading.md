@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Content evaluation checklist
+section: Search engines
 ---

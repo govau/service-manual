@@ -1,6 +1,6 @@
 ---
 layout: intros/intro_with_nav
-subtitle: Content audits often involve a lot of negotiation and value judgments. Throughout the audit you’ll need to work hard to maintain good relationships.
+subtitle: Just because a CMS offers lots of features doesn’t mean it’s the right one for you. There are certain parts of a CMS that can be optimised, so that you can manage content the way you want.
 category: Content strategy
 ---
 

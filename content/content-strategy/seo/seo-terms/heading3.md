@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Rewrite content
+section: Rankings
 ---
