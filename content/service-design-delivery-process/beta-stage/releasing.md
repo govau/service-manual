@@ -4,7 +4,7 @@ layout: text/textblock
 
 Once you have built the minimum viable product you will release it to test with real users, first as a private beta and then a public beta, alongside the current service.
 
-Your research should look at the most appropriate way to host the new public beta service. This might be a new subdomain, sub-directory or a domain name.
+Your research should help you find the best way to host the new public beta service. This might be a new subdomain, sub-directory or a domain name.
 
 Apply for a new domain name through the [gov.au Domain Administration System](https://www.domainname.gov.au/).
 
