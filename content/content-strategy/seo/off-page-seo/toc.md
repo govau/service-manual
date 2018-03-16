@@ -1,8 +1,8 @@
 ---
 layout: nav/sections
 sections:
-  - Report your findings
-  - Remove content
-  - Archive content
-  - Rewrite content  
+  - Link building
+  - Anchor text
+  - Analytics
+  - SEO future proofing
 ---

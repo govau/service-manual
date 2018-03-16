@@ -1,9 +1,9 @@
 ---
 layout: intros/intro_with_nav
-subtitle: Audit your content to get a clear understanding of your digital estate or service. Create evidence to improve, remove or change.
+subtitle: SEO means search engine optimisation. This means making content better, so it's easy for users to find the information they’re looking for when searching.
 attrTitle1: Created by
-attrValue1: Digital Transformation Agency and Department of Industry, Innovation and Science
-attrTitle2: Reviewed on 1 March 2018
+attrValue1: Digital Transformation Agency and Australian Taxation Office (ATO).
+attrTitle2: Reviewed on 
 attrValue2: 
 category: Content Strategy
 ---
