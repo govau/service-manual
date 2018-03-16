@@ -1,0 +1,27 @@
+pagetitle: Improve your on-page SEO
+description: Content audits often involve a lot of negotiation and value judgments. Throughout the audit you’ll need to work hard to maintain good relationships.
+weight: 40
+layout: layout/topic
+hidden: true
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - toc.md #toc
+  - heading.md
+  - section.md #text
+  - heading2.md
+  - section2.md
+  - heading3.md
+  - section3.md
+  - heading4.md
+  - section4.md
+  - heading5.md
+  - section5.md
+  - heading6.md
+  - section6.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

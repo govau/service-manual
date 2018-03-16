@@ -1,0 +1,28 @@
+pagetitle: Optimise your CMS
+description: Learn how to implement your CMS by optimising some of its features and functionality to suit your content design and website needs.
+weight: 40
+layout: layout/topic
+hidden: true
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - toc.md #toc
+  - heading.md
+  - section.md #text
+  - heading2.md
+  - section2.md #text
+  - heading3.md
+  - section3.md #text
+  - diagram-lifecycle.md #diagram
+  - heading4.md
+  - section4.md #text
+  - heading5.md
+  - section5.md #text
+  - heading6.md
+  - section6.md #text
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md
