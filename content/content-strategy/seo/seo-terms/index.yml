@@ -17,6 +17,8 @@ main:
   - text1.md
   - heading2.md #h2
   - text2.md #checking
+  - screenshot.md #screenshot
+  - longtext.md
   - heading3.md
   - text3.md
   - cards.md
