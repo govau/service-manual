@@ -1,0 +1,25 @@
+pagetitle: Learn about SEO terms and meanings
+description: Understand the words, definitions and concepts of SEO, so that you can apply them successfully to your website content.
+weight: 60
+hidden: true
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - toc.md #table of contents
+  - heading.md #h2
+  - text.md
+  - fact.md #fast fact
+  - heading1.md #h2
+  - text1.md
+  - heading2.md #h2
+  - text2.md #checking
+  - heading3.md
+  - text3.md
+  - cards.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

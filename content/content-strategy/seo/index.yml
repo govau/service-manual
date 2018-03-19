@@ -1,0 +1,19 @@
+pagetitle: Define your SEO
+weight: 10
+hidden: true
+theme: blue
+description: Get better search results for your government agency website with SEO. Optimise content to make it easy for people to find your information.
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - attribution.md #attribution
+  - why-head.md
+  - why.md
+  - fact.md #fact
+  - how.md
+  - cards.md
+  - supporting-takeaway.md #topic-takeaway.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

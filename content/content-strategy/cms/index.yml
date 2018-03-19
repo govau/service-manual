@@ -1,0 +1,21 @@
+pagetitle: Get the most out of your CMS
+weight: 10
+hidden: true
+theme: blue
+description: Learn how to choose the best CMS for your purposes and get the most out of it. Manage content efficiently and smoothly all in one place.
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - attribution.md #attribution
+  - why-head.md
+  - why.md #text
+  - fact.md #fact
+  - section-head-purpose.md
+  - section-purpose.md #summary
+  - section-head-action.md
+  - section-action.md #approach
+  - supporting-takeaway.md #topic-takeaway.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

@@ -1,0 +1,25 @@
+pagetitle: Improve your off-page SEO
+description: Abstract
+weight: 80
+layout: layout/topic
+hidden: true
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - toc.md #toc
+  - heading.md #report findings
+  - section.md #report findings
+  - example.md #example
+  - section.md #report findings2
+  - example2.md #example
+  - heading2.md #remove content
+  - section2.md #remove content
+  - heading3.md #archive
+  - section3.md #archive
+  - heading4.md #rewrite
+  - section4.md #rewrite
+footer:
+  - /_shared/footer.md
