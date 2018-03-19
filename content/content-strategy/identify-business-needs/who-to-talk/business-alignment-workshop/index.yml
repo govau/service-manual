@@ -7,13 +7,13 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - intro.md
+  - intro.md #method
   - toc.md
-  - heading.md #heading h2
-  - text.md
   - heading2.md #heading h2
   - text2.md
   - preptime-callout.md
+  - heading.md #heading h2
+  - text.md
   - heading3.md #heading h2
   - text3.md
   - heading4.md #heading h2

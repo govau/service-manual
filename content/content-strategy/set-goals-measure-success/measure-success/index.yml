@@ -8,6 +8,11 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - toc.md
+  - heading.md
+  - text.md
+  - heading1.md
+  - text1.md
   - glossary.md #glossary
   - example-deloitte.md #example
   - glossary2.md #glossary

@@ -8,12 +8,10 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - toc.md
   - supporting-takeaway.md #supporting-takeaway
   - heading.md
   - section.md #text
-  - heading1.md
-  - heading2.md
-  - heading3.md
   - attachment.md #attachment
   - /_shared/feedback.md
 footer:

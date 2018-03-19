@@ -1,5 +1,5 @@
 ---
 layout: nav/sections
 sections:
-  - Heading 2
----
+  - Choose a method
+  - Approach
