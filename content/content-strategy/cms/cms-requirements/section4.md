@@ -1,8 +1,8 @@
 ---
 layout: text/textblock
 ---
-Once you’ve started to decide on your content, begin the analysis. Add in your qualitative and quantitative assessment and web content analytics.
+How many people in your team will need access to your CMS. Consider how many people will be using it, and what kind of subscription model or license is associated with a CMS. 
+Questions to ask
+- is there a cost per license?
+- what does the license include?
 
-To validate your audit spreadsheet, consider testing it with others in your team first to make sure:
-  * your colleagues are testing content against criteria in the same way
-  * you’ve chosen relevant criteria to measure your website

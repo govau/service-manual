@@ -1,5 +1,5 @@
 ---
 layout: nav/section
-section: Start a spreadsheet
+section: Costs involved in a CMS
 ---
 

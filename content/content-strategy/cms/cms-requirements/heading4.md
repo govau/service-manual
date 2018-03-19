@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Next steps
+section: Understanding your CMS license
 ---

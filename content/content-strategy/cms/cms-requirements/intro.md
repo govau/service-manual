@@ -1,6 +1,6 @@
 ---
 layout: intros/intro_with_nav
-subtitle: Collect everything you can find out about your content. This includes web pages and assets through to content types, content owners or subject experts, users and metadata.
+subtitle: Before you can choose a suitable CMS, get clear on your requirements. This will also help you to know what questions to ask when looking at different CMS options.
 category: Content strategy
 ---
 

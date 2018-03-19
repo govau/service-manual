@@ -1,8 +1,16 @@
 ---
 layout: text/textblock
 ---
-Use a spreadsheet template to create a complete list of the above data as evidence about your content assets.
+The cost of a CMS should be considered from the very start, as many ongoing costs may not be clear. Consider both the initial costs of set up, as well as ongoing support and maintenance costs. This way you can make an informed decision about how much a CMS may cost you over time.
+Take into consideration things like;
+- upfront purchase
+- licensing costs
+- training costs
+- upgrading costs
+- maintenance/support costs
+- changes or customisation costs
+- security and hosting
+Sometimes these costs will all be rolled into one or they may be separate components.
 
-Otherwise export your pages to a spreadsheet from a CMS or analytics tool to give you a complete list of all pages on the site. Remove content that is not a true page (for example, search result query string URLS) or pages not included in the content audit.
 
 
