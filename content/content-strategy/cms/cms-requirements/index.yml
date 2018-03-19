@@ -1,5 +1,5 @@
 pagetitle: Prepare and gather CMS requirements
-description: Collect everything you can find out about your content.
+description: Find out what you need to know about a CMS before you choose to buy one. Get clear on your CMS requirements so that the CMS you can choose and use the best CMS for your purposes.
 weight: 50
 layout: layout/topic
 hidden: true
@@ -10,15 +10,24 @@ header:
 main:
   - intro.md
   - toc.md #toc
+  - fact.md #fact
+  - topic-takeaway.md #topic-takeaway
   - heading.md
   - section.md #text
-  - example.md #example
   - heading2.md
-  - section2.md
+  - section2.md #text
   - heading3.md
-  - section3.md
+  - section3.md #text
   - heading4.md
-  - section4.md
+  - section4.md #text
+  - heading5.md
+  - section5.md #text
+  - heading6.md
+  - section6.md #text
+  - heading7.md
+  - section7.md #text
+  - heading8.md
+  - section8.md #text
   - example2.md #example
   - /_shared/feedback.md
 footer:

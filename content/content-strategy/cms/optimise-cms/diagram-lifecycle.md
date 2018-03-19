@@ -1,7 +1,7 @@
 ---
 layout: blocks/image_content_block
-image: content-strategy/CS - CMS - lifecycle.svg
-link: content-strategy/CS - CMS - lifecycle.svg
+image: content-strategy/cs-cms-lifecycle.svg
+link: content-strategy/cs-cms-lifecycle.svg
 title: CMS as a service within the content ecosystem
 reverse: false
 stackPosition: top

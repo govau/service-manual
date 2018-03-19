@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Assign owners
+section: Content distribution network (CDN)
 ---
