@@ -8,6 +8,7 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - toc.md
   - supporting-takeaway.md #supporting-takeaway
   - heading.md
   - section.md #text

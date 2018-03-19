@@ -9,6 +9,8 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - heading.md
+  - text.md
   - toc.md #toc
   - diagram.md #diagram
   - longtext.md #longtext

@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: References
+section: Follow up
 ---

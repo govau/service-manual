@@ -13,6 +13,8 @@ main:
   - heading.md
   - text1.md
   - heading1.md #methods
+  - text2.md
+  - heading2.md
   - section.md #methods
   - diagram.md #diagram
   - text.md #longtext
