@@ -8,10 +8,7 @@ header:
 main:
   - category_sections.md
   - why.md
-  - when-head.md
-  - when.md
   - how-head.md
-  - how.md
   - guides-cards.md
   - cstudies-head.md
   - cstudies.md

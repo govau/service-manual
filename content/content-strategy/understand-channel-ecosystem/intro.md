@@ -7,7 +7,7 @@ attrTitle2: Reviewed on
 attrValue2: 2 March 2018
 category: Content Strategy
 ---
-As you investigate the channels in an agency there may be more than just a few websites. You may uncover many more websites, social media channels, apps, email newsletters, intranets and forgotten websites. You may even consider bringing in more traditional media like flyers and brochures. 
+As you investigate the channels in your agency there may be more than just a few websites. You may uncover many more websites, social media channels, apps, email newsletters, intranets and forgotten websites. You may even consider bringing in more traditional media like flyers and brochures. 
 
 ## [3]Why understand your ecosystem
 

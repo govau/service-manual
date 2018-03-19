@@ -1,11 +1,6 @@
 ---
 layout: intros/intro_with_nav
 subtitle: Set up a content governance model to align with the goals of your content strategy. Be clear about quality standards, who owns the content and who does what.
-attrTitle1:
-attrValue1: Who helped make this
-attrTitle2: Reviewed on
-attrValue2: 1 March 2018
-category: Content strategy
 ---
 
 ## [3]Why govern content

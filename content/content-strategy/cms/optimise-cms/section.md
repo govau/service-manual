@@ -13,4 +13,3 @@ access to support and training
 ### [1]Actions
 Start by listing the specific needs of people who will be using the system. How well will your CMS meet their needs? Focus on the needs of the people using the the CMS, rather than extra features that you may not use.
 
-
