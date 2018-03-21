@@ -1,12 +1,5 @@
 ---
 layout: text/textblock
 ---
-Some content will need reworking. Think about this as you’re analysing the content.
+Always remember, SEO is not a ‘set and forget’ practice. Technology is constantly changing and SEO strategies need consistent review. This will help your SEO to always remains as effective as possible.
 
-The tasks may involve making your content clearer by:
-rewriting in the active voice and reducing the number of words
-rewriting in plain English and improving readability and accessibility
-updating the information to be accurate and current
-making the content task-focused and including a call-to-action
-
-Add ‘rewrite’ as a task to the audit spreadsheet as you go.

@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Manage expectations
+section: Images
 ---

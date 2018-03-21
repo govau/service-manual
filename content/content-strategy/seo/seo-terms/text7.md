@@ -1,16 +1,12 @@
 ---
 layout: text/textblock
 ---
-SERP stands for search engine results page. These refer to the actual search results a user sees in a list, after they’ve done a search. 
+Sometimes also called inbound links. These link back to your content from other websites. Search engines rank the quality of these backlinks, which in turn helps to strengthen your SEO. 
 
-In a typical search, you’ll see both paid listings and organic listings. The SERP page will consist of 10 organic results. Each result will have as a minimum:
-- a headline — known as a meta title or page title
-- a description — known as a meta description
-- a URL link — the website page link itself
+Other sites linking back to yours could be other agencies, trusted organisations, departments, businesses or individuals such as a Minister’s blog site.
 
-These 3 pieces of information can be modified and optimised for SEO.
+There are two broad components of a backlink. These are the ‘quality’ and the ‘quantity’. You want as many quality backlinks to your site as possible. This will help give your content authority, as search engines will consider your content valuable enough for other sites to be linking back to. The best link strategy are the ones that link directly to your keywords.
 
-Some SERP results can also include extra information such as navigation, website headings, names of people, search bars etc. This extra information is called rich snippets, and depends if your pages have been set up to maximise SEO.
+### [2]Link checking
+Don't forget to also conduct regular checks on all of your own page links. Broken links can affect the usability of your site which in turn will affect your SEO.
 
-### [2]Search results can vary
-Each time a user does a search, the results can vary, even on the same search done twice. Some factors are out of your control such as a user’s browsing history, location and social media settings. This is why the quality of your content itself becomes vital for successful SEO.

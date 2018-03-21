@@ -7,7 +7,6 @@ header:
   - /_shared/header.md
 main:
   - attribution.md
-  - why.md
   - how.md
   - cards.md
   - supporting-takeaway.md #topic-takeaway

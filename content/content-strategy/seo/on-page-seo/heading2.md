@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Get agreement
+section: Metadata
 ---

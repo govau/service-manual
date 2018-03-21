@@ -11,16 +11,32 @@ main:
   - intro.md
   - toc.md #table of contents
   - heading.md #h2
-  - text.md
+  - text.md #text
   - fact.md #fast fact
   - heading1.md #h2
-  - text1.md
+  - text1.md #text
+  - heading4.md #h2
+  - text4.md #text
   - heading2.md #h2
-  - text2.md #checking
-  - screenshot.md #screenshot
-  - longtext.md
-  - heading3.md
-  - text3.md
+  - text2.md #text
+  - screenshot2.md #screenshot
+  - longtext2.md
+  - heading3.md #h2
+  - text3.md #text
+  - screenshot3.md #screenshot
+  - longtext3.md
+  - heading5.md #h2
+  - text5.md #text
+  - heading6.md #h2
+  - text6.md #text
+  - heading7.md #h2
+  - text7.md #h2
+  - heading8.md #h2
+  - text8.md #text
+  - heading9.md #h2
+  - text9.md #text  
+  - heading10.md #h2
+  - text10.md #text
   - cards.md
   - /_shared/feedback.md
 footer:
