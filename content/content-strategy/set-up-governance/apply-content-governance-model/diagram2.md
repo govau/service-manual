@@ -17,3 +17,4 @@ Centralised content governance brings a level of strategy, quality standards and
 **Pros**: A content strategy, supported by guidelines and templates, encourages capability building. This also helps to build a content community. Quality checks are part of the workflow to ensure continuous improvement.
 
 **Cons**: Often a complex workflow. There can also be delays in negotiating and finalising content.
+

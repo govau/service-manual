@@ -11,7 +11,7 @@ main:
   - sections.md #toc
   - before-head.md
   - before.md #text
-  - before-callout.md #attachment
+  - before-callout.md #supporting-takeaway
   - develop-plan.md #text
   - tasks.md #text
   - budget.md #text
@@ -30,7 +30,7 @@ main:
   - risk-analysis.md #text
   - contracts-licences.md #text
   - disposing.md #text
-  - managedomain-head.md  
+  - managedomain-head.md
   - managedomain.md #text
   - /_shared/feedback.md
 footer:

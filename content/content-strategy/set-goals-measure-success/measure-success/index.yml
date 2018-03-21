@@ -13,11 +13,10 @@ main:
   - text.md
   - heading1.md
   - text1.md
-  - glossary.md #glossary
-  - example-deloitte.md #example
-  - glossary2.md #glossary
-  - topic-takeaway.md #topic-takeaway
-  - analyse-your-metrics.md
+  - example.md #example
+  - heading2.md
+  - text2.md
+  - supporting-takeaway.md #supporting-takeaway
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

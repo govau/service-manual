@@ -9,8 +9,8 @@ header:
 main:
   - intro.md
   - dta-example.md #example
-  - text.md #text
   - supporting-takeaway.md #supporting-takeaway
+  - text.md #text
   - agency-example.md #example
   - /_shared/feedback.md
 footer:

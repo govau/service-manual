@@ -9,7 +9,7 @@ header:
 main:
   - intro.md
   - text.md #text
-  - sections.md
+  - toc.md
   - roles-head.md
   - roles.md #text
   - document-head.md

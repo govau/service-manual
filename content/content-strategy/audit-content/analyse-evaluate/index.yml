@@ -11,8 +11,8 @@ main:
   - supporting-takeaway.md #supporting-takeaway
   - heading.md
   - section.md
-  - heading2.md #checking
-  - section2.md #checking
+  - heading2.md
+  - section2.md
   - example.md #example
   - /_shared/feedback.md
 footer:

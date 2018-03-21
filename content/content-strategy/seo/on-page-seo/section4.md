@@ -1,7 +1,10 @@
 ---
 layout: text/textblock
 ---
-As you move through your content audit keep all the relevant stakeholders engaged. You can keep the engagement going through:
-  * ongoing communication, for example email updates
-  * workshops for idea sharing and problem solving
-  * clinics for updates and check-ins
+Images are a great way to improve a page visually. They help the user with a visual format for your content, and improve your SEO at the same time.
+
+**Make sure to:**
+- add keywords to the image filename
+- add keywords to the image ALT tag
+- add a caption to your image
+

@@ -10,4 +10,3 @@ When you govern content:
 - you report on agreed measures of success. This helps to build trust and get buy in. It also helps deliver on the goals of your content strategy.
 
 Start by understanding your agency’s content maturity level. Align it with an improved content governance model.
-

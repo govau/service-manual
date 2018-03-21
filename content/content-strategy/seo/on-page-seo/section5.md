@@ -1,17 +1,20 @@
 ---
 layout: text/textblock
 ---
-A content audit is an exercise where everyone works together for the common goal to improve content for the user.
+A URL is the actual web address of each page on your site. SEO friendly URLs help users find your content and help search engines understand what your page is about.
 
-It’s natural for people to sometimes feel a personal attachment to content they have developed and published. After all, a lot of time and energy goes into writing specialist or technical content.
+**Guidelines**
 
-It can also be a time consuming task getting reviews and signoff to publish on a website. As a result, it can be difficult for some people to let content go. It may need to be  decommissioned, rewritten or merged in with other similar content on the website.
+Aim to:
+- use keywords in your URL
+- keep URLs short but clear
+- make sure you use a consistent, clear format across all of your URLs
+- avoid special characters such as & or %
+- use verbs where possible. For example, use /apply instead of /applying
+- use hyphens (-) to separate words. Do not use any other means. 
+- use keywords within your URL structures.
 
-Be sure to remember and empathise with this if you’re working with line areas to conduct a content audit. By making people feel involved, and acknowledging the expertise that each group brings, it's easier to work towards the common goal of improving the user's experience.
+URL structure may also be dependent on how your information architecture (IA) has been set up. See [Information architecture](/content-strategy/information-architecture/) for more on this.
 
-### [1]Tips for successful auditing
-
-  * Define and discuss roles and responsibilities with the teams involved so that everyone understands how they can best contribute.
-  * Listen to and document any concerns and needs that get raised.
-  * Communicate often. Set up regular catch-up meetings to discuss progress. This is also a good way for the wider team to get to know your main stakeholders.
-  * Work with stakeholders on the main aspects of the audit. This includes setting up any technical work and the process you’ll use when auditing the content. You may be able to share skills and knowledge with each other to make things easier and more efficient.
+### [2]A note about Google and HTTPS
+Talk to your CMS service provider about using the prefix of https in preference to http, for a more secure URL address. If your site does not use the prefix of https, Google may penalise your SEO rankings. See [Search Engine Journal](https://www.searchenginejournal.com/google-is-requiring-https-for-secure-data-in-chrome/183756/) for more on this.

@@ -10,7 +10,7 @@ level: 2
 display: 3
 ---
 
-## [3]Accountability, expertise, escalation 
+## [3]Content teams 
 
 Set up content teams with content leads as points of escalation. Doers and specialists apply their expertise to the content lifecycle stages. They create and deliver quality content.
 

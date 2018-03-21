@@ -8,8 +8,8 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - diagram.md
-  - long-description.md 
+  - diagram.md #diagram
+  - long-description.md #longtext
   - vision.md
   - vision-example.md #example
   - mission.md
