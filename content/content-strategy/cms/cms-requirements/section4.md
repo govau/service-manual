@@ -1,8 +1,5 @@
 ---
 layout: text/textblock
 ---
-How many people in your team will need access to your CMS. Consider how many people will be using it, and what kind of subscription model or license is associated with a CMS. 
-Questions to ask
-- is there a cost per license?
-- what does the license include?
+Consider how many people in your team need access to a CMS. This will show you what kind of subscription model or license suits best. It is important to understand what the license includes.
 
