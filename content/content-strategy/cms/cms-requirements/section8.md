@@ -10,3 +10,12 @@ A staging and live site may be enough for most agencies in terms of pure content
 
 If you want to develop your website in the future, you’ll need to be clear on how your CMS will handle changes. This includes things like navigation, functionality and new content requirements.
 
+Consider the following:
+- how many development and staging environments may be needed
+- how data and files flow between ‘staging’ and ‘live’ environments
+- how developers will pull down a production version of your site, that has been stripped of personal or secure information
+- if the CMS puts any restrictions on your preferred deployment methods
+
+### [1]Preview capabilities
+You’ll want a CMS with accurate preview capabilities. This is when you can view a preview web page as it will appear, before it goes live.
+

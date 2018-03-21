@@ -1,6 +1,5 @@
-pagetitle: Optimise your CMS
+pagetitle: Choose and optimise your CMS
 description: Learn how to implement your CMS by optimising some of its features and functionality to suit your content design and website needs.
-weight: 40
 layout: layout/topic
 hidden: true
 theme: blue
@@ -17,7 +16,6 @@ main:
   - heading3.md
   - section3.md #text
   - diagram-lifecycle.md #diagram
-  - heading4.md
   - section4.md #text
   - heading5.md
   - section5.md #text
