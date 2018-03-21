@@ -1,9 +1,8 @@
 ---
 layout: text/textblock
 ---
-In other instances you may need to decide on how best to retain content for archiving. The tasks involved may vary, for example:
-  * remove from the IA
-  * store in soft copy to be available for Freedom of Information (FOI) requests
-  * group archived material on new or existing pages to retain online access
+Web analytics can help you measure the success of your SEO, to understand which pages are working and which pages aren’t.
 
-Add ‘archive’ as a task to the audit spreadsheet as you go.
+For search purposes, it's worth looking at all of your analytics data. This includes the data for top search queries, bottom search queries, nil search results and search result clicks. This will give you a more accurate overview of how your content is performing.
+
+[Google search console](https://www.google.com/webmasters/tools/home?hl=en) is a tool to consider using for SEO, to help search engines crawl your content better. This is especially useful for new content updates and needs to link to your Google analytics (GA) account.

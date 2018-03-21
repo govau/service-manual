@@ -2,22 +2,21 @@
 layout: nav/sections
 sections:
   - Keywords
-  - Title tags and page titles
-  - Meta descriptions
-  - Headings
+  - Metadata
+  - Page headings
   - Images
   - Page URLs
-  - Internal links
+  - Internal links and site search
   - Schema
   - Rich answers
-  - Internal site search
+  - Content review
   - Content relevance
   - Prioritising content
   - Content authority
-  - Social media and SEO
-  - SEO user experience
-  - Mobile and SEO
+  - Social media
+  - User experience
+  - Mobile
   - Duplicate content
   - Over optimising
-  - Google's SEO guidelines
+  - Google SEO guidelines
 ---

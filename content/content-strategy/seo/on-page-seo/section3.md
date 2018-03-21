@@ -1,11 +1,13 @@
 ---
 layout: text/textblock
 ---
+Use heading tags to reinforce a page’s most important theme. Search engine robots generally place the most weight on an H1 tag followed by H2, H3 and so on.
 
-Think about the skills you might need and if you can use anyone in your existing team. It is useful to have the following people in your team:
+**Guidelines:**
+- use keywords within headers
+- every page should have a H1 header
+- do not use headers as links
+- do not use headers to style font on the site
+- only use headers to head up blocks of content
 
-  * a leader who is user-focused and good at building relationships
-  * subject matter expert
-  * accessible online writing and editing expert
-  * someone with analytical/IT/SEO knowledge
-  * someone with web publishing knowledge
+

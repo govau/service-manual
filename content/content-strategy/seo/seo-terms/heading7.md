@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Backlinks
+section: Backlinks and link checking
 ---

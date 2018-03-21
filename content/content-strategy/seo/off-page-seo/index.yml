@@ -1,5 +1,5 @@
 pagetitle: Improve your off-page SEO
-description: Abstract
+description: Off-page SEO improves how your content is ranked by search engines and perceived by users. This is done largely through link building.
 weight: 80
 layout: layout/topic
 hidden: true
@@ -10,16 +10,15 @@ header:
 main:
   - intro.md
   - toc.md #toc
-  - heading.md #report findings
-  - section.md #report findings
-  - example.md #example
-  - section.md #report findings2
-  - example2.md #example
-  - heading2.md #remove content
-  - section2.md #remove content
-  - heading3.md #archive
-  - section3.md #archive
-  - heading4.md #rewrite
-  - section4.md #rewrite
+  - heading.md #h2
+  - section.md #text
+  - heading2.md #h2
+  - section2.md #text
+  - screenshot.md #diagram
+  - longtext.md #longtext
+  - heading3.md #h2
+  - section3.md #text
+  - heading4.md #h2
+  - section4.md #text
 footer:
   - /_shared/footer.md
