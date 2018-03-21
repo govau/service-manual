@@ -38,4 +38,10 @@ Site performance includes metrics such as page load times and instances of users
 ### [1] Top pages
 Find out the most visited and least visited pages. This gives you a good indication about what content is found and used.
 
+### [1]Visitors
+
+Find out the number of users visiting your content. You can also filter this by new and returning visitors, and also filter out internal visitors.
+
+Find out how to set up an analytics tool.
+
 

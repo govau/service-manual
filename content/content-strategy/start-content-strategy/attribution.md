@@ -1,10 +1,6 @@
 ---
 layout: intros/intro_with_nav
 subtitle: To start a content strategy you will need to involve senior executive, persuade them to approve and get the go-ahead.
-attrTitle1: 
-attrValue1: Who helped make this
-attrTitle2: Reviewed on
-attrValue2: 1 March 2018
 category: Content strategy
 ---
 

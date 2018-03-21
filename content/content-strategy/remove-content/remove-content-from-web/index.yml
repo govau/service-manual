@@ -7,11 +7,11 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - intro.md 
+  - intro.md
   - sections.md #toc
   - set-up-head.md
   - set-up.md #text
-  - set-up-callout.md #attachment
+  - set-up-callout.md #supporting-takeaway
   - using-404.md #text
   - deleted-page-search.md #text
   - remove-links-head.md

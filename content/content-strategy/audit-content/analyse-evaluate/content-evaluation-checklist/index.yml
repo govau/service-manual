@@ -10,7 +10,7 @@ main:
   - intro.md
   - toc.md #toc
   - heading.md
-  - section.md #text
+  - section.md
   - heading2.md
   - Section2.md
   - /_shared/feedback.md

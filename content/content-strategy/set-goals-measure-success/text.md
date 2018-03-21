@@ -1,4 +1,4 @@
 ---
 layout: text/textblock
 ---
-Learn the background to setting goals, objectives, KPIs and measuring content success. 
+Learn how to set goals, objectives, KPIs and measure content success. 

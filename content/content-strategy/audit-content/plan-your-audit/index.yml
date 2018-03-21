@@ -10,7 +10,7 @@ main:
   - intro.md
   - toc.md #toc
   - heading.md
-  - section.md #text
+  - section.md
   - example.md #example
   - heading2.md
   - section2.md

@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Learn about setting goals and measuring success
+section: Learn to set goals, measure and report
 ---

@@ -11,11 +11,11 @@ main:
   - toc.md #toc
   - evidence-head.md
   - evidence1.md #text
-  - thinkplace-quote.md
+  - thinkplace-quote.md #quotes
   - evidence2.md #text
   - risks-head.md
   - risks.md #text
-  - key-takeaway.md #topic-takeaway
+  - key-takeaway.md #supporting-takeaway
   - foi-head.md
   - foi.md #text
   - /_shared/feedback.md

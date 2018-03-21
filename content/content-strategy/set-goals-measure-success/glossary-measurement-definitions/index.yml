@@ -10,7 +10,7 @@ main:
   - intro.md
   - glossary.md #glossary
   - diagram.md #diagram
-  - text.md ##longtext
+  - text.md #longtext
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

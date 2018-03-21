@@ -8,11 +8,16 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - toc.md
+  - heading.md
+  - text-visualise.md
   - fact-analytics.md #fact
-  - text-visualise.md #text
-  - fact-dashboards.md #fact
+  - text-dashboards.md
+  - heading1.md
   - text.md
-  - text-reporting.md #text
+  - text-reporting.md
+  - heading2.md
+  - text3.md
   - supporting-takeaway.md #supporting-takeaway
   - /_shared/feedback.md
 footer:
