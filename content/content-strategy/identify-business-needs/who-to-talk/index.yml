@@ -14,6 +14,6 @@ main:
   - text2.md
   - heading3.md
   - text3.md
-  - attachment.md #method callout
+  - attachment.md #attachment
 footer:
   - /_shared/footer.md

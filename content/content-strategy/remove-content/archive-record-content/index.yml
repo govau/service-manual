@@ -11,10 +11,10 @@ main:
   - sections.md #toc
   - find-out-head.md
   - find-out.md #text
-  - key-takeaway.md ##topic-takeaway
+  - key-takeaway.md #supporting-takeaway
   - archiving-comm-head.md
   - archiving-comm.md #text
-  - archiving-comm-callout.md
+  - archiving-comm-callout.md #supporting-takeaway
   - archiving-comm02.md #text
   - archiving-business-head.md
   - archiving-business.md #text

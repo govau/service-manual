@@ -9,16 +9,16 @@ header:
 main:
   - intro.md #method
   - toc.md
-  - heading2.md #heading h2
+  - heading2.md
   - text2.md
   - preptime-callout.md
-  - heading.md #heading h2
+  - heading.md
   - text.md
-  - heading3.md #heading h2
+  - heading3.md
   - text3.md
-  - heading4.md #heading h2
+  - heading4.md
   - text4.md
-  - heading5.md #heading h2
+  - heading5.md
   - text5.md
   - /_shared/feedback.md
 footer:

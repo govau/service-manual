@@ -9,11 +9,11 @@ header:
 main:
   - intro.md
   - toc.md #toc
-  - diagram.md
+  - diagram.md #diagram
   - longtext.md #longtext
-  - diagram2.md
+  - diagram2.md #diagram
   - longtext2.md #longtext
-  - diagram3.md
+  - diagram3.md #diagram
   - longtext3.md #longtext
   - /_shared/feedback.md
 footer:

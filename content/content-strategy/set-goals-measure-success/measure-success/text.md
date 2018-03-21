@@ -12,7 +12,7 @@ The 3 objectives set for the Digital Transformation Agency's content strategy ar
 - better content
 - more efficient
 
-If you choose to use these as your own objectives, then following are some metrics to track content performance.
+If you choose to use these as your own objectives, apply these metrics to track content performance.
 
 ### [2]Less content
 3 ways to measure the less content objective:

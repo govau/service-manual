@@ -7,20 +7,20 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - intro.md
+  - intro.md #methods
   - toc.md
-  - supporting-takeaway.md #methods
+  - supporting-takeaway.md
   - heading.md
   - text1.md
-  - heading1.md #methods
+  - heading1.md
   - text2.md
   - heading2.md
-  - section.md #methods
+  - section.md
   - diagram.md #diagram
   - text.md #longtext
-  - heading3.md #methods
-  - section2.md #methods
-  - supporting-takeaway2.md
+  - heading3.md
+  - section2.md
+  - supporting-takeaway2.md #supporting-takeaway
   - heading4.md
   - section3.md
   - heading5.md
