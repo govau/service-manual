@@ -9,6 +9,7 @@ Before you can make your service live, you must make sure:
 - you have proven that your public beta service is functionally complete and performs better than any existing services
 - you can continue to accurately measure and report the success of your service on the [Performance Dashboard](https://dashboard.gov.au/)
 - you have a plan for the transition or integration of any existing services that meet a similar user needs to yours
+- you can add redirects for URLs in the old service that will be deleted
 - the service fully meets the [Digital Service Standard](/digital-service-standard/) and can continue to do so
 - you can support the service and you’ll be able to keep iterating it and improving it until it’s retired
 
