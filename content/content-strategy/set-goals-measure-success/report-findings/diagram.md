@@ -6,7 +6,7 @@ title: Image example
 reverse: false
 stackPosition: top
 imageAlt: Example image
-caption: A caption
+caption: 
 level: 2
 display: 3
 ---

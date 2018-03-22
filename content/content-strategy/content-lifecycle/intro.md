@@ -1,6 +1,6 @@
 ---
 layout: intros/intro_with_nav
-subtitle: Know how to use the stages of the content lifecycle to create, test and improve your content’s usability.
+subtitle: Know who’s involved and what needs to be done to manage business-as-usual content requests.
 attrTitle1: Created by
 attrValue1: Digital Transformation Agency and the Attorney-General's Department
 attrTitle2: Reviewed on

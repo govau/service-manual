@@ -1,6 +1,5 @@
-pagetitle: Using the content lifecycle
-description: Understand the content lifecycle - know how to create, test and improve content
-weight: 10
+pagetitle: Manage content requests
+description: Know who's involved and what needs to be done to manage business-ass-usual content requests.
 theme: blue
 header:
   - /_shared/globalheader.md
@@ -11,7 +10,7 @@ main:
   - why-use-content-lifecycle.head.md
   - why-use-content-lifecycle.md
   - ensure-head.md
-  - stages-cards.md
+  - stages-cards.md #step
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

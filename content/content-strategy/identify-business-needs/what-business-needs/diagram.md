@@ -6,7 +6,7 @@ title: The strategic pyramid
 reverse: false
 stackPosition: top
 imageAlt:  a pyramid starting with vision at the top, then mission, goals, strategies, tactics and objectives following. 
-caption: A strategic pyramid that shows business needs hierarchy.
+caption: 
 level: 2
 display: 3
 ---

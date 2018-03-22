@@ -1,0 +1,19 @@
+pagetitle: Sign off content
+description: Create a brief or checklist for final sign off, so the approver knows what they need to do.
+weight: 70
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - toc.md
+  - text.md
+  - fact.md #fact
+  - why.md
+  - who-head.md
+  - who.md
+  - tools-templates-head.md #attachment
+  - tools-templates.md
+footer:
+  - /_shared/footer.md

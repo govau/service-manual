@@ -5,7 +5,7 @@ link: content-strategy/governance/centralised-content-governance-model.svg
 reverse: false
 stackPosition: top
 imageAlt: Diagram showing a centralised content governance model
-caption: A centralised content governance model for a consistent user experience
+caption: 
 level: 2
 display: 3
 ---
