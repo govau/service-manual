@@ -16,11 +16,26 @@ main:
   - heading3.md
   - section3.md #text
   - diagram-lifecycle.md #diagram
+  - longtext1.md #longtext
   - section4.md #text
   - heading5.md
   - section5.md #text
   - heading6.md
   - section6.md #text
+  - heading7.md
+  - section7.md #text
+  - heading8.md
+  - section8.md #text
+  - diagram-api.md #diagram
+  - longtext2.md #longtext
+  - heading9.md
+  - section9.md #text
+  - heading10.md
+  - section10.md #text
+  - heading11.md
+  - section11.md #text
+  - heading12.md
+  - section12.md #text
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
