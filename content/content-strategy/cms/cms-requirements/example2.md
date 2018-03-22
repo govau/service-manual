@@ -1,10 +1,7 @@
 ---
 layout: text/callout
 ---
-Use these kinds of audit tools when collating your content:
-  * website content analytics, such as Google Analytics
-  * user research feedback tools, such as surveys and behaviour tracking
-  * readability checkers
-  * user feedback or ratings
-  * search analysis tools
-  * site mapping tools
+### [2]CMS requirements checklist
+Get the CMS you need, so you can manage content the way you want. Use this checklist to clearly understand your own requirements and CMS optimisation needs.
+
+[CMS requirements checklist](/content-strategy/cms/cms-requirements-checklist/)

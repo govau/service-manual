@@ -1,0 +1,20 @@
+pagetitle: CMS requirements checklist
+description: Get the CMS you need, so you can manage content the way you want. Use this checklist to clearly understand your own CMS requirements and optimisation needs.
+weight: 60
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - toc.md #toc
+  - heading1.md
+  - checklist1.md #text
+  - heading2.md
+  - checklist2.md #text
+  - heading3.md
+  - checklist3.md #text
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md
