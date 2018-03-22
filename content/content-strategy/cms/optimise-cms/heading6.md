@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Manage content publishing schedule
+section: Different types of content fields
 ---

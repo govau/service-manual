@@ -5,7 +5,7 @@ layout: text/callout
 
 An understanding of how to choose a CMS and manage your content.
 
-Your main artefact is a [CMS requirements checklist]()
+Your main artefact is a [CMS requirements checklist](/content-strategy/cms/cms-requirements-checklist/)
 
 This should be analysed and shared with the development team
 
@@ -16,5 +16,5 @@ This is part of the implementing your strategy phase
 [Develop your SEO](/content-strategy/seo/)
 
 ### [2]What to do next 
-[Apply the content lifecycle](/content-strategy/audit-content/)
+[Apply the content lifecycle](/content-strategy/content-lifecycle/)
 
