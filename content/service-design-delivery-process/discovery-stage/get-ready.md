@@ -8,7 +8,7 @@ Before you start the Discovery stage, make sure you:
 - understand agile delivery and how you will do budgeting and reporting when using agile
 - find stakeholders and subject matter experts
 - have all relevant reviews and approvals in place for your proposed research, have started your user research plan and are ready to start researching straight away
-- understand the relevant legislation, regulation and policies that impact on your service
+- understand the legislation, regulations and policies that may impact your service
 - have an open space for the team to co-locate with internet access, IT systems and printers
 - have purchased any equipment needed by the team (for example, laptops)
 
