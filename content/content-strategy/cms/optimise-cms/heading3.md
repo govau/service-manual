@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Setting up workflow
+section: Workflow and the content lifecycle
 ---

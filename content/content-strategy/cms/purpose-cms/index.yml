@@ -13,6 +13,7 @@ main:
   - section.md #text
   - diagram.md #diagram
   - long-text-cms.md #longtext
+  - cards.md #approach
 footer:
   - /_shared/footer.md
 

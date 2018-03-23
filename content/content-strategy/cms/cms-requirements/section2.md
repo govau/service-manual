@@ -7,7 +7,7 @@ It is also valuable to ask about a ‘service level agreement’ from your CMS p
 ### [1]Security
 If you’re working with sensitive content, check that your CMS provides the security levels you need such as two factor identification.
 
-The security requirements of a CMS will depend on the kind of information you’ll be storing in it. You may like to also refer also to the Australian Privacy Principles and the Information Security Manual for more information.
+The security requirements of a CMS will depend on the kind of information you’ll be storing in it. You may like to also refer also to the [Australian Privacy Principles](https://www.oaic.gov.au/privacy-law/privacy-act/australian-privacy-principles) and the [Information Security Manual](https://www.asd.gov.au/infosec/ism/) for more information.
 
 You should also develop a data disaster recovery plan and regularly backup data.
 ### [1]Hosting

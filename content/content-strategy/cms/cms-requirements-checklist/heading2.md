@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Vendor capability
+section: Vendor choice and capability
 ---

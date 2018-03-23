@@ -13,8 +13,6 @@ main:
   - section.md #text
   - heading2.md
   - section2.md #text
-  - heading3.md
-  - section3.md #text
   - diagram-lifecycle.md #diagram
   - longtext1.md #longtext
   - section4.md #text
