@@ -10,6 +10,7 @@ level: 2
 display: 3
 ---
 ## [3]Example of schema
+Schema data can help improve search rankings and user click through rates.
 - Business information — including location and contact information
 - Reviews — what do people think of your service
 - Marketing — name, logo, and social profile profiles

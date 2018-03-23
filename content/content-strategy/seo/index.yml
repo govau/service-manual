@@ -12,7 +12,7 @@ main:
   - why.md #text
   - fact.md #fact
   - how-head.md #h2
-  - cards.md
+  - cards.md #approach
   - supporting-takeaway.md #supporting-takeaway.md
   - /_shared/feedback.md
 footer:

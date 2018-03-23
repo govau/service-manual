@@ -13,12 +13,12 @@ Start by choosing the right keywords for your keyword strategy. There is no poin
 ### [2]How to do keyword research
 
 If you have an Adwords account, you may want to look into Google’s [Keyword Tool](https://adwords.google.com/intl/en_au/home/tools/keyword-planner/). It will show you how many people are searching for your keywords, what your competitors’ keywords are doing, and suggest other keywords. You could also use any tool that provides you with keyword suggestions and just pull in the data for those keyword from AdWords.
-- Generate common keywords — this can be a short list of words you think users will search for
-- Download suggested keywords — add each keyword to Google Keyword Tool and download similar terms to csv files
-- Pull in the keyword data into a single worksheet.
-- Pull in any additional keyword data that you have access to from the SEO tools you use.
-- Remove any keywords using the filters that are either too competitive or not valuable enough. Also remove keywords that are not relevant.
-- Pick your final keywords — you should now have a smaller list of keywords from which you can choose and use the best ones in your content.
+- generate common keywords — this can be a short list of words you think users will search for
+- download suggested keywords — add each keyword to Google Keyword Tool and download similar terms to csv files
+- pull in the keyword data into a single worksheet.
+- pull in any additional keyword data that you have access to from the SEO tools you use.
+- remove any keywords using the filters that are either too competitive or not valuable enough. Also remove keywords that are not relevant.
+- pick your final keywords — you should now have a smaller list of keywords from which you can choose and use the best ones in your content.
 
 ### [2]Mapping keywords
 Once you have your list of keywords, you can start to map (assign) them to your content pages. After you’ve exported all of your keywords, you’ll need to de-duplicate the list and filter out irrelevant or low value keywords.
