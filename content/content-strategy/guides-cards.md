@@ -25,7 +25,7 @@ cards:
   - headline: Remove content
     text: Remove unwanted, redundant and out-of-date content. This helps users find what they need.
     link: /content-strategy/remove-content/
-  - headline: Using the content lifecycle
+  - headline: Manage content requests
     text: Know what’s involved to manage business-as-usual content including urgent content requests.
-    link: /content-strategy/content-lifecycle/
+    link: /content-strategy/manage-content-requests/
 ---

@@ -27,6 +27,7 @@ We don’t need you to review the following, which we have already checked and t
 [X] user-centred language
 [X] SEO-metadata
 [X] accessibility compliance
+[X] readability
 [X] style and quality against Content Guide
 [X] product and/or project objectives
 [X] legislative requirements

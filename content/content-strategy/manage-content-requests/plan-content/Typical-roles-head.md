@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Typical roles
+section: Typical roles and skills
 ---

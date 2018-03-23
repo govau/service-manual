@@ -9,14 +9,14 @@ These checks may be all the approval you need for the content to be uploaded liv
 Alternatively if the content is high profile, it will need more senior clearance. Send a sign-off brief once checks have been done. The brief should itemise these previous checks for approver visibility.
 
 ### [2]Product lead, subject expert
-Checks for accuracy, currency and compliance
-Checks for business objectives and legislative requirements
+- Checks for accuracy, currency and compliance
+- Checks for business objectives and legislative requirements
 
 ### [2]Communications lead
-Checks for consistent agency messaging across channels
+- Checks for consistent agency messaging across channels
 
 ### [2]Communications writer, web writer, content lead
-Checks for readability and plain English
-Reviews SEO and metadata
-Checks accessibility of content assets and additional formats
+- Checks for readability and plain English
+- Reviews SEO and metadata
+- Checks accessibility of content assets and additional formats
 

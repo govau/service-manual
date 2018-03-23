@@ -3,11 +3,8 @@ layout: text/textblock
 section: Tools and templates
 ---
 
-### [2]Quick and easy checks
-[Simple ways to check content](/creating-user-centred-content/testing-content/content-simple-checks/) from your desktop include readability, accessibility and searchability. You can also critique your content with your peers.
-
 ### [2]Content production template
-Use the [content production template](../content-production-template) to check that content is ready for final sign off or to make notes about revisions.
+Use the [content production template](/content-strategy/manage-content-requests/create-content/content-production-template) to check that content is ready for final sign off or to make notes about revisions.
 
 ### [2]Readability check
 Use tools to check the readability of your content. Aim to make content as readable as possible. This makes it more accessible for everyone, not just users with low literacy. Specialist and technical audiences benefit from plain English too.

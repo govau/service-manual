@@ -2,9 +2,11 @@
 layout: text/textblock
 section: Typical tasks
 ---
-Remember to allow time for publishing tasks to be done before sending live.
 
-**Web publisher, content publisher, digital producer/developer, accessibility tester roles will typically:**
+### [1]Web publisher, content publisher, digital producer/developer, accessibility tester roles
+
+Apply specific skills at the publishing stage of the content lifecycle to:
+- check for accessibility compliance with WCAG 2.0
 - set up and check redirects and short URLs
 - check link integrity
 - check for duplicate page titles

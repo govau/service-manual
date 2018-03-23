@@ -5,19 +5,11 @@ hidden: false
 
 ### [2]Content production template
 
-Use the [content production template](../content-production-template/).The template gives context for authors and reviewers. It also guides those not experienced in web writing.
+Use the [content production template](/content-strategy/manage-content-requests/create-content/content-production-template/). The template gives context for authors and reviewers. It also guides those not experienced in web writing.
 
 ### [2]Content decision tree
 
-Use the [content decision tree](../content-decision-tree) as a guide to help content authors question and decide if content is right or ready to publish.
-
-### [2]Content design
-
-Know how to help users users find the information they need quickly and easily. Follow the [content design](/creating-user-centred-content/content-design/) guide to creating user centred content.
-
-### [2]Quick and easy checks
-
-[Simple ways to check content](/creating-user-centred-content/testing-content/content-simple-checks/) from your desktop include readability, accessibility and searchability. You can also critique your content with your peers.
+Use the [content decision tree](/content-strategy/manage-content-requests/create-content/content-decision-tree) as a guide to help content authors question and decide if content is right or ready to publish.
 
 ### [2]Readability check
 

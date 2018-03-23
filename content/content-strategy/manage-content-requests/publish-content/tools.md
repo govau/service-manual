@@ -2,6 +2,10 @@
 layout: text/textblock
 ---
 
-### [2]Check content for accessibility
+### [2]WCAG 2.0 for content authors
+Check that content authors have complied with the [17 WCAG 2.0 criteria](https://guides.service.gov.au/content-guide/) for accessibility. 
 
-Use [accessibility tools and checks from your desktop](/creating-user-centred-content/testing-content/content-simple-checks/), when you need to check that downloads are accessible.
+### [2] Desktop checks for accessibility
+- [Microsoft Office Accessibility Checker](https://support.office.com/en-us/article/Use-the-Accessibility-Checker-on-your-Windows-desktop-to-find-accessibility-issues-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f)
+- [Grackle Docs: simpler accessibility for Google suite](https://www.grackledocs.com/)
+- [resizeMyBrowser](http://resizemybrowser.com/)

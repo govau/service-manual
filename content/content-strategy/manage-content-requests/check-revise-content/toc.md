@@ -1,6 +1,7 @@
 ---
 layout: nav/sections
 sections:
-  - Who to involve in publishing content
+  - Why check content
+  - Who to involve 
   - Tools and templates
 ---

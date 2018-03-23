@@ -10,4 +10,4 @@ Promote the use of the [Content Guide](https://guides.service.gov.au/content-gui
 
 You will often need to convince subject matter experts of the value of user-centred content. Use your communications and engagement skills to influence and help authors understand how to do this.
 
-Use your [content planning session](../.../content-planning-workshop) to help your broader team know what you expect to achieve for the business and the user.
+Use your [content planning session](/content-strategy/manage-content-requests/plan-content/content-planning-workshop) to help your broader team know what you expect to achieve for the business and the user.

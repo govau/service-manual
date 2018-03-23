@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Why check content?
+section: Why check content
 ---

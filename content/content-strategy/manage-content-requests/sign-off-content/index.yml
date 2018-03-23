@@ -8,12 +8,10 @@ header:
 main:
   - intro.md
   - toc.md
+  - cards.md
   - text.md
   - fact.md #fact
-  - why.md
   - who-head.md
   - who.md
-  - tools-templates-head.md #attachment
-  - tools-templates.md
 footer:
   - /_shared/footer.md

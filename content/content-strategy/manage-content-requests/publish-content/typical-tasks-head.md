@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Typical tasks
+section: Who to involve in publishing content
 ---
