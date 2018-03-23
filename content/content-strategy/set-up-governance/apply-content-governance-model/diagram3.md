@@ -5,7 +5,7 @@ link: content-strategy/governance/hybrid-governance-model.svg
 reverse: false
 stackPosition: top
 imageAlt: Diagram showing a hybrid governance model
-caption: A hybrid content governance model for a consistent user experience
+caption: 
 level: 2
 display: 3
 ---

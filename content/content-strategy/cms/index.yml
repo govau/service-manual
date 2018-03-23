@@ -8,11 +8,10 @@ header:
   - /_shared/header.md
 main:
   - attribution.md #attribution
-  - why-head.md
+  - why-head.md #h2
   - why.md #text
-  - fact.md #fact
   - section-head-purpose.md
-  - cards.md
+  - cards.md #approach
   - topic-takeaway.md #topic-takeaway
   - /_shared/feedback.md
 footer:
