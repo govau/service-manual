@@ -18,6 +18,7 @@ main:
   - screenshot2.md #diagram
   - longtext2.md #longtext
   - section2b.md #text
+  - example.md #example
   - heading3.md #h2
   - section3.md #text
   - heading4.md #h2

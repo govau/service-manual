@@ -17,8 +17,6 @@ main:
   - text1.md #text
   - heading4.md #h2
   - text4.md #text
-  - heading2.md #h2
-  - text2.md #text
   - screenshot2.md #screenshot
   - longtext2.md
   - heading3.md #h2

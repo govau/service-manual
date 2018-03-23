@@ -9,7 +9,6 @@ sections:
   - Internal links and site search
   - Schema
   - Rich answers
-  - Content review
   - Content relevance
   - Prioritising content
   - Content authority
