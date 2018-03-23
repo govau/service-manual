@@ -11,5 +11,5 @@ Some typical CMS roles include:
 - publisher: pushes content to the ‘live’ site
 
 ### [1]Action
-Write down who is responsible for each part of the content lifecycle, and what they will be required to do in the CMS.
+Write down who is responsible for each part of the [content lifecycle](/content-strategy/content-lifecycle/), and what they will be required to do in the CMS.
 

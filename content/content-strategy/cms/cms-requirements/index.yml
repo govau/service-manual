@@ -9,9 +9,8 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - fact.md #fact
   - toc.md #toc
-  - topic-takeaway.md #topic-takeaway
+  - key-takeaway.md #supporting-takeaway
   - heading.md
   - section.md #text
   - heading2.md
@@ -34,6 +33,7 @@ main:
   - section9.md #text
   - heading10.md
   - section10.md #text
+  - fact.md #fact  
   - heading11.md
   - section11.md #text
   - example2.md #example

@@ -10,7 +10,7 @@ header:
 main:
   - intro.md
   - toc.md #toc
-  - supporting-takeaway.md #supporting takeaway
+  - key-takeaway.md #supporting takeaway
   - heading.md #h2
   - section.md #text
   - heading2.md #h2

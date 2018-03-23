@@ -2,6 +2,6 @@
 layout: nav/sections
 sections:
   - CMS
-  - Vendor capability
+  - Vendor choice and capability
   - Security and hosting
 ---
