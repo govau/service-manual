@@ -1,0 +1,20 @@
+pagetitle: Plan content
+description: Plan to define the end-to-end content task so the broader team has clarity about user needs and business goals.
+weight: 10
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - toc.md
+  - who-head.md
+  - who.md
+  - typical-roles-head.md
+  - activities-head.md #attachment #methods
+  - activities.md #attachment # methods
+  - tools-templates-head.md #attachment
+  - tools-templates.md #attachment
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

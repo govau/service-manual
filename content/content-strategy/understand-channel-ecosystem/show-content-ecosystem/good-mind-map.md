@@ -6,7 +6,7 @@ title: Good mind map
 reverse: false
 stackPosition: top
 imageAlt: A simple and clear content channel mind map showing just a few channels.
-caption: A good channel ecosystem mind map would look like this. A simple and clear content channel mind map showing just a few channels.
+caption: 
 level: 2
 display: 3
 ---

@@ -5,7 +5,7 @@ link: content-strategy/governance/decentralised-content-governance-model.svg
 reverse: false
 stackPosition: top
 imageAlt: Diagram showing a decentralised content governance model
-caption: A decentralised content governance model can result in an inconsistent user experience.
+caption: 
 level: 2
 display: 3
 ---

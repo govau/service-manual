@@ -5,7 +5,7 @@ link: content-strategy/governance/content-teams.svg
 reverse: false
 stackPosition: top
 imageAlt: Diagram showing accountability of a content team with leaders, doers and specialists
-caption: Content teams of leaders, doers and specialists
+caption: 
 level: 2
 display: 3
 ---
