@@ -15,9 +15,11 @@ const SupportingTakeaway = ( page ) => {
 					<div className="col-md-4 takeawayOutput">
 						<h2 className="display-2">What you&#39;ll get</h2>
 						<ul>
-							{page.whatYoullGet.map(function(value){
-								return <li>{value}</li>
-							})}
+							{
+								page.whatYoullGet.map( ( value,i ) => (
+									<li key={i}>{value}</li>
+								))
+							}
 						</ul>
 					</div>
 					<div className="col-md-2"> </div>
