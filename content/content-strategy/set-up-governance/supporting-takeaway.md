@@ -1,7 +1,7 @@
 ---
 layout: text/supportingtakeaway
 heading: "Content strategy output"
-whatToDoText: "The quick brown fox jumps over the lazy dog."
+whatToDoText: "(Example) Analyse those artefacts that add key insights to Part 7: Governance Model of the Content Strategy Template"
 whatToDoLinkText: "See this link"
 whatToDoLink: "/path"
 previousHeader: "Do before: Set goals and measure performance"
