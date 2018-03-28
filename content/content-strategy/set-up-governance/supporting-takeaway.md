@@ -2,14 +2,14 @@
 layout: text/supportingtakeaway
 heading: "Content strategy output"
 whatYoullGet:
-  - A governance model that has ‘buy in’
+  - A governance model that has ‘buy in’ from above
   - A signed off content production workflow
 previousHeader: "Do before: Set goals and measure success"
-previousText: "Develop your strategy"
+previousText: "Develop your strategy phase"
 previousLink: "/path"
-nextHeader: "Do next: Assign accountability"
-nextText: "Research and analyse"
+nextHeader: "Do next: Remove content"
+nextText: "Clean up phase"
 nextLink: "/path"
 ---
 
-(Example) Analyse those artefacts that add key insights to **Part 7: Governance Model** of the [Content Strategy Template](/path)
+Add to **Part 7: Content governance** of the [Content Strategy Template](/path)
