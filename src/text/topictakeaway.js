@@ -9,20 +9,26 @@ const TopicTakeaway = ( page ) => {
 	return (
 	<div className={ `uikit-body uikit-grid` } >
 		<div className="container">
+
 			<div className="row">
 				<div className="col-md-12">
-					<h1 className="display-3">{ page.heading }</h1>
+					<h2 className="display-3">{ page.heading }</h2>
+				</div>
+			</div>
+
+			<div className="row">
+				<div className="col-md-12">
 					<div className="col-md-4 takeawayOutput">
-						<h2 className="display-2">{ page.firstcolumnheader }</h2>
+						<h3 className="display-2">{ page.firstcolumnheader }</h3>
 						{ page.firstcolumncontent }
 					</div>
-					<div className="col-md-2"> </div>
-					<div className="col-md-6">
-						<h2 className="display-2">{ page.secondcolumnheader }</h2>
+					<div className="col-md-6 col-md-offset-2">
+						<h3 className="display-2">{ page.secondcolumnheader }</h3>
 						{ page._body }
 					</div>
  				</div>
 			</div>
+
 			<div className="row">
 
 				<div className="col-md-12 takeawayPaginator">
@@ -33,11 +39,8 @@ const TopicTakeaway = ( page ) => {
 						</div>
 					</div>
 
-					<div className="col-md-4 centerTakeaway">
 
-					</div>
-
-					<div className="col-md-4 takeawayNextCard">
+					<div className="col-md-4 col-md-offset-4 takeawayNextCard">
 						<div className="takeawayCardContent">
 							<p><a href={ page.nextLink }>{ page.nextHeader }</a>  <span className="takeawayArrows">&rarr;</span></p>
 							<p className="takeawayGray">{ page.nextText }&nbsp;&nbsp;&nbsp;</p>
