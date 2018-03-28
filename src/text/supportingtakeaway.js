@@ -31,18 +31,24 @@ const SupportingTakeaway = ( page ) => {
 
 				<div className="col-md-12 takeawayPaginator">
 					<div className="col-md-4 takeawayPrevCard">
-						<p><a href="">{ page.previousHeader }</a></p>
-						<p>{ page.previousText }</p>
+						<div className="takeawayCardContent">
+							<p>&larr; <a href="">{ page.previousHeader }</a></p>
+							<p className="takeawayGray">{ page.previousText }</p>
+						</div>
 					</div>
 
 					<div className="col-md-4 centerTakeaway">
-						<p><strong>{ page.middleHeading }</strong></p>
-						{ page.middleText }
+						<div className="takeawayCardContent">
+							<p><strong>{ page.middleHeading }</strong></p>
+							<p className="takeawayGray">{ page.middleText }</p>
+						</div>
 					</div>
 
 					<div className="col-md-4 takeawayNextCard">
-						<p><a href="">{ page.nextHeader }</a></p>
-						<p>{ page.nextText }</p>
+						<div className="takeawayCardContent">
+							<p><a href="">{ page.nextHeader }</a>  &rarr;</p>
+							<p className="takeawayGray">{ page.nextText }</p>
+						</div>
 					</div>
 				</div>
 

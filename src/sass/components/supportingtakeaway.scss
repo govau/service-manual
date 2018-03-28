@@ -7,9 +7,26 @@
 	text-align: right;
 }
 
+.takeawayCardContent {
+	padding-top: 16px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
 .takeawayPaginator {
 	margin-top: 20px;
 	margin-bottom: 40px;
+	font-size: 90%;
+}
+
+.takeawayPaginator a {
+	color: #007099;
+}
+
+.takeawayGray {
+	color: #666666;
+	position: relative;
+	top: -12px;
 }
 
 .centerTakeaway {
