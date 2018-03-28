@@ -1,16 +1,20 @@
 ---
-layout: text/callout
+layout: text/supportingtakeaway
+heading: "Content strategy output"
+whatToDoText: "The quick brown fox jumps over the lazy dog."
+whatToDoLinkText: "See this link"
+whatToDoLink: "/path"
+previousHeader: "Do before: Set goals and measure performance"
+previousText: "Develop your strategy"
+previousLink: "/path"
+middleHeading: "Set up your governance"
+middleText: "Develop your strategy"
+nextHeader: "Do next: Assign accountability"
+nextText: "Research and analyse"
+nextLink: "/path"
 ---
 
-### [3]What you’ll get
-A governance model that works has ‘buy in’ from above and clear workflow.
-
-Your main output is a content workflow.
-
-Your executive team should sign off the workflow. Put it in your [content strategy template](/content-strategy/start-content-strategy/define-problem/content-strategy-template/).
-
-This is part of the develop your strategy phase
-### [2]What to do before
-[Set goals and measure success](/content-strategy/set-goals-measure-success/)
-### [2]What to do next 
-Coming soon
+- A governance model that works
+- buy in from executive stakeholders
+- a clear workflow
+- chris will do something
