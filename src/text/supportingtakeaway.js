@@ -32,7 +32,7 @@ const SupportingTakeaway = ( page ) => {
 				<div className="col-md-12 takeawayPaginator">
 					<div className="col-md-4 takeawayPrevCard">
 						<div className="takeawayCardContent">
-							<p><span className="takeawayArrows">&larr;</span> <a href="">{ page.previousHeader }</a></p>
+							<p><span className="takeawayArrows">&larr;</span> <a href={ page.previousLink }>{ page.previousHeader }</a></p>
 							<p className="takeawayGray">&nbsp;&nbsp;&nbsp;{ page.previousText }</p>
 						</div>
 					</div>
@@ -43,7 +43,7 @@ const SupportingTakeaway = ( page ) => {
 
 					<div className="col-md-4 takeawayNextCard">
 						<div className="takeawayCardContent">
-							<p><a href="">{ page.nextHeader }</a>  <span className="takeawayArrows">&rarr;</span></p>
+							<p><a href={ page.nextLink }>{ page.nextHeader }</a>  <span className="takeawayArrows">&rarr;</span></p>
 							<p className="takeawayGray">{ page.nextText }&nbsp;&nbsp;&nbsp;</p>
 						</div>
 					</div>

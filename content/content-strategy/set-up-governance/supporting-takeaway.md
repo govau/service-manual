@@ -2,14 +2,14 @@
 layout: text/supportingtakeaway
 heading: "Content strategy output"
 whatYoullGet:
-  - A governance model that has ‘buy in’ from above
+  - An agreed governance model
   - A signed off content production workflow
 previousHeader: "Do before: Set goals and measure success"
 previousText: "Develop your strategy phase"
-previousLink: "/path"
+previousLink: "/prev/Step/Path"
 nextHeader: "Do next: Remove content"
 nextText: "Clean up phase"
-nextLink: "/path"
+nextLink: "/next/Step/Path"
 ---
 
 Add to **Part 7: Content governance** of the [Content Strategy Template](/path)
