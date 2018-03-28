@@ -12,7 +12,7 @@ const SupportingTakeaway = ( page ) => {
 			<div className="row">
 				<div className="col-md-12">
 					<h1 className="display-3">{ page.heading }</h1>
-					<div className="col-md-4">
+					<div className="col-md-4 takeawayOutput">
 						<h2 className="display-2">What you&#39;ll get</h2>
 						{ page._body }
 					</div>
