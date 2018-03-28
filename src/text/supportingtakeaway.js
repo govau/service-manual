@@ -14,17 +14,16 @@ const SupportingTakeaway = ( page ) => {
 					<h1 className="display-3">{ page.heading }</h1>
 					<div className="col-md-4 takeawayOutput">
 						<h2 className="display-2">What you&#39;ll get</h2>
-						{ page._body }
+						<ul>
+							{page.whatYoullGet.map(function(value){
+								return <li>{value}</li>
+							})}
+						</ul>
 					</div>
 					<div className="col-md-2"> </div>
 					<div className="col-md-6">
 						<h2 className="display-2">What to do</h2>
-						{ page.whatToDoText }
-						<p className="takeawayWhattodoLink">
-							<a href={ page.whatToDoLink }>
-								{ page.whatToDoLinkText }
-							</a>
-						</p>
+						{ page._body }
 					</div>
  				</div>
 			</div>
