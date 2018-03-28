@@ -7,14 +7,10 @@ whatToDoLink: "/path"
 previousHeader: "Do before: Set goals and measure success"
 previousText: "Develop your strategy"
 previousLink: "/path"
-middleHeading: "Set up your governance"
-middleText: "Develop your strategy"
 nextHeader: "Do next: Assign accountability"
 nextText: "Research and analyse"
 nextLink: "/path"
 ---
 
-- A governance model that works
-- buy in from executive stakeholders
-- a clear workflow
-- chris will do something
+- A governance model that has ‘buy in’ from above
+- A signed off content production workflow

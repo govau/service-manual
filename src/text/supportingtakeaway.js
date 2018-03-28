@@ -13,11 +13,12 @@ const SupportingTakeaway = ( page ) => {
 				<div className="col-md-12">
 					<h1 className="display-3">{ page.heading }</h1>
 					<div className="col-md-4">
-						<h2>What you&#39;ll get</h2>
+						<h2 className="display-2">What you&#39;ll get</h2>
 						{ page._body }
 					</div>
-					<div className="col-md-8">
-						<h2>What to do</h2>
+					<div className="col-md-2"> </div>
+					<div className="col-md-6">
+						<h2 className="display-2">What to do</h2>
 						{ page.whatToDoText }
 						<p className="takeawayWhattodoLink">
 							<a href={ page.whatToDoLink }>
@@ -38,10 +39,7 @@ const SupportingTakeaway = ( page ) => {
 					</div>
 
 					<div className="col-md-4 centerTakeaway">
-						<div className="takeawayCardContent">
-							<p><strong>{ page.middleHeading }</strong></p>
-							<p className="takeawayGray">{ page.middleText }</p>
-						</div>
+
 					</div>
 
 					<div className="col-md-4 takeawayNextCard">
