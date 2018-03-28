@@ -1,9 +1,9 @@
 ---
-layout: text/supportingtakeaway
-heading: "Content strategy output"
-whatYoullGet:
-  - An agreed governance model
-  - A signed off content production workflow
+layout: text/topictakeaway
+heading: Content strategy output
+firstcolumnheader: What you'll get
+secondcolumnheader: What to do
+firstcolumncontent: topic-takeaway-listitems.md
 previousHeader: "Do before: Set goals and measure success"
 previousText: "Develop your strategy phase"
 previousLink: "/prev/Step/Path"

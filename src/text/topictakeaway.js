@@ -3,9 +3,9 @@ import React from 'react';
 
 
 /**
- * The Supporting Takeaway component
+ * The Topic Takeaway component
  */
-const SupportingTakeaway = ( page ) => {
+const TopicTakeaway = ( page ) => {
 	return (
 	<div className={ `uikit-body uikit-grid` } >
 		<div className="container">
@@ -13,18 +13,12 @@ const SupportingTakeaway = ( page ) => {
 				<div className="col-md-12">
 					<h1 className="display-3">{ page.heading }</h1>
 					<div className="col-md-4 takeawayOutput">
-						<h2 className="display-2">What you&#39;ll get</h2>
-						<ul>
-							{
-								page.whatYoullGet.map( ( value,i ) => (
-									<li key={i}>{value}</li>
-								))
-							}
-						</ul>
+						<h2 className="display-2">{ page.firstcolumnheader }</h2>
+						{ page.firstcolumncontent }
 					</div>
 					<div className="col-md-2"> </div>
 					<div className="col-md-6">
-						<h2 className="display-2">What to do</h2>
+						<h2 className="display-2">{ page.secondcolumnheader }</h2>
 						{ page._body }
 					</div>
  				</div>
@@ -57,7 +51,7 @@ const SupportingTakeaway = ( page ) => {
 )};
 
 
-SupportingTakeaway.propTypes = {
+TopicTakeaway.propTypes = {
 	/**
 	 * _body: (text)(7)
 	 */
@@ -65,7 +59,7 @@ SupportingTakeaway.propTypes = {
 };
 
 
-SupportingTakeaway.defaultProps = {};
+TopicTakeaway.defaultProps = {};
 
 
-export default SupportingTakeaway;
+export default TopicTakeaway;
