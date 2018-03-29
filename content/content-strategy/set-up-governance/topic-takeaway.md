@@ -6,10 +6,10 @@ secondcolumnheader: What to do
 firstcolumncontent: topic-takeaway-listitems.md
 previousheader: "Do before: Set goals and measure success"
 previoustext: Develop your strategy phase
-previouslink: /prev/Step/Path
+previouslink: /content-strategy/set-goals-measure-success/
 nextheader: "Do next: Remove content"
 nexttext: Clean up phase
-nextlink: /next/Step/Path
+nextlink: /content-strategy/remove-content/
 ---
 
 Add to **Part 7: Content governance** of the [Content Strategy Template](/path)
