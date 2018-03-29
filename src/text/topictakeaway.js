@@ -20,7 +20,7 @@ const TopicTakeaway = ( page ) => {
 				<div className="col-md-12">
 					<div className="col-md-4 takeawayOutput">
 						<h3 className="display-2">{ page.firstcolumnheader }</h3>
-						{ page.firstcolumncontent }
+						<div className="topicTakeawayList">{ page.firstcolumncontent }</div>
 					</div>
 					<div className="col-md-6 col-md-offset-2">
 						<h3 className="display-2">{ page.secondcolumnheader }</h3>

@@ -1,3 +1,23 @@
+.topicTakeawayList ul {
+	list-style:none;
+  padding-left: 1em;
+	position: relative;
+	left: -22px;
+}
+
+.topicTakeawayList ul li {
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    background-image: url('/assets/img/governing-content/tick.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right:0.5em;
+  }
+}
+
 .takeawayPrevCard {
 	background-color: #f7f7f7;
 }
