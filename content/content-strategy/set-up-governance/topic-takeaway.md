@@ -1,15 +1,15 @@
 ---
 layout: text/topictakeaway
 heading: Content strategy output
-firstcolumnheader: What you'll get
-secondcolumnheader: What to do
-firstcolumncontent: topic-takeaway-listitems.md
-previousheader: "Do before: Set goals and measure success"
-previoustext: Develop your strategy phase
-previouslink: /content-strategy/set-goals-measure-success/
-nextheader: "Do next: Remove content"
-nexttext: Clean up phase
-nextlink: /content-strategy/remove-content/
+first_column_header: What you'll get
+second_column_header: What to do
+first_column_content: topic-takeaway-listitems.md
+previous_header: "Do before: Set goals and measure success"
+previous_text: Develop your strategy phase
+previous_link: /content-strategy/set-goals-measure-success/
+next_header: "Do next: Remove content"
+next_text: Clean up phase
+next_link: /content-strategy/remove-content/
 ---
 
 Add to **Part 7: Content governance** of the [Content Strategy Template](/content-strategy/start-content-strategy/show-problem-evidence/content-strategy-template/)
