@@ -7,7 +7,7 @@ import React from 'react';
  */
 const TopicTakeaway = ( page ) => {
 	return (
-	<div className={ `uikit-body uikit-grid` } >
+	<div className="uikit-body uikit-grid" >
 		<div className="container">
 
 			<div className="row">
@@ -18,12 +18,12 @@ const TopicTakeaway = ( page ) => {
 
 			<div className="row">
 				<div className="col-md-12">
-					<div className="col-md-4 takeawayOutput">
-						<h3 className="display-2">{ page.firstcolumnheader }</h3>
-						<div className="topicTakeawayList">{ page.firstcolumncontent }</div>
+					<div className="col-md-4 topic-takeaway-output">
+						<h3 className="display-2">{ page.first_column_header }</h3>
+						<div className="topic-takeaway-list">{ page.first_column_content }</div>
 					</div>
 					<div className="col-md-6 col-md-offset-2">
-						<h3 className="display-2">{ page.secondcolumnheader }</h3>
+						<h3 className="display-2">{ page.second_column_header }</h3>
 						{ page._body }
 					</div>
  				</div>
@@ -31,19 +31,19 @@ const TopicTakeaway = ( page ) => {
 
 			<div className="row">
 
-				<div className="col-md-12 takeawayPaginator">
-					<div className="col-md-4 takeawayPrevCard">
-						<div className="takeawayCardContent">
-							<p><span className="takeawayArrows">&larr;</span> <a href={ page.previouslink }>{ page.previousheader }</a></p>
-							<p className="takeawayGray">&nbsp;&nbsp;&nbsp;{ page.previoustext }</p>
+				<div className="col-md-12 topic-takeaway-paginator">
+					<div className="col-md-4 topic-takeaway-previous-card">
+						<div className="topic-takeaway-card-content">
+							<p><span className="topic-takeaway-arrows">&larr;</span> <a href={ page.previous_link }>{ page.previous_header }</a></p>
+							<p className="topic-takeaway-gray">&nbsp;&nbsp;&nbsp;{ page.previous_text }</p>
 						</div>
 					</div>
 
 
-					<div className="col-md-4 col-md-offset-4 takeawayNextCard">
-						<div className="takeawayCardContent">
-							<p><a href={ page.nextlink }>{ page.nextheader }</a>  <span className="takeawayArrows">&rarr;</span></p>
-							<p className="takeawayGray">{ page.nexttext }&nbsp;&nbsp;&nbsp;</p>
+					<div className="col-md-4 col-md-offset-4 topic-takeaway-next-card">
+						<div className="topic-takeaway-card-content">
+							<p><a href={ page.next_link }>{ page.next_header }</a>  <span className="topic-takeaway-arrows">&rarr;</span></p>
+							<p className="topic-takeaway-gray">{ page.next_text }&nbsp;&nbsp;&nbsp;</p>
 						</div>
 					</div>
 				</div>
@@ -67,49 +67,49 @@ TopicTakeaway.propTypes = {
 	heading: PropTypes.node.isRequired,
 
 	/**
-	 * firstcolumncontent: list.md
+	 * first_column_content: list.md
 	 */
-	firstcolumncontent: PropTypes.node.isRequired,
+	first_column_content: PropTypes.node.isRequired,
 
 	/**
-	 * firstcolumnheader: What you'll get
+	 * first_column_header: What you'll get
 	 */
-	firstcolumnheader: PropTypes.node.isRequired,
+	first_column_header: PropTypes.node.isRequired,
 
 	/**
-	 * secondcolumnheader: What you'll get
+	 * second_column_header: What you'll get
 	 */
-	secondcolumnheader: PropTypes.node.isRequired,
+	second_column_header: PropTypes.node.isRequired,
 
 	/**
-	 * previousheader: "Do before: Set goals and measure success"
+	 * previous_header: "Do before: Set goals and measure success"
 	 */
-	previousheader: PropTypes.node.isRequired,
+	previous_header: PropTypes.node.isRequired,
 
 	/**
-	 * previoustext: Develop your strategy phase
+	 * previous_text: Develop your strategy phase
 	 */
-	previoustext: PropTypes.node.isRequired,
+	previous_text: PropTypes.node.isRequired,
 
 	/**
-	 * previouslink: /path
+	 * previous_link: /path
 	 */
-	previouslink: PropTypes.node.isRequired,
+	previous_link: PropTypes.node.isRequired,
 
 	/**
-	 * nextheader: "Do next: Remove content"
+	 * next_header: "Do next: Remove content"
 	 */
-	nextheader: PropTypes.node.isRequired,
+	next_header: PropTypes.node.isRequired,
 
 	/**
-	 * nexttext: Clean up phase
+	 * next_text: Clean up phase
 	 */
-	nexttext: PropTypes.node.isRequired,
+	next_text: PropTypes.node.isRequired,
 
 	/**
-	 * nextlink: /path
+	 * next_link: /path
 	 */
-	nextlink: PropTypes.node.isRequired
+	next_link: PropTypes.node.isRequired
 
 };
 
