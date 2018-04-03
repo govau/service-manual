@@ -1,0 +1,14 @@
+
+pagetitle: Published content issues register
+weight: 10
+theme: blue
+description: Use an issues register to capture urgently published content that does not meet quality standards. Record the content owner, the issue and the agreed date to resolve.
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - text.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

@@ -5,5 +5,6 @@ sections:
   - Communications planning
   - Messaging
   - Communicate expectations
+  - Pair writing
   - Content production template
 ---

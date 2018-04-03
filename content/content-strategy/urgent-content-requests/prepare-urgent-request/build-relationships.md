@@ -2,8 +2,8 @@
 layout: text/textblock
 ---
 
-Understand each other’s needs, and:
-- connect with content creators, the media team, policy people and the minister’s office in advance
+To understand each other’s needs, connect with content creators, the media team, policy people and the minister in advance to:
+
 - get to know their process
 - find out their priorities for incidents or events
 - be solutions focused

@@ -7,12 +7,9 @@ header:
   - /_shared/header.md
 main:
   - intro.md
-  - sections.md
-  - fixed-deadlines-head.md
-  - fixed-deadlines.md
-  - important-not-urgent-head.md
-  - important-not-urgent.md
-  - urgent-content-requests-articles.md
+  - approaching-head.md
+  - text.md
+  - cards.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
