@@ -9,6 +9,7 @@ main:
   - category_sections.md
   - why.md
   - how-head.md
+  - how.md
   - guides-cards.md
   - support.md
   - /_shared/feedback.md

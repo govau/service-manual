@@ -12,11 +12,16 @@ main:
   - build-relationships.md
   - communications-planning-head.md
   - communications-planning.md
+  - example.md
   - messaging-head.md
   - messaging.md
+  - supporting-takeaway.md #supporting-takeaway
   - communicate-expectations-head.md
   - communicate-expectations.md
+  - pair-writing-head.md
+  - pair-writing.md
   - content-production-template-head.md
+  - example1.md
   - content-production-template.md
   - /_shared/feedback.md
 footer:

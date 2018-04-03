@@ -16,5 +16,6 @@ cards:
   - headline: Publish content
     text: Prepare and check that quality content is uploaded into your CMS platform and, publish it live.
     link: 'publish-content'
+
 ---
 
