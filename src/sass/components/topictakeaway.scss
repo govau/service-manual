@@ -6,16 +6,16 @@
 }
 
 .topic-takeaway-list ul li {
-  &:before {
-    content: '';
-    display: inline-block;
-    height: 1em;
-    width: 1em;
-    background-image: url('/assets/img/governing-content/tick.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-right:0.5em;
-  }
+	&:before {
+		content: '';
+		display: inline-block;
+		height: 1em;
+		width: 1em;
+		background-image: url('/assets/img/governing-content/tick.svg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-right:0.5em;
+	}
 }
 
 .topic-takeaway-previous-card {

@@ -26,7 +26,7 @@ const TopicTakeaway = ( page ) => {
 						<h3 className="display-2">{ page.second_column_header }</h3>
 						{ page._body }
 					</div>
- 				</div>
+				</div>
 			</div>
 
 			<div className="row">
@@ -57,7 +57,7 @@ const TopicTakeaway = ( page ) => {
 TopicTakeaway.propTypes = {
 	/**
 	 * _body: This is the second body area for this component. The previous one inspect
-	 					in an external markdown file.
+						in an external markdown file.
 	 */
 	_body: PropTypes.node.isRequired,
 
