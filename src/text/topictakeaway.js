@@ -56,9 +56,61 @@ const TopicTakeaway = ( page ) => {
 
 TopicTakeaway.propTypes = {
 	/**
-	 * _body: (text)(7)
+	 * _body: This is the second body area for this component. The previous one inspect
+	 					in an external markdown file.
 	 */
 	_body: PropTypes.node.isRequired,
+
+	/**
+	 * heading: Content strategy output
+	 */
+	heading: PropTypes.node.isRequired,
+
+	/**
+	 * firstcolumncontent: list.md
+	 */
+	firstcolumncontent: PropTypes.node.isRequired,
+
+	/**
+	 * firstcolumnheader: What you'll get
+	 */
+	firstcolumnheader: PropTypes.node.isRequired,
+
+	/**
+	 * secondcolumnheader: What you'll get
+	 */
+	secondcolumnheader: PropTypes.node.isRequired,
+
+	/**
+	 * previousheader: "Do before: Set goals and measure success"
+	 */
+	previousheader: PropTypes.node.isRequired,
+
+	/**
+	 * previoustext: Develop your strategy phase
+	 */
+	previoustext: PropTypes.node.isRequired,
+
+	/**
+	 * previouslink: /path
+	 */
+	previouslink: PropTypes.node.isRequired,
+
+	/**
+	 * nextheader: "Do next: Remove content"
+	 */
+	nextheader: PropTypes.node.isRequired,
+
+	/**
+	 * nexttext: Clean up phase
+	 */
+	nexttext: PropTypes.node.isRequired,
+
+	/**
+	 * nextlink: /path
+	 */
+	nextlink: PropTypes.node.isRequired
+
 };
 
 
