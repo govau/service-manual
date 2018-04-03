@@ -9,6 +9,7 @@ main:
   - intro.md
   - sections.md
   - why.md
+  - takeaway.md
   - typical-tasks-head.md
   - typical-tasks.md
   - tools-head.md

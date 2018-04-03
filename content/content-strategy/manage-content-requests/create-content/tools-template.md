@@ -7,6 +7,10 @@ hidden: false
 
 Use the [content production template](/content-strategy/manage-content-requests/create-content/content-production-template/). The template gives context for authors and reviewers. It also guides those not experienced in web writing.
 
+### [2]Pair writing
+
+Use [pair writing](/content-strategy/manage-content-requests/create-content/pair-writing/) to create content side-by-side with a subject expert. For example, a technical expert, lawyer or policy writer.
+
 ### [2]Content decision tree
 
 Use the [content decision tree](/content-strategy/manage-content-requests/create-content/content-decision-tree) as a guide to help content authors question and decide if content is right or ready to publish.

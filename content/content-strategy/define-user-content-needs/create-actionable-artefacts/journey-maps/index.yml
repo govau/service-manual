@@ -22,7 +22,7 @@ main:
   - section2.md
   - supporting-takeaway2.md #supporting-takeaway
   - heading4.md
-  - section3.md
+  - cards.md #related-methods
   - heading5.md
   - section4.md
   - /_shared/feedback.md

@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: This can be used
+section: Related methods
 ---

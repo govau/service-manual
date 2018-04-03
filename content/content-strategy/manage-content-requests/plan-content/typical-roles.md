@@ -1,7 +1,7 @@
 ---
 layout: text/textblock
-section: Typical roles and skills
 ---
+
 ### [1]Subject experts
 Contribute specialist knowledge, business perspectives and requirements
 
