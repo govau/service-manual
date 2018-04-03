@@ -1,0 +1,63 @@
+.topicTakeawayList ul {
+	list-style:none;
+  padding-left: 1em;
+	position: relative;
+	left: -22px;
+}
+
+.topicTakeawayList ul li {
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    background-image: url('/assets/img/governing-content/tick.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right:0.5em;
+  }
+}
+
+.takeawayPrevCard {
+	background-color: #f7f7f7;
+}
+
+.takeawayNextCard {
+	background-color: #f7f7f7;
+	text-align: right;
+}
+
+.takeawayOutput {
+	margin-left: -8px;
+}
+
+.takeawayCardContent {
+	padding-top: 24px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.takeawayPaginator {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-size: 90%;
+}
+
+.takeawayPaginator a, .takeawayArrows {
+	color: #007099;
+}
+
+.takeawayGray {
+	color: #666666;
+	position: relative;
+	top: -14px;
+	font-weight: lighter;
+}
+
+.centerTakeaway {
+	text-align: center;
+}
+
+.takeawayWhattodoLink {
+	padding-top: 20px;
+}
