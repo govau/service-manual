@@ -1,4 +1,4 @@
-# Digital Guides
+# Service Manual
 
 > We aim to provide a single, clear, consistent and compelling service manual which will inspire teams and help support them with how to design and deliver great services.
 
@@ -11,12 +11,14 @@
 
 ## Staging
 
-- **branch**: `test-staging`
+- **url**: [https://service-manual.apps.staging.digital.gov.au/](https://service-manual.apps.staging.digital.gov.au/)
+- **branch**: `develop`
+- **status**:  [![CircleCI](https://circleci.com/gh/govau/service-manual/tree/develop.svg?style=svg)](https://circleci.com/gh/govau/service-manual/tree/develop)
 
 
 ## Development
 
-❗️All pull requests should be compared against `test-staging`
+❗️All pull requests should be compared against `develop`
 
 **Install dependencies**
 
