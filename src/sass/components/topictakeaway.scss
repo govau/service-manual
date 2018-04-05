@@ -18,12 +18,7 @@
 	}
 }
 
-.topic-takeaway-previous-card {
-	background-color: #f7f7f7;
-}
-
 .topic-takeaway-next-card {
-	background-color: #f7f7f7;
 	text-align: right;
 }
 
@@ -32,9 +27,11 @@
 }
 
 .topic-takeaway-card-content {
+	background-color: #f7f7f7;
 	padding-top: 24px;
-	padding-left: 12px;
-	padding-right: 12px;
+	padding-left: 24px;
+	padding-right: 16px;
+	padding-bottom: 2px;
 }
 
 .topic-takeaway-paginator {

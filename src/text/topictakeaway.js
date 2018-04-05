@@ -32,20 +32,26 @@ const TopicTakeaway = ( page ) => {
 			<div className="row">
 
 				<div className="col-md-12 topic-takeaway-paginator">
+
 					<div className="col-md-4 topic-takeaway-previous-card">
-						<div className="topic-takeaway-card-content">
-							<p><span className="topic-takeaway-arrows">&larr;</span> <a href={ page.previous_link }>{ page.previous_header }</a></p>
-							<p className="topic-takeaway-gray">&nbsp;&nbsp;&nbsp;{ page.previous_text }</p>
-						</div>
+						{page.previous_header  &&
+							<div className="topic-takeaway-card-content">
+								<p><span className="topic-takeaway-arrows">&larr;</span> <a href={ page.previous_link }>{ page.previous_header }</a></p>
+								<p className="topic-takeaway-gray">&nbsp;&nbsp;&nbsp;&nbsp;{ page.previous_text }</p>
+							</div>
+						}
 					</div>
 
 
 					<div className="col-md-4 col-md-offset-4 topic-takeaway-next-card">
-						<div className="topic-takeaway-card-content">
-							<p><a href={ page.next_link }>{ page.next_header }</a>  <span className="topic-takeaway-arrows">&rarr;</span></p>
-							<p className="topic-takeaway-gray">{ page.next_text }&nbsp;&nbsp;&nbsp;</p>
-						</div>
+						{page.next_header  &&
+							<div className="topic-takeaway-card-content">
+								<p><a href={ page.next_link }>{ page.next_header }</a>  <span className="topic-takeaway-arrows">&rarr;</span></p>
+								<p className="topic-takeaway-gray">{ page.next_text }&nbsp;&nbsp;&nbsp;&nbsp;</p>
+							</div>
+						}
 					</div>
+
 				</div>
 
 			</div>
