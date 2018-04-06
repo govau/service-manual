@@ -2,7 +2,7 @@
 layout: blocks/long_description
 title: Content teams - accountability, expertise, escalation
 ---
-#### Long text description
+#### [1]Long text description
 
 A pyramid displays the hierarchy of a content team from leaders to doers and specialists. Accountabilities are adjacent to the roles.
 

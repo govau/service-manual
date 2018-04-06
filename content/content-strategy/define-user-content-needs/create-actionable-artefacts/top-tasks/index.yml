@@ -17,7 +17,6 @@ main:
   - heading2.md
   - section.md
   - diagram.md #diagram
-  - text1.md #longtext
   - heading3.md
   - section1.md
   - supporting-takeaway2.md #supporting-takeaway

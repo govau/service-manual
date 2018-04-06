@@ -1,7 +1,7 @@
 ---
-layout: text/textblock
+layout: blocks/long_description
 ---
-### [1]Top tasks: long text description 
+#### [1]Top tasks
 
 The diagram represents the main things users want to do on your agency’s website.
 A circle is divided into sections. 
