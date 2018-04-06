@@ -9,7 +9,6 @@ header:
 main:
   - intro.md
   - diagram.md #diagram
-  - long-description.md #longtext
   - vision.md
   - vision-example.md #example
   - mission.md
