@@ -1,0 +1,1 @@
+- An agreed understanding of business objectives

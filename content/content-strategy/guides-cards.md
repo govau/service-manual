@@ -23,7 +23,7 @@ cards:
     text: Set up a content governance model to align with the goals of your content strategy.
     link: /content-strategy/set-up-governance/
   - headline: Remove content
-    text: Remove unwanted, redundant and out-of-date content. This helps users find what they need.
+    text: Remove unwanted, redundant, out-of-date content. This helps users find what they need.
     link: /content-strategy/remove-content/
   - headline: Manage content requests
     text: Know what’s involved to manage business-as-usual content including urgent content requests.

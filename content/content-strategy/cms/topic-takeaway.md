@@ -1,19 +1,15 @@
 ---
-layout: text/callout
+layout: text/topictakeaway
+heading: Content strategy output
+first_column_header: What you'll get
+second_column_header: What to do
+first_column_content: topic-takeaway-listitems.md
+previous_header: "Do before: Define your SEO"
+previous_text: Set the foundations phase
+previous_link: /content-strategy/seo/
+next_header: "Do next: Manage content requests"
+next_text: Create user-centred content phase
+next_link: /content-strategy/manage-content-requests
 ---
-### [3]What you’ll get
 
-An understanding of how to choose a CMS and manage your content.
-
-Your main artefact is a [CMS requirements checklist](/content-strategy/cms/cms-requirements-checklist/)
-
-This should be analysed and shared with the development team.
-
-This is part of the implementing your strategy phase.
-
-### [2]What to do before
-[Define your SEO](/content-strategy/seo/)
-
-### [2]What to do next 
-[Apply the content lifecycle](/content-strategy/content-lifecycle/)
-
+**Analyse and discuss** CMS requirements with your development team.

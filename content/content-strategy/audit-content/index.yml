@@ -12,7 +12,7 @@ main:
   - fact.md #fact
   - how.md
   - cards.md
-  - supporting-takeaway.md #topic-takeaway.md
+  - topic-takeaway.md #topic-takeaway.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
