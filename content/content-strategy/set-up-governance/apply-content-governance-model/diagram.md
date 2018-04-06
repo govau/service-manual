@@ -8,6 +8,7 @@ imageAlt: Diagram showing a decentralised content governance model
 caption: 
 level: 2
 display: 3
+long_description: new-long-description.md
 ---
 
 ## [3]Decentralised content governance model

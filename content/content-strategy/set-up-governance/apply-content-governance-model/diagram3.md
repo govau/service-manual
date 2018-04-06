@@ -8,6 +8,7 @@ imageAlt: Diagram showing a hybrid governance model
 caption: 
 level: 2
 display: 3
+long_description: new-long-description3.md
 ---
 
 ## [3] Hybrid content governance model

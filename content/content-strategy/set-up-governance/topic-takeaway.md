@@ -12,4 +12,4 @@ next_text: Clean up phase
 next_link: /content-strategy/remove-content/
 ---
 
-Add to **Part 7: Content governance** of the [Content Strategy Template](/content-strategy/start-content-strategy/show-problem-evidence/content-strategy-template/)
+Add to **Part 7: Content governance**, in the [Content Strategy Template](/content-strategy/start-content-strategy/show-problem-evidence/content-strategy-template/)

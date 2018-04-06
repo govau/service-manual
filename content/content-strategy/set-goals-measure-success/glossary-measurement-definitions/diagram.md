@@ -9,5 +9,6 @@ imageAlt: Illustration showing a goal as the end outcome with four measurable ob
 caption: 
 level: 2
 display: 3
+long_description: new-long-description.md
 ---
 

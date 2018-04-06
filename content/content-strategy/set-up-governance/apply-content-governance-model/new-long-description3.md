@@ -1,7 +1,8 @@
 ---
-layout: text/textblock
+layout: blocks/long_description
+title: Decentralised content governance model
 ---
-#### [1]Hybrid governance model: long text description
+#### Hybrid content governance model
 
 Subject experts send content to the central team of leaders, doers and specialists. Content is returned with quality checks. The subject experts send content to be published or self-publish.
 
