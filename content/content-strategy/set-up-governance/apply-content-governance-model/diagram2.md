@@ -8,6 +8,7 @@ imageAlt: Diagram showing a centralised content governance model
 caption: 
 level: 2
 display: 3
+long_description: new-long-description2.md
 ---
 
 ## [3]Centralised content governance model

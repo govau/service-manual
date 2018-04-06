@@ -8,6 +8,7 @@ imageAlt: Diagram showing accountability of a content team with leaders, doers a
 caption: 
 level: 2
 display: 3
+long_description: new-long-description.md
 ---
 
 ## [3]Content teams 
