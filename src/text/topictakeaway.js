@@ -90,32 +90,26 @@ TopicTakeaway.propTypes = {
 	/**
 	 * previous_header: "Do before: Set goals and measure success"
 	 */
-	previous_header: PropTypes.node.isRequired,
 
 	/**
 	 * previous_text: Develop your strategy phase
 	 */
-	previous_text: PropTypes.node.isRequired,
 
 	/**
 	 * previous_link: /path
 	 */
-	previous_link: PropTypes.node.isRequired,
 
 	/**
 	 * next_header: "Do next: Remove content"
 	 */
-	next_header: PropTypes.node.isRequired,
 
 	/**
 	 * next_text: Clean up phase
 	 */
-	next_text: PropTypes.node.isRequired,
 
 	/**
 	 * next_link: /path
 	 */
-	next_link: PropTypes.node.isRequired
 
 };
 
