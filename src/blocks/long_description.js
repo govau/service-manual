@@ -9,7 +9,7 @@ const LongDescription = ( page ) => {
 
 	return (
 		<div className="long-description-accordion">
-			<Accordion header={ page.title }>
+			<Accordion header="Full text description of image">
 				{ page._body }
 			</Accordion>
 		</div>
@@ -21,12 +21,7 @@ LongDescription.propTypes = {
 	/**
 	 * _body: (text)(1)
 	 */
-	_body: PropTypes.node.isRequired,
-
-	/**
-	 * title: Header
-	 */
-	title: PropTypes.node.isRequired,
+	_body: PropTypes.node.isRequired
 };
 
 
