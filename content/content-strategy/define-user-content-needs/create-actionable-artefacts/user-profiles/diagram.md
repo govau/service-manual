@@ -7,6 +7,7 @@ stackPosition: top
 imageAlt: User profile example
 level: 2
 display: 3
+long_description: new-long-description.md
 ---
 
 ### [3]Main header: (primary user type) profile

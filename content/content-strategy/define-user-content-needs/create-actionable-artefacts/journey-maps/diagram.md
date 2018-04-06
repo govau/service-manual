@@ -8,6 +8,7 @@ imageAlt: Journey map template
 
 level: 2
 display: 3
+long_description: new-long-description.md
 ---
 ### [3]Step 3: Visualise the journey
 

@@ -1,7 +1,7 @@
 ---
-layout: text/textblock
+layout: blocks/long_description
 ---
-### [1]Journey map template: long text description
+#### [1]Journey map template
 
 Add title of journey map
 

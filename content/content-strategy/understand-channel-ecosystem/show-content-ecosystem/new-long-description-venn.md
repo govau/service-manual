@@ -1,8 +1,8 @@
 ---
-layout: text/textblock
+layout: blocks/long_description
 ---
 
-The Venn diagram is titled Guidance Ecosystem Overlaps. 
+#### [1]The Venn diagram is titled Guidance Ecosystem Overlaps. 
 
 The diagram is made up of circles that represent digital channels. They vary in size and colour. 3 columns with numbered keys correspond to circles in the diagram. The text is not legible but each number details content-in-common where the circles overlap each other. 
 From the top DTA website is the largest, with 5 other channels and 4 smaller website sections.
