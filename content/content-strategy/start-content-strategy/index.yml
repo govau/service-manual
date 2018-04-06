@@ -9,7 +9,7 @@ main:
   - attribution.md
   - how.md
   - cards.md
-  - supporting-takeaway.md #topic-takeaway
+  - topic-takeaway.md #topic-takeaway
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
