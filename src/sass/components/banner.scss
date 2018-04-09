@@ -1,29 +1,29 @@
 .banner {
 	color: #fff;
 	background: url('/assets/img/dssbanner.png') no-repeat;
-	background-color: $uikit-colour-Primary;
+	background-color: $AU-color-background;
 	background-position: 600px 0;
-	padding: uikit-space( 1.5 ) 0 uikit-space( 1.5 ) 0;
+	padding: AU-space( 1.5 ) 0 AU-space( 1.5 ) 0;
 	margin-top: -2em;
 	margin-bottom: 2em;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
-	@include uikit-media( xs ) {
+	@include AU-media( xs ) {
 		background-size: cover;
 	}
 
-	@include uikit-media( sm ) {
+	@include AU-media( sm ) {
 		background-size: contain;
-		margin-bottom: uikit-space( 1.25 );
+		margin-bottom: AU-space( 1.25 );
 	}
 
-	@include uikit-media( md ) {
+	@include AU-media( md ) {
 		background-size: contain;
 		background-position: right;
 	}
 
-	@include uikit-media( lg ) {
+	@include AU-media( lg ) {
 		background-size: 55%;
 	}
 
@@ -31,14 +31,14 @@
 
 .section__section {
 	.banner & {
-		margin-bottom: uikit-space( 1.5 );
+		margin-bottom: AU-space( 1.5 );
 		display: inline-block;
 	}
 }
 
 .banner__headline {
 	color: #fff;
-	@include uikit-media( sm ) {
+	@include AU-media( sm ) {
 		max-width: 300px;
 	}
 }
@@ -47,17 +47,17 @@
 
 .banner__box {
 	width: auto;
-	padding: uikit-space( 1 ) uikit-space( 1 ) uikit-space( 1 ) uikit-space( 1 );
-	margin: uikit-space( 1.2 ) auto 0 auto;
-	background: $uikit-colour-Primary;
+	padding: AU-space( 1 ) AU-space( 1 ) AU-space( 1 ) AU-space( 1 );
+	margin: AU-space( 1.2 ) auto 0 auto;
+	background: $AU-colordark-background;
 
-	@include uikit-media( sm ) {
-		padding: uikit-space( 1 ) uikit-space( 1 ) uikit-space( 0.7 ) uikit-space( 1 );
-		margin: uikit-space( 3.1 ) auto 0 auto;
+	@include AU-media( sm ) {
+		padding: AU-space( 1 ) AU-space( 1 ) AU-space( 0.7 ) AU-space( 1 );
+		margin: AU-space( 3.1 ) auto 0 auto;
 		width: 75%;
 	}
 
-	@include uikit-media( md ) {
+	@include AU-media( md ) {
 		width: 40%;
 	}
 }
@@ -70,7 +70,7 @@
 .banner__box__link {
 	.uikit-body & {
 		color: #fff;
-		border-bottom: 1px solid $uikit-colour-Link;
+		border-bottom: 1px solid $AU-color-foreground-text;
 		font-size: 1em;
 		display: inline;
 
@@ -84,11 +84,11 @@
 			background-repeat: no-repeat;
 			top: 1px;
 			position: relative;
-			margin: 0 0 0 uikit-space( 0.2 );
+			margin: 0 0 0 AU-space( 0.2 );
 		}
 
 		&:hover {
-			color: $uikit-colour-Text;
+			color: $AU-color-foreground-focus;
 		}
 	}
 }
@@ -112,7 +112,7 @@
 
 			&:hover,
 			&:focus {
-				color: $uikit-colour-Text;
+				color: $AU-color-foreground-focus;
 			}
 
 			&:focus {

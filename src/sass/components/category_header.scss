@@ -1,11 +1,11 @@
 .category__header {
-	background: $uikit-colour-Primary;
-	color: #fff;
-	padding: uikit-space( 1.3 ) 0;
+	background: $AU-colordark-background;
+	color: $AU-colordark-foreground-text;
+	padding: AU-space( 1.3 ) 0;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
-	@include uikit-media( sm ) {
+	@include AU-media( sm ) {
 		background-repeat: no-repeat;
 		background-position: right;
 		background-size: auto 100%;
@@ -42,9 +42,9 @@
 	.category__header & {
 		float: left;
 		clear: both;
-		margin-top: uikit-space( 0.5 );
+		margin-top: AU-space( 0.5 );
 
-		@include uikit-media( xs ) {
+		@include AU-media( xs ) {
 			float: right;
 			clear: none;
 		}
@@ -54,6 +54,6 @@
 .feedback__btn {
 	.category__header & {
 		background: #fff;
-		color: $uikit-colour-Secondary;
+		color: $AU-color-foreground-text;
 	}
 }

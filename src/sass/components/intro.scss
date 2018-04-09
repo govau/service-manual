@@ -4,7 +4,7 @@
 
 .intro {
 	padding: 2em 0;
-	background-color: $uikit-colour-Background;
+	background-color: $AU-color-background;
 	margin-bottom: 2em;
 	margin-top: 0;
 
@@ -15,13 +15,13 @@
 }
 
 .intro__metadata {
-	background-color: $uikit-colour-Background;
+	background-color: $AU-color-background;
 
 	dl > dt {
 		margin: 0;
-		padding: uikit-space( 0.5 ) uikit-space( 0.5 ) 0 uikit-space( 0.5 );
+		padding: AU-space( 0.5 ) AU-space( 0.5 ) 0 AU-space( 0.5 );
 
-		@include uikit-media( sm ) {
+		@include AU-media( sm ) {
 			width: 20%;
 		}
 	}
@@ -33,7 +33,7 @@
 	dd, dt {
 		display: block;
 
-		@include uikit-media( xs ) {
+		@include AU-media( xs ) {
 			display: inline-block;
 			vertical-align: top;
 		}
@@ -42,7 +42,7 @@
 	dd {
 		padding: 0.75em;
 
-		@include uikit-media( sm ) {
+		@include AU-media( sm ) {
 			width: 70%;
 		}
 	}
@@ -62,7 +62,7 @@
 	font-weight: normal;
 	line-height: 1.1;
 	margin-top: 0;
-	color: $uikit-colour-Primary;
+	color: $AU-color-foreground-text;
 	word-break: break-word;
 }
 

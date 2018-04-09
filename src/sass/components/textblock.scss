@@ -36,7 +36,7 @@
 				   top: 0;
 				   color: #fff;
 				   font-size: 14px;
-				   background-color: $uikit-colour-Primary;
+				   background-color: $AU-colordark-background;
 				   border-radius: 50%;
 				   text-align: center;
 				   width: 1.6em;
@@ -52,17 +52,17 @@
 	font-size: 34px;
 	font-weight: 200;
 	line-height: 1.3;
-	color: $uikit-colour-Primary;
+	color: $AU-color-foreground-text;
 	max-width: 8.2em;
-	margin: uikit-space( 1.3 ) 0 0 0;
+	margin: AU-space( 1.3 ) 0 0 0;
 	padding: 0.5em 1.2em 0.5em 1em;
 	display: inline-block;
 
-	@include uikit-media( md ) {
+	@include AU-media( md ) {
 		display: inline-block;
 	}
 
-	@include uikit-media( lg ) {
+	@include AU-media( lg ) {
 		float: right;
 	}
 
@@ -79,7 +79,7 @@
 		top: 0;
 		left: 0;
 		background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 22">
-				<path fill="#{ $uikit-colour-Primary }" fill-rule="evenodd" d="M30.52 16.202c0 .688-.134 1.377-.4 2.065-.268.688-.67 1.31-1.203 1.867-.534.556-1.188
+				<path fill="#{ $AU-colordark-background }" fill-rule="evenodd" d="M30.52 16.202c0 .688-.134 1.377-.4 2.065-.268.688-.67 1.31-1.203 1.867-.534.556-1.188
 					1.006-1.962 1.35-.775.344-1.642.516-2.604.516-1.064
 					0-2.092-.2-3.08-.596-.99-.397-1.83-.966-2.523-1.707-.587-.69-1.04-1.51-1.362-2.462-.32-.953-.48-1.96-.48-3.018 0-2.012.36-3.866 1.08-5.56.722-1.694
 					1.75-3.203 3.085-4.527.587-.582 1.254-1.125 2.002-1.628.748-.503 1.456-.927 2.124-1.27.667-.345 1.24-.623 1.722-.835.48-.212.774-.344.88-.397L31
@@ -95,7 +95,7 @@
 	&:after {
 		margin: 0 -1.2em -0.8em 0.25em;
 		background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 22">
-				<path fill="#{ $uikit-colour-Primary }" fill-rule="evenodd" d="M17.477 5.798c0-.688.133-1.377.398-2.065s.663-1.31 1.193-1.867c.53-.556 1.18-1.006
+				<path fill="#{ $AU-colordark-background }" fill-rule="evenodd" d="M17.477 5.798c0-.688.133-1.377.398-2.065s.663-1.31 1.193-1.867c.53-.556 1.18-1.006
 					1.95-1.35C21.785.172 22.648 0 23.6 0c1.06 0 2.082.2 3.063.596.98.397 1.816.966 2.505 1.707.584.69 1.035 1.51 1.353 2.462.32.953.48 1.96.48 3.018 0
 					2.012-.36 3.866-1.074 5.56-.716 1.694-1.737 3.203-3.062 4.527-.584.582-1.247 1.125-1.99 1.628-.74.503-1.444.927-2.107
 					1.27-.663.345-1.233.623-1.71.835-.477.212-.77.344-.875.397L17 17.314c.583-.212 1.233-.49 1.95-.834.715-.344 1.39-.768 2.027-1.27.637-.504 1.167-1.1

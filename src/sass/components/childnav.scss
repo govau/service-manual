@@ -1,17 +1,17 @@
 .childnav {
 	float: none;
-	margin-bottom: uikit-space( 1.5 );
+	margin-bottom: AU-space( 1.5 );
 	display: inline-block;
 	width: 100%;
 
 
-	@include uikit-media( md ) {
+	@include AU-media( md ) {
 		width: auto;
 		float: right;
-		margin-top: uikit-space( 1 );
+		margin-top: AU-space( 1 );
 	}
 
-	@include uikit-media( lg ) {
+	@include AU-media( lg ) {
 		position: absolute;
 		right: 0;
 		z-index: 1;
@@ -21,7 +21,7 @@
 .childnav__container {
 	width: 100%;
 
-	@include uikit-media( md ) {
+	@include AU-media( md ) {
 		width: 18em;
 	}
 }
@@ -33,28 +33,28 @@
 	height: 2.5em;
 	padding: 0;
 	border-radius: 0;
-	border: 1px solid $uikit-colour-Primary;
+	border: 1px solid $AU-color-foreground-border;
 	outline: 0;
-	background: $uikit-colour-Primary-5;
-	color: $uikit-colour-Text;
+	background: $AU-color-background;
+	color: $AU-color-foreground-text;
 	text-align: left;
-	padding-left: uikit-space( 0.5 );
-	font-size: uikit-space( 0.631 );
+	padding-left: AU-space( 0.5 );
+	font-size: AU-space( 0.631 );
 
 	&:after {
 		content: ' ';
 		display: inline-block;
-		width: uikit-space( 0.85 );
-		height: uikit-space( 0.75 );
+		width: AU-space( 0.85 );
+		height: AU-space( 0.75 );
 		top: 4px;
-		margin: 0 uikit-space( 0.5 ) 0 uikit-space( 0.5 );
+		margin: 0 AU-space( 0.5 ) 0 AU-space( 0.5 );
 		float: right;
 		position: relative;
-		font-size: uikit-space( 0.5 );
+		font-size: AU-space( 0.5 );
 		transition: transform 0.3s ease;
 		background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 11">
-				<path fill="#{ $uikit-colour-Primary }" d="M8.333 10.584l-7.916-8 1.98-2 7.915 8"/>
-				<path fill="#{ $uikit-colour-Primary }" d="M8.333 10.584l-1.98-2 7.918-8 1.98 2"/>
+				<path fill="#{ $AU-colordark-background }" d="M8.333 10.584l-7.916-8 1.98-2 7.915 8"/>
+				<path fill="#{ $AU-colordark-background }" d="M8.333 10.584l-1.98-2 7.918-8 1.98 2"/>
 			</svg>') no-repeat;
 	}
 
@@ -62,7 +62,7 @@
 		cursor: pointer;
 	}
 
-	@include uikit-focus();
+	@include AU-focus();
 
 	&.is-open {
 		&:after {
@@ -71,7 +71,7 @@
 		}
 	}
 
-	@include uikit-media( md ) {
+	@include AU-media( md ) {
 		display: none;
 
 		&:after {
@@ -99,7 +99,7 @@
 		list-style: none;
 		padding-left: 0;
 		margin-bottom: 0;
-		border-bottom: 1px solid $uikit-colour-Border-40;
+		border-bottom: 1px solid $AU-color-foreground-border;
 
 		&.navigation__item--has-nested {
 			border-bottom: 0;
@@ -117,20 +117,20 @@
 }
 
 .navigation__item__span {
-	color: $uikit-colour-Primary;
+	color: $AU-color-foreground-text;
 	font-weight: bold;
 	display: block;
-	background-color: $uikit-colour-Primary-5;
+	background-color: $AU-color-background;
 }
 
 .navigation__item__anchor,
 .navigation__item__span {
 	display: block;
-	padding: uikit-space( 0.25 ) uikit-space( 0.5 );
+	padding: AU-space( 0.25 ) AU-space( 0.5 );
 }
 
 .navigation--level-3 {
-	border-top: 1px solid $uikit-colour-Border-40;
+	border-top: 1px solid $AU-color-foreground-border;
 
 	& .navigation__item__anchor,
 	& .navigation__item__span {
@@ -148,13 +148,13 @@
 		height: 0;
 		display: none;
 
-		@include uikit-media( md ) {
+		@include AU-media( md ) {
 			display: block;
 			height: auto;
 		}
 	}
 
-	@include uikit-media( sm ) {
+	@include AU-media( sm ) {
 		width: 100%;
 	}
 }

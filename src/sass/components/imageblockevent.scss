@@ -1,26 +1,26 @@
 .eventblock {
 	.imageblockevent & {
-		margin-bottom: uikit-space( 1.25 );
+		margin-bottom: AU-space( 1.25 );
 	}
 }
 
 .imageblock__content {
 	.imageblockevent & {
 		width: auto;
-		margin:  uikit-space( 22.3 ) 0 0 0;
-		padding: uikit-space( 1.55 ) 12px uikit-space( 1.55 ) 12px;
+		margin:  AU-space( 22.3 ) 0 0 0;
+		padding: AU-space( 1.55 ) 12px AU-space( 1.55 ) 12px;
 
-		@include uikit-media( sm ) {
+		@include AU-media( sm ) {
 			width: 351px;
 			margin: 0;
-			padding: uikit-space( 1.55 ) uikit-space( 1.55 ) 0 12px;
+			padding: AU-space( 1.55 ) AU-space( 1.55 ) 0 12px;
 		}
 
 	}
 
 	.imageblockevent.imageblock--reverse & {
-		@include uikit-media( sm ) {
-			padding: uikit-space( 1.55 ) 12px 0 uikit-space( 1.55 );
+		@include AU-media( sm ) {
+			padding: AU-space( 1.55 ) 12px 0 AU-space( 1.55 );
 		}
 	}
 }
@@ -33,7 +33,7 @@
 			right: 75%;
 		}
 
-		@include uikit-media( sm ) {
+		@include AU-media( sm ) {
 			background-size: cover;
 		}
 	}

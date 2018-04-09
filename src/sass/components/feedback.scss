@@ -1,7 +1,7 @@
 .feedback {
-	padding: uikit-space( 1.75 ) 0 uikit-space( 1 ) 0;
+	padding: AU-space( 1.75 ) 0 AU-space( 1 ) 0;
 	color: #fff;
-	background: $uikit-colour-Primary;
+	background: $AU-colordark-background;
 
 	a {
 		color: #fff;
@@ -21,6 +21,6 @@
 .feedback__button {
 	.uikit-btn {
 		background: #fff;
-		color: $uikit-colour-Secondary;
+		color: $AU-color-foreground-text;
 	}
 }

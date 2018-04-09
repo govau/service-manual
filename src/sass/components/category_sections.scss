@@ -1,6 +1,6 @@
 .category-sections {
-	background-color: $uikit-colour-Background;
-	border-bottom: 1px solid $uikit-colour-Secondary-40;
+	background-color: $AU-color-background;
+	border-bottom: 1px solid $AU-color-foreground-border ;
 	margin-top: 0;
 	margin-bottom: 0;
 	padding: 1em;
@@ -44,7 +44,7 @@
 	font-weight: bold;
 
 	.uikit-body & {
-		color: $uikit-colour-Text-80;
+		color: $AU-color-foreground-text;
 	}
 }
 

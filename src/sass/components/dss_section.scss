@@ -1,5 +1,5 @@
 .dss-section {
-	background-color: $uikit-colour-Background;
+	background-color: $AU-color-background;
 	margin-top: 0;
 	margin-bottom: 3em;
 	padding: 3em 0 2em 0;
@@ -11,13 +11,13 @@
 
 .dss-section__criteria {
 	float: none;
-	background-color: $uikit-colour-Primary;
+	background-color: $AU-colordark-background;
 	color: #fff;
 	width: auto;
 	padding: 2em;
 	margin: 0 0 1.5em 0;
 
-	@include uikit-media( sm ) {
+	@include AU-media( sm ) {
 		float: right;
 		width: 17em;
 		margin: 4em 0 1em 1em;
@@ -72,7 +72,7 @@
 
 		&:hover,
 		&:focus {
-			color: $uikit-colour-Text;
+			color: $AU-color-foreground-focus;
 		}
 
 		&:focus {
@@ -84,7 +84,7 @@
 .dss-section__section {
 	clear: both;
 
-	@include uikit-media( xs ) {
+	@include AU-media( xs ) {
 		clear: none;
 	}
 }
@@ -103,7 +103,7 @@
 
 	&:hover,
 	&:focus {
-		color: $uikit-colour-Text;
+		color: $AU-color-foreground-focus;
 	}
 
 	&:focus {
