@@ -7,6 +7,7 @@ stackPosition: top
 imageAlt: top user tasks
 level: 2
 display: 3
+long_description: new-long-description.md
 ---
 
 ### [3]Step 4: Get users to vote

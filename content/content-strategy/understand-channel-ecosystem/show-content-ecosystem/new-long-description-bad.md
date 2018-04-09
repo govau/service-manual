@@ -1,8 +1,7 @@
 ---
-layout: text/textblock
+layout: blocks/long_description
 ---
-
-Channel ecosystem mind map: long text description
+#### [1]Channel ecosystem mind map
 
 At the centre of the mind map is a circle titled website 1. This is surrounded by 4 subset channel types: websites, email newsletters, social media, apps. They point to each other as follows:
 
