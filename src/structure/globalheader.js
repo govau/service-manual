@@ -24,10 +24,10 @@ const GlobalHeader = ( page ) => {
 
 	return (
 		<div>
-			<div className={`uikit-grid globalheader ${ headerClasses[ theme ] }`}>
+			<div className={`au-grid globalheader ${ headerClasses[ theme ] }`}>
 				<div className="container">
 					<div className="row">
-						<div className="col-md-12">
+						<div className="col-xs-12">
 							<a href="/" className="globalheader__logo">
 								<svg className="globalheader__logo__svg" role="img" title="The Commonwealth Star">
 									<use xlinkHref={`/assets/svg/map.svg#${
@@ -50,13 +50,13 @@ const GlobalHeader = ( page ) => {
 				<div className="container">
 					<div className="row">
 						<div className="globalheader__content__wrapper">
-							<div className="col-md-6 col-sm-6">
+							<div className="col-xs-6">
 								<div className="globalheader__content1">
 									<span className="globalheader__title">{ page.title1 }</span>
 									<span className="globalheader__text">{ page.content1 }</span>
 								</div>
 							</div>
-							<div className="col-md-6 col-sm-6">
+							<div className="col-xs-6">
 								<div className="globalheader__content2">
 									<span className="globalheader__title">{ page.title2 }</span>
 									<span className="globalheader__text">{ page.content2 }</span>

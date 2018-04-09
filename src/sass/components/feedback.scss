@@ -14,12 +14,12 @@
 
 .feedback__caption {
 	display: block;
-	margin: 0 0 uikit-space( 1 ) 0;
+	margin: 0 0 AU-space( 1 ) 0;
 	max-width: 450px;
 }
 
 .feedback__button {
-	.uikit-btn {
+	.au-btn {
 		background: #fff;
 		color: $AU-color-foreground-text;
 	}

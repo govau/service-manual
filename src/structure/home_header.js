@@ -28,13 +28,13 @@ import React from 'react';
  };
 
 const LinkList = ({ inverted, inline, items }) => (
-	<ul className={ `uikit-link-list${ inverted ? ' uikit-link-list--inverted' : '' }${ inline ? ' uikit-link-list--inline' : '' }` }>
+	<ul className={ `au-link-list${ inverted ? ' au-link-list--inverted' : '' }${ inline ? ' au-link-list--inline' : '' }` }>
 		{ items.map( ( item, i ) => <LinkListItem key={ i } item={ item } /> ) }
 	</ul>
 );
 
 const Breadcrumbs = ({ inverted, label, items }) =>	(
-	<nav id="nav" className={ `uikit-breadcrumbs${ inverted ? ' uikit-breadcrumbs--inverted' : '' }` } aria-label={ label }>
+	<nav id="nav" className={ `au-breadcrumbs${ inverted ? ' au-breadcrumbs--inverted' : '' }` } aria-label={ label }>
 		<LinkList inverted={ inverted } inline items={ items } />
 	</nav>
 );
@@ -55,7 +55,7 @@ const Homeheader = ( page ) => {
 		<div className={`home__header header`} id="content">
 			<div className="container">
 				<div className="row">
-					<div className="col-md-12">
+					<div className="col-xs-12">
 						<div className="header__subheader">
 							<a href="/" title="Guides home">
 								<img className="header__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`}
@@ -77,7 +77,7 @@ const Homeheader = ( page ) => {
 									}
 							</div>
 
-							<a href="https://www.surveymonkey.com/r/XFWJ5TC" className="feedback__btn uikit-btn">
+							<a href="https://www.surveymonkey.com/r/XFWJ5TC" className="feedback__btn au-btn">
 								Give feedback
 							</a>
 

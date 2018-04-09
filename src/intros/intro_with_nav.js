@@ -13,10 +13,10 @@ const IntroNav = ( page ) => {
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 
 	return (
-		<div className={`uikit-body uikit-grid intro intro--withnav intro__wrapper intro--${ theme }`}>
+		<div className={`au-body au-grid intro intro--withnav intro__wrapper intro--${ theme }`}>
 			<div className="container">
 				<div className="row">
-					<div className="col-md-12">
+					<div className="col-xs-12">
 
 						<Childnav page={ page } />
 

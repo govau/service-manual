@@ -37,7 +37,7 @@ const Topic = ( page ) => (
 			}
 		]} />
 
-		<header className="uikit-body uikit-grid">
+		<header className="au-body au-grid">
 			{ page.header }
 		</header>
 

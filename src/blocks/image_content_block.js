@@ -47,16 +47,16 @@ const ImageContentblock = ( page ) => {
 	);
 
 	return (
-		<div className={`imagecontentblock imagecontentblock--${ theme } ${ page.stackPosition ? 'imagecontentblock--stack' + page.stackPosition : '' }   uikit-body uikit-grid`}>
+		<div className={`imagecontentblock imagecontentblock--${ theme } ${ page.stackPosition ? 'imagecontentblock--stack' + page.stackPosition : '' }   au-body au-grid`}>
 			<div className="container">
 				<div className="row">
-					<div className="col-md-6">
+					<div className="col-xs-6">
 						{ page.reverse
 							? Figure
 							: Content
 						}
 					</div>
-					<div className="col-md-6">
+					<div className="col-xs-6">
 						{ page.reverse
 							? Content
 							: Figure

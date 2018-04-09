@@ -26,7 +26,7 @@ const Card = ({ link, background, image, headline, text, cta, preheadline }) => 
 				<strong className='card__headline'>{ headline }</strong>
 			</div>
 				<div className='card__text'>{ text }</div>
-				{ cta && <span className='card__cta uikit-cta-link'>{ cta }</span> }
+				{ cta && <span className='card__cta au-cta-link'>{ cta }</span> }
 		</div>
 	</a>
 )};

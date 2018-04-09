@@ -1,6 +1,6 @@
 .globalheader {
 	font-size: 14px;
-	padding: uikit-space( 0.3 ) 0;
+	padding: AU-space( 0.3 ) 0;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
@@ -25,7 +25,7 @@
 	border-right: 1px solid #fff;
 	vertical-align: middle;
 
-	.uikit-body & {
+	.au-body & {
 		color: #fff;
 		border-bottom: 0;
 
@@ -43,9 +43,9 @@
 .globalheader__logo__svg {
 	height: 1.2em;
 	width: 1.2em;
-	margin-right: uikit-space( 0.32 );
+	margin-right: AU-space( 0.32 );
 	vertical-align: middle;
-	margin-top: uikit-space( -0.06 );
+	margin-top: AU-space( -0.06 );
 }
 
 .globalheader__logo__title {
@@ -56,7 +56,7 @@
 .globalheader__headtext,
 .globalheader__button {
 	display: inline-block;
-	margin-left: uikit-space( 1 );
+	margin-left: AU-space( 1 );
 	vertical-align: middle;
 }
 

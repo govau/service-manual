@@ -35,7 +35,7 @@
 	display: inline-block;
 	font-size: 16px;
 
-	.uikit-body & {
+	.au-body & {
 		margin: 0;
 	}
 }
@@ -43,7 +43,7 @@
 .category-sections__list__link {
 	font-weight: bold;
 
-	.uikit-body & {
+	.au-body & {
 		color: $AU-color-foreground-text;
 	}
 }

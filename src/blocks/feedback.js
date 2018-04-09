@@ -10,15 +10,15 @@ const Feedback = ( page ) => {
 	const HeadingTag = `h${ page.level }`;
 
 	return (
-		<div className="uikit-body uikit-grid feedback">
+		<div className="au-body au-grid feedback">
 			<div className="container">
 				<div className="row">
-					<div className="col-sm-12">
+					<div className="col-xs-12">
 						<HeadingTag className="feedback__title display-3">{ page.title }</HeadingTag>
 						<div className="textwrapper">
 							<p className="feedback__caption1">{ page.caption1 }</p>
 							<p className="feedback__button">
-								<a href="https://www.surveymonkey.com/r/XFWJ5TC" className="uikit-btn">
+								<a href="https://www.surveymonkey.com/r/XFWJ5TC" className="au-btn">
 									Give feedback
 								</a>
 							</p>

@@ -10,10 +10,10 @@ const Intro = ( page ) => {
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 
 	return (
-		<div className={`uikit-body uikit-grid intro intro--${ theme }`}>
+		<div className={`au-body au-grid intro intro--${ theme }`}>
 			<div className="container">
 				<div className="row">
-					<div className="col-md-12">
+					<div className="col-xs-12">
 						<div className="textwrapper">
 							{ page.category && <span id={ (page.category).toLowerCase() } className="section__section intro__category">{ page.category }</span> }
 							<h2 className="display-3">{ page.title ? page.title : page._pages[ page._ID ].pagetitle }</h2>

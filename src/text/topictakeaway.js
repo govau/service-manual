@@ -7,22 +7,22 @@ import React from 'react';
  */
 const TopicTakeaway = ( page ) => {
 	return (
-	<div className="uikit-body uikit-grid" >
+	<div className="au-body au-grid" >
 		<div className="container">
 
 			<div className="row">
-				<div className="col-md-12">
+				<div className="col-xs-12">
 					<h2 className="display-3">{ page.heading }</h2>
 				</div>
 			</div>
 
 			<div className="row">
-				<div className="col-md-12">
-					<div className="col-md-4 topic-takeaway-output">
+				<div className="col-xs-12">
+					<div className="col-xs-4 topic-takeaway-output">
 						<h3 className="display-2">{ page.first_column_header }</h3>
 						<div className="topic-takeaway-list">{ page.first_column_content }</div>
 					</div>
-					<div className="col-md-6 col-md-offset-2">
+					<div className="col-xs-6 col-xs-offset-2">
 						<h3 className="display-2">{ page.second_column_header }</h3>
 						{ page._body }
 					</div>
@@ -31,9 +31,9 @@ const TopicTakeaway = ( page ) => {
 
 			<div className="row">
 
-				<div className="col-md-12 topic-takeaway-paginator">
+				<div className="col-xs-12 topic-takeaway-paginator">
 
-					<div className="col-md-4 topic-takeaway-previous-card">
+					<div className="col-xs-4 topic-takeaway-previous-card">
 						{page.previous_header  &&
 							<div className="topic-takeaway-card-content">
 								<p><span className="topic-takeaway-arrows">&larr;</span> <a href={ page.previous_link }>{ page.previous_header }</a></p>
@@ -43,7 +43,7 @@ const TopicTakeaway = ( page ) => {
 					</div>
 
 
-					<div className="col-md-4 col-md-offset-4 topic-takeaway-next-card">
+					<div className="col-xs-4 col-xs-offset-4 topic-takeaway-next-card">
 						{page.next_header  &&
 							<div className="topic-takeaway-card-content">
 								<p><a href={ page.next_link }>{ page.next_header }</a>  <span className="topic-takeaway-arrows">&rarr;</span></p>

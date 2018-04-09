@@ -39,7 +39,7 @@
 	list-style: none;
 	margin: 0 0 2em 0;
 
-	.uikit-body & {
+	.au-body & {
 		padding: 0;
 	}
 }
@@ -55,7 +55,7 @@
 }
 
 .dss-section__criteria__list__item__link {
-	.uikit-body & {
+	.au-body & {
 		color: #fff;
 		border-color: #fff;
 
@@ -89,7 +89,7 @@
 	}
 }
 
-.dss-section__criteria__cta.uikit-cta-link {
+.dss-section__criteria__cta.au-cta-link {
 	color: #fff;
 	border-color: #fff;
 	margin-bottom: 0;

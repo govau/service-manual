@@ -37,7 +37,7 @@ const Page = ( page ) => (
 			}
 		]} />
 
-		<header role="banner" className="uikit-body uikit-grid">
+		<header role="banner" className="au-body au-grid">
 			{ page.header }
 		</header>
 

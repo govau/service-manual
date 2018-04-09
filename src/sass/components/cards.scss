@@ -15,7 +15,7 @@
 	overflow: hidden;
 	width: 100%;
 
-	.uikit-body & {
+	.au-body & {
 		transition: box-shadow 0.2s ease, background 0.2s ease;
 		border: AU-space(1);
 	}
@@ -78,7 +78,7 @@
 .card:focus {
 	box-shadow: 0px 0px 15px -2px rgba( 0, 0, 0, 0.26 );
 
-	.uikit-body & {
+	.au-body & {
 		border-color: $AU-color-foreground-focus;
 	}
 
@@ -108,7 +108,7 @@
 }
 
 .card__cta {
-	&.uikit-cta-link {
+	&.au-cta-link {
 		margin: 2em 0 0 0;
 		font-size: 16px;
 
@@ -132,7 +132,7 @@
 	display: flex;
 	flex-wrap: wrap;
 
-	.uikit-grid & {
+	.au-grid & {
 		padding: 0;
 		margin-bottom: 0;
 		margin-left: -12px;

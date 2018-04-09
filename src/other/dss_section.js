@@ -64,15 +64,15 @@ const CRITERIA = {
 const DSSSection = ( page ) => {
 
 	return (
-	<div className={` uikit-body uikit-grid dss-section ${ page.level ? 'dss-section--level' + page.level : '' } `}>
+	<div className={` au-body au-grid dss-section ${ page.level ? 'dss-section--level' + page.level : '' } `}>
 		<div className="container">
 			<div className="row">
-				<div className="col-md-8 col-sm-6" id={ Slugify( page.section ).toLowerCase() }>
+				<div className="col-xs-8 col-xs-6" id={ Slugify( page.section ).toLowerCase() }>
 
 					<span className="section__section dss-section__section">{ page.section }</span>
 					<div className="dss-section__text">{ page._body }</div>
 				</div>
-				<div className="col-md-4 col-sm-6">
+				<div className="col-xs-4 col-xs-6">
 					<div className="dss-section__criteria">
 						<strong className="dss-section__criteria__headline">Digital Service Standard</strong>
 						<ul className="dss-section__criteria__list">
@@ -85,7 +85,7 @@ const DSSSection = ( page ) => {
 								))
 							}
 						</ul>
-						<a className="dss-section__criteria__cta uikit-cta-link" href="/digital-service-standard/">Read the criteria</a>
+						<a className="dss-section__criteria__cta au-cta-link" href="/digital-service-standard/">Read the criteria</a>
 					</div>
 				</div>
 			</div>

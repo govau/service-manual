@@ -9,16 +9,16 @@ const Footer = ( page ) => {
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 
 	return (
-		<footer className={`uikit-grid uikit-body uikit-footer footer footer--${ theme }`} role="contentinfo">
+		<footer className={`au-grid au-body au-footer footer footer--${ theme }`} role="contentinfo">
 			<div className="container">
 				<div className="row">
-					<div className="col-md-2">
+					<div className="col-xs-2">
 						<img className="footer__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`}
 							alt="The Australian Government coat of Arms" />
 					</div>
-					<div className="col-md-10">
+					<div className="col-xs-10">
 						<div className="footer__links__wrapper">
-							<ul className={`footer__links uikit-link-list uikit-link-list--inline uikit-link-list--inverted`}>
+							<ul className={`footer__links au-link-list au-link-list--inline au-link-list--inverted`}>
 								{
 									page.links && page.links.map( ( link, i ) => {
 										return (

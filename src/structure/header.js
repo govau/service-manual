@@ -23,7 +23,7 @@ const Header = ( page ) => {
 		<div className={`header header--${ theme }`} id="content">
 			<div className="container">
 				<div className="row">
-					<div className="col-md-12 header__sub">
+					<div className="col-xs-12 header__sub">
 						<a href="/" title="Guides home">
 							<img className="header__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`}
 								alt="The Australian Government coat of Arms"/>
@@ -38,7 +38,7 @@ const Header = ( page ) => {
 							</a>
 						</div>
 
-						<a href="https://www.surveymonkey.com/r/XFWJ5TC" className="feedback__btn uikit-btn">
+						<a href="https://www.surveymonkey.com/r/XFWJ5TC" className="feedback__btn au-btn">
 							Give feedback
 						</a>
 
