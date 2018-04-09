@@ -10,11 +10,8 @@ main:
   - intro.md #text
   - text.md #text
   - bad-mind-map.md #diagram
-  - long-text-bad-channel-mind-map.md #longtext
   - good-mind-map.md #diagram
-  - long-text-description-channel-mind-map.md #longtext
   - venn.md #diagram
-  - long-text-venn.md #longtext
   - screenshots.md
   - /_shared/feedback.md
 footer:

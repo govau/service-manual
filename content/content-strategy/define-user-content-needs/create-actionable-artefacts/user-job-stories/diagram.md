@@ -7,6 +7,7 @@ stackPosition: top
 imageAlt: Example user stories and tasks of a content specialist
 level: 2
 display: 3
+long_description: long-description.md
 ---
 
 ### [3]Step 5: Map your stories

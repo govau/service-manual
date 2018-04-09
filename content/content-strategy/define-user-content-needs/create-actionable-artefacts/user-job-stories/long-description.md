@@ -1,7 +1,7 @@
 ---
-layout: text/textblock
+layout: blocks/long_description
 ---
-### [1]User stories example: long text description 
+#### [1]User stories example
 
 The user at the top of the example is a content specialist. From left to right, 3 user stories display in swimlanes that follow on from ‘As a content specialist...’: Related user tasks display in lane below each story.
 

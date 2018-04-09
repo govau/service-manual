@@ -1,5 +1,5 @@
 ---
-layout: text/textblock
+layout: blocks/long_description
 ---
 ### [1]User profile: long text description 
 

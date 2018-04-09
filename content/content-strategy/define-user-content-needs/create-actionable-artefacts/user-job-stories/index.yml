@@ -17,7 +17,8 @@ main:
   - heading3.md
   - section.md
   - diagram.md #diagram
-  - text2.md #longtext
+  - blanktextspacer.md #quickfix
+  - blanktextspacer.md #quickfix
   - supporting-takeaway2.md #supporting-takeaway
   - heading4.md
   - section4.md
