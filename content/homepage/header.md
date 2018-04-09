@@ -1,6 +1,6 @@
 ---
 layout: structure/home_header
-title:  Guides
+title:  Digital Guides
 description: Build and run government services that meet user needs.
 button: An official website
 title1: The .gov.au means its official

@@ -1,9 +1,13 @@
 .banner {
 	color: #fff;
 	background: url('/assets/img/dssbanner.png') no-repeat;
-	background-color: $AU-color-background;
+	background-color: $AU-colordark-background;
 	background-position: 600px 0;
-	padding: AU-space( 1.5 ) 0 AU-space( 1.5 ) 0;
+	@include AU-space( padding-top, 2.5unit );
+	@include AU-space( padding-right, 0 );
+	@include AU-space( padding-bottom, 2.5unit );
+	@include AU-space( padding-left, 0 );
+
 	margin-top: -2em;
 	margin-bottom: 2em;
 	-webkit-font-smoothing: antialiased;
@@ -15,7 +19,7 @@
 
 	@include AU-media( sm ) {
 		background-size: contain;
-		margin-bottom: AU-space( 1.25 );
+		@include AU-space( margin-bottom, 2.5unit );
 	}
 
 	@include AU-media( md ) {
@@ -31,7 +35,7 @@
 
 .section__section {
 	.banner & {
-		margin-bottom: AU-space( 1.5 );
+		@include AU-space( margin-bottom, 2.5unit );
 		display: inline-block;
 	}
 }
@@ -47,12 +51,19 @@
 
 .banner__box {
 	width: auto;
-	padding: AU-space( 1 ) AU-space( 1 ) AU-space( 1 ) AU-space( 1 );
-	margin: AU-space( 1.2 ) auto 0 auto;
+	@include AU-space( padding-top, 1.5unit );
+	@include AU-space( margin-top, 1.8unit );
+	@include AU-space( margin-right, auto );
+	@include AU-space( margin-bottom, 0 );
+	@include AU-space( margin-left, auto );
 	background: $AU-colordark-background;
 
 	@include AU-media( sm ) {
-		padding: AU-space( 1 ) AU-space( 1 ) AU-space( 0.7 ) AU-space( 1 );
+		// padding: AU-space( 1 ) AU-space( 1 ) AU-space( 0.7 ) AU-space( 1 );
+		@include AU-space( padding-top, 1.5unit );
+		@include AU-space( padding-right, 1.5unit );
+		@include AU-space( padding-bottom, 1unit );
+		@include AU-space( padding-left, 1.5unit );
 		margin: AU-space( 3.1 ) auto 0 auto;
 		width: 75%;
 	}

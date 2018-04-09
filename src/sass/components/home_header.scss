@@ -1,12 +1,12 @@
 .home__header {
-	background:  $AU-colordark-background;
+	background:  #414141;
 	color: #fff;
-	padding: AU-space( 1.3 ) 0;
+	padding: 1.5rem 0;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
 	@include AU-media( sm ) {
-		margin-bottom: AU-space( 1.25 );
+		margin-bottom: 2rem;
 	}
 }
 
@@ -14,7 +14,7 @@
 	.home__header & {
 		float: left;
 		clear: both;
-		margin-top: AU-space( 0.5 );
+		margin-top: 0.5rem;
 
 		@include AU-media( xs ) {
 			float: right;
@@ -25,13 +25,13 @@
 
 .feedback__btn {
 	.home__header & {
-		background: #fff;
-		color: $AU-color-foreground-text;
+		// background: #fff;
+		// color: $AU-color-foreground-text;
 	}
 }
 
 .home__header__logo {
-	margin: 0 0 AU-space( 1 ) 0;
+	margin: 0 0 1rem 0;
 }
 
 .home__header__logo__svg {

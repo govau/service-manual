@@ -67,7 +67,7 @@ const Categoryheader = ( page ) => {
 									{
 										page._pages[ page._ID ]['header-title']
 											? page._pages[ page._ID ]['header-title']
-											: 'Guides'
+											: 'Digital Guides'
 									}
 								</a>
 

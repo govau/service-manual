@@ -37,8 +37,8 @@
 
 .feedback__btn {
 	.header & {
-		background: #fff;
-		color: $AU-colordark-background;
+		// background: #fff;
+		// color: $AU-colordark-background;
 	}
 }
 
@@ -50,14 +50,15 @@
 
 
 .header__logo {
-	margin-bottom: AU-space( 0.5 );
-	width: 3.8em;
+	margin-top: 1.4rem;
+	margin-bottom: 0.8rem;
+	width: 6em;
 	outline: 0;
 
 	border: 0;
 
 	@include AU-media( xs ) {
-		width: 7em;
+		width: 8.5em;
 	}
 
 	&:focus {
@@ -80,7 +81,7 @@
 .header__text__headline {
 	position: relative;
 	display: inline-block;
-	margin-top: AU-space( 0.25 );
+	margin-top: 0.4rem;
 	font-size: 1.1em;
 	font-weight: bold;
 
@@ -116,7 +117,7 @@
 .header__subheader {
 	display: inline-block;
 	width: 100%;
-	margin-bottom: AU-space( 1 );
+	margin-bottom: 1rem;
 }
 
 .header__sub,

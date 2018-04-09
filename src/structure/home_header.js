@@ -61,21 +61,6 @@ const Homeheader = ( page ) => {
 								<img className="header__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`}
 									alt="The Australian Government coat of Arms"/>
 							</a>
-							<div className="header__text">
-								<a href="/" className="header__text__headline">
-									{
-										page._pages[ page._ID ]['header-title']
-											? page._pages[ page._ID ]['header-title']
-											: 'Guides'
-									}
-								</a>
-
-									{
-										breadcrumbs.length > 1
-											? <Breadcrumbs label="Breadcrumb for this page" items={ breadcrumbs } inverted={ theme === 'blue' || theme === 'dark' } />
-											: null
-									}
-							</div>
 
 							<a href="https://www.surveymonkey.com/r/XFWJ5TC" className="feedback__btn au-btn">
 								Give feedback

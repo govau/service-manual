@@ -14,7 +14,7 @@ const Banner = ( page ) => {
 		<div className={`au-body au-grid banner banner--${ theme }`}>
 			<div className="container">
 				<div className="row">
-					<div className="col-xs-6 col-xs-7">
+					<div className="col-xs-6">
 
 						{ page.section && <span className="section__section">{ page.section }</span> }
 						<div className="textwrapper">
@@ -29,7 +29,7 @@ const Banner = ( page ) => {
 							</div>
 						</div>
 					</div>
-					<div className="col-xs-6 col-xs-5">
+					<div className="col-xs-6">
 						<div className="banner__box">
 							<h3 className="banner__box__headline display-1">{ page.boxHeading }</h3>
 							<a id={ page.linkText } className="banner__box__link au-cta-link" href={ `${ page.linkUrl }` }>{ page.linkText }</a>

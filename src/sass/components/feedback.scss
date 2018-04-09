@@ -1,5 +1,5 @@
 .feedback {
-	padding: AU-space( 1.75 ) 0 AU-space( 1 ) 0;
+	padding: 1.75rem 0 1rem 0;
 	color: #fff;
 	background: $AU-colordark-background;
 
@@ -16,11 +16,4 @@
 	display: block;
 	margin: 0 0 AU-space( 1 ) 0;
 	max-width: 450px;
-}
-
-.feedback__button {
-	.au-btn {
-		background: #fff;
-		color: $AU-color-foreground-text;
-	}
 }

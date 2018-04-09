@@ -1,6 +1,8 @@
 .globalheader {
-	font-size: 14px;
-	padding: AU-space( 0.3 ) 0;
+	font-size: 12px;
+	// padding: AU-space( 0.3 ) 0;
+	@include AU-space( padding-top, 1unit );
+	@include AU-space( padding-right, 0 );
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
@@ -9,7 +11,7 @@
 	}
 
 	&.globalheader--dark {
-		background-color: $AU-colordark-background;
+		background-color: #05181d;
 		color: #fff;
 	}
 
@@ -21,7 +23,8 @@
 
 .globalheader__logo {
 	display: inline-block;
-	padding-right: AU-space( 0.65 );
+	// padding-right: AU-space( 0.65 );
+	@include AU-space( padding-right, 1 );
 	border-right: 1px solid #fff;
 	vertical-align: middle;
 
@@ -43,9 +46,11 @@
 .globalheader__logo__svg {
 	height: 1.2em;
 	width: 1.2em;
-	margin-right: AU-space( 0.32 );
+	// margin-right: AU-space( 0.32 );
+	@include AU-space( margin-right, 0.5 );
 	vertical-align: middle;
-	margin-top: AU-space( -0.06 );
+	// margin-top: AU-space( -0.06 );
+	@include AU-space( margin-top, -0.06 );
 }
 
 .globalheader__logo__title {
@@ -56,7 +61,8 @@
 .globalheader__headtext,
 .globalheader__button {
 	display: inline-block;
-	margin-left: AU-space( 1 );
+	// margin-left: AU-space( 1 );
+	@include AU-space( margin-left, 1.2 );
 	vertical-align: middle;
 }
 
