@@ -23,49 +23,8 @@ const GlobalHeader = ( page ) => {
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 
 	return (
-		<div>
-			<div className={`au-grid globalheader ${ headerClasses[ theme ] }`}>
-				<div className="container">
-					<div className="row">
-						<div className="col-xs-12">
-							<a href="/" className="globalheader__logo">
-								<svg className="globalheader__logo__svg" role="img" title="The Commonwealth Star">
-									<use xlinkHref={`/assets/svg/map.svg#${
-										page._pages[ page._ID ].theme === 'light' || page._pages[ page._ID ].theme === 'white'
-											? 'star-dark'
-											: 'star'
-										}`}/>
-								</svg>
-
-								<span className="globalheader__logo__title">GOV.AU</span>
-							</a>
-							{ page.text && <span className="globalheader__headtext">{ page.text }</span> }
-							<a href="#global-header-content" className="globalheader__button js-globalheader">{ page.button }</a>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div id="global-header-content" className={`globalheader__content ${ headerContentClasses[ theme ] } `}>
-				<div className="container">
-					<div className="row">
-						<div className="globalheader__content__wrapper">
-							<div className="col-xs-6">
-								<div className="globalheader__content1">
-									<span className="globalheader__title">{ page.title1 }</span>
-									<span className="globalheader__text">{ page.content1 }</span>
-								</div>
-							</div>
-							<div className="col-xs-6">
-								<div className="globalheader__content2">
-									<span className="globalheader__title">{ page.title2 }</span>
-									<span className="globalheader__text">{ page.content2 }</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+		<div className="au-grid globalheader">
+			GOV.AU | An official site
 		</div>
 	);
 };
