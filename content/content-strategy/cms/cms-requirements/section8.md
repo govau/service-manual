@@ -18,6 +18,6 @@ Consider the following:
 - how developers will pull down a production version of your site, that has been stripped of personal or secure information
 - if the CMS puts any restrictions on your preferred deployment methods
 
-### [1]Preview capabilities
+### [2]Preview capabilities
 You’ll want a CMS with accurate preview capabilities. This is when you can view a preview web page as it will appear, before it goes live. Check this with your CMS provider. If it's an open source CMS, you'll need to do some research. Try asking specific questions on CMS forums. For example, if you're looking at using Drupal, visit the [Drupal community website](https://www.drupal.org/community) and ask questions about the CMS.
 

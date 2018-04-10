@@ -26,4 +26,4 @@ layout: text/textblock
 
 - **Exit Strategy** 
 
-    If you change your CMS, is there a clear, secure process in place for [migrating content](/content-strategy/cms/optimise-cms/#exit-strategy-and-migrating-content), along with [clear CMS requirements?](/content-strategy/cms/cms-requirements/)
+    If you change your CMS, make sure there is a clear, secure process in place for [migrating content](/content-strategy/cms/optimise-cms/#exit-strategy-and-migrating-content), along with your CMS requirements.
