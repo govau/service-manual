@@ -5,6 +5,6 @@ sections:
   - Preparation
   - How to make a journey map
   - Follow up
-  - This can be used
+  - Related methods
   - References
 ---

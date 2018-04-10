@@ -11,8 +11,6 @@ main:
   - toc.md #toc
   - heading.md #report findings
   - section.md #report findings
-  - example.md #example
-  - section.md #report findings2
   - example2.md #example
   - heading2.md #remove content
   - section2.md #remove content
