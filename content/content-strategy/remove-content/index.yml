@@ -1,0 +1,14 @@
+pagetitle: Remove content
+weight: 10
+theme: blue
+description: Remove redundant, out-of-date content. Reduce clutter so that users can find what they need.
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md #attribution
+  - removing-content-topics.md #step
+  - topic-takeaway.md #topic-takeaway
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

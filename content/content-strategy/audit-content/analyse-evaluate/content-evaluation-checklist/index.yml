@@ -1,0 +1,18 @@
+pagetitle: Content evaluation checklist
+description: Work with subject experts and content experts to check and evaluate the content in your audit for quality.
+weight: 70
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - toc.md #toc
+  - heading.md
+  - section.md
+  - heading2.md
+  - Section2.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

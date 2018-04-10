@@ -14,7 +14,7 @@
 		"watch:pages": "cuttlebelle -w -n",
 		"watch:css": "onchange 'src/sass/**/*.scss' -- npm-run-all build:sass build:autoprefixer",
 		"watch:js": "onchange 'scripts/js/**/*.js' -- npm run build:js",
-		"watch:components": "onchange 'src/**/*.js' -- cuttlebelle docs",
+		"watch:components": "onchange 'src/**/*.js' -- npm run build:js",
 		"watch": "npm run build && npm-run-all --parallel watch:*",
 		"test": "echo \"Error: no test specified\" && exit 0"
 	},
@@ -35,6 +35,7 @@
 		}
 	],
 	"dependencies": {
+		"@gov.au/accordion": "^0.3.0",
 		"@gov.au/animate": "^0.1.5",
 		"@gov.au/body": "^0.1.2",
 		"@gov.au/breadcrumbs": "^0.3.1",

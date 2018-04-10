@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-
 import Slugify from 'slugify';
 
 /**
@@ -34,13 +33,17 @@ const ImageContentblock = ( page ) => {
 	);
 
 	const Figure = (
-		<figure className="imagecontentblock__image">
-			{ imageLink === undefined
-				? ( <img className="imagecontentblock__image__img" src={ imageSrc } alt={ page.imageAlt } /> )
-				: ( <a href={ imageLink }><img className="imagecontentblock__image__img" src={ imageSrc } alt={ page.imageAlt } /></a> )
-			}
-			{ page.caption && <figcaption className="imagecontentblock__image__caption">{ page.caption }</figcaption> }
-		</figure>
+		<div>
+			<figure className="imagecontentblock__image">
+				{ imageLink === undefined
+					? ( <img className="imagecontentblock__image__img" src={ imageSrc } alt={ page.imageAlt } /> )
+					: ( <a href={ imageLink }><img className="imagecontentblock__image__img" src={ imageSrc } alt={ page.imageAlt } /></a> )
+				}
+				{ page.caption && <figcaption className="imagecontentblock__image__caption">{ page.caption }</figcaption> }
+			</figure>
+
+			{ page.long_description }
+		</div>
 	);
 
 	return (
@@ -58,6 +61,7 @@ const ImageContentblock = ( page ) => {
 							? Content
 							: Figure
 						}
+
 					</div>
 				</div>
 			</div>

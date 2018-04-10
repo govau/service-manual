@@ -1,0 +1,15 @@
+pagetitle: Identify business needs
+weight: 10
+theme: blue
+description:
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - how.md
+  - cards.md
+  - topic-takeaway.md #topic-takeaway
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

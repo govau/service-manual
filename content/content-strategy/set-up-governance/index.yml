@@ -1,0 +1,15 @@
+pagetitle: Set up your governance
+weight: 10
+theme: blue
+description: Set up a content governance model to align with the goals of your content strategy. Be clear about quality standards, who owns the content and who does what.
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - attribution.md
+  - how.md
+  - cards.md #step
+  - topic-takeaway.md #topic-takeaway
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

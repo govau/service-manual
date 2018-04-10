@@ -1,0 +1,28 @@
+pagetitle: Design a workflow
+description: An activity to develop a visual of your content workflow using the stages of the content lifecycle.
+weight: 10
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md #methods
+  - toc.md
+  - heading2.md
+  - text2.md
+  - preptime-callout.md
+  - heading.md
+  - text.md
+  - heading3.md
+  - text3.md
+  - heading4.md
+  - text4.md
+  - diagram.md #diagram
+  - longtext.md #longtext
+  - key-takeaway.md #supporting-takeaway
+  - heading5.md
+  - text5.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

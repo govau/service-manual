@@ -1,0 +1,23 @@
+pagetitle: Create a removal plan
+weight: 30
+description: For a major content removal, put a plan in place of the people, time and responsibilities you will need.
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - text.md #text
+  - toc.md
+  - roles-head.md
+  - roles.md #text
+  - document-head.md
+  - document.md #text
+  - schedule-head.md
+  - schedule.md #text
+  - standards-head.md
+  - standards.md #text
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

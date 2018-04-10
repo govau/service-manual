@@ -1,0 +1,22 @@
+pagetitle: Pair writing
+description: Write content side-by-side with a subject expert. For example, a technical expert, lawyer or policy writer.
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md #methods
+  - toc.md
+  - prep-callout.md
+  - section.md
+  - why-head.md
+  - why.md
+  - supporting.md #supporting-takeaway
+  - how-head.md
+  - how.md
+  - follow-head.md
+  - follow.md
+  - references-head.md
+  - references.md
+footer:
+  - /_shared/footer.md

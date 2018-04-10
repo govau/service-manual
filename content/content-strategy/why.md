@@ -1,13 +1,14 @@
 ---
 layout: intros/intro_category
 section: Why
-title: Why is content strategy important?
+title: Why use a content strategy
 ---
 
-All government content should be guided by a content strategy. This gives you a framework to:
+A content strategy is a critical step at the start of any new project that involves content. It happens before the content is created and continues when the content is live. 
 
-- define and create content that meets your users' and agency’s needs
-- improve the findability and clarity of your content
-- align your people and processes to the same goals
-- strengthen your agency’s workflow, sign-off and publishing check-points
-- continually maintain, remove and improve your content
+Create a content strategy for:
+- new services
+- new websites
+- website redesign
+- Machinery of Government changes 
+- big content changes

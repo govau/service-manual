@@ -1,0 +1,27 @@
+pagetitle: Top tasks
+description: Abstract
+weight: 10
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md #methods
+  - toc.md
+  - supporting-takeaway.md
+  - heading.md
+  - text.md
+  - heading1.md
+  - text2.md
+  - heading2.md
+  - section.md
+  - diagram.md #diagram
+  - heading3.md
+  - section1.md
+  - supporting-takeaway2.md #supporting-takeaway
+  - heading4.md
+  - section2.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md
