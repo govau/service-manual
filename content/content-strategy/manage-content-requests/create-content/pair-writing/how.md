@@ -2,6 +2,15 @@
 layout: text/textblock
 section: How to do pair writing
 ---
+
+Be clear with your writing partner about:
+
+- how much time you need from them
+- the structure of the writing sessions
+- deadlines
+
+Let your partner know they are there for their expertise in a certain area. They don't have to be a strong writer.
+
 ### [1]Step 1: Start with user needs
 
 At the start of the session you need to outline your user needs and the aim of the content. The aim may include a business need or the subject expert’s objective for the content.
