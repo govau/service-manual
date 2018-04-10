@@ -5,9 +5,9 @@ Make sure that your CMS can manage your specific content type needs. Things like
 
 The information entered into your content type fields affect how your CMS displays content on the front end. 
 
-Start by making  a list of the types of content you need to make sure the CMS you choose can manage your content types. 
+Start by making a list of the types of content you need to make sure the CMS you choose can manage your content types. 
 
-### [1]Setting field names and help text
+### [2]Setting field names and help text
 A CMS should help to manage content in a consistent way. Help text should also be part of your CMS configuration. This describes what content does in a specific field. 
 
 Help text helps authors meet strategic, format and style needs. Templates and content types guide writers by explaining the purpose of different fields and sections in your CMS. 

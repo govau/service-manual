@@ -1,10 +1,10 @@
 ---
 layout: nav/sections
 sections:
-  - Costs
+  - CMS Costs
   - Hosting and security
   - Content distribution network (CDN)
-  - CMS license
+  - Understanding your CMS license
   - Training, support and updates
   - Customising your content needs 
   - Flexibility of content formats
