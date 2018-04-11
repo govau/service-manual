@@ -4,6 +4,8 @@ layout: text/textblock
 
 Publish content templates on your intranet for different content types. A template will give context for authors and reviewers. It also guides those not experienced in web writing.
 
+Use a [content production template](/content-strategy/manage-content-requests/create-content/content-production-template/) to prepare, write and check for quality content.
+
 Include fields for:
 - the publishing date
 - the location on the website

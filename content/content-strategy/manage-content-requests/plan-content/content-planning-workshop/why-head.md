@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Why run a workshop?
+section: Why run a workshop
 ---

@@ -1,5 +1,5 @@
 pagetitle: Plan your audit
-description: Abstract
+description: Audit your content to get a clear undersanding of your digital estate or service. Create evidence to improve, remove or change.
 weight: 30
 layout: layout/topic
 theme: blue
@@ -16,9 +16,12 @@ main:
   - section2.md
   - heading3.md
   - section3.md
+  - supporting-takeaway.md #supporting-takeaway
   - heading4.md
   - section4.md
-  - supporting-takeaway.md #supporting-takeaway
+  - prioritise-head.md
+  - section5.md
+
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

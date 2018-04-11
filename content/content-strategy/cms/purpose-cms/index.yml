@@ -1,6 +1,6 @@
 pagetitle: Purpose and place of a CMS
 description: Learn more about the specific place and purpose of a content management system in your content strategy. Choose the right CMS for your needs.
-weight: 80
+weight: 20
 layout: layout/topic
 hidden: true
 theme: blue
@@ -14,6 +14,7 @@ main:
   - diagram.md #diagram
   - long-text-cms.md #longtext
   - cards.md #approach
+  - /_shared/feedback.md
 footer:
   - /_shared/footer.md
 

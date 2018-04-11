@@ -1,5 +1,5 @@
 pagetitle: Action your audit
-description: Abstract
+description: Report your findings to get stakeholder support to action your audit data and improve your content.
 weight: 80
 layout: layout/topic
 theme: blue
@@ -11,8 +11,6 @@ main:
   - toc.md #toc
   - heading.md #report findings
   - section.md #report findings
-  - example.md #example
-  - section.md #report findings2
   - example2.md #example
   - heading2.md #remove content
   - section2.md #remove content
@@ -20,5 +18,6 @@ main:
   - section3.md #archive
   - heading4.md #rewrite
   - section4.md #rewrite
+  - /_shared/feedback.md
 footer:
   - /_shared/footer.md

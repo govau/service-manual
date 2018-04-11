@@ -14,5 +14,6 @@ main:
   - workflow-process.md
   - tools-template-head.md
   - tools-template.md
+  - /_shared/feedback.md
 footer:
   - /_shared/footer.md

@@ -7,6 +7,7 @@ display: 2
 level: 2
 reverse: false
 imageAlt: "Content lifecycle - intent, plan, create, check and revise, sign off, publish, improve, remove."
+long_description: new-long-description.md
 ---
 
 The content lifecycle defines the people, workflow, skills and tasks involved in producing content. 

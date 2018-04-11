@@ -1,9 +1,9 @@
 ---
 layout: nav/sections
 sections:
-  - Talk about team benefits
-  - Align your goals with agency priorities
-  - Show the costs and efficiencies
-  - Baseline your site
-  - Build empathy with feedback
+  - Define your purpose
+  - Articulate a goal
+  - Decide on audit size and type
+  - Think about timings
+  - Prioritise
 ---

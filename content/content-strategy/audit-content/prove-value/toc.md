@@ -5,5 +5,5 @@ sections:
   - Align with agency priorities
   - Show the costs and efficiencies
   - Baseline your site
-  - Use empathy to build feedback
+  - Use feedback to build empathy
 ---
