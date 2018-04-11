@@ -13,14 +13,14 @@ Depending on the nature of the project you are working on, you may like to inclu
 
 Build on your profile by answering questions about their needs, pain points, risks and motivation.
 
-#### [1] Needs / Tasks
+#### [1]Needs/Tasks
 What does the user need to do or find? What tasks do they do which are relevant to your project? The need will be goals that are aligned to an outcome.
 
-#### [1] Pain points 
+#### [1]Pain points
 What are the obstacles that prevent them from being able to do the task? Are they being informed well enough? What other factors are preventing them from getting the task done?
 
-#### [1] Risks
+#### [1]Risks
 What could go wrong if they can’t do the task or find the information? What is the impact of any implication–personal, financial etc.
 
-#### [1] Motivation
+#### [1]Motivation
 Why does the user want to complete the task? How is successful completion of the task going to affect them?
