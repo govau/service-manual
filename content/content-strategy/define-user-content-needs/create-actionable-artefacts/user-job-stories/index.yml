@@ -1,6 +1,6 @@
 pagetitle: User and job stories
 description: How to write user stories to create digital content.
-weight: 30
+weight: 50
 layout: layout/topic
 theme: blue
 header:
@@ -10,18 +10,20 @@ main:
   - intro.md #methods
   - toc.md
   - supporting-takeaway.md
-  - heading1.md
-  - text.md
-  - heading2.md
-  - text1.md
-  - heading3.md
-  - section.md
+  - heading-materials.md
+  - materials.md
+  - heading-prep.md
+  - prep.md
+  - heading-howto.md
+  - howto.md
   - diagram.md #diagram
-  - blanktextspacer.md #quickfix
-  - blanktextspacer.md #quickfix
+  - step6.md
+  - callout-after-step6.md #quickfix
   - supporting-takeaway2.md #supporting-takeaway
-  - heading4.md
-  - section4.md
+  - heading-followup.md
+  - followup.md
+  - heading-references.md
+  - references.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
