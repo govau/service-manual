@@ -1,6 +1,6 @@
 ---
 layout: intros/intro_with_nav
-subtitle: Information architecture (IA) is the structure and organisation of content on your website. It’s used to guide users around, so they can easily find what they’re looking for.
+subtitle: Information architecture (IA) refers to the structure of content on a website. It helps users understand where they are, and where to go to find the information they need.
 attrTitle1: Created by
 attrValue1: Digital Transformation Agency and Department of Agriculture and Water Resources
 attrTitle2: Reviewed on
