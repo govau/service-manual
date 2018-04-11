@@ -1,11 +1,11 @@
 ---
 layout: text/textblock
 ---
-The workshop should start with introductions and an icebreaker.  
+Start the workshop with introductions and an icebreaker.  
 
 If you have a clear idea of the vision, mission and goals of the agency, show participants and get joint agreement. 
 
-If you anticipate disagreement, get them to write up the vision on post-it notes. Group the post-its and get agreement. Do the same for the mission statements. You should co-design statements together. 
+If you anticipate disagreement, get them to write up the vision on post-it notes. Group the post-its and get agreement. Do the same for the mission statements. You should co-design statements at the same time. 
 
 It might be easier to get into smaller groups if you need to brainstorm missions. 
 

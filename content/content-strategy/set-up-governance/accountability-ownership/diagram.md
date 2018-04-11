@@ -6,12 +6,11 @@ reverse: false
 stackPosition: top
 imageAlt: Diagram showing accountability of a content team with leaders, doers and specialists
 caption: 
+title: Content teams 
 level: 2
 display: 3
 long_description: new-long-description.md
 ---
-
-## [3]Content teams 
 
 Set up content teams with content leads as points of escalation. Doers and specialists apply their expertise to the content lifecycle stages. They create and deliver quality content.
 

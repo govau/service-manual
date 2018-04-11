@@ -6,12 +6,11 @@ reverse: false
 stackPosition: top
 imageAlt: Diagram showing a hybrid governance model
 caption: 
+title: Hybrid content governance model
 level: 2
 display: 3
 long_description: new-long-description3.md
 ---
-
-## [3] Hybrid content governance model
 
 A hybrid content governance model works to improve content and efficiencies across extended teams. The central team’s focus is on high profile content meeting its strategic goals. The team ensures the quality of published content. They own the site's information architecture.
 

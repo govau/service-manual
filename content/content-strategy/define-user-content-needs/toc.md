@@ -1,4 +1,0 @@
----
-layout: nav/sections
-sections:
-  - 
