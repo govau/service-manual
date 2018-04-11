@@ -6,22 +6,17 @@ navigation:
   sections:
     - alignment: left
       items:
-        - text: About
+        - text: Home
           link: /
-        - text: Get started
-          link: /get-started
-        - text: Components
-          link: /components
-        - text: Templates
-          link: /templates
-        - text: Community
-          link: /community
-        - text: Support
-          link: /support
+        - text: Digital Service Standard
+          link: /digital-service-standard
+        - text: Topics
+          link: /topics
+        - text: Content Strategy Guide
+          link: /content-strategy-guide
+
     - alignment: right
       items:
         - text: Github
-          link: https://github.com/govau/uikit/
-        - text: Download
-          link: /download
+          link: https://github.com/govau/service-manual/
 ---

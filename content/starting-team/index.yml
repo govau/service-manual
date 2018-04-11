@@ -3,8 +3,7 @@ weight: 30
 hidden: false
 theme: blue
 header:
-  - /_shared/header-govau.md
-  # - header.md
+  - /_shared/header.md
 main:
   - sections.md
   - why.md
