@@ -2,7 +2,7 @@
 layout: blocks/long_description
 ---
 
-#### [1]A good channel ecosystem mind map
+### [2]A good channel ecosystem mind map
 
 At the centre of the mind map is a circle titled website 1. 
 Website 1 radiates out into 4 subset channels: websites, email newsletter, social media, apps.

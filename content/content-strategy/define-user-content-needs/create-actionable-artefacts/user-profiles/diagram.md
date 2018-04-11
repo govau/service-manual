@@ -2,17 +2,14 @@
 layout: blocks/image_content_block
 image: content-strategy/user-profile.svg
 link: content-strategy/user-profile.svg
+title: User snapshot
 reverse: false
 stackPosition: top
 imageAlt: User profile example
-level: 2
-display: 3
+level: 3
+display: 2
 long_description: new-long-description.md
 ---
-
-### [3]Main header: (primary user type) profile
-
-### [3]User snapshot
 
 You may like to include a:
 
