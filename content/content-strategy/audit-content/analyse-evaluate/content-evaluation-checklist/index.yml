@@ -12,7 +12,7 @@ main:
   - heading.md
   - section.md
   - heading2.md
-  - Section2.md
+  - section2.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
