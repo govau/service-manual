@@ -1,6 +1,6 @@
 pagetitle: Top tasks
-description: Abstract
-weight: 10
+description: How to work out website top tasks to prioritise content.
+weight: 40
 layout: layout/topic
 theme: blue
 header:
@@ -9,19 +9,19 @@ header:
 main:
   - intro.md #methods
   - toc.md
-  - supporting-takeaway.md
-  - heading.md
-  - text.md
-  - heading1.md
-  - text2.md
-  - heading2.md
-  - section.md
+  - callout-prep.md
+  - heading-materials.md
+  - materials.md
+  - heading-prep.md
+  - prep.md
+  - heading-howto.md
+  - howto.md
   - diagram.md #diagram
-  - heading3.md
-  - section1.md
+  - heading-followup.md
+  - followup.md
   - supporting-takeaway2.md #supporting-takeaway
-  - heading4.md
-  - section2.md
+  - heading-references.md
+  - references.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

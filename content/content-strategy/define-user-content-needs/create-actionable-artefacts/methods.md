@@ -6,7 +6,7 @@ Choose a method and outcome that will help you to focus on the tasks people are 
 
 Every project and stakeholder group is different and you will need to achieve different outcomes and agendas. Think about the intent and the outcome to find the right set of methods for that context. 
 
-### [1]Journey maps
+### [2]Journey maps
 
 Create a journey map after your user research sessions. You will get a broad view of the whole user’s experience and how your content could fit into that.
 

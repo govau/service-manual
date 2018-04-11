@@ -12,4 +12,4 @@ next_text: Set the foundations phase
 next_link: /content-strategy/seo/
 ---
 
-Add to **Part  **, in the [Content Strategy Template](/content-strategy/start-content-strategy/show-problem-evidence/content-strategy-template/)
+Add to the [Content Strategy Template](/content-strategy/start-content-strategy/show-problem-evidence/content-strategy-template/)
