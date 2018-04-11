@@ -2,6 +2,6 @@
 layout: nav/sections
 sections:
   - Start with editorial guidance
-  - Who to involve in creating content 
+  - Who to involve  
   - Tools and templates
 ---

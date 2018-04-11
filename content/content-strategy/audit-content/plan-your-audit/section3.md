@@ -6,7 +6,7 @@ To decide on the scope and type of content audit, you'll need to consider:
   * resources you need for a defined timeframe
   * the actions you want to take after the audit
 
-### [1]3 types of content audit
+### [2]3 types of content audit
   * full: all content items on your website/s — pages and other items like downloadable files or videos
   * partial: for example, the past 6 months of content, or content about a certain topic
   * sample: collect examples of content from across the website

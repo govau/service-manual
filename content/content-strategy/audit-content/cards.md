@@ -12,7 +12,7 @@ cards:
     link: /content-strategy/audit-content/engage-stakeholders/
   - headline: Conduct the audit
     text: Collect everything you can find out about your content. This includes web pages, content types, content owners or subject experts, users and metadata.
-    link: http://localhost:8080/content-strategy/audit-content/conduct-audit/
+    link: /content-strategy/audit-content/conduct-audit/
   - headline: Analyse and evaluate
     text: Analyse and evaluate your content for accuracy, relevance, quality and performance. This helps to make decisions based on evidence. 
     link: /content-strategy/audit-content/analyse-evaluate/

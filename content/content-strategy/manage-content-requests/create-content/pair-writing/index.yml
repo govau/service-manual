@@ -1,6 +1,7 @@
 pagetitle: Pair writing
 description: Write content side-by-side with a subject expert. For example, a technical expert, lawyer or policy writer.
 theme: blue
+weight: 50
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
