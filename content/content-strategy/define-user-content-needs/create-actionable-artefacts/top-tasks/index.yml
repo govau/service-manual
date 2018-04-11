@@ -1,6 +1,6 @@
 pagetitle: Top tasks
-description: Abstract
-weight: 10
+description: Use this activity to agree and focus on the top tasks a user is trying to complete on your service or website.
+weight: 40
 layout: layout/topic
 theme: blue
 header:

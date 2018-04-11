@@ -1,6 +1,6 @@
 ---
 layout: text/textblock
-hidden: false
+section: Who to involve
 ---
 
 

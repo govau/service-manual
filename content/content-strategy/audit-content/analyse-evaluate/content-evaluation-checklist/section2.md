@@ -5,7 +5,7 @@ Evaluate content for quality to know whether the content supports a user need wh
 
 Ask a content expert to evaluate each content item in the audit spreadsheet. Assess your content against the following criteria.
 
-### [1]Usability
+### [2]Usability
 
   * Who is the intended user of the content?
   * Does your content meet a user need?
@@ -17,7 +17,7 @@ Ask a content expert to evaluate each content item in the audit spreadsheet. Ass
   * Is this the best way to present the information? For example, is the content outlining a process and if so, would it be more usable as a calculator?
   * Have you analysed and actioned your user feedback?
 
-### [1]Findability
+### [2]Findability
 
   * Does the navigation help the user find information?
   * Are the information architecture (IA) labels easy to understand?
@@ -29,14 +29,14 @@ Ask a content expert to evaluate each content item in the audit spreadsheet. Ass
   * Is content linking off to credible and authoritative online sources of content?
   * Is the content heading length optimised for search?
 
-### [1]Readability
+### [2]Readability
 
   * Does the first sentence help users decide if the page is relevant?
   * Is the content written in plain English?
   * Is the content written in active voice and have a consistent tone across the website?
   * Use a tool to estimate the page readability level.
 
-### [1]Accessibility
+### [2]Accessibility
 
 Ensure content meets WCAG 2.0 accessibility requirements.
 

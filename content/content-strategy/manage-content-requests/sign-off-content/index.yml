@@ -9,9 +9,11 @@ main:
   - intro.md
   - toc.md
   - cards.md
+  - why-head.md
   - text.md
   - fact.md #fact
   - who-head.md
   - who.md
+  - /_shared/feedback.md
 footer:
   - /_shared/footer.md
