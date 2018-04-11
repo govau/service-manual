@@ -2,7 +2,7 @@ pagetitle: Homepage
 theme: dark
 description: Guides to help teams build and run government services that meet user needs.
 header:
-  - /_shared/globalheader.md
+  - /_shared/header-govau.md
   - header.md
 main:
   - dss.md
