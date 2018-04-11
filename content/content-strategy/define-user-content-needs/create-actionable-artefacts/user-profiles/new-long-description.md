@@ -1,7 +1,7 @@
 ---
 layout: blocks/long_description
 ---
-### [1]User profile: long text description 
+### [2]User profile: long text description 
 
 An example that sets out ways to build the user profile. 
 

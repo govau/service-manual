@@ -5,14 +5,13 @@ link: content-strategy/user-profile.svg
 reverse: false
 stackPosition: top
 imageAlt: User profile example
-level: 2
-display: 3
+title: 'Main header: (primary user type) profile'
+level: 3
+display: 2
 long_description: new-long-description.md
 ---
 
-### [3]Main header: (primary user type) profile
-
-### [3]User snapshot
+**User snapshot**
 
 You may like to include a:
 

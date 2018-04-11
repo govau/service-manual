@@ -6,7 +6,7 @@ header:
   - /_shared/globalheader.md
   - /_shared/header.md
 main:
-  - attribution.md
+  - intro.md
   - why-head.md
   - why.md
   - how.md

@@ -5,12 +5,11 @@ link: content-strategy/journey-map-example.jpg
 reverse: false
 stackPosition: top
 imageAlt: Journey map template
-
-level: 2
-display: 3
+title: 'Step 3: Visualise the journey'
+level: 3
+display: 2
 long_description: new-long-description.md
 ---
-### [3]Step 3: Visualise the journey
 
 You can map your user’s journey in a way that suits your team. It doesn’t need to be a linear timeline.
 Represent the user’s journey in swimlanes. Use visuals to communicate points on your journey. Use post-it notes on a wall or a marker on butcher’s paper to show: 
