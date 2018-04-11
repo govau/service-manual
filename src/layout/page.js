@@ -26,22 +26,9 @@ const Page = ( page ) => (
 		<script src="/assets/js/no-js.js" />
 		<script src="/assets/js/svg4everybody.min.js" />
 	</head>
-	<body>
+	<body className="au-grid">
 
-		<SkipLink links={[
-			{
-				link: '#nav',
-				text: 'Skip to navigation',
-			},
-			{
-				link: '#content',
-				text: 'Skip to content',
-			}
-		]} />
-
-		<header role="banner" className="au-body au-grid">
-			{ page.header }
-		</header>
+		{ page.header }
 
 		<main>
 			{ page.main }

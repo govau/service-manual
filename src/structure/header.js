@@ -1,67 +1,104 @@
-import PropTypes from 'prop-types';
-import React from 'react';
-
-import Breadcrumbs from '../../scripts/uikit/breadcrumbs';
+import AUheader            from '../../scripts/uikit/header';
+import AUskipLink          from '../../scripts/uikit/skip-link';
+import React, { Fragment } from 'react';
+import PropTypes           from 'prop-types';
 
 
 /**
  * The header component
  */
-const Header = ( page ) => {
-	const breadcrumbs = [];
+const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID, _pages, _body }) => (
+	<div className="header-wrapper">
+		<AUskipLink links={[
+			{
+				link: '#mainmenu',
+				text: 'Skip to navigation',
+			},
+			{
+				link: '#content',
+				text: 'Skip to content',
+			},
+		]} />
+		{ header_govau }
+		<div className={ `header${ _ID === 'homepage' ? ' header--home' : '' }` }>
+			<div id="focustrap-top"></div>
+			<AUheader dark>
+				<div className="container-fluid">
+					<div className="row">
+						<div className="col-md-12">
 
-	page._parents
-		.filter( parent => parent !== 'index' )
-		.map( ( parent ) => breadcrumbs.push({
-			link: ( page._pages[ parent ]._url === page._pages[ page._ID ]._url ? undefined : page._pages[ parent ]._url ),
-			text: page._pages[ parent ].pagetitle,
-	}));
-
-	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
-
-	return (
-		<div className={`header header--${ theme }`} id="content">
-			<div className="container">
-				<div className="row">
-					<div className="col-xs-12 header__sub">
-						<a href="/" title="Guides home">
-							<img className="header__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`}
-								alt="The Australian Government coat of Arms"/>
-						</a>
-						<div className="header__text">
-							<a href="/" className="header__text__headline">
-								{
-									page._pages[ page._ID ]['header-title']
-										? page._pages[ page._ID ]['header-title']
-										: 'Digital Guides'
-								}
-							</a>
-						</div>
-
-						<a href="https://www.surveymonkey.com/r/XFWJ5TC" className="feedback__btn au-btn">
-							Give feedback
-						</a>
-
-						<div className="header__breadcrumbs" id="nav">
+							{/* If statement for Home / Content Page */}
 							{
-								breadcrumbs.length > 1
-									? <Breadcrumbs label="Breadcrumb for this page" items={ breadcrumbs } inverted={ theme === 'blue' || theme === 'dark' } />
-									: null
-							}
-						</div>
+								_ID === 'index'
+									? <Fragment>
+											<div className="header__logo-wrapper">
+												<img className="header--logo-coa" src={ _relativeURL( '/assets/img/header-logo-agov.png', _ID ) } alt="The Australian Government coat of Arms"/>
+												<h1 className="header__title">{ title } {/* <- Space here is intentional */
+														title_badge
+															? <span className="header__badge"> { title_badge }</span>
+															: null
+													}
+												</h1>
+											</div>
+											<div className="header__blurb au-body au-body--dark">
+												<div className="header__blurb--content">{ _body }</div>
+											</div>
+										</Fragment>
 
+									: <Fragment>
+											<a href={ _relativeURL( '/', _ID ) } className="header__logo-wrapper">
+												<img className="header--logo-coa" src={ _relativeURL( '/assets/img/header-logo-agov.png', _ID ) } alt="The Australian Government coat of Arms"/>
+												<h1 className="header__title">{ title } {/* <- Space here is intentional */
+														title_badge
+															? <span className="header__badge">{ title_badge }</span>
+															: null
+													}
+												</h1>
+											</a>
+										</Fragment>
+							}
+
+							<button id="mainmenu-toggle"
+								className="mainmenu-toggle au-btn au-btn--tertiary au-btn--dark au-btn--block icon au-accordion--closed"
+								aria-controls="mainmenu"
+								aria-expanded="false"
+								aria-selected="false"
+								role="tab">Open menu</button>
+
+						</div>
+					</div>
+				</div>
+			</AUheader>
+			<div
+				aria-hidden="false"
+				id="mainmenu"
+				tabIndex="-1"
+				className="mainmenu au-body au-body--dark au-accordion__body au-accordion--closed">
+				<div className="container-fluid">
+					<div className="row">
+						<div className="col-md-12">
+							{ mainmenu }
+						</div>
 					</div>
 				</div>
 			</div>
+			<div id="overlay" className="overlay"></div>
+			<div id="focustrap-bottom"></div>
 		</div>
-	);
-}
+	</div>
+);
 
-
-Header.propTypes = {};
-
+Header.propTypes = {
+	/**
+	 * title: Design System
+	 */
+	title: PropTypes.node.isRequired,
+	/**
+	 * title_badge: Beta
+	 */
+	title_badge: PropTypes.node,
+};
 
 Header.defaultProps = {};
-
 
 export default Header;
