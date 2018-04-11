@@ -1,6 +1,6 @@
 ---
 layout: intros/intro_with_nav
-subtitle: One of the first questions you will need to answer when pitching a project to audit content, is what the return on investment will be.
+subtitle: To plan your content audit, focus on the extent to which each website or application is still fulfilling its purpose.
 category: Content strategy
 ---
 

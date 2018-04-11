@@ -1,5 +1,6 @@
 ---
 layout: text/textblock
+section: Who to include
 ---
 
 Find out which specialists you need. For example, communications/marketing, subject expertise, product/strategy, and content experts, usability testers and publishers. 

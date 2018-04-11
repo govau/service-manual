@@ -11,7 +11,7 @@ Be clear with your writing partner about:
 
 Let your partner know they are there for their expertise in a certain area. They don't have to be a strong writer.
 
-### [1]Step 1: Start with user needs
+### [2]Step 1: Start with user needs
 
 At the start of the session you need to outline your user needs and the aim of the content. The aim may include a business need or the subject expert’s objective for the content.
 
@@ -19,7 +19,7 @@ Articulating the user needs at the start will put you both in the same mindset, 
 
 If you are in a workshop it’s useful to get group feedback on your user needs and content objective.
 
-### [1]Step 2: Outline your roles
+### [2]Step 2: Outline your roles
 
 One person will be the main writer and the other is the observer. The observer’s role is to study and question the content, looking at:
 
@@ -30,7 +30,7 @@ One person will be the main writer and the other is the observer. The observer�
 
 You should swap roles so you both experience writing and observing.
 
-### [1]Step 3: Create the content
+### [2]Step 3: Create the content
 
 Write for 10 to 15 minutes and then stop to discuss and review your writing. After this, it’s good to swap roles and start the process again.
 

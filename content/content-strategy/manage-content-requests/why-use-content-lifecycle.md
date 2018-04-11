@@ -1,6 +1,6 @@
 ---
 layout: text/textblock
-section: Why use the content lifecycle?
+section: Why use the content lifecycle
 ---
 Use the content lifecycle to get content published, keep it relevant and continuously focus on value for the user.
 

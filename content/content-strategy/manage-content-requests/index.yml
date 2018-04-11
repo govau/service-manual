@@ -1,5 +1,5 @@
 pagetitle: Manage content requests
-description: Know who's involved and what needs to be done to manage business-ass-usual content requests.
+description: Know who's involved and what needs to be done to manage business-as-usual content requests.
 theme: blue
 header:
   - /_shared/globalheader.md
@@ -7,7 +7,6 @@ header:
 main:
   - intro.md #attribution
   - content-lifecycle-image.md #diagram
-  - longtext.md #longtext
   - why-use-content-lifecycle.head.md
   - why-use-content-lifecycle.md
   - ensure-head.md

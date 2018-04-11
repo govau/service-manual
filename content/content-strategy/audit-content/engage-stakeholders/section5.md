@@ -9,7 +9,7 @@ It can also be a time consuming task getting reviews and signoff to publish on a
 
 Be sure to remember and empathise with this if you’re working with line areas to conduct a content audit. By making people feel involved, and acknowledging the expertise that each group brings, it's easier to work towards the common goal of improving the user's experience.
 
-### [1]Tips for successful auditing
+### [2]Tips for successful auditing
 
   * Define and discuss roles and responsibilities with the teams involved so that everyone understands how they can best contribute.
   * Listen to and document any concerns and needs that get raised.

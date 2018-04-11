@@ -1,5 +1,6 @@
 ---
 layout: text/textblock
+section: Tools and templates
 ---
 
 ### [2]WCAG 2.0 for content authors

@@ -14,5 +14,5 @@ You could calculate a ‘cost per view rate’ by collating the yearly costs of 
 
 Use your data on user-satisfaction rates to plot the yearly spend against user-satisfaction rates. See if there are any relationships or trends.
 
-Draw up a map of the processes you use for managing content development and publishing. This is a way of finding any inefficiencies or blockages in the current process, that you could  improve upon.
+Draw up a map of the processes you use for managing content development and publishing. This is a way of finding any inefficiencies or blockages in the current process, that you could improve upon.
 

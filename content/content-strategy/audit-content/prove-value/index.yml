@@ -13,8 +13,7 @@ main:
   - section.md #text
   - heading2.md
   - section2.md
-  - heading3.md
-  - supporting-takeaway.md
+  - supporting-takeaway.md #supporting-takeaway
   - heading4.md
   - section4.md
   - heading5.md
