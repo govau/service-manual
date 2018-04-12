@@ -8,7 +8,6 @@ header:
   - /_shared/header.md
 main:
   - intro.md #methods
-  - toc.md
   - supporting-takeaway.md
   - heading-materials.md
   - materials.md

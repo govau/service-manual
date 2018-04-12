@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-### [2]Subject experts / content leads and writers / web writing experts
+### [2]Subject experts, content leads and writers, web writing experts
 
 The doers understand the stages of the BAU [content lifecycle](/content-strategy/content-lifecycle/). They work together to source, create, check and publish quality content.
 

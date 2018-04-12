@@ -4,11 +4,11 @@ layout: text/textblock
 
 You may wish to improve the workflow of one business area. Invite people from the different stages of the content lifecycle stages. 
 
-Run a current state discovery to help find out existing interactions and progress your content maturity. You are looking to improve on bottlenecks and to ensure quality checks.
+Run a current-state discovery to help find out existing interactions and progress your content maturity. You are looking to improve on bottlenecks and to ensure quality checks.
 
 Give your team an overview. You want to discover and visualise a clear and efficient way to work together during the content lifecycle. 
 
-### [2]Current state workflow
+### [2]Current-state workflow
 Map out the stages of the content lifecycle across a wall or whiteboard. Use post-its or a marker to write headers of the stages.
 
 Use the wall space to sketch out the flow of tasks between each stage. Ask your team to contribute by adding post-it notes under each of the lifecycle headings. Lead the group to:
@@ -19,7 +19,7 @@ Use the wall space to sketch out the flow of tasks between each stage. Ask your 
 - identify outputs for each stage
 - note any blockers for a successful workflow and discuss how to improve.
 
-### [2]Future state workflow
+### [2]Future-state workflow
 
 Apply your current state findings to your new bespoke workflow. Start with what works well and progress to fix any blockers or improvements.
 

@@ -8,7 +8,6 @@ header:
   - /_shared/header.md
 main:
   - intro.md #method
-  - toc.md
   - heading2.md
   - text2.md
   - preptime-callout.md
