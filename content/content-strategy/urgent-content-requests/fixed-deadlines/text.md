@@ -6,7 +6,7 @@ layout: text/textblock
 - see if other conflicting messages are being published on the same day
 - check that images are cleared for publishing and the links work and are meaningful
 - check content is written in the right content type template and includes an abstract
-- check for [accessibility](https://guides.service.gov.au/content-guide/accessibility-inclusivity/). For example, link text, heading styles, table structure, image alt text, video captions and transcripts
+- check for [accessibility](/content-guide/accessibility-inclusivity/). For example, link text, heading styles, table structure, image alt text, video captions and transcripts
 - check any files are accessible. There should be 2 formats, a short overview for html, and contact details
 
 
