@@ -7,14 +7,15 @@
 @import "uikit/uikit.scss";
 
 // base
+@import "base/colors.scss";
 @import "base/variables.scss";
 @import "base/document.scss";
 @import "base/headlines.scss";
 @import "base/header-govau.scss";
 @import "base/structure.scss";
 
+
 // bespoke stuff
-@import "components/globalheader.scss";
 @import "components/header.scss";
 @import "components/footer.scss";
 @import "components/intro.scss";
@@ -31,7 +32,6 @@
 @import "components/legalterms.scss";
 @import "components/category_sections.scss";
 @import "components/category_header.scss";
-@import "components/home_header.scss";
 @import "components/dss_section.scss";
 @import "components/imageblock.scss";
 @import "components/imageblockevent.scss";

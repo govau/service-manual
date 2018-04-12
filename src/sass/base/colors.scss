@@ -1,0 +1,16 @@
+/**
+ * Colors light theme
+ */
+$AU-color-foreground-text:                     #414141;
+$AU-color-foreground-action:                   #007099;
+$AU-color-background:                          #ffffff;
+
+
+/**
+ * Colors dark theme
+ */
+$AU-colordark-foreground-text:                 #ffffff;
+$AU-colordark-background:                      #313131;
+.au-header.au-header--dark
+	{ background-color: $AU-colordark-background;}
+$AU-colordark-foreground-action:               #45c2f0;
