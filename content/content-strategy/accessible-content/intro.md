@@ -23,4 +23,4 @@ Almost 1 in 5 Australians live with disability. These figures do not include man
 
 Nor do they include many older people with age-related impairments.
 
-See the GOV.AU Content Guide for more [facts on accessibility and inclusivity](https://guides.service.gov.au/content-guide/accessibility-inclusivity/).
+See the GOV.AU Content Guide for more [facts on accessibility and inclusivity](/content-guide/accessibility-inclusivity/).

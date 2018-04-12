@@ -13,7 +13,7 @@ Your plan will need to include your approach to meeting criteria 9 of the Digita
 
 This includes compliance to Web Content Accessibility Guidelines 2.0 (WCAG 2.0) which outlines ways to make digital content accessible.
 
-Content authors are primarily responsible for meeting 17 WCAG 2.0 criteria of which several relate to heading structures and labelling.  See our [WCAG 2.0 guide for content authors](https://guides.service.gov.au/content-guide/accessibility-inclusivity/#wcag-2-0-for-content-authors) for more information on making headings compliant.
+Content authors are primarily responsible for meeting 17 WCAG 2.0 criteria of which several relate to heading structures and labelling.  See our [WCAG 2.0 guide for content authors](/content-guide/accessibility-inclusivity/#wcag-2-0-for-content-authors) for more information on making headings compliant.
 
 ### [2]Detailed IA
 An option is to develop a model where you capture both the page titles in your IA and also the main content items within the page.  It would also include links to other content across the site.  

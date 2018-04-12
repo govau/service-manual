@@ -8,4 +8,4 @@ When we put the user first, we ask on their behalf if a PDF is really how they n
 
 If there is a strong user need to have content available in non-HTML formats such as PDFs, content must be first published in HTML. The non-HTML format is published as secondary information. 
 
-Consult the [GOV.AU Content Guide](https://guides.service.gov.au/content-guide/) to better understand accessibility and inclusivity.
+Consult the [GOV.AU Content Guide](/content-guide/) to better understand accessibility and inclusivity.

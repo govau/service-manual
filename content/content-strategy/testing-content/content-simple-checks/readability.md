@@ -8,9 +8,9 @@ It's good to aim for a reading level of around age 9 (Australian Year 3 to 4). W
 
 Even if you can't achieve an age 9 reading level, the more readable you can make content the better it is for everyone.
 
-There’s [readability guidance](https://guides.service.gov.au/content-guide/writing-style/#readability) available on the Content Guide.
+There’s [readability guidance](/content-guide/writing-style/#readability) available on the Content Guide.
 
-You can also use the DTA’s [plain English word list](https://guides.service.gov.au/content-guide/writing-style/#plain-english). For example:
+You can also use the DTA’s [plain English word list](/content-guide/writing-style/#plain-english). For example:
 
 - instead of ‘ascertain’, use ‘find out’
 - instead of ‘implement’, use ‘apply’, ‘install’, or ‘do’

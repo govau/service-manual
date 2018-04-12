@@ -12,7 +12,7 @@ Include fields for:
 - user need or key message
 - related links to policies and other content
 - contact details (and an abstract if needed to go with accessible downloads)
-- a [readability rating check](https://guides.service.gov.au/content-guide/writing-style/#readability). Recommend they use SAS Writing Reviser, a free add-on for Microsoft Word. The tool highlights passive tense as you write.
+- a [readability rating check](/content-guide/writing-style/#readability). Recommend they use SAS Writing Reviser, a free add-on for Microsoft Word. The tool highlights passive tense as you write.
 - image alt text
 - reviewers to use when checking for accuracy and quality
 - video accessibility checks: i.e. closed captions, transcript and audio transcript. Add phone numbers of transcription services.

@@ -13,7 +13,7 @@ These are government standards you'll need to meet:
     What you permit users to do with your information.
 - **Digital Service Standard**
 
-    Your agency must assess its services against the [Digital Service Standard](https://guides.service.gov.au/digital-service-standard).
+    Your agency must assess its services against the [Digital Service Standard](/digital-service-standard).
     This applies to any service designed or redesigned after 6 May 2016.
 - **Domain names**
 
