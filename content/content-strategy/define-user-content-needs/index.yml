@@ -1,0 +1,17 @@
+pagetitle: Define user content needs
+weight: 10
+theme: blue
+description: Get to know your users and create artefacts that help you action what you’ve learned.
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - why-head.md
+  - why.md
+  - how.md
+  - cards.md
+  - topic-takeaway.md #topic-takeaway
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

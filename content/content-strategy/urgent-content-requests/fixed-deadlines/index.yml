@@ -1,0 +1,17 @@
+pagetitle: Fixed deadline requests
+weight: 10
+theme: blue
+description: At a minimum there are some fast and easy checks you can do so your content can be in a good state when published.
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - sections.md
+  - minimal-head.md
+  - text.md
+  - tools-head.md
+  - cards.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

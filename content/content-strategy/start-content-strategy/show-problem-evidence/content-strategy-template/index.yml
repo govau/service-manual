@@ -1,0 +1,18 @@
+pagetitle: Content strategy template
+description: Add your content strategy outputs into this template so that you keep everyone aligned and focused.
+weight: 10
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - attachment.md #attachment
+  - heading.md
+  - text.md #text
+  - heading2.md
+  - text2.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

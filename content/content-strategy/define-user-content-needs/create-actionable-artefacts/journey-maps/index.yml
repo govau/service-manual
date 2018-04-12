@@ -1,0 +1,28 @@
+pagetitle: Journey maps
+description: Create a journey map after your user research sessions. You will get a broad view of the experience and how your content fits into that.
+weight: 30
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md #methods
+  - callout-prep.md #callout
+  - heading-materials.md
+  - materials.md
+  - heading-preparation.md
+  - journeymap.md
+  - heading-how-to-make.md
+  - how-to-make.md
+  - diagram.md #diagram
+  - heading-followup.md
+  - followup.md
+  - callout-followup.md #callout
+  - heading-related-methods.md
+  - cards.md #related-methods
+  - heading-references.md
+  - references.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

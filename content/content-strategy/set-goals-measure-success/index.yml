@@ -1,0 +1,18 @@
+pagetitle: Set goals and measure success
+weight: 10
+theme: blue
+description: Find out how to set goals, objectives and measure the success of your content
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - attribution.md #attribution
+  - why-head.md
+  - why.md
+  - how.md
+  - text.md
+  - cards.md #summary
+  - topic-takeaway.md #topic-takeaway
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

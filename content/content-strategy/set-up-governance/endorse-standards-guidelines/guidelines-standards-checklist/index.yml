@@ -1,0 +1,18 @@
+pagetitle: Guidelines and standards checklist
+description: Review the types of guidance your agency needs to endorse. Use the guidance throughout the content lifecycle. This will help ensure your agency meets government standards
+weight: 60
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - toc.md
+  - heading1.md
+  - checklist1.md
+  - heading2.md
+  - checklist2.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

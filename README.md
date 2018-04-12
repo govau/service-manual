@@ -23,19 +23,19 @@
 **Install dependencies**
 
 ```shell
-yarn
+npm install
 ```
 
 **Build the static assets**
 
 ```shell
-yarn build
+npm run build
 ```
 
 **Start the development server**
 
 ```shell
-yarn watch
+npm run watch
 ```
 
 

@@ -1,5 +1,5 @@
 ---
 layout: category/category_header
 title: Content strategy
-description: A content strategy guides the creation, delivery and governance of useful, usable content.
+description: A content strategy sets the foundation for the creation, structure and governance of content.
 ---

@@ -1,0 +1,24 @@
+pagetitle: Business alignment workshop
+description: A business needs alignment workshop to understand your agency's vision, mission and goals.
+weight: 40
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md #method
+  - heading2.md
+  - text2.md
+  - preptime-callout.md
+  - heading.md
+  - text.md
+  - heading3.md
+  - text3.md
+  - heading4.md
+  - text4.md
+  - heading5.md
+  - text5.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

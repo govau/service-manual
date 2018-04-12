@@ -1,0 +1,17 @@
+pagetitle: Set goals, objectives and KPIs
+description: Before you start to measure, set goals and objectives
+weight: 10
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - dta-example.md #example
+  - supporting-takeaway.md #supporting-takeaway
+  - text.md #text
+  - agency-example.md #example
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

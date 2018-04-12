@@ -1,0 +1,24 @@
+pagetitle: User profiles
+description: Create a user profile based on your user research. You will be building up a profile of your users’ attitudes and behaviours.
+weight: 20
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md #methods
+  - supporting-takeaway.md
+  - heading-materials.md
+  - materials.md
+  - heading-preparation.md
+  - prep.md
+  - heading-howto.md
+  - howto.md
+  - diagram.md #diagram
+  - howto2.md
+  - heading-followup.md
+  - followup.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

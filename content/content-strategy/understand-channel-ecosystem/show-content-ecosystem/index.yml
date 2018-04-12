@@ -1,0 +1,18 @@
+pagetitle: Show the content ecosystem
+description: Use a map or illustration to show the extent of the channel ecosystem.
+weight: 10
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md #text
+  - text.md #text
+  - bad-mind-map.md #diagram
+  - good-mind-map.md #diagram
+  - venn.md #diagram
+  - screenshots.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md
