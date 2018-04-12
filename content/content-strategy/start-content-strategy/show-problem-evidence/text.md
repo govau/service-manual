@@ -4,7 +4,7 @@ layout: text/textblock
 
 Show your pain points in numbers, for example:
 
-- he number of pages with little or no traffic
+- the number of pages with little or no traffic
 - the cost to the call centre for time spent on queries (that could have been solved with good online content)
 - what users are searching for on your site that should be there, but isn't. You can find this information through the 'nil search results' data
 - analytics on how your users navigate the site and their preferred pathways.

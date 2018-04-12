@@ -11,4 +11,6 @@ level: 2
 display: 3
 long_description: new-long-description-bad.md
 ---
+Mind maps are simple and quick and will show channel complexity and duplication.
+
 Starting with your list of channels, draw a mind map. Show the interconnections with lines. This will show the state of your content ecosystem. If your map shows channel duplication or an overly complex ecosystem then it indicates you need a content strategy.
