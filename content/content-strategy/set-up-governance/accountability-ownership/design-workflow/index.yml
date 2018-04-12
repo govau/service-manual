@@ -18,7 +18,7 @@ main:
   - how-head.md
   - how.md
   - diagram.md #diagram
-  - longtext.md #longtext
+  - new-long-description.md
   - key-takeaway.md #supporting-takeaway
   - heading5.md
   - text5.md

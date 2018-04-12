@@ -4,7 +4,7 @@ cards:
   - headline: Understand users and their needs
     text: Knowing your users and their needs is the starting point for any product or service.
     link: /user-research/identifying-users-needs/
-  - headline: Research and learn from users
+  - headline: User research
     text: How to plan for research, adapt your methods, recruit and interview, and analyse what you learn.
     link: /user-research/
   - headline: Create actionable artefacts 
