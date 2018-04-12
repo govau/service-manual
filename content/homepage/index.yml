@@ -4,7 +4,8 @@ description: Guides to help teams build and run government services that meet us
 header:
   - header.md
 main:
-  - dss-new.md
+  - homepagebanner-dss.md
+  - homepagebanner-howtoapply.md
   - categories-head.md
   - categories.md
   - commontools-head.md
