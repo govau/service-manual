@@ -30,7 +30,7 @@ const Page = ( page ) => (
 
 
 
-		<main className="au-grid">
+		<main className="au-body">
 			{ page.header }
 			{ page.main }
 		</main>
