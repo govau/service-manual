@@ -3,7 +3,8 @@ weight: 30
 hidden: false
 theme: blue
 header:
-  - /_shared/header.md
+  - /_shared/globalheader.md
+  - header.md
 main:
   - sections.md
   - why.md
@@ -16,4 +17,4 @@ main:
   - /_shared/feedback.md
 
 footer:
-  - /_shared/footer-gds.md
+  # - /_shared/footer-gds.md

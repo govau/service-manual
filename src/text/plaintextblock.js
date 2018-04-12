@@ -15,7 +15,7 @@ const Plaintextblock = ( page ) => {
 
 	return (
 	<div className={ `au-body au-grid plaintextblock` } >
-		<div className="container">
+		<div className="container-fluid">
 			<div className="row">
 				<div className="col-xs-12">
 					<div className="plaintextwrapper">

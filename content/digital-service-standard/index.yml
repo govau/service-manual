@@ -2,7 +2,8 @@ pagetitle: Digital Service Standard
 weight: 20
 theme: blue
 header:
-  - /_shared/header.md
+  - /_shared/globalheader.md
+  - header.md
 main:
   - category_sections.md
   - what.md

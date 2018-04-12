@@ -13,3 +13,5 @@ main:
   - cstudies.md
   - body.md
   - /_shared/feedback.md
+footer:
+  # - /_shared/footer-gds.md

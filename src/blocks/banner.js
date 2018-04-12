@@ -12,7 +12,7 @@ const Banner = ( page ) => {
 
 	return (
 		<div className={`au-body au-grid banner banner--${ theme }`}>
-			<div className="container">
+			<div className="container-fluid">
 				<div className="row">
 					<div className="col-xs-6">
 

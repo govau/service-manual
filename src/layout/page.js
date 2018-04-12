@@ -28,9 +28,10 @@ const Page = ( page ) => (
 	</head>
 	<body className="au-grid">
 
-		{ page.header }
 
-		<main>
+
+		<main className="au-grid">
+			{ page.header }
 			{ page.main }
 		</main>
 

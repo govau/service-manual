@@ -8,7 +8,7 @@ import React from 'react';
  * @disable-docs
  */
 const Partial = ( page ) => (
-		<div className="textwrapper">{ page._body }</div>
+		<div>{ page._body }</div>
 );
 
 

@@ -17,7 +17,7 @@
 
 	.au-body & {
 		transition: box-shadow 0.2s ease, background 0.2s ease;
-		border: AU-space(1);
+		border: 1em;
 	}
 
 	.cards--category & {
@@ -32,6 +32,7 @@
 	align-items: flex-start;
 	flex: auto;
 	justify-content: flex-start;
+	border: 1px solid gray;
 }
 
 .card__text {
@@ -48,7 +49,7 @@
 }
 
 .card__headline__wrapper {
-	margin-bottom: AU-space( 1 );
+	margin-bottom: 1em;
 	width: 100%;
 }
 
@@ -102,7 +103,7 @@
 		}
 
 		&:after {
-			margin: 0 AU-space( 0.1 ) 0 AU-space( 0.4 ); //move arrow by just uikit-space( 0.1 ); this is not a magic number …
+			margin: 0 0.1 0 0.4; //move arrow by just uikit-space( 0.1 ); this is not a magic number …
 		}
 	}
 }
