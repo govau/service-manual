@@ -8,7 +8,6 @@ header:
   - /_shared/header.md
 main:
   - intro.md #methods
-  - toc.md
   - callout-prep.md #callout
   - heading-materials.md
   - materials.md

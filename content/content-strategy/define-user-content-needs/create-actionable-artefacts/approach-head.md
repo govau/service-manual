@@ -1,5 +1,4 @@
 ---
 layout: nav/section
-section: Use metrics
-
+section: Approach
 ---

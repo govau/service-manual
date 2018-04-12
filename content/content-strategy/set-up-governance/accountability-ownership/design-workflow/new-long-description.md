@@ -1,11 +1,11 @@
 ---
-layout: text/textblock
+layout: blocks/long_description
+title: Content production workflow
 ---
-#### [1]Content production workflow: long text description
 
 **Stages of the content lifecycle**
 
-Stages display across the top of the workflow from left to right: Intent, Plan, Create, Check and Revise, Sign off, Publish, Maintain, Remove
+Stages display horizontally on the top of the workflow from left to right: Intent, Plan, Create, Check and Revise, Sign off, Publish, Maintain, Remove
 
 **Roles**
 

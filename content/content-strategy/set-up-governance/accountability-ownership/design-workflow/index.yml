@@ -8,18 +8,17 @@ header:
   - /_shared/header.md
 main:
   - intro.md #methods
-  - toc.md
-  - heading2.md
-  - text2.md
+  - why-head.md
+  - why.md
   - preptime-callout.md
-  - heading.md
-  - text.md
-  - heading3.md
-  - text3.md
-  - heading4.md
-  - text4.md
+  - materials-head.md
+  - materials.md
+  - preparation-head.md
+  - preparation.md
+  - how-head.md
+  - how.md
   - diagram.md #diagram
-  - longtext.md #longtext
+  - text4.md #spacer only
   - key-takeaway.md #supporting-takeaway
   - heading5.md
   - text5.md
