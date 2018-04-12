@@ -12,6 +12,7 @@ main:
   - supporting-takeaway.md #supporting-takeaway
   - heading.md
   - section.md #text
+  - approach-head.md
   - attachment.md #attachment
   - /_shared/feedback.md
 footer:

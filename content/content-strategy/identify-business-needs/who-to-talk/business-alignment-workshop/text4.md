@@ -14,5 +14,5 @@ The goal of the workshop is to get agreed vision, mission and goals of your agen
 **Props can help facilitate the workshop:**  
 
 - Use a ‘car park’ board to stick post-its with topics of conversation that take your workshop off on tangents. Address these topics at the end of the workshop or follow up on them after.
-- Use visuals like the [pyramid diagram](/content-strategy/identify-business-needs/what-business-needs/) to get quick understanding — follow the rules for writing vision, missions and goals.
+- Use visuals like the [pyramid diagram](/content-strategy/identify-business-needs/what-business-needs/#the-strategic-pyramid) to get quick understanding — follow the rules for writing vision, missions and goals.
 

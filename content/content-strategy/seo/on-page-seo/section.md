@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-To improve your on-page SEO, you’ll first need to know which [keywords](https://guides.service.gov.au/content-guide/search-engines/#keywords) you want to rank for on each page, with specific recommendations and rules about their use. Knowing how to [write content for search engines](https://guides.service.gov.au/content-guide/search-engines/)will help connect your users with your content.
+To improve your on-page SEO, you’ll first need to know which [keywords](/content-guide/search-engines/#keywords) you want to rank for on each page, with specific recommendations and rules about their use. Knowing how to [write content for search engines](/content-guide/search-engines/)will help connect your users with your content.
 
 ### [2]Keyword strategy
 Your keywords should be user-focused, relevant and consistent. Use keywords in your content to help users find your information and click through to your page. To do this you’ll first need to do some keyword research.

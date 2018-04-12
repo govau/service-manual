@@ -15,4 +15,4 @@ Accessibility tools that you can use to do checks from your desktop include:
 
 You need to test with users who have access needs to find out if your content is actually accessible.
 
-There is also guidance available about [designing content so everyone can use it](https://guides.service.gov.au/content-guide/accessibility-inclusivity/).
+There is also guidance available about [designing content so everyone can use it](/content-guide/accessibility-inclusivity/).

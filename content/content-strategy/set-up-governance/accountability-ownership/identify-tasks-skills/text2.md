@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-Research has uncovered the problems Australian Government agencies face throughout the [stages of the content lifecycle](/content-strategy/content-lifecycle/). Use this activity to:
+Research has uncovered the problems Australian Government agencies face throughout the [stages of the content lifecycle](/content-strategy/manage-content-requests/). Use this activity to:
 
 - discover where there are gaps in applying tasks and skills 
 - improve your workflow and the quality of your content
