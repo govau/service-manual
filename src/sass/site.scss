@@ -3,11 +3,14 @@
 // overwrites
 @import "base/overwrites.scss";
 
+// override the default UI Kit colours, the site theme
+@import "base/colors.scss";
+
 // the uikit.. yay!
 @import "uikit/uikit.scss";
 
 // base
-@import "base/colors.scss";
+
 @import "base/variables.scss";
 @import "base/document.scss";
 @import "base/headlines.scss";
