@@ -2,8 +2,7 @@ pagetitle: Digital Service Standard
 weight: 20
 theme: blue
 header:
-  - /_shared/globalheader.md
-  - header.md
+  - /_shared/header.md
 main:
   - category_sections.md
   - what.md
@@ -15,4 +14,4 @@ main:
   - training.md
   - /_shared/feedback.md
 footer:
-  - /_shared/footer-gds.md
+  # - /_shared/footer-gds.md
