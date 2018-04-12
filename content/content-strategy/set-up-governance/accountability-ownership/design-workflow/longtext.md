@@ -1,8 +1,7 @@
 ---
-layout: text/textblock
+layout: blocks/long_description
+title: Content teams - accountability, expertise, escalation
 ---
-#### [1]Content production workflow: long text description
-
 **Stages of the content lifecycle**
 
 Stages display across the top of the workflow from left to right: Intent, Plan, Create, Check and Revise, Sign off, Publish, Maintain, Remove

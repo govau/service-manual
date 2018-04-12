@@ -8,6 +8,7 @@ imageAlt: Content production workflow shows roles and tasks
 caption: Workflow of roles and tasks in the content lifecycle
 level: 2
 display: 3
+long_description: longtext.md
 ---
 
 ### [3]Content production workflow
