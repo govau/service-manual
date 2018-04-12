@@ -2,7 +2,7 @@
 layout: text/textblock
 section: Use evidence
 ---
-Evidence will become clearer after your [content audit](/content-strategy/audit-content\/). Some things you can use when you start to scope the need for removal are: 
+Evidence will become clearer after your [content audit](/content-strategy/audit-content/). Some things you can use when you start to scope the need for removal are: 
 - using analytics to show the state of the content
 - checking that the content has a user need
 - checking that content supports business goals
