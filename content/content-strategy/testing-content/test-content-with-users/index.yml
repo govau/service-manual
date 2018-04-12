@@ -1,6 +1,7 @@
 pagetitle: Test content with users
 description: How to test and check your content is easy to read and use.
 weight: 20
+hidden: true
 layout: layout/topic
 theme: blue
 header:

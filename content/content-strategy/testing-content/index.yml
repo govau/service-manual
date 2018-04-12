@@ -1,6 +1,7 @@
 pagetitle: Testing content
 description: How to test and check your content is easy to read and use.
 weight: 10
+hidden: true
 theme: blue
 header:
   - /_shared/globalheader.md

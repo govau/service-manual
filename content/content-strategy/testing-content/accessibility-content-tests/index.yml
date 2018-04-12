@@ -1,6 +1,7 @@
 pagetitle: Test content for accessibility
 description: Test your web content for accessibility.
 weight: 30
+hidden: true
 layout: layout/topic
 theme: blue
 hidden: true
