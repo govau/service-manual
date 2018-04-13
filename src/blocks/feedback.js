@@ -21,7 +21,7 @@ const Feedback = ( page ) => {
 							</a>
 						</p>
 						<p>
-							Email: <a href="mailto:guides-feedback@digital.gov.au">guides-feedback@digital.gov.au ></a>
+							Email: <a href={ page.email_link }>guides-feedback@digital.gov.au ></a>
 						</p>
 					</div>
 				</div>
