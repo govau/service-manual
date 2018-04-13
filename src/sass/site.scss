@@ -1,8 +1,5 @@
 /*! Service Manual */
 
-// overwrites
-@import "base/overwrites.scss";
-
 // override the default UI Kit colours, the site theme
 @import "base/colors.scss";
 
@@ -30,7 +27,6 @@
 @import "components/callout.scss";
 @import "components/sections.scss";
 @import "components/404.scss";
-@import "components/nav.scss";
 @import "components/childnav.scss";
 @import "components/banner.scss";
 @import "components/tables.scss";
