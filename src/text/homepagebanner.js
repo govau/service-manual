@@ -14,7 +14,7 @@ const HomepageBanner = ( page ) => {
 			<div className="row">
 				<div className="col-xs-12">
 					<h2 className="au-display-xxxl">{ page.heading }</h2>
-					<div className="homepagebanner_paragraph">
+					<div className="homepagebanner_paragraph_container">
 						{ page._body }
 					</div><br/>
 					<a href={ page.button_link }>{ page.button_text }</a>
