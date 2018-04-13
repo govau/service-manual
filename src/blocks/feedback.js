@@ -7,23 +7,22 @@ import React from 'react';
  */
 const Feedback = ( page ) => {
 
-	const HeadingTag = `h${ page.level }`;
+	const HeadingTag = `h3`;
 
 	return (
 		<div className="au-body au-grid feedback">
-			<div className="container">
+			<div className="container-fluid">
 				<div className="row">
 					<div className="col-xs-12">
-						<HeadingTag className="feedback__title display-3">{ page.title }</HeadingTag>
-						<div className="textwrapper">
-							<p className="feedback__caption1">{ page.caption1 }</p>
-							<p className="feedback__button">
-								<a href="https://www.surveymonkey.com/r/XFWJ5TC" className="au-btn">
-									Give feedback
-								</a>
-							</p>
-							<span>{ page._body }</span>
-						</div>
+						<HeadingTag className="au-display-lg">{ page.title }</HeadingTag>
+						<p>
+							<a href={ page.buttonUrl }>
+								{ page.buttonText }
+							</a>
+						</p>
+						<p>
+							Email: <a href="mailto:guides-feedback@digital.gov.au">guides-feedback@digital.gov.au ></a>
+						</p>
 					</div>
 				</div>
 			</div>
@@ -33,11 +32,6 @@ const Feedback = ( page ) => {
 
 
 Feedback.propTypes = {
-
-	/**
-	 * caption: This is the first release of Gov.au Service Manual. We'd love to know what's missing or could be done better
-	 */
-	caption: PropTypes.string,
 
 	/**
 	 * buttonUrl: /feedback
