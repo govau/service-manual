@@ -1,19 +1,17 @@
-.feedback {
-	padding: 1.75rem 0 1rem 0;
+.feedback_container {
+	padding: 2.75rem 0 2.75rem 0;
 	color: #fff;
 	background: #1a1a1a;
-
-	a {
-		color: #fff;
-	}
+	font-size: 1.4rem;
+	font-weight: 400;
+	margin: auto;
+	text-align: center;
 }
 
-.feedback__title {
-	color: #fff;
+.feedback_item {
+	display: inline;
 }
 
-.feedback__caption {
-	display: block;
-	margin: 0 0 AU-space( 1 ) 0;
-	max-width: 450px;
+.feedback_item a {
+	color: #4cc3ee;
 }

@@ -7,22 +7,22 @@ import React from 'react';
  */
 const Feedback = ( page ) => {
 
-	const HeadingTag = `h3`;
-
 	return (
-		<div className="au-body au-grid feedback">
+		<div className="au-body au-grid feedback_container">
 			<div className="container-fluid">
 				<div className="row">
 					<div className="col-xs-12">
-						<HeadingTag className="au-display-lg">{ page.title }</HeadingTag>
-						<p>
+						<div className="feedback_item">
+							{ page.title }
+						</div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<div className="feedback_item">
 							<a href={ page.buttonUrl }>
 								{ page.buttonText }
-							</a>
-						</p>
-						<p>
+							</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						</div>
+						<div className="feedback_item">
 							Email: <a href={ page.email_link }>guides-feedback@digital.gov.au ></a>
-						</p>
+						</div>
 					</div>
 				</div>
 			</div>
