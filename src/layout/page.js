@@ -27,6 +27,10 @@ const Page = ( page ) => (
 		<script src="/assets/js/svg4everybody.min.js" />
 	</head>
 	<body className="au-grid">
+		<nav class="au-skip-link">
+			<a class="au-skip-link__link" href="#nav">Skip to main navigation</a>
+			<a class="au-skip-link__link" href="#content">Skip to main content</a>
+		</nav>
 		<main>
 			{ page.header }
 			{ page.main }
