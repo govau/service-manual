@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-These are the types of guidance to apply throughout the [content lifecycle](/governing-content/content-lifecycle/):
+These are the types of guidance to apply throughout the [content lifecycle](/content-strategy/manage-content-requests/):
 
 - **Accessibility, inclusivity and diversity**
 	
