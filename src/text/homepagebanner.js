@@ -13,10 +13,10 @@ const HomepageBanner = ( page ) => {
 		<div className={"au-body container-fluid homepagebanner " + (page.oddrow ? 'homepagebanner__oddrow' : '')}>
 			<div className="row">
 				<div className="col-xs-12">
-					<h2>{ page.heading }</h2>
+					<h2 className="au-display-xxxl">{ page.heading }</h2>
 					<div className="homepagebanner_paragraph">
 						{ page._body }
-					</div>
+					</div><br/>
 					<a href={ page.button_link }>{ page.button_text }</a>
 				</div>
 			</div>

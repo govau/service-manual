@@ -6,13 +6,8 @@ header:
 main:
   - homepagebanner-dss.md
   - homepagebanner-howtoapply.md
-  - categories-head.md
+  - homepagebanner-indepthguidestools.md
   - categories.md
-  - commontools-head.md
-  - commontools.md
-  - cstudies-section.md
-  - cstudies.md
-  - body.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md
