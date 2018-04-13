@@ -12,8 +12,8 @@ navigation:
           link: /digital-service-standard
         - text: Topics
           link: /topics
-        - text: Content Strategy Guide
-          link: /content-strategy-guide
+        - text: Content Strategy
+          link: /content-strategy
 
     - alignment: right
       items:
