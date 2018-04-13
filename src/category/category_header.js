@@ -11,7 +11,7 @@ const Categoryheader = ( page ) => {
 	return (
 
 <div className="au-body container-fluid">
-	<div className="row">
+	<div className="row guides-category-header">
 			<div className="col-xs-12">
 				<h1>
 					{ page.title }
