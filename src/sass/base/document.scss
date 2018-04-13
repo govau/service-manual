@@ -51,11 +51,6 @@ img {
 	text-align: left;
 }
 
-//override the ui kit grid max width for <p>
-.au-body p {
-	max-width: 100%;
-}
-
 .au-body p + ul,
 .au-body p + ol,
 .au-body p + dd {
