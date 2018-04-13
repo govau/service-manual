@@ -10,18 +10,19 @@
 @import "uikit/uikit.scss";
 
 // base
-
+@import 'base/reset.scss';
+@import 'base/breakpoints';
+@import "base/structure.scss";
 @import "base/variables.scss";
 @import "base/document.scss";
 @import "base/headlines.scss";
+@import 'components/footer.scss';
+@import "components/header.scss";
 @import "base/header-govau.scss";
-@import "base/structure.scss";
 @import "base/icons.scss";
 
 
 // bespoke stuff
-@import "components/header.scss";
-@import "components/footer.scss";
 @import "components/intro.scss";
 @import "components/plaintextblock.scss";
 @import "components/textblock.scss";

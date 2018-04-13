@@ -10,7 +10,7 @@ import React from 'react';
 const HomepageBanner = ( page ) => {
 
 	return (
-		<div className={"container-fluid homepagebanner " + (page.oddrow ? 'homepagebanner__oddrow' : '')}>
+		<div className={"au-body container-fluid homepagebanner " + (page.oddrow ? 'homepagebanner__oddrow' : '')}>
 			<div className="row">
 				<div className="col-xs-12">
 					<h2>{ page.heading }</h2>

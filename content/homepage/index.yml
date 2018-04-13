@@ -15,4 +15,4 @@ main:
   - body.md
   - /_shared/feedback.md
 footer:
-  # - /_shared/footer-gds.md
+  - /_shared/footer-gds.md

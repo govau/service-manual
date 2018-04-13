@@ -15,7 +15,7 @@ const Page = ( page ) => (
 		<meta name="google-site-verification" content="fXPmqCfxWVHNxpSlw6Bm6pmuUcMuTILat3eixX8gbM8" />
 		<meta httpEquiv="x-ua-compatible" content="ie=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="description" content={ page.description }/>
+		<meta name="description" content={ page.description } />
 
 		<link rel="stylesheet" href={ `/assets/css/site.css` } />
 		{ page.stylesheet != undefined
@@ -27,10 +27,7 @@ const Page = ( page ) => (
 		<script src="/assets/js/svg4everybody.min.js" />
 	</head>
 	<body className="au-grid">
-
-
-
-		<main className="au-body">
+		<main>
 			{ page.header }
 			{ page.main }
 		</main>
