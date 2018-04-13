@@ -1,9 +1,9 @@
 .feedback_container {
-	padding: 2.75rem 0 2.75rem 0;
+	padding: 3rem 0 3rem 0;
 	color: #fff;
 	background: #1a1a1a;
-	font-size: 1.4rem;
-	font-weight: 400;
+	font-size: 2rem;
+	font-weight: 600;
 	margin-top: 6em;
 	text-align: center;
 }
@@ -14,4 +14,10 @@
 
 .feedback_item a {
 	color: #4cc3ee;
+}
+
+.feedback_secondary {
+	font-size: 1.2rem;
+	font-weight: 400;
+	margin-left: 2.6rem;
 }

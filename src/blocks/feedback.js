@@ -14,13 +14,13 @@ const Feedback = ( page ) => {
 					<div className="col-xs-12">
 						<div className="feedback_item">
 							{ page.title }
-						</div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<div className="feedback_item">
+						</div>
+						<div className="feedback_item feedback_secondary">
 							<a href={ page.buttonUrl }>
 								{ page.buttonText }
-							</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							</a>
 						</div>
-						<div className="feedback_item">
+						<div className="feedback_item feedback_secondary">
 							Email: <a href={ page.email_link }>guides-feedback@digital.gov.au ></a>
 						</div>
 					</div>
