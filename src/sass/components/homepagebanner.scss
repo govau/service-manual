@@ -14,4 +14,7 @@
 	margin: auto;
 	font-size: 110%;
 	font-weight: lighter;
+	@media screen and ( max-width: 800px ) {
+		max-width: 85%;
+	}
 }
