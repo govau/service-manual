@@ -12,7 +12,7 @@ const Feedback = ( page ) => {
 			<div className="container-fluid">
 				<div className="row">
 					<div className="col-xs-12">
-						<div className="feedback_item">
+						<div className="feedback_item feedback_tagline">
 							{ page.title }
 						</div>
 						<div className="feedback_item feedback_secondary">

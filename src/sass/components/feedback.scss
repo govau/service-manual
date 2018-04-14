@@ -1,11 +1,16 @@
 .feedback_container {
-	padding: 3rem 0 3rem 0;
+	padding: 3.0rem 0 4.0rem 0;
 	color: #fff;
 	background: #1a1a1a;
-	font-size: 2rem;
-	font-weight: 600;
 	margin-top: 6em;
 	text-align: center;
+}
+
+.feedback_tagline {
+	position: relative;
+	top: 0.2rem;
+	font-size: 2.4rem;
+	font-weight: 600;
 }
 
 .feedback_item {
@@ -17,7 +22,7 @@
 }
 
 .feedback_secondary {
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	font-weight: 400;
 	margin-left: 2.6rem;
 }
