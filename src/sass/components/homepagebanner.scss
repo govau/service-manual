@@ -9,12 +9,12 @@
 }
 
 .homepagebanner_paragraph_container p {
-	max-width: 50%;
+	max-width: 40%;
 	padding-top: 2rem;
 	margin: auto;
 	font-size: 110%;
 	font-weight: lighter;
-	@media screen and ( max-width: 800px ) {
+	@media screen and ( max-width: 1000px ) {
 		max-width: 85%;
 	}
 }

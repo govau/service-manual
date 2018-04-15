@@ -32,7 +32,6 @@
 @import "components/tables.scss";
 @import "components/legalterms.scss";
 @import "components/category_sections.scss";
-@import "components/category_header.scss";
 @import "components/dss_section.scss";
 @import "components/imageblock.scss";
 @import "components/imageblockevent.scss";
@@ -51,3 +50,4 @@
 
 // visual design CSS override
 @import "base/vd-tweaks.scss";
+@import "components/category_header.scss";

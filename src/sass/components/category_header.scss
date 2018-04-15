@@ -1,4 +1,14 @@
 .guides-category-header {
-	padding-top: 3em;
-	padding-bottom: 2em;
+	padding-top: 5em;
+	padding-bottom: 4em;
+}
+
+.guides-category-header-main-heading {
+	font-size: 5rem;
+}
+
+.guides-category-header-description {
+	color: $AU-color-foreground-muted;
+	font-size: 120%;
+	font-weight: lighter;
 }

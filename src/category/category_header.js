@@ -13,13 +13,13 @@ const Categoryheader = ( page ) => {
 <div className="au-body container-fluid">
 	<div className="row guides-category-header">
 			<div className="col-xs-12">
-				<h1>
+				<h1 className="au-display-xxxl guides-category-header-main-heading">
 					{ page.title }
 				</h1>
 
-				<div>
+				<p className="guides-category-header-description">
 					{ page.description }
-				</div>
+				</p>
 			</div>
 		</div>
 </div>
