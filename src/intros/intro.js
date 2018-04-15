@@ -17,10 +17,10 @@ const Intro = ( page ) => {
 						<div className="textwrapper">
 
 							{ page.category && <span id={ (page.category).toLowerCase() } className="section__section intro__category">{ page.category }</span> }
-							<h1 className="intro__headline">{ page.title ? page.title : page._pages[ page._ID ].pagetitle }</h1>
+							<h2 className="intro__headline">{ page.title ? page.title : page._pages[ page._ID ].pagetitle }</h2>
 							{ page.subtitle && <p className="intro__subtitle">{ page.subtitle }</p> }
 							{ page.attrTitle1 &&
-								<div className="intro__metadata intro__metadata--intro small">
+								<p className="intro__metadata intro__metadata--intro small">
 								  <dl>
 									<dt>{ page.attrTitle1 }</dt>
 									<dd>{ page.attrLink1 ? (
@@ -37,7 +37,7 @@ const Intro = ( page ) => {
 										)}
 									</dd>
 								  </dl>
-								</div>
+								</p>
 							}
 							<div className="intro__text">{ page._body }</div>
 						</div>

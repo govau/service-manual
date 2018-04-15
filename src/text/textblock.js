@@ -13,7 +13,7 @@ const Textblock = ( page ) => {
 
 	return (
 	<div className={ `au-body au-grid textblock textblock--${ page.stackPosition }` } >
-		<div className="container-fluid">
+		<div className="container">
 			<div className="row">
 				<div className="col-xs-12">
 					<div className="textwrapper textblock__text">

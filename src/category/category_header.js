@@ -10,7 +10,7 @@ import React from 'react';
 const Categoryheader = ( page ) => {
 	return (
 
-<div className="au-body container-fluid">
+<div className="au-body container">
 	<div className="row guides-category-header">
 			<div className="col-xs-12">
 				<h1 className="au-display-xxxl guides-category-header-main-heading">

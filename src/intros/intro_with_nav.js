@@ -21,7 +21,7 @@ const IntroNav = ( page ) => {
 						<Childnav page={ page } />
 
 						<div className="textwrapper intro__textwrapper__withnav">
-							<h1 className="intro__headline">{ page.title ? page.title : page._pages[ page._ID ].pagetitle }</h1>
+							<h2 className="au-display-xl intro__headline">{ page.title ? page.title : page._pages[ page._ID ].pagetitle }</h2>
 						</div>
 
 						<div className="textwrapper intro__textwrapper__withnav">

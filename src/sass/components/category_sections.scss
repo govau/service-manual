@@ -33,7 +33,7 @@
 
 .category-sections__list__item {
 	display: inline-block;
-	font-size: 16px;
+	font-size: 1.4rem;
 
 	.au-body & {
 		margin: 0;
@@ -41,7 +41,7 @@
 }
 
 .category-sections__list__link {
-	font-weight: bold;
+	font-weight: 400;
 
 	.au-body & {
 		color: $AU-color-foreground-text;

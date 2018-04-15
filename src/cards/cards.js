@@ -10,7 +10,7 @@ import Card from './card';
  */
 const Cards = ( page ) => (
 	<div className={`au-body au-grid cards`}>
-		<div className="container-fluid">
+		<div className="container">
 			<ul className="cards__list">
 				{
 					page.cards.map( ( card, i ) => (

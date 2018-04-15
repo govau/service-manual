@@ -48,7 +48,7 @@ const ImageContentblock = ( page ) => {
 
 	return (
 		<div className={`imagecontentblock imagecontentblock--${ theme } ${ page.stackPosition ? 'imagecontentblock--stack' + page.stackPosition : '' }   au-body au-grid`}>
-			<div className="container-fluid">
+			<div className="container">
 				<div className="row">
 					<div className="col-xs-6">
 						{ page.reverse
