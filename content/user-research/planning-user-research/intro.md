@@ -1,5 +1,5 @@
 ---
-layout: intros/intro
+layout: intros/intro_with_nav
 category: User research
 title: Planning user research
 subtitle: Plan how you will do research throughout the service design and delivery process.
