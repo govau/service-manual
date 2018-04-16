@@ -17,7 +17,8 @@ const Intro = ( page ) => {
 						<div className="textwrapper">
 
 							{ page.category && <span id={ (page.category).toLowerCase() } className="section__section intro__category">{ page.category }</span> }
-							<h2 className="intro__headline">{ page.title ? page.title : page._pages[ page._ID ].pagetitle }</h2>
+							<div><h2 className="intro__headline">{ page.title ? page.title : page._pages[ page._ID ].pagetitle }</h2></div>
+
 							{ page.subtitle && <p className="intro__subtitle">{ page.subtitle }</p> }
 							{ page.attrTitle1 &&
 								<p className="intro__metadata intro__metadata--intro small">

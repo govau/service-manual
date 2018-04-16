@@ -16,7 +16,8 @@ const CategorySection = ( page ) => {
 				<div className="row">
 					<div className="col-xs-12" id={ Slugify( page.section ).toLowerCase() }>
 						<span className="section__section category-section__section">{ page.section }</span>
-						<Heading className="category-section__headline display-3">{ page.title }</Heading>
+						<div><Heading className="category-section__headline display-3">{ page.title }</Heading></div>
+						<p/>
 					</div>
 				</div>
 			</div>

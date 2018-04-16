@@ -16,7 +16,7 @@ const Intro = ( page ) => {
 					<div className="col-xs-12">
 						<div className="textwrapper">
 							{ page.category && <span id={ (page.category).toLowerCase() } className="section__section intro__category">{ page.category }</span> }
-							<h2 className="display-3">{ page.title ? page.title : page._pages[ page._ID ].pagetitle }</h2>
+							<div><h2 className="display-3">{ page.title ? page.title : page._pages[ page._ID ].pagetitle }</h2></div>
 							{ page.subtitle && <p className="intro__subtitle">{ page.subtitle }</p> }
 							<div className="intro__text">{ page._body }</div>
 						</div>

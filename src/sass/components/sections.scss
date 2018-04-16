@@ -19,11 +19,11 @@
 
 .section__section {
 	display: block;
-	text-transform: uppercase;
+	//color: $AU-color-foreground-muted;
 	border-left: 2px solid $AU-color-foreground-border;
 	padding-left: 0.5em;
-	margin-top: 0;
-	margin-bottom: AU-space( 0.75 );
+	margin-top: 2rem;
+	margin-bottom: 1rem;
 	font-weight: bold;
 	line-height: 1.2;
 }

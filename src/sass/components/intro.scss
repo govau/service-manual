@@ -3,7 +3,7 @@
 }
 
 .intro {
-	padding: 2em 0;
+	padding: 2em 2em;
 	background-color: $AU-color-background;
 	margin-bottom: 2em;
 	margin-top: 0;
@@ -72,9 +72,10 @@
 }
 
 .intro__text {
-	*:last-child {
-		margin-bottom: 0;
-	}
+	// *:last-child {
+	// 	margin-bottom: 0;
+	// }
+	margin-top:1rem;
 }
 
 .intro__textwrapper__withnav {
