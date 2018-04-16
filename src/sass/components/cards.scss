@@ -1,5 +1,5 @@
 .guides-card {
-	border: 2px solid $AU-color-background;
+	border: 1px solid $AU-color-background;
 	box-sizing: border-box;
 	display: block;
 	border-radius: 0.4rem;
@@ -61,10 +61,10 @@
 
 .card__headline {
 	display: inline;
+	font-size: 1.2rem;
 
 	.cards--category & {
 		border: none;
-		font-size: 25px;
 	}
 }
 
@@ -80,7 +80,7 @@
 	box-shadow: 3px 0px 25px -2px rgba( 0, 0, 0, 0.26 );
 
 	.au-body & {
-		//border: 2px solid red;
+		border: 1px solid #c2c3c4;
 	}
 
 	.card__headline {
