@@ -2,11 +2,11 @@
 	border: 2px solid $AU-color-background;
 	box-sizing: border-box;
 	display: block;
-	border-radius: $AU-border-radius;
+	border-radius: 0.4rem;
 	overflow: hidden;
 	width: 100%;
 	background-color: $AU-color-background;
-	padding: 1.2rem;
+	padding: 1.0rem;
 }
 
 .guides-card a {
@@ -77,10 +77,10 @@
 
 .guides-card:hover,
 .guides-card:focus {
-	box-shadow: 0px 0px 15px -2px rgba( 0, 0, 0, 0.26 );
+	box-shadow: 3px 0px 25px -2px rgba( 0, 0, 0, 0.26 );
 
 	.au-body & {
-		border: 2px solid $AU-color-foreground-muted;
+		//border: 2px solid red;
 	}
 
 	.card__headline {

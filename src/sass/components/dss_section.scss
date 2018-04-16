@@ -13,7 +13,8 @@
 
 .dss-section__criteria {
 	float: none;
-	background-color: $AU-colordark-background;
+	background-color: #275677;
+	border-radius: 0.4rem;
 	color: #fff;
 	width: auto;
 	padding: 2rem;
@@ -36,6 +37,7 @@
 .dss-section__text {
 	max-width: 37rem;
 	margin-top: 2rem;
+	margin-bottom: 3rem;
 }
 
 .dss-section__criteria__list {

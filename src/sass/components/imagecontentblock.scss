@@ -1,7 +1,7 @@
 .imagecontentblock {
 	margin: 0 0 2em 0;
 	padding: 2.5rem 0 4.2rem 0;
-	background-color: $AU-colordark-background;
+	background-color: #275677;
 	color: #fff;
 
 	@include AU-media( xs ) {
@@ -37,7 +37,7 @@
 .imagecontentblock__headline {
 	color: #fff;
 	font-weight: normal;
-	margin-bottom: AU-space( 0.7 );
+	margin-bottom: 1rem;
 	line-height: 1.2;
 
 
@@ -51,7 +51,7 @@
 
 .imagecontentblock__content {
 	height: 100%;
-	padding: 0 0 0 0;
+	padding: 0 0 2rem 0;
 
 	@include AU-media( md ) {
 		padding: 0 12px 0 12px;
@@ -60,7 +60,7 @@
 	}
 
 	.section__section {
-		margin-bottom: AU-space( 1.5 );
+		margin-bottom: 2rem;
 	}
 
 	&.imagecontentblock__content--blue,
@@ -99,10 +99,10 @@
 
 .imagecontentblock__image {
 	position: relative;
-	margin: 0 0 1.6em 0;
+	margin: 0 0 1.6rem 0;
 
 	@include AU-media( md ) {
-		margin: AU-space( 0.313 ) 0 AU-space( 1 ) 0;
+		margin: 0.6rem 0 1.2rem 0;
 	}
 
 	a {
@@ -129,6 +129,6 @@
 	left: 0;
 	right: 0;
 	font-size: 0.875em;
-	padding: AU-space( 0.5 );
+	padding: 0.8rem;
 	background-color: rgba( 0, 0, 0, 0.5 );
 }
