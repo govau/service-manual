@@ -1,12 +1,12 @@
 .dss-section {
 	background-color: $AU-color-background;
 	margin-top: 0;
-	margin-bottom: 3em;
-	padding: 3em 0 2em 0;
+	margin-bottom: 3rem;
+	padding: 3rem 0 2rem 0;
 }
 
 .dss-section--level2 {
-	margin-top: -2em;
+	//margin-top: -1rem;
 }
 
 .dss-section__criteria {
@@ -14,13 +14,13 @@
 	background-color: $AU-colordark-background;
 	color: #fff;
 	width: auto;
-	padding: 2em;
-	margin: 0 0 1.5em 0;
+	padding: 2rem;
+	margin: 0 0 1.5rem 0;
 
 	@include AU-media( sm ) {
 		float: right;
 		width: 17em;
-		margin: 4em 0 1em 1em;
+		margin: 4rem 0 1rem 1rem;
 	}
 }
 
@@ -28,16 +28,17 @@
 	display: block;
 	font-size: 30px;
 	line-height: 1.2;
-	margin-bottom: 0.6em;
+	margin-bottom: 0.6rem;
 }
 
 .dss-section__text {
-	max-width: 37em;
+	max-width: 37rem;
+	margin-top: 2rem;
 }
 
 .dss-section__criteria__list {
 	list-style: none;
-	margin: 0 0 2em 0;
+	margin: 0 0 2rem 0;
 
 	.au-body & {
 		padding: 0;
@@ -45,12 +46,12 @@
 }
 
 .dss-section__criteria__list__item {
-	margin-top: 1em;
+	margin-top: 1rem;
 }
 
 .dss-section__criteria__list__item__digit {
 	display: inline-block;
-	margin-right: 0.7em;
+	margin-right: 0.7rem;
 	font-weight: bold;
 }
 
