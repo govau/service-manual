@@ -16,11 +16,11 @@ const Imageblock = ( page ) => {
 
 	return (
 		<div className={`imageblock imageblock--${ theme } ${ reverse } ${ bottomMargin } au-body au-grid`}>
-			<div className="imageblock__image" style={{ backgroundImage }}>
-				<div className="container">
+			<div className="imageblock__image">
+				<div className="container imageblock__container">
 					<div className="row">
 						<div className={`imageblock__content imageblock__content--${ theme }`}>
-							{ page.section && <span className="section__section intro__category" id={ Slugify( page.section ).toLowerCase() } >{ page.section }</span> }
+							{ page.section && <span className="imageblock__section section__section intro__category" id={ Slugify( page.section ).toLowerCase() } >{ page.section }</span> }
 							<div className="textwrapper">
 								<HeadingTag className={ `imageblock__headline display-${ page.display }` }>
 									{ page.title ? page.title : page._pages[ page._ID ].pagetitle }
