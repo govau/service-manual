@@ -14,21 +14,23 @@ const Card = ({ link, background, image, headline, text, cta, preheadline }) => 
 	}
 
 	return (
-	<a href={ link } className='card' style={{ backgroundColor: background }}>
-		<div className="card__imagewrap">
-			{ image && <img className='card__image' src={ image } alt="" /> }
-		</div>
-		<div className='card__wrapper'>
-			{ preheadline && <div className='card__preheadline__wrapper'>
-				<span className='card__preheadline'>{ preheadline }</span>
-			</div> }
-			<div className='card__headline__wrapper'>
-				<strong className='card__headline'>{ headline }</strong>
+	<div className='guides-card'>
+		<a href={ link }>
+			<div className="card__imagewrap">
+				{ image && <img className='card__image' src={ image } alt="" /> }
 			</div>
-				<div className='card__text'>{ text }</div>
-				{ cta && <span className='card__cta au-cta-link'>{ cta }</span> }
-		</div>
-	</a>
+			<div className='card__wrapper'>
+				{ preheadline && <div className='card__preheadline__wrapper'>
+					<span className='card__preheadline'>{ preheadline }</span>
+				</div> }
+				<div className='card__headline__wrapper'>
+					<strong className='card__headline'>{ headline }</strong>
+				</div>
+					<div className='card__text'>{ text }</div>
+					{ cta && <span className='card__cta au-cta-link'>{ cta }</span> }
+			</div>
+		</a>
+	</div>
 )};
 
 

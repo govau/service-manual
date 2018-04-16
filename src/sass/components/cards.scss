@@ -1,3 +1,16 @@
+.guides-card {
+	border: 1px solid lightgray;
+	box-sizing: border-box;
+	display: block;
+	border-radius: $AU-border-radius;
+	overflow: hidden;
+	width: 100%;
+}
+
+.guides-card a {
+	text-decoration: none;
+}
+
 .cards {
 	margin-bottom: 4em;
 }
@@ -8,23 +21,6 @@
 	padding: 0 0 1em 0;
 }
 
-.card {
-	box-sizing: border-box;
-	display: block;
-	border-radius: $AU-border-radius;
-	overflow: hidden;
-	width: 100%;
-
-	.au-body & {
-		transition: box-shadow 0.2s ease, background 0.2s ease;
-		border: 1em;
-	}
-
-	.cards--category & {
-		color: #fff;
-	}
-}
-
 .card__wrapper {
 	padding: 1.25rem;
 	display: flex;
@@ -32,12 +28,12 @@
 	align-items: flex-start;
 	flex: auto;
 	justify-content: flex-start;
-	border: 1px solid gray;
 }
 
 .card__text {
-	margin-bottom: auto;
+	margin-bottom: 1rem;
 	width: 100%;
+	text-decoration: none;
 
 	.cards--category & {
 		margin-bottom: 1em;
@@ -61,7 +57,6 @@
 
 .card__headline {
 	display: inline;
-	border-bottom: solid 1px $AU-color-foreground-border;
 
 	.cards--category & {
 		border: none;
@@ -71,20 +66,20 @@
 
 .card__preheadline {
 	margin-bottom: 0.5em;
-	font-size: 15px;
+	font-size: 25px;
     display: inline-block;
 }
 
-.card:hover,
-.card:focus {
+.guides-card:hover,
+.guides-card:focus {
 	box-shadow: 0px 0px 15px -2px rgba( 0, 0, 0, 0.26 );
 
 	.au-body & {
-		border-color: $AU-color-foreground-focus;
+		border-color: $AU-color-foreground-text;
 	}
 
 	.card__headline {
-		background-color: $AU-colordark-background;
+		background-color: $AU-color-background;
 		border-color: transparent;
 
 		.cards--category & {
