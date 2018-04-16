@@ -1,9 +1,13 @@
 .category-sections {
 	background-color: $AU-color-background;
-	border-bottom: 1px solid $AU-color-foreground-border ;
+	border-top: 0.5rem solid #eff2f4 ;
+	border-bottom: 0.5rem solid #eff2f4 ;
 	margin-top: 0;
 	margin-bottom: 0;
-	padding: 1em;
+	padding: 1.5em;
+	@media screen and ( max-width: 600px ) {
+		display: none;
+	}
 }
 
 .category-sections__wrapper {
@@ -33,7 +37,7 @@
 
 .category-sections__list__item {
 	display: inline-block;
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 
 	.au-body & {
 		margin: 0;
