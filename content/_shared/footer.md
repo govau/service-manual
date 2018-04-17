@@ -8,7 +8,7 @@ mainlist:
     link: https://github.com/govau/service-manual/
 legallist:
   - text: Privacy
-    link: https://www.dta.gov.au/privacy-statement/
+    link: /privacy-statement/
   - text: Accessibility
     link: https://www.dta.gov.au/accessibility/
   - text: Disclaimer

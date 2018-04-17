@@ -8,4 +8,5 @@ header:
 main:
   - body.md
 footer:
+  - /_shared/feedback.md
   - /_shared/footer.md
