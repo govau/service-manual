@@ -17,9 +17,9 @@ const Intro = ( page ) => {
 						<div className="textwrapper">
 
 							{ page.category && <span id={ (page.category).toLowerCase() } className="section__section intro__category">{ page.category }</span> }
-							<div><h2 className="intro__headline">{ page.title ? page.title : page._pages[ page._ID ].pagetitle }</h2></div>
+							<div><h2 className="au-display-xxxl guides-category-header-main-heading intro__headline">{ page.title ? page.title : page._pages[ page._ID ].pagetitle }</h2></div>
 
-							{ page.subtitle && <p className="intro__subtitle">{ page.subtitle }</p> }
+							{ page.subtitle && <p className="guides-category-header-description intro-with-nav__subtitle">{ page.subtitle }</p> }
 							{ page.attrTitle1 &&
 								<p className="intro__metadata intro__metadata--intro small">
 								  <dl>
@@ -40,6 +40,7 @@ const Intro = ( page ) => {
 								  </dl>
 								</p>
 							}
+							<div className="spacer__med" />
 							<div className="intro__text">{ page._body }</div>
 						</div>
 					</div>
