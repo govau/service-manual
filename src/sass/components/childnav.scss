@@ -9,6 +9,7 @@
 		width: auto;
 		float: right;
 		margin-top: 1.2rem;
+
 	}
 
 	@include AU-media( lg ) {
@@ -28,7 +29,7 @@
 
 .childnav__controls {
 	-webkit-appearance: none;
-	display: block;
+	display: none;
 	width: 100%;
 	height: 2.5em;
 	padding: 0;
