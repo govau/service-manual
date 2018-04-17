@@ -29,7 +29,7 @@ const IntroNav = ( page ) => {
 							<div />
 							{ page.subtitle && <p className="guides-category-header-description intro-with-nav__subtitle">{ page.subtitle }</p> }
 							{ page.attrTitle1 &&
-								<div className="intro__metadata intro__metadata--intro small">
+								<p className="intro__metadata intro__metadata--intro small">
 								  <dl>
 									<dt>{ page.attrTitle1 }</dt>
 									<dd>{ page.attrLink1 ? (
@@ -46,7 +46,7 @@ const IntroNav = ( page ) => {
 										)}
 									</dd>
 								  </dl>
-								</div>
+								</p>
 							}
 							<div className="spacer__med" />
 							<div className="intro__text">{ page._body }</div>
