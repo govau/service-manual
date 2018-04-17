@@ -1,10 +1,8 @@
 ---
 layout: text/homepagebanner
-button_text: View Topics
-button_link: /how-to-apply-the-standard/
+button_text: Explore the process
+button_link: /service-design-delivery-process/
 oddrow: true
-heading: How to apply the Standard
+heading: Service design and delivery process
 ---
-Learn how to apply the Standard to your digital services. This section covers
-how to build an agile service team, doing user research, and designing and 
-delivering a service.
+The service design and delivery process is an agile approach. It helps the team build a service for the whole user experience. This might include connecting or replacing products owned by different parts of government.
