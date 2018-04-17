@@ -77,13 +77,17 @@
 
 		&:hover,
 		&:focus {
-			color: $AU-color-foreground-focus;
+			color: #fff;
 		}
 
 		&:focus {
 			outline: 1px solid #fff;
 		}
 	}
+}
+
+.dss-section__criteria__list__item__link:hover {
+	color: #fff;
 }
 
 .dss-section__section {
@@ -108,7 +112,7 @@
 
 	&:hover,
 	&:focus {
-		color: $AU-color-foreground-focus;
+		color: #fff;
 	}
 
 	&:focus {
