@@ -17,7 +17,7 @@ const HomepageBanner = ( page ) => {
 					<div className="homepagebanner_paragraph_container">
 						{ page._body }
 					</div><br/>
-					<a href={ page.button_link }>{ page.button_text }</a>
+					<a className="au-btn homepagebanner__button" href={ page.button_link }>{ page.button_text }</a>
 				</div>
 			</div>
 		</div>
