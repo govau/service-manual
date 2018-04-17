@@ -1,6 +1,6 @@
 .childnav {
 	float: none;
-	margin-bottom: AU-space( 1.5 );
+	margin-bottom: 2rem;
 	display: inline-block;
 	width: 100%;
 
@@ -8,7 +8,7 @@
 	@include AU-media( md ) {
 		width: auto;
 		float: right;
-		margin-top: AU-space( 1 );
+		margin-top: 1.2rem;
 	}
 
 	@include AU-media( lg ) {
@@ -38,19 +38,19 @@
 	background: $AU-color-background;
 	color: $AU-color-foreground-text;
 	text-align: left;
-	padding-left: AU-space( 0.5 );
-	font-size: AU-space( 0.631 );
+	padding-left: 1rem;
+	font-size: 0.8rem;
 
 	&:after {
 		content: ' ';
 		display: inline-block;
-		width: AU-space( 0.85 );
-		height: AU-space( 0.75 );
+		width: 1rem;
+		height: 1rem;
 		top: 4px;
-		margin: 0 AU-space( 0.5 ) 0 AU-space( 0.5 );
+		margin: 0 1.2rem 0 1.2rem;
 		float: right;
 		position: relative;
-		font-size: AU-space( 0.5 );
+		font-size: 0.8rem;
 		transition: transform 0.3s ease;
 		background: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 11">
 				<path fill="#{ $AU-colordark-background }" d="M8.333 10.584l-7.916-8 1.98-2 7.915 8"/>
@@ -126,7 +126,7 @@
 .navigation__item__anchor,
 .navigation__item__span {
 	display: block;
-	padding: AU-space( 0.25 ) AU-space( 0.5 );
+	padding: 0.3rem 0.6rem;
 }
 
 .navigation--level-3 {

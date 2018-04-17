@@ -14,12 +14,14 @@ const Section = ( page ) => {
 
 	return (
 		<div className="au-body au-grid sections">
+			<div className="spacer__med" />
 			<div className="container">
 				<div className="row">
 					<div className="col-xs-12">
-						<HeadingTag className={ `display-3` } id={ Slugify( page.section ).toLowerCase() }>
+						<HeadingTag className="section__header" id={ Slugify( page.section ).toLowerCase() }>
 							 { page.section }
 						</HeadingTag>
+						<br/>
 					</div>
 				</div>
 			</div>
