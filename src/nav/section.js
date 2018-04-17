@@ -14,7 +14,6 @@ const Section = ( page ) => {
 
 	return (
 		<div className="au-body au-grid sections">
-			<div className="spacer__med" />
 			<div className="container">
 				<div className="row">
 					<div className="col-xs-12">

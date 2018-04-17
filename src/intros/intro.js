@@ -40,7 +40,6 @@ const Intro = ( page ) => {
 								  </dl>
 								</p>
 							}
-							<div className="spacer__med" />
 							<div className="intro__text">{ page._body }</div>
 						</div>
 					</div>
