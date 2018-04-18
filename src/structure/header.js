@@ -29,7 +29,7 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 
 							{/* If statement for Home / Content Page */}
 							{
-								_ID === 'index'
+								_ID === 'homepage'
 									? <Fragment>
 											<div className="header__logo-wrapper">
 												<img className="header--logo-coa" src={ _relativeURL( '/assets/img/header-logo-agov.png', _ID ) } alt="The Australian Government coat of Arms"/>
