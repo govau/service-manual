@@ -6,7 +6,11 @@
 }
 
 .homepagebanner__oddrow {
-	background-color: $AU-color-background-shade;
+	background-color: $AU-color-background-alt-shade;
+}
+
+.homepagebanner__lastrow {
+	margin-bottom: -4rem;
 }
 
 .homepagebanner__paragraphcontainer p {

@@ -11,7 +11,7 @@ import Card from '../cards/card';
 const HomepageBannerCards = ( page ) => {
 
 	return (
-		<div className={"au-body container-fluid homepagebanner " + (page.oddrow ? 'homepagebanner__oddrow' : '')}>
+		<div className={"au-body homepagebanner__lastrow container-fluid homepagebanner " + (page.oddrow ? 'homepagebanner__oddrow' : '')}>
 
 			<div className="row">
 				<div className="col-xs-12 homepagebanner__container">
