@@ -27,3 +27,19 @@
 .homepagebanner__container a {
 	font-size: 1.3rem;
 }
+
+.homepagebannercard__container {
+	width: 20rem;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	margin: 1rem;
+}
+
+.homepagebannercard__container:hover{
+	//background-color: #1586b1;
+}
+
+.homepagebannercards__container {
+	margin-top: 3.5rem;
+}

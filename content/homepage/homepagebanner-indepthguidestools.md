@@ -1,8 +1,8 @@
 ---
-layout: text/homepagebanner
+layout: text/homepagebannercards
 button_text: Design System
 button_link: /
-oddrow: false
+oddrow: true
 heading: In-depth guides and tools
 ---
 Do you design or develop government products or services? Do you create, edit,

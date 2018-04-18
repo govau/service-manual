@@ -4,7 +4,7 @@ import React from 'react';
 
 
 /**
- * The textblock component
+ * The HomepageBanner component
  */
 
 const HomepageBanner = ( page ) => {
