@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import SkipLink from '../../scripts/uikit/skip-link.js';
 
 /**
  * The topic layout component
@@ -27,10 +26,6 @@ const Topic = ( page ) => (
 		<script src="/assets/js/svg4everybody.min.js" />
 	</head>
 	<body className="au-grid">
-		<nav className="au-skip-link">
-			<a className="au-skip-link__link" href="#nav">Skip to main navigation</a>
-			<a className="au-skip-link__link" href="#content">Skip to main content</a>
-		</nav>
 		<main>
 			{ page.header }
 			{ page.main }
