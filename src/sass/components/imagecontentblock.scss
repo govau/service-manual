@@ -9,8 +9,8 @@
 	}
 
 	@include AU-media( sm ) {
-		//margin-top: 4rem;
-		//margin-bottom: 4rem;
+		margin-top: 4rem;
+		margin-bottom: 4rem;
 	}
 
 	&.imagecontentblock--white {
@@ -52,13 +52,11 @@
 .imagecontentblock__headline__wrapper h2 {
 	font-weight: 300;
 	font-size: 3rem;
-	// color: #d4e9f1;
 }
 
 .imagecontentblock__headline__wrapper h3 {
 	font-weight: 300;
 	font-size: 3rem;
-	// color: #d4e9f1;
 }
 
 
