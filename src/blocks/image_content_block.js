@@ -22,7 +22,7 @@ const ImageContentblock = ( page ) => {
 	const Content = (
 		<div className={`imagecontentblock__content imagecontentblock__content--${ theme } `}>
 			{ page.section && <span className="section__section intro__category" id={ Slugify( page.section ).toLowerCase() } >{ page.section }</span> }
-			<div className="textwrapper">
+			<div className="textwrapper imagecontentblock__headline__wrapper">
 				{ page.title && <HeadingTag id={ id } className={ `imagecontentblock__headline display-${ page.display }` }>
 					{ page.title }
 				</HeadingTag>
