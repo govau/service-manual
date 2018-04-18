@@ -8,7 +8,7 @@ import AUaccordion from '../../scripts/uikit/accordion.js'
 const LongDescription = ( page ) => {
 
 	return (
-		<div className="long-description-accordion">
+		<div className="longdescription__accordion">
 			<AUaccordion header="Full text description of image">
 				{ page._body }
 			</AUaccordion>
