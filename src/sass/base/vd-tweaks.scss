@@ -34,21 +34,6 @@
 
 /// Guides specific overrides
 
-.header--logo-coa {
-	@media screen and ( max-width: 600px ) {
-		display: none;
-	}
-}
-
-.header__title {
-	@media screen and ( max-width: 600px ) {
-		border-top: 0;
-		margin-top: 1.2rem;
-		margin-bottom: 0;
-		padding: 0;
-	}
-}
-
 // Spacers for padding
 .spacer__sm {
  height: 1.5rem;
