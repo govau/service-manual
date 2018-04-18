@@ -99,8 +99,9 @@
 	.navigation__item {
 		list-style: none;
 		padding-left: 0;
-		margin-bottom: 0;
-		border-bottom: 1px solid $AU-color-foreground-border;
+		margin-top: 0.4rem;
+		margin-bottom: 0.4rem;
+		border-bottom: 1px solid #d2d2d2;
 
 		&.navigation__item--has-nested {
 			border-bottom: 0;
