@@ -14,7 +14,7 @@ const Cards = ( page ) => (
 			<ul className="cards__list">
 				{
 					page.cards.map( ( card, i ) => (
-						<li key={ i } className="col-xs-3 cards__list__item">
+						<li key={ i } className="col-xs-6 col-md-3 cards__list__item">
 							<Card
 								preheadline={ card.preheadline }
 								link={ card.link }
