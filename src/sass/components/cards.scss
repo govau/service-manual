@@ -7,7 +7,7 @@
 	overflow: hidden;
 	width: 100%;
 	background-color: $AU-color-background;
-	padding: 0.5rem;
+	padding: 0.2rem;
 }
 
 .guides-card a {
@@ -26,6 +26,10 @@
 	padding: 1rem 0 4rem 0;
 }
 
+.guides-card__link:focus  .card__wrapper{
+	border: 3px solid $AU-color-foreground-focus;
+}
+
 .card__wrapper {
 	padding: 1.25rem;
 	display: flex;
@@ -33,6 +37,7 @@
 	align-items: flex-start;
 	flex: auto;
 	justify-content: flex-start;
+	border: 3px solid #fff;
 }
 
 .card__text {
@@ -163,9 +168,4 @@
 
 .cards__link {
 	margin-bottom: 0;
-}
-
-.guides-card__link:focus {
-	color: $AU-color-foreground-focus;
-	text-decoration: underline;
 }
