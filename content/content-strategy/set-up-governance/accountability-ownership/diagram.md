@@ -3,7 +3,7 @@ layout: blocks/image_content_block
 image: content-strategy/governance/content-teams.svg
 link: content-strategy/governance/content-teams.svg
 reverse: false
-stackPosition: top
+stackPosition:
 imageAlt: Diagram showing accountability of a content team with leaders, doers and specialists
 caption: 
 title: Content teams 
