@@ -1,7 +1,7 @@
 ---
 layout: blocks/image_content_block
-image: content-strategy/cs-cms-api.jpg
-link: content-strategy/cs-cms-api.jpg
+image: content-strategy/cms_headless_api.svg
+link: content-strategy/cms_headless_api.svg
 title: A headless CMS using an API
 reverse: false
 stackPosition: top
