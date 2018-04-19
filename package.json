@@ -11,11 +11,10 @@
 		"build:autoprefixer": "postcss -u autoprefixer -r assets/css/*",
 		"build:js": "mkdirp assets/js/ && concat-cli -f scripts/js/**/*.js -o assets/js/site.js",
 		"build": "npm-run-all build:sass build:autoprefixer build:js build:pages",
-		"watch:pages": "cuttlebelle -w -n",
+		"watch:site": "cuttlebelle -w -n",
 		"watch:css": "onchange 'src/sass/**/*.scss' -- npm-run-all build:sass build:autoprefixer",
 		"watch:js": "onchange 'scripts/js/**/*.js' -- npm run build:js",
-		"watch:components": "onchange 'src/**/*.js' -- npm run build:js",
-		"watch": "npm run build && npm-run-all --parallel watch:*",
+		"watch": "npm run build && npm run watch:css | npm run watch:js | npm run watch:site",
 		"test": "echo \"Error: no test specified\" && exit 0"
 	},
 	"author": {
