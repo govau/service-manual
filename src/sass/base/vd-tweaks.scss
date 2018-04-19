@@ -42,3 +42,8 @@
 .spacer__med {
 	height: 2rem;
 }
+
+
+[tabindex="-1"] {
+	outline: none;
+}
