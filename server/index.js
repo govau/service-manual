@@ -3,6 +3,15 @@ const Path = require('path');
 
 const Server = Express();
 
+// handle some redirections
+var redirect_map = require('./redirect-map.json');
+Server.locals.redirect_map = redirect_map;
+for (var key in redirect_map) {
+        Server.get(key, (req, res) => {
+                res.redirect(301, Server.locals.redirect_map[req.path]);
+        });
+}
+
 
 /**
  * Check that server is requested securely middle-ware
