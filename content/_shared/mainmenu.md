@@ -18,9 +18,4 @@ navigation:
           link: /user-research
         - text: Content Strategy
           link: /content-strategy
-
-    - alignment: right
-      items:
-        - text: Github
-          link: https://github.com/govau/service-manual/
 ---
