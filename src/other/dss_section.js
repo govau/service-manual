@@ -73,7 +73,7 @@ const DSSSection = ( page ) => {
 					<div className="dss-section__text">{ page._body }</div>
 				</div>
 				<div className="col-md-4">
-					<div className="dss-section__criteria">
+					<div className="dss-section__criteria au-body au-body--dark">
 						<strong className="dss-section__criteria__headline">Digital Service Standard</strong>
 						<ul className="dss-section__criteria__list">
 							{
@@ -85,7 +85,7 @@ const DSSSection = ( page ) => {
 								))
 							}
 						</ul>
-						<a className="dss-section__criteria__cta au-cta-link" href="/digital-service-standard/">Read the criteria</a>
+						<a className="dss-section__criteria__cta au-cta-link au-cta-link--dark" href="/digital-service-standard/">Read the criteria</a>
 					</div>
 				</div>
 			</div>
