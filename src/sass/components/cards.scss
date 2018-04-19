@@ -17,7 +17,8 @@
 	text-decoration: none;
 }
 
-.au-body a.guides-card:hover {
+.au-body a.guides-card:hover,
+.au-body a.guides-card:focus {
 	color: #1c344f;
 	transition-property: color;
 	transition-duration: 0.6s;
