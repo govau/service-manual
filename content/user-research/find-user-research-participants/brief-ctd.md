@@ -1,3 +1,6 @@
+---
+layout: text/textblock
+---
 
 Send the agency a written brief, even if they’re happy to take instructions over the phone. This will be a record in case there are problems with the recruitment.
 

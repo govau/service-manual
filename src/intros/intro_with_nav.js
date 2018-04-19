@@ -13,21 +13,23 @@ const IntroNav = ( page ) => {
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 
 	return (
-		<div className={`uikit-body uikit-grid intro intro--withnav intro__wrapper intro--${ theme }`}>
+		<div className={`au-body au-grid intro intro--withnav intro__wrapper intro--${ theme }`}>
 			<div className="container">
+				<div className="spacer__sm" />
 				<div className="row">
-					<div className="col-md-12">
+					<div className="col-xs-12">
 
 						<Childnav page={ page } />
 
 						<div className="textwrapper intro__textwrapper__withnav">
-							<h1 className="intro__headline">{ page.title ? page.title : page._pages[ page._ID ].pagetitle }</h1>
+							<div><h2 className="au-display-xxxl guides-category-header-main-heading intro__headline">{ page.title ? page.title : page._pages[ page._ID ].pagetitle }</h2></div>
 						</div>
 
 						<div className="textwrapper intro__textwrapper__withnav">
-							{ page.subtitle && <p className="intro__subtitle">{ page.subtitle }</p> }
+							<div />
+							{ page.subtitle && <p className="guides-category-header-description intro-with-nav__subtitle">{ page.subtitle }</p> }
 							{ page.attrTitle1 &&
-								<div className="intro__metadata intro__metadata--intro small">
+								<p className="intro__metadata intro__metadata--intro small">
 								  <dl>
 									<dt>{ page.attrTitle1 }</dt>
 									<dd>{ page.attrLink1 ? (
@@ -44,8 +46,9 @@ const IntroNav = ( page ) => {
 										)}
 									</dd>
 								  </dl>
-								</div>
+								</p>
 							}
+							<div className="spacer__med" />
 							<div className="intro__text">{ page._body }</div>
 						</div>
 					</div>

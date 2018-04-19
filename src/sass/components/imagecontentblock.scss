@@ -1,20 +1,21 @@
 .imagecontentblock {
-	margin: 0 0 2em 0;
-	padding: uikit-space( 1.55 ) 0 uikit-space( 1.55 ) 0;
-	background-color: $uikit-colour-Primary;
+	margin: 0 0 4rem 0;
+	padding: 4rem 0 4.2rem 0;
+	background-color: #275677;
 	color: #fff;
 
-	@include uikit-media( xs ) {
+	@include AU-media( xs ) {
 		color: #fff;
 	}
 
-	@include uikit-media( sm ) {
-		margin-bottom: 2em;
+	@include AU-media( sm ) {
+		//margin-top: 4rem;
+		//margin-bottom: 4rem;
 	}
 
 	&.imagecontentblock--white {
 		background-color: #fff;
-		color: $uikit-colour-Text;
+		color: $AU-color-foreground-text;
 	}
 
 	&.imagecontentblock--stacktop {
@@ -35,38 +36,48 @@
 
 
 .imagecontentblock__headline {
-	color: #fff;
+	color: #d4e9f1;
 	font-weight: normal;
-	margin-bottom: uikit-space( 0.7 );
+	margin-bottom: 1rem;
 	line-height: 1.2;
 
 
 	&.display-3 {
 		.imagecontentblock--white & {
-			color: $uikit-colour-Text;
+			color: $AU-color-foreground-text;
 		}
 	}
+}
+
+.imagecontentblock__headline__wrapper h2 {
+	font-weight: 300;
+	font-size: 3rem;
+}
+
+.imagecontentblock__headline__wrapper h3 {
+	font-weight: 300;
+	font-size: 3rem;
 }
 
 
 .imagecontentblock__content {
 	height: 100%;
-	padding: 0 0 0 0;
+	padding: 0 0 2rem 0;
 
-	@include uikit-media( md ) {
+	@include AU-media( md ) {
 		padding: 0 12px 0 12px;
 		margin: auto;
 		float: left;
 	}
 
 	.section__section {
-		margin-bottom: uikit-space( 1.5 );
+		margin-bottom: 2rem;
 	}
 
 	&.imagecontentblock__content--blue,
 	&.imagecontentblock__content--dark {
 		.display-3 {
-			color: #fff;
+			color: #d4e9f1;
 		}
 
 		a {
@@ -86,7 +97,7 @@
 
 			&:focus,
 			&:hover {
-				color: $uikit-colour-Text;
+				color: #fff;
 			}
 
 			&:focus {
@@ -99,10 +110,10 @@
 
 .imagecontentblock__image {
 	position: relative;
-	margin: 0 0 1.6em 0;
+	margin: 0 0 1.6rem 0;
 
-	@include uikit-media( md ) {
-		margin: uikit-space( 0.313 ) 0 uikit-space( 1 ) 0;
+	@include AU-media( md ) {
+		margin: 0.6rem 0 1.2rem 0;
 	}
 
 	a {
@@ -129,6 +140,6 @@
 	left: 0;
 	right: 0;
 	font-size: 0.875em;
-	padding: uikit-space( 0.5 );
+	padding: 0.8rem;
 	background-color: rgba( 0, 0, 0, 0.5 );
 }

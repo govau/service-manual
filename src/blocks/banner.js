@@ -11,10 +11,10 @@ const Banner = ( page ) => {
 	const HeadingTag = `h${ page.level }`;
 
 	return (
-		<div className={`uikit-body uikit-grid banner banner--${ theme }`}>
-			<div className="container">
+		<div className={`au-body au-grid banner banner--${ theme }`}>
+			<div className="container-fluid">
 				<div className="row">
-					<div className="col-md-6 col-sm-7">
+					<div className="col-xs-6">
 
 						{ page.section && <span className="section__section">{ page.section }</span> }
 						<div className="textwrapper">
@@ -29,10 +29,10 @@ const Banner = ( page ) => {
 							</div>
 						</div>
 					</div>
-					<div className="col-md-6 col-sm-5">
+					<div className="col-xs-6">
 						<div className="banner__box">
 							<h3 className="banner__box__headline display-1">{ page.boxHeading }</h3>
-							<a id={ page.linkText } className="banner__box__link uikit-cta-link" href={ `${ page.linkUrl }` }>{ page.linkText }</a>
+							<a id={ page.linkText } className="banner__box__link au-cta-link" href={ `${ page.linkUrl }` }>{ page.linkText }</a>
 						</div>
 					</div>
 				</div>
