@@ -23,10 +23,10 @@ const Table = ( page ) => {
 	})
 
 	return (
-		<div className="uikit-body uikit-grid table template-table">
+		<div className="au-body au-grid table template-table">
 			<div className="container">
 				<div className="row">
-					<div className="col-sm-12">
+					<div className="col-xs-12">
 						<table className="content-table" >
 							<thead>{ thead }</thead>
 							<tbody>

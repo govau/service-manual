@@ -1,9 +1,13 @@
 .category-sections {
-	background-color: $uikit-colour-Background;
-	border-bottom: 1px solid $uikit-colour-Secondary-40;
+	background-color: $AU-color-background;
+	border-top: 0.5rem solid #eff2f4 ;
+	border-bottom: 0.5rem solid #eff2f4 ;
 	margin-top: 0;
 	margin-bottom: 0;
-	padding: 1em;
+	padding: 1.5em;
+	@media screen and ( max-width: 600px ) {
+		display: none;
+	}
 }
 
 .category-sections__wrapper {
@@ -33,19 +37,15 @@
 
 .category-sections__list__item {
 	display: inline-block;
-	font-size: 16px;
+	font-size: 1.6rem;
 
-	.uikit-body & {
+	.au-body & {
 		margin: 0;
 	}
 }
 
 .category-sections__list__link {
-	font-weight: bold;
-
-	.uikit-body & {
-		color: $uikit-colour-Text-80;
-	}
+	font-weight: 400;
 }
 
 .category-section__headline {

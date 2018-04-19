@@ -4,7 +4,7 @@ image: content-strategy/business-needs-pyramid.svg
 link: content-strategy/business-needs-pyramid.svg
 title: The strategic pyramid
 reverse: false
-stackPosition: top
+stackPosition: 
 imageAlt:  a pyramid starting with vision at the top, then mission, goals, strategies, tactics and objectives following. 
 caption: 
 level: 2

@@ -6,10 +6,10 @@ import React from 'react';
  * The legalterm component to be used inside the footer
  */
 const LegalTerms = ( page ) => (
-	<div className="uikit-body uikit-grid legalterms">
+	<div className="au-body au-grid legalterms">
 		<div className="container">
 			<div className="row">
-				<div className="col-sm-12">
+				<div className="col-xs-12">
 					{ page._body }
 				</div>
 			</div>

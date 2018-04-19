@@ -1,7 +1,5 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import SkipLink from '../../scripts/uikit/skip-link.js';
-
 
 /**
  * The topic layout component
@@ -9,10 +7,11 @@ import SkipLink from '../../scripts/uikit/skip-link.js';
 const Topic = ( page ) => (
 	<html>
 	<head>
-		<title>Guides - { page.pagetitle }</title>
+		<title>Digital Guides - { page.pagetitle }</title>
 		<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png" />
 		<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png" />
 		<meta charSet="utf-8" />
+		<meta name="google-site-verification" content="fXPmqCfxWVHNxpSlw6Bm6pmuUcMuTILat3eixX8gbM8" />
 		<meta httpEquiv="x-ua-compatible" content="ie=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content={ page.description } />
@@ -26,24 +25,9 @@ const Topic = ( page ) => (
 		<script src="/assets/js/no-js.js" />
 		<script src="/assets/js/svg4everybody.min.js" />
 	</head>
-	<body>
-
-		<SkipLink links={[
-			{
-				link: '#nav',
-				text: 'Skip to navigation',
-			},
-			{
-				link: '#content',
-				text: 'Skip to content',
-			}
-		]} />
-
-		<header className="uikit-body uikit-grid">
-			{ page.header }
-		</header>
-
+	<body className="au-grid">
 		<main>
+			{ page.header }
 			{ page.main }
 		</main>
 

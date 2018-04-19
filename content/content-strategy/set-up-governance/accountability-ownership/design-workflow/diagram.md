@@ -3,7 +3,7 @@ layout: blocks/image_content_block
 image: content-strategy/governance/content-production-workflow.svg
 link: content-strategy/governance/content-production-workflow.svg
 reverse: false
-stackPosition: top
+stackPosition:
 imageAlt: Content production workflow shows roles and tasks
 caption: 
 title: Content production workflow
@@ -16,5 +16,3 @@ long_description: new-long-description.md
 - Write up life cycle stages across the top of the workflow: intent, plan, create, check and revise, sign off, publish, maintain/improve, remove
 - Draw up tasks for each role across the swimlanes under the relevant life cycle stages
 - Chart the interactions between roles
-
-

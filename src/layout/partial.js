@@ -8,15 +8,13 @@ import React from 'react';
  * @disable-docs
  */
 const Partial = ( page ) => (
-	<div className="uikit-body uikit-grid">
-		<div className="container">
+		<div className="container au-body au-grid">
 			<div className="row">
-				<div className="col-md-12">
-					<div className="textwrapper">{ page._body }</div>
+				<div className="col-xs-12">
+					{ page._body }
 				</div>
 			</div>
 		</div>
-	</div>
 );
 
 

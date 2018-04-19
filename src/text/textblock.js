@@ -12,10 +12,10 @@ const Textblock = ( page ) => {
 	const id = page.title ? Slugify( page.title ).toLowerCase() : null;
 
 	return (
-	<div className={ `uikit-body uikit-grid textblock textblock--${ page.stackPosition }` } >
+	<div className={ `au-body au-grid textblock textblock--${ page.stackPosition }` } >
 		<div className="container">
 			<div className="row">
-				<div className="col-md-12">
+				<div className="col-xs-12">
 					<div className="textwrapper textblock__text">
 
 						{ page.title && <HeadingTag id={ id } className={ `display-${ page.display }` }>

@@ -1,0 +1,40 @@
+.homepagebanner {
+	text-align: center;
+	padding: 6rem 0;
+	max-width: 100%;
+}
+
+.homepagebanner .cards {
+	background: transparent;
+	text-align: left;
+	margin-bottom: 0;
+	padding: 4rem 2rem 0 2rem;
+}
+
+.homepagebanner__oddrow {
+	background-color: $AU-color-background-alt-shade;
+}
+
+.homepagebanner__lastrow {
+	margin-bottom: -4rem;
+}
+
+.homepagebanner__paragraphcontainer p {
+	max-width: 50%;
+	padding-top: 2rem;
+	margin: auto;
+	font-size: 110%;
+	font-weight: lighter;
+	@media screen and ( max-width: 1000px ) {
+		max-width: 85%;
+	}
+}
+
+.homepagebanner__button {
+	margin-top: 1rem;
+}
+
+.homepagebanner__container a {
+	font-size: 1.3rem;
+}
+

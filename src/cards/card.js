@@ -14,7 +14,7 @@ const Card = ({ link, background, image, headline, text, cta, preheadline }) => 
 	}
 
 	return (
-	<a href={ link } className='card' style={{ backgroundColor: background }}>
+	<a className="guides-card" href={ link }>
 		<div className="card__imagewrap">
 			{ image && <img className='card__image' src={ image } alt="" /> }
 		</div>
@@ -26,7 +26,7 @@ const Card = ({ link, background, image, headline, text, cta, preheadline }) => 
 				<strong className='card__headline'>{ headline }</strong>
 			</div>
 				<div className='card__text'>{ text }</div>
-				{ cta && <span className='card__cta uikit-cta-link'>{ cta }</span> }
+				{ cta && <span className='card__cta au-cta-link'>{ cta }</span> }
 		</div>
 	</a>
 )};

@@ -10,17 +10,18 @@ const Intro = ( page ) => {
 	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
 
 	return (
-		<div className={`uikit-body uikit-grid intro intro--${ theme }`}>
+		<div className={`au-body au-grid intro intro--${ theme }`}>
 			<div className="container">
 				<div className="row">
-					<div className="col-md-12">
+					<div className="col-xs-12">
 						<div className="textwrapper">
 
 							{ page.category && <span id={ (page.category).toLowerCase() } className="section__section intro__category">{ page.category }</span> }
-							<h1 className="intro__headline">{ page.title ? page.title : page._pages[ page._ID ].pagetitle }</h1>
-							{ page.subtitle && <p className="intro__subtitle">{ page.subtitle }</p> }
+							<div><h2 className="au-display-xxxl guides-category-header-main-heading intro__headline">{ page.title ? page.title : page._pages[ page._ID ].pagetitle }</h2></div>
+
+							{ page.subtitle && <p className="guides-category-header-description intro-with-nav__subtitle">{ page.subtitle }</p> }
 							{ page.attrTitle1 &&
-								<div className="intro__metadata intro__metadata--intro small">
+								<p className="intro__metadata intro__metadata--intro small">
 								  <dl>
 									<dt>{ page.attrTitle1 }</dt>
 									<dd>{ page.attrLink1 ? (
@@ -37,7 +38,7 @@ const Intro = ( page ) => {
 										)}
 									</dd>
 								  </dl>
-								</div>
+								</p>
 							}
 							<div className="intro__text">{ page._body }</div>
 						</div>

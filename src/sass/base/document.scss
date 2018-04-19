@@ -40,7 +40,7 @@ img {
 }
 
 .textwrapper {
-	max-width: ( $uikit-maxwidth - 5);
+	max-width: ( $AU-maxwidth - 5);
 }
 
 .text-right {
@@ -51,13 +51,13 @@ img {
 	text-align: left;
 }
 
-.uikit-body p + ul,
-.uikit-body p + ol,
-.uikit-body p + dd {
+.au-body p + ul,
+.au-body p + ol,
+.au-body p + dd {
 	margin-top: -1em;
 }
 
-.uikit-body a[rel~='external']:after {
+.au-body a[rel~='external']:after {
 	height: 0.9em;
 
 	.ie9 & {
@@ -66,18 +66,18 @@ img {
 	}
 }
 
-.uikit-breadcrumbs > .uikit-link-list > li:after {
+.au-breadcrumbs > .au-link-list > li:after {
 	.ie9 & {
 		width: 1.1em;
 		height: 0.8em;
 	}
 }
-.uikit-body [tabindex="0"]:focus,
-.uikit-body :target {
+.au-body [tabindex="0"]:focus,
+.au-body :target {
 	outline: none;
 }
 
 
-.uikit-skip-link {
+.au-skip-link {
 	z-index: 10;
 }

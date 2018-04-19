@@ -1,69 +1,92 @@
+import AUfooter from '../../scripts/uikit/footer';
+import AUlinkList from '../../scripts/uikit/link-list';
+import AUheading from '../../scripts/uikit/headings';
 import PropTypes from 'prop-types';
 import React from 'react';
 
+
 /**
- * Footer layout
+ * The gov.au footer
  */
-const Footer = ( page ) => {
+const Footer = ({ headline, legallist, mainlist, _body, _ID, _relativeURL }) => (
+	<AUfooter dark className="footer au-body au-body--dark">
 
-	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
+		<div className="container-fluid">
 
-	return (
-		<footer className={`uikit-grid uikit-body uikit-footer footer footer--${ theme }`} role="contentinfo">
-			<div className="container">
 				<div className="row">
-					<div className="col-md-2">
-						<img className="footer__logo" src={`/assets/img/coa${ theme === 'blue' || theme === 'dark' ? '-white' : '' }.png`}
-							alt="The Australian Government coat of Arms" />
-					</div>
-					<div className="col-md-10">
-						<div className="footer__links__wrapper">
-							<ul className={`footer__links uikit-link-list uikit-link-list--inline uikit-link-list--inverted`}>
-								{
-									page.links && page.links.map( ( link, i ) => {
-										return (
-											<li key={ i } className="footer__listitem" >
-												{
-													page._pages[ link.title ]
-														? <a href={ page._pages[ link.title ]._url } className="footer__link">{ page._pages[ link.title ].pagetitle }</a>
-														: <a href={ link.url } className="footer__link">{ link.title }</a>
-												}
-											</li>
-										)
-									})
-								}
-							</ul>
+					<div className="col-md-offset-1 col-md-8 col-md-push-3">
+						<AUheading size="md" level="2">{ headline }</AUheading>
+
+						<AUlinkList items={ mainlist } inline/>
+
+						<AUlinkList items={ legallist } className="footer__legal-links" />
+
+						<div className="au-footer__end">
+							<div className="footer__content footer__legal">
+								{ _body }
+							</div>
 						</div>
-						<div className="footer__text footer__text--small">
-							{ page._body }
-						</div>
+
 					</div>
+
+
+					<div className="col-md-3 col-md-pull-9 footer__logo">
+						<p className="footer__affiliate">
+							<span>An initiative of the </span>
+							<span>Digital Transformation Agency </span>
+							<span className="footer__affiliate-link">
+								<a href="https://www.dta.gov.au/">More projects</a>
+							</span>
+						</p>
+						{/* <a href="http://dta.gov.au"><img className="footer__image" src={ _relativeURL( '/assets/img/footer-logo-dta.png', _ID ) } alt="Digital Transformation Agency" title="Digital Transformation Agency"/></a> */}
+					</div>
+
 				</div>
 			</div>
-		</footer>
-	);
-}
 
+	</AUfooter>
+);
 
 Footer.propTypes = {
 	/**
-	 * links:
-	 *   - title: homepage
-	 *   - title: privacy-statement
-	 *   - title: Disclaimer
-	 *     url: https://www.dta.gov.au/disclaimer/
-	 *   - title: sitemap
+	 * headline: Community
 	 */
-	links: PropTypes.array.isRequired,
+	headline: PropTypes.string.isRequired,
 
 	/**
-	 * _body: (text)(2)
+	 * legallist:
+	 *   - text: Forums
+	 *     link: /
+	 *   - text: Articles
+	 *     link: /
+	 */
+	legallist: PropTypes.arrayOf(
+		PropTypes.shape({
+			text: PropTypes.string.isRequired,
+			link: PropTypes.string.isRequired,
+		})
+	).isRequired,
+
+	/**
+	 * mainlist:
+	 *   - text: Privacy policy
+	 *     link: /
+	 *   - text: Need help?
+	 *     link: /
+	 */
+	mainlist: PropTypes.arrayOf(
+		PropTypes.shape({
+			text: PropTypes.string.isRequired,
+			link: PropTypes.string.isRequired,
+		})
+	).isRequired,
+
+	/**
+	 * _body: (text)(1)
 	 */
 	_body: PropTypes.node.isRequired,
 };
 
-
 Footer.defaultProps = {};
-
 
 export default Footer;

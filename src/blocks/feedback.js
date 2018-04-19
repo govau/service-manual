@@ -7,22 +7,21 @@ import React from 'react';
  */
 const Feedback = ( page ) => {
 
-	const HeadingTag = `h${ page.level }`;
-
 	return (
-		<div className="uikit-body uikit-grid feedback">
-			<div className="container">
+		<div className="au-body au-grid feedback_container">
+			<div className="container-fluid">
 				<div className="row">
-					<div className="col-sm-12">
-						<HeadingTag className="feedback__title display-3">{ page.title }</HeadingTag>
-						<div className="textwrapper">
-							<p className="feedback__caption1">{ page.caption1 }</p>
-							<p className="feedback__button">
-								<a href="https://www.surveymonkey.com/r/XFWJ5TC" className="uikit-btn">
-									Give feedback
-								</a>
-							</p>
-							<span>{ page._body }</span>
+					<div className="col-xs-12">
+						<div className="feedback_item feedback_tagline">
+							{ page.title }
+						</div>
+						<div className="feedback_item feedback_secondary">
+							<a href={ page.buttonUrl }>
+								{ page.buttonText }
+							</a>
+						</div>
+						<div className="feedback_item feedback_secondary">
+							Email: <a href={ page.email_link }>guides-feedback@digital.gov.au ></a>
 						</div>
 					</div>
 				</div>
@@ -33,11 +32,6 @@ const Feedback = ( page ) => {
 
 
 Feedback.propTypes = {
-
-	/**
-	 * caption: This is the first release of Gov.au Service Manual. We'd love to know what's missing or could be done better
-	 */
-	caption: PropTypes.string,
 
 	/**
 	 * buttonUrl: /feedback
