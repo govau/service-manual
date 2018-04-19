@@ -1,8 +1,14 @@
 .homepagebanner {
 	text-align: center;
-	padding-top: 6rem;
-	padding-bottom: 6rem;
+	padding: 6rem 0;
 	max-width: 100%;
+}
+
+.homepagebanner .cards {
+	background: transparent;
+	text-align: left;
+	margin-bottom: 0;
+	padding: 4rem 2rem 0 2rem;
 }
 
 .homepagebanner__oddrow {
@@ -14,7 +20,7 @@
 }
 
 .homepagebanner__paragraphcontainer p {
-	max-width: 40%;
+	max-width: 50%;
 	padding-top: 2rem;
 	margin: auto;
 	font-size: 110%;
@@ -32,18 +38,3 @@
 	font-size: 1.3rem;
 }
 
-.homepagebannercard__container {
-	width: 20rem;
-	display: inline-block;
-	text-align: left;
-	vertical-align: top;
-	margin: 1rem;
-}
-
-.homepagebannercard__container:hover{
-	//background-color: #1586b1;
-}
-
-.homepagebannercards__container {
-	margin-top: 3.5rem;
-}
