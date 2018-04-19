@@ -1,15 +1,15 @@
 .category-headline {
-	background-color: $uikit-colour-Primary;
+	background-color: $AU-colordark-background;
 	margin-top: -3em;
 	margin-bottom: 3em;
 	color: #fff;
 	font-weight: bold;
 
 	&.category-headline--dark {
-		background-color: $uikit-colour-Secondary-90;
+		background-color: $AU-colordark-background;
 	}
 }
 
 .category-headline__title {
-	padding: uikit-space( 0.25 );
+	padding: AU-space( 0.25 );
 }

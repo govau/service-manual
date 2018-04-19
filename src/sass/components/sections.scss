@@ -1,17 +1,17 @@
 .sections {
-	.uikit-inpage-nav-links__heading {
+	.au-inpage-nav-links__heading {
 		font-size: 16px;
-		color: $uikit-colour-Primary;
+		color: $AU-color-foreground-text;
 	}
 }
 
-.uikit-inpage-nav-links {
+.au-inpage-nav-links {
 	.sections & {
 		margin: 0em 0 3.2em 0;
 	}
 }
 
-.uikit-inpage-nav-section-link {
+.au-inpage-nav-section-link {
 	.sections & {
 		display: none;
 	}
@@ -19,11 +19,11 @@
 
 .section__section {
 	display: block;
-	text-transform: uppercase;
-	border-left: 2px solid $uikit-colour-Primary;
+	//color: $AU-color-foreground-muted;
+	border-left: 2px solid $AU-color-foreground-border;
 	padding-left: 0.5em;
-	margin-top: 0;
-	margin-bottom: uikit-space( 0.75 );
+	margin-top: 2rem;
+	margin-bottom: 1rem;
 	font-weight: bold;
 	line-height: 1.2;
 }

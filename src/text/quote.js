@@ -6,10 +6,10 @@ import React from 'react';
  * The quote component
  */
 const Quote = ( page ) => (
-	<div className="uikit-body uikit-grid quote">
+	<div className="au-body au-grid quote">
 		<div className="container">
 			<div className="row">
-				<div className="col-md-12">
+				<div className="col-xs-12">
 					<blockquote>
 						<div className="textwrapper">
 							<div className="quote__text">{ page.quote }</div>

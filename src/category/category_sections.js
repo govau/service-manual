@@ -15,7 +15,7 @@ const CategorySections = ( page ) => {
 	}));
 
 	return (
-		<div className="uikit-body uikit-grid category-sections">
+		<div className="au-body au-grid category-sections">
 			<div className="category-sections__wrapper js-sections">
 				<ul className="category-sections__list">
 					{

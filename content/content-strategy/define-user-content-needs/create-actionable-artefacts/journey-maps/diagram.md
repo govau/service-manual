@@ -3,7 +3,7 @@ layout: blocks/image_content_block
 image: content-strategy/journey-map-example.jpg
 link: content-strategy/journey-map-example.jpg
 reverse: false
-stackPosition: top
+stackPosition:
 imageAlt: Journey map template
 title: 'Step 3: Visualise the journey'
 level: 3

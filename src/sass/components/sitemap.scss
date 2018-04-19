@@ -1,6 +1,6 @@
 .sitemap {
-	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-top: 4rem;
+	margin-bottom: 7rem;
 
 	.navigation--level-3 {
 		border-top: 0;
@@ -11,10 +11,14 @@
 		}
 	}
 
-	&.uikit-body {
+	&.au-body {
 		ul,
 		li {
 			margin: 0;
 		}
 	}
+}
+
+.sitemapnav__wrapper {
+	margin-top: 3rem;
 }
