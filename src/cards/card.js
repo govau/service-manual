@@ -15,7 +15,7 @@ const Card = ({ link, background, image, headline, text, cta, preheadline }) => 
 
 	return (
 	<div className='guides-card'>
-		<a href={ link }>
+		<a className="guides-card__link" href={ link }>
 			<div className="card__imagewrap">
 				{ image && <img className='card__image' src={ image } alt="" /> }
 			</div>

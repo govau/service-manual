@@ -164,3 +164,8 @@
 .cards__link {
 	margin-bottom: 0;
 }
+
+.guides-card__link:focus {
+	color: $AU-color-foreground-focus;
+	text-decoration: underline;
+}
