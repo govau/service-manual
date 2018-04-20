@@ -85,7 +85,7 @@ a.header__logo-wrapper {
 	@include AU-space( padding-top, 1.5unit );
 	@include AU-fontgrid( xl, nospace );
 	color: $AU-colordark-foreground-text;
-	border-top: solid 1px $AU-colordark-foreground-border;
+	//border-top: solid 1px $AU-colordark-foreground-border;
 
 	&.au-display-md {
 		font-weight: bold;
