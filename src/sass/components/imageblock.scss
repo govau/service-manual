@@ -1,5 +1,5 @@
 .imageblock__section {
-	color: #c1780b;
+	//color: #c1780b;
 }
 
 .imageblock__container {
@@ -7,4 +7,11 @@
 	margin-bottom: 7rem;
 	padding-top: 2rem;
 	border-top: 1px solid #dbdbdb;
+}
+.imageblock__headline {
+	margin-top: 0;
+}
+
+.imageblock__headline__container h2 {
+	margin-top: 0;
 }
