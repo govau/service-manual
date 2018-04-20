@@ -20,7 +20,7 @@ const Sections = ( page ) => {
 		<div className="au-body au-grid sections">
 			<div className="container">
 				<div className="row">
-					<div className="col-xs-6 js-sections">
+					<div className="col-md-6 js-sections">
 						<AUinpageNavLinks title="In this section" sections={ sections } title={ page.title } />
 					</div>
 				</div>
