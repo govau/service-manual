@@ -5,7 +5,10 @@
 .intro {
 	background-color: $AU-color-background;
 	margin-bottom: 4rem;
-	margin-top: 2rem;
+
+	@include AU-media( xs ) {
+		margin-top: 2rem;
+	}
 
 	&.intro--withnav {
 		background-color: transparent;
