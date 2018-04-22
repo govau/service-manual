@@ -7,23 +7,23 @@ import React from 'react';
  */
 const TopicTakeaway = ( page ) => {
 	return (
-	<div className="uikit-body uikit-grid" >
+	<div className="au-body au-grid" >
 		<div className="container">
 
 			<div className="row">
 				<div className="col-md-12">
-					<h2 className="display-3">{ page.heading }</h2>
+					<h2 className="au-display-xxl">{ page.heading }</h2>
 				</div>
 			</div>
 
 			<div className="row">
-				<div className="col-md-12">
+				<div className="col-md-12 topic-takeaway-container">
 					<div className="col-md-4 topic-takeaway-output">
-						<h3 className="display-2">{ page.first_column_header }</h3>
+						<h3>{ page.first_column_header }</h3>
 						<div className="topic-takeaway-list">{ page.first_column_content }</div>
 					</div>
 					<div className="col-md-6 col-md-offset-2">
-						<h3 className="display-2">{ page.second_column_header }</h3>
+						<h3>{ page.second_column_header }</h3>
 						{ page._body }
 					</div>
 				</div>

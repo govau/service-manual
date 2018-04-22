@@ -1,3 +1,3 @@
 ---
-layout: structure/header
+layout: text/textblock
 ---

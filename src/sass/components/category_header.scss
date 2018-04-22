@@ -1,59 +1,13 @@
-.category__header {
-	background: $uikit-colour-Primary;
-	color: #fff;
-	padding: uikit-space( 1.3 ) 0;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-
-	@include uikit-media( sm ) {
-		background-repeat: no-repeat;
-		background-position: right;
-		background-size: auto 100%;
-
-		&.category__header--ID-user-research {
-			background-image: url('../img/research-header.jpg');
-		}
-
-		&.category__header--ID-content-strategy {
-			background-image: url('../img/content-header.jpg');
-		}
-
-		&.category__header--ID-service-design-delivery-process {
-			background-image: url('../img/delivery-header.jpg');
-		}
-
-		&.category__header--ID-starting-team {
-			background-image: url('../img/team-header.jpg');
-		}
-
-		&.category__header--ID-governing-content {
-			background-image: url('../img/governing-content-header.jpg');
-		}
-
-		&.category__header--ID-creating-user-centred-content {
-			background-image: url('../img/user-centred-content-header.jpg');
-		}
-
+.guides-category-header {
+	@include AU-media( sm ) {
+		padding-top: 5rem;
 	}
+	padding-top: 2rem;
+	padding-bottom: 3rem;
 }
 
-
-.feedback__btn {
-	.category__header & {
-		float: left;
-		clear: both;
-		margin-top: uikit-space( 0.5 );
-
-		@include uikit-media( xs ) {
-			float: right;
-			clear: none;
-		}
-	}
-}
-
-.feedback__btn {
-	.category__header & {
-		background: #fff;
-		color: $uikit-colour-Secondary;
-	}
+.guides-category-header-description {
+	color: $AU-color-foreground-muted;
+	font-size: 120%;
+	font-weight: lighter;
 }

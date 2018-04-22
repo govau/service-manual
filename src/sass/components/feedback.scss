@@ -1,26 +1,40 @@
-.feedback {
-	padding: uikit-space( 1.75 ) 0 uikit-space( 1 ) 0;
+.feedback_container {
+	padding: 3.0rem 0 4.4rem 0;
 	color: #fff;
-	background: $uikit-colour-Primary;
+	background: #1a1a1a;
+	margin-top: 4rem;
+	text-align: center;
+}
 
-	a {
-		color: #fff;
+.feedback_tagline {
+	position: relative;
+	top: 0.4rem;
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.feedback_item {
+	display: inline;
+	@media screen and ( max-width: 1000px ) {
+		display: block;
 	}
 }
 
-.feedback__title {
+.feedback_item a {
+	color: #4cc3ee;
+}
+
+.feedback_item a:hover {
 	color: #fff;
 }
 
-.feedback__caption {
-	display: block;
-	margin: 0 0 uikit-space( 1 ) 0;
-	max-width: 450px;
-}
-
-.feedback__button {
-	.uikit-btn {
-		background: #fff;
-		color: $uikit-colour-Secondary;
+.feedback_secondary {
+	font-size: 1.4rem;
+	font-weight: 400;
+	margin-left: 2.6rem;
+	@media screen and ( max-width: 1000px ) {
+		font-size: 1rem;
+		margin-left: 0;
+		margin-top: 0.5rem;
 	}
 }

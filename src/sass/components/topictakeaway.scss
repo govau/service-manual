@@ -1,8 +1,12 @@
+.topic-takeaway-list {
+	margin-top: 1.5rem;
+}
+
 .topic-takeaway-list ul {
 	list-style:none;
 	padding-left: 1em;
 	position: relative;
-	left: -22px;
+	left: -10px;
 }
 
 .topic-takeaway-list ul li {
@@ -18,25 +22,35 @@
 	}
 }
 
+.topic-takeaway-previous-card {
+	margin-top: 0.5rem;
+}
+
 .topic-takeaway-next-card {
 	text-align: right;
+	margin-top: 0.5rem;
 }
 
 .topic-takeaway-output {
 	margin-left: -8px;
+	margin-bottom: 1.2rem;
+}
+
+.topic-takeaway-container {
+	margin-top: 2rem;
 }
 
 .topic-takeaway-card-content {
 	background-color: #f7f7f7;
-	padding-top: 24px;
+	padding-top: 28px;
 	padding-left: 24px;
 	padding-right: 16px;
-	padding-bottom: 2px;
+	padding-bottom: 24px;
 }
 
 .topic-takeaway-paginator {
 	margin-top: 20px;
-	margin-bottom: 40px;
+	//margin-bottom: 40px;
 	font-size: 90%;
 }
 
@@ -45,7 +59,7 @@
 }
 
 .topic-takeaway-gray {
-	color: $uikit-colour-Border;
+	color: $AU-color-foreground-border;
 	position: relative;
 	top: -14px;
 	font-weight: lighter;

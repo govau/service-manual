@@ -7,10 +7,10 @@ import PropTypes from 'prop-types';
  */
 const Callout = ( page ) => {
 	return (
-	<div className={ `uikit-body uikit-grid callout` } >
+	<div className={ `au-body au-grid callout` } >
 		<div className="container">
 			<div className="row">
-				<div className="col-md-12">
+				<div className="col-xs-12">
 					<div className="textwrapper callout__text">
 						{ page._body }
 					</div>

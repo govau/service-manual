@@ -1,42 +1,55 @@
-.cards {
-	margin-bottom: 4em;
-}
-
-.cards--2cols {
-	background-color: $uikit-colour-Background;
-	margin: -2em 0 0 0;
-	padding: 0 0 1em 0;
-}
-
-.card {
+.guides-card {
+	border-top: 5px solid #4fc0f0;
 	box-sizing: border-box;
 	display: block;
-	border-radius: $uikit-border-radius;
+	border-radius: 0.4rem;
 	overflow: hidden;
 	width: 100%;
+	background-color: $AU-color-background;
+	position: relative;
+	transition: all 0.2s ease-in-out;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
 
-	.uikit-body & {
-		transition: box-shadow 0.2s ease, background 0.2s ease;
-		border: $uikit-borderize;
-	}
+.guideshomepagecards .card__wrapper {
+	padding: 2rem;
+}
 
-	.cards--category & {
-		color: #fff;
-	}
+.cards--2cols .card__wrapper {
+	padding-left: 2rem;
+}
+
+.au-body a.guides-card {
+	text-decoration: none;
+}
+
+.au-body a.guides-card:hover,
+.au-body a.guides-card:focus {
+	color: #1c344f;
+	transition-property: color;
+	transition-duration: 0.6s;
+}
+
+.cards {
+	background-color: $AU-color-background-alt;
+	margin: 1rem 0 4rem 0;
+	padding: 1rem 0 4rem 0;
 }
 
 .card__wrapper {
-	padding: uikit-space( 0.75 );
+	padding: 1.25rem;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	flex: auto;
 	justify-content: flex-start;
+	border: 3px solid #fff;
 }
 
 .card__text {
-	margin-bottom: auto;
+	margin-bottom: 3rem;
 	width: 100%;
+	text-decoration: none;
 
 	.cards--category & {
 		margin-bottom: 1em;
@@ -48,42 +61,42 @@
 }
 
 .card__headline__wrapper {
-	margin-bottom: uikit-space( 1 );
+	margin-bottom: 1em;
 	width: 100%;
 }
 
 .card__headline {
 	.cards--2cols & {
-		font-size: 24px;
+		font-size: 1.6rem;
 	}
 }
 
 .card__headline {
 	display: inline;
-	border-bottom: solid 1px $uikit-colour-Primary;
+	font-size: 1.2rem;
 
 	.cards--category & {
 		border: none;
-		font-size: 25px;
 	}
 }
 
 .card__preheadline {
 	margin-bottom: 0.5em;
-	font-size: 15px;
+	font-size: 1.6rem;
+	font-weight: 200;
     display: inline-block;
 }
 
-.card:hover,
-.card:focus {
-	box-shadow: 0px 0px 15px -2px rgba( 0, 0, 0, 0.26 );
+.guides-card:hover,
+.guides-card:focus {
+	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 
-	.uikit-body & {
-		border-color: $uikit-colour-Border;
+	.au-body & {
+		border-top: 5px solid #93d7f5;
 	}
 
 	.card__headline {
-		background-color: $uikit-colour-Link;
+		background-color: $AU-color-background;
 		border-color: transparent;
 
 		.cards--category & {
@@ -93,22 +106,26 @@
 	}
 
 	.card__cta {
-		background-color: $uikit-colour-Link;
+		background-color: $AU-color-background;
 		border-color: transparent;
-		color: $uikit-colour-Text; //sets the hover back to what it used to be.
+		color: $AU-color-foreground-text; //sets the hover back to what it used to be.
 
 		.cards--category & {
 			background-color: transparent;
 		}
 
 		&:after {
-			margin: 0 uikit-space( 0.1 ) 0 uikit-space( 0.4 ); //move arrow by just uikit-space( 0.1 ); this is not a magic number …
+			margin: 0 0.1 0 0.4; //move arrow by just uikit-space( 0.1 ); this is not a magic number …
 		}
 	}
 }
 
 .card__cta {
-	&.uikit-cta-link {
+	position: absolute;
+	bottom: 1rem;
+	right: 1rem;
+
+	&.au-cta-link {
 		margin: 2em 0 0 0;
 		font-size: 16px;
 
@@ -132,7 +149,7 @@
 	display: flex;
 	flex-wrap: wrap;
 
-	.uikit-grid & {
+	.au-grid & {
 		padding: 0;
 		margin-bottom: 0;
 		margin-left: -12px;
@@ -146,7 +163,7 @@
 	float: left;
 	flex-basis: 100%;
 
-	@include uikit-media( sm ) {
+	@include AU-media( sm ) {
 		display: flex;
 		align-items: stretch;
 		flex-basis: auto;

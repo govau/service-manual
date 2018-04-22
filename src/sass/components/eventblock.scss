@@ -1,13 +1,13 @@
 .eventwrapper {
-	margin: uikit-space( 2 ) 0;
+	margin: AU-space( 2 ) 0;
 }
 
 .eventblock__title__wrapper {
-	margin-bottom: uikit-space( 0.6 );
+	margin-bottom: AU-space( 0.6 );
 }
 
 .eventblock__title {
-	border-bottom: 1px solid $uikit-colour-Link;
+	border-bottom: 1px solid $AU-color-foreground-border;
 }
 
 .eventblock__date {
@@ -27,9 +27,9 @@
 }
 
 .eventblock__date__svg {
-	height: uikit-space( 1.6 );
-	width: uikit-space( 1.6 );
-	margin-right: uikit-space( 0.7 );
+	height: AU-space( 1.6 );
+	width: AU-space( 1.6 );
+	margin-right: AU-space( 0.7 );
 	vertical-align: middle;
 	display: inline-block;
 }

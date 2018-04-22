@@ -3,8 +3,6 @@ layout: text/textblock
 ---
 The purpose of IA is to help users navigate your website with ease. The way you structure the flow of content, should add to the user experience.
 
-You may also look at other sites or talk with other people who have an interest in your content.
-
 Some of the main purposes of IA are to:
 - make the lives of users better and easier
 - direct users to what they need

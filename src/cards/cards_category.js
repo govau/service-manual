@@ -9,12 +9,12 @@ import Card from './card';
  * The partial component
  */
 const CardsCategory = ( page ) => (
-	<div className={`uikit-body uikit-grid cards cards--category`}>
+	<div className={`au-body au-grid cards cards--category`}>
 		<div className="container">
 			<ul className="cards__list">
 				{
 					page.cards.map( ( card, i ) => (
-						<li key={ i } className="col-sm-6 col-md-4 col-lg-3 cards__list__item">
+						<li key={ i } className="col-xs-3 cards__list__item">
 							<Card
 								link={ card.link }
 								background={ card.background }
@@ -28,7 +28,7 @@ const CardsCategory = ( page ) => (
 				}
 			</ul>
 
-			{ page.cardsLink && <a className="cards__link uikit-cta-link" href={ `${ page.cardsLink.url }` }>{ page.cardsLink.text }</a> }
+			{ page.cardsLink && <a className="cards__link au-cta-link" href={ `${ page.cardsLink.url }` }>{ page.cardsLink.text }</a> }
 		</div>
 	</div>
 );

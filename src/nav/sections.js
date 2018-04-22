@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import Slugify from 'slugify';
 import React from 'react';
 
-import { InpageNavLinksItem, InpageNavLinks } from '../../scripts/uikit/inpage-nav';
+import { AUinpageNavLinksItem, AUinpageNavLinks } from '../../scripts/uikit/inpage-nav';
 
 
 /**
@@ -17,11 +17,11 @@ const Sections = ( page ) => {
 	}));
 
 	return (
-		<div className="uikit-body uikit-grid sections">
+		<div className="au-body au-grid sections">
 			<div className="container">
 				<div className="row">
 					<div className="col-md-6 js-sections">
-						<InpageNavLinks title="In this section" sections={ sections } title={ page.title } />
+						<AUinpageNavLinks title="In this section" sections={ sections } title={ page.title } />
 					</div>
 				</div>
 			</div>

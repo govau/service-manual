@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import Accordion from '../../scripts/uikit/accordion.js'
+import AUaccordion from '../../scripts/uikit/accordion.js'
 
 /**
  * The LongDescription component
@@ -8,10 +8,10 @@ import Accordion from '../../scripts/uikit/accordion.js'
 const LongDescription = ( page ) => {
 
 	return (
-		<div className="long-description-accordion">
-			<Accordion header="Full text description of image">
+		<div className="longdescription__accordion">
+			<AUaccordion header="Full text description of image">
 				{ page._body }
-			</Accordion>
+			</AUaccordion>
 		</div>
 	);
 }
