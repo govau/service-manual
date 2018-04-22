@@ -1,6 +1,6 @@
 ---
 layout: text/homepagebanner
-button_text: View the standard
+button_text: View the Standard
 button_link: /digital-service-standard/
 oddrow: false
 heading: Meet the Digital Service Standard
