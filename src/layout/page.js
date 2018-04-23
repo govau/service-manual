@@ -26,9 +26,9 @@ const Page = ( page ) => (
 		<script src="/assets/js/svg4everybody.min.js" />
 	</head>
 	<body className="au-grid">
-		<main>
+		{ page.header }
+		<main id="content">
 			<a name="nav" />
-			{ page.header }
 			{ page.main }
 		</main>
 

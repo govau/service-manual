@@ -15,7 +15,6 @@ const IntroNav = ( page ) => {
 	return (
 		<div className={`au-body au-grid intro intro--withnav intro__wrapper intro--${ theme }`}>
 			<div className="container">
-				<div className="spacer__sm" />
 				<div className="row">
 					<div className="col-xs-12">
 

@@ -15,23 +15,22 @@ const Imageblock = ( page ) => {
 	const HeadingTag = `h${ page.level }`;
 
 	return (
-		<div className={`imageblock imageblock--${ theme } ${ reverse } ${ bottomMargin } au-body au-grid`}>
-			<div className="imageblock__image">
-				<div className="container imageblock__container">
-					<div className="row">
-						<div className={`imageblock__content imageblock__content--${ theme }`}>
+					<div className="au-grid au-body">
+						<div className="container imageblock__container">
+							<div className="row col-md-12">
 							{ page.section && <span className="imageblock__section section__section intro__category" id={ Slugify( page.section ).toLowerCase() } >{ page.section }</span> }
-							<div className="textwrapper">
+							</div>
+							<div className="row col-md-12">
 								<HeadingTag className={ `imageblock__headline display-${ page.display }` }>
 									{ page.title ? page.title : page._pages[ page._ID ].pagetitle }
 								</HeadingTag>
 							</div>
-							{ page._body }
+							<div className="row col-md-12">
+								<p>{ page._body }</p>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
+
 	);
 }
 
