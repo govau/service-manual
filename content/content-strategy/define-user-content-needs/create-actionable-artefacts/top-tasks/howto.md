@@ -29,6 +29,8 @@ Your first top tasks list will likely be very long. If you are short on time and
 
 ### [2]Step 3: Refine your task list
 You can refine your list with your stakeholders. Reduce it to under 100 tasks by removing:
-duplicates
-high-level 
+- duplicates
+- high-level 
+
+
 

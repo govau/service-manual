@@ -11,4 +11,6 @@ display: 3
 long_description: new-long-description-venn.md
 ---
 
-Venn diagrams are really useful for conveying overlap. They’re perfect when the problem could be that multiple websites or departments are producing the same content.
+Venn diagrams are really useful for conveying overlap. 
+
+They can indicate the problem of multiple websites or departments producing the same content.
