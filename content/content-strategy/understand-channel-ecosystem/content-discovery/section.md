@@ -11,14 +11,13 @@ At this stage you are not looking to audit each channel to unpack how much conte
 ### [1]Talk to people
 Set up interviews with people in the agency who have had anything to do with commissioning or owning a channel, or who publish content. Start with the communications, media, social media, and IT teams. 
 
-### [1]Ask questions
+### [1]Find out
 
-Such as:
- * what channels do you currently have or use?
- * what channels do you no longer use or use less?
- * what are the connections between channels? 
- * who owns the channels? 
- * who creates and publishes content on these channels? 
- * who do you think the users are?
- * are there other content formats such as books and leaflets?
- * what is the purpose of each channel?
+ * channels you currently have or use
+ * channels you no longer use or use less of
+ * the connections between channels 
+ * who owns the channels 
+ * who creates and publishes content on these channels 
+ * who you think the users are
+ * if there are other content formats such as books and leaflets
+ * the purpose of each channel
