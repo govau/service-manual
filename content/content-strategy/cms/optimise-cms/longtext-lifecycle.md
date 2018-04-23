@@ -1,5 +1,5 @@
 ---
-layout: text/textblock
+layout: blocks/long_description
 ---
 
 ### [2] Content lifecycle long description
@@ -13,4 +13,3 @@ Running left to right are circles with the labels:
  - remove
 
 An arrow leads from improve back to intent with a label of evaluate. 
-

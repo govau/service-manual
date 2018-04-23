@@ -1,5 +1,5 @@
 ---
 layout: intros/intro_with_nav
-subtitle: Conduct a review and research other related websites before you begin to develop your IA.
+subtitle: Before you start any IA work, review your current site, and research other related websites. Also ensure to engage with users and talk with other people who have an interest in your content.
 category: Content strategy
 ---

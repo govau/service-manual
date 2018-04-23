@@ -1,6 +1,7 @@
 ---
-layout: text/textblock
+layout: blocks/long_description
 ---
+#### [1]Content decision tree
 Top of flow chart begins with Q: "Does the content meet your target audience’s need?"
 
 1. If 'Yes' to Q: "Does the content meet your target audience’s need?", then Q: "Is the content redundant, outdated or trivial?"
@@ -17,3 +18,4 @@ Top of flow chart begins with Q: "Does the content meet your target audience’s
         2. If ‘Yes’, then Q: "Does the content meet accessibility and quality guidelines?"
             1. If ‘Yes’, then "Publish".
             2. If ‘No’, then "Rewrite content", then check it meets accessibility and quality guidelines, and then "Publish".
+

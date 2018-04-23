@@ -34,4 +34,7 @@ cards:
   - headline: Analysing user research
     text: How to act on your user research.
     link: '/user-research/analysing-user-research/'
----
+  - headline: Understanding diversity
+    text: Be mindful that users have diverse needs and abilities.
+    link: '/user-research/understanding-diversity/'
+

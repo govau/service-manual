@@ -1,5 +1,5 @@
 ---
 layout: intros/intro_with_nav
-subtitle: Start by developing a plan.  Make sure you link your plan to any existing communications plans and digital strategies.
+subtitle: Following on from reviewing your current IA, research and user engagement, comes the planning stage. Make sure to also link your plan to any existing web communications plans and digital strategies.
 category: Content strategy
 ---
