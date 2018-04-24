@@ -20,8 +20,6 @@ const Childnav = ({ page }) => {
 	return (
 		<div className={`childnav js-childnav childnav--${ theme }`}>
 			<div className="childnav__container">
-				<button className="childnav__controls">{ childNavTitle }</ button>
-
 				<Navigation
 					wrappingId="childnav-list"
 					wrappingClass="childnav__list"
