@@ -5,6 +5,7 @@ description: Find out how to set goals, objectives and measure the success of yo
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
+  - /_shared/breadcrumbs.md
 main:
   - attribution.md #attribution
   - why-head.md

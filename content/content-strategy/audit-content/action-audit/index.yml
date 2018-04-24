@@ -6,7 +6,7 @@ theme: blue
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
-main:
+  - /_shared/breadcrumbs.md
   - intro.md
   - toc.md #toc
   - heading.md #report findings

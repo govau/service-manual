@@ -5,6 +5,7 @@ description: To start a content strategy you will need to involve senior executi
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
+  - /_shared/breadcrumbs.md
 main:
   - attribution.md
   - how.md
