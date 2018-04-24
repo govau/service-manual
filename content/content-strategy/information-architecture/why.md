@@ -1,7 +1,10 @@
 ---
 layout: text/textblock
 ---
-The main objectives of IA are to make the lives of users better, direct them to what they need, so they can make informed decisions.
+The main objectives of IA are to:
+- make the lives of users better
+- direct users to the information they need
+- help users make informed decisions
 
 You may also need to create, change or improve your IA when:
 - you update the structure of your existing website

@@ -2,7 +2,7 @@
 layout: cards/cards
 cards:
   - headline: Review, research, engage
-    text: Conduct a review and research other related websites before you begin to develop your IA.
+    text: Review existing IA and content, research other websites, engage with users and stakeholders.
     link: '/content-strategy/information-architecture/review-ia/'
   - headline: Plan your IA
     text: Start by developing a plan. Make sure you link your plan to any existing communications plans and digital strategies.

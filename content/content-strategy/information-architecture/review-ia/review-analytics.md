@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-Using website analytics is all about understanding the needs and website behaviour of your users. Good IA relies on this understanding. 
+This type of content review is all about how your content has been performing. Using website analytics, you can better understand the needs of your users and their behaviour on your site. Good IA relies on this understanding. 
 
 ### [3]Start with popular content
 Popular landing pages can tell you what users are looking for on your site and how your IA is performing. Each page on your website can act as a landing page. Not all users will land on your homepage first.
@@ -19,7 +19,7 @@ Improvements to least popular pages may involve adding more useful content and/o
 ### [3]IA and user behaviour flow
 You can also use analytics to better understand user behaviour flow. This will show you how users are navigating and moving around your site. Use this information to find out about patterns of behaviour. 
 
-Behaviour flow can also reveal where users are coming into your website from and where they are exiting. One tool that may also be useful in analysing user behaviour is Screaming Frog.
+Behaviour flow can also reveal where users are coming into your website from and where they are exiting. One tool that may also be useful in analysing user behaviour is [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/).
 
 ### [3]IA and new sites
 If you are building a new website, you’ll be building your IA from scratch. Getting this right is an important foundational step in new website development. 

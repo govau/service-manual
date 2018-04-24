@@ -1,4 +1,4 @@
-pagetitle: Plan your IA
+pagetitle: Plan and build your IA
 weight: 20
 description: Make sure you link your plan to any existing communications plans and digital strategies.
 layout: layout/topic
@@ -9,12 +9,17 @@ header:
 main:
   - intro.md
   - sections.md
-  - identify-user-needs-head.md
-  - identify-user-needs.md
-  - list-special-content-requirements-head.md
-  - list-special-content-requirements.md
-  - list-business-requirements-head.md
-  - list-business-requirements.md
+  - taxonomy-head.md
+  - taxonomy.md
+  - group-content-head.md
+  - group-content.md
+  - visualise-head.md
+  - visualise.md
+  - diagram.md
+  - diagram2.md
+  - diagram3.md
+  - menu-head.md
+  - menu.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
