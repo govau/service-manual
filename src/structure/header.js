@@ -1,3 +1,7 @@
+// copied from govau/designsystem with some tweaks
+// line 26, line 35
+// change 'index' -> 'homepage'
+
 import AUheader            from '../../scripts/uikit/header';
 import AUskipLink          from '../../scripts/uikit/skip-link';
 import React, { Fragment } from 'react';
