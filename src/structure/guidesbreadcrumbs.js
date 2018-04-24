@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-
 import Breadcrumbs from '../../scripts/uikit/breadcrumbs';
 
 
 /**
  * The structure/guidesbreadcrumbs component
  */
+
 const GuidesBreadcrumbs = ( page ) => {
 	const breadcrumbs = [];
 
@@ -17,8 +17,6 @@ const GuidesBreadcrumbs = ( page ) => {
 			text: page._pages[ parent ].pagetitle,
 	}));
 
-	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
-
 	return (
 
 			<div className="container">
@@ -27,7 +25,7 @@ const GuidesBreadcrumbs = ( page ) => {
 						<div className="guidesbreadcrumbs">
 							{
 								breadcrumbs.length > 1
-									? <Breadcrumbs label="Breadcrumb for this page" items={ breadcrumbs } inverted={ theme === 'blue' || theme === 'dark' } />
+									? <Breadcrumbs label="Breadcrumb for this page" items={ breadcrumbs } />
 									: null
 							}
 						</div>
