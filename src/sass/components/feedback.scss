@@ -1,14 +1,14 @@
 .feedback_container {
-	padding: 3.0rem 0 4.4rem 0;
-	color: #fff;
-	background: #1a1a1a;
-	margin-top: 4rem;
+	padding: 3.0rem 0 4rem 0;
+	color: $AU-colordark-foreground-text;
+	background: $AU-colordark-background-alt-shade;
+	margin-top: 3.2rem;
 	text-align: center;
 }
 
 .feedback_tagline {
 	position: relative;
-	top: 0.4rem;
+	top: 0.2rem;
 	font-size: 2rem;
 	font-weight: 600;
 }
@@ -21,11 +21,7 @@
 }
 
 .feedback_item a {
-	color: #4cc3ee;
-}
-
-.feedback_item a:hover {
-	color: #fff;
+	font-weight: 400;
 }
 
 .feedback_secondary {

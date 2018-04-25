@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import AUctaLink from '../../scripts/uikit/cta-link';
 
 
 /**
@@ -16,12 +17,12 @@ const Feedback = ( page ) => {
 							{ page.title }
 						</div>
 						<div className="feedback_item feedback_secondary">
-							<a href={ page.buttonUrl }>
+							<a className="au-cta-link au-cta-link--dark" href={ page.buttonUrl }>
 								{ page.buttonText }
 							</a>
 						</div>
 						<div className="feedback_item feedback_secondary">
-							Email: <a href={ page.email_link }>guides-feedback@digital.gov.au ></a>
+							Email: <a className="au-cta-link au-cta-link--dark" href={ page.email_link }>guides-feedback@digital.gov.au</a>
 						</div>
 					</div>
 				</div>
