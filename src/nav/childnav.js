@@ -10,6 +10,8 @@ import Navigation from './nav';
  * Childnav for use in intro_with_nav
  *
  * @disable-docs
+ *
+ * The javascript event handlers are in /scripts/js/020-components/01-childnav.js
  */
 const Childnav = ({ page }) => {
 
