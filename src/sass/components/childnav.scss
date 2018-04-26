@@ -20,7 +20,11 @@
 }
 
 .childnav__container {
-	width: 18em;
+	width: 100%;
+
+	@include AU-media( md ) {
+		width: 18em;
+	}
 
 	@include AU-media( lg ) {
 		width: 22em;
