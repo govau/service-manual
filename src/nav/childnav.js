@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import AUaccordion from '../../scripts/uikit/accordion.js'
 
 // LOCAL
 import Navigation from './nav';
@@ -18,21 +19,25 @@ const Childnav = ({ page }) => {
 	const childnav1lvl = page.childnav1lvl ? page.childnav1lvl : page._pages[ page._ID ].childnav1lvl;
 
 	return (
-		<div className={`childnav js-childnav childnav--${ theme }`}>
-			<div className="childnav__container">
-				<Navigation
-					wrappingId="childnav-list"
-					wrappingClass="childnav__list"
-					noParents={ true }
-					nav={ page._nav }
-					pages={ page._pages }
-					ID={ page._ID }
-					childnav1lvl={ childnav1lvl }
-					startID={ parentID }
-					relativeURL={ page._relativeURL }
-				/>
+
+			<div className={`childnav js-childnav childnav--${ theme }`}>
+				<div className="childnav__container">
+					<AUaccordion open={ true } header="In this section">
+						<Navigation
+							wrappingId="childnav-list"
+							wrappingClass="childnav__list"
+							noParents={ true }
+							nav={ page._nav }
+							pages={ page._pages }
+							ID={ page._ID }
+							childnav1lvl={ childnav1lvl }
+							startID={ parentID }
+							relativeURL={ page._relativeURL }
+						/>
+					</AUaccordion>
+				</div>
 			</div>
-		</div>
+
 	);
 }
 
