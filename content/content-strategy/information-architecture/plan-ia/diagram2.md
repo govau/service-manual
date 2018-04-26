@@ -6,7 +6,7 @@ reverse: false
 stackPosition: top
 imageAlt: Diagram showing an interlinking IA model
 caption: 
-title: An interlinking IA
+title: Interlinking IA
 level: 2
 display: 3
 long_description: new-long-description2.md
