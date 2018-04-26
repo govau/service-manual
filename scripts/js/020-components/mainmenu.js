@@ -1,5 +1,4 @@
 // copied from govau/designsystem
-// linej 96 is added
 
 var mainmenu        = document.getElementById( 'mainmenu' );
 var mainmenuToggle  = document.getElementById( 'mainmenu-toggle' );
@@ -93,6 +92,5 @@ if ( mainmenu ){
 	// Run PageResize function on resize
 	window.onresize = function() {
 		PageResize();
-		ChildNavResize();
 	}
 }
