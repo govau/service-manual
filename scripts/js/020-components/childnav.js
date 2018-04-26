@@ -1,42 +1,18 @@
-$('.js-childnav .childnav__controls').on('click', function( event ) {
-	event.preventDefault();
-	var self = this;
+var childNavElement  = document.getElementById( 'guides-childnav-accordion' );
 
-	UIKIT.animate.Toggle({
-		element: document.getElementById('childnav-list'),
-		property: 'height',
-		prefunction: function( element, state ) {
-			if( state === 'opening' ) {
-				$( self ).addClass('is-open');
-				$( element ).addClass('is-opening');
-			}
-			else {
-				$( self ).removeClass('is-open');
-			}
-		},
-		postfunction: function( element, state ) {
-			if( state === 'open' ) {
-				$( element ).addClass('is-open');
-			}
-			else {
-				$( element ).removeClass('is-open');
-				$( element ).removeClass('is-opening');
-			}
-
-			// reset height on larger devices
-			window.onresize = function(event) {
-				if( window.innerWidth > 991 ) {
-					$( element ).css('height', 'auto');
-				}
-				else {
-					if(element.style.removeProperty) {
-						element.style.removeProperty('height');
-					} else {
-						// for < ie 9
-						element.style.removeAttribute('height');
-					}
-				}
-			};
+function ToggleChildNav() {
+	if ( childNavElement ) {
+		var toggleLink = childNavElement.getElementsByClassName('au-accordion__title');
+		if (document.documentElement.clientWidth < 981) {
+			AU.accordion.Close( toggleLink );
+		} else {
+			AU.accordion.Open (toggleLink);
 		}
-	});
-});
+	}
+}
+
+var ChildNavResize = Debounce(function() {
+	ToggleChildNav();
+}, 250);
+
+ToggleChildNav();

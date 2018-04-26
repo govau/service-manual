@@ -1,3 +1,6 @@
+// copied from govau/designsystem
+// linej 96 is added
+
 var mainmenu        = document.getElementById( 'mainmenu' );
 var mainmenuToggle  = document.getElementById( 'mainmenu-toggle' );
 var overlay         = document.getElementById( 'overlay' );
@@ -90,5 +93,6 @@ if ( mainmenu ){
 	// Run PageResize function on resize
 	window.onresize = function() {
 		PageResize();
+		ChildNavResize();
 	}
 }
