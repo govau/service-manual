@@ -66,6 +66,10 @@
 		border-bottom: 0;
 		text-decoration: none;
 	}
+
+	.navigation__item__anchor:hover {
+		text-decoration: underline;
+	}
 }
 
 .navigation__item__span {
