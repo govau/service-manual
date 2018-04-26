@@ -22,7 +22,7 @@ const Childnav = ({ page }) => {
 
 			<div className={`childnav js-childnav childnav--${ theme }`}>
 				<div className="childnav__container">
-					<AUaccordion open={ true } header="In this section" id="guides-childnav-accordion">
+					<AUaccordion open={ false } header="In this section" id="guides-childnav-accordion">
 						<Navigation
 							wrappingId="childnav-list"
 							wrappingClass="childnav__list"
