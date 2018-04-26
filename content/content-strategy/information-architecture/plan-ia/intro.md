@@ -1,6 +1,6 @@
 ---
 layout: intros/intro_with_nav
-subtitle: Start to plan your IA taxonomy, group your content, visualize and map your content to your IA.
+subtitle: Start to plan your IA taxonomy, group your content, visualize your IA and develop the menu.
 category: Content strategy
 ---
 When planning and developing your IA, make sure to:

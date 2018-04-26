@@ -6,7 +6,7 @@ reverse: false
 stackPosition: top
 imageAlt: Diagram showing a basic IA model
 caption: 
-title: A basic IA
+title: Basic IA
 level: 2
 display: 3
 long_description: new-long-description.md

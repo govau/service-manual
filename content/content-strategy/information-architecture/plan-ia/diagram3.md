@@ -6,7 +6,7 @@ reverse: false
 stackPosition: top
 imageAlt: Diagram showing a deep cross-linking IA model
 caption: 
-title: A deep cross-linking IA
+title: Deep cross-linking IA
 level: 2
 display: 3
 long_description: new-long-description3.md
