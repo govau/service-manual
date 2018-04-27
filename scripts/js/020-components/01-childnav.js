@@ -1,10 +1,15 @@
 var childNavElement  = document.getElementById( 'guides-childnav-accordion' );
 var childNavClicked = false;
+var childNavButton = document.getElementById('childnav__button');
+var childNavOpen = false;
+
+if ( childNavElement ) {
+	var anchorLinkToggler = childNavElement.getElementsByClassName('au-accordion__title');
+}
 
 // decide whether to open or close the accordion depending on screen size
 function CheckChildNav() {
 	if ( childNavElement ) {
-		var anchorLinkToggler = childNavElement.getElementsByClassName('au-accordion__title');
 
 		// check if the button is hidden (display:none) to decide whether to be
 		// open or closed
@@ -18,12 +23,20 @@ function CheckChildNav() {
 	}
 }
 
+
 // toggle the accordion as a user action
 function UserToggleChildNav() {
 	if ( childNavElement ) {
-		var anchorLinkToggler = childNavElement.getElementsByClassName('au-accordion__title');
 		AU.accordion.Toggle( anchorLinkToggler );
 		childNavClicked = true;
+
+		if (!childNavOpen) {
+			childNavOpen = true;
+			childNavButton.classList.remove("au-accordion--closed");
+		} else {
+			childNavOpen = false
+			childNavButton.classList.add("au-accordion--closed");
+		}
 	}
 }
 

@@ -34,6 +34,26 @@
 	@include AU-media( md ) {
 		display: none;
 	}
+
+	&:after {
+		content: " ";
+		display: inline-block;
+		vertical-align: middle;
+		@include AU-space( width, 0.75unit );
+		@include AU-space( height, 0.75unit );
+		background-position: center 2px;
+		background-repeat: no-repeat;
+		background-image: AU-svguri('
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">' +
+			'	<path fill="#{ $AU-colordark-foreground-text }" d="M64 0l64 64-16 16-64-64"/>' +
+			'	<path fill="#{ $AU-colordark-foreground-text }" d="M64 0l16 16-64 64L0 64"/>' +
+			'</svg>');
+		transition: transform 0.25s ease-in;
+	}
+
+	&.au-accordion--closed:after {
+		transform: rotate( -180deg );
+	}
 }
 
 .childnav__container {
