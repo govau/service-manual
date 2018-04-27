@@ -1,6 +1,5 @@
 .childnav {
 	float: none;
-	margin-bottom: 2rem;
 	display: inline-block;
 	width: 100%;
 
@@ -8,14 +7,32 @@
 	@include AU-media( md ) {
 		width: auto;
 		float: right;
-		margin-top: 1.2rem;
-
 	}
 
 	@include AU-media( lg ) {
 		position: absolute;
+		top: -1.2rem;
 		right: 0;
 		z-index: 1;
+	}
+}
+
+#guides-childnav-accordion .au-accordion__title {
+	display: none;
+}
+
+#guides-childnav-accordion .au-accordion__body-wrapper {
+	border: none;
+}
+
+#guides-childnav-accordion {
+	border: none;
+}
+
+#childnav__button {
+	display:block;
+	@include AU-media( md ) {
+		display: none;
 	}
 }
 

@@ -24,7 +24,8 @@ const Childnav = ({ page }) => {
 
 			<div className={`childnav js-childnav childnav--${ theme }`}>
 				<div className="childnav__container">
-					<AUaccordion open={ false } header="In this section" id="guides-childnav-accordion">
+					<a href="#childnav_button" id="childnav__button" className="au-btn">In this section</a>
+					<AUaccordion open={ true } header="In this section" id="guides-childnav-accordion">
 						<Navigation
 							wrappingId="childnav-list"
 							wrappingClass="childnav__list"
