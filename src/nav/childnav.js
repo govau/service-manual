@@ -13,7 +13,7 @@ import AUaccordion from '../../scripts/uikit/accordion.js'
  class NavListItem extends React.Component {
 
    render(){
-     return (<li>{this.props.itemname}</li>)
+     return (<li><a href={this.props.url}>{this.props.itemname}</a></li>)
    }
  }
 
@@ -64,7 +64,7 @@ const Childnav = ({ page }) => {
 	}
 
 	function hasChildren() {
-		if (children.length < 2 && children[0] == page._ID) {
+		if (children_titles.length < 1) {
 			return false;
 		} else {
 			return true;
@@ -82,20 +82,24 @@ const Childnav = ({ page }) => {
 	function makeChildrenList() {
 		var rows = [];
 		for (var i = 0; i < children_titles.length; i++) {
-			rows.push(<NavListItem itemname={children_titles[i]} />)
+			rows.push(<NavListItem url={makeUrl(childrenkeys[i])} itemname={children_titles[i]} />)
 		}
 
 		return <ul>{rows}</ul>;
+	}
+
+	function makeUrl(pageid) {
+		return "/" + pageid;
 	}
 
 	function makeMenuList(){
 		var rows = [];
 		for (var i = 0; i < sibling_titles.length; i++) {
 			if (sibling_titles[i] == pageTitle) {
-				rows.push(<NavListItem itemname={sibling_titles[i]} />);
+				rows.push(<NavListItem url={makeUrl(siblingkeys[i])} itemname={sibling_titles[i]} />);
 				if (hasChildren()) { rows.push(makeChildrenList()); }
 			} else {
-				rows.push(<NavListItem itemname={sibling_titles[i]} />);
+				rows.push(<NavListItem url={makeUrl(siblingkeys[i])} itemname={sibling_titles[i]} />);
 			}
 		}
 		return <ul>{rows}</ul>;
