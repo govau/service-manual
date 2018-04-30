@@ -13,7 +13,11 @@ import AUaccordion from '../../scripts/uikit/accordion.js'
  class NavListItem extends React.Component {
 
    render(){
-     return (<li className="guideschildnav__item"><a href={this.props.url}>{this.props.itemname}</a></li>)
+			if (this.props.url) {
+	    	return (<li className="guideschildnav__item"><a href={this.props.url}>{this.props.itemname}</a></li>);
+			} else {
+				return (<li className="guideschildnav__item"><strong>{this.props.itemname}</strong></li>);
+			}
    }
  }
 
@@ -138,8 +142,9 @@ const Childnav = ({ page }) => {
 	function makeMenuList(){
 		var rows = [];
 		for (var i = 0; i < sibling_titles.length; i++) {
+			// if it is the current page make a non-link item and print its children
 			if (sibling_titles[i] == pageTitle) {
-				rows.push(<NavListItem url={makeUrl(siblingkeys[i])} itemname={sibling_titles[i]} />);
+				rows.push(<NavListItem itemname={sibling_titles[i]} />);
 				if (hasChildren()) { rows.push(makeChildrenList()); }
 			} else {
 				rows.push(<NavListItem url={makeUrl(siblingkeys[i])} itemname={sibling_titles[i]} />);
@@ -156,7 +161,7 @@ const Childnav = ({ page }) => {
 					<a href="#childnav_button" id="childnav__button" className="au-btn au-accordion--closed">In this category </a>
 					<AUaccordion open={ false } header="In this section" id="guides-childnav-accordion">
 
-							{makeMenuList()}
+						{makeMenuList()}
 
 						<h3 className="childnav__debug">page._ID</h3>
 						<pre className="childnav__debug">{page._ID}</pre>
