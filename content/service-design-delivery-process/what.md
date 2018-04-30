@@ -11,4 +11,4 @@ The service design and delivery process is an agile approach. It helps the team 
 
 The service design and delivery process guides the team to build a user-centred service that is simple, fast and clear.
 
-Download the [service design and delivery process poster 229KB PDF](../assets/files/service-design-delivery-process/service-design-delivery-process-poster.pdf).
+Download the [service design and delivery process poster (PDF, 229KB)](../assets/files/service-design-delivery-process/service-design-delivery-process-poster.pdf).
