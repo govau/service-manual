@@ -46,12 +46,25 @@ const Childnav = ({ page }) => {
 		siblings = page._nav.homepage[secondLevelParent][thirdLevelParent][fourthLevelParent];
 	}
 
+	///////////////////////////////////////
+	//
+	// 		ORGANISE THE SIBLING DATA
+	//
+	///////////////////////////////////////
+
 	var siblingkeys = Object.keys(siblings);
 	var sibling_titles = [];
 
 	for (var i = 0; i < siblingkeys.length; i++) {
 		sibling_titles[i] = page._pages[ siblingkeys[i] ].pagetitle;
 	}
+
+
+	///////////////////////////////////////
+	//
+	// 		ORGANISE THE CHILDREN DATA
+	//
+	///////////////////////////////////////
 
 	var children = siblings[page._ID];
 	var childrenkeys = Object.keys(children);
@@ -62,6 +75,8 @@ const Childnav = ({ page }) => {
 			children_titles[i] = page._pages[ childrenkeys[i] ].pagetitle;
 		}
 	}
+
+	///////////////////////////////////////
 
 	function hasChildren() {
 		if (children_titles.length < 1) {
