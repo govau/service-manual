@@ -64,10 +64,18 @@ const Childnav = ({ page }) => {
 	}
 
 	function hasChildren() {
-		if (children[0] == page._ID) {
-			return true;
-		} else {
+		if (children.length < 2 && children[0] == page._ID) {
 			return false;
+		} else {
+			return true;
+		}
+	}
+
+	function printHasChildren() {
+		if (hasChildren()) {
+			return "Yes";
+		} else {
+			return "No";
 		}
 	}
 
@@ -106,14 +114,20 @@ const Childnav = ({ page }) => {
 						<h3>page._ID</h3>
 						<pre>{page._ID}</pre>
 
-						<h3>siblings:</h3>
+						<h3>siblings_keys:</h3>
 						<pre>{JSON.stringify(siblingkeys,null,3)}</pre>
 
-						<h3>siblings</h3>
-						<pre>{JSON.stringify(siblings,null,3)}</pre>
+						<h3>sibling_titles</h3>
+						<pre>{JSON.stringify(sibling_titles,null,3)}</pre>
+
+						<h3>has children?</h3>
+						<pre>{printHasChildren()}</pre>
 
 						<h3>children</h3>
 						<pre>{JSON.stringify(children,null,3)}</pre>
+
+						<h3>children_titles</h3>
+						<pre>{JSON.stringify(children_titles,null,3)}</pre>
 
 					</AUaccordion>
 				</div>
