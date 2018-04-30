@@ -1,0 +1,14 @@
+pagetitle: IA checklist
+description: Check that you have covered each of these areas when working on your IA.
+weight: 40
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - ia-checklist.md #text
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

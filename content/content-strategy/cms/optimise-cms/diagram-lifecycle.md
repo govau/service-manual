@@ -6,9 +6,9 @@ title: Workflow and the content lifecycle
 reverse: false
 stackPosition: top
 imageAlt:  Diagram of a content lifecycle
-caption: Diagram of a content lifecycle
+caption:
 level: 2
 display: 3
+long_description: longtext-lifecycle.md
 ---
 Workflow refers to how you manage content in a CMS throughout the content lifecycle.
-

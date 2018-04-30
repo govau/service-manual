@@ -2,5 +2,5 @@
 layout: text/callout
 ---
 
-Example [content planning calendar](/assets/files/content-strategy/content-planner-template.xlsx), Department of the Prime Minister and Cabinet.
+Download this example [content planning calendar](/assets/files/content-strategy/content-planner-template.xlsx).
 Use as an ideas tracker and to capture weekly, monthly, yearly events.

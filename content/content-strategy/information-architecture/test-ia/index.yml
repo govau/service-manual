@@ -1,4 +1,4 @@
-pagetitle: Test your IA
+pagetitle: Test and improve your IA
 weight: 70
 description: It is important to conduct usability testing as you develop your IA.
 layout: layout/topic
@@ -8,6 +8,11 @@ header:
   - /_shared/header.md
 main:
   - intro.md
+  - test-head.md
+  - test.md
+  - improve-head.md
+  - improve.md
+  - key-takeaway.md #supporting takeaway
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

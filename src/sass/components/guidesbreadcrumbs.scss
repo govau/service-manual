@@ -1,0 +1,12 @@
+.guidesbreadcrumbs li {
+	font-size: 0.9rem;
+	font-weight: lighter;
+}
+
+.guidesbreadcrumbs {
+	display: none;
+	@include AU-media( md ) {
+		display: block;
+		margin-top: 1rem;
+	}
+}

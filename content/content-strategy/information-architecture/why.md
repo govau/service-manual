@@ -1,20 +1,16 @@
 ---
 layout: text/textblock
 ---
-The purpose of IA is to help users navigate your website with ease. The way you structure the flow of content, should add to the user experience.
-
-Some of the main purposes of IA are to:
-- make the lives of users better and easier
-- direct users to what they need
+The main objectives of IA are to:
+- make the lives of users better
+- direct users to the information they need
 - help users make informed decisions
 
-Other reasons may be:
-- to update the structure of your existing website
-- to highlight a new service
-- a Machinery of Government change
-- change in user needs
-- end of life for your existing website
-- external factors, for example industry changes
-- changes in responsibilities within departments
-- standardising content
-- poor governance of existing website
+You may also need to create, change or improve your IA when:
+- you update the structure of your existing website
+- you want to introduce a new service or website
+- there is a Machinery of Government change
+- there is a change in user needs
+- external factors impact, such as industry changes
+- standardising your content
+- there has been poor governance of your existing website

@@ -57,5 +57,6 @@
 	"/design-guide/patterns/index.html": "https://designsystem.gov.au/components/",
 	"/design-guide/patterns/navigation": "https://designsystem.gov.au/components/navigation/",
 	"/design-guide/patterns/navigation/index.html": "https://designsystem.gov.au/components/navigation/",
-	"/design-guide/templates/": "https://designsystem.gov.au/templates"
+	"/design-guide/templates/": "https://designsystem.gov.au/templates",
+	"/content-strategy/start-content-strategy/get-senior-executive-buy-in/" : "/content-strategy/start-content-strategy/senior-executive-buy-in/"
 }

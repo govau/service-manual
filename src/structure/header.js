@@ -1,3 +1,7 @@
+// copied from govau/designsystem with some tweaks
+// line 26, line 35
+// change 'index' -> 'homepage'
+
 import AUheader            from '../../scripts/uikit/header';
 import AUskipLink          from '../../scripts/uikit/skip-link';
 import React, { Fragment } from 'react';
@@ -32,7 +36,7 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 								_ID === 'homepage'
 									? <Fragment>
 											<div className="header__logo-wrapper">
-												<img className="header--logo-coa" src={ _relativeURL( '/assets/img/header-logo-agov.png', _ID ) } alt="The Australian Government coat of Arms"/>
+												<img className="header--logo-coa" src="/assets/img/header-logo-agov.png" alt="The Australian Government coat of Arms"/>
 												<h1 className="header__title">{ title } {/* <- Space here is intentional */
 														title_badge
 															? <span className="header__badge"> { title_badge }</span>
@@ -46,8 +50,8 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 										</Fragment>
 
 									: <Fragment>
-											<a href={ _relativeURL( '/', _ID ) } className="header__logo-wrapper">
-												<img className="header--logo-coa" src={ _relativeURL( '/assets/img/header-logo-agov.png', _ID ) } alt="The Australian Government coat of Arms"/>
+											<a href="/" className="header__logo-wrapper">
+												<img className="header--logo-coa" src="/assets/img/header-logo-agov.png" alt="The Australian Government coat of Arms"/>
 												<h1 className="header__title">{ title } {/* <- Space here is intentional */
 														title_badge
 															? <span className="header__badge">{ title_badge }</span>

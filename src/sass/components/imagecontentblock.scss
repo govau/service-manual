@@ -134,6 +134,12 @@
 	display: block;
 }
 
+// grab the focus of the containing <a> as you never get focus
+// of the image inside. However we need to style the image element.
+.imagecontentblock__image a:focus img {
+	border: 1px solid #fff;
+}
+
 .imagecontentblock__image__caption {
 	position: absolute;
 	bottom: 0;
