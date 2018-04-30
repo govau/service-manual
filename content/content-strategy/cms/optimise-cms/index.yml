@@ -15,7 +15,6 @@ main:
   - heading2.md
   - section2.md #text
   - diagram-lifecycle.md #diagram
-  - longtext1.md #longtext
   - section4.md #text
   - heading5.md
   - section5.md #text
@@ -25,8 +24,7 @@ main:
   - section7.md #text
   - heading8.md
   - section8.md #text
-  - diagram-api.md #diagram
-  - longtext2.md #longtext
+  - diagram-headless-cms.md #diagram
   - heading9.md
   - section9.md #text
   - heading10.md

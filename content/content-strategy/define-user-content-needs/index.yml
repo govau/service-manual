@@ -5,6 +5,7 @@ description: Get to know your users and create artefacts that help you action wh
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
+  - /_shared/breadcrumbs.md
 main:
   - intro.md
   - why-head.md

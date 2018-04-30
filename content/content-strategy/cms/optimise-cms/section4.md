@@ -1,6 +1,7 @@
 ---
 layout: text/textblock
 ---
+<p>
 Aim to keep your workflow simple. A simple ‘write, edit, approve, publish’ workflow may be enough. If you do have many levels of checks and approvals needed, you may want a more complex workflow. If you want to manage and track workflow, be clear on what levels of clearances you need for publishing content.
 
 Many CMSs will also offer the ability to connect to your own staff directories. This allows you to send notifications for approvals and preview links before publishing.
@@ -14,4 +15,3 @@ Consider the following when setting up workflow:
 - if CMS users easily log in from other locations
 - what  each person needs to do with the content
 - how many active CMS users you can have at a time
-

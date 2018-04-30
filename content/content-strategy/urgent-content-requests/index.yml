@@ -5,6 +5,7 @@ description: What are the minimum quality checks when content is urgent.
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
+  - /_shared/breadcrumbs.md
 main:
   - intro.md
   - approaching-head.md

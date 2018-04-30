@@ -65,7 +65,7 @@
 	padding: 0 0 2rem 0;
 
 	@include AU-media( md ) {
-		padding: 0 12px 0 12px;
+		padding: 0 48px 0 12px;
 		margin: auto;
 		float: left;
 	}
@@ -113,7 +113,7 @@
 	margin: 0 0 1.6rem 0;
 
 	@include AU-media( md ) {
-		margin: 0.6rem 0 1.2rem 0;
+		margin: 2rem 0 1.2rem 0;
 	}
 
 	a {
@@ -132,6 +132,12 @@
 .imagecontentblock__image__img {
 	width: 100%;
 	display: block;
+}
+
+// grab the focus of the containing <a> as you never get focus
+// of the image inside. However we need to style the image element.
+.imagecontentblock__image a:focus img {
+	border: 1px solid #fff;
 }
 
 .imagecontentblock__image__caption {

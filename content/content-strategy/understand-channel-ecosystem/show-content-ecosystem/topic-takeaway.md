@@ -2,5 +2,5 @@
 layout: text/textblock
 ---
 
-Screenshots of web pages and other channels made into a collage is a simple way of showing duplicates and confusion. This is a fast and clear way to present a complex channel ecosystem.
+Use a collage of screenshots of your web pages and other channels. This is a simple way of showing duplicate web pages and confusion. It's a fast and clear way to present a complex channel ecosystem.
 

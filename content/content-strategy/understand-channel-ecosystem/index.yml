@@ -5,6 +5,7 @@ description: Understand your channels and how they’re connected
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
+  - /_shared/breadcrumbs.md
 main:
   - intro.md
   - cards.md

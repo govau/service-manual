@@ -55,9 +55,11 @@ $nav_breakpoint: 1010px;
 // Home CoA
 .header--logo-coa {
 	@include AU-space( max-width, 14unit );
+	@include AU-space( width, 14unit );
 
 	.header--home & {
 		@include AU-space( max-width, 18unit );
+		@include AU-space( width, 18unit );
 	}
 }
 
@@ -85,7 +87,7 @@ a.header__logo-wrapper {
 	@include AU-space( padding-top, 1.5unit );
 	@include AU-fontgrid( xl, nospace );
 	color: $AU-colordark-foreground-text;
-	border-top: solid 1px $AU-colordark-foreground-border;
+	//border-top: solid 1px $AU-colordark-foreground-border;
 
 	&.au-display-md {
 		font-weight: bold;
