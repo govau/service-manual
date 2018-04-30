@@ -59,6 +59,20 @@ const Childnav = ({ page }) => {
 		sibling_titles[i] = page._pages[ siblingkeys[i] ].pagetitle;
 	}
 
+	// sort the arrays by page title
+	var templist = [];
+	for (var j = 0; j < sibling_titles.length; j++)
+    templist.push({'title': sibling_titles[j], 'id': siblingkeys[j]});
+
+	templist.sort(function(a, b) {
+    return ((a.title < b.title) ? -1 : ((a.title == b.title) ? 0 : 1));
+	});
+
+	for (var k = 0; k < templist.length; k++) {
+    sibling_titles[k] = templist[k].title;
+    siblingkeys[k] = templist[k].id;
+	}
+
 
 	///////////////////////////////////////
 	//
