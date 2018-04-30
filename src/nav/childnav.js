@@ -13,7 +13,7 @@ import AUaccordion from '../../scripts/uikit/accordion.js'
  class NavListItem extends React.Component {
 
    render(){
-     return (<li><a href={this.props.url}>{this.props.itemname}</a></li>)
+     return (<li className="guideschildnav__item"><a href={this.props.url}>{this.props.itemname}</a></li>)
    }
  }
 
@@ -115,23 +115,23 @@ const Childnav = ({ page }) => {
 
 							{makeMenuList()}
 
-						<h3>page._ID</h3>
-						<pre>{page._ID}</pre>
+						<h3 className="childnav__debug">page._ID</h3>
+						<pre className="childnav__debug">{page._ID}</pre>
 
-						<h3>siblings_keys:</h3>
-						<pre>{JSON.stringify(siblingkeys,null,3)}</pre>
+						<h3 className="childnav__debug">siblings_keys:</h3>
+						<pre className="childnav__debug">{JSON.stringify(siblingkeys,null,3)}</pre>
 
-						<h3>sibling_titles</h3>
-						<pre>{JSON.stringify(sibling_titles,null,3)}</pre>
+						<h3 className="childnav__debug">sibling_titles</h3>
+						<pre className="childnav__debug">{JSON.stringify(sibling_titles,null,3)}</pre>
 
-						<h3>has children?</h3>
-						<pre>{printHasChildren()}</pre>
+						<h3 className="childnav__debug">has children?</h3>
+						<pre className="childnav__debug">{printHasChildren()}</pre>
 
-						<h3>children</h3>
-						<pre>{JSON.stringify(children,null,3)}</pre>
+						<h3 className="childnav__debug">children</h3>
+						<pre className="childnav__debug">{JSON.stringify(children,null,3)}</pre>
 
-						<h3>children_titles</h3>
-						<pre>{JSON.stringify(children_titles,null,3)}</pre>
+						<h3 className="childnav__debug">children_titles</h3>
+						<pre className="childnav__debug">{JSON.stringify(children_titles,null,3)}</pre>
 
 					</AUaccordion>
 				</div>
