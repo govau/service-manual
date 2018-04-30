@@ -90,6 +90,20 @@ const Childnav = ({ page }) => {
 		}
 	}
 
+	// sort the arrays by page title
+	templist = [];
+	for (var j = 0; j < children_titles.length; j++)
+    templist.push({'title': children_titles[j], 'id': childrenkeys[j]});
+
+	templist.sort(function(a, b) {
+    return ((a.title < b.title) ? -1 : ((a.title == b.title) ? 0 : 1));
+	});
+
+	for (var k = 0; k < templist.length; k++) {
+    children_titles[k] = templist[k].title;
+    childrenkeys[k] = templist[k].id;
+	}
+
 	///////////////////////////////////////
 
 	function hasChildren() {
