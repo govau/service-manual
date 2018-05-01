@@ -167,31 +167,31 @@ const Childnav = ({ page }) => {
 						<a href={makeUrl(parent_id)}>{parent_title}</a>
 						{makeMenuList()}
 
-						<h3 className="childnav__debug">page._ID</h3>
+						<p className="childnav__debug">page._ID</p>
 						<pre className="childnav__debug">{page._ID}</pre>
 
-						<h3 className="childnav__debug">parent_title:</h3>
+						<p className="childnav__debug">parent_title:</p>
 						<pre className="childnav__debug">{JSON.stringify(parent_title,null,3)}</pre>
 
-						<h3 className="childnav__debug">parent_id:</h3>
+						<p className="childnav__debug">parent_id:</p>
 						<pre className="childnav__debug">{JSON.stringify(parent_id,null,3)}</pre>
 
-						<h3 className="childnav__debug">page._parents:</h3>
+						<p className="childnav__debug">page._parents:</p>
 						<pre className="childnav__debug">{JSON.stringify(parents,null,3)}</pre>
 
-						<h3 className="childnav__debug">siblings_keys:</h3>
+						<p className="childnav__debug">siblings_keys:</p>
 						<pre className="childnav__debug">{JSON.stringify(siblingkeys,null,3)}</pre>
 
-						<h3 className="childnav__debug">sibling_titles</h3>
+						<p className="childnav__debug">sibling_titles</p>
 						<pre className="childnav__debug">{JSON.stringify(sibling_titles,null,3)}</pre>
 
-						<h3 className="childnav__debug">has children?</h3>
+						<p className="childnav__debug">has children?</p>
 						<pre className="childnav__debug">{printHasChildren()}</pre>
 
-						<h3 className="childnav__debug">children</h3>
+						<p className="childnav__debug">children</p>
 						<pre className="childnav__debug">{JSON.stringify(children,null,3)}</pre>
 
-						<h3 className="childnav__debug">children_titles</h3>
+						<p className="childnav__debug">children_titles</p>
 						<pre className="childnav__debug">{JSON.stringify(children_titles,null,3)}</pre>
 
 					</AUaccordion>
