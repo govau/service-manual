@@ -61,23 +61,31 @@ const Childnav = ({ page }) => {
 
 	var siblingkeys = Object.keys(siblings);
 	var sibling_titles = [];
+	var sibling_weights = [];
 
+	// get the page titles from the list of id's (keys)
 	for (var i = 0; i < siblingkeys.length; i++) {
 		sibling_titles[i] = page._pages[ siblingkeys[i] ].pagetitle;
 	}
 
-	// sort the arrays by page title
+	// get the page weights from the list of id's (keys)
+	for (var i = 0; i < siblingkeys.length; i++) {
+		sibling_weights[i] = page._pages[ siblingkeys[i] ].weight;
+	}
+
+	// sort the arrays by page weight
 	var templist = [];
 	for (var j = 0; j < sibling_titles.length; j++)
-    templist.push({'title': sibling_titles[j], 'id': siblingkeys[j]});
+    templist.push({'title': sibling_titles[j], 'id': siblingkeys[j], 'weight': sibling_weights[j]});
 
 	templist.sort(function(a, b) {
-    return ((a.title < b.title) ? -1 : ((a.title == b.title) ? 0 : 1));
+    return ((a.weight < b.weight) ? -1 : ((a.weight == b.weight) ? 0 : 1));
 	});
 
 	for (var k = 0; k < templist.length; k++) {
     sibling_titles[k] = templist[k].title;
     siblingkeys[k] = templist[k].id;
+		sibling_weights[k] = templist[k].weight;
 	}
 
 
@@ -91,6 +99,7 @@ const Childnav = ({ page }) => {
 	var childrenkeys = Object.keys(children);
 	var children_titles = [];
 
+// get the page titles from the list of id's (keys)
 	for (var i = 0; i < childrenkeys.length; i++) {
 		if (page._pages[ childrenkeys[i] ] != null) {
 			children_titles[i] = page._pages[ childrenkeys[i] ].pagetitle;
