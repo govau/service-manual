@@ -13,9 +13,9 @@ const Textblock = ( page ) => {
 
 	return (
 	<div className={ `au-body au-grid textblock textblock--${ page.stackPosition }` } >
-		<div className="container">
+		<div className="container-fluid">
 			<div className="row">
-				<div className="col-xs-12">
+				<div className="col-md-12">
 					<div className="textwrapper textblock__text">
 
 						{ page.title && <HeadingTag id={ id } className={ `display-${ page.display }` }>

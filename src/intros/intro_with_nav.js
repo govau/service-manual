@@ -14,9 +14,9 @@ const IntroNav = ( page ) => {
 
 	return (
 		<div className={`au-body au-grid intro intro--withnav intro__wrapper intro--${ theme }`}>
-			<div className="container">
+			<div className="container-fluid">
 				<div className="row">
-					<div className="col-xs-12">
+					<div className="col-md-12">
 
 						<Childnav page={ page } />
 

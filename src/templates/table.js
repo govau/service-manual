@@ -24,7 +24,7 @@ const Table = ( page ) => {
 
 	return (
 		<div className="au-body au-grid table template-table">
-			<div className="container">
+			<div className="container-fluid">
 				<div className="row">
 					<div className="col-xs-12">
 						<table className="content-table" >

@@ -16,7 +16,7 @@ const Imageblock = ( page ) => {
 
 	return (
 					<div className="au-grid au-body">
-						<div className="container imageblock__container">
+						<div className="container-fluid imageblock__container">
 							<div className="row col-md-12">
 							{ page.section && <span className="imageblock__section section__section intro__category" id={ Slugify( page.section ).toLowerCase() } >{ page.section }</span> }
 							</div>

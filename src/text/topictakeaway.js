@@ -8,7 +8,7 @@ import React from 'react';
 const TopicTakeaway = ( page ) => {
 	return (
 	<div className="au-body au-grid" >
-		<div className="container">
+		<div className="container-fluid">
 
 			<div className="row">
 				<div className="col-md-12">

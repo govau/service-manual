@@ -6,12 +6,13 @@
 
 	@include AU-media( md ) {
 		width: auto;
-		float: right;
+		float: left;
 	}
 
 	@include AU-media( lg ) {
-		position: absolute;
-		top: -1.2rem;
+		position: relative;
+		float: left;
+		top: -2rem;
 		right: 0;
 		z-index: 1;
 	}

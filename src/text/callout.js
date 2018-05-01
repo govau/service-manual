@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 const Callout = ( page ) => {
 	return (
 	<div className={ `au-body au-grid callout` } >
-		<div className="container">
+		<div className="container-fluid">
 			<div className="row">
 				<div className="col-xs-12">
 					<div className="textwrapper callout__text">

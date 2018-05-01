@@ -18,7 +18,7 @@ const Sections = ( page ) => {
 
 	return (
 		<div className="au-body au-grid sections">
-			<div className="container">
+			<div className="container-fluid">
 				<div className="row">
 					<div className="col-md-6 js-sections">
 						<AUinpageNavLinks title="In this section" sections={ sections } title={ page.title } />
