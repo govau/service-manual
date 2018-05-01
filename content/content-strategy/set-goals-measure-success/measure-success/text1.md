@@ -11,9 +11,6 @@ Find out how long users are spending on the website per visit. This is a good in
 ### [1] Content cost
 An effective way to show the value of your content strategy is to calculate the cost of production. Savings can be made by developing good processes and content.
 
-### [1] The cost of online transactions vs online
-A recent study by Deloitte shows that the average cost of an online transaction is 40c. This compares to $6.60 for a telephone call, $12.79 for a postal transaction and $16.90 for a face-to face visit. Use these figures to show the importance of getting online transactions right.
-
 ### [1] Desktop and mobile
 Find out how many visits are from desktop and mobile devices. Also find out which devices are used.
 
