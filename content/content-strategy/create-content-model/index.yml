@@ -6,11 +6,12 @@ description: Structure content in a consistent way, so that it makes sense to us
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
+  - /_shared/breadcrumbs.md
 main:
   - attribution.md #attribution
   - why-head.md #h2
   - why.md #text
-  - fact.md #fastfact
+  - quote.md #fastfact
   - cards.md #approach
   - topic-takeaway.md #topic-takeaway
   - /_shared/feedback.md
