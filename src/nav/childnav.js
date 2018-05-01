@@ -26,7 +26,10 @@ const Childnav = ({ page }) => {
 	// const parentID = page._parents.filter( parent => parent !== 'index' )[ ( page._parents.length - ( page._parents.length - 1 ) )];
 	const pageTitle = page._pages[ page._ID ].pagetitle;
 	const pages = JSON.stringify(page._pages,null,3);
-	const parents = JSON.stringify(page._parents,null,3);
+	const parents = page._parents;
+	const parent_id = page._parents[page._parents.length - 2];
+	const parent_title = page._pages[ parent_id ].pagetitle;
+
 	var siblings;
 	var secondLevelParent;
 	var thirdLevelParent;
@@ -161,10 +164,20 @@ const Childnav = ({ page }) => {
 					<a href="#childnav_button" id="childnav__button" className="au-btn au-accordion--closed">In this category </a>
 					<AUaccordion open={ false } header="In this section" id="guides-childnav-accordion">
 
+						<a href={makeUrl(parent_id)}>{parent_title}</a>
 						{makeMenuList()}
 
 						<h3 className="childnav__debug">page._ID</h3>
 						<pre className="childnav__debug">{page._ID}</pre>
+
+						<h3 className="childnav__debug">parent_title:</h3>
+						<pre className="childnav__debug">{JSON.stringify(parent_title,null,3)}</pre>
+
+						<h3 className="childnav__debug">parent_id:</h3>
+						<pre className="childnav__debug">{JSON.stringify(parent_id,null,3)}</pre>
+
+						<h3 className="childnav__debug">page._parents:</h3>
+						<pre className="childnav__debug">{JSON.stringify(parents,null,3)}</pre>
 
 						<h3 className="childnav__debug">siblings_keys:</h3>
 						<pre className="childnav__debug">{JSON.stringify(siblingkeys,null,3)}</pre>
