@@ -129,10 +129,10 @@ const Childnav = ({ page }) => {
 	function makeChildrenList() {
 		var rows = [];
 		for (var i = 0; i < children_titles.length; i++) {
-			rows.push(<NavListItem url={makeUrl(childrenkeys[i])} itemname={children_titles[i]} />)
+			rows.push(<NavListItem url={makeUrl(childrenkeys[i])} itemname={children_titles[i]} key={childrenkeys[i]}/>)
 		}
 
-		return <ul>{rows}</ul>;
+		return <ul key={Math.random()}>{rows}</ul>;
 	}
 
 	function makeUrl(pageid) {
@@ -144,10 +144,10 @@ const Childnav = ({ page }) => {
 		for (var i = 0; i < sibling_titles.length; i++) {
 			// if it is the current page make a non-link item and print its children
 			if (sibling_titles[i] == pageTitle) {
-				rows.push(<NavListItem itemname={sibling_titles[i]} />);
+				rows.push(<NavListItem itemname={sibling_titles[i]} key={siblingkeys[i]} />);
 				if (hasChildren()) { rows.push(makeChildrenList()); }
 			} else {
-				rows.push(<NavListItem url={makeUrl(siblingkeys[i])} itemname={sibling_titles[i]} />);
+				rows.push(<NavListItem url={makeUrl(siblingkeys[i])} itemname={sibling_titles[i]} key={siblingkeys[i]} />);
 			}
 		}
 		return <ul>{rows}</ul>;
