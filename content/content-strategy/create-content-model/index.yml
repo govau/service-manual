@@ -10,6 +10,7 @@ main:
   - attribution.md #attribution
   - why-head.md #h2
   - why.md #text
+  - fact.md #fastfact
   - cards.md #approach
   - topic-takeaway.md #topic-takeaway
   - /_shared/feedback.md

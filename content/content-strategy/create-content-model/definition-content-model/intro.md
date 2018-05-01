@@ -1,6 +1,5 @@
 ---
 layout: intros/intro_with_nav
-subtitle: Start by recognising your agency’s content maturity level to know how you can progress and improve.
+subtitle: A content model shows the overall structure of content on your website. It also shows the relationship between the different types of content within the model.
 category: Content strategy
 ---
-Below is an outline of content maturity levels with suggestions to improve outputs and efficiencies.
