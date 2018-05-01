@@ -11,7 +11,8 @@
 }
 
 .headergovau__content__title {
-	font-weight: bold;
+	font-weight: 500;
+	font-size: 130%;
 	margin-top: 0;
 }
 
@@ -21,6 +22,7 @@
 	&.au-accordion__body {
 		font-size: 12px;
 		font-size: 0.75rem;
+		font-weight: lighter;
 		line-height: 1.5;
 	}
 

@@ -22,12 +22,18 @@
 	}
 }
 
+.topic-takeaway-previous-card {
+	margin-top: 0.5rem;
+}
+
 .topic-takeaway-next-card {
 	text-align: right;
+	margin-top: 0.5rem;
 }
 
 .topic-takeaway-output {
 	margin-left: -8px;
+	margin-bottom: 1.2rem;
 }
 
 .topic-takeaway-container {
@@ -44,7 +50,7 @@
 
 .topic-takeaway-paginator {
 	margin-top: 20px;
-	margin-bottom: 40px;
+	//margin-bottom: 40px;
 	font-size: 90%;
 }
 

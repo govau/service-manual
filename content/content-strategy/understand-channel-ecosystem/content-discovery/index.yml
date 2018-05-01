@@ -1,11 +1,12 @@
 pagetitle: Content discovery
-description: Start by listing all of the content channels used by the agency. 
+description: Start by listing all of the content channels used by the agency.
 weight: 10
 layout: layout/topic
 theme: blue
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
+  - /_shared/breadcrumbs.md
 main:
   - intro.md #text
   - section.md #text

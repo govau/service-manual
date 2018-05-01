@@ -1,6 +1,8 @@
 ---
 layout: text/textblock
 ---
+
+
 ### [2]Step 6: Write content to match your user stories
 
 Once you have a detailed story map you can create content that aligns with your stories.

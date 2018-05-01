@@ -5,6 +5,7 @@ description: Audit your content to get a clear understanding of your digital est
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
+  - /_shared/breadcrumbs.md
 main:
   - attribution.md #attribution
   - why-head.md

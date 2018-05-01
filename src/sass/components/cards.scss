@@ -6,11 +6,17 @@
 	overflow: hidden;
 	width: 100%;
 	background-color: $AU-color-background;
-	padding: 0.2rem;
 	position: relative;
-	transition: box-shadow 0.2s ease-in-out;
-	transition: border-color 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 	box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.guideshomepagecards .card__wrapper {
+	padding: 2rem;
+}
+
+.cards--2cols .card__wrapper {
+	padding-left: 2rem;
 }
 
 .au-body a.guides-card {
@@ -30,16 +36,6 @@
 	padding: 1rem 0 4rem 0;
 }
 
-.cards--2cols {
-	background-color: $AU-color-background-alt;
-	margin: 1rem 0 1rem 0;
-	padding: 1rem 0 4rem 0;
-}
-
-.guides-card__link:focus  .card__wrapper{
-	border: 3px solid $AU-color-foreground-focus;
-}
-
 .card__wrapper {
 	padding: 1.25rem;
 	display: flex;
@@ -51,7 +47,7 @@
 }
 
 .card__text {
-	margin-bottom: 1rem;
+	margin-bottom: 3rem;
 	width: 100%;
 	text-decoration: none;
 

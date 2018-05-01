@@ -26,7 +26,7 @@ cards:
     text: Remove unwanted, redundant, out-of-date content. This helps users find what they need.
     link: /content-strategy/remove-content/
   - headline: Manage content requests
-    text: Know what’s involved to manage business-as-usual content including urgent content requests.
+    text: Know what’s involved to manage business-as-usual content.
     link: /content-strategy/manage-content-requests/
   - headline: Manage urgent content requests
     text: Use these fast and easy checks during the rush to publish. 

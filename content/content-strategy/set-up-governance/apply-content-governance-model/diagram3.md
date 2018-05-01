@@ -3,7 +3,7 @@ layout: blocks/image_content_block
 image: content-strategy/governance/hybrid-governance-model.svg
 link: content-strategy/governance/hybrid-governance-model.svg
 reverse: false
-stackPosition: top
+stackPosition: bottom
 imageAlt: Diagram showing a hybrid governance model
 caption: 
 title: Hybrid content governance model

@@ -6,12 +6,13 @@ theme: blue
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
+  - /_shared/breadcrumbs.md
 main:
   - intro.md
   - toc.md #toc
   - heading.md #report findings
   - section.md #report findings
-  - example2.md #example
+  - example2.md #spreadsheet file attachment
   - heading2.md #remove content
   - section2.md #remove content
   - heading3.md #archive

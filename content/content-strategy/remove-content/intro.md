@@ -8,7 +8,7 @@ attrValue2: 1 March 2018
 category: Content Strategy
 ---
 
-## [3]Why remove content?
+## [3]Why remove content
 
 ### [0.5] There are over 40 million GOV.AU web items across the internet today. 
 Reducing the clutter also helps to build user trust, maintain your digital estate and make search results better.

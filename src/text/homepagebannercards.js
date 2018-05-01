@@ -23,35 +23,35 @@ const HomepageBannerCards = ( page ) => {
 					</div>
 				</div>
 
-				<div className="row au-grids cards">
+				<div className="row au-grids cards guideshomepagecards">
 					<ul className="cards__list">
 						<li className="col-sm-4 cards__list__item">
 							<Card
-								link="/content-strategy/"
+								link= { page.card1link }
 								background=""
 								image=""
-								headline="Content Strategy Guide"
-								text="Content strategy comes before you design your content. This sets the foundation to create, deliver and govern content."
+								headline= { page.card1headline }
+								text= { page.card1text }
 								cta=" "
 							/>
 						</li>
 						<li className="col-sm-4 cards__list__item">
 							<Card
-								link="https://guides.service.gov.au/content-guide/"
+								link= { page.card2link }
 								background=""
 								image=""
-								headline="Content Guide"
-								text="A guide to help Australian Government teams design simple, clear and fast content."
+								headline= { page.card2headline }
+								text= { page.card2text }
 								cta=" "
 							/>
 						</li>
 						<li className="col-sm-4 cards__list__item">
 							<Card
-								link="https://designsystem.gov.au/"
+								link= { page.card3link }
 								background=""
 								image=""
-								headline="Design System"
-								text="A framework and set of tools to help build accessible products and services."
+								headline= { page.card3headline }
+								text= { page.card3text }
 								cta=" "
 							/>
 						</li>

@@ -5,6 +5,7 @@ description: In many cases, content requests are important but not necessarily d
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
+  - /_shared/breadcrumbs.md
 main:
   - intro.md
   - toc.md #toc
