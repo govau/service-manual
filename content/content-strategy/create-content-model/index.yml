@@ -1,0 +1,17 @@
+pagetitle: Create a content model
+weight: 10
+hidden: true
+theme: blue
+description: Structure content in a consistent way, so that it makes sense to users and is easily reusable in different places.
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - attribution.md #attribution
+  - why-head.md #h2
+  - why.md #text
+  - cards.md #approach
+  - topic-takeaway.md #topic-takeaway
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md
