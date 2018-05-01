@@ -6,6 +6,7 @@ description: Get better search results for your government agency website with S
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
+  - /_shared/breadcrumbs.md
 main:
   - attribution.md #attribution
   - why-head.md #h2
