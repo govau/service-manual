@@ -47,3 +47,12 @@
 [tabindex="-1"] {
 	outline: none;
 }
+
+// give images inside links focus
+a:focus img {
+	outline: 3px solid $AU-color-foreground-focus;
+}
+
+a:focus h1 {
+	outline: 3px solid $AU-color-foreground-focus;
+}
