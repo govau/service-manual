@@ -1,8 +1,8 @@
-pagetitle: Define your SEO
+pagetitle: Create a content model
 weight: 10
 hidden: true
 theme: blue
-description: Get better search results for your government agency website with SEO. Optimise content to make it easy for people to find your information.
+description: Structure content in a consistent way, so that it makes sense to users and is easily reusable in different places.
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
@@ -11,10 +11,9 @@ main:
   - attribution.md #attribution
   - why-head.md #h2
   - why.md #text
-  - fact.md #fact
-  - how-head.md #h2
+  - quote.md #fastfact
   - cards.md #approach
-  - topic-takeaway.md #topic-takeaway.md
+  - topic-takeaway.md #topic-takeaway
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

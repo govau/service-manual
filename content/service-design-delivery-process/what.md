@@ -1,6 +1,6 @@
 ---
 layout: blocks/image_content_block
-image: /sddp/service-design-delivery-process.png
+image: /sddp/service-design-delivery-process.jpg
 link: /sddp/service-design-delivery-process.jpg
 section: What
 title: What is the service design and delivery process?
