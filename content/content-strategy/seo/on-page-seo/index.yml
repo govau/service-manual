@@ -7,6 +7,7 @@ theme: blue
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
+  - /_shared/breadcrumbs.md
 main:
   - intro.md
   - toc.md #toc
@@ -16,7 +17,6 @@ main:
   - heading2.md #h2
   - section2.md #text
   - screenshot2.md #diagram
-  - longtext2.md #longtext
   - section2b.md #text
   - example.md #example
   - heading3.md #h2
@@ -28,15 +28,12 @@ main:
   - heading6.md #h2
   - section6.md #text
   - screenshot5.md #diagram
-  - longtext5.md #longtext
   - heading7.md #h2
   - section7.md #text
   - screenshot3.md #diagram
-  - longtext3.md #longtext
   - heading7b.md #h2
   - section7b.md #text
   - screenshot4.md #diagram
-  - longtext4.md #longtext
   - heading8.md #h2
   - section8.md #text
   - heading9.md #h2

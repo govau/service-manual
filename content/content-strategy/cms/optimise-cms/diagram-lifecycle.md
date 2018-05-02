@@ -11,4 +11,14 @@ level: 2
 display: 3
 long_description: longtext-lifecycle.md
 ---
-Workflow refers to how you manage content in a CMS throughout the content lifecycle.
+Workflow refers to how you manage content in a CMS throughout the content lifecycle. 
+This covers:
+- intent
+- plan
+- create, check and revise
+- sign off
+- publish
+- maintain/improve
+- remove
+
+<p>

@@ -12,7 +12,6 @@ main:
   - why-head.md #h2
   - why.md #text
   - fact.md #fact
-  - how-head.md #h2
   - cards.md #approach
   - topic-takeaway.md #topic-takeaway.md
   - /_shared/feedback.md

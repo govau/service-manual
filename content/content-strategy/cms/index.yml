@@ -6,11 +6,11 @@ description: Learn how to choose the best CMS for your purposes and get the most
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
+  - /_shared/breadcrumbs.md
 main:
   - attribution.md #attribution
   - why-head.md #h2
   - why.md #text
-  - section-head-purpose.md
   - cards.md #approach
   - topic-takeaway.md #topic-takeaway
   - /_shared/feedback.md
