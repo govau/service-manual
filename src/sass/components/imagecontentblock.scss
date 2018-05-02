@@ -1,22 +1,6 @@
 .imagecontentblock {
 	margin: 0 0 4rem 0;
 	padding: 4rem 0 4.2rem 0;
-	background-color: #275677;
-	color: #fff;
-
-	@include AU-media( xs ) {
-		color: #fff;
-	}
-
-	@include AU-media( sm ) {
-		//margin-top: 4rem;
-		//margin-bottom: 4rem;
-	}
-
-	&.imagecontentblock--white {
-		background-color: #fff;
-		color: $AU-color-foreground-text;
-	}
 
 	&.imagecontentblock--stacktop {
 		margin-bottom: 0;
@@ -34,32 +18,6 @@
 	}
 }
 
-
-.imagecontentblock__headline {
-	color: #d4e9f1;
-	font-weight: normal;
-	margin-bottom: 1rem;
-	line-height: 1.2;
-
-
-	&.display-3 {
-		.imagecontentblock--white & {
-			color: $AU-color-foreground-text;
-		}
-	}
-}
-
-.imagecontentblock__headline__wrapper h2 {
-	font-weight: 300;
-	font-size: 3rem;
-}
-
-.imagecontentblock__headline__wrapper h3 {
-	font-weight: 300;
-	font-size: 3rem;
-}
-
-
 .imagecontentblock__content {
 	height: 100%;
 	padding: 0 0 2rem 0;
@@ -76,13 +34,8 @@
 
 	&.imagecontentblock__content--blue,
 	&.imagecontentblock__content--dark {
-		.display-3 {
-			color: #d4e9f1;
-		}
 
 		a {
-			color: #fff;
-			border-color: #fff;
 
 			&[rel~='external']:after {
 				background-image: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
@@ -93,15 +46,6 @@
 						62.59c-.777.777-.774 2.046.01 2.83l13.16 13.16c.793.793 2.052.788 2.83.01L112 32v22.007c0 1.09.893 1.993 1.994 1.993h12.012c1.1 0 1.994-.892
 						1.994-1.993V1.993c0-.545-.223-1.043-.584-1.405V.584z"/>
 				</svg>');
-			}
-
-			&:focus,
-			&:hover {
-				color: #fff;
-			}
-
-			&:focus {
-				outline: 1px solid #fff;
 			}
 		}
 	}
@@ -137,7 +81,7 @@
 // grab the focus of the containing <a> as you never get focus
 // of the image inside. However we need to style the image element.
 .imagecontentblock__image a:focus img {
-	border: 1px solid #fff;
+	border: 4px solid $AU-color-foreground-focus;
 }
 
 .imagecontentblock__image__caption {
