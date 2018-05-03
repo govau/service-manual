@@ -1,0 +1,16 @@
+pagetitle: Maintain and improve content
+description: Set a review process to maintain and improve content. Use your data to keep it relevant for your users.
+weight: 100
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+  - /_shared/breadcrumbs.md
+main:
+  - intro.md
+  - fact.md #quote
+  - how-head.md
+  - cards.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md
