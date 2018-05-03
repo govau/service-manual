@@ -1,6 +1,8 @@
 ---
 layout: text/textblock
 ---
+###[2] What is a content type?
+A content type refers to content that can be reused within a content model. Can be assembled to create new information products. Has a unique purpose, components, attributes and structure.
 
 There are many different types of content used across government. 
 
