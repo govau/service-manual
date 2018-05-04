@@ -61,14 +61,13 @@ a:focus h1 {
 	outline: 3px solid $AU-color-foreground-focus;
 }
 
-// li {
-// 	position: relative;
-// 	left: -1rem;
-//
-// 	@include AU-media( md ) {
-// 		left: 0rem;
-// 	}
-// 	@include AU-media( lg ) {
-// 		left: 0rem;
-// 	}
-// }
+
+// reduce the list item margin in mobile view
+.textwrapper li {
+	position: relative;
+	left: -1rem;
+
+	@include AU-media( xs ) {
+		left: 0rem;
+	}
+}
