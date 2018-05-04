@@ -1,6 +1,6 @@
 ---
 layout: blocks/image_content_block
-image: /standard/users-venn.png
+image: /standard/users-venn-black.png
 display: 3
 section: Why
 level: 2
