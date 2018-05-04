@@ -1,4 +1,4 @@
-pagetitle: Choose and optimise your CMS
+pagetitle: Get the best CMS for your purposes
 weight: 50
 description: Learn how to implement your CMS by optimising some of its features and functionality to suit your content design and website needs.
 layout: layout/topic
@@ -15,7 +15,6 @@ main:
   - section.md #text
   - heading2.md
   - section2.md #text
-  - diagram-lifecycle.md #diagram
   - section4.md #text
   - heading5.md
   - section5.md #text

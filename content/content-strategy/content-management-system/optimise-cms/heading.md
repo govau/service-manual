@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Using your CMS as a service
+section: Using your CMS like a service
 ---
