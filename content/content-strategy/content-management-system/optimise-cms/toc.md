@@ -1,11 +1,11 @@
 ---
 layout: nav/sections
 sections:
-  - Using your CMS as a service
+  - Using your CMS like a service
   - Defining CMS user roles
   - Workflow and the content lifecycle
   - Making and publishing quick changes
-  - Different types of content fields
+  - Content fields
   - WYSIWYG text editor
   - Headless CMS
   - Site analytics

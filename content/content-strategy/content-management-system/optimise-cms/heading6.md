@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Different types of content fields
+section: Content fields
 ---
