@@ -61,14 +61,14 @@ a:focus h1 {
 	outline: 3px solid $AU-color-foreground-focus;
 }
 
-li {
-	position: relative;
-	left: -1rem;
-
-	@include AU-media( md ) {
-		left: 0rem;
-	}
-	@include AU-media( lg ) {
-		left: 0rem;
-	}
-}
+// li {
+// 	position: relative;
+// 	left: -1rem;
+//
+// 	@include AU-media( md ) {
+// 		left: 0rem;
+// 	}
+// 	@include AU-media( lg ) {
+// 		left: 0rem;
+// 	}
+// }

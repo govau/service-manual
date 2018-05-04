@@ -58,6 +58,14 @@
 	}
 }
 
+// open sidebar menu when on desktop
+.js #guides-childnav-accordion .au-accordion__body.au-accordion--closed {
+	@include AU-media( md ) {
+		display: block;
+		height: auto;
+	}
+}
+
 .childnav__container {
 	width: 100%;
 

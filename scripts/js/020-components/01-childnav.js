@@ -45,16 +45,7 @@ function UserToggleChildNav() {
 	}
 }
 
-// Run on page load
-CheckChildNav();
-
-// Run functions after a debounced resize
-var ChildNavResize = Debounce(function() {
-	CheckChildNav();
-}, 250);
-
-window.addEventListener("resize",ChildNavResize);
-
+// user click handler
 var childnavbutton = document.getElementById('childnav__button');
 if (childnavbutton) {
 	childnavbutton.addEventListener("click",UserToggleChildNav);
