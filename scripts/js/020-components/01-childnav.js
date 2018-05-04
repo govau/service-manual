@@ -12,23 +12,6 @@ if ( childNavElement ) {
 	var anchorLinkToggler = childNavElement.getElementsByClassName('au-accordion__title');
 }
 
-// decide whether to open or close the accordion depending on screen size
-function CheckChildNav() {
-	if ( childNavElement ) {
-
-		// check if the button is hidden (display:none) to decide whether to be
-		// open or closed
-		var guidesButtonDisplay = window.getComputedStyle( childnav__button, '' ).getPropertyValue( 'display' );
-		if( guidesButtonDisplay === 'none' ){
-			AU.accordion.Open (anchorLinkToggler);
-		// check if the accordion has been opened by the user, if so, don't auto resize
-		} else if (!childNavClicked) {
-			AU.accordion.Close( anchorLinkToggler );
-		}
-	}
-}
-
-
 // toggle the accordion as a user action
 function UserToggleChildNav() {
 	if ( childNavElement ) {
