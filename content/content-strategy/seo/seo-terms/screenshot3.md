@@ -5,9 +5,10 @@ link: content-strategy/serp-top-3.svg
 reverse: false
 stackPosition: top
 imageAlt: A SERP showing the top 3 organic keyword rankings.
-caption: Top 3 organic keyword rankings for the keyword search ‘tax returns’.
+caption:
 level: 2
 display: 3
+long_description: longtext3.md
 ---
 ## [3]A search result showing top 3 
 

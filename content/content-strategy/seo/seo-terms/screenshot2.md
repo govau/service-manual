@@ -5,9 +5,10 @@ link: content-strategy/serp-paid-organic.svg
 reverse: false
 stackPosition: top
 imageAlt: Screenshot of a typical SERP showing a paid ad followed by an organic result.
-caption: SERP result for 'lodge a tax return online' search term.
+caption: 
 level: 2
 display: 3
+long_description: longtext2.md
 ---
 ## [3]Organic and paid search
 
