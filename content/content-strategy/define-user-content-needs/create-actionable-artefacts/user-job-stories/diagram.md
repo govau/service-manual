@@ -3,7 +3,7 @@ layout: blocks/image_content_block
 image: content-strategy/user-story-map.svg
 link: content-strategy/user-story-map.svg
 reverse: false
-stackPosition: top
+stackPosition:
 imageAlt: Example user stories and tasks of a content specialist
 title: 'Step 5: Map your stories'
 level: 3
@@ -18,8 +18,3 @@ Group related tasks together so you can visualise how the content may fit togeth
 Mapping your needs will also help you outline your minimum viable product (MVP). This shows the minimum stories you need to work to for the content to meet the overall goal.
 
 By prioritising content this way, you can create an MVP for testing. Everything not prioritised can go in your backlog to work on later.
-
-
-
-
-
