@@ -6,7 +6,7 @@ second_column_header: What to do
 first_column_content: topic-takeaway-listitems.md
 previous_header: "Remove content"
 previous_text: Clean-up phase
-previous_link: /content-strategy/set-goals-measure-success/
+previous_link: /content-strategy/remove-content/
 next_header: "Information architecture"
 next_text: Set the foundation phase
 next_link: /content-strategy/information-architecture/

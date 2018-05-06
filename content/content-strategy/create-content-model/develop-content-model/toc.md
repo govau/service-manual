@@ -1,8 +1,9 @@
 ---
 layout: nav/sections
 sections:
-  - Content teams
-  - Leaders
-  - Doers
-  - Specialists
+  - When to use a content model
+  - Engage stakeholders and partners
+  - Ways to develop a content model
+  - Things to remember
 ---
+

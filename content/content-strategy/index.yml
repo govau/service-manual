@@ -1,4 +1,4 @@
-pagetitle: Content strategy
+pagetitle: Content Strategy Guide
 weight: 40
 description: A content strategy sets the foundation for the creation, structure and governance of content.
 theme: blue
@@ -10,7 +10,21 @@ main:
   - why.md
   - how-head.md
   - how.md
-  - guides-cards.md
+  - begin-head.md
+  - begin.md
+  - begin-cards.md
+  - research-head.md
+  - research.md
+  - research-cards.md
+  - develop-head.md
+  - develop.md
+  - develop-cards.md
+  - clean-head.md
+  - clean.md
+  - clean-cards.md
+  - create-ucc-head.md
+  - create-ucc.md
+  - create-ucc-cards.md
   - support.md
   - /_shared/feedback.md
 footer:

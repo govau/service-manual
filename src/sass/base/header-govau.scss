@@ -112,6 +112,12 @@
 		transition: transform 0.25s ease-in;
 	}
 
+	.ie9 &:after {
+		@include AU-space( width, 1unit );
+		@include AU-space( height, 1unit );
+		background-position: center 0px;
+	}
+
 	.ie8 &,
 	.lt-ie8 & {
 		&:after {

@@ -1,0 +1,24 @@
+pagetitle: Content maintenance checklist
+description: Review your content for accuracy and relevance. Analyse performance metrics against any KPIs you’ve set.
+weight: 120
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+  - /_shared/breadcrumbs.md
+main:
+  - intro.md
+  - toc.md
+  - relevance-head.md
+  - relevance.md
+  - accuracy-head.md
+  - accuracy.md
+  - seo-head.md
+  - seotext.md
+  - links-head.md
+  - linkstext.md
+  - kpis-head.md
+  - kpistext.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

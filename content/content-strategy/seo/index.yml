@@ -6,12 +6,12 @@ description: Get better search results for your government agency website with S
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
+  - /_shared/breadcrumbs.md
 main:
   - attribution.md #attribution
   - why-head.md #h2
   - why.md #text
   - fact.md #fact
-  - how-head.md #h2
   - cards.md #approach
   - topic-takeaway.md #topic-takeaway.md
   - /_shared/feedback.md

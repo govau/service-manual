@@ -12,4 +12,4 @@ next_text:
 next_link: /content-strategy/cms/
 ---
 
-Add to **Part :   **, in the [Content Strategy Template](/content-strategy/start-content-strategy/show-problem-evidence/content-strategy-template/)
+Add to your [Content Strategy Template](/content-strategy/start-content-strategy/show-problem-evidence/content-strategy-template/)

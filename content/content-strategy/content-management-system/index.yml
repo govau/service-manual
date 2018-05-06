@@ -1,0 +1,19 @@
+pagetitle: Choose and configure your CMS
+weight: 10
+hidden: true
+theme: blue
+description: Learn how to choose the best CMS for your purposes and get the most out of it. Manage content efficiently and smoothly all in one place.
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+  - /_shared/breadcrumbs.md
+main:
+  - attribution.md #attribution
+  - diagram.md
+  - why-head.md #h2
+  - why.md #text
+  - cards.md #approach
+  - topic-takeaway.md #topic-takeaway
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

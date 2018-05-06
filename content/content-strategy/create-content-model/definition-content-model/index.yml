@@ -1,5 +1,5 @@
-pagetitle: Improve your content maturity level
-description: Abstract
+pagetitle: Definition of a content model and content types
+description: A content model shows the overall structure of content on your website. It also shows the relationship between the different types of content across the site.
 weight: 10
 layout: layout/topic
 theme: blue
@@ -10,16 +10,17 @@ header:
 main:
   - intro.md
   - toc.md #toc
-  - heading.md
-  - text.md
-  - heading2.md
-  - text2.md
-  - heading3.md
-  - text3.md
-  - heading4.md
-  - text4.md
-  - heading5.md
-  - text5.md
+  - heading-content-model.md
+  - text-content-model.md
+  - diagram-content-model.md #diagram
+  - heading-content-types.md
+  - text-content-types.md
+  - heading-reusable-content.md
+  - text-reusable.md
+  - heading-users.md
+  - text-users.md
+  - heading-components.md
+  - text-components.md
   - card.md #attachment
   - /_shared/feedback.md
 footer:
