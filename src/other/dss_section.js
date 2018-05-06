@@ -68,8 +68,6 @@ const DSSSection = ( page ) => {
 		<div className="container-fluid">
 			<div className="row">
 				<div className="col-md-8" id={ Slugify( page.section ).toLowerCase() }>
-
-					<span className="section__section dss-section__section">{ page.section }</span>
 					<div className="dss-section__text">{ page._body }</div>
 				</div>
 				<div className="col-md-4">
@@ -106,11 +104,6 @@ DSSSection.propTypes = {
 	dss: PropTypes.arrayOf(
 		PropTypes.oneOf([ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 ])
 	).isRequired,
-
-	/**
-	 * section: Guides
-	 */
-	section: PropTypes.string.isRequired,
 
 	/**
 	 * level: 2

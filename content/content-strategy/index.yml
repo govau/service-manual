@@ -6,7 +6,6 @@ header:
   - /_shared/globalheader.md
   - header.md
 main:
-  - category_sections.md
   - why.md
   - how-head.md
   - how.md

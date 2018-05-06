@@ -1,5 +1,4 @@
 .imagecontentblock {
-	margin: 0 0 4rem 0;
 	padding: 4rem 0 4.2rem 0;
 
 	&.imagecontentblock--stacktop {
@@ -20,7 +19,7 @@
 
 .imagecontentblock__content {
 	height: 100%;
-	padding: 0 0 2rem 0;
+	// padding: 0 0 2rem 0;
 
 	@include AU-media( md ) {
 		padding: 0 48px 0 12px;
@@ -29,7 +28,7 @@
 	}
 
 	.section__section {
-		margin-bottom: 2rem;
+		// margin-bottom: 2rem;
 	}
 
 	&.imagecontentblock__content--blue,

@@ -14,11 +14,6 @@ const Intro = ( page ) => {
 		<div className={`au-body au-grid intro intro--${ theme }`}>
 			<div className="container-fluid">
 				<div className="row">
-					<div className="col-md-12">
-						<span className="section__section" id={ Slugify( page.section ).toLowerCase() }>{ page.section }</span>
-					</div>
-				</div>
-				<div className="row">
 					<div className="col-xs-12">
 						<div className="textwrapper">
 							{ page.category && <span id={ (page.category).toLowerCase() } className="section__section intro__category">{ page.category }</span> }
