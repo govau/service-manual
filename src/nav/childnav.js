@@ -28,12 +28,22 @@ const Childnav = ({ page }) => {
 	const pages = JSON.stringify(page._pages,null,3);
 	const parents = page._parents;
 	const parent_id = page._parents[page._parents.length - 2];
-	const parent_title = page._pages[ parent_id ].pagetitle;
+	var parent_title;
+
+	if (parent_id == "index") {
+		parent_title = "Home";
+	} else {
+		parent_title = page._pages[ parent_id ].pagetitle;
+	}
 
 	var siblings;
 	var secondLevelParent;
 	var thirdLevelParent;
 	var fourthLevelParent;
+
+	if (page._parents.length == 2) {
+		siblings = page._nav.homepage;
+	}
 
 	if (page._parents.length == 3) {
 		secondLevelParent = page._parents[1];
@@ -148,7 +158,11 @@ const Childnav = ({ page }) => {
 	}
 
 	function makeUrl(pageid) {
-		return "/" + pageid;
+		if (pageid == "index") {
+			return "/";
+		} else {
+			return "/" + pageid;
+		}
 	}
 
 	function makeMenuList(){
