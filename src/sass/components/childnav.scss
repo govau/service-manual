@@ -3,9 +3,9 @@
 	// display: inline-block;
 	width: 100%;
 
-
 	@include AU-media( md ) {
 		// float: left;
+		margin-bottom: -40rem;
 	}
 
 	@include AU-media( lg ) {
