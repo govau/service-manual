@@ -153,7 +153,11 @@ const Childnav = ({ page }) => {
 
 	function makeChildrenList() {
 		var rows = [];
-		for (var i = 0; i < children_titles.length; i++) {
+		for (var i = 0; i < childrenkeys.length; i++) {
+			// exit loop if page is hidden
+			if (page._pages[ childrenkeys[i] ].hidden) {
+				continue;
+			}
 			rows.push(<NavListItem url={makeUrl(childrenkeys[i])} itemname={children_titles[i]} key={childrenkeys[i]}/>)
 		}
 
@@ -170,7 +174,12 @@ const Childnav = ({ page }) => {
 
 	function makeMenuList(){
 		var rows = [];
-		for (var i = 0; i < sibling_titles.length; i++) {
+		for (var i = 0; i < siblingkeys.length; i++) {
+			// exit loop if page is hidden
+			if (page._pages[ siblingkeys[i] ].hidden) {
+				continue;
+			}
+
 			// if it is the current page make a non-link item and print its children
 			if (sibling_titles[i] == pageTitle) {
 				rows.push(<NavListItem itemname={sibling_titles[i]} key={siblingkeys[i]} />);
