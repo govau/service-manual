@@ -16,9 +16,10 @@ const IntroNav = ( page ) => {
 		<div className={`au-body au-grid intro intro--withnav intro__wrapper intro--${ theme }`}>
 			<div className="container-fluid">
 				<div className="row">
-					<div className="col-md-12">
-
+					<div className="col-md-3">
 						<Childnav page={ page } />
+					</div>
+					<div className="col-md-9">
 
 						<div className="textwrapper intro__textwrapper__withnav">
 							<div><h2 className="au-display-xxxl guides-category-header-main-heading intro__headline">{ page.title ? page.title : page._pages[ page._ID ].pagetitle }</h2></div>
