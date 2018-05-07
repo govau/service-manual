@@ -8,7 +8,7 @@ import React from 'react';
  * @disable-docs
  */
 const Partial = ( page ) => (
-		<div className="container au-body au-grid">
+		<div className="container-fluid au-body au-grid">
 			<div className="row">
 				<div className="col-xs-12">
 					{ page._body }
