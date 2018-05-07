@@ -1,5 +1,5 @@
 ---
-layout: intros/intro
+layout: intros/intro_with_nav
 category: Starting a team
 title: Multidisciplinary team
 subtitle: You need a multidisciplinary team to build government services in an agile way. These kinds of teams help you to build quickly and iteratively, based on user needs.
