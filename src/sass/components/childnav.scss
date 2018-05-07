@@ -12,7 +12,7 @@
 		position: relative;
 		// float: left;
 		top: -1rem;
-		// right: 0;
+		left: -1rem;
 		// z-index: 1;
 	}
 }
@@ -88,7 +88,7 @@
 	width: 100%;
 
 	@include AU-media( md ) {
-		width: 16rem;
+		width: 18rem;
 	}
 
 	@include AU-media( lg ) {
