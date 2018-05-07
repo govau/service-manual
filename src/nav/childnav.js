@@ -3,7 +3,7 @@ import React from 'react';
 import AUaccordion from '../../scripts/uikit/accordion.js'
 
 /**
- * Childnav for use in intro_with_nav
+ * Childnav: A navigation that shows the Siblings and Children
  *
  * @disable-docs
  *
@@ -23,7 +23,6 @@ import AUaccordion from '../../scripts/uikit/accordion.js'
 
 const Childnav = ({ page }) => {
 
-	// const parentID = page._parents.filter( parent => parent !== 'index' )[ ( page._parents.length - ( page._parents.length - 1 ) )];
 	const pageTitle = page._pages[ page._ID ].pagetitle;
 	const pages = JSON.stringify(page._pages,null,3);
 	const parents = page._parents;
@@ -41,21 +40,25 @@ const Childnav = ({ page }) => {
 	var thirdLevelParent;
 	var fourthLevelParent;
 
+	// 2nd level page (eg guides.service.gov.au/content-strategy/)
 	if (page._parents.length == 2) {
 		siblings = page._nav.homepage;
 	}
 
+	// 3rd level page (eg guides.service.gov.au/content-strategy/cms/)
 	if (page._parents.length == 3) {
 		secondLevelParent = page._parents[1];
 		siblings = page._nav.homepage[secondLevelParent];
 	}
 
+	// 4th level page (eg guides.service.gov.au/content-strategy/cms/choose-a-cms/)
 	if (page._parents.length == 4) {
 		secondLevelParent = page._parents[1];
 		thirdLevelParent = page._parents[2];
 		siblings = page._nav.homepage[secondLevelParent][thirdLevelParent];
 	}
 
+// 5th level page (eg guides.service.gov.au/content-strategy/cms/choose-a-cms/how-to-evaluate/)
 	if (page._parents.length == 5) {
 		secondLevelParent = page._parents[1];
 		thirdLevelParent = page._parents[2];
