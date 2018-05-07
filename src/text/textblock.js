@@ -15,7 +15,7 @@ const Textblock = ( page ) => {
 	<div className={ `au-body au-grid textblock textblock--${ page.stackPosition }` } >
 		<div className="container-fluid">
 			<div className="row">
-				<div className="col-md-12">
+				<div className="col-md-offset-3 col-md-9">
 					<div className="textwrapper textblock__text">
 
 						{ page.title && <HeadingTag id={ id } className={ `display-${ page.display }` }>

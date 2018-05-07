@@ -13,7 +13,7 @@ const Categoryheader = ( page ) => {
 <div className="au-body au-grid">
 	<div className="container-fluid">
 		<div className="row guides-category-header">
-				<div className="col-md-12">
+				<div className="col-md-offset-3 col-md-9">
 					<h1 className="au-display-xxxl guides-category-header-main-heading">
 						{ page.title }
 					</h1>

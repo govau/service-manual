@@ -17,15 +17,15 @@ const Imageblock = ( page ) => {
 	return (
 					<div className="au-grid au-body">
 						<div className="container-fluid imageblock__container">
-							<div className="row col-md-12">
+							<div className="row col-md-offset-3 col-md-9">
 							{ page.section && <span className="imageblock__section section__section intro__category" id={ Slugify( page.section ).toLowerCase() } >{ page.section }</span> }
 							</div>
-							<div className="row col-md-12">
+							<div className="row col-md-offset-3 col-md-9">
 								<HeadingTag className={ `imageblock__headline display-${ page.display }` }>
 									{ page.title ? page.title : page._pages[ page._ID ].pagetitle }
 								</HeadingTag>
 							</div>
-							<div className="row col-md-12">
+							<div className="row col-md-offset-3 col-md-9">
 								<p>{ page._body }</p>
 							</div>
 						</div>

@@ -14,7 +14,7 @@ const Intro = ( page ) => {
 		<div className={`au-body au-grid intro intro--${ theme }`}>
 			<div className="container-fluid">
 				<div className="row">
-					<div className="col-xs-12">
+					<div className="col-md-offset-3 col-xs-9">
 						<div className="textwrapper">
 							{ page.category && <span id={ (page.category).toLowerCase() } className="section__section intro__category">{ page.category }</span> }
 							<div><h2 className="display-3">{ page.title ? page.title : page._pages[ page._ID ].pagetitle }</h2></div>

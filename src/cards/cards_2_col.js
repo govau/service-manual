@@ -9,25 +9,29 @@ import Card from './card';
  * The partial component
  */
 const Cards = ( page ) => (
-	<div className={`au-body au-grid cards cards--2cols`}>
+	<div className={`au-body au-grid`}>
 		<div className="container-fluid">
-			<ul className="cards__list">
-				{
-					page.cards.map( ( card, i ) => (
-						<li key={ i } className="col-xs-6 cards__list__item">
-							<Card
-								preheadline={ card.preheadline }
-								link={ card.link }
-								background={ card.background }
-								image={ card.image }
-								headline={ card.headline }
-								text={ card.text }
-								cta={ card.cta }
-							/>
-						</li>
-					))
-				}
-			</ul>
+			<div className="row">
+				<div className="col-md-offset-3 col-md-9 cards cards--2cols">
+					<ul className="cards__list">
+						{
+							page.cards.map( ( card, i ) => (
+								<li key={ i } className="col-xs-6 cards__list__item">
+									<Card
+										preheadline={ card.preheadline }
+										link={ card.link }
+										background={ card.background }
+										image={ card.image }
+										headline={ card.headline }
+										text={ card.text }
+										cta={ card.cta }
+									/>
+								</li>
+							))
+						}
+					</ul>
+				</div>
+			</div>
 
 			{ page.cardsLink && <a className="cards__link au-cta-link" href={ `${ page.cardsLink.url }` }>{ page.cardsLink.text }</a> }
 		</div>

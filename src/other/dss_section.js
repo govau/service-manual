@@ -67,7 +67,7 @@ const DSSSection = ( page ) => {
 	<div className={` au-body au-grid dss-section ${ page.level ? 'dss-section--level' + page.level : '' } `}>
 		<div className="container-fluid">
 			<div className="row">
-				<div className="col-md-8" id={ Slugify( page.section ).toLowerCase() }>
+				<div className="col-md-offset-3 col-md-4" id={ Slugify( page.section ).toLowerCase() }>
 					<div className="dss-section__text">{ page._body }</div>
 				</div>
 				<div className="col-md-4">
