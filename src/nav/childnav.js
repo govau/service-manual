@@ -171,7 +171,7 @@ const Childnav = ({ page }) => {
 			<div className="childnav">
 				<div className="childnav__container">
 					<a href="#childnav_button" id="childnav__button" className="au-btn au-accordion--closed">In this category </a>
-					<AUaccordion open={ true } header="In this section" id="guides-childnav-accordion">
+					<AUaccordion open={ false } header="In this section" id="guides-childnav-accordion">
 
 						<a href={makeUrl(parent_id)}>{parent_title}</a>
 						{makeMenuList()}
