@@ -52,13 +52,13 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 									: <Fragment>
 											<a href="/" className="header__logo-wrapper">
 												<img className="header--logo-coa" src="/assets/img/header-logo-agov.png" alt="The Australian Government coat of Arms"/>
-												<h1 className="header__title">{ title }</h1>
+												<h1 className="header__title">{ title } {/* <- Space here is intentional */
+														title_badge
+															? <span className="header__badge">{ title_badge }</span>
+															: null
+													}
+												</h1>
 											</a>
-												{
-													title_badge
-														? <span className="header__badge">{ title_badge }</span>
-														: null
-												}
 										</Fragment>
 							}
 
