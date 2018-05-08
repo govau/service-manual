@@ -1,8 +1,7 @@
 ---
 layout: text/textblock
 ---
-Having an easily available and reliable support community can help you optimise your CMS and fix issues quickly. A good support community can make weeks of difference in getting the help or development work you might need.
+Find out if there’s an easily available and reliable support community to help you optimise your CMS and fix issues quickly.
 
-An active support community may also be more likely to help with bugs and issues. This is more true of open source projects.
-
+A good support community can make weeks of difference in getting the help or development wor.An active community may also be more likely to help with bugs and issues. This is more common for open source CMSs.
 

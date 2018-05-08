@@ -1,13 +1,12 @@
 ---
 layout: text/textblock
 ---
-If you change from one CMS to another, you'll need a clear exit plan. This involves moving all of your content across. 
+If you need to change to a different CMS, you'll need a clear exit plan. This involves migrating your content.
 
-Your exit plan should address the following:
-- What is the process of moving content, should you wish to change CMS?
+Questions for your exit plan:
+- What is the process for moving content?
 - How will data be preserved when you move it across?
 - Who is responsible for the migration of content?
 - Will content backups be made before and after the move?
 - Who will set up content in the new CMS?
-
 

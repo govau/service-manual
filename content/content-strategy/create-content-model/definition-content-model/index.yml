@@ -1,6 +1,7 @@
 pagetitle: Definition of a content model and content types
 description: A content model shows the overall structure of content on your website. It also shows the relationship between the different types of content across the site.
 weight: 10
+hidden: true
 layout: layout/topic
 theme: blue
 header:
