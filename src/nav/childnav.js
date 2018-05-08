@@ -143,6 +143,11 @@ const Childnav = ({ page }) => {
 		children_weights[k] = templist[k].weight;
 	}
 
+
+	///////////////////////////////////////
+	//
+	// 		HELPERS
+	//
 	///////////////////////////////////////
 
 	function hasChildren() {
@@ -161,6 +166,20 @@ const Childnav = ({ page }) => {
 		}
 	}
 
+	function makeUrl(pageid) {
+		if (pageid == "index") {
+			return "/";
+		} else {
+			return "/" + pageid;
+		}
+	}
+
+	///////////////////////////////////////
+	//
+	// 		HTML CREATORS
+	//
+	///////////////////////////////////////
+
 	function makeChildrenList() {
 		var rows = [];
 		for (var i = 0; i < childrenkeys.length; i++) {
@@ -172,14 +191,6 @@ const Childnav = ({ page }) => {
 		}
 
 		return <ul key={Math.random()}>{rows}</ul>;
-	}
-
-	function makeUrl(pageid) {
-		if (pageid == "index") {
-			return "/";
-		} else {
-			return "/" + pageid;
-		}
 	}
 
 	function makeMenuList(){
@@ -210,6 +221,7 @@ const Childnav = ({ page }) => {
 					<AUaccordion open={ false } header="In this section" id="guides-childnav-accordion">
 
 						<a href={makeUrl(parent_id)}>{parent_title}</a>
+
 						{makeMenuList()}
 
 						<p className="childnav__debug">page._ID</p>
