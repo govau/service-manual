@@ -10,16 +10,40 @@ import AUaccordion from '../../scripts/uikit/accordion.js'
  * The javascript event handlers are in /scripts/js/020-components/01-childnav.js
  */
 
- class NavListItem extends React.Component {
+// basic single <li> item
+class NavListItem extends React.Component {
 
-   render(){
-			if (this.props.url) {
-	    	return (<li className="guideschildnav__item"><a href={this.props.url}>{this.props.itemname}</a></li>);
-			} else {
-				return (<li className="guideschildnav__item"><strong>{this.props.itemname}</strong></li>);
-			}
-   }
+ render(){
+		if (this.props.url) {
+    	return (<li className="guideschildnav__item"><a href={this.props.url}>{this.props.itemname}</a></li>);
+		} else {
+			return (<li className="guideschildnav__item"><strong>{this.props.itemname}</strong></li>);
+		}
  }
+}
+
+// an <li> element with nested <ul> inside
+// e.g.
+// <li>Honda
+// 	<ul>
+// 		<li>Accord</li>
+// 		<li>Civic</li>
+// 	</ul>
+// </li>
+
+class NavListNestedItem extends React.Component {
+
+  render(){
+		return(
+			<li className="guideschildnav__item">Honda
+				<ul>
+					<li className="guideschildnav__item">Accord</li>
+					<li className="guideschildnav__item">Civic</li>
+				</ul>
+			</li>
+		)
+  }
+}
 
 const Childnav = ({ page }) => {
 
@@ -201,10 +225,11 @@ const Childnav = ({ page }) => {
 				continue;
 			}
 
-			// if it is the current page make a non-link item and print its children
+			// if it is the current page form a nested list of children
 			if (sibling_titles[i] == pageTitle) {
 				rows.push(<NavListItem itemname={sibling_titles[i]} key={siblingkeys[i]} />);
 				if (hasChildren()) { rows.push(makeChildrenList()); }
+				// rows.push(<NavListNestedItem />)
 			} else {
 				rows.push(<NavListItem url={makeUrl(siblingkeys[i])} itemname={sibling_titles[i]} key={siblingkeys[i]} />);
 			}
