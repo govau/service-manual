@@ -111,8 +111,10 @@ const Childnav = ({ page }) => {
 	var children = siblings[page._ID];
 	var childrenkeys = Object.keys(children);
 	var children_titles = [];
+	var children_weights = [];
 
-// get the page titles from the list of id's (keys)
+	// get the page titles from the list of id's (keys)
+	// only if there are children.
 	for (var i = 0; i < childrenkeys.length; i++) {
 		if (page._pages[ childrenkeys[i] ] != null) {
 			children_titles[i] = page._pages[ childrenkeys[i] ].pagetitle;
@@ -121,16 +123,24 @@ const Childnav = ({ page }) => {
 
 	// sort the arrays by page title
 	templist = [];
+
+	// get the page weights from the list of id's (keys)
+	for (var i = 0; i < children_titles.length; i++) {
+		children_weights[i] = page._pages[ childrenkeys[i] ].weight;
+	}
+
+	// sort by weight
 	for (var j = 0; j < children_titles.length; j++)
-    templist.push({'title': children_titles[j], 'id': childrenkeys[j]});
+		templist.push({'title': children_titles[j], 'id': childrenkeys[j], 'weight': children_weights[j]});
 
 	templist.sort(function(a, b) {
-    return ((a.title < b.title) ? -1 : ((a.title == b.title) ? 0 : 1));
+    return ((a.weight < b.weight) ? -1 : ((a.weight == b.weight) ? 0 : 1));
 	});
 
 	for (var k = 0; k < templist.length; k++) {
     children_titles[k] = templist[k].title;
     childrenkeys[k] = templist[k].id;
+		children_weights[k] = templist[k].weight;
 	}
 
 	///////////////////////////////////////
