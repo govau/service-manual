@@ -32,7 +32,11 @@
 	}
 }
 
-/// Guides specific overrides
+//////////////////////////////////////////////
+///
+///      Guides specific overrides
+///
+//////////////////////////////////////////////
 
 // Spacers for padding
 .spacer__sm {
@@ -55,4 +59,15 @@ a:focus img {
 
 a:focus h1 {
 	outline: 3px solid $AU-color-foreground-focus;
+}
+
+
+// reduce the list item margin in mobile view
+.textwrapper li {
+	position: relative;
+	left: -1rem;
+
+	@include AU-media( xs ) {
+		left: 0rem;
+	}
 }
