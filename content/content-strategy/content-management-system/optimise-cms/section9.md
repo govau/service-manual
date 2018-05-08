@@ -1,8 +1,6 @@
 ---
 layout: text/textblock
 ---
-A CMS can report basic site statistics. Compare the statistics provided against external analytics platforms and your reporting requirements to determine if you need deeper analytics than the CMS provides.
+Some CMSs provide basic site statistics. Compare this against external analytics platforms and your reporting requirements.
 
-If you do, check what options the CMS provides to integrate into the external analytics platform, and if the analytics capability comes at an added cost.
-
-
+If you need deeper analytics.Check if the CMS can integrate into an external analytics platform. This may be an added cost.

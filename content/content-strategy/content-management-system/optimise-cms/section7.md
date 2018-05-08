@@ -1,25 +1,24 @@
 ---
 layout: text/textblock
 ---
-WYSIWYG stands for ‘what you see is what you get’. This is normally the default content editor of your CMS and is sometimes also called a rich text editor. Your WYSIWYG text editor should be configured with your agency style guide.
+WYSIWYG stands for what you see is what you get. This is the default kind of content editor for a CMS. It is sometimes also called a rich text editor. You should configure your  WYSIWYG text editor to follow your own agency’s style guide.
 
-Your CMS text editor should instruct writers about style and format, including:
-- what fonts to use and where to use them – colours, sizes, styles etc
-- heading styles
+The CMS text editor should instruct writers about style and format. Some examples include, fonts, colours, sizes, heading styles, metadata, tags etc).
 
-Its editing features should support your content writing. A rich editor with too many options can cause confusion. This happens if writers use styles and features that aren’t in alignment with your style guide.
-Does your site uses a lot of imagery. If so, make sure your editor can manage these in an accessible manner. You will need to decide on image formats and specifications.
+You may also refer to the DTA [Content Guide](https://guides.service.gov.au/content-guide/) for more on this.
 
-Questions to ask your CMS developer about the WYSIWYG editor:
-- How reliable and secure is the WYSIWYG editor of your CMS?
-- How much knowledge of HTML code will you need?
+Editing features should support content writing. Limit the editor to basic styles and features of the style guide. Too many options makes it easy to create content that doesn’t follow th style guide. 
 
-Is it:
-- easy to customise content using HTML?
-- open source or commercial?
-- suitable for everyone who needs to use it
-- accessible?
-- updated regularly?
-- built on current technology
+The editor should support accessible images. You will also need to specify the image formats and file specifications that the CMS will accept.
+
+Talk to your developer to find out how reliable and secure the text editor is, and if you need to use HTML.
+
+Some areas to be aware:
+- Potential need for customisation of content using HTML
+- Type of code used (ie; open source code vs commercial)
+- Suitability for everyone who needs to use it
+- Compliance with accessibility issues
+- Regularity of CMS updates and new versions
+- Reliability and compatibility with current technologies and changes
 
 
