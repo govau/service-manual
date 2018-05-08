@@ -1,8 +1,8 @@
 pagetitle: Information architecture (IA)
-weight: 10
+weight: 90
 hidden: true
 theme: blue
-description: Practical guidance for government agencies about developing an information architecture (IA) for websites. 
+description: Practical guidance for government agencies about developing an information architecture (IA) for websites.
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
