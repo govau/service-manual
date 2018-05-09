@@ -1,11 +1,8 @@
 ---
 layout: text/textblock
 ---
-Duplicate content is when the same content appears in more than one place on a website. It can be inside but also outside of your website.
+Duplicate content is when the same content appears in more than one place on a website. The same content may appear both on your own website or on an external site. Content that is the same on different pages or sites will affect your SEO rankings.
 
-When there are multiple pieces of content in more than one location on the internet, it can be difficult for search engines to decide which version is more relevant to a given search query, which can impact rankings.
-
-Approaches for dealing with duplicate content;
-- Rel=canonical tag — tells Google that you know the article copied has been intentionally placed on your website and that all the weight of that page should pass to the original page.
-- Meta Robots Noindex — this meta robots tag can be added to the HTML head of each individual page that should be excluded from a search engine's index.
-- Add an external link — simply add a link back to your original page.
+Approaches for dealing with duplicate content:
+- Rel=canonical tag — tells a search engine that you know content had been  copied. It also tells the search engine that the SEO weight should pass to the original page.
+- noindex meta robots tag — add this to the HTML head of each page that you do not want search engines to index.

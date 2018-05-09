@@ -10,7 +10,7 @@ sections:
   - Schema
   - Rich answers
   - Content relevance
-  - Prioritising content
+  - Page-by-page focus
   - Content authority
   - Social media
   - User experience

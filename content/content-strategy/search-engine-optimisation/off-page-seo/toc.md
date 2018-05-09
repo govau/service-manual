@@ -1,7 +1,7 @@
 ---
 layout: nav/sections
 sections:
-  - Link building
+  - Link building and backlinks
   - Anchor text
   - Analytics
   - SEO future proofing

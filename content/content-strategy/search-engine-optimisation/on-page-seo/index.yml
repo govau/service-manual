@@ -45,6 +45,7 @@ main:
   - section12.md #text
   - heading13.md #h2
   - section13.md #text
+  - fastfact.md #fastfact
   - heading14.md #h2
   - section14.md #text
   - heading15.md #h2
