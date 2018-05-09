@@ -10,16 +10,22 @@ import AUaccordion from '../../scripts/uikit/accordion.js'
  * The javascript event handlers are in /scripts/js/020-components/01-childnav.js
  */
 
+ function makeUrlFromCuttlebelleId(pageid) {
+	 if (pageid == "index") {
+		 return "/";
+	 } else {
+		 return "/" + pageid;
+	 }
+ }
+
 // basic single <li> item
 class NavListItem extends React.Component {
 
- render(){
-		if (this.props.url) {
-    	return (<li className="guideschildnav__item"><a href={this.props.url}>{this.props.itemname}</a></li>);
-		} else {
-			return (<li className="guideschildnav__item"><strong>{this.props.itemname}</strong></li>);
-		}
- }
+	render(){
+		return (
+		<li><a href={this.props.url}>{this.props.itemname}</a></li>
+		);
+ 	}
 }
 
 // an <li> element with nested <ul> inside
@@ -34,11 +40,18 @@ class NavListItem extends React.Component {
 class NavListNestedItem extends React.Component {
 
   render(){
+		var rows = [];
+		for (var i = 0; i < this.props.titles.length; i++) {
+			rows.push(<NavListItem
+									itemname={this.props.titles[i]}
+									url={makeUrlFromCuttlebelleId(this.props.ids[i])}
+								/>);
+		}
+
 		return(
-			<li className="guideschildnav__item">Honda
+			<li>{this.props.itemname}
 				<ul>
-					<li className="guideschildnav__item">Accord</li>
-					<li className="guideschildnav__item">Civic</li>
+					{rows}
 				</ul>
 			</li>
 		)
@@ -190,32 +203,11 @@ const Childnav = ({ page }) => {
 		}
 	}
 
-	function makeUrl(pageid) {
-		if (pageid == "index") {
-			return "/";
-		} else {
-			return "/" + pageid;
-		}
-	}
-
 	///////////////////////////////////////
 	//
 	// 		HTML CREATORS
 	//
 	///////////////////////////////////////
-
-	function makeChildrenList() {
-		var rows = [];
-		for (var i = 0; i < childrenkeys.length; i++) {
-			// exit loop if page is hidden
-			if (page._pages[ childrenkeys[i] ].hidden) {
-				continue;
-			}
-			rows.push(<NavListItem url={makeUrl(childrenkeys[i])} itemname={children_titles[i]} key={childrenkeys[i]}/>)
-		}
-
-		return <ul key={Math.random()}>{rows}</ul>;
-	}
 
 	function makeMenuList(){
 		var rows = [];
@@ -227,11 +219,19 @@ const Childnav = ({ page }) => {
 
 			// if it is the current page form a nested list of children
 			if (sibling_titles[i] == pageTitle) {
-				rows.push(<NavListItem itemname={sibling_titles[i]} key={siblingkeys[i]} />);
-				if (hasChildren()) { rows.push(makeChildrenList()); }
-				// rows.push(<NavListNestedItem />)
+				rows.push(
+									<NavListNestedItem
+										itemname={sibling_titles[i]}
+										titles={children_titles}
+										ids={childrenkeys}
+									/>)
 			} else {
-				rows.push(<NavListItem url={makeUrl(siblingkeys[i])} itemname={sibling_titles[i]} key={siblingkeys[i]} />);
+				rows.push(
+									<NavListItem
+										url={makeUrlFromCuttlebelleId(siblingkeys[i])}
+										itemname={sibling_titles[i]}
+										key={siblingkeys[i]}
+									/>);
 			}
 		}
 		return <ul>{rows}</ul>;
@@ -245,7 +245,7 @@ const Childnav = ({ page }) => {
 					<a href="#childnav_button" id="childnav__button" className="au-btn au-accordion--closed">In this category </a>
 					<AUaccordion open={ false } header="In this section" id="guides-childnav-accordion">
 
-						<a href={makeUrl(parent_id)}>{parent_title}</a>
+						<a href={makeUrlFromCuttlebelleId(parent_id)}>{parent_title}</a>
 
 						{makeMenuList()}
 
