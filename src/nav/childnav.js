@@ -42,6 +42,9 @@ class NavListNestedItem extends React.Component {
   render(){
 		var rows = [];
 		for (var i = 0; i < this.props.titles.length; i++) {
+			if (this.props.titles[i] == "HIDDEN") {
+				continue;
+			}
 			rows.push(<NavListItem
 									itemname={this.props.titles[i]}
 									url={makeUrlFromCuttlebelleId(this.props.ids[i])}
@@ -155,7 +158,11 @@ const Childnav = ({ page }) => {
 	// only if there are children.
 	for (var i = 0; i < childrenkeys.length; i++) {
 		if (page._pages[ childrenkeys[i] ] != null) {
-			children_titles[i] = page._pages[ childrenkeys[i] ].pagetitle;
+			if (page._pages[ childrenkeys[i] ].hidden) {
+				children_titles[i] = "HIDDEN";
+			} else {
+				children_titles[i] = page._pages[ childrenkeys[i] ].pagetitle;
+			}
 		}
 	}
 
@@ -214,7 +221,7 @@ const Childnav = ({ page }) => {
 		var rows = [];
 		for (var i = 0; i < siblingkeys.length; i++) {
 			// exit loop if page is hidden
-			if (page._pages[ siblingkeys[i] ].hidden) {
+			if (page._pages[ siblingkeys[i] ].hidden || siblingkeys[i] == "privacy-statement") {
 				continue;
 			}
 
