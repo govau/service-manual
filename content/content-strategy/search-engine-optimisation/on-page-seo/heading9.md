@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Prioritising content
+section: Page-by-page focus
 ---

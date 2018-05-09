@@ -5,7 +5,7 @@ link: content-strategy/schema.svg
 reverse: false
 stackPosition: top
 imageAlt: A schema result showing extra information.
-caption: 
+caption:
 level: 2
 display: 3
 long_description:

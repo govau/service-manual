@@ -12,4 +12,4 @@ You may improve the chances of being a featured snippet by:
 - optimising your on-page SEO
 - creating content that answers specific questions
 
-Make sure your web page answers many similar questions (try to avoid turning it into an FAQ page). One option may be to create a [people also ask](https://moz.com/blog/infinite-people-also-ask-boxes) box.
+Make sure your web page answers many similar questions. Try to avoid turning your answers into an FAQ page. One option may be to create a [people also ask](https://moz.com/blog/infinite-people-also-ask-boxes) box.
