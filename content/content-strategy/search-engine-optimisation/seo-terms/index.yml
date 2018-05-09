@@ -15,12 +15,13 @@ main:
   - fact.md #fast fact
   - heading1.md #h2
   - text1.md #text
+  - screenshot3.md #screenshot
   - heading4.md #h2
   - text4.md #text
+  - key-takeaway.md #key-takeaway
   - screenshot2.md #screenshot
   - heading3.md #h2
   - text3.md #text
-  - screenshot3.md #screenshot
   - heading5.md #h2
   - text5.md #text
   - heading6.md #h2

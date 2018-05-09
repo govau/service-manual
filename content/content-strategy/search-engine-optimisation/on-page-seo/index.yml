@@ -11,11 +11,10 @@ header:
 main:
   - intro.md
   - toc.md #toc
-  - key-takeaway.md #supporting takeaway
   - heading.md #h2
   - section.md #text
   - heading2.md #h2
-  - section2.md #text
+  - section2.md
   - screenshot2.md #diagram
   - section2b.md #text
   - example.md #example
