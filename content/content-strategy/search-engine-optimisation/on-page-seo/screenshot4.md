@@ -5,7 +5,7 @@ link: content-strategy/rich-answer.svg
 reverse: false
 stackPosition: top
 imageAlt: A SERP result also showing a rich answer at the top.
-caption: 
+caption: A SERP result also showing a rich answer for 'do my tax'.
 level: 2
 display: 3
 long_description:

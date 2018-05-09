@@ -5,10 +5,10 @@ link: content-strategy/title-tag.svg
 reverse: false
 stackPosition: top
 imageAlt: The title tag can be found in your internet browser tab (above the URL). In this example, the title tag for 'YouTube' is shown above the URL address on a separate tab.
-caption: 
+caption: In this example, the title tag for 'YouTube' is shown above the URL address on a separate tab.
 level: 2
 display: 3
-long_description:
+long description:
 ---
 **Page titles** are a foundational part of SEO. They're one of the first things a user sees in the search results. 
 

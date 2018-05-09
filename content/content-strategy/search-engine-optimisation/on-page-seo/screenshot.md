@@ -5,9 +5,9 @@ link: content-strategy/SERP-tax-return.png
 reverse: false
 stackPosition: top
 imageAlt: Screenshot of a typical SERP showing a paid ad followed by an organic result.
-caption: 
+caption: Screenshot of a typical SERP showing a paid ad followed by an organic result.
 level: 2
 display: 3
-long_description: longtext.md
+long_description:
 ---
 SERP result for 'tax return'
