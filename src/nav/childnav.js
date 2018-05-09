@@ -45,12 +45,13 @@ class NavListNestedItem extends React.Component {
 			rows.push(<NavListItem
 									itemname={this.props.titles[i]}
 									url={makeUrlFromCuttlebelleId(this.props.ids[i])}
+									key={Math.random()}
 								/>);
 		}
 
 		return(
-			<li>{this.props.itemname}
-				<ul>
+			<li key={Math.random()}>{this.props.itemname}
+				<ul key={Math.random()}>
 					{rows}
 				</ul>
 			</li>
@@ -224,13 +225,14 @@ const Childnav = ({ page }) => {
 										itemname={sibling_titles[i]}
 										titles={children_titles}
 										ids={childrenkeys}
+										key={Math.random()}
 									/>)
 			} else {
 				rows.push(
 									<NavListItem
 										url={makeUrlFromCuttlebelleId(siblingkeys[i])}
 										itemname={sibling_titles[i]}
-										key={siblingkeys[i]}
+										key={Math.random()}
 									/>);
 			}
 		}
