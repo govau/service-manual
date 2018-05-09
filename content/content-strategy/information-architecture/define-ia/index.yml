@@ -1,0 +1,19 @@
+pagetitle: Define your IA
+weight: 40
+hidden: true
+theme: blue
+description: .
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+  - /_shared/breadcrumbs.md
+main:
+  - intro.md
+  - toc.md
+  - menu-head.md
+  - menu.md
+  - methods-head.md
+  - cards.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

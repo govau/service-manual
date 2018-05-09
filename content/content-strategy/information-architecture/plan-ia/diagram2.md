@@ -7,9 +7,9 @@ stackPosition: top
 imageAlt: Diagram showing an interlinking IA model
 caption: 
 title: Interlinking IA
-level: 2
+level: 3
 display: 3
 long_description: new-long-description2.md
 ---
 
-Top level pages with sub page (parent page) and child pages. This is where pages are cross referenced at each level. This is useful for sites with a lot of overlapping content.
+Top level pages with sub page (parent page) and child pages. This is where pages are cross-referenced in each parent page section. This is useful for sites with a lot of overlapping content.

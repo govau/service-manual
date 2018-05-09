@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: IA menu
+section: IA methods
 ---

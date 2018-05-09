@@ -2,16 +2,14 @@
 layout: text/textblock
 ---
 
-The following are typical steps for an open card sorting session.
-
 1. Introduce your group to the context of why they are there–why specific people.
 2. Explain the reason for the card sort. For example, you might use card sorting to improve or work out the navigation of a website. The words on the cards represent the menu options/page titles.
-3. Lay the cards out on a table in an unorganised way
-4. Put people into pairs for each card sort so they can work together. Each pair will need to sort a separate set of cards
-5. Get the pair to become familiar with the cards
-6. Ask them to sort into groups that are logical to them
-7. If they don’t understand any of the words ask them to move those cards into another pile and organise what’s left
-8. Label each grouping with a post-it note as a heading
+3. Lay the cards out on a table in an unorganised way.
+4. Put people into pairs for each card sort so they can work together. Each pair will need to sort a separate set of cards.
+5. Get the pair to become familiar with the cards.
+6. Ask them to sort into groups that are logical to them.
+7. If they don’t understand any of the words ask them to move those cards into another pile and organise what’s left.
+8. Label each grouping with a post-it note as a heading.
 9. Ask each pair to:
  -  note down if anything is missing. Write it on a different coloured post-it note and add it to a group
  -  note down if anything is redundant
