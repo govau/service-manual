@@ -8,7 +8,8 @@
 	background-color: $AU-color-background;
 	position: relative;
 	transition: all 0.2s ease-in-out;
-	box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+	// box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+	box-shadow: 0 2px 4px rgba(0,0,0,.3);
 }
 
 .guideshomepagecards .card__wrapper {
@@ -17,6 +18,10 @@
 
 .cards--2cols .card__wrapper {
 	padding-left: 2rem;
+}
+
+.cards--2cols {
+	margin-top: 2rem;
 }
 
 .au-body a.guides-card {
@@ -31,7 +36,7 @@
 }
 
 .cards {
-	background-color: $AU-color-background-alt;
+	//background-color: $AU-color-background-alt;
 	margin: 1rem 0 4rem 0;
 	padding: 1rem 0 4rem 0;
 }
