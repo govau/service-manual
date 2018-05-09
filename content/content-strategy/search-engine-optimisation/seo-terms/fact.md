@@ -2,11 +2,12 @@
 layout: text/callout
 ---
 
-The 4 most popular search engines in Australia are: 
-- Google (over 90%)
+The 5 most popular search engines in Australia are: 
+- Google (over 90% market share)
 - Bing
 - Yahoo
-- Baidu (Chinese-based search engine). 
+- Baidu (Chinese-based search engine)
+- DuckDuckGo
 
-Source: [Search Engine Market Share Australia](http://gs.statcounter.com/search-engine-market-share/all/australia/2016) 2016
+Source: [Search Engine Market Share Australia](http://gs.statcounter.com/search-engine-market-share/all/australia/2018) 2018
 

@@ -10,10 +10,8 @@ Aim to:
 - use descriptive keywords in anchor text that give a sense of the topic
 
 ### [2]Internal site search
-Internal site search is the search that users do on your site. If a user has found your site via a search engine, make it the best user experience possible, with effective internal site search.
+Internal site search is the search that users do on your site. This can also improve user experience. Google Analytics shows search terms to its Adwords customers, so internal search may be your best source for search terms.
 
-When you make improvements for SEO externally, consider if and how these changes can be made to improve your internal search also.
+Think about how you can apply external SEO to internal search. Keep track of the relevant keywords and search terms people are using on your site. Use the internal search functionality in your CMS and site analytics.
 
-Google no longer reveals search terms via its analytics, unless you are using its paid search service. As a result, internal search may be your best source of discovering search terms to help improve your content. Keep in mind, when a user searches via a search engine, other factors will also affect results such as: browsing history, location, cache etc. In this way, each person will see different results.
-
-Keep track of the relevant keywords and search terms people are using on your site. This can be done through your own internal search functionality in your CMS and site analytics.
+Remember search engines use browsing history, location and cache to generate results.

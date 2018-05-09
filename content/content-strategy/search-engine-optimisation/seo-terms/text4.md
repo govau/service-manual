@@ -1,5 +1,6 @@
 ---
 layout: text/textblock
 ---
-Also called search terms or search queries, [keywords](/content-strategy/seo/on-page-seo/#keywords) are the common terms people mostly use when searching for information. When a person types a keyword or keyword phrase into a search bar, this can be referred to as a ‘search term’ or ‘search query’. If you decide to target one of these ‘search terms’ in your SEO strategy, you would then refer to it as a keyword.
+These are the most popular words and phrases that people use when searching on a particular topic. [Keywords](/content-strategy/search-engine-optimisation/on-page-seo/#keywords) can also be known as search terms or search queries. Keywords should be part of your SEO strategy.
 
+For example, if a popular search phrase is 'red car door', then that keyword phrase should feature in your content. See our [Content Guide](https://guides.service.gov.au/content-guide/search-engines/#keywords) for more on how to do this.
