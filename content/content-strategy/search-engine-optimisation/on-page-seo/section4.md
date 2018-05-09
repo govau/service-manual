@@ -1,10 +1,9 @@
 ---
 layout: text/textblock
 ---
-Images are a great way to improve a page visually. They help the user with a visual format for your content, and improve your SEO at the same time.
+Don't just use text only. Images can help improve your SEO. Search engines reward the use of consistent, relevant visual formats to support text. This in turn also improves the user experience.
 
-**Make sure to:**
-- add keywords to the image filename
-- add keywords to the image ALT tag
-- add a caption to your image
-
+**Make sure to include:**
+- keywords in the image filename
+- keywords in the image ALT tag
+- caption for your images

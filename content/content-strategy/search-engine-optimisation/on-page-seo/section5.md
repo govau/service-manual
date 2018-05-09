@@ -1,20 +1,18 @@
 ---
 layout: text/textblock
 ---
-A URL is the actual web address of each page on your site. SEO friendly URLs help users find your content and help search engines understand what your page is about.
+A URL is the actual web address of each page on your site. Use words in the URL to help users find your content and search engines understand what your page is about.
 
-**Guidelines**
+**Guidelines for writing URLs:**
+- Use keywords in your URL.
+- Keep URLs short but clear.
+- Make sure you use a consistent, clear format across all URLs.
+- Avoid special characters such as & or %.
+- Use verbs where possible (for example, use -apply instead of -applying
+- Use hyphens (-) to separate words, not spaces. 
+- Use keywords in your URL structures (folder names).
 
-Aim to:
-- use keywords in your URL
-- keep URLs short but clear
-- make sure you use a consistent, clear format across all of your URLs
-- avoid special characters such as & or %
-- use verbs where possible. For example, use /apply instead of /applying
-- use hyphens (-) to separate words. Do not use any other means. 
-- use keywords within your URL structures.
+URL structure may be dependent on how your [information architecture](/content-strategy/information-architecture/) has been set up.
 
-URL structure may also be dependent on how your information architecture (IA) has been set up. See [Information architecture](/content-strategy/information-architecture/) for more on this.
-
-### [2]A note about Google and HTTPS
-Talk to your CMS service provider about using the prefix of https in preference to http, for a more secure URL address. If your site does not use the prefix of https, Google may penalise your SEO rankings. See [Search Engine Journal](https://www.searchenginejournal.com/google-is-requiring-https-for-secure-data-in-chrome/183756/) for more on this.
+### [3]Google and HTTPS
+Make sure your CMS will provide secure protocol URLs (HTTPS). Google may lower the search result position of URLs that use HTTP. [Secure your site with HTTPS](https://support.google.com/webmasters/answer/6073543?hl=en) from Google support has more on best practice HTTPS.
