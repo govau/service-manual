@@ -11,18 +11,18 @@ import Childnav from '../nav/childnav';
 const Categoryheader = ( page ) => {
 	return (
 
-<div className="au-body au-grid">
+<div className="au-grid">
 	<div className="container-fluid">
 		<div className="row guides-category-header">
 				<div className="col-md-3">
 					<Childnav page={ page } />
 				</div>
-				<div className="col-md-9">
+				<div className="au-body col-md-9">
 					<h1 className="au-display-xxxl guides-category-header-main-heading">
 						{ page.title }
 					</h1>
 
-					<p className="guides-category-header-description">
+					<p className="au-body guides-category-header-description">
 						{ page.description }
 					</p>
 				</div>
