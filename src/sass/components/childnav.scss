@@ -1,19 +1,11 @@
 .childnav {
-	// float: none;
-	// display: inline-block;
 	width: 100%;
 
 	@include AU-media( md ) {
-		// float: left;
 		margin-bottom: -1000rem;
-	}
-
-	@include AU-media( md ) {
 		position: relative;
-		// float: left;
 		top: -1.5rem;
 		left: -1rem;
-		// z-index: 1;
 	}
 }
 
