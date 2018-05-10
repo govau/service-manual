@@ -250,15 +250,13 @@ const Childnav = ({ page }) => {
 	return (
 
 			<div className="childnav">
-				<div className="childnav__container">
-					<a href="#childnav_button" id="childnav__button" className="au-btn au-accordion--closed">In this category </a>
-					<AUaccordion open={ false } header="In this section" id="guides-childnav-accordion">
-						<nav className="au-sidenav">
-							<h2 className="au-sidenav--title"><a href={makeUrlFromCuttlebelleId(parent_id)}>{parent_title}</a></h2>
-							{makeMenuList()}
-						</nav>
-					</AUaccordion>
-				</div>
+				<a href="#childnav_button" id="childnav__button" className="au-btn au-accordion--closed">In this category </a>
+				<AUaccordion open={ false } header="In this section" id="guides-childnav-accordion">
+					<nav className="au-sidenav">
+						<h2 className="au-sidenav--title"><a href={makeUrlFromCuttlebelleId(parent_id)}>{parent_title}</a></h2>
+						{makeMenuList()}
+					</nav>
+				</AUaccordion>
 			</div>
 
 	);
