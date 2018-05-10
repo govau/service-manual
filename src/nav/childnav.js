@@ -53,7 +53,7 @@ class NavListNestedItem extends React.Component {
 		}
 
 		return(
-			<li key={Math.random()}>{this.props.itemname}
+			<li className="active" key={Math.random()}><a href="">{this.props.itemname}</a>
 				<ul key={Math.random()}>
 					{rows}
 				</ul>
@@ -243,7 +243,7 @@ const Childnav = ({ page }) => {
 									/>);
 			}
 		}
-		return <ul>{rows}</ul>;
+		return <ul className="au-sidenav--list">{rows}</ul>;
 	}
 
 
@@ -253,11 +253,10 @@ const Childnav = ({ page }) => {
 				<div className="childnav__container">
 					<a href="#childnav_button" id="childnav__button" className="au-btn au-accordion--closed">In this category </a>
 					<AUaccordion open={ false } header="In this section" id="guides-childnav-accordion">
-
-						<a href={makeUrlFromCuttlebelleId(parent_id)}>{parent_title}</a>
-
-						{makeMenuList()}
-
+						<nav className="au-sidenav">
+							<h2 className="au-sidenav--title"><a href={makeUrlFromCuttlebelleId(parent_id)}>{parent_title}</a></h2>
+							{makeMenuList()}
+						</nav>
 					</AUaccordion>
 				</div>
 			</div>
