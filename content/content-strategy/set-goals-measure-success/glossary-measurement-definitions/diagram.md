@@ -4,10 +4,9 @@ image: content-strategy/ecosystem/objectives-goals.svg
 link: content-strategy/ecosystem/objectives-goals.svg
 reverse: false
 imageAlt: Illustration showing a goal as the end outcome with four measurable objectives on the path to achieving that goal.
-caption: 
-level: 3
+caption: A visual representation of the relationship between objectives and goals. With a large goal at the end of the process there are a number of smaller objectives to reach that goal. 
+level: 2
 display: 3
-long_description: new-long-description.md
 ---
 
 ### [3]Goal
