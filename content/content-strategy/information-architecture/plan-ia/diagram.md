@@ -7,7 +7,7 @@ stackPosition: top
 imageAlt: Diagram showing a basic IA model
 caption: 
 title: Basic IA
-level: 2
+level: 3
 display: 3
 long_description: new-long-description.md
 ---

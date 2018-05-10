@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Research other website IA's
+section: Research other website IAs
 ---

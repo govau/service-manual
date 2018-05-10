@@ -12,7 +12,7 @@ Some ways you might engage with users include:
 - face-to-face interviews
 - surveys
 - phone interviews
-- speak with your customer service staff (if relevant) as they often have knowledge of user experiences
+- speaking with your customer service staff 
 - workshops with users of your site
 
 ### [3]Collaborate with other agencies
@@ -25,8 +25,8 @@ Some things you can do to create better content on Australian government website
 ### [3]Consult and collaborate across your agency
 Talk with others in your agency about your project. This will help to bring everyone on board. For larger websites, consider creating a presentation of the IA project. Consult with leaders and other relevant people.
 
-There may be other staff across your agency who contribute content to the website. Identify the relevant content owner and ensure to consult with them about upcoming IA changes. Develop a list of content owners and subject experts for new content.
+There may be other staff across your agency who contribute content to the website. Identify the relevant content owner and consult with them about upcoming IA changes. Develop a list of content owners and subject experts for new content.
 
-Talk to other relevant groups during the early stages, such staff in a call centre or customer service centre. They often know the problems callers have with your website.  They can also tell you the information people ask about the most.
+Talk to other relevant groups during the early stages, such as staff in a call centre or customer service centre. They often know the problems callers have with your website. They can also tell you what people ask about the most.
 
 Consult your legal team to learn about any mandatory requirements they may have for your IA.

@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: IA taxonomy
+section: Build out your taxonomy
 ---

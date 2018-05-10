@@ -1,8 +1,7 @@
 ---
 layout: nav/sections
 sections:
-  - IA taxonomy
+  - Build out your taxonomy
   - Group content
   - Visualise your IA
-  - IA menu
 ---
