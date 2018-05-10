@@ -16,25 +16,12 @@ Use analytics to discover more about your least popular pages and how your IA is
 
 Improvements to least popular pages may involve adding more useful content and/or relocating content to other pages in the navigation.
 
-### [3]IA and user behaviour flow
+### [3]User behaviour flow
 Look at your analytics to better understand user behaviour flow. This will show you how users are navigating and moving around your site. Use this information to find out about their behaviour patterns. 
 
 Behaviour flow can also reveal where users are coming into your website from and where they are exiting. One tool that may also be useful in analysing user behaviour is [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/).
 
-### [3]IA and new sites
-If you are building a new website, you’ll be starting your IA from scratch. Getting this right is an important foundational step in new website development. 
-
-Some questions you will need to answer include:
-- What are the needs of your users?
-- How do you want to guide and direct users around your site?
-- What types of content do you have? 
-- How do you want to structure your menu? 
-- What are the top level menu items, followed by sub-level items?
-- What should the menu labels be called?
-
-Also consider looking at previous or current site analytics, to help work out what your IA should be for a new site.
-
-### [3]IA and search terms
+### [3]Search terms
 Review keywords people are using to arrive at your site. Think about whether any of these words could be page headings for your IA. This will also improve your search engine optimisation. For example, if a popular keyword is ‘passport’, use this in some of your main page headings.
 
 ### [3]Bounce rates and exit pages

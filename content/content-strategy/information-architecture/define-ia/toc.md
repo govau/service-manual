@@ -1,6 +1,8 @@
 ---
 layout: nav/sections
 sections:
-  - Mapping menus
+
+  - Main menu and IA depth
+  - Full menus vs partial menus
   - IA methods
 ---

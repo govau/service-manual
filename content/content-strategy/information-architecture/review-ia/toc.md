@@ -1,7 +1,8 @@
 ---
 layout: nav/sections
 sections:
-  - Review your IA with analytics
-  - Research other website IA's
-  - Engage users and other stakeholders
+  - Review your analytics
+  - New sites
+  - Research other website IAs
+  - Engage users and stakeholders
 ---

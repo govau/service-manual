@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Mapping menus
+section: New sites
 ---
