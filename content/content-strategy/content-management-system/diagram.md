@@ -5,8 +5,8 @@ link: content-strategy/cs-cms-website.svg
 title: The role of a CMS in the content ecosystem
 reverse: false
 stackPosition: top
-imageAlt:  This diagram show where your CMS fits between your content strategy and your website.
-caption: 
+imageAlt:  This diagram shows where your CMS fits between your content strategy and your website.
+caption: Your CMS fits between your content strategy and your website.
 level: 2
 display: 3
 long_description:

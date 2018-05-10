@@ -5,10 +5,11 @@ link: content-strategy/user-story-map.svg
 reverse: false
 stackPosition:
 imageAlt: Example user stories and tasks of a content specialist
+caption: This is the user story of a content specialist. Highlights what the user needs to know (their pain points), and what the related tasks are that they're trying to achieve.
 title: 'Step 5: Map your stories'
 level: 3
 display: 2
-long_description: long-description.md
+long_description:
 ---
 
 Map your user story cards in a tree format. Start with the broad overarching stories at the top of the tree and then map more specific user needs below this.

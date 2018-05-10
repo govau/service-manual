@@ -12,9 +12,8 @@ long_description:
 ---
 ### [3]Search engine results page (SERP)
 
-This image displays the results from a typical user search showing the top 3 positions out of 33,000,000 results.
+This image displays the organic search results for the search term 'tax returns'. It shows the top 3 positions out of about 33,000,000 results.
 
-Top 3 organic results for the keyword search ‘tax returns’: 
 - Position 1: Lodging your tax return
 - Position 2: Lodge online
 - Position 3: Individual tax return instructions
