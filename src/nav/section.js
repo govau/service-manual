@@ -16,7 +16,7 @@ const Section = ( page ) => {
 		<div className="au-body au-grid sections">
 			<div className="container-fluid">
 				<div className="row">
-					<div className="col-md-offset-3 col-xs-9">
+					<div className="col-md-offset-3 col-md-6">
 						<HeadingTag className="section__header" id={ Slugify( page.section ).toLowerCase() }>
 							 { page.section }
 						</HeadingTag>
