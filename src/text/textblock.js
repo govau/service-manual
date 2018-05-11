@@ -25,7 +25,6 @@ const Textblock = ( page ) => {
 
 						{ page._body }
 					</div>
-					{ page.quote && <blockquote className="textblock__quote">{ page.quote }</blockquote> }
 				</div>
 			</div>
 		</div>
