@@ -1,5 +1,5 @@
 ---
-layout: intros/intro
+layout: intros/intro_with_nav
 subtitle: How to recruit current or future potential users of the service.
 category: User research
 ---

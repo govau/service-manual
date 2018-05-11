@@ -5,8 +5,7 @@ header:
   - /_shared/globalheader.md
   - header.md
 main:
-  - category_sections.md
-  - what.md
+  # - what.md
   - guides-cards.md
   - why.md
   - why02.md

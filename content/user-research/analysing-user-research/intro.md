@@ -1,5 +1,5 @@
 ---
-layout: intros/intro
+layout: intros/intro_with_nav
 subtitle: How to understand your user research and use insights to build the right service.
 category: User research
 ---

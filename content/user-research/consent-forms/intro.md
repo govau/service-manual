@@ -1,5 +1,5 @@
 ---
-layout: intros/intro
+layout: intros/intro_with_nav
 category: User research
 title: Consent forms for user research
 subtitle: How to ensure your users are comfortable and feel safe sharing their experiences.

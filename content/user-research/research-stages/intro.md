@@ -1,5 +1,5 @@
 ---
-layout: intros/intro
+layout: intros/intro_with_nav
 subtitle: The kind of user research you do changes as you move through the service design and delivery process.
 category: User research
 ---
