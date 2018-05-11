@@ -1,5 +1,5 @@
 ---
-layout: intros/intro
+layout: intros/intro_with_nav
 subtitle: Live stage is about releasing and improving the new service. You will also retire existing services and products.
 category: Service design and delivery process
 ---

@@ -5,7 +5,6 @@ header:
   - /_shared/globalheader.md
   - header.md #category/category_header
 main:
-  - category_sections.md
   - what.md
   - stages.md
   - why.md

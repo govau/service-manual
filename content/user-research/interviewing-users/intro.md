@@ -1,5 +1,5 @@
 ---
-layout: intros/intro
+layout: intros/intro_with_nav
 category: User research
 title: Interviewing users
 subtitle: Interviews help you learn more about users, how they use a service and what they need from it.

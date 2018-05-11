@@ -1,5 +1,5 @@
 ---
-layout: intros/intro
+layout: intros/intro_with_nav
 subtitle: Before you start designing and building, you need to understand the users and what they need a service to do.
 category: Service design and delivery process
 ---

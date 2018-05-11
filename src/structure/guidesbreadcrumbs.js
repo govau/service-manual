@@ -18,10 +18,10 @@ const GuidesBreadcrumbs = ( page ) => {
 	}));
 
 	return (
-
-			<div className="container">
+		<div className="au-grid au-body">
+			<div className="container-fluid">
 				<div className="row">
-					<div className="col-md-12 au-body">
+					<div className="col-md-12">
 						<div className="guidesbreadcrumbs">
 							{
 								breadcrumbs.length > 1
@@ -32,6 +32,7 @@ const GuidesBreadcrumbs = ( page ) => {
 					</div>
 				</div>
 			</div>
+		</div>
 
 	);
 }

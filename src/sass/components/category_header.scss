@@ -1,9 +1,9 @@
 .guides-category-header {
-	@include AU-media( sm ) {
-		padding-top: 5rem;
+	@include AU-media( md ) {
+		margin-top: 5rem;
+		margin-bottom: 3rem;
 	}
-	padding-top: 2rem;
-	padding-bottom: 3rem;
+	margin-top: 2rem;
 }
 
 .guides-category-header-description {
