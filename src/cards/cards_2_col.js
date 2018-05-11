@@ -12,7 +12,7 @@ const Cards = ( page ) => (
 	<div className={`au-body au-grid`}>
 		<div className="container-fluid">
 			<div className="row">
-				<div className="col-md-offset-3 col-md-9 cards cards--2cols">
+				<div className="col-md-offset-3 col-md-8 cards cards--2cols">
 					<ul className="cards__list">
 						{
 							page.cards.map( ( card, i ) => (
