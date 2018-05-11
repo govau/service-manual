@@ -63,11 +63,11 @@
 	}
 }
 
-/////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
 // 🚧🚧
-// REFACTOR BELOW TO USE AU (design system) SASS
+// DRAFT NAV STYLING- WILL BE UPDATED when component is ready
 // 🚧🚧
-/////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
 
 $text:   #414141;
 $muted:  #636363;
@@ -99,6 +99,7 @@ h2.au-sidenav--title  {
         color: $text;
         text-decoration: underline;
       }
+			&:focus {outline: 3px solid $AU-color-foreground-focus;}
     }
   }
 
@@ -127,6 +128,7 @@ h2.au-sidenav--title  {
         color: $text;
         text-decoration: underline;
       }
+			&:focus {outline: 3px solid $AU-color-foreground-focus;}
     }
 
     .active > a {
