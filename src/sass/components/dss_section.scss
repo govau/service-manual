@@ -3,10 +3,6 @@
 	padding: 2rem 0 3rem 0;
 }
 
-.dss-section--level2 {
-	//margin-top: -1rem;
-}
-
 .dss-section__criteria {
 	float: none;
 	border-radius: 0.4rem;
@@ -14,10 +10,9 @@
 	padding: 2rem;
 	margin: 0 0 1.5rem 0;
 
-	@include AU-media( sm ) {
-		float: right;
+	@include AU-media( md ) {
 		width: 17em;
-		margin: 4rem 0 1rem 1rem;
+		margin: 0rem 0 1rem 1rem;
 	}
 }
 
@@ -50,12 +45,4 @@
 	display: inline-block;
 	margin-right: 0.7rem;
 	font-weight: bold;
-}
-
-.dss-section__section {
-	clear: both;
-
-	@include AU-media( xs ) {
-		clear: none;
-	}
 }

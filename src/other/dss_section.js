@@ -67,10 +67,10 @@ const DSSSection = ( page ) => {
 	<div className={` au-body au-grid dss-section ${ page.level ? 'dss-section--level' + page.level : '' } `}>
 		<div className="container-fluid">
 			<div className="row">
-				<div className="col-md-offset-3 col-md-4" id={ Slugify( page.section ).toLowerCase() }>
+				<div className="col-md-offset-3 col-lg-offset-3 col-lg-5 col-md-4" id={ Slugify( page.section ).toLowerCase() }>
 					<div className="dss-section__text">{ page._body }</div>
 				</div>
-				<div className="col-md-4">
+				<div className="col-lg-4 col-md-2">
 					<div className="dss-section__criteria au-body au-body--dark">
 						<strong className="dss-section__criteria__headline">Digital Service Standard</strong>
 						<ul className="dss-section__criteria__list">
