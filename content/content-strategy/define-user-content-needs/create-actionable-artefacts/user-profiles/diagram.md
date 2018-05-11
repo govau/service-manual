@@ -6,7 +6,7 @@ title: User snapshot
 reverse: false
 stackPosition: top
 imageAlt: User profile example
-caption: Create a user type or user profile. Add a relevant image and a memorable quote that relates to this user. Describe the attitude of the user, their knowledge and literacy levels. Define what task they need to do, their pain points and motivations.
+caption: Create a user type or user profile. To begin, add a relevant image and a memorable quote that relates to this user. Describe the attitude of the user, their knowledge and literacy levels. Define what task they need to do. Describe their pain points and motivations.
 level: 3
 display: 2
 long_description:
