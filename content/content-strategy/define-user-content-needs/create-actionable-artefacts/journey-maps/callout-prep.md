@@ -1,4 +1,4 @@
 ---
 layout: text/callout
 ---
-### [1]Prep time: 2 hrs   People: 2 to 10   Time to run: 2 hrs to 1 day
+#### [2]Prep time: 2 hrs, people: 2 to 10, time to run: 2 hrs to 1 day

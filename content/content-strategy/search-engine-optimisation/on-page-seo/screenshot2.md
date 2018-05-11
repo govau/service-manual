@@ -14,11 +14,8 @@ long description:
 
 Search engines also use your page title or title tag to work out what your webpage content is about.
 
-Aim to:
-- keep title tags between 6 to 9 words, including main keywords
-- place keywords at the beginning of the title
-- place the agency name at the end of the title
-- keep titles below 70 characters, including spaces and symbols
-- place your title tags within the header section of the source code of each webpage
-
-In this example, the You Tube title tag is above the URL address on a separate tab.
+- Keep title tags between 6 to 9 words, including main keywords.
+- Place keywords at the beginning of the title.
+- Place the agency name at the end of the title.
+- Keep titles below 70 characters, including spaces and symbols.
+- Place your title tags within the header section of the source code of each webpage.
