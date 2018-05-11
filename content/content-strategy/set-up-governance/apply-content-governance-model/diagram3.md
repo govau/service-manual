@@ -5,11 +5,10 @@ link: content-strategy/governance/hybrid-governance-model.svg
 reverse: false
 stackPosition: bottom
 imageAlt: Diagram showing a hybrid governance model
-caption: 
+caption: Subject experts send content to the central team of leaders, doers and specialists. Content is returned with quality checks. The subject experts send content to be published or self-publish.Content is sent directly to the central team of leaders, doers and specialists. The outputs from the central team are strategic content measures and quality checks. These checks point straight to publish.
 title: Hybrid content governance model
 level: 2
 display: 3
-long_description: new-long-description3.md
 ---
 
 A hybrid content governance model works to improve content and efficiencies across extended teams. The central team’s focus is on high profile content meeting its strategic goals. The team ensures the quality of published content. They own the site's information architecture.

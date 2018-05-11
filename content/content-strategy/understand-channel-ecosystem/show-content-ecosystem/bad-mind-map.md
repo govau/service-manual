@@ -5,11 +5,10 @@ link: content-strategy/ecosystem/bad-ecosystem-map.jpg
 title: Mind map
 reverse: false
 stackPosition: top
-imageAlt: A confused content channel mind map. It has lots of channels, lots of interconnections and shows both duplication and complexity.
-caption: 
+imageAlt: An illustration of a confusing and complex content channel mind map.
+caption: At the centre of the mind map is a circle titled Website 1. This is surrounded by four channel types websites, email newsletters, social media, apps with many subsets and duplications interconnected in a confusing and overly complex way.
 level: 2
 display: 3
-long_description: new-long-description-bad.md
 ---
 Mind maps are simple and quick and will show channel complexity and duplication.
 
