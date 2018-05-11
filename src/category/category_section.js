@@ -14,7 +14,7 @@ const CategorySection = ( page ) => {
 		<div className="au-body au-grid category-section">
 			<div className="container-fluid">
 				<div className="row">
-					<div className="col-md-offset-3 col-md-9" id={ Slugify( page.section ).toLowerCase() }>
+					<div className="col-md-offset-3 col-md-6" id={ Slugify( page.section ).toLowerCase() }>
 						<div><Heading className="category-section__headline display-3">{ page.title }</Heading></div>
 						<p/>
 					</div>
