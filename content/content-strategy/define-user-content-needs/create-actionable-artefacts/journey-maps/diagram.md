@@ -5,10 +5,11 @@ link: content-strategy/journey-map-example.jpg
 reverse: false
 stackPosition:
 imageAlt: Journey map template
+caption: Visualisation to help understand the journey of a user trying to complete a task on a website. 
 title: 'Step 3: Visualise the journey'
 level: 3
 display: 2
-long_description: new-long-description.md
+long_description:
 ---
 
 You can map your user’s journey in a way that suits your team. It doesn’t need to be a linear timeline.

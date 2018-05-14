@@ -1,5 +1,5 @@
 ---
-layout: intros/intro
+layout: intros/intro_with_nav
 subtitle: Understand and communicate the value of building services using the process.
 category: Service design and delivery process
 ---

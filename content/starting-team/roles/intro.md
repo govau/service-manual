@@ -1,5 +1,5 @@
 ---
-layout: intros/intro
+layout: intros/intro_with_nav
 category: Starting a team
 title: Roles
 subtitle: To build and maintain a user-centred service, you need team members with a range of skills and who are open to collaborating.

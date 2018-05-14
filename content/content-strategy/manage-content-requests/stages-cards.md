@@ -16,6 +16,8 @@ cards:
   - headline: Publish content
     text: Prepare and check that quality content is uploaded into your CMS platform and, publish it live.
     link: 'publish-content'
-
+  - headline: Maintain and improve content
+    text: Set a review process to maintain and improve content. Use your data to keep it relevant for your users.
+    link: 'maintain-improve-content'
 ---
 

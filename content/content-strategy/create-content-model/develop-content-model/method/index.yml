@@ -1,6 +1,7 @@
 pagetitle: Design a workflow
 description: An activity to develop a visual of your content workflow using the stages of the content lifecycle.
 weight: 10
+hidden: true
 layout: layout/topic
 theme: blue
 header:

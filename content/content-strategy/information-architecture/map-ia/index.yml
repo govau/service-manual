@@ -1,11 +1,13 @@
 pagetitle: Map your IA
-weight: 80
-description: Mapping content to your new IA helps you to know where content will sit on your new website. It also helps to highlight any content gaps you may have. 
+weight: 60
+hidden: true
+description: Mapping content to your new IA helps you to know where content will sit on your new website. It also helps to highlight any content gaps you may have.
 layout: layout/topic
 theme: blue
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
+  - /_shared/breadcrumbs.md
 main:
   - intro.md
   - quote.md #quote

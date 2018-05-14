@@ -1,14 +1,6 @@
 .dss-section {
-	background-color: #fcfcfc;
 	margin-top: 0;
-	margin-bottom: 2rem;
 	padding: 2rem 0 3rem 0;
-	border-top: 1px solid #e5e5e5;
-	border-bottom: 1px solid #e5e5e5;
-}
-
-.dss-section--level2 {
-	//margin-top: -1rem;
 }
 
 .dss-section__criteria {
@@ -18,10 +10,9 @@
 	padding: 2rem;
 	margin: 0 0 1.5rem 0;
 
-	@include AU-media( sm ) {
-		float: right;
+	@include AU-media( md ) {
 		width: 17em;
-		margin: 4rem 0 1rem 1rem;
+		margin: 0rem 0 1rem 1rem;
 	}
 }
 
@@ -34,7 +25,6 @@
 
 .dss-section__text {
 	max-width: 37rem;
-	margin-top: 2rem;
 	margin-bottom: 3rem;
 }
 
@@ -55,12 +45,4 @@
 	display: inline-block;
 	margin-right: 0.7rem;
 	font-weight: bold;
-}
-
-.dss-section__section {
-	clear: both;
-
-	@include AU-media( xs ) {
-		clear: none;
-	}
 }

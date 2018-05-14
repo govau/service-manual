@@ -14,10 +14,10 @@ const Plaintextblock = ( page ) => {
 	template = template.replace(/(<([^>]+)>)/ig,"");
 
 	return (
-	<div className={ `au-body au-grid plaintextblock` } >
-		<div className="container">
+	<div className="au-body au-grid plaintextblock">
+		<div className="container-fluid">
 			<div className="row">
-				<div className="col-xs-12">
+				<div className="col-md-12">
 					<div className="plaintextwrapper">
 						<textarea value={ template } readOnly="true" />
 					</div>

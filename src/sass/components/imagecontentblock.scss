@@ -1,6 +1,5 @@
 .imagecontentblock {
-	margin: 0 0 4rem 0;
-	padding: 4rem 0 4.2rem 0;
+	padding: 2rem 0 4.2rem 0;
 
 	&.imagecontentblock--stacktop {
 		margin-bottom: 0;
@@ -20,16 +19,11 @@
 
 .imagecontentblock__content {
 	height: 100%;
-	padding: 0 0 2rem 0;
 
 	@include AU-media( md ) {
-		padding: 0 48px 0 12px;
+		padding-right: 1rem;
 		margin: auto;
 		float: left;
-	}
-
-	.section__section {
-		margin-bottom: 2rem;
 	}
 
 	&.imagecontentblock__content--blue,
@@ -54,10 +48,10 @@
 
 .imagecontentblock__image {
 	position: relative;
-	margin: 0 0 1.6rem 0;
+	margin: 2rem 0 1.6rem 0;
 
 	@include AU-media( md ) {
-		margin: 2rem 0 1.2rem 0;
+		margin: 0 0 1.2rem 0;
 	}
 
 	a {
@@ -80,7 +74,6 @@
 
 .imagecontentblock__image__caption {
 	color: $AU-colordark-foreground-text;
-	position: absolute;
 	bottom: 0;
 	left: 0;
 	right: 0;

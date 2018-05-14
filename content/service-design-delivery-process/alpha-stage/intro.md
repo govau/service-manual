@@ -1,5 +1,5 @@
 ---
-layout: intros/intro
+layout: intros/intro_with_nav
 subtitle: Alpha is an experimental stage. It’s an opportunity to use prototypes to work out the right thing to build.
 category: Service design and delivery process
 ---

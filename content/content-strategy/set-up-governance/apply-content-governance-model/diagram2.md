@@ -5,11 +5,10 @@ link: content-strategy/governance/centralised-content-governance-model.svg
 reverse: false
 stackPosition: top
 imageAlt: Diagram showing a centralised content governance model
-caption:
+caption: All content inputs point to a central team of leaders, doers and specialists.The output from the central team are strategic content measures and quality checks. These checks point straight to publish.
 title: Centralised content governance model 
 level: 2
 display: 3
-long_description: new-long-description2.md
 ---
 
 Centralised content governance brings a level of strategy, quality standards and a user-focused approach. A central content team oversees content. The team may also be responsible for high-profile services. These may be publishing teams who work on requests from subject experts.

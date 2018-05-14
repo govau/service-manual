@@ -1,5 +1,5 @@
 ---
-layout: intros/intro
+layout: intros/intro_with_nav
 subtitle: Everyone in the service team should be involved in watching and analysing research with real users.
 category: User research
 ---

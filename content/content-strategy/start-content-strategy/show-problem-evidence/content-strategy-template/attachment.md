@@ -1,7 +1,9 @@
 ---
 layout: cards/cards
 cards:
-  - headline: Content strategy template (pptx 832KB)
+  - headline: Content strategy template (PPTX 832KB)
     text: Use this template at each of the phases of your content strategy.
     link: /assets/files/content-strategy/content-strategy-template.pptx
+    # following will launch approx Friday 18 May with the 3 new modules
+    # link: /assets/files/content-strategy/content-strategy-template1.pptx
 ---

@@ -4,11 +4,11 @@ layout: text/textblock
 Research can include other Australian government websites, relevant industry sites or international government websites.
 
 Consider:
-- what other Australian Government agencies or industry bodies are already filling content gaps with useful content?
-- are these pages you can link to instead of including in your own structure?
+- if other Australian Government agencies or industry bodies are already filling content gaps with useful content
+- whether these are pages you can link to instead of including in your own structure
 - how they have structured their content
-- is it easy or difficult to find information? 
-- what can you learn about the flow of content from looking at these sites. 
+- how easy or difficult it is to find information? 
+- what can you learn about their flow of content. 
 
 Research may also help if you have difficulty deciding or agreeing on specific labels for the IA. In these cases, external research or an objective opinion may be able to help resolve these issues.
 

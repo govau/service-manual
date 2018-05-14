@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
 import Slugify from 'slugify';
 import React from 'react';
-
+// LOCAL
+import Childnav from '../nav/childnav';
 
 /**
  * The Category header component
@@ -10,18 +11,23 @@ import React from 'react';
 const Categoryheader = ( page ) => {
 	return (
 
-<div className="au-body container">
-	<div className="row guides-category-header">
-			<div className="col-xs-12">
-				<h1 className="au-display-xxxl guides-category-header-main-heading">
-					{ page.title }
-				</h1>
+<div className="au-grid">
+	<div className="container-fluid">
+		<div className="row guides-category-header">
+				<div className="col-md-3">
+					<Childnav page={ page } />
+				</div>
+				<div className="au-body col-md-9">
+					<h1 className="au-display-xxxl guides-category-header-main-heading">
+						{ page.title }
+					</h1>
 
-				<p className="guides-category-header-description">
-					{ page.description }
-				</p>
+					<p className="au-body guides-category-header-description">
+						{ page.description }
+					</p>
+				</div>
 			</div>
-		</div>
+	</div>
 </div>
 	);
 }

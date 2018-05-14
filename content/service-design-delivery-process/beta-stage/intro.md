@@ -1,5 +1,5 @@
 ---
-layout: intros/intro
+layout: intros/intro_with_nav
 subtitle: In Beta stage, the team builds an end-to-end service based on what they have learned in Alpha stage. They keep iterating until it is ready to test in a private beta release and then a public beta release.
 category: Service design and delivery process
 ---

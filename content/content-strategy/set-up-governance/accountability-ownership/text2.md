@@ -1,3 +1,7 @@
+---
+layout: text/textblock
+---
+
 ### [2]Senior content lead/ content strategist/ communications manager
 
 Appoint an overall content lead or strategist. As leaders they will raise the profile of quality content with senior executives and other teams.

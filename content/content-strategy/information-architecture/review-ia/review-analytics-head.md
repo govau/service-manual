@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Review your IA with analytics
+section: Review your analytics
 ---

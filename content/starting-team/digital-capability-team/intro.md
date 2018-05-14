@@ -1,5 +1,5 @@
 ---
-layout: intros/intro
+layout: intros/intro_with_nav
 category: Starting a team
 title: Digital capability of the team
 subtitle: The team needs to have a high level of digital capability to build services that meet the needs of users.
