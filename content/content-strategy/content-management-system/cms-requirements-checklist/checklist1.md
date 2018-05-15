@@ -4,12 +4,12 @@ layout: text/textblock
 
 - **Features and functionality** 
    
-    Do you need specific or customised features such as events, social media integration, video capability?. How will these be built into your CMS?
+    Do you need specific or customised features such as events, social media integration, video capability? How will these be built into your CMS?
 
 
 - **WYSIWYG**
 
-    Does the CMS text editor allow you to create clean content in the format and styles you need to? How flexible is the editor?
+    Does the CMS [WYSIWYG](/content-strategy/content-management-system/optimise-cms/#wysiwyg-text-editor) content tool allow you to create clean content in the format and styles you need to? How flexible is the editor?
 
 
 - **Multiple site management**
@@ -37,14 +37,14 @@ layout: text/textblock
     Is there internal site analytics or integration with external analytics tools?
 
 
-- **Version control**
+- **Version control and archiving**
 
-    What version control does your CMS have? Can you compare and restore earlier versions of content?
+    What version control does your CMS have? Can you compare and restore earlier versions of content? How easy is it to archive content you no longer require?
 
 
 - **Navigation**
 
-    How easy is it to change navigation of pages if required
+    How easy is it to change navigation of pages if required?
 
 
 - **User roles**
@@ -86,3 +86,12 @@ layout: text/textblock
 
     Accessibility guidelines apply to both your CMS front and back end. For example, how will your CMS help to make your website compliant with WCAG2.0AA? Accessibility also includes things like using plain English. See the DTA Content guide for about [structuring, writing and creating accessible content](https://guides.service.gov.au/content-guide/).
 
+
+- **Costs** 
+
+    Write down all the associated CMS costs. Also consider ongoing maintenance, training, licences, development and support costs.
+
+
+- **CMS roadmap** 
+
+    Use a CMS roadmap to define and manage your needs, with checkpoints for progress along the way. Your roadmap should keep you focused on delivery, implementation, next steps and timeframes.

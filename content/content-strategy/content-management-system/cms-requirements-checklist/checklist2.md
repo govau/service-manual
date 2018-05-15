@@ -22,11 +22,7 @@ layout: text/textblock
     If you want to make custom changes to your CMS in future, what is the process for this?
 
 
-- **Costs** 
-
-    Write down all the associated CMS costs. Also consider ongoing maintenance, training, licences, development and support costs.
-
-    
 - **Open-source** 
 
-    Are you using 'open-source' code and technology? This is part of the [Digital Service Standard](https://www.dta.gov.au/standard/8-make-source-code-open/)
+    Any new code being written for your CMS deployment should be licenced for re-use. See the [Digital Service Standard criterion 8](https://www.dta.gov.au/standard/8-make-source-code-open/), 'make source code open.'
+

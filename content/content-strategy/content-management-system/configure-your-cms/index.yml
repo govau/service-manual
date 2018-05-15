@@ -1,4 +1,4 @@
-pagetitle: Get the best CMS for your purposes
+pagetitle: Configure your CMS
 weight: 50
 description: Learn how to implement your CMS by optimising some of its features and functionality to suit your content design and website needs.
 layout: layout/topic
@@ -15,6 +15,7 @@ main:
   - section.md #text
   - heading2.md
   - section2.md #text
+  - heading4.md
   - section4.md #text
   - heading5.md
   - section5.md #text

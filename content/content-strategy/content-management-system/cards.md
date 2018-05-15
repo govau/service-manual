@@ -2,10 +2,10 @@
 layout: cards/cards
 cards:
   - headline: Gather CMS requirements
-    text: Understand your CMS requirements. Know which parts of a CMS you want to be able to configure, so you can manage content the way you want.
+    text: Understand your CMS requirements so you can choose the best one for your purposes.
     link: /content-strategy/content-management-system/cms-requirements/
-  - headline: Get the best CMS for your purposes
-    text: Just because a CMS has lots of features doesn’t mean it’s the best one for you. With the right choice of CMS, you can optimise it to maximum advantage.
-    link: /content-strategy/content-management-system/optimise-cms/
+  - headline: Configure your CMS
+    text: Learn how to make your CMS work for you. The way you set up a CMS will affect how you can use it to manage your content.
+    link: /content-strategy/content-management-system/configure-your-cms/
 ---
 
