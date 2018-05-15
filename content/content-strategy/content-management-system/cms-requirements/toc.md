@@ -14,6 +14,6 @@ sections:
   - Testing, staging and live sites
   - Social media integration
   - Accessibility
-  - Multi languages
+  - Multiple languages
 ---
 
