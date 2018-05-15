@@ -16,6 +16,6 @@ navigation:
           link: /starting-team
         - text: User research
           link: /user-research
-        - text: Content Strategy
+        - text: Content Strategy Guide
           link: /content-strategy
 ---
