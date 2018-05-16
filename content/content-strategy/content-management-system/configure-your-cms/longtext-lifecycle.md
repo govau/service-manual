@@ -2,7 +2,7 @@
 layout: blocks/long_description
 ---
 
-### [2] Content lifecycle long description
+### [2]Content lifecycle long description
 Running left to right are circles with the labels:
  - intent
  - plan
@@ -12,4 +12,4 @@ Running left to right are circles with the labels:
  - maintain/improve
  - remove
 
-An arrow leads from improve back to intent with a label of evaluate. 
+An arrow leads from improve back to intent with a label of evaluate.

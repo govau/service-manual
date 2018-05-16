@@ -23,12 +23,12 @@ layout: text/textblock
     How often are content backups done and where are they stored?
 
 
-- **Disaster Recovery** 
+- **Disaster recovery** 
 
     Is there a disaster recovery plan?
     How are issues logged by you?
 
 
-- **Exit Strategy** 
+- **Exit strategy** 
 
     If you change your CMS, is there a clear, secure process in place for [migrating content](/content-strategy/content-management-system/optimise-cms/#exit-strategy-and-migrating-content)?

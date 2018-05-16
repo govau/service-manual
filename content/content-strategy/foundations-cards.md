@@ -9,5 +9,5 @@ cards:
     link: /content-strategy/search-engine-optimisation/
   - headline: Choose and configure your CMS
     text: Work with your teams to be clear on your CMS requirements and options.
-    link: /content-strategy/search-engine-optimisation/
+    link: /content-strategy/content-management-system/
 ---
