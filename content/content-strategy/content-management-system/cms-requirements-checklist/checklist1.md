@@ -94,4 +94,5 @@ layout: text/textblock
 
 - **CMS roadmap** 
 
-    Use a CMS roadmap to define and manage your needs, with checkpoints for progress along the way. Your roadmap should keep you focused on delivery, implementation, next steps and timeframes.
+    Ask your CMS vendor about their product roadmap. How will their CMS technology direction and timing affect you as a client? What future changes might you need to be aware of.
+

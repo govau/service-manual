@@ -6,18 +6,15 @@ To improve your on-page SEO, you’ll first need to know which keywords you want
 
 - Use your main keyword/s within the opening and closing paragraphs.
 - Use the secondary and main keywords within the body of the content.
-- Do not overuse your keywords. This is a practice known as ‘keyword stuffing’ and is not recommended.
+- Do not overuse your keywords. This is known as ‘keyword stuffing’ and is not recommended. SEO should not result in unnatural content. Optimise content for search while still writing for users.
+- Perform keyword research to find the right keywords to use in your content. 
 
 ### [2]Keyword research
-This is the method of finding the right keywords to target within your content. This is covered in the [DTA Content Guide](https://guides.service.gov.au/content-guide/search-engines/#keywords).
+If you have an [Adwords account](https://adwords.google.com/intl/en_au/home/tools/keyword-planner/), you may want to look into Google’s Keyword Tool. 
 
-### [2]How to do keyword research
-If you have an [Adwords account](https://adwords.google.com/intl/en_au/home/tools/keyword-planner/), you may want to look into Google’s Keyword Tool. It shows:
-- how many people are searching for your keywords
-- what your competitors’ keywords are doing
-- other good keywords
+Read more about [using keywords and keyword research](https://guides.service.gov.au/content-guide/search-engines/#keywords) in the DTA Content Guide.
 
-You can also use any other keywrod tool that provides you with keyword suggestions and just pull in the data for those keyword from AdWords.
+You can also use any other keyword tool that provides you with keyword suggestions and just pull in the data for those keyword from AdWords.
 
 **Researching keywords with AdWords:**
 1. Generate common keywords — this can be a short list of words you think users will search for.

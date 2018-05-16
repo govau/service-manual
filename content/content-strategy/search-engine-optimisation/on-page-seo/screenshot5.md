@@ -10,8 +10,8 @@ level: 2
 display: 3
 long_description:
 ---
-### [3]Sitelinks searchbox
-A sitelinks searchbox helps users search and link more specifically to pages in your site, straight from the organic search result. 
+### [3]Sitelinks Searchbox
+A Sitelinks Searchbox helps users search and link more specifically to pages in your site, straight from the organic search result. 
 
 This image shows a search result including a sitelinks search bar (results from nsw.gov.au), under the main description.
 
