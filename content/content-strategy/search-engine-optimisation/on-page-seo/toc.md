@@ -16,6 +16,5 @@ sections:
   - User experience
   - Mobile
   - Duplicate content
-  - Over optimising
   - Google SEO guidelines
 ---
