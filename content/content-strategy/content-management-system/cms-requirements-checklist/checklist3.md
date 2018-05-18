@@ -13,7 +13,7 @@ layout: text/textblock
     
     What site protection features are in place?
     
-    Does you need to encrypt your content?
+    Do you need to encrypt your content?
     
     Are you using an SSL certificate for public facing web content?
 
@@ -23,12 +23,12 @@ layout: text/textblock
     How often are content backups done and where are they stored?
 
 
-- **Disaster Recovery** 
+- **Disaster recovery** 
 
     Is there a disaster recovery plan?
     How are issues logged by you?
 
 
-- **Exit Strategy** 
+- **Exit strategy** 
 
-    If you change your CMS, is there a clear, secure process in place for [migrating content](/content-strategy/cms/optimise-cms/#exit-strategy-and-migrating-content)?
+    If you change your CMS, is there a clear, secure process in place for [migrating content](/content-strategy/content-management-system/optimise-cms/#exit-strategy-and-migrating-content)?

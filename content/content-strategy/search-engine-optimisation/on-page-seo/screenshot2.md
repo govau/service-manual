@@ -10,12 +10,10 @@ level: 2
 display: 3
 long description:
 ---
-**Page titles** are a foundational part of SEO. They're one of the first things a user sees in the search results. 
-
 Search engines also use your page title or title tag to work out what your webpage content is about.
 
 - Keep title tags between 6 to 9 words, including main keywords.
 - Place keywords at the beginning of the title.
 - Place the agency name at the end of the title.
 - Keep titles below 70 characters, including spaces and symbols.
-- Place your title tags within the header section of the source code of each webpage.
+- Place your title tags within the &lt;head&gt; section of the source code of each webpage.
