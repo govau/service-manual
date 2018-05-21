@@ -15,7 +15,7 @@ const TopicsCards = ( page ) => {
 
 			<div className="container-fluid">
 				<div className="row">
-					<div className="col-md-3">
+					<div className="col-md-3 topicscards__intro">
 						<h2 className="au-display-xl topicscards__headline">{ page.heading }</h2>
 						<div className="topicscards__tagline">
 							{ page._body }
@@ -23,7 +23,7 @@ const TopicsCards = ( page ) => {
 					</div>
 
 
-					<div className="col-md-6">
+					<div className="col-md-6 cards guideshomepagecards">
 						<ul className="cards__list">
 							<li className="col-md-6 cards__list__item">
 								<Card
@@ -48,7 +48,7 @@ const TopicsCards = ( page ) => {
 						</ul>
 					</div>
 
-					<div className="col-md-3">
+					<div className="col-md-offset-1 col-md-2 topicscards__viewall">
 						<a href={ page.viewalllink }>View all topics</a>
 					</div>
 
