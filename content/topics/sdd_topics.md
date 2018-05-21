@@ -1,7 +1,8 @@
 ---
 layout: cards/topics_cards
-oddrow: true
+oddrow: false
 heading: Service design and delivery process
+viewalllink: /service-design-delivery-process/
 
 card1headline: Getting started with the Service design and delivery process
 card1link: /service-design-delivery-process/get-started/
