@@ -49,7 +49,7 @@ const TopicsCards = ( page ) => {
 					</div>
 
 					<div className="col-md-offset-1 col-md-2 topicscards__viewall">
-						<a href={ page.viewalllink }>View all topics</a>
+						<a href={ page.viewalllink }>View all topics ></a>
 					</div>
 
 				</div>

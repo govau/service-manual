@@ -9,6 +9,7 @@
 		@include AU-space( padding, 0.5unit 0 );
 		display: block;
 		text-decoration: none;
+		font-weight: 300;
 
 		&:hover {
 			text-decoration: underline;
@@ -83,7 +84,7 @@
 				}
 
 				&.mainmenu--active > a {
-					font-weight: normal;
+					font-weight: 500;
 				}
 			}
 		}

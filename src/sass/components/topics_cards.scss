@@ -19,9 +19,10 @@ h2.topics__header {
 
 .topicscards__tagline {
 	margin-top: 1.5rem;
-	max-width: 90%;
-	font-size: 0.9rem;
 	font-weight: 300;
+	@include AU-media( md ) {
+		max-width: 90%;
+	}
 }
 
 h2.topicscards__headline {
@@ -34,6 +35,8 @@ h2.topicscards__headline {
 	top: -2rem;
 	margin-bottom: 1rem;
 	text-align: center;
+	font-size: 1.1rem;
+	font-weight: bold;
 	@include AU-media( md ) {
 		top: 8rem;
 		text-align: left;
