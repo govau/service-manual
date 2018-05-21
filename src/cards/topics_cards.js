@@ -13,7 +13,7 @@ const TopicsCards = ( page ) => {
 	return (
 		<div className={"au-body" + (page.oddrow ? 'homepagebanner__oddrow' : '')}>
 
-			<div className="container">
+			<div className="container-fluid">
 				<div className="row">
 					<div className="col-md-3">
 						<h2 className="au-display-xl">{ page.heading }</h2>
