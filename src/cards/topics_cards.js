@@ -25,7 +25,7 @@ const TopicsCards = ( page ) => {
 
 					<div className="col-md-6 cards guideshomepagecards">
 						<ul className="cards__list">
-							<li className="col-md-6 cards__list__item">
+							<li className="col-xs-6 cards__list__item">
 								<Card
 									link= { page.card1link }
 									background=""
@@ -35,7 +35,7 @@ const TopicsCards = ( page ) => {
 									cta=" "
 								/>
 							</li>
-							<li className="col-md-6 cards__list__item">
+							<li className="col-xs-6 cards__list__item">
 								<Card
 									link= { page.card2link }
 									background=""
