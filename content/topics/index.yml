@@ -5,6 +5,15 @@ header:
   - header.md
 main:
   - pageheader.md
+  - sddp-heading.md # Service design and delivery process category
+  - sddp-cards.md
+  - sddp-link.md
+  - team-heading.md # Starting a team category
+  - team-cards.md
+  - team-link.md
+  - ur-heading.md # User research category
+  - ur-cards.md
+  - ur-link.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
