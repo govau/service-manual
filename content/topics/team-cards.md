@@ -1,10 +1,12 @@
 ---
 layout: cards/cards
 cards:
-  - headline: Getting started with the service design and delivery process
-    text: Introducing the process we use to build services.
-    link: '/service-design-delivery-process/get-started/'
-  - headline: Discovery stage:\ exploring the problem
-    text: Discovery is really about understanding the needs of your users
-    link: '/service-design-delivery-process/discovery-stage/'
+  - headline: Roles
+    text: Understand the roles that need to go into your team.
+    link: '/starting-team/roles/'
+  - headline: Multidisciplinary team
+    text: Making sure your team has the right mindsets as well as skills.
+    link: '/starting-team/multidisciplinary-team/'
 ---
+
+

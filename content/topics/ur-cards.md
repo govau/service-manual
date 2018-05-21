@@ -1,10 +1,10 @@
 ---
 layout: cards/cards
 cards:
-  - headline: Getting started with the service design and delivery process
-    text: Introducing the process we use to build services.
-    link: '/service-design-delivery-process/get-started/'
-  - headline: Discovery stage:\ exploring the problem
-    text: Discovery is really about understanding the needs of your users
-    link: '/service-design-delivery-process/discovery-stage/'
+  - headline: Understanding users and their needs
+    text: User needs are the starting point for any service work.
+    link: '/user-research/identifying-users-needs/'
+  - headline: Getting support for user research 
+    text: How to get support in your organisation to do user research.
+    link: '/user-research/getting-support/'
 ---
