@@ -1,6 +1,6 @@
 ---
 layout: cards/topics_cards
-oddrow: false
+oddrow: true
 heading: Starting a team
 viewalllink: /starting-team/
 

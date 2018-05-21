@@ -11,7 +11,7 @@ import Card from '../cards/card';
 const TopicsCards = ( page ) => {
 
 	return (
-		<div className={"au-body" + (page.oddrow ? 'homepagebanner__oddrow' : '')}>
+		<div className={"au-body " + (page.oddrow ? 'homepagebanner__oddrow' : '')}>
 
 			<div className="container-fluid">
 				<div className="row">
