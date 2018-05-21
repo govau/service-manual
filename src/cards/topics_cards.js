@@ -11,13 +11,13 @@ import Card from '../cards/card';
 const TopicsCards = ( page ) => {
 
 	return (
-		<div className={"au-body " + (page.oddrow ? 'homepagebanner__oddrow' : '')}>
+		<div className={"au-body topicscards " + (page.oddrow ? 'homepagebanner__oddrow' : '')}>
 
 			<div className="container-fluid">
 				<div className="row">
 					<div className="col-md-3">
-						<h2 className="au-display-xl">{ page.heading }</h2>
-						<div className="">
+						<h2 className="au-display-xl topicscards__headline">{ page.heading }</h2>
+						<div className="topicscards__tagline">
 							{ page._body }
 						</div>
 					</div>
