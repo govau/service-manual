@@ -38,20 +38,13 @@
 ///
 //////////////////////////////////////////////
 
+// line length--> re: Buttericks Typography
+// https://practicaltypography.com/line-length.html
 .au-body p {
 	max-width: 35rem;
 }
 
-// Spacers for padding
-.spacer__sm {
- height: 1.5rem;
-}
-
-.spacer__med {
-	height: 2rem;
-}
-
-
+// hack to remove the vanilla focus from the main menu
 [tabindex="-1"] {
 	outline: none;
 }
@@ -76,10 +69,16 @@ a:focus h1 {
 	}
 }
 
+// fine tune the headings at different breakpoints
 .au-body .au-display-xxxl, .au-display-xxxl{
 	font-size: 2.6rem;
 	letter-spacing: -0.03rem;
 	@include AU-media( xs ) {
 		font-size: 3.3rem;
 	}
+}
+
+// fade in the main menu hover colour
+.navigation.navigation--dark .au-link-list>li>a {
+	transition: color 0.1s ease-in-out;
 }
