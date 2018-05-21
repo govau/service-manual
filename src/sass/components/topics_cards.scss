@@ -1,8 +1,18 @@
+h2.topics__header {
+	margin-top: 2rem;
+	margin-bottom: -2rem;
+	@include AU-media( md ) {
+		margin-top: 5rem;
+		margin-bottom: 0;
+	}
+}
+
 .topicscards {
 	padding: 2rem 0;
 }
 
 .topicscards__intro {
+	margin-bottom: 2rem;
 	position: relative;
 	top: 1.5rem;
 }
@@ -20,6 +30,8 @@ h2.topicscards__headline {
 }
 
 .topicscards__viewall {
-	position: relative;
-	top: 8rem;
+	@include AU-media( md ) {
+		position: relative;
+		top: 8rem;
+	}
 }

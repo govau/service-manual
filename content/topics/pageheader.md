@@ -1,4 +1,4 @@
 ---
-layout: text/textblockfullwidth
+layout: text/pageheaderfullwidth
+title: Topics
 ---
-# Topics
