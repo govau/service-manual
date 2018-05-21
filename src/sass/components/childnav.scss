@@ -9,10 +9,6 @@
 	}
 }
 
-.guideschildnav__item {
-	font-size: 0.8rem;
-}
-
 #guides-childnav-accordion .au-accordion__title {
 	display: none;
 }
@@ -81,8 +77,6 @@ h2.au-sidenav--title  {
 }
 
 .au-sidenav {
-  //max-width: 250px;
-  // margin-bottom: 2rem;
 
   .au-sidenav--title {
     margin: 0;
@@ -123,6 +117,7 @@ h2.au-sidenav--title  {
       padding: 0.8rem 1.5rem;
       color: $action;
       text-decoration: none;
+			transition: color 0.2s ease-in-out;
 
       &:hover {
         color: $text;
