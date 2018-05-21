@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import Slugify from 'slugify';
 import React from 'react';
 import Card from '../cards/card';
+import AUctaLink from '../../scripts/uikit/cta-link';
 
 
 /**
@@ -49,7 +50,7 @@ const TopicsCards = ( page ) => {
 					</div>
 
 					<div className="col-md-offset-1 col-md-2 topicscards__viewall">
-						<a href={ page.viewalllink }>View all topics ></a>
+						<a className="au-cta-link" href={ page.viewalllink }>View all topics</a>
 					</div>
 
 				</div>
