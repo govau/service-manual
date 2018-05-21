@@ -30,8 +30,12 @@ h2.topicscards__headline {
 }
 
 .topicscards__viewall {
+	position: relative;
+	top: -2rem;
+	margin-bottom: 1rem;
+	text-align: center;
 	@include AU-media( md ) {
-		position: relative;
 		top: 8rem;
+		text-align: left;
 	}
 }
