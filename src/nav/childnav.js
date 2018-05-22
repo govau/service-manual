@@ -229,6 +229,17 @@ const Childnav = ({ page }) => {
 		}
 	}
 
+	// How the menu works:
+  // 1. If I am a top level (2nd level) page (e.g. Content Strategy Guide)
+	//    Show my children.
+  // 2. If I am a 3rd level page or deeper,
+	//    Show my direct parent, siblings, and children
+  //
+  // Example of Levels terminology:
+  // 1- Homepage "/"
+  //  2 - Digital Service Standard "/digital-service-standard/"
+  //   3 - Understand User Needs "/digital-service-standard/1-understand-user-needs/"
+
 	function makeMenuList(){
 		var rows = [];
 		for (var i = 0; i < siblingkeys.length; i++) {
@@ -246,6 +257,8 @@ const Childnav = ({ page }) => {
 										ids={childrenkeys}
 										key={Math.random()}
 									/>)
+			// RULE: do not create the siblings
+			// if this is a top level page (2nd level)
 			} else if (!isTopLevelPage) {
 				rows.push(
 									<NavListItem
