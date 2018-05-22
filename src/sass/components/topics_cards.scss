@@ -19,7 +19,6 @@ h2.topics__header {
 
 .topicscards__tagline {
 	margin-top: 1.5rem;
-	font-weight: 300;
 	@include AU-media( md ) {
 		max-width: 90%;
 	}
@@ -27,7 +26,6 @@ h2.topics__header {
 
 h2.topicscards__headline {
 	max-width: 90%;
-	font-weight: 500;
 }
 
 .topicscards__viewall {
