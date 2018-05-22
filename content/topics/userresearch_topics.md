@@ -13,4 +13,4 @@ card2link: /user-research/getting-support/
 card2text: How to get support in your organisation to do user research.
 
 ---
-Understand user needs; get support, plan research and analyse findings.
+Understand user needs, get support, plan research and analyse findings.
