@@ -5,6 +5,7 @@ header:
   - header.md
 main:
   - homepagebanner-dss.md
+  - homepagebanner-howtoapply.md
   - homepagebanner-indepthguidestools.md
   - /_shared/feedback.md
 footer:
