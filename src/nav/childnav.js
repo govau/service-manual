@@ -80,10 +80,12 @@ const Childnav = ({ page }) => {
 	var secondLevelParent;
 	var thirdLevelParent;
 	var fourthLevelParent;
+	var isTopLevelPage = false;
 
 	// 2nd level page (eg guides.service.gov.au/content-strategy/)
 	if (page._parents.length == 2) {
 		siblings = page._nav.homepage;
+		isTopLevelPage = true;
 	}
 
 	// 3rd level page (eg guides.service.gov.au/content-strategy/cms/)
@@ -217,6 +219,16 @@ const Childnav = ({ page }) => {
 	//
 	///////////////////////////////////////
 
+	function makeParentLink() {
+		if (!isTopLevelPage) {
+			return (
+				<h2 className="au-sidenav--title"><a href={makeUrlFromCuttlebelleId(parent_id)}>{parent_title}</a></h2>
+			);
+		} else {
+			return "";
+		}
+	}
+
 	function makeMenuList(){
 		var rows = [];
 		for (var i = 0; i < siblingkeys.length; i++) {
@@ -253,7 +265,7 @@ const Childnav = ({ page }) => {
 				<a href="#childnav_button" id="childnav__button" className="au-btn au-accordion--closed">In this category </a>
 				<AUaccordion open={ false } header="In this section" id="guides-childnav-accordion">
 					<nav className="au-sidenav">
-						<h2 className="au-sidenav--title"><a href={makeUrlFromCuttlebelleId(parent_id)}>{parent_title}</a></h2>
+						{makeParentLink()}
 						{makeMenuList()}
 					</nav>
 				</AUaccordion>
