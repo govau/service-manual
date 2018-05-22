@@ -82,3 +82,11 @@ a:focus h1 {
 .navigation.navigation--dark .au-link-list>li>a {
 	transition: color 0.1s ease-in-out;
 }
+
+// override DL tags default left border
+.au-body dl:not([class])>dd {
+	margin-left: 0;
+	padding-left: 0;
+	border: none;
+	font-weight: 300;
+}
