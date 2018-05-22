@@ -246,7 +246,7 @@ const Childnav = ({ page }) => {
 										ids={childrenkeys}
 										key={Math.random()}
 									/>)
-			} else {
+			} else if (!isTopLevelPage) {
 				rows.push(
 									<NavListItem
 										url={makeUrlFromCuttlebelleId(siblingkeys[i])}
