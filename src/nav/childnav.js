@@ -247,8 +247,11 @@ const Childnav = ({ page }) => {
 				<h2 className="au-sidenav--title"><a href={makeUrlFromCuttlebelleId(parent_id)}>{parent_title}</a></h2>
 			);
 		} else {
+			// this is the current page so give it an active class
 			return (
-				<h2 className="au-sidenav--title"><a href={makeUrlFromCuttlebelleId(page._ID)}>{pageTitle}</a></h2>
+				<h2 className="au-sidenav--title au-sidenav--title-active">
+					<a href={makeUrlFromCuttlebelleId(page._ID)}>{pageTitle}</a>
+				</h2>
 			);
 		}
 	}
