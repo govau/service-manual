@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-The [team will do research with users](/user-research/research-stages/#user-research-in-discovery-stage) to get a deep understanding of the problems that the service aims to solve. They do this by finding out:
+The [team will do research with users](../../user-research/research-stages/#user-research-in-discovery-stage) to get a deep understanding of the problems that the service aims to solve. They do this by finding out:
 - who the users are and what they are really trying to do when they  use the service and its products (for example, planning to travel, not just applying for a passport)
 - what the current experience is for users and what products they use
 - what the specific user needs are for the service

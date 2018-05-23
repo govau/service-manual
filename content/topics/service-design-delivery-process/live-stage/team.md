@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-You should know the [roles you need to run your service](/starting-team/roles/), based on your experience of building it.
+You should know the [roles you need to run your service](../../starting-team/roles/), based on your experience of building it.
 
 As you iterate and improve different parts of your service, you may find the team size changes along with your need for specialist roles.
 

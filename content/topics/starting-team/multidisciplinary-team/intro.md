@@ -8,4 +8,4 @@ A multidisciplinary team brings together the [roles you need](../roles/) you nee
 
 Teams who work this way are open minded and work across disciplines. They are structured to include the people who are authorised to make decisions, so the team can keep building what users need. The team is empowered to keep delivering.
 
-While some roles may change during the [service design and delivery process](/service-design-delivery-process/), the multidisciplinary team is ideally the core group of people who stay with the service from Discovery stage through to release in Live stage.
+While some roles may change during the [service design and delivery process](../../service-design-delivery-process/), the multidisciplinary team is ideally the core group of people who stay with the service from Discovery stage through to release in Live stage.

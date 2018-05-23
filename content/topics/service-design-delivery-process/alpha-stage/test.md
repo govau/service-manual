@@ -14,7 +14,7 @@ A good prototype is not the real service but needs to show how the service works
 - look and feel like a real digital service
 - have enough features for users to interact with
 - show a seamless user experience along the ‘happy path’
-- use familiar design patterns — the [GOV.AU UI-Kit is an accessible CSS and JavaScript framework](https://github.com/govau/uikit) you can build with
+- use familiar design patterns — the [GOV.AU Design System is an accessible CSS and JavaScript framework](https://designsystem.gov.au) you can build with
 - include content and data that looks real
 - respond with alerts and feedback in the right places
 
