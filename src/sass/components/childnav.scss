@@ -1,3 +1,5 @@
+$activeborderwidth: -8px;
+
 .childnav {
 	width: 100%;
 
@@ -78,6 +80,7 @@ h2.au-sidenav--title  {
 
 .au-sidenav {
 
+	// the top menu item
   .au-sidenav--title {
     margin: 0;
     border-bottom: solid 2px $border;
@@ -97,8 +100,9 @@ h2.au-sidenav--title  {
     }
   }
 
+	// top menu item active page
 	.au-sidenav--title-active {
-		border-left: solid 0.5rem $action;
+		box-shadow: $activeborderwidth 0px 0 0 $action;
 		position: relative;
 		top: -2px;
 		background: $AU-color-background-shade;
@@ -140,7 +144,8 @@ h2.au-sidenav--title  {
     }
 
     .active > a {
-      border-left: solid 0.5rem $action;
+
+			box-shadow: $activeborderwidth 0px 0 0 $action;
 			position: relative;
 			top: -2px;
       background: $AU-color-background-shade;
