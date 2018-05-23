@@ -62,6 +62,28 @@ class NavListNestedItem extends React.Component {
   }
 }
 
+// form <li> elements of the current page's children
+// only for Top-level pages (2nd level)
+class TopLevelListItems extends React.Component {
+
+  render(){
+		var rows = [];
+		for (var i = 0; i < this.props.titles.length; i++) {
+			if (this.props.titles[i] == "HIDDEN") {
+				continue;
+			}
+			rows.push(<NavListItem
+									itemname={this.props.titles[i]}
+									url={makeUrlFromCuttlebelleId(this.props.ids[i])}
+									key={Math.random()}
+								/>);
+		}
+
+		return rows;
+
+  }
+}
+
 const Childnav = ({ page }) => {
 
 	const pageTitle = page._pages[ page._ID ].pagetitle;
@@ -219,13 +241,15 @@ const Childnav = ({ page }) => {
 	//
 	///////////////////////////////////////
 
-	function makeParentLink() {
+	function makeTopNavLink() {
 		if (!isTopLevelPage) {
 			return (
 				<h2 className="au-sidenav--title"><a href={makeUrlFromCuttlebelleId(parent_id)}>{parent_title}</a></h2>
 			);
 		} else {
-			return "";
+			return (
+				<h2 className="au-sidenav--title"><a href={makeUrlFromCuttlebelleId(page._ID)}>{pageTitle}</a></h2>
+			);
 		}
 	}
 
@@ -242,32 +266,43 @@ const Childnav = ({ page }) => {
 
 	function makeMenuList(){
 		var rows = [];
+
+		// form a nested list for 3rd level pages and deeper
 		for (var i = 0; i < siblingkeys.length; i++) {
-			// exit loop if page is hidden
-			if (page._pages[ siblingkeys[i] ].hidden || siblingkeys[i] == "privacy-statement") {
+			// exit loop if page is hidden or is a top level page
+			if (page._pages[ siblingkeys[i] ].hidden || siblingkeys[i] == "privacy-statement" || isTopLevelPage) {
 				continue;
 			}
-
 			// if it is the current page form a nested list of children
+			// but only if it is not a top-level page
 			if (sibling_titles[i] == pageTitle) {
 				rows.push(
-									<NavListNestedItem
-										itemname={sibling_titles[i]}
-										titles={children_titles}
-										ids={childrenkeys}
-										key={Math.random()}
-									/>)
-			// RULE: do not create the siblings
-			// if this is a top level page (2nd level)
+					<NavListNestedItem
+						itemname={sibling_titles[i]}
+						titles={children_titles}
+						ids={childrenkeys}
+						key={Math.random()}
+					/>)
 			} else if (!isTopLevelPage) {
 				rows.push(
-									<NavListItem
-										url={makeUrlFromCuttlebelleId(siblingkeys[i])}
-										itemname={sibling_titles[i]}
-										key={Math.random()}
-									/>);
+					<NavListItem
+						url={makeUrlFromCuttlebelleId(siblingkeys[i])}
+						itemname={sibling_titles[i]}
+						key={Math.random()}
+					/>);
 			}
 		}
+
+	// form the basic <ul> for top level (2nd level) pages, no nesting
+	if (isTopLevelPage) {
+		rows.push(
+			<TopLevelListItems
+				itemname={sibling_titles[i]}
+				titles={children_titles}
+				ids={childrenkeys}
+				key={Math.random()}
+			/>)
+	}
 		return <ul className="au-sidenav--list">{rows}</ul>;
 	}
 
@@ -278,7 +313,7 @@ const Childnav = ({ page }) => {
 				<a href="#childnav_button" id="childnav__button" className="au-btn au-accordion--closed">In this category </a>
 				<AUaccordion open={ false } header="In this section" id="guides-childnav-accordion">
 					<nav className="au-sidenav">
-						{makeParentLink()}
+						{makeTopNavLink()}
 						{makeMenuList()}
 					</nav>
 				</AUaccordion>
