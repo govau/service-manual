@@ -102,9 +102,12 @@ h2.au-sidenav--title  {
 		position: relative;
 		top: -2px;
 		background: $AU-color-background-shade;
-		padding-left: 0.2rem;
+		padding-left: 0.4rem;
 		font-weight: bold;
-		color: $text;
+
+		a {
+			color: $text;
+		}
 	}
 
   .au-sidenav--list {
