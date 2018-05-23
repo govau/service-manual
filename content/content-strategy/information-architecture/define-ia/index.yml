@@ -1,7 +1,7 @@
 pagetitle: Define your IA
 description: When mapping your IA, use methods such as card sorting and scenario testing to define and validate your labels as you go.
 weight: 40
-hidden: true
+hidden: false
 theme: blue
 layout: layout/topic
 header:

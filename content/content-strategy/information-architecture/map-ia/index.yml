@@ -1,6 +1,6 @@
 pagetitle: Map your IA
 weight: 60
-hidden: true
+hidden: false
 description: Mapping content to your new IA helps you to know where content will sit on your new website. It also helps to highlight any content gaps you may have.
 layout: layout/topic
 theme: blue

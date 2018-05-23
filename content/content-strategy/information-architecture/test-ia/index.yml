@@ -1,6 +1,6 @@
 pagetitle: Test and improve your IA
 weight: 50
-hidden: true
+hidden: false
 description: It is important to conduct usability testing as you develop your IA.
 layout: layout/topic
 theme: blue
