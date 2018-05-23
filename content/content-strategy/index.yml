@@ -21,9 +21,9 @@ main:
   - clean-head.md
   - clean.md
   - clean-cards.md
-  - set-foundations-head.md
-  - set-foundations.md
-  - foundations-cards.md
+  #- set-foundations-head.md
+  #- set-foundations.md
+  #- foundations-cards.md
   - create-ucc-head.md
   - create-ucc.md
   - create-ucc-cards.md
