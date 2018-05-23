@@ -236,9 +236,9 @@ const Childnav = ({ page }) => {
 	//    Show my direct parent, siblings, and children
   //
   // Example of Levels terminology:
-  // 1- Homepage "/"
-  //  2 - Digital Service Standard "/digital-service-standard/"
-  //   3 - Understand User Needs "/digital-service-standard/1-understand-user-needs/"
+  // 1st- Homepage "/"
+  //  2nd - Digital Service Standard "/digital-service-standard/"
+  //   3rd - Understand User Needs "/digital-service-standard/1-understand-user-needs/"
 
 	function makeMenuList(){
 		var rows = [];
