@@ -7,7 +7,7 @@ To work in an agile way, service teams must be able to:
 - test new design ideas, content and features to see if they work well for all users
 - understand problems users are having and how they might be resolved
 
-This means doing user research in every iteration of every development stage — starting in Discovery and continuing through Live. Make sure your [user research plan](/user-research/planning-user-research/) shows this.
+This means doing user research in every iteration of every development stage — starting in Discovery and continuing through Live. Make sure your [user research plan](../planning-user-research/) shows this.
 
 Doing this means you can:
 - save time by building only the things that you know your users need

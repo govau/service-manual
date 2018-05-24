@@ -8,7 +8,7 @@ You need to:
 - develop empathy for diverse users, and their needs and abilities
 - challenge your personal biases and assumptions about diverse user groups
 - make services accessible for diverse users regardless of their abilities and environments
-- [recruit and include diverse users](/user-research/identifying-users-needs/#make-your-research-inclusive) when you conduct end-to-end usability testing
+- [recruit and include diverse users](../identifying-users-needs/#make-your-research-inclusive) when you conduct end-to-end usability testing
 - consider user needs and abilities when conducting research
 - allow any type of user to switch to non-digital channels if needed
 

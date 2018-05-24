@@ -11,7 +11,7 @@ Watch how users do things now and what problems or barriers they face. This is c
 
 ### [2]Interview users
 
-[Interview](/user-research/interviewing-users/) and observe frontline service staff (if your agency has them).
+[Interview](../interviewing-users/) and observe frontline service staff (if your agency has them).
 
 This will help you to understand:
  - limitations of the current service
@@ -26,7 +26,7 @@ Do research to understand the real user journey. It's more important than the jo
 
 ### [2]Examine existing data
 
-Look at [existing data](/user-research/planning-user-research/using-existing-research-data/). This might include analytics, back-office workflow and support logs.
+Look at [existing data](../planning-user-research/using-existing-research-data/). This might include analytics, back-office workflow and support logs.
 
 This can reveal new issues and quantitative evidence that supports qualitative insights.
 

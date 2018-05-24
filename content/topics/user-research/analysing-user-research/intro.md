@@ -11,6 +11,6 @@ User research activities produce a lot of raw data, for example:
 
 Filtering and organising this data will help you to produce meaningful insights.
 
-Follow your [user research plan](/user-research/planning-user-research) and keep asking yourself 'What is the problem that the user is experiencing?'
+Follow your [user research plan](../planning-user-research) and keep asking yourself 'What is the problem that the user is experiencing?'
 
-Read [how user research changes](/user-research/research-stages/) through the Discovery to Live stages.
+Read [how user research changes](../research-stages/) through the Discovery to Live stages.

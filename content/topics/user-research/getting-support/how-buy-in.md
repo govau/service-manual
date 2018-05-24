@@ -10,11 +10,11 @@ Getting support to stand up a proper multidisciplinary team with a full-time use
 
 To start work on a new service, or improve an existing one, you may need to explain the value of user research in your pitch.
 
-Make it clear that research underpins the whole [service design and delivery process](/service-design-delivery-process).
+Make it clear that research underpins the whole [service design and delivery process](../../service-design-delivery-process).
 
 ### [2]Explain the problem
 
-[Existing research](/user-research/planning-user-research/using-existing-research-data/) can provide evidence that there is a need for a new or improved service. Use this to draft problem statements.
+[Existing research](../planning-user-research/using-existing-research-data/) can provide evidence that there is a need for a new or improved service. Use this to draft problem statements.
 
 Make these the start of your pitch. 
 

@@ -13,4 +13,4 @@ Remember to include all [user groups](https://www.dta.gov.au/standard/design-pri
  - come from culturally and linguistically diverse backgrounds
  - may need help to use your service
 
-Document user groups in your [user research plan](/user-research/planning-user-research/).
+Document user groups in your [user research plan](../planning-user-research/).

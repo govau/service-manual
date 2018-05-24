@@ -13,4 +13,4 @@ It's generally best to use a research recruitment agency for recruiting end user
 
 But you may also need to try different ways of finding specific users. Relevant professional bodies, charities or community groups might be more effective.
 
-Think about and budget for [paying incentives](/user-research/paying-incentives/) to research participants. Research recruitment agencies can handle incentive payments.
+Think about and budget for [paying incentives](../paying-incentives/) to research participants. Research recruitment agencies can handle incentive payments.
