@@ -1,5 +1,5 @@
 pagetitle: Audit content
-weight: 10
+weight: 50
 theme: blue
 description: Audit your content to get a clear understanding of your digital estate or service. Create evidence to improve, remove or change.
 header:
@@ -7,7 +7,7 @@ header:
   - /_shared/header.md
   - /_shared/breadcrumbs.md
 main:
-  - attribution.md #attribution
+  - intro.md #attribution
   - why-head.md
   - why.md
   - fact.md #fact

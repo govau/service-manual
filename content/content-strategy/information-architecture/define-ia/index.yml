@@ -1,0 +1,22 @@
+pagetitle: Define your IA
+description: To improve and map your information architecture (IA), use methods such as card sorting and scenario testing to define and validate your labels as you go.
+weight: 40
+hidden: false
+theme: blue
+layout: layout/topic
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+  - /_shared/breadcrumbs.md
+main:
+  - intro.md
+  - toc.md
+  - main-menu-head.md
+  - menu.md
+  - full-menu-head.md
+  - full-menu.md
+  - methods-head.md
+  - cards.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

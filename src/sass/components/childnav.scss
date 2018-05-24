@@ -1,19 +1,13 @@
+$activeborderwidth: -8px;
+
 .childnav {
-	float: none;
-	display: inline-block;
 	width: 100%;
 
-
 	@include AU-media( md ) {
-		width: auto;
-		float: right;
-	}
-
-	@include AU-media( lg ) {
-		position: absolute;
-		top: -1.2rem;
-		right: 0;
-		z-index: 1;
+		margin-bottom: -1000rem;
+		position: relative;
+		top: -2rem;
+		left: -1.4rem;
 	}
 }
 
@@ -58,65 +52,128 @@
 	}
 }
 
-.childnav__container {
-	width: 100%;
-
+// open sidebar menu when on desktop
+// Use the hidden accordion when closed in mobile and force it to show on desktop
+.js #guides-childnav-accordion .au-accordion__body.au-accordion--closed {
 	@include AU-media( md ) {
-		width: 18em;
-	}
-
-	@include AU-media( lg ) {
-		width: 22em;
-	}
-}
-
-.childnav__list {
-	width: 100%;
-	background: #fff;
-	list-style: none;
-
-	.au-body & {
-		padding-left: 0;
-		margin: 0;
-	}
-
-	&.is-open {
+		display: block;
 		height: auto;
 	}
-
-	.navigation__item {
-		list-style: none;
-		padding-left: 0;
-		margin-top: 0.4rem;
-		margin-bottom: 0.4rem;
-		border-bottom: 1px solid #d2d2d2;
-
-		&.navigation__item--has-nested {
-			border-bottom: 0;
-			padding: 0;
-		}
-
-		&:last-child {
-			border: 0;
-		}
-	}
-
-	.navigation__item__anchor {
-		border-bottom: 0;
-		text-decoration: none;
-	}
-
-	.navigation__item__anchor:hover {
-		text-decoration: underline;
-	}
 }
 
-.navigation__item__span {
-	color: $AU-color-foreground-text;
-	font-weight: bold;
-	display: block;
-	background-color: $AU-color-background;
+////////////////////////////////////////////////////////////////
+// 🚧🚧
+// DRAFT NAV STYLING- WILL BE UPDATED when component is ready
+// 🚧🚧
+////////////////////////////////////////////////////////////////
+
+$text:   #414141;
+$muted:  #636363;
+$border: #e3e3e3;
+$action: #007099;
+$shade: #f5f5f5;
+
+h2.au-sidenav--title  {
+  font-size: 1rem;
+  line-height: 1.2;
 }
+
+.au-sidenav {
+
+	// the top menu item
+  .au-sidenav--title {
+    margin: 0;
+    border-bottom: solid 2px $border;
+    font-weight: normal;
+
+    a {
+      display: block;
+      color: $action;
+      padding: 1rem 0.5rem;
+      text-decoration: none;
+
+      &:hover {
+        color: $text;
+        text-decoration: underline;
+      }
+			&:focus {outline: 3px solid $AU-color-foreground-focus;}
+    }
+  }
+
+	// top menu item active page
+	.au-sidenav--title-active {
+		box-shadow: $activeborderwidth 0px 0 0 $action;
+		position: relative;
+		top: -2px;
+		background: $AU-color-background-shade;
+		padding-left: 0.4rem;
+		font-weight: bold;
+
+		a {
+			color: $text;
+		}
+	}
+
+  .au-sidenav--list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-size: 14px;
+      position: relative;
+    }
+
+    a {
+      display: block;
+      border-bottom: solid 1px $border;
+      padding: 0.8rem 1.5rem;
+      color: $action;
+      text-decoration: none;
+			transition: color 0.2s ease-in-out;
+
+      &:hover {
+        color: $text;
+        text-decoration: underline;
+      }
+			&:focus {outline: 3px solid $AU-color-foreground-focus;}
+    }
+
+    .active > a {
+
+			box-shadow: $activeborderwidth 0px 0 0 $action;
+			position: relative;
+			top: -2px;
+      background: $AU-color-background-shade;
+      padding-left: 1rem;
+      font-weight: bold;
+			color: $text;
+    }
+
+    ul a {
+      padding-left: 2.4rem;
+      position: relative;
+    }
+
+    ul .active > a {
+      padding-left: 2.75rem;
+    }
+
+
+
+    ul ul a {
+      padding-left: 3rem;
+    }
+
+  }
+}
+
+
+///////////// sitemap 🗺️
 
 .navigation__item__anchor,
 .navigation__item__span {
@@ -124,18 +181,4 @@
 	font-size: 90%;
 	padding-top: 0rem;
 	padding-bottom: 0.2rem;
-}
-
-.navigation--level-3 {
-	border-top: 1px solid $AU-color-foreground-border;
-
-	& .navigation__item__anchor,
-	& .navigation__item__span {
-		padding-left: 1.5em;
-	}
-}
-
-.navigation--level-4 {
-	left: 15px;
-	position: relative;
 }

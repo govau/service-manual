@@ -1,0 +1,45 @@
+pagetitle: Gather CMS requirements
+description: Find out what you need to know about a CMS before you choose one. Get clear on your CMS requirements so that the CMS you can choose and use the best CMS for your purposes.
+weight: 30
+layout: layout/topic
+hidden: true
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+  - /_shared/breadcrumbs.md
+main:
+  - intro.md
+  - toc.md #toc
+  - heading.md
+  - section.md #text
+  - heading2.md
+  - section2.md #text
+  - heading2a.md
+  - text-security.md
+  - heading2b.md
+  - text-service-level-agreement.md
+  - heading3.md
+  - section3.md #text
+  - heading4.md
+  - section4.md #text
+  - heading5.md
+  - section5.md #text
+  - heading5point5.md
+  - section5point5.md #text
+  - heading6.md
+  - section6.md #text
+  - heading7.md
+  - section7.md #text
+  - heading8.md
+  - section8.md #text
+  - heading9.md
+  - section9.md #text
+  - heading10.md
+  - section10.md #text
+  - heading11.md
+  - section11.md #text
+  - card.md #card
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

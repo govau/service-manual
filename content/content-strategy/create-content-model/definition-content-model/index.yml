@@ -1,0 +1,28 @@
+pagetitle: Definition of a content model and content types
+description: A content model shows the overall structure of content on your website. It also shows the relationship between the different types of content across the site.
+weight: 10
+hidden: true
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+  - /_shared/breadcrumbs.md
+main:
+  - intro.md
+  - toc.md #toc
+  - heading-content-model.md
+  - text-content-model.md
+  - diagram-content-model.md #diagram
+  - heading-content-types.md
+  - text-content-types.md
+  - heading-reusable-content.md
+  - text-reusable.md
+  - heading-users.md
+  - text-users.md
+  - heading-components.md
+  - text-components.md
+  - card.md #attachment
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

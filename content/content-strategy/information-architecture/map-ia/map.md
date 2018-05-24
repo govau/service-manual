@@ -2,9 +2,9 @@
 layout: text/textblock
 ---
 ## [2]Know what content you have
-Firstly, look at your current IA and make a clear list of your pages. This will include all top level pages and each of the pages under them. You may choose to use a spreadsheet, word doc or diagram to do this.
+Firstly, look at your current IA and make a clear list of your pages. This will include all top-level pages and each of the pages under them. Start an [audit spreadsheet](/content-strategy/audit-content/conduct-audit/#start-a-spreadsheet) or use a Word doc or diagram to do this.
 
-Go through each page in your structure and identify whether you’ll retain, remove or rewrite the content. Once you have mapped the content across to the new IA, you’ll see where the content gaps are. 
+Go through each page in your structure and identify whether you’ll retain, remove or rewrite the content. Once you've mapped the content across to the new IA, you’ll see where the content gaps are. 
 
 A basic set of page headings might include:
 - home page
@@ -21,7 +21,7 @@ For each page you’ll need to identify:
 - page actions: retain, rewrite, remove
 
 ### [2]What content do you want to remove?
-If there is content on your current site that is no longer required, make a note of these pages. You will not need to map these pages, but you will need to know how to remove content properly.
+If there is content on your current site that is no longer required, make a note of these pages. You will not need to map these pages, but you will need to know how to correctly [remove content](/content-strategy/remove-content/).
 
 ### [2]What content do you need to rewrite?
 Do you have content that you will need to rewrite? Where you have content that you’re going to retain but change, mark this content as needing a rewrite. This may be as simple as a different heading or page title, or it may be content that needs a complete rewrite.
@@ -32,8 +32,8 @@ This is where you've identified content gaps. Make a clear note of what you need
 ### [2]Not all content is hierarchical
 Not all of your content may sit in a clear hierarchy. Some other ways of grouping content so that you can map it across to a new IA include:
 - alphabetical
-- date based such as media releases
-- user based - who the content is for
+- date-based such as media releases
+- user-based - who the content is for
 - task-based - for example, how to pay a bill
 
 ### [2]New IA pages
@@ -41,8 +41,7 @@ Next, outline your proposed new IA. Where is your content going to go on the new
 - all the top level content pages
 - all the pages under them
 
-Compare and and contrast your 2 IA maps 
-Work out what needs to happen with each piece of content.
+Compare and and contrast both IA maps. Work out what needs to happen with each piece of content.
 
 ### [2]New IA and stakeholders
 Before going ahead with any changes, identify the content owners for each page in your IA. This is so you can discuss any changes with them before you begin. Don’t just go ahead and start removing or changing content without consulting content owners. IA is just as much about building relationships with stakeholders, as it is with the content itself.

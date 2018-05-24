@@ -11,9 +11,9 @@ import Navigation from '../nav/nav';
  */
 const Page404 = ( page ) => (
 	<div className="au-body au-grid sitemap">
-		<div className="container">
+		<div className="container-fluid">
 			<div className="row">
-				<div className="col-xs-12">
+				<div className="col-md-12">
 					<div className="textwrapper">
 						<div className="sitemap__text">{ page._body }</div>
 							<div className="sitemapnav__wrapper">

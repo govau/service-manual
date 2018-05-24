@@ -5,11 +5,10 @@ link: content-strategy/ia/basic-ia.svg
 reverse: false
 stackPosition: top
 imageAlt: Diagram showing a basic IA model
-caption: 
+caption: This basic IA structure shows a page hierarchy with the parent page at the top and the child pages coming out of that below.
 title: Basic IA
-level: 2
+level: 3
 display: 3
-long_description: new-long-description.md
 ---
 
 A basic, commonly used IA structure with parent and child pages.

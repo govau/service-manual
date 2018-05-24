@@ -1,11 +1,13 @@
 pagetitle: IA checklist
-description: Check that you have covered each of these areas when working on your IA.
-weight: 40
+description: Check that you have covered each of these areas when working on your information architecture (IA).
+hidden: false
+weight: 70
 layout: layout/topic
 theme: blue
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
+  - /_shared/breadcrumbs.md
 main:
   - intro.md
   - ia-checklist.md #text

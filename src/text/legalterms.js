@@ -7,7 +7,7 @@ import React from 'react';
  */
 const LegalTerms = ( page ) => (
 	<div className="au-body au-grid legalterms">
-		<div className="container">
+		<div className="container-fluid">
 			<div className="row">
 				<div className="col-xs-12">
 					{ page._body }

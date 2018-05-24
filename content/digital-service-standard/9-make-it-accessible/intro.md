@@ -14,7 +14,7 @@ Your service must be accessible to users regardless of their digital confidence 
 
 ### [2]In Discovery stage
 
-During the [Discovery stage](/service-design-delivery-process/discovery-stage/) you will have developed a good understanding of how your users may access your service. To make sure everyone will be able to use your service you need to show:
+During the [Discovery stage](/topics/service-design-delivery-process/discovery-stage/) you will have developed a good understanding of how your users may access your service. To make sure everyone will be able to use your service you need to show:
 
 - the type of environments users may access the service in, including with different browsers and desktop and mobile devices, and when connections are slower and there may be limited data (for example, through user stories)
 - diversity in research recruitment and targeted users, including people from different cultural backgrounds and people with disability
@@ -24,14 +24,14 @@ During the [Discovery stage](/service-design-delivery-process/discovery-stage/) 
 
 ### [2]In Alpha stage
 
-During the [Alpha stage](/service-design-delivery-process/alpha-stage/), you should be able to show:
+During the [Alpha stage](/topics/service-design-delivery-process/alpha-stage/), you should be able to show:
 - your prototypes can accommodate users from different backgrounds and users with disability
 - any accessibility issues and barriers that might need addressing in the Beta stage
 - you have access to facilities to perform testing on various devices or platforms (for example, a plan for testing)
 
 ### [2]In Beta stage
 
-During the [Beta stage](/service-design-delivery-process/beta-stage/) you will be developing your service and you must make sure accessibility requirements and needs of all your users are being met.
+During the [Beta stage](/topics/service-design-delivery-process/beta-stage/) you will be developing your service and you must make sure accessibility requirements and needs of all your users are being met.
 
 You will need to show:
 
@@ -51,7 +51,7 @@ You will need to show:
 - a demonstration your service in a live-like environment
 - the majority of users can access the service in their environment
 
-As you [go live](/service-design-delivery-process/live-stage/) you will need to show:
+As you [go live](/topics/service-design-delivery-process/live-stage/) you will need to show:
 
 - your service is accessible
 - evidence of usability testing, including users with low level digital skills, people with disability, and people from different cultural and linguistic backgrounds

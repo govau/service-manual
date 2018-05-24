@@ -1,0 +1,26 @@
+pagetitle: Scenario-based testing
+description: Test the main areas of your IA design through scenario testing. Find out how easy or hard it is for people to find information on your website.
+weight: 20
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+  - /_shared/breadcrumbs.md
+main:
+  - intro.md #methods
+  - why-head.md
+  - why.md
+  - preptime-callout.md
+  - materials-head.md
+  - materials.md
+  - preparation-head.md
+  - preparation.md
+  - how-head.md
+  - how.md
+  - key-takeaway.md #supporting-takeaway
+  - followup-head.md
+  - followup.md
+  - /_shared/feedback.md
+footer:
+  - /_shared/footer.md

@@ -4,7 +4,7 @@ headline: "Digital Guides"
 mainlist:
   - text: Sitemap
     link: /sitemap
-  - text: Github
+  - text: GitHub
     link: https://github.com/govau/service-manual/
 legallist:
   - text: Privacy

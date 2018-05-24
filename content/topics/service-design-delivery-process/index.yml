@@ -1,0 +1,19 @@
+pagetitle: Service design and delivery process
+weight: 20
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - header.md #category/category_header
+main:
+  - what.md
+  - stages.md
+  - why.md
+  - when-head.md
+  - when.md
+  - how-head.md
+  - guides-cards.md
+  - /_shared/support-service-design.md
+  - /_shared/feedback.md
+
+footer:
+  - /_shared/footer-gds.md

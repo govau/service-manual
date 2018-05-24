@@ -1,6 +1,6 @@
 ---
 layout: text/homepagebannercards
-oddrow: true
+oddrow: false
 heading: In-depth guides and tools
 
 card1headline: Content Strategy Guide

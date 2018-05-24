@@ -11,9 +11,9 @@ const CategoryHeadline = ( page ) => {
 
 	return (
 		<div className={`au-body au-grid category-headline category-headline--${ theme }`}>
-			<div className="container">
+			<div className="container-fluid">
 				<div className="row">
-					<div className="col-xs-12">
+					<div className="col-md-offset-3 col-md-9">
 						<div className="category-headline__title">{ page.title }</div>
 					</div>
 				</div>

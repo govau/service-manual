@@ -1,6 +1,6 @@
 ---
-layout: text/callout
+layout: text/textblock
 ---
-Reference
 
-[information architecture 101: techniques and best practices](https://www.webpagefx.com/blog/web-design/information-architecture-101-techniques-and-best-practices/)
+### References
+[Information architecture 101: techniques and best practices](https://www.webpagefx.com/blog/web-design/information-architecture-101-techniques-and-best-practices/)

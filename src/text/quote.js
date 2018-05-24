@@ -7,7 +7,7 @@ import React from 'react';
  */
 const Quote = ( page ) => (
 	<div className="au-body au-grid quote">
-		<div className="container">
+		<div className="container-fluid">
 			<div className="row">
 				<div className="col-xs-12">
 					<blockquote>

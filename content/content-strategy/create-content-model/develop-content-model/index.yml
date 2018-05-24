@@ -1,0 +1,30 @@
+pagetitle: Develop a content model and its types
+description: Content models are created and structured in a specific way with different content types. All  government content should fit within a type and a content model. In this way content is consistent and can be reused across platforms.
+weight: 30
+hidden: true
+layout: layout/topic
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+  - /_shared/breadcrumbs.md
+main:
+  - intro.md
+  - toc.md #toc
+  - supporting-takeaway.md #supporting-takeaway
+  - heading-when-to-use.md
+  - text-when-to-use.md
+  - heading-before-you-start.md
+  - text-before-you-start.md
+  - heading-ways-to-develop.md
+  - text-ways-to-develop.md
+  - diagram-conceptual-model.md #diagram
+  - heading-detailed-model.md
+  - text-detailed-model.md
+  - attachment.md #attachment
+  - heading-things-to-remember.md
+  - text-things-to-remember.md  
+  - /_shared/feedback.md
+
+footer:
+  - /_shared/footer.md

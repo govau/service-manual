@@ -1,16 +1,20 @@
-pagetitle: Review, research and engage
-weight: 30
-description: Conduct a review and research other related websites before you begin to develop your IA.
+pagetitle: Review analytics, research and engage
+weight: 20
+hidden: false
+description: Conduct a content review and research other related websites before you begin to develop your information architecture (IA).
 layout: layout/topic
 theme: blue
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
+  - /_shared/breadcrumbs.md
 main:
   - intro.md
   - toc.md
   - review-analytics-head.md
   - review-analytics.md
+  - new-sites-head.md
+  - new-sites.md
   - research-other-websites-head.md
   - research-other-websites.md
   - supporting-takeaway.md #supporting-takeaway

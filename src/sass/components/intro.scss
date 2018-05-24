@@ -4,7 +4,7 @@
 
 .intro {
 	background-color: $AU-color-background;
-	margin-bottom: 4rem;
+	margin-bottom: 2rem;
 
 	@include AU-media( xs ) {
 		margin-top: 2rem;
@@ -65,7 +65,6 @@
 	line-height: 1.1;
 	margin-top: 0;
 	color: $AU-color-foreground-text;
-	word-break: break-word;
 }
 
 .intro__subtitle {

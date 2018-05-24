@@ -1,6 +1,7 @@
 ---
 layout: text/callout
 ---
+### Example
 Use these kinds of audit tools when collating your content:
   * website content analytics, such as Google Analytics
   * readability checkers

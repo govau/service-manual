@@ -1,11 +1,13 @@
-pagetitle: Plan and build your IA
-weight: 20
-description: Make sure you link your plan to any existing communications plans and digital strategies.
+pagetitle: Plan your IA
+weight: 30
+hidden: false
+description: Start to plan your information architecture (IA) taxonomy, group your content, and visualize your IA.
 layout: layout/topic
 theme: blue
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
+  - /_shared/breadcrumbs.md
 main:
   - intro.md
   - sections.md
@@ -19,10 +21,7 @@ main:
   - diagram.md
   - diagram2.md
   - diagram3.md
-  - menu-head.md
-  - menu.md
   - reference-callout.md
-  - cards.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

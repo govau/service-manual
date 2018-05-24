@@ -1,11 +1,12 @@
-pagetitle: Information architecture (IA)
-weight: 10
-hidden: true
+pagetitle: Improve your IA
+weight: 90
+hidden: false
 theme: blue
-description: Practical guidance for government agencies about developing an information architecture (IA) for websites. 
+description: Practical guidance for government agencies to improve or develop an information architecture (IA).
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
+  - /_shared/breadcrumbs.md
 main:
   - intro.md
   - why-head.md

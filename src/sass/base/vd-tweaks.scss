@@ -32,18 +32,55 @@
 	}
 }
 
-/// Guides specific overrides
+//////////////////////////////////////////////
+///
+///      Guides specific overrides
+///
+//////////////////////////////////////////////
 
-// Spacers for padding
-.spacer__sm {
- height: 1.5rem;
-}
-
-.spacer__med {
-	height: 2rem;
-}
-
-
+// hack to remove the vanilla focus from elements
 [tabindex="-1"] {
 	outline: none;
+}
+
+// give images inside links focus
+a:focus img {
+	outline: 3px solid $AU-color-foreground-focus;
+}
+
+a:focus h1 {
+	outline: 3px solid $AU-color-foreground-focus;
+}
+
+
+// reduce the list item margin in mobile view
+.textwrapper li {
+	position: relative;
+	left: -1rem;
+
+	@include AU-media( xs ) {
+		left: 0rem;
+	}
+}
+
+// fine tune the headings at different breakpoints
+.au-body .au-display-xxxl, .au-display-xxxl{
+	font-size: 2.6rem;
+	letter-spacing: -0.03rem;
+	@include AU-media( xs ) {
+		font-size: 3.3rem;
+	}
+}
+
+// fade in the main menu hover colour
+.navigation.navigation--dark .au-link-list>li>a {
+	transition: color 0.1s ease-in-out;
+}
+
+// override DL tags default left border
+.au-body dl:not([class])>dd {
+	margin-left: 0;
+	padding-left: 0;
+	border: none;
+	font-weight: 300;
 }

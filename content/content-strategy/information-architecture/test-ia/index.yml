@@ -1,11 +1,13 @@
 pagetitle: Test and improve your IA
-weight: 70
-description: It is important to conduct usability testing as you develop your IA.
+weight: 50
+hidden: false
+description: It's important to conduct usability testing as you develop your information architecture (IA).
 layout: layout/topic
 theme: blue
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
+  - /_shared/breadcrumbs.md
 main:
   - intro.md
   - test-head.md

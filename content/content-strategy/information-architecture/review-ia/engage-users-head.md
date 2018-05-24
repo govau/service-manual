@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Engage users and other stakeholders
+section: Engage users and stakeholders
 ---

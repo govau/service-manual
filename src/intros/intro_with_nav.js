@@ -10,21 +10,20 @@ import Childnav from '../nav/childnav';
  */
 const IntroNav = ( page ) => {
 
-	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
-
 	return (
-		<div className={`au-body au-grid intro intro--withnav intro__wrapper intro--${ theme }`}>
-			<div className="container">
+		<div className="au-grid intro intro--withnav intro__wrapper">
+			<div className="container-fluid">
 				<div className="row">
-					<div className="col-xs-12">
-
+					<div className="col-md-3">
 						<Childnav page={ page } />
+					</div>
+					<div className="col-md-9">
 
-						<div className="textwrapper intro__textwrapper__withnav">
+						<div className="au-body textwrapper intro__textwrapper__withnav">
 							<div><h2 className="au-display-xxxl guides-category-header-main-heading intro__headline">{ page.title ? page.title : page._pages[ page._ID ].pagetitle }</h2></div>
 						</div>
 
-						<div className="textwrapper intro__textwrapper__withnav">
+						<div className="au-body textwrapper intro__textwrapper__withnav">
 							<div />
 							{ page.subtitle && <p className="guides-category-header-description intro-with-nav__subtitle">{ page.subtitle }</p> }
 							{ page.attrTitle1 &&
@@ -48,7 +47,7 @@ const IntroNav = ( page ) => {
 								</p>
 							}
 							<div className="spacer__med" />
-							<div className="intro__text">{ page._body }</div>
+							<div className="au-body intro__text">{ page._body }</div>
 						</div>
 					</div>
 				</div>

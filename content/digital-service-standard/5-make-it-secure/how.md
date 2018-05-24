@@ -4,7 +4,7 @@ layout: text/textblock
 
 ### [2]In Alpha stage
 
-During [Alpha stage](/service-design-delivery-process/alpha-stage/) you’ll have an understanding of the users, data and threats that affect your service. You will have established an appropriate approach to integrate relevant security and privacy measures into your design with minimal user impact.
+During [Alpha stage](/topics/service-design-delivery-process/alpha-stage/) you’ll have an understanding of the users, data and threats that affect your service. You will have established an appropriate approach to integrate relevant security and privacy measures into your design with minimal user impact.
 
 You should:
 
@@ -35,7 +35,7 @@ You should understand the service requirements relating to:
 
 ### [2]In Beta stage
 
-During the [Beta stage](/service-design-delivery-process/beta-stage/) you’ll develop a secure system that integrates seamlessly into the proposed solution. It will have appropriate security controls embedded within it to mitigate all identified threats.
+During the [Beta stage](/topics/service-design-delivery-process/beta-stage/) you’ll develop a secure system that integrates seamlessly into the proposed solution. It will have appropriate security controls embedded within it to mitigate all identified threats.
 
 You should involve all relevant stakeholders within the project, including:
   - business owners
@@ -59,7 +59,7 @@ You should build detection and prevention mechanisms into the solution, includin
   - logging solution that can fully trace a user as they traverse each part of the system
   - appropriate business rules that check the validity of interactions with the solution
 
-As you [go live](/service-design-delivery-process/live-stage/) you should be able to show that you have created a robust secure solution that meets all security, legislative and legal requirements. It should:
+As you [go live](/topics/service-design-delivery-process/live-stage/) you should be able to show that you have created a robust secure solution that meets all security, legislative and legal requirements. It should:
 
 - manage frequent security updates
 - identify malicious or fraudulent activity
