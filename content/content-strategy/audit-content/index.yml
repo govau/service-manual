@@ -7,7 +7,7 @@ header:
   - /_shared/header.md
   - /_shared/breadcrumbs.md
 main:
-  - attribution.md #attribution
+  - intro.md #attribution
   - why-head.md
   - why.md
   - fact.md #fact

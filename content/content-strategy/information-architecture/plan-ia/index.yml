@@ -1,7 +1,7 @@
 pagetitle: Plan your IA
 weight: 30
-hidden: true
-description: Start to plan your IA taxonomy, group your content, and visualize your IA.
+hidden: false
+description: Start to plan your information architecture (IA) taxonomy, group your content, and visualize your IA.
 layout: layout/topic
 theme: blue
 header:
