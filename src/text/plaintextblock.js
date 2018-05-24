@@ -17,7 +17,7 @@ const Plaintextblock = ( page ) => {
 	<div className="au-body au-grid plaintextblock">
 		<div className="container-fluid">
 			<div className="row">
-				<div className="col-md-12">
+				<div className="col-md-offset-3 col-md-9">
 					<div className="plaintextwrapper">
 						<textarea value={ template } readOnly="true" />
 					</div>

@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 ## [2]Know what content you have
-Firstly, look at your current IA and make a clear list of your pages. This will include all top-level pages and each of the pages under them. You may choose to use a spreadsheet, Word doc or diagram to do this.
+Firstly, look at your current IA and make a clear list of your pages. This will include all top-level pages and each of the pages under them. Start an [audit spreadsheet](/content-strategy/audit-content/conduct-audit/#start-a-spreadsheet) or use a Word doc or diagram to do this.
 
 Go through each page in your structure and identify whether you’ll retain, remove or rewrite the content. Once you've mapped the content across to the new IA, you’ll see where the content gaps are. 
 

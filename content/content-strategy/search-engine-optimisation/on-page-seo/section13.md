@@ -1,7 +1,7 @@
 ---
 layout: text/textblock
 ---
-Research shows that the majority of users conduct their searches on a mobile device. Google may penalise you with poor search results if your site is not mobile friendly.
+With over 80% of Australians now owning a mobile phone, you should consider mobile use in your SEO strategy. Google may penalise you with poor search results if your site is not mobile friendly.
 
 For example, government apps such as [mygov](https://www.google.com.au/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwif1bmbgrjWAhVONbwKHaxaApcQFggmMAA&url=https%3A%2F%2Fmy.gov.au%2F&usg=AFQjCNEefvEQZBR1Fc6Ty9olnDoURUCP7g) are now used by more people on mobile phones. Always aim to include SEO for mobile in your content strategy.
 

@@ -7,4 +7,4 @@ Look at the structure of your agency and work out which branches to involve. Fin
 ### [2]Interview stakeholders
 Like any research activity, go into an interview with an objective and plan. Document what it is you want to find out, remembering to listen and note what you’re hearing. 
 
-Plan, design and run interviews using these [user research interview techniques](/user-research/interviewing-users/).
+Plan, design and run interviews using these [user research interview techniques](/topics/user-research/interviewing-users/).

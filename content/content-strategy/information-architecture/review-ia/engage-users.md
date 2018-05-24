@@ -2,8 +2,9 @@
 layout: text/textblock
 ---
 
-Talk to the people who use your website to find out:
+The better you understand your users through [user research](https://guides.service.gov.au/user-research/), the more likely you are to create services that meet their needs. 
 
+Talk to the people who use your website to find out:
 - what tasks they need to complete on the website
 - their experience of using the website
 - any issues or pain points while using the website
@@ -29,4 +30,4 @@ There may be other staff across your agency who contribute content to the websit
 
 Talk to other relevant groups during the early stages, such as staff in a call centre or customer service centre. They often know the problems callers have with your website. They can also tell you what people ask about the most.
 
-Consult your legal team to learn about any mandatory requirements they may have for your IA.
+Consult your legal team to learn about any mandatory requirements they have for your IA. These could include the visibility of content such as annual reports and freedom of information, or privacy, accessibility and copyright.

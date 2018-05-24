@@ -6,6 +6,7 @@ layout: text/textblock
 Once you have your data from measuring content you then need to analyse it to make it ready for your report. 
 
 Analytics are a powerful way to gain insight into your users and their engagement with your online content. The best analytics come from cross-referencing data and then drawing insights from them.
+
 ### [1]Set up a tool
 There are a variety of free and paid analytics tools you can use to track measurements on your website.
 

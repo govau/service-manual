@@ -17,12 +17,12 @@ const TopicTakeaway = ( page ) => {
 			</div>
 
 			<div className="row">
-				<div className="col-md-offset-3 col-md-9 topic-takeaway-container">
-					<div className="col-md-4 topic-takeaway-output">
+				<div className="topic-takeaway-container">
+					<div className="col-md-offset-3 col-md-4 topic-takeaway-output">
 						<h3>{ page.first_column_header }</h3>
 						<div className="topic-takeaway-list">{ page.first_column_content }</div>
 					</div>
-					<div className="col-md-6 col-md-offset-2">
+					<div className="col-md-offset-1 col-md-4">
 						<h3>{ page.second_column_header }</h3>
 						{ page._body }
 					</div>
@@ -30,10 +30,8 @@ const TopicTakeaway = ( page ) => {
 			</div>
 
 			<div className="row">
-
-				<div className="col-md-offset-3 col-md-9 topic-takeaway-paginator">
-
-					<div className="col-md-4 topic-takeaway-previous-card">
+				<div className="topic-takeaway-paginator">
+					<div className="col-md-offset-3 col-md-4 topic-takeaway-previous-card">
 						{page.previous_header  &&
 							<div className="topic-takeaway-card-content">
 								<p><span className="topic-takeaway-arrows">&larr;</span> <a href={ page.previous_link }>{ page.previous_header }</a></p>
@@ -42,8 +40,7 @@ const TopicTakeaway = ( page ) => {
 						}
 					</div>
 
-
-					<div className="col-md-4 col-md-offset-4 topic-takeaway-next-card">
+					<div className="col-md-offset-1 col-md-4 topic-takeaway-next-card">
 						{page.next_header  &&
 							<div className="topic-takeaway-card-content">
 								<p><a href={ page.next_link }>{ page.next_header }</a>  <span className="topic-takeaway-arrows">&rarr;</span></p>
@@ -51,9 +48,7 @@ const TopicTakeaway = ( page ) => {
 							</div>
 						}
 					</div>
-
 				</div>
-
 			</div>
 		</div>
 	</div>

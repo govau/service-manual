@@ -1,3 +1,5 @@
+$activeborderwidth: -8px;
+
 .childnav {
 	width: 100%;
 
@@ -7,10 +9,6 @@
 		top: -2rem;
 		left: -1.4rem;
 	}
-}
-
-.guideschildnav__item {
-	font-size: 0.8rem;
 }
 
 #guides-childnav-accordion .au-accordion__title {
@@ -76,14 +74,13 @@ $action: #007099;
 $shade: #f5f5f5;
 
 h2.au-sidenav--title  {
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.2;
 }
 
 .au-sidenav {
-  //max-width: 250px;
-  // margin-bottom: 2rem;
 
+	// the top menu item
   .au-sidenav--title {
     margin: 0;
     border-bottom: solid 2px $border;
@@ -102,6 +99,20 @@ h2.au-sidenav--title  {
 			&:focus {outline: 3px solid $AU-color-foreground-focus;}
     }
   }
+
+	// top menu item active page
+	.au-sidenav--title-active {
+		box-shadow: $activeborderwidth 0px 0 0 $action;
+		position: relative;
+		top: -2px;
+		background: $AU-color-background-shade;
+		padding-left: 0.4rem;
+		font-weight: bold;
+
+		a {
+			color: $text;
+		}
+	}
 
   .au-sidenav--list {
     margin: 0;
@@ -123,6 +134,7 @@ h2.au-sidenav--title  {
       padding: 0.8rem 1.5rem;
       color: $action;
       text-decoration: none;
+			transition: color 0.2s ease-in-out;
 
       &:hover {
         color: $text;
@@ -132,7 +144,8 @@ h2.au-sidenav--title  {
     }
 
     .active > a {
-      border-left: solid 0.5rem $action;
+
+			box-shadow: $activeborderwidth 0px 0 0 $action;
 			position: relative;
 			top: -2px;
       background: $AU-color-background-shade;

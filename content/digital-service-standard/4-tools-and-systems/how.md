@@ -4,7 +4,7 @@ layout: text/textblock
 
 ### [2]In Alpha stage
 
-During the [Alpha stage](/service-design-delivery-process/alpha-stage/) you should be thinking about what you need to build the service. You should:
+During the [Alpha stage](/topics/service-design-delivery-process/alpha-stage/) you should be thinking about what you need to build the service. You should:
 
 * review the types of tools and systems already available
 * identify potential development tools and software to build the product
@@ -18,7 +18,7 @@ During the [Alpha stage](/service-design-delivery-process/alpha-stage/) you shou
 
 ### [2]In Beta stage
 
-During the [Beta stage](/service-design-delivery-process/beta-stage/) you will be building the service and testing prototypes with users. You should:
+During the [Beta stage](/topics/service-design-delivery-process/beta-stage/) you will be building the service and testing prototypes with users. You should:
 
 * manage any constraints that the chosen development tools and software have placed on the service
 * have a strong rationale for the technology choices you’ve made, including the languages, frameworks and development tools
@@ -26,7 +26,7 @@ During the [Beta stage](/service-design-delivery-process/beta-stage/) you will b
 * have the ability to conduct technical health checks of the service
 * arrange for appropriate ongoing technical support and service level agreements for underlying or dependent services
 
-By the time you [go live](/service-design-delivery-process/live-stage/) you should have in place:
+By the time you [go live](/topics/service-design-delivery-process/live-stage/) you should have in place:
 
 * procedures for ongoing operations, including iterations, maintenance, monitoring, patching and upgrading system components
 * funding to cover the long-term life of the product, including activities such as security accreditation
