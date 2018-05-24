@@ -24,7 +24,7 @@ const TopicsCards = ( page ) => {
 					</div>
 
 
-					<div className="col-md-6 cards guideshomepagecards">
+					<div className="col-md-6 cards cards--home">
 						<ul className="cards__list">
 							<li className="col-xs-6 cards__list__item">
 								<Card

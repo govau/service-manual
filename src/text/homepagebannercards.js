@@ -23,7 +23,7 @@ const HomepageBannerCards = ( page ) => {
 					</div>
 				</div>
 
-				<div className="row cards guideshomepagecards">
+				<div className="row cards cards--home">
 					<ul className="cards__list">
 						<li className="col-sm-4 cards__list__item">
 							<Card

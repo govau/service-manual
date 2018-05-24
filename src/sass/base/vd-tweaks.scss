@@ -38,13 +38,7 @@
 ///
 //////////////////////////////////////////////
 
-// line length--> re: Buttericks Typography
-// https://practicaltypography.com/line-length.html
-.au-body p {
-	max-width: 35rem;
-}
-
-// hack to remove the vanilla focus from the main menu
+// hack to remove the vanilla focus from elements
 [tabindex="-1"] {
 	outline: none;
 }
