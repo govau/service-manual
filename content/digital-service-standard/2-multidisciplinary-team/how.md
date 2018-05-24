@@ -1,9 +1,9 @@
 ---
 layout: text/textblock
 ---
-This criteria applies through all [service design and delivery stages](/service-design-delivery-process). The composition of the team will change depending on the stage and need.
+This criteria applies through all [service design and delivery stages](/topics/service-design-delivery-process/). The composition of the team will change depending on the stage and need.
 
-You must be able to describe your digital delivery team — it should have, or easily get, the following [roles](/starting-team/roles/), as relevant to your service:
+You must be able to describe your digital delivery team — it should have, or easily get, the following [roles](/topics/starting-team/roles/), as relevant to your service:
   - service manager
   - product manager
   - delivery manager

@@ -12,9 +12,9 @@ You cannot wait until the service is live to discover problems that stop people 
 
 ## [3]How you can meet the Standard
 
-During [Alpha stage](/service-design-delivery-process/alpha-stage/) you should be testing your prototypes with users.
+During [Alpha stage](/topics/service-design-delivery-process/alpha-stage/) you should be testing your prototypes with users.
 
-As you move into [Beta stage](/service-design-delivery-process/beta-stage/) and then onto [Live stage](/service-design-delivery-process/live-stage/), you need to be able to show:
+As you move into [Beta stage](/topics/service-design-delivery-process/beta-stage/) and then onto [Live stage](/topics/service-design-delivery-process/live-stage/), you need to be able to show:
 
 - the steps required to achieve an end-to-end service delivery outcome for the user
 - the testing environment; using test plans, real world scenarios and user stories
