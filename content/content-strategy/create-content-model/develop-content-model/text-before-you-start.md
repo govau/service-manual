@@ -13,4 +13,4 @@ They may include:
 
 Involve stakeholders early in the process so you can create a successful model that works for everyone.
 
-For your content model to work effectively, you’ll also need to [define user content needs](https://service-manual-test-staging.apps.y.cld.gov.au/content-strategy/define-user-content-needs/) and [identify business needs](https://service-manual-test-staging.apps.y.cld.gov.au/content-strategy/identify-business-needs/).
+For your content model to work effectively, you’ll also need to [define user content needs](/content-strategy/define-user-content-needs/) and [identify business needs](/content-strategy/identify-business-needs/).
