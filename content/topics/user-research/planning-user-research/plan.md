@@ -5,7 +5,7 @@ quote: Your research plan should evolve in response to what you learn in each ro
 
 Once you’ve decided on your research questions and methods, work out:
 
-- your research schedule, including lead times for booking facilities or [recruiting participants](/user-research/find-user-research-participants/)
+- your research schedule, including lead times for booking facilities or [recruiting participants](../find-user-research-participants/)
 - how much funding is available and what you need to do to access it
 - any procurement processes you need to follow when appointing suppliers
 

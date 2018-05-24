@@ -3,38 +3,37 @@ layout: cards/cards
 cards:
   - headline: Understanding users and their needs
     text: User needs are the starting point for any service work.
-    link: '/user-research/identifying-users-needs/'
+    link: 'identifying-users-needs/'
   - headline: Getting support for user research
     text: How to get support in your organisation to do user research.
-    link: '/user-research/getting-support/'
+    link: 'getting-support/'
   - headline: Involve the team in research
     text: Why everyone in the team needs to do user research.
-    link: '/user-research/team-research/'
+    link: 'team-research/'
   - headline: Planning user research
     text: How to create a user research plan.
-    link: '/user-research/planning-user-research/'
+    link: 'planning-user-research/'
   - headline: Using existing research and data
     text: Use research that may already be available about your users’ needs.
-    link: '/user-research/planning-user-research/using-existing-research-data/'
+    link: 'planning-user-research/using-existing-research-data/'
   - headline: How user research changes during design and delivery
     text: The research activities you should do in each stage of the service design and delivery process.
-    link: '/user-research/research-stages/'
+    link: 'research-stages/'
   - headline: Find user research participants
     text: How to recruit people to research with.
-    link: '/user-research/find-user-research-participants/'
+    link: 'find-user-research-participants/'
   - headline: Interviewing users
     text: How to ask questions and observe users.
-    link: '/user-research/interviewing-users/'   
+    link: 'interviewing-users/'   
   - headline: Consent forms for user research
     text: Making sure users can agree to talk to you.
-    link: '/user-research/consent-forms/'
+    link: 'consent-forms/'
   - headline: Paying incentives for user research
     text: How to pay users for their time.
-    link: '/user-research/paying-incentives/'
+    link: 'paying-incentives/'
   - headline: Analysing user research
     text: How to act on your user research.
-    link: '/user-research/analysing-user-research/'
+    link: 'analysing-user-research/'
   - headline: Understanding diversity
     text: Be mindful that users have diverse needs and abilities.
-    link: '/user-research/understanding-diversity/'
-
+    link: 'understanding-diversity/'

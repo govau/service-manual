@@ -8,6 +8,6 @@ Using existing research has many benefits:
 - It can save time and money. 
 - It can provide you with evidence of who your users are and their needs in the initial phase of a project.
 
-This can help [gain support](/content-strategy/start-content-strategy/get-senior-executive-buy-in/) in your organisation for:
+This can help [gain support](/content-strategy/start-content-strategy/senior-executive-buy-in/) in your organisation for:
 - following a user-centred design process
 - allocating budget and resources to a project

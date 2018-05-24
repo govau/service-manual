@@ -25,18 +25,18 @@ Make sure the participants can access the location.
 
 ### [2] Recruit research participants
 
-There are different ways to [find people to participate in user research](/user-research/find-user-research-participants/). These people should be current or likely users of the service you’re researching.
+There are different ways to [find people to participate in user research](../find-user-research-participants/). These people should be current or likely users of the service you’re researching.
 
-Plan for any [incentives you’ll pay to the participants](/user-research/paying-incentives/).
+Plan for any [incentives you’ll pay to the participants](../paying-incentives/).
 
 Arrange interpreters or assistants for participants who need them.
 
 ### [2]Prepare consent forms
-Make sure you have [informed consent from the participants](/user-research/consent-forms/) before you interview them.
+Make sure you have [informed consent from the participants](../consent-forms/) before you interview them.
 
 Think about whether you need to record the session. If you do, make sure the consent forms cover this.
 
 ### [2]Prepare for a note taker and observers
-[Arrange a note taker and consider whether to invite observers](/user-research/interviewing-users/#taking-notes-and-observing) for each session.
+[Arrange a note taker and consider whether to invite observers](#taking-notes-and-observing) for each session.
 
 Observers are important for certain kinds of research, like lab-based usability testing. But think about how their presence may affect the participants. Sometimes you should not invite observers (aside from the note taker) into the room. 

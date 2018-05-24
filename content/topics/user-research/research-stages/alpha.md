@@ -28,4 +28,4 @@ You can then use this insight to iterate your design and test again with users.
 
 ### [2]Keep on interviewing users
 
-You can combine testing your prototypes with [user research interviews](/user-research/interviewing-users/). This will help you to continue to deepen your understanding of user needs.
+You can combine testing your prototypes with [user research interviews](../interviewing-users/). This will help you to continue to deepen your understanding of user needs.
