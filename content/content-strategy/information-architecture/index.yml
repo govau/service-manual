@@ -1,6 +1,6 @@
 pagetitle: Improve your IA
-weight: 10
-hidden: true
+weight: 90
+hidden: false
 theme: blue
 description: Practical guidance for government agencies to improve or develop an information architecture (IA).
 header:

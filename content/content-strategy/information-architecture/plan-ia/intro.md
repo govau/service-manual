@@ -1,6 +1,6 @@
 ---
 layout: intros/intro_with_nav
-subtitle: Start to plan your IA taxonomy, group your content, and visualize your IA.
+subtitle: Plan your information architecture's (IA) taxonomy, group your content, and visualize your IA.
 category: Content strategy
 ---
 When planning your IA:
