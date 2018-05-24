@@ -1,42 +1,42 @@
 h2.topics__header {
-	margin-top: 2rem;
-	margin-bottom: -2rem;
+	@include AU-space( margin-top, 2unit );
+	@include AU-space( margin-bottom, -2unit );
 	@include AU-media( md ) {
-		margin-top: 5rem;
-		margin-bottom: 0;
+		@include AU-space( margin-top, 5unit );
+		@include AU-space( margin-bottom, 0unit );
 	}
 }
 
 .topicscards {
-	padding-top: 3rem;
+	@include AU-space( padding-top, 3unit );
 }
 
 .topicscards__intro {
-	margin-bottom: 2rem;
+	@include AU-space( margin-bottom, 2unit );
 	position: relative;
-	top: 1.5rem;
+	@include AU-space( top, 1.5unit );
 }
 
 .topicscards__tagline {
-	margin-top: 1.5rem;
+	@include AU-space( margin-top, 1.5unit );
 	@include AU-media( md ) {
-		max-width: 90%;
+		@include AU-space( max-width , 90% );
 	}
 }
 
 h2.topicscards__headline {
-	max-width: 90%;
+	@include AU-space( max-width , 90% );
 }
 
 .topicscards__viewall {
 	position: relative;
-	top: -2rem;
-	margin-bottom: 1rem;
+	@include AU-space( top, -2unit );
+	@include AU-space( margin-bottom, 1unit );
 	text-align: center;
-	font-size: 1.1rem;
+	@include AU-space( font-size, 1.1unit );
 	font-weight: bold;
 	@include AU-media( md ) {
-		top: 8rem;
+		@include AU-space( top, 8unit );
 		text-align: left;
 	}
 }
