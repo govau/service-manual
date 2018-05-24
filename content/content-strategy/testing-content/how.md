@@ -2,11 +2,11 @@
 layout: text/textblock
 ---
 
-It is best to test content with a [user researcher](/starting-team/roles/) and the support of a multidisciplinary team. If you’re working alone, there are still some simple techniques you can try.
+It is best to test content with a [user researcher](/topics/starting-team/roles/) and the support of a multidisciplinary team. If you’re working alone, there are still some simple techniques you can try.
 
 If you’re thinking of doing content testing yourself, you can start small by doing simple checks. You can do these quickly, without significant budget and resources.
 
-Testing content requires a deep understanding of [user research](/user-research/). Test content with real users of your service to get meaningful insights about user needs.
+Testing content requires a deep understanding of [user research](/topics/user-research/). Test content with real users of your service to get meaningful insights about user needs.
 
 If you’re unsure what to test your content for, find user needs based on previous contact with users. For example:
 

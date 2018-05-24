@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 ### [2]In Discovery and Alpha stages
-During the [Discovery stage](/service-design-delivery-process/discovery-stage/) and [Alpha stage](/service-design-delivery-process/alpha-stage/) the entire team should have spent a lot of time with end users and learned a lot about their needs. You should understand and be able to show evidence to demonstrate the following.
+During the [Discovery stage](/topics/service-design-delivery-process/discovery-stage/) and [Alpha stage](/topics/service-design-delivery-process/alpha-stage/) the entire team should have spent a lot of time with end users and learned a lot about their needs. You should understand and be able to show evidence to demonstrate the following.
 
 #### [1]Who are the users?
 
@@ -35,7 +35,7 @@ How have your insights from user research helped you to define your minimum viab
 How does the MVP create value for users and government by better meeting user needs?
 
 ### [2]In Beta stage
-During the [Beta stage](/service-design-delivery-process/beta-stage/) your understanding of what your users value will have matured through testing design prototypes with them.
+During the [Beta stage](/topics/service-design-delivery-process/beta-stage/) your understanding of what your users value will have matured through testing design prototypes with them.
 
 By the end of the Beta stage you should be able to show greater depth and diversity of knowledge on all of the points above from Alpha and Beta. You should also as be able to show the following.
 
@@ -59,8 +59,8 @@ What the significant design challenges are, for example through key insights, ho
 
 #### [1]How will you know if your design is working?
 
-Make sure that research has fed into the [metrics you have developed](../11-measure-performance/) to know that you continue to meet your user needs.
+Make sure that research has fed into the [metrics you have developed](/digital-service-standard/11-measure-performance/) to know that you continue to meet your user needs.
 
-By the time you are ready to [go live](/service-design-delivery-process/live-stage/) you should be able to show greater depth of knowledge for all the points above. You should also:
+By the time you are ready to [go live](/topics/service-design-delivery-process/live-stage/) you should be able to show greater depth of knowledge for all the points above. You should also:
 -  show how you are using data from real users to understand which parts of the task users are finding difficult, and how you are designing experiments to reduce friction and increase success for users
--  know how you will [measure and monitor your service](../11-measure-performance/) to ensure it is serving its users well
+-  know how you will [measure and monitor your service](/digital-service-standard/11-measure-performance/) to ensure it is serving its users well

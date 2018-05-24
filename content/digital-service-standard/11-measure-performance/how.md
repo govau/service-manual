@@ -4,9 +4,9 @@ layout: text/textblock
 
 ### [2]In Discovery stage
 
-You’ll have started early measurement activity during [Discovery stage](/service-design-delivery-process/discovery-stage/) with your user research dashboard.
+You’ll have started early measurement activity during [Discovery stage](/topics/service-design-delivery-process/discovery-stage/) with your user research dashboard.
 
-You will need to consider how you’ll measure your service in more detail as you enter [Alpha stage](/service-design-delivery-process/alpha-stage/). By the end of Alpha you should have:
+You will need to consider how you’ll measure your service in more detail as you enter [Alpha stage](/topics/service-design-delivery-process/alpha-stage/). By the end of Alpha you should have:
 
 - explored the data that is already available for an existing service, where it is kept and how you might access and use it, and also shared your own insights
 - collected baseline data for the service operation in all of its channels
@@ -16,7 +16,7 @@ You will need to consider how you’ll measure your service in more detail as yo
 
 ### [2]In Beta stage
 
-By the end of [Beta stage](/service-design-delivery-process/beta-stage/) you will be able to show:
+By the end of [Beta stage](/topics/service-design-delivery-process/beta-stage/) you will be able to show:
 
 - which metrics and measurements you will use to monitor your KPIs
 - the baseline measures and the benchmarks for success
@@ -26,7 +26,7 @@ By the end of [Beta stage](/service-design-delivery-process/beta-stage/) you wil
 
 During the public Beta stage you’ll have been able to test your methods for data collection, validated that the data is accurate, and published service performance data on the Performance Dashboard.
 
-As you [go live](/service-design-delivery-process/live-stage/) you should be able to show service data on the Performance Dashboard and improvement to the service based on performance data.
+As you [go live](/topics/service-design-delivery-process/live-stage/) you should be able to show service data on the Performance Dashboard and improvement to the service based on performance data.
 
 Your data should show:
 

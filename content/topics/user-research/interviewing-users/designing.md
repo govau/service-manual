@@ -30,7 +30,7 @@ Learn about confirmation bias and other [cognitive biases in user research](http
 
 ### [2]Create discussion guide
 Once you have questions, create a discussion guide. This should include:
-- your introduction script — this tells the participant who you are, explains the research and asks them for [consent to talk to them and record](/user-research/consent-forms/)
+- your introduction script — this tells the participant who you are, explains the research and asks them for [consent to talk to them and record](/topics/user-research/consent-forms/)
 - the interview questions
 - a planning checklist to make sure you have all the equipment and facilities you need on the day
 
