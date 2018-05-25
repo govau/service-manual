@@ -12,7 +12,7 @@ main:
   - cards.md
   - why-head.md
   - text.md
-  - fact.md #fact
+  - fact.md #important takeaway
   - who-head.md
   - who.md
   - /_shared/feedback.md
