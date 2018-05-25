@@ -11,7 +11,7 @@ main:
   - attribution.md #attribution
   - why-head.md #h2
   - why.md #text
-  - quote.md #fastfact
+  - quote.md
   - cards.md #approach
   - topic-takeaway.md #topic-takeaway
   - /_shared/feedback.md
