@@ -1,5 +1,5 @@
 ---
-layout: cards/cards
+layout: cards/cards_with_intro
 cards:
   - headline: Identify business needs
     text: Know what your agency's business objectives are so you can align your content strategy.

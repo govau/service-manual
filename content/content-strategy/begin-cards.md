@@ -1,5 +1,5 @@
 ---
-layout: cards/cards
+layout: cards/cards_with_intro
 cards:
   - headline: Understand your channel ecosystem
     text: Know what channels you have and how they're connected.

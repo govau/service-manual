@@ -1,5 +1,5 @@
 ---
-layout: cards/cards
+layout: cards/cards_with_intro
 cards:
   - headline: Improve your IA
     text: Use methods to validate and test any assumptions in your information architecture.  

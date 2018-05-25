@@ -1,5 +1,5 @@
 ---
-layout: cards/cards
+layout: cards/cards_with_intro
 cards:
   - headline: Set goals and measure success
     text: Set goals and objectives to measure the success of your content strategy.

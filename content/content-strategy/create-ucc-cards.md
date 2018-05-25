@@ -1,5 +1,5 @@
 ---
-layout: cards/cards
+layout: cards/cards_with_intro
 cards:
   - headline: Manage content requests
     text: Know what’s involved to manage business-as-usual content.
