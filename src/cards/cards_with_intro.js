@@ -12,7 +12,7 @@ const CardsWithIntro = ( page ) => (
 	<div className="au-body au-grid">
 		<div className="container-fluid">
 			<div className="row">
-				<div className="col-lg-offset-3 col-md-offset-3 col-md-9 col-lg-8 cards cards--withintro">
+				<div className={"col-lg-offset-3 col-md-offset-3 col-md-9 col-lg-8 cards "+ (page.oddrow ? 'homepagebanner__oddrow' : '')}>
 					<div className="col-lg-4">
 						<h2>{ page.intro_heading }</h2>
 						<p>{ page.intro_tagline }</p>
