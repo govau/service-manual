@@ -1,8 +1,14 @@
 .cardswithintro__container {
-	padding-top: 4rem;
+	@include AU-space( padding-top, 2unit );
+	@include AU-media( lg ) {
+		@include AU-space( padding-top, 4unit );
+	}
 }
 
 .cardswithintro__intro {
-	padding-top: 0.5rem;
-	margin-left: 2rem;
+	@include AU-space( padding-top, 0.5unit );
+	@include AU-media( lg ) {
+		@include AU-space( margin-right, 1unit );
+		@include AU-space( margin-left, 2unit );
+	}
 }
