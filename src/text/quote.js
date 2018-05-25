@@ -9,7 +9,7 @@ const Quote = ( page ) => (
 	<div className="au-body au-grid quote">
 		<div className="container-fluid">
 			<div className="row">
-				<div className="col-xs-12">
+				<div className="col-md-offset-3 col-md-4">
 					<blockquote>
 						<div className="textwrapper">
 							<div className="quote__text">{ page.quote }</div>
