@@ -22,5 +22,3 @@ If you want to do pop-up research at a specific venue and approach people direct
 - go to a place where your target users are likely to be (for example, a library, college or community group or service centre)
 - get permission to use the area
 - try to get a balanced sample of participants
-
-[Photo of DTU-UTS business case](https://www.flickr.com/photos/135679646@N07/24071928722/in/pool-dto/) by [adrian yee](https://www.flickr.com/photos/135679646@N07/) under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
