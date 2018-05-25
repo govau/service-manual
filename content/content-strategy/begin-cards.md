@@ -1,5 +1,7 @@
 ---
 layout: cards/cards_with_intro
+intro_heading: Where to begin
+intro_tagline: Identify and communicate the initial problem so you can get buy-in for your content strategy.
 cards:
   - headline: Understand your channel ecosystem
     text: Know what channels you have and how they're connected.

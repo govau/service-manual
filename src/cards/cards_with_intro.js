@@ -13,23 +13,29 @@ const CardsWithIntro = ( page ) => (
 		<div className="container-fluid">
 			<div className="row">
 				<div className="col-lg-offset-3 col-md-offset-3 col-md-9 col-lg-8 cards cards--withintro">
-					<ul className="cards__list">
-						{
-							page.cards.map( ( card, i ) => (
-								<li key={ i } className="col-xs-6 col-md-4 cards__list__item">
-									<Card
-										preheadline={ card.preheadline }
-										link={ card.link }
-										background={ card.background }
-										image={ card.image }
-										headline={ card.headline }
-										text={ card.text }
-										cta={ card.cta }
-									/>
-								</li>
-							))
-						}
-					</ul>
+					<div className="col-lg-4">
+						<h2>{ page.intro_heading }</h2>
+						<p>{ page.intro_tagline }</p>
+					</div>
+					<div className="">
+						<ul className="cards__list">
+							{
+								page.cards.map( ( card, i ) => (
+									<li key={ i } className="col-xs-6 col-md-6 cards__list__item">
+										<Card
+											preheadline={ card.preheadline }
+											link={ card.link }
+											background={ card.background }
+											image={ card.image }
+											headline={ card.headline }
+											text={ card.text }
+											cta={ card.cta }
+										/>
+									</li>
+								))
+							}
+						</ul>
+					</div>
 				</div>
 			</div>
 
