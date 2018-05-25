@@ -1,5 +1,5 @@
 .imageblock__container {
-	margin-bottom: 7rem;
+	@include AU-space ( margin-bottom, 2unit);
 }
 .imageblock__headline {
 	margin-top: 0;

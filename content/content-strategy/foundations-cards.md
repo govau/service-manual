@@ -1,5 +1,8 @@
 ---
-layout: cards/cards
+layout: cards/cards_with_intro
+intro_heading: Set the foundations
+intro_tagline: Build on your strategy with a solid foundation for both internal and external users.
+oddrow: true
 cards:
   - headline: Improve your IA
     text: Use methods to validate and test any assumptions in your information architecture.  

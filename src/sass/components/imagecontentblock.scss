@@ -73,11 +73,10 @@
 }
 
 .imagecontentblock__image__caption {
-	color: $AU-colordark-foreground-text;
+	color: $AU-color-foreground-muted;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	font-size: 0.875em;
 	padding: 0.8rem;
-	background-color: rgba( 0, 0, 0, 0.5 );
 }

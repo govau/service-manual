@@ -1,5 +1,7 @@
 ---
-layout: cards/cards
+layout: cards/cards_with_intro
+intro_heading: Research and analyse
+intro_tagline: Before you begin to create a strategy, you need to understand your content, users and business.
 cards:
   - headline: Identify business needs
     text: Know what your agency's business objectives are so you can align your content strategy.
