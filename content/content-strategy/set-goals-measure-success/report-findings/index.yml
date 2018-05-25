@@ -12,7 +12,7 @@ main:
   - toc.md
   - heading.md
   - text-visualise.md
-  - fact-analytics.md #fact
+  - fact-analytics.md #Facts cannot be published until a source is provided. Must include ### Did you know? as a heading
   - text-dashboards.md
   - heading1.md
   - text-reporting.md
