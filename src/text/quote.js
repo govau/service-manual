@@ -1,26 +1,22 @@
 import PropTypes from 'prop-types';
-import Slugify from 'slugify';
 import React from 'react';
 
 
 /**
  * The quote component
  */
-const Quote = ( page ) => (
 
-	// replace <p> with /n
-	let template = page._body.props.dangerouslySetInnerHTML.__html.replace(/<\/p[\s\/]*>/gm, "\n");
-	// strip other tags
-	template = template.replace(/(<([^>]+)>)/ig,"");
+const Quote = ( page ) => (
 
 	<div className="au-body au-grid quote">
 		<div className="container-fluid">
 			<div className="row">
-				<div className="col-md-offset-3 col-md-4">
+				<div className="col-xs-11 col-md-offset-3 col-md-4">
 					<blockquote>
 						<div className="textwrapper">
+							<div className="quote__mark"></div>
 							<div className="quote__text">{ page.quote }</div>
-							{ page.by && <cite className="quote__by">{ page.by }</cite> }
+							{ page._body && <cite className="quote__by">{ page._body }</cite> }
 						</div>
 					</blockquote>
 				</div>
@@ -32,14 +28,15 @@ const Quote = ( page ) => (
 
 Quote.propTypes = {
 	/**
-	 * quote: Woof woof woff
+	 * quote: Hello World!
 	 */
 	quote: PropTypes.string.isRequired,
 
 	/**
-	 * by: Good boy
+	 * _body: (text)(4)
+	 	represents the citation: who said the quote and optionally a URL where it can be found.
 	 */
-	by: PropTypes.string,
+	_body: PropTypes.node.isRequired,
 };
 
 
