@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import Slugify from 'slugify';
 import React from 'react';
 
 
@@ -6,6 +7,12 @@ import React from 'react';
  * The quote component
  */
 const Quote = ( page ) => (
+
+	// replace <p> with /n
+	let template = page._body.props.dangerouslySetInnerHTML.__html.replace(/<\/p[\s\/]*>/gm, "\n");
+	// strip other tags
+	template = template.replace(/(<([^>]+)>)/ig,"");
+
 	<div className="au-body au-grid quote">
 		<div className="container-fluid">
 			<div className="row">

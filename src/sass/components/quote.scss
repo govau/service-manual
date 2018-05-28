@@ -18,8 +18,10 @@
 	}
 
 	&:before {
+		display: inline-block;
 		float: left;
 		margin-right: 1.25em;
+		line-height:1.25em;
 		background: AU-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 22">
 				<path fill="#{ $AU-color-foreground-border }" fill-rule="evenodd" d="M30.52 16.202c0 .688-.134 1.377-.4 2.065-.268.688-.67 1.31-1.203 1.867-.534.556-1.188
 					1.006-1.962 1.35-.775.344-1.642.516-2.604.516-1.064
@@ -35,8 +37,6 @@
 	}
 
 	&:after {
-		/*display: inline-block;*/
-		display: block;
 		float: right;
 		margin-bottom: -0.5em;
 		background: AU-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 22">
