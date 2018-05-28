@@ -1,6 +1,5 @@
 ---
-layout: text/callout
+layout: text/quote
+quote: People like to leave things up, just in case.
 ---
-“People like to leave things up, just in case”.
-
-From the Thinkplace Research, 2016
+(Context? Link?) Thinkplace Research, 2016
