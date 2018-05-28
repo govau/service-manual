@@ -12,8 +12,8 @@ const CardsWithIntro = ( page ) => (
 	<div className="au-body au-grid">
 		<div className="container-fluid">
 			<div className="row">
-				<div className={"col-lg-offset-3 col-md-offset-3 col-md-9 col-lg-10 cards cardswithintro__container "+ (page.oddrow ? 'homepagebanner__oddrow' : '')}>
-					<div className="col-lg-3 cardswithintro__intro">
+				<div className={"col-lg-offset-3 col-md-offset-3 col-md-9 col-lg-9 cards cardswithintro__container "+ (page.oddrow ? 'homepagebanner__oddrow' : '')}>
+					<div className="col-lg-4 cardswithintro__intro">
 						<h2>{ page.intro_heading }</h2>
 						<p>{ page.intro_tagline }</p>
 					</div>
