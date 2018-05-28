@@ -9,6 +9,8 @@
 .quote__text {
 	@include AU-space(margin-bottom, 1.5unit);
 	@include AU-space (padding-left, 3unit);
+	@include AU-space(font-size, 1.5unit);
+	color: $AU-color-foreground-muted;
 	&:before,
 	&:after {
 		content: ' ';
@@ -22,9 +24,6 @@
 		display: block;
 		position: absolute;
 		@include AU-space (left, 3unit);
-		/*margin-right: 1.25em;
-		margin-bottom: 3em;
-		line-height:1.25em;*/
 		background: AU-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 22">
 				<path fill="#{ $AU-color-foreground-border }" fill-rule="evenodd" d="M30.52 16.202c0 .688-.134 1.377-.4 2.065-.268.688-.67 1.31-1.203 1.867-.534.556-1.188
 					1.006-1.962 1.35-.775.344-1.642.516-2.604.516-1.064
@@ -41,6 +40,7 @@
 
 	&:after {
 		float: right;
+		display: inline-block;
 		margin-bottom: 0;
 		@include AU-space(margin-right, -3unit);
 		@include AU-media( xs ) {
@@ -64,7 +64,14 @@
 .quote__by {
 	color: $AU-color-foreground-muted;
 	font-style: normal;
-	text-align: right;
+	text-align: left;
+
+	& p {
+		/* Keeps em dash away from citation */
+		@include AU-space(margin-left, 1.25unit);
+		}
+
+
 	&:before {
 		content: "\2014";
 		display: block;

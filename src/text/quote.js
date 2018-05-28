@@ -11,7 +11,7 @@ const Quote = ( page ) => (
 	<div className="au-body au-grid quote">
 		<div className="container-fluid">
 			<div className="row">
-				<div className="col-xs-11 col-md-offset-3 col-md-4">
+				<div className="col-xs-11 col-md-offset-3 col-md-4 col-lg-offset-3 col-lg-4">
 					<blockquote>
 						<div className="textwrapper">
 							<div className="quote__mark"></div>
