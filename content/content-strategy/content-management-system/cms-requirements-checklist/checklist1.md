@@ -7,9 +7,9 @@ layout: text/textblock
     Do you need specific or customised features such as events, social media integration, video capability? How will these be built into your CMS?
 
 
-- **WYSIWYG**
+- **WYSIWYG (what you see is what you get)**
 
-    Does the CMS [WYSIWYG](/content-strategy/content-management-system/optimise-cms/#wysiwyg-text-editor) content tool allow you to create clean content in the format and styles you need to? How flexible is the editor?
+    Can you create clean content with the [WYSIWYG](/content-strategy/content-management-system/configure-your-cms/#wysiwyg-content-editor) content editor tool. Can you write in the styles and  format you need to? How flexible is the editor?
 
 
 - **Multiple site management**
@@ -84,7 +84,7 @@ layout: text/textblock
 
 - **Accessibility**
 
-    Accessibility guidelines apply to both your CMS front and back end. For example, how will your CMS help to make your website compliant with WCAG2.0AA? Accessibility also includes things like using plain English. See the DTA Content guide for about [structuring, writing and creating accessible content](https://guides.service.gov.au/content-guide/).
+    Accessibility guidelines apply to both your CMS front and back end. For example, how will your CMS help to make your website compliant with WCAG2.0AA? Accessibility also includes things like using plain English. See the DTA Content guide for more about [structuring, writing and creating accessible content](https://guides.service.gov.au/content-guide/).
 
 
 - **Costs** 

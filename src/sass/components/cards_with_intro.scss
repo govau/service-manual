@@ -15,7 +15,7 @@
 .cardswithintro__intro {
 	@include AU-space( padding-top, 0.5unit );
 	@include AU-media( lg ) {
-		@include AU-space( margin-right, 1.5unit );
+		@include AU-space( margin-right, 1.4unit );
 		@include AU-space( margin-left, 1unit );
 	}
 }

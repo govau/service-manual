@@ -6,7 +6,7 @@ sections:
   - Workflow and the content lifecycle
   - Making and publishing quick changes
   - Content fields
-  - WYSIWYG text editor
+  - WYSIWYG content editor
   - Headless CMS
   - Site analytics
   - CMS support community
