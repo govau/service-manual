@@ -1,7 +1,7 @@
 .callout__text {
 	margin: 0.4rem 0 4rem 0;
-	border-left: 4px solid #858585;
-	background-color: #f0f0f0;
+	border-left: 4px solid $AU-color-foreground-border;
+	background-color: $AU-color-background-alt;
 	padding: 1em;
 
 	p:last-child {

@@ -8,7 +8,6 @@
 	background-color: $AU-color-background;
 	position: relative;
 	transition: all 0.2s ease-in-out;
-	// box-shadow: 0 1px 2px rgba(0,0,0,0.15);
 	box-shadow: 0 2px 4px rgba(0,0,0,.3);
 }
 
@@ -163,7 +162,7 @@
 }
 
 .cards .cards__list > .cards__list__item {
-	margin-bottom: 1em;
+	margin-bottom: 1.4rem;
 	display: block;
 	float: left;
 	flex-basis: 100%;
