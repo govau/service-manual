@@ -1,7 +1,7 @@
 ---
 layout: text/textblock
 ---
-Workflow refers to how you manage content in a CMS throughout the [content lifecycle](/content-strategy/content-lifecycle/). 
+Workflow refers to how you manage content in a CMS throughout the [content lifecycle](/content-strategy/manage-content-requests/). 
 
 Aim to keep your workflow simple: write, edit, approve and publish may be enough. If you need multiple levels of checks and approvals, you may want a more detailed workflow.
 
