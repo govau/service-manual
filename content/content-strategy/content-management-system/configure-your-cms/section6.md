@@ -1,7 +1,9 @@
 ---
 layout: text/textblock
 ---
-Configure the CMS to manage your [content types](/content-strategy/create-content-model/definition-content-model/#content-types). Define sets of default content fields, so they can be applied to different types of content. The information entered into your content type fields will affect how your CMS displays content on the front end.
+Configure the CMS to manage the different types of content you'll be creating. Define sets of default content fields, so they can be applied to different types of content. 
+
+The information entered into your content type fields will affect how your CMS displays content on the front end.
 
 Make a list of the content types you need your CMS to manage.
 

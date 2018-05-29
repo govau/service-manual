@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: WYSIWYG text editor
+section: WYSIWYG content editor
 ---
