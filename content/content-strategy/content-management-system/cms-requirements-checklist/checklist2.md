@@ -24,5 +24,5 @@ layout: text/textblock
 
 - **Open-source** 
 
-    Any new code being written for your CMS deployment should be licenced for re-use. See the [Digital Service Standard criterion 8](https://www.dta.gov.au/standard/8-make-source-code-open/), 'make source code open.'
+    Any new code being written for your CMS deployment should be licenced for re-use. See the [Digital Service Standard criterion 8](/digital-service-standard/8-make-source-code-open/), 'make source code open.'
 

@@ -31,4 +31,4 @@ layout: text/textblock
 
 - **Exit strategy** 
 
-    If you change your CMS, is there a clear, secure process in place for [migrating content](/content-strategy/content-management-system/optimise-cms/#exit-strategy-and-migrating-content)?
+    If you change your CMS, is there a clear, secure process in place for [migrating content](/content-strategy/content-management-system/configure-your-cms/#exit-strategy-and-migrating-content)?
