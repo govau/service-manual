@@ -3,6 +3,7 @@ description: Get the CMS you need. Manage content the way you want. Use this che
 weight: 40
 layout: layout/topic
 theme: blue
+hidden: false
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
