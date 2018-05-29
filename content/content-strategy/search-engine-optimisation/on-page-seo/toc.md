@@ -3,11 +3,11 @@ layout: nav/sections
 sections:
   - Keywords
   - Metadata
-  - Schema
   - Page headings
   - Images
   - Page URLs
   - Internal links and site search
+  - Schema
   - Rich answers
   - Content relevance
   - Page-by-page focus
