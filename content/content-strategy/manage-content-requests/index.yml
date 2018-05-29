@@ -8,7 +8,8 @@ header:
   - /_shared/breadcrumbs.md
 main:
   - intro.md #attribution
-  - content-lifecycle-image.md #diagram
+  #- content-lifecycle-image.md #diagram
+  - test.md
   - why-use-content-lifecycle.head.md
   - why-use-content-lifecycle.md
   - ensure-head.md
