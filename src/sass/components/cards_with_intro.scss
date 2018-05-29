@@ -1,7 +1,14 @@
 .cardswithintro__container {
 	@include AU-space( padding-top, 2unit );
-	@include AU-media( lg ) {
+	@include AU-media( md ) {
 		@include AU-space( padding-top, 4unit );
+	}
+}
+
+.cardswithintro__oddrow {
+	@include AU-media( md ) {
+		// take the gray background all the way to the edge
+		box-shadow: 4rem 0px 0 0 $AU-color-background-alt;
 	}
 }
 
