@@ -24,7 +24,6 @@
 	height: 100%;
 
 	@include AU-media( md ) {
-		@include AU-space(padding-right, 1unit);
 		margin: auto;
 		float: left;
 	}
@@ -46,21 +45,22 @@
 
 
 .imagecontentlandscape__image {
-	/*position: relative;
-	/*margin: 2rem 0 1.6rem 0;*/
-	@include AU-space (margin-top, margin-bottom, 2unit);
+	@include AU-media ( xs ){
+			@include AU-space (margin-top, 1unit);
+			@include AU-space (margin-bottom, 1unit);
+		}
+	@include AU-media ( md ){
+		@include AU-space (margin-top, 2unit);
+		@include AU-space (margin-bottom, 2unit);
+		}
+	margin-left: 0;
+	margin-right: 0;
 
-	@include AU-media( md ) {
-		margin: 0;
-	}
 
 	a {
 		border-bottom: 0;
 
-		&:hover {
-			background-color: transparent;
-		}
-
+		&:hover,
 		&:focus {
 			background-color: transparent;
 		}
@@ -80,4 +80,10 @@
 	right: 0;
 	font-size: 0.875em;
 	padding: 0.8rem;
+	text-align: center;
+
+	&:before{
+		content: 'Caption: '
+	}
+
 }

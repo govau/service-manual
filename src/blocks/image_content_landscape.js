@@ -7,10 +7,6 @@ import Slugify from 'slugify';
  */
 const ImageContentLandscape = ( page ) => {
 
-	/*
-	Probably don't need a dark/light theme dependency: it's always gonna have a white background now.
-	const theme = page._pages[ page._ID ].theme ? page._pages[ page._ID ].theme : 'dark';
-	*/
 	const imageSrc = page.image.startsWith('http') ? `${ page.image }` : `/assets/img/${ page.image }`;
 	const HeadingTag = `h${ page.level }`;
 	const id = page.title ? Slugify( page.title ).toLowerCase() : null;
@@ -23,7 +19,7 @@ const ImageContentLandscape = ( page ) => {
 	}
 
 	const Content = (
-		<div className={`imagecontentlandscape__content`}>
+		<div className="imagecontentlandscape__content">
 			<div className="textwrapper imagecontentlandscape__headline__wrapper">
 				{ page.title && <HeadingTag id={ id } className={ `imagecontentlandscape__headline display-${ page.display }` }>
 					{ page.title }
@@ -38,7 +34,7 @@ const ImageContentLandscape = ( page ) => {
 		<div>
 			<figure className="imagecontentlandscape__image">
 				{ imageLink === undefined
-					? ( <img className="imagecontentlandscape__image__img test" src={ imageSrc } alt={ page.imageAlt } /> )
+					? ( <img className="imagecontentlandscape__image__img" src={ imageSrc } alt={ page.imageAlt } /> )
 					: ( <a href={ imageLink }><img className="imagecontentlandscape__image__img" src={ imageSrc } alt={ page.imageAlt } /></a> )
 				}
 				{ page.caption && <figcaption className="imagecontentlandscape__image__caption">{ page.caption }</figcaption> }
