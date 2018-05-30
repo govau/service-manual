@@ -11,11 +11,7 @@ main:
   - intro.md #methods
   - why-head.md
   - why.md
-  - preptime-callout.md
-  - materials-head.md
-  - materials.md
-  - preparation-head.md
-  - preparation.md
+  - method.md # methods/methodsummary
   - how-head.md
   - how.md
   - key-takeaway.md #supporting-takeaway
