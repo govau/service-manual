@@ -15,10 +15,11 @@
 .methodsummary__table {
 	text-align: left;
 	th {
-		@include AU-space( width, 8unit );
+		@include AU-space( width, 10unit );
 		font-weight: 400;
 	}
-	tr {
+	td {
 		font-weight: bold;
+		vertical-align: top;
 	}
 }
