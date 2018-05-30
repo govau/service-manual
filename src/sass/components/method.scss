@@ -1,0 +1,16 @@
+.methodsummary {
+	background-color: $AU-color-background-alt;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.methodsummary__container {
+	padding: 1.5rem;
+}
+
+.methodsummary__table {
+	text-align: left;
+	th {
+		width: 8rem;
+	}
+}
