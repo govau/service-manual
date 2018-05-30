@@ -1,20 +1,24 @@
 .method {
-	margin-bottom: 3rem;
+	@include AU-space( margin-bottom, 3unit );
 }
 
 .methodsummary {
 	background-color: $AU-color-background-alt;
-	margin-top: 2rem;
-	margin-bottom: 2.2rem;
+	@include AU-space( margin-top, 2unit );
+	@include AU-space( margin-bottom, 2.2unit );
 }
 
 .methodsummary__container {
-	padding: 1.5rem;
+	@include AU-space( padding, 1.5unit );
 }
 
 .methodsummary__table {
 	text-align: left;
 	th {
-		width: 8rem;
+		@include AU-space( width, 8unit );
+		font-weight: 400;
+	}
+	tr {
+		font-weight: bold;
 	}
 }
