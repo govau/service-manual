@@ -14,4 +14,4 @@ Internal site search is the search that users do on your site. This can also imp
 
 Think about how you can apply external SEO to internal search. Keep track of the relevant keywords and search terms people are using on your site. Use the internal search functionality in your CMS and site analytics.
 
-Remember search engines use browsing history, location and cache to generate results.
+Search engines also use a person's browsing history, location and cache to generate search results.

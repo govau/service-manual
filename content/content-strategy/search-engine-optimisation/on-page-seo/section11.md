@@ -8,4 +8,3 @@ If you have social media channels with relevant content, link out to them from y
 Many government agencies use multiple social media channels. These include: Facebook, Twitter, YouTube, and LinkedIn. Use your social media channels to help your SEO.
 
 Blog pages are also a useful way to build your online presence and improve SEO. For example, see the [DTA blog](https://www.dta.gov.au/blog/).
-
