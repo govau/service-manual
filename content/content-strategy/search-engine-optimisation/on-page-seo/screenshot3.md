@@ -5,13 +5,12 @@ link: content-strategy/schema.svg
 reverse: false
 stackPosition: top
 imageAlt: A schema result showing extra information.
-caption: Australian Taxation Office search result with extra details. This is known as Schema. It shows extra information such as address, phone number, hours of operation, photos, a map and a customer review.
+caption: Australian Taxation Office using schema to show extra information to users.
 level: 2
 display: 3
 long_description:
 ---
 ### [3]Example of schema
-Schema data can help improve search rankings and user click through rates.
-- Business information — including location and contact information
-- Reviews — what do people think of your service
-- Marketing — name, logo, and social profile profiles
+Schema data can help improve search rankings and encourage users to click through to your website.
+
+In this example, the Australian taxation office has used Schema to provide extra information to users. This includes address, phone number, hours of operation, photos, a map and a customer review.

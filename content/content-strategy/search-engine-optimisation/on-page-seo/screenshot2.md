@@ -10,8 +10,7 @@ level: 2
 display: 3
 long description:
 ---
-Search engines also use your page title or title tag to work out what your webpage content is about.
-
+#### Some page title guidelines 
 - Keep title tags between 6 to 9 words, including main keywords.
 - Place keywords at the beginning of the title.
 - Place the agency name at the end of the title.

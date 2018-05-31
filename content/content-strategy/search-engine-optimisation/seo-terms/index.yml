@@ -20,11 +20,14 @@ main:
   - heading4.md #h2
   - text4.md #text
   - key-takeaway.md #key-takeaway
+  - heading2.md
   - screenshot2.md #screenshot
   - heading3.md #h2
   - text3.md #text
   - heading5.md #h2
   - text5.md #text
+  - heading5b.md
+  - text5b.md
   - heading6.md #h2
   - text6.md #text
   - heading7.md #h2
