@@ -7,7 +7,7 @@ first_column_content: topic-takeaway-listitems.md
 previous_header: "Do before: Set up your governance"
 previous_text: Develop your strategy phase
 previous_link: /content-strategy/set-up-governance/
-next_header: "Do next: Improve your IA"
+next_header: "Do next: Improve your information architecture (IA)"
 next_text: Set the foundations
 next_link: ../information-architecture/
 ---
