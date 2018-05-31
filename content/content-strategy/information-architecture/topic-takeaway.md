@@ -7,7 +7,7 @@ first_column_content: topic-takeaway-listitems.md
 previous_header: "Do before: Remove content"
 previous_text: Clean up phase
 previous_link: ../remove-content/
-next_header: "Search engine optimisation (SEO)"
+next_header: "Do next: Define your search engine optimisation (SEO) strategy"
 next_text: Set the foundations
 next_link: /content-strategy/search-engine-optimisation/
 ---
