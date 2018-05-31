@@ -10,3 +10,5 @@ Search engine robots generally place the most weight on an H1 tag followed by H2
 - Do not use headers as links.
 - Do not use headers to style font on the site.
 - Only use headers for new blocks of content.
+
+See the Content Guide for more on writing [headings and subheadings](https://guides.service.gov.au/content-guide/content-structure/#headings-and-subheadings)

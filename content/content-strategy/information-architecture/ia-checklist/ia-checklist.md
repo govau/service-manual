@@ -24,11 +24,11 @@ Your site navigation will help your users get where they need to go. Think about
 
 ### [2]SEO
 
-The way you [structure your headings](https://guides.service.gov.au/content-guide/search-engines/#on-page-optimisation) will have a big affect on your content’s findability. You can also set your browser title to be a shortened version of your page title. This will improve readability in search results.
+The way you [structure your headings](/content-strategy/search-engine-optimisation/on-page-seo/#page-headings) will have a big affect on your content’s findability. You can also set your browser title to be a shortened version of your page title. This will improve readability in search results.
 
 ### [2]Review search terms
 
-Use analytics to find out what keywords and phrases are being used when someone does a search on your website. This may also reveal gaps in your content.
+Use analytics to find out what common [keywords and phrases](/content-strategy/search-engine-optimisation/on-page-seo/#keywords) are being used when someone does a search on your website. This may also reveal gaps in your content.
 
 ### [2]Avoid FAQs 
    
