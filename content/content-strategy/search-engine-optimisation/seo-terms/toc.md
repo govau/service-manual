@@ -7,6 +7,7 @@ sections:
 - Organic and paid search
 - Rankings
 - Metadata
+- Schema
 - Traffic
 - Backlinks and link checking
 - Bots (robots)

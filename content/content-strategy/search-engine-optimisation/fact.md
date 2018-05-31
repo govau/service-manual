@@ -2,6 +2,6 @@
 layout: text/callout
 ---
 ### Did you know?
-According to a breakdown of Google click through rates (CTR), users are most likely to click on the top 3 positions in search results.
+Research shows there is a 45% difference on average between the top 3 search results and those ranked in position 20.
 
-Source: [Ignite visibility](https://ignitevisibility.com/ctr-google-2017/) 2017.
+Source: [SEMrush](https://www.semrush.com/ranking-factors/) June 2017.

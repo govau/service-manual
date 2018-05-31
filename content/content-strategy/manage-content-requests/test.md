@@ -5,9 +5,9 @@ link: governing-content/dta-content-lifecycle.png
 title: What is the content lifecycle?
 display: 2
 level: 2
-reverse: false
 imageAlt: "Content lifecycle - intent, plan, create, check and revise, sign off, publish, improve, remove."
 long_description: new-long-description.md
+caption: The stages of the content lifecycle
 ---
 
 The content lifecycle defines the people, workflow, skills and tasks involved in producing content.
