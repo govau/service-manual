@@ -29,7 +29,7 @@ layout: text/textblock
 
 - **SEO**
 
-    Can you optimise content for search engines in your CMS? Are URLs created on a page by page basis? 
+    Can you [optimise content for search engines](/content-strategy/search-engine-optimisation/) in your CMS? Are URLs created on a page by page basis? 
 
 
 - **Analytics**
@@ -64,12 +64,12 @@ layout: text/textblock
 
 - **Internal site search**
 
-    Does your CMS have its own internal site search?
+    Does your CMS have its own [internal site search](/content-strategy/search-engine-optimisation/on-page-seo/#internal-links-and-site-search)?
 
 
 - **Headless CMS**
 
-    Can the CMS be used as a headless CMS for managing content for use on multiple sites?
+    Can the CMS be used as a [headless CMS](https://guides.service.gov.au/content-strategy/content-management-system/configure-your-cms/#headless-cms) for managing content for use on multiple sites?
 
 
 - **Testing, staging and live sites**
