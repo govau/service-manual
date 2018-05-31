@@ -79,4 +79,8 @@
 	right: 0;
 	font-size: 0.875em;
 	padding: 0.8rem;
+
+	&:before{
+		content: 'Caption: ';
+	}
 }
