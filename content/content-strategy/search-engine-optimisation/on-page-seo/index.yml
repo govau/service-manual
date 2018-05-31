@@ -1,8 +1,8 @@
 pagetitle: Improve on-page SEO
 description: On-page SEO is about the quality and relevance of your content. This includes keywords, metadata, URLs, tags, rich answers and schema.
-weight: 40
+weight: 60
 layout: layout/topic
-hidden: true
+hidden: false
 theme: blue
 header:
   - /_shared/globalheader.md
@@ -16,11 +16,11 @@ main:
   - heading3.md #h2
   - section3.md #text
   - heading5.md #h2
-  - section5.md #text    
+  - section5.md #text
   - heading2.md #h2
   - section2.md
-  - screenshot6.md
-  - screenshot2.md #diagram
+  - screenshot6.md #image with h3
+  - screenshot2.md #image with h4
   - section2b.md #text
   - example.md #example
   - social-meta.md
@@ -31,12 +31,12 @@ main:
   - screenshot3.md #diagram
   - heading7b.md #h2
   - section7b.md #text
-  - screenshot4.md #diagram  
+  - screenshot4.md #diagram
   - heading4.md #h2
   - section4.md #text
   - heading6.md #h2
   - section6.md #text
-  - screenshot5.md #diagram
+  - screenshot5.md #image with h3
   - heading8.md #h2
   - section8.md #text
   - heading9.md #h2

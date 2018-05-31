@@ -1,7 +1,7 @@
 pagetitle: Learn about SEO terms and meanings
 description: Understand the words, definitions and concepts of SEO, so that you can apply them successfully to your website content.
-weight: 60
-hidden: true
+weight: 40
+hidden: false
 layout: layout/topic
 theme: blue
 header:
@@ -20,8 +20,7 @@ main:
   - heading4.md #h2
   - text4.md #text
   - key-takeaway.md #key-takeaway
-  - heading2.md
-  - screenshot2.md #screenshot
+  - screenshot2.md #screenshot with h2
   - heading3.md #h2
   - text3.md #text
   - heading5.md #h2
@@ -35,7 +34,7 @@ main:
   - heading8.md #h2
   - text8.md #text
   - heading9.md #h2
-  - text9.md #text  
+  - text9.md #text
   - heading10.md #h2
   - text10.md #text
   - cards.md
