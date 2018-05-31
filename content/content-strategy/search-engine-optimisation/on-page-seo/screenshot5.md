@@ -6,10 +6,10 @@ reverse: false
 stackPosition: bottom
 imageAlt: Example of a Google Sitelinks Searchbox.
 caption: A Google Sitelinks Searchbox can be configured to appear within a search result.
-level: 2
-display: 3
+level: 3
+display: 2
+title: Sitelinks Searchbox
 ---
-### Sitelinks Searchbox
 A [Sitelinks Searchbox](https://developers.google.com/search/docs/data-types/sitelinks-searchbox) helps users search and link more specifically to pages in your site, straight from the organic search result.
 
 This image shows a search result including a sitelinks search box (results from nsw.gov.au), under the main description.

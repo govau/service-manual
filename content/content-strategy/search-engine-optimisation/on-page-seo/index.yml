@@ -19,8 +19,8 @@ main:
   - section5.md #text
   - heading2.md #h2
   - section2.md
-  - screenshot6.md
-  - screenshot2.md #diagram
+  - screenshot6.md #image with h3
+  - screenshot2.md #image with h4
   - section2b.md #text
   - example.md #example
   - social-meta.md
@@ -36,7 +36,7 @@ main:
   - section4.md #text
   - heading6.md #h2
   - section6.md #text
-  - screenshot5.md #diagram
+  - screenshot5.md #image with h3
   - heading8.md #h2
   - section8.md #text
   - heading9.md #h2
