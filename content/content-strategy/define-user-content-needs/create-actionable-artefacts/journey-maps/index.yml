@@ -9,11 +9,9 @@ header:
   - /_shared/breadcrumbs.md
 main:
   - intro.md #methods
-  - callout-prep.md #callout
-  - heading-materials.md
-  - materials.md
-  - heading-preparation.md
-  - journeymap.md
+  - why-head.md
+  - why.md
+  - method.md
   - heading-how-to-make.md
   - how-to-make.md
   - diagram.md #Phil is going to re-draw this

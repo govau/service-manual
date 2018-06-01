@@ -1,6 +1,4 @@
----
-layout: text/textblock
----
+<!-- Materials --> 
 - a room with a large table
 - index cards in 2 colours
 - post-it notes in 2 colours

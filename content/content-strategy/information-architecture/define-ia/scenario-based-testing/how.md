@@ -2,9 +2,7 @@
 layout: text/textblock
 ---
 
-The following are typical steps for scenario based testing.
-
-Test the main areas of your IA design by asking users to complete a certain IA related task. This could be as simple as asking users to find a specific piece of information on your website.
+Firstly, test the main areas of your IA design by asking users to complete a specific IA related task. This could be as simple as asking users to find a specific piece of information on your website, or use the IA to move around the site and complete a task.
 
 ### [2] Example scenario
 You (the user) needs to tell Centrelink that your weekly wage has changed. Find out what you need to do. 

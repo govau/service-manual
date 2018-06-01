@@ -8,11 +8,9 @@ header:
   - /_shared/breadcrumbs.md
 main:
   - intro.md #method
-  - toc.md
   - why-head.md
   - why.md
-  - prep-callout.md
-  - section.md
+  - method.md
   - how-head.md
   - how.md
   - example.md #example
