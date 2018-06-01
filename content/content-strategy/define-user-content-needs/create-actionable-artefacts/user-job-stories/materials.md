@@ -1,5 +1,3 @@
----
-layout: text/textblock
----
+<!-- Materials --> 
   * index cards
   * markers

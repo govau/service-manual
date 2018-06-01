@@ -11,11 +11,8 @@ main:
   - intro.md #methods
   - why-head.md
   - why.md
-  - preptime-callout.md
-  - materials-head.md
-  - materials.md
+  - method.md # methods/methodsummary
   - diagram.md
-  - how-head.md
   - how.md
   - followup-head.md
   - followup.md

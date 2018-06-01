@@ -9,17 +9,14 @@ header:
   - /_shared/breadcrumbs.md
 main:
   - intro.md #methods
-  - callout-prep.md
-  - heading-materials.md
-  - materials.md
-  - heading-prep.md
-  - prep.md
+  - why-head.md
+  - why.md
+  - method.md #methods/methodsummary
   - heading-howto.md
   - howto.md
   - diagram.md #diagram
   - heading-followup.md
   - followup.md
-  - supporting-takeaway2.md #supporting-takeaway
   - heading-references.md
   - references.md
   - /_shared/feedback.md
