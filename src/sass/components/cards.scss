@@ -32,11 +32,15 @@
 	color: #1c344f;
 	transition-property: color;
 	transition-duration: 0.6s;
+
+	// shift the cta carat on hover
+	.card__cta {
+		color: #1c344f;
+		right: 1.2rem;
+	}
 }
 
 .cards {
-	//background-color: $AU-color-background-alt;
-	//margin: 1rem 0 4rem 0;
 	padding: 1rem 0 4rem 0;
 }
 
@@ -130,7 +134,8 @@
 .card__cta {
 	position: absolute;
 	bottom: 1rem;
-	right: 1rem;
+	right: 1.5rem;
+	transition: right 0.2s ease-in-out;
 
 	&.au-cta-link {
 		margin: 2em 0 0 0;
