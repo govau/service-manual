@@ -25,7 +25,7 @@ main:
   - section7.md #text
   - heading8.md
   - section8.md #text
-  - diagram-headless-cms.md #diagram
+  - diagram-headless-cms.md #diagram with h3
   - heading9.md
   - section9.md #text
   - heading10.md

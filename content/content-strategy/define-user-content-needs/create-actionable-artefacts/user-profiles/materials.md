@@ -1,6 +1,4 @@
----
-layout: text/textblock
----
+<!-- Materials --> 
   * Markers
   * Whiteboard
   * Post-it notes
