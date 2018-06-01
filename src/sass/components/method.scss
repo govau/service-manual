@@ -13,13 +13,20 @@
 }
 
 .methodsummary__table {
-	text-align: left;
+
 	th {
 		@include AU-space( width, 10unit );
 		font-weight: 400;
+		text-align: center;
 	}
 	td {
 		font-weight: bold;
 		vertical-align: top;
+		text-align: center;
+	}
+	@include AU-media( xs ) {
+		th, td {
+			text-align: left;
+		}
 	}
 }
