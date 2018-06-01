@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Preparation
+section: Schema
 ---

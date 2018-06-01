@@ -14,7 +14,7 @@ A basic set of page headings might include:
 
 For each page you’ll need to identify:
 - page name
-- page ID (usually found in your CMS)
+- page ID (usually found in your [content management system](/content-strategy/content-management-system/)
 - type of content
 - URL
 - related pages

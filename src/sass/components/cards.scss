@@ -78,6 +78,9 @@
 .card__headline {
 	display: inline;
 	font-size: 1.2rem;
+	line-height: 1.6;
+	border-bottom: 2px solid;
+	transition: border-bottom 0.1s linear;
 
 	.cards--category & {
 		border: none;
