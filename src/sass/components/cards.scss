@@ -140,18 +140,6 @@
 	&.au-cta-link {
 		margin: 2em 0 0 0;
 		font-size: 12px;
-
-		.cards--category & {
-			border-color: #fff;
-			color: #fff;
-
-			&:after {
-				background-image: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-					<path fill="#fff" d="M128 64l-64 64-16-16 64-64"/>
-					<path fill="#fff" d="M128 64l-16 16-64-64L64 0"/>
-				</svg>');
-			}
-		}
 	}
 }
 
