@@ -1,6 +1,6 @@
 ---
 layout: text/textblock
-section: How to run a planning workshop
+section: How to run a content planning workshop
 ---
 
 ### [2]Start with a user focus

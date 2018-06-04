@@ -9,11 +9,9 @@ header:
   - /_shared/breadcrumbs.md
 main:
   - intro.md #methods
-  - supporting-takeaway.md
-  - heading-materials.md
-  - materials.md
-  - heading-prep.md
-  - prep.md
+  - why-head.md
+  - why.md
+  - method.md
   - heading-howto.md
   - howto.md
   - diagram.md #diagram

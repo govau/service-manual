@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Why design a workflow
+section: Why design a workflow?
 ---

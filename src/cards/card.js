@@ -25,8 +25,8 @@ const Card = ({ link, background, image, headline, text, cta, preheadline }) => 
 			<div className='card__headline__wrapper'>
 				<strong className='card__headline'>{ headline }</strong>
 			</div>
-				<div className='card__text'>{ text }</div>
-				{ cta && <span className='card__cta au-cta-link'>{ cta }</span> }
+			<div className='card__text'>{ text }</div>
+			{ cta && <span className='card__cta au-cta-link'>{ cta }</span> }
 		</div>
 	</a>
 )};

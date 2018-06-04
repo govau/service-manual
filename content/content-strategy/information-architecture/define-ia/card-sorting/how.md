@@ -1,10 +1,6 @@
 ---
 layout: text/textblock
 ---
-
-1. Introduce your group to the context of why they are there–why specific people.
-2. Explain the reason for the card sort. For example, you might use card sorting to improve or work out the navigation of a website. The words on the cards represent the menu options/page titles.
-3. Lay the cards out on a table in an unorganised way.
 4. Put people into pairs for each card sort so they can work together. Each pair will need to sort a separate set of cards.
 5. Get the pair to become familiar with the cards.
 6. Ask them to sort into groups that are logical to them.
