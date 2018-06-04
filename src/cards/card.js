@@ -72,6 +72,9 @@ Card.propTypes = {
 
 Card.defaultProps = {
 	background: '#fff',
+	link: 'http://dta.gov.au',
+	headline: 'A Card',
+	text: 'Lorem ipsum dolor sit'
 };
 
 
