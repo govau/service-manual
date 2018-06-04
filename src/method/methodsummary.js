@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
- import React from 'react';
+import React from 'react';
 
 
 /**
@@ -60,7 +60,7 @@ MethodSummary.propTypes = {
 	people: PropTypes.node.isRequired,
 
 	/**
-		 * runtime: 2 - 3 hours
+	* runtime: 2 - 3 hours
 	*/
 	runtime: PropTypes.string.isRequired
 };
