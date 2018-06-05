@@ -1,9 +1,12 @@
 ---
 layout: text/textblock
 ---
+### [3]Content tasks and skills workshop
+Download the [content tasks and skills workshop activity (1.4MB PPTX)](/assets/files/content-strategy/content-tasks-skills-workshop.pptx ) to use with your immediate or broader teams. Invite a mix of people who plan, create, check, test and remove content. Ideally, run this workshop during the planning content stage.
+
 Use the presentation to work through the activity.
 
-### [2]Roles exercise
+#### [2]Roles exercise
 Keep the list of role ideas visible on a screen during the exercise to help kick-start the activity. It’s best not to use job titles.
 
 #### [2]Tasks exercise

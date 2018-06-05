@@ -2,9 +2,12 @@
 layout: text/textblock
 ---
 
-Firstly, test the main areas of your IA design by asking users to complete a specific IA related task. This could be as simple as asking users to find a specific piece of information on your website, or use the IA to move around the site and complete a task.
+To test the main areas of your IA design, ask users to complete a specific IA related task:
 
-### [2] Example scenario
+- Find a specific piece of information on your website using the IA.
+- Use the IA to move around the site and complete some tasks along the way.
+
+### [2] Example of scenario-based testing
 You (the user) needs to tell Centrelink that your weekly wage has changed. Find out what you need to do. 
 
 Ask your users to complete a specific set of questions relevant to the task. This could be questions like:

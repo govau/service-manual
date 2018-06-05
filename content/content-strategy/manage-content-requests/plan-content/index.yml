@@ -13,10 +13,10 @@ main:
   - who.md
   - typical-roles-head.md
   - typical-roles.md
-  - activities-head.md #attachment #methods
-  - activities.md #attachment # methods
   - tools-templates-head.md #attachment
   - tools-templates.md #attachment
+  - activities-head.md #attachment #methods
+  - cards.md #content planning # Identify tasks and skills
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
