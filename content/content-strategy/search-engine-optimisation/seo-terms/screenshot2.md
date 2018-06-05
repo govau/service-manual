@@ -5,7 +5,7 @@ link: content-strategy/serp-paid-organic.svg
 reverse: false
 stackPosition: bottom
 imageAlt: Screenshot of a typical SERP showing a paid ad followed by an organic result.
-caption: The screenshot here shows 'Etax' as the paid Ad and 'Lodge online | Australian Taxation Office' as the first organic result below it.
+caption: This screenshot shows 'Etax' as the paid Ad, followed by the first organic result 'Lodge online | Australian Taxation Office'. 
 level: 2
 display: 3
 title: Organic and paid search
