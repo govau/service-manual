@@ -17,6 +17,18 @@ a.guides-card {
 	text-decoration: none;
 }
 
+.card__cta {
+	position: absolute;
+	bottom: 1rem;
+	right: 1.5rem;
+	transition: right 0.2s ease-in-out;
+
+	&.au-cta-link {
+		margin: 2em 0 0 0;
+		font-size: 12px;
+	}
+}
+
 .card__cta__carat {
 	width: 1rem;
 	height: 1rem;
@@ -149,30 +161,6 @@ a.guides-card:focus {
 
 		&:after {
 			margin: 0 0.1 0 0.4; //move arrow by just uikit-space( 0.1 ); this is not a magic number …
-		}
-	}
-}
-
-.card__cta {
-	position: absolute;
-	bottom: 1rem;
-	right: 1.5rem;
-	transition: right 0.2s ease-in-out;
-
-	&.au-cta-link {
-		margin: 2em 0 0 0;
-		font-size: 12px;
-
-		.cards--category & {
-			border-color: #fff;
-			color: #fff;
-
-			&:after {
-				background-image: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-					<path fill="#fff" d="M128 64l-64 64-16-16 64-64"/>
-					<path fill="#fff" d="M128 64l-16 16-64-64L64 0"/>
-				</svg>');
-			}
 		}
 	}
 }
