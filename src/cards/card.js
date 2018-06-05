@@ -26,7 +26,8 @@ const Card = ({ link, background, image, headline, text, cta, preheadline }) => 
 				<strong className='card__headline'>{ headline }</strong>
 			</div>
 				<div className='card__text'>{ text }</div>
-				{ cta && <span className='card__cta au-cta-link'>{ cta }</span> }
+				{ cta ? <div className='card__cta au-cta-link'>{ cta }</div>
+              : <div className='card__cta card__cta__carat'></div> }
 		</div>
 	</a>
 )};

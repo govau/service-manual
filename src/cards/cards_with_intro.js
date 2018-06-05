@@ -29,7 +29,6 @@ const CardsWithIntro = ( page ) => (
 											image={ card.image }
 											headline={ card.headline }
 											text={ card.text }
-											cta={ card.cta }
 										/>
 									</li>
 								))

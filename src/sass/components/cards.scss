@@ -1,3 +1,5 @@
+$card-text-colour : #1c344f;
+
 .guides-card {
 	border-top: 5px solid #4fc0f0;
 	box-sizing: border-box;
@@ -11,6 +13,43 @@
 	box-shadow: 0 2px 4px rgba(0,0,0,.3);
 }
 
+a.guides-card {
+	text-decoration: none;
+}
+
+.card__cta__carat {
+	width: 1rem;
+	height: 1rem;
+	background-image: AU-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">' +
+					'<path fill="#{ $AU-color-foreground-action }" d="M128 64l-64 64-16-16 64-64"/>' +
+					'<path fill="#{ $AU-color-foreground-action }" d="M128 64l-16 16-64-64L64 0"/>' +
+				'</svg>');
+}
+
+a.guides-card:hover,
+a.guides-card:focus {
+	color: $card-text-colour;
+	transition-property: color;
+	transition-duration: 0.6s;
+
+	// shift the cta carat on hover
+	.card__cta {
+		color: $card-text-colour;
+		right: 1.2rem;
+	}
+
+	.card__cta__carat {
+		background-image: AU-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">' +
+						'<path fill="#{ $card-text-colour }" d="M128 64l-64 64-16-16 64-64"/>' +
+						'<path fill="#{ $card-text-colour }" d="M128 64l-16 16-64-64L64 0"/>' +
+					'</svg>');
+	}
+}
+
+
+
+///////////////////////////////////////
+
 .cards--home .card__wrapper {
 	padding: 2rem;
 }
@@ -21,23 +60,6 @@
 
 .cards--2cols {
 	margin-top: 2rem;
-}
-
-a.guides-card {
-	text-decoration: none;
-}
-
-a.guides-card:hover,
-a.guides-card:focus {
-	color: #1c344f;
-	transition-property: color;
-	transition-duration: 0.6s;
-
-	// shift the cta carat on hover
-	.card__cta {
-		color: #1c344f;
-		right: 1.2rem;
-	}
 }
 
 .cards {
