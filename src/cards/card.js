@@ -7,10 +7,20 @@ import React from 'react';
  *
  * @disable-docs
  */
-const Card = ({ link, background, image, headline, text, cta, preheadline }) => {
+const Card = ({ link, background, image, headline, text, cta, preheadline, noCta }) => {
 
 	if( image ) {
 		image = image.startsWith('http') ? image : `/assets/img/${ image }`;
+	}
+
+	function renderCta() {
+		if (noCta) {
+			return;
+		} else if (cta) {
+			return <div className='card__cta au-cta-link'>{ cta }</div>;
+		} else {
+			return <div className='card__cta card__cta__carat'></div>;
+		}
 	}
 
 	return (
@@ -26,8 +36,7 @@ const Card = ({ link, background, image, headline, text, cta, preheadline }) => 
 				<strong className='card__headline'>{ headline }</strong>
 			</div>
 				<div className='card__text'>{ text }</div>
-				{ cta ? <div className='card__cta au-cta-link'>{ cta }</div>
-              : <div className='card__cta card__cta__carat'></div> }
+				{ renderCta() }
 		</div>
 	</a>
 )};
