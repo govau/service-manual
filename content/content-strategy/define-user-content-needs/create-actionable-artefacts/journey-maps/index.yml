@@ -18,8 +18,6 @@ main:
   - heading-followup.md
   - followup.md
   - callout-followup.md #callout
-  - heading-related-methods.md
-  - cards.md #related-methods
   - heading-references.md
   - references.md
   - /_shared/feedback.md

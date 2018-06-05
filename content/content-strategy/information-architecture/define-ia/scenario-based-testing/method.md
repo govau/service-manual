@@ -1,7 +1,7 @@
 ---
 layout: method/methodsummary
 preptime: 2 hours to 1 day
-people: 4-8
+people: 4 to 8
 runtime: up to 45 minutes
 materials: materials.md
 ---

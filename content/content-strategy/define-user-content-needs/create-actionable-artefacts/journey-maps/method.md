@@ -1,8 +1,8 @@
 ---
 layout: method/methodsummary
-preptime: 2 hrs
+preptime: 2 hours
 people: 2 to 10
-runtime: 2 hrs to 1 day
+runtime: 2 hours to 1 day
 materials: materials.md
 ---
 <!-- Preparation --> 

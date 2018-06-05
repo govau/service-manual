@@ -4,7 +4,7 @@ layout: text/textblock
 
 ### [2]Step 1: Decide on your user
 
-You need to define the user in your story. You should do this by using evidence from user research so the journey is realistic. For example, what they were trying to do, their motivations, and their context before and after the interaction.
+You need to define the user in your story. You should do this by using evidence from [user research](/topics/user-research/), so the journey is realistic. For example, what they were trying to do, their motivations, and their context before and after the interaction? Do this in every iteration of development. 
 
 Quantitative research is good, but you really need qualitative research. It will give you the insights to how users think and feel through their journey.
 

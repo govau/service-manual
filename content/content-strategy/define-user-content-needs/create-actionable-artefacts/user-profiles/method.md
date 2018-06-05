@@ -1,8 +1,8 @@
 ---
 layout: method/methodsummary
-preptime: 10 mins
-people: 1+
-runtime: 1 to 4 hrs
+preptime: 10 minutes
+people: 1 or more
+runtime: 1 to 4 hours
 materials: materials.md
 ---
 <!-- Preparation --> 

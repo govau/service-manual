@@ -13,7 +13,7 @@ Depending on the nature of the project you are working on, you may like to inclu
 
 Build on your profile by answering questions about their needs, pain points, risks and motivation.
 
-#### [2]Needs/Tasks
+#### [2]Needs/tasks
 What does the user need to do or find? What tasks do they do which are relevant to your project? The need will be goals that are aligned to an outcome.
 
 #### [2]Pain points
