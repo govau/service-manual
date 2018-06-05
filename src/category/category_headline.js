@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-// LOCAL
-import GlobalHeader from '../structure/globalheader';
 /**
  * The category heading component
  */

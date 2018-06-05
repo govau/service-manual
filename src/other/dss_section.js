@@ -114,6 +114,11 @@ DSSSection.propTypes = {
 	 * _body: (text)(7)
 	 */
 	_body: PropTypes.node.isRequired,
+
+	/**
+		 * section: Guides
+		 */
+	section: PropTypes.string.isRequired
 };
 
 

@@ -32,7 +32,6 @@ const HomepageBannerCards = ( page ) => {
 								image=""
 								headline= { page.card1headline }
 								text= { page.card1text }
-								cta=" "
 							/>
 						</li>
 						<li className="col-sm-4 cards__list__item">
@@ -42,7 +41,6 @@ const HomepageBannerCards = ( page ) => {
 								image=""
 								headline= { page.card2headline }
 								text= { page.card2text }
-								cta=" "
 							/>
 						</li>
 						<li className="col-sm-4 cards__list__item">
@@ -52,7 +50,6 @@ const HomepageBannerCards = ( page ) => {
 								image=""
 								headline= { page.card3headline }
 								text= { page.card3text }
-								cta=" "
 							/>
 						</li>
 					</ul>

@@ -86,6 +86,10 @@ class TopLevelListItems extends React.Component {
 
 const Childnav = ({ page }) => {
 
+	if (!page._pages[ page._ID ].pagetitle) {
+		return null;
+	}
+
 	const pageTitle = page._pages[ page._ID ].pagetitle;
 	const pages = JSON.stringify(page._pages,null,3);
 	const parents = page._parents;

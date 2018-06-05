@@ -34,7 +34,7 @@ Quote.propTypes = {
 
 	/**
 	 * _body: (text)(4)
-	 	represents the citation: who said the quote and optionally a URL where it can be found.
+	 	represents the citation- who said the quote and optionally a URL where it can be found.
 	 */
 	_body: PropTypes.node.isRequired,
 };
