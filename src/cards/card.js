@@ -7,10 +7,20 @@ import React from 'react';
  *
  * @disable-docs
  */
-const Card = ({ link, background, image, headline, text, cta, preheadline }) => {
+const Card = ({ link, background, image, headline, text, cta, preheadline, noCta }) => {
 
 	if( image ) {
 		image = image.startsWith('http') ? image : `/assets/img/${ image }`;
+	}
+
+	function renderCta() {
+		if (noCta) {
+			return;
+		} else if (cta) {
+			return <div className='card__cta au-cta-link'>{ cta }</div>;
+		} else {
+			return <div className='card__cta card__cta__carat'></div>;
+		}
 	}
 
 	return (
@@ -25,8 +35,8 @@ const Card = ({ link, background, image, headline, text, cta, preheadline }) => 
 			<div className='card__headline__wrapper'>
 				<strong className='card__headline'>{ headline }</strong>
 			</div>
-			<div className='card__text'>{ text }</div>
-			{ cta && <span className='card__cta au-cta-link'>{ cta }</span> }
+				<div className='card__text'>{ text }</div>
+				{ renderCta() }
 		</div>
 	</a>
 )};
@@ -72,6 +82,9 @@ Card.propTypes = {
 
 Card.defaultProps = {
 	background: '#fff',
+	link: 'http://dta.gov.au',
+	headline: 'A Card',
+	text: 'Lorem ipsum dolor sit'
 };
 
 

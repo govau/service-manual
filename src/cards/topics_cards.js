@@ -33,7 +33,6 @@ const TopicsCards = ( page ) => {
 									image=""
 									headline= { page.card1headline }
 									text= { page.card1text }
-									cta=" "
 								/>
 							</li>
 							<li className="col-xs-6 cards__list__item">
@@ -43,7 +42,6 @@ const TopicsCards = ( page ) => {
 									image=""
 									headline= { page.card2headline }
 									text= { page.card2text }
-									cta=" "
 								/>
 							</li>
 						</ul>
