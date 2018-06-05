@@ -14,13 +14,13 @@ If they don’t understand any of the words, ask them to move those cards into a
 Label each grouping with a post-it note as a heading.
 
 ### [2]Step 8: Make notes
-- ask each pair to note down if anything is missing
-- write it on a different coloured post-it note and add it to a group
-- note down if anything is redundant
+- Ask each pair to note down if anything is missing.
+- Write it on a different coloured post-it note and add it to a group.
+- Note down if anything is redundant.
 
-### [2]Step 9: Assess priorities:
-- mark with a tick any card labels that they value
-- mark a cross on any card labels they don’t understand
+### [2]Step 9: Assess priorities
+- Mark with a tick any card labels that they value.
+- Mark a cross on any card labels they don’t understand.
 
 ### [2]Step 10: Ask questions
  Ask questions to understand the kinds of content that they think will sit under those headings. Note down anything surprising.
