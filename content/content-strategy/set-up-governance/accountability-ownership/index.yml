@@ -17,6 +17,7 @@ main:
   - text3.md
   - heading4.md
   - text4.md
+  - cards-head.md
   - cards.md #attachment
   - /_shared/feedback.md
 

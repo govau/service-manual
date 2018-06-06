@@ -13,8 +13,7 @@ main:
   - why.md
   - method.md
   - how-to-head.md
-  - attachment.md #attachment
-  - text4.md
+  - howto.md
   - followup-head.md
   - followup.md
   - /_shared/feedback.md

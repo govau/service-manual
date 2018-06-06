@@ -1,4 +1,5 @@
 ---
 layout: nav/section
-section: Methods
+section: Method
 ---
+
