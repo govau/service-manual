@@ -1,9 +1,11 @@
 ---
 layout: text/textblock
 ---
-Migrating content is all about careful and safe content management. If you do need to change to a different CMS, you'll need a clear exit plan. This involves migrating content and is part of your content strategy.
+Migrating content means moving content from one platform (CMS or website) to another. The decision to migrate content is a big decision. It is all about careful and safe content management. It is also a question about the value of content. Content migration needs to be carefully considered before the decision to go ahead is reached.
 
-Migrating content from one CMS to another can be a very large job. The bigger your site, the larger the move. Badly implemented content migration can result in poor site performance, SEO, quality of traffic, and impact greatly on the user experience.
+If you do decide to migrate content, take the time to create a clear exit plan, assess risks, and put a clear and thorough process in place. Always refer to your [content strategy](/content-strategy/) along the way, so that your actions are in alignment with it.
+
+Badly implemented content migration can result in poor site performance, SEO, quality of traffic, and impact greatly on the user experience.
 
 There are several questions to ask before you start and to engage all [CMS stakeholders](/content-strategy/content-management-system/cms-requirements/#cms-stakeholders) in the process. 
 

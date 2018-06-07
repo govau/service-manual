@@ -21,18 +21,18 @@ There are many CMS systems to choose from. Two common types of CMS are known as 
 - noone 'owns' the code, so there is no fall back person or company
 
 #### [3]Benefits of proprietary
-- provides a fully pre-built system ready to use 'off the shelf'.
-- maintenance and upgrades of the CMS itself are managed by someone else
+- provides a fully pre-built system ready to use 'off the shelf'
+- maintenance and upgrades of the CMS are managed externally by the company
 - are usually quite robust and reliable
 
 #### [3]Risks of proprietary
 - can be expensive
 - code cannot be freely worked on outise of the company who own the CMS
-- you can be locked into a system
+- you can be locked into a system or contract
 - can be costly to move away from
 
-You should also consider who will build and maintain your CMS? Your CMS is a tool for managing content. 
+Also consider who will build and maintain your CMS, whether open source or proprietary.
 
 #### [3]Do your due diligence
 
-The Digital Service Standard also outlines why it's important to [understand tools and systems](/digital-service-standard/4-tools-and-systems/) before you decide to use them.
+When choosing a CMS, it's helpful to ask lots of questions so that you consider all the risks and constraints associated with the CMS you choose. The Digital Service Standard also outlines why it's important to [understand tools and systems](/digital-service-standard/4-tools-and-systems/) before you decide to use them.
