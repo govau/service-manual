@@ -1,15 +1,15 @@
 ---
 layout: text/textblock
 ---
-Migrating content means moving content from one platform (CMS or website) to another. The decision to migrate content is a big decision. It is all about careful and safe content management. It is also a question about the value of content. Content migration needs to be carefully considered before the decision to go ahead is reached.
+Migrating content means moving content from one platform (CMS or website) to another. The decision to migrate content is a big decision. It is all about careful and safe content management. It also raises questions about the value of content. Content migration needs to be carefully considered before making a decision to go ahead.
 
 If you do decide to migrate content, take the time to create a clear exit plan, assess risks, and put a clear and thorough process in place. Always refer to your [content strategy](/content-strategy/) along the way, so that your actions are in alignment with it.
 
-Badly implemented content migration can result in poor site performance, SEO, quality of traffic, and impact greatly on the user experience.
+Badly implemented content migration can result in poor site performance, reduced SEO and traffic. It can also impact on the user experience.
 
-There are several questions to ask before you start and to engage all [CMS stakeholders](/content-strategy/content-management-system/cms-requirements/#cms-stakeholders) in the process. 
+There are several questions to ask before you start and to engage all [CMS stakeholders](/content-strategy/content-management-system/cms-requirements/#cms-stakeholders) in the process: 
 
-Ensure to answer each of these questions thoroughly.
+Answer each of these questions thoroughly.
 - Why are you migrating content?
 - What content do you need to move or remove? 
 - What is the process for moving content?
@@ -21,6 +21,6 @@ Ensure to answer each of these questions thoroughly.
 - Who will set up content in the new CMS?
 
 #### [3]Further guidance on how to migrate content safely
-Please refer to our guidance on [manage the content](https://guides.service.gov.au/content-strategy/remove-content/decommission-website/#manage-the-content). This covers how to **conduct a content audit**, how to **migrate content** safely and how to **conduct a risk analysis**.
+Please refer to our guidance on how to [manage the content](https://guides.service.gov.au/content-strategy/remove-content/decommission-website/#manage-the-content). This also covers how to **conduct a content audit**, **migrate content** safely and how to **conduct a risk analysis**.
 
-If you are closing down your website all together, please refer to our guidance on how to [decommission a website](https://guides.service.gov.au/content-strategy/remove-content/decommission-website/).
+If you are closing down your website altogether, please refer to our guidance on how to [decommission a website](https://guides.service.gov.au/content-strategy/remove-content/decommission-website/).

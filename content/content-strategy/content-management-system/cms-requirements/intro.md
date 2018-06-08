@@ -4,4 +4,4 @@ subtitle: Get clear on your requirements before you choose a CMS. This guide wil
 category: Content strategy
 ---
 #### [3]Building the case for a CMS
-You may also find these requirements helpful to build the case for a CMS. You may be looking for a better CMS or for your very first one. These requirements can help you get clear on what you need. Also refer to our guidance on [tips for pitching your case](/content-strategy/start-content-strategy/tips-pitching-case/).
+You may also find these requirements helpful to build the case for a CMS. You may be looking for a better CMS or for your very first one. These requirements can help you get clear on what you need. Also refer to our guidance on [tips for pitching your case](/content-strategy/start-content-strategy/tips-pitching-case/). The CMS you use should also be in alignment with your content strategy.

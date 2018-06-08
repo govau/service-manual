@@ -5,10 +5,12 @@ Before you begin, consider who you'll need to have on your team to gather requir
 - developers
 - content designers
 - service designers and product managers
-- SME's
-- UX people
-- SEO people
-- CMS support people (may be internal or external)
+- SMEs
+- user researchers
+- user experience designers
+- interaction designers
+- SEO experts
+- CMS support staff (may be internal or external)
 - anyone in your agency who'll be using the CMS to manage content
 
 Also consider:
