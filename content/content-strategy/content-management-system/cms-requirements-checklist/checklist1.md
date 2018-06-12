@@ -9,7 +9,7 @@ layout: text/textblock
 
 - **WYSIWYG (what you see is what you get)**
 
-    Can you create clean content with the [WYSIWYG](/content-strategy/content-management-system/configure-your-cms/#wysiwyg-content-editor) content editor tool. Can you write in the styles and  format you need to? How flexible is the editor?
+    Can you create clean content with the [WYSIWYG](/content-strategy/content-management-system/configure-your-cms/#wysiwyg-content-editor) content editor tool? Can you write in the styles and  format you need to? How flexible is the editor?
 
 
 - **Multiple site management**
