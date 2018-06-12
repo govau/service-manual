@@ -41,7 +41,7 @@ You can think about some or all of the points and questions listed below. Ask yo
 
 #### [2]Timeline
 - What time do you need to repurpose content for user needs?
-- What time do you need to to check that content meets the Content Guide and test it?
+- What time do you need to to check that content meets the [Content Guide](https://guides.service.gov.au/content-guide/) and test it?
 - Will your timeline meet your deadline?
 
 #### [2]Maintaining

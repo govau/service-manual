@@ -1,6 +1,8 @@
 ---
 layout: nav/sections
 sections:
+  - Types of CMS
+  - CMS stakeholders
   - CMS costs
   - Hosting
   - Security

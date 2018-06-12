@@ -17,6 +17,8 @@ main:
   - section2.md #text
   - heading4.md
   - section4.md #text
+  - cms-taxonomy-head.md
+  - cms-taxonomy.md
   - heading5.md
   - section5.md #text
   - heading6.md
@@ -34,6 +36,7 @@ main:
   - section11.md #text
   - heading12.md
   - section12.md #text
+  - key-takeaway.md #callout
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md
