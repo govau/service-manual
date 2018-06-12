@@ -10,3 +10,4 @@ There are 2 kinds of customisation:
 Different CMSs have different levels of custom default behaviour. Some are flexible, others are more restrictive. Knowing what you need from your CMS helps you to know if it has enough built-in support.
 If you need to make changes, you may need to hire specialist developers. This can be expensive and time consuming.
 
+For continual CMS improvement (upgrades, fixes, support), also consider who you'll need to do this, so that you're not caught out with CMS issues later.

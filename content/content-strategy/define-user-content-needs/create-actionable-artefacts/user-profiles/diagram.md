@@ -12,10 +12,10 @@ display: 2
 long_description:
 ---
 
-You may like to include:
+Try to include:
 
-  * a user quote that embodies their strongest need, for example “Just tell me what I need to do”.
-  * (the product or service name) is:  use a phrase to say what it means to them, for example. a safety net
+  * a user quote that embodies their strongest need, for example, “just tell me what I need to do”.
+  * (the product or service name): use a phrase to say what it means to them, for example 'a safety net'
   * known attitudes in relation to their interaction with the product or service. Use 5-6 bullet points in the user’s words. 
 
-Describe the context that hinders or influences their task. For example, do they need to comply with a legal or legislative requirement? 
+Describe the context that hinders or influences their task, for example, do they need to comply with a legal or legislative requirement? 

@@ -1,8 +1,8 @@
 pagetitle: Define your SEO strategy
 weight: 100
-hidden: true
+hidden: false
 theme: blue
-description: Get better search results for your government agency website with SEO. Optimise content to make it easy for people to find your information.
+description: Use search engine optimisation (SEO) to get better search results for government websites. Optimise content to make it easy for people to find your information via search engines.
 header:
   - /_shared/globalheader.md
   - /_shared/header.md

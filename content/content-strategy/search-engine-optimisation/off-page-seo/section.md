@@ -18,8 +18,8 @@ Link building strategies to get external websites to link to yours:
 - leverage partnerships and professional associations for co-linking
 
 ### [2]Follow versus nofollow links
-By default, all links are ‘follow’ links, unless the attribute known as ‘nofollow’ is added to a link.
+By default, all links are ‘follow’ links, unless the attribute known as 'nofollow' is added to a link.
 
 The 'nofollow' attribute stops the link from being followed by web crawlers. For example, internal site search pagination. This tells search engines that the hyperlink should not influence the SEO ranking when the page is indexed. 
 
-To do this, it will need to be added into the code of your website where relevant. The 'nofollow' code looks like: <rel="nofollow">
+To do this, it will need to be added into the code of your website where relevant. The 'nofollow' code looks like: `<rel="nofollow">`

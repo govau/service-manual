@@ -9,18 +9,13 @@ header:
   - /_shared/breadcrumbs.md
 main:
   - intro.md #method
-  - heading2.md
-  - text2.md
-  - preptime-callout.md
-  - heading.md
-  - text.md
-  - heading3.md
-  - text3.md
-  - heading4.md
-  - attachment.md #attachment
-  - text4.md
-  - heading5.md
-  - text5.md
+  - why-head.md
+  - why.md
+  - method.md
+  - how-to-head.md
+  - howto.md
+  - followup-head.md
+  - followup.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

@@ -4,9 +4,10 @@ sections:
   - Using your CMS like a service
   - Defining CMS user roles
   - Workflow and the content lifecycle
+  - CMS taxonomy
   - Making and publishing quick changes
   - Content fields
-  - WYSIWYG text editor
+  - WYSIWYG content editor
   - Headless CMS
   - Site analytics
   - CMS support community

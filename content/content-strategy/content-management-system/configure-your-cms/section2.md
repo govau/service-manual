@@ -13,5 +13,4 @@ Typical CMS roles:
 - Approver — has the final say on whether to publish a piece of content
 - Publisher — pushes content to the ‘production’ site
 
-List who is responsible for each part of the [content lifecycle](/content-strategy/content-lifecycle/). Specify what they will be required to do in the CMS.
-
+List who is responsible for each part of the content. Specify what they'll need to do and what access they'll need in the CMS.

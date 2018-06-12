@@ -67,6 +67,7 @@ a:focus h1 {
 .au-body .au-display-xxxl, .au-display-xxxl{
 	font-size: 2.6rem;
 	letter-spacing: -0.03rem;
+	line-height: normal;
 	@include AU-media( xs ) {
 		font-size: 3.3rem;
 	}
@@ -83,4 +84,10 @@ a:focus h1 {
 	padding-left: 0;
 	border: none;
 	font-weight: 300;
+}
+
+.spacer__med {
+	@include AU-media( md ) {
+		margin-bottom: 3rem;
+	}
 }

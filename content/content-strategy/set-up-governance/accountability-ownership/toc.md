@@ -5,4 +5,5 @@ sections:
   - Leaders
   - Doers
   - Specialists
+  - Methods
 ---

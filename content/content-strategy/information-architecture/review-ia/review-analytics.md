@@ -22,7 +22,7 @@ Look at your analytics to better understand user behaviour flow. This will show 
 Behaviour flow can also reveal where users are coming into your website from and where they are exiting. Use [Google Analytics 360](https://beta.dta.gov.au/our-projects/google-analytics-government) for a comprehensive view of your users' experience. 
 
 ### [3]Search terms
-Review keywords people are using to arrive at your site. Think about whether any of these words could be page headings for your IA. This will also improve your search engine optimisation. For example, if a popular keyword is ‘passport’, use this in some of your main page headings.
+Review keywords people are using to arrive at your site. Think about whether any of these words could be page headings for your IA. This will also improve your [search engine optimisation](/content-strategy/search-engine-optimisation/). For example, if a popular keyword is ‘passport’, use this in some of your main page headings.
 
 ### [3]Bounce rates and exit pages
 A bounce rate shows when your users land on a page and leave immediately. This data can help to understand why users are leaving your site early. Look at these pages and decide whether to remove or improve them. It may also be the case that users are exiting your website because they have completed their task. 

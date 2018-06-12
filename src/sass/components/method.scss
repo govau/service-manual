@@ -1,0 +1,32 @@
+.method {
+	@include AU-space( margin-bottom, 3unit );
+}
+
+.methodsummary {
+	background-color: $AU-color-background-alt;
+	@include AU-space( margin-top, 2unit );
+	@include AU-space( margin-bottom, 2.2unit );
+}
+
+.methodsummary__container {
+	@include AU-space( padding, 1.5unit );
+}
+
+.methodsummary__table {
+
+	th {
+		@include AU-space( width, 10unit );
+		font-weight: 400;
+		text-align: center;
+	}
+	td {
+		font-weight: bold;
+		vertical-align: top;
+		text-align: center;
+	}
+	@include AU-media( xs ) {
+		th, td {
+			text-align: left;
+		}
+	}
+}

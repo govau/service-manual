@@ -2,7 +2,7 @@ pagetitle: Configure your CMS
 weight: 50
 description: Learn how to implement your CMS by optimising some of its features and functionality to suit your content design and website needs.
 layout: layout/topic
-hidden: true
+hidden: false
 theme: blue
 header:
   - /_shared/globalheader.md
@@ -17,6 +17,8 @@ main:
   - section2.md #text
   - heading4.md
   - section4.md #text
+  - cms-taxonomy-head.md
+  - cms-taxonomy.md
   - heading5.md
   - section5.md #text
   - heading6.md
@@ -25,7 +27,7 @@ main:
   - section7.md #text
   - heading8.md
   - section8.md #text
-  - diagram-headless-cms.md #diagram
+  - diagram-headless-cms.md #diagram with h3
   - heading9.md
   - section9.md #text
   - heading10.md
@@ -34,6 +36,7 @@ main:
   - section11.md #text
   - heading12.md
   - section12.md #text
+  - key-takeaway.md #callout
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

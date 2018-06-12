@@ -4,7 +4,7 @@ heading: Content strategy output
 first_column_header: What you'll get
 second_column_header: What to do
 first_column_content: topic-takeaway-listitems.md
-previous_header: "Do before: Define your SEO"
+previous_header: "Do before: Define your search engine optimisation (SEO) strategy"
 previous_text: Set the foundations phase
 previous_link: /content-strategy/search-engine-optimisation/
 next_header: "Do next: Manage content requests"

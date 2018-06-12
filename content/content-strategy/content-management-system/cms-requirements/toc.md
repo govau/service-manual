@@ -1,14 +1,16 @@
 ---
 layout: nav/sections
 sections:
+  - Types of CMS
+  - CMS stakeholders
   - CMS costs
   - Hosting
   - Security
   - Service level agreement (SLA)
   - Content distribution network (CDN)
-  - CMS licensing
+  - Understand your CMS license
   - Training, support and updates
-  - Customising your content needs
+  - Customising your content needs 
   - Flexibility of content formats
   - Features and functionality
   - Testing, staging and live sites
@@ -16,3 +18,4 @@ sections:
   - Accessibility
   - Multiple languages
 ---
+

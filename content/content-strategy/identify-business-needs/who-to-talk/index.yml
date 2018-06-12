@@ -15,6 +15,7 @@ main:
   - text2.md
   - heading3.md
   - text3.md
-  - attachment.md #attachment
+  - card-head.md
+  - card.md #attachment
 footer:
   - /_shared/footer.md

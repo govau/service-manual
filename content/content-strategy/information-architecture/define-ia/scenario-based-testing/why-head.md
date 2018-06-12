@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Why do scenario based testing?
+section: Why do scenario-based testing?
 ---

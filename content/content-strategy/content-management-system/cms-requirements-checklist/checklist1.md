@@ -2,14 +2,14 @@
 layout: text/textblock
 ---
 
-- **Features and functionality** 
-   
+- **Features and functionality**
+
     Do you need specific or customised features such as events, social media integration, video capability? How will these be built into your CMS?
 
 
-- **WYSIWYG**
+- **WYSIWYG (what you see is what you get)**
 
-    Does the CMS [WYSIWYG](/content-strategy/content-management-system/optimise-cms/#wysiwyg-text-editor) content tool allow you to create clean content in the format and styles you need to? How flexible is the editor?
+    Can you create clean content with the [WYSIWYG](/content-strategy/content-management-system/configure-your-cms/#wysiwyg-content-editor) content editor tool. Can you write in the styles and  format you need to? How flexible is the editor?
 
 
 - **Multiple site management**
@@ -19,17 +19,17 @@ layout: text/textblock
 
 - **Metadata**
 
-    What metadata and tagging systems are available in the CMS? 
+    What metadata and tagging systems are available in the CMS?
 
 
 - **Image editing**
 
-    Can you crop and resize images easily in the CMS? 
+    Can you crop and resize images easily in the CMS?
 
 
 - **SEO**
 
-    Can you optimise content for search engines in your CMS? Are URLs created on a page by page basis? 
+    Can you [optimise content for search engines](/content-strategy/search-engine-optimisation/) in your CMS? Are URLs created on a page by page basis?
 
 
 - **Analytics**
@@ -64,12 +64,12 @@ layout: text/textblock
 
 - **Internal site search**
 
-    Does your CMS have its own internal site search?
+    Does your CMS have its own [internal site search](/content-strategy/search-engine-optimisation/on-page-seo/#internal-links-and-site-search)?
 
 
 - **Headless CMS**
 
-    Can the CMS be used as a headless CMS for managing content for use on multiple sites?
+    Can the CMS be used as a [headless CMS](../configure-your-cms/#headless-cms) for managing content for use on multiple sites?
 
 
 - **Testing, staging and live sites**
@@ -84,15 +84,14 @@ layout: text/textblock
 
 - **Accessibility**
 
-    Accessibility guidelines apply to both your CMS front and back end. For example, how will your CMS help to make your website compliant with WCAG2.0AA? Accessibility also includes things like using plain English. See the DTA Content guide for about [structuring, writing and creating accessible content](https://guides.service.gov.au/content-guide/).
+    Accessibility guidelines apply to both your CMS front and back end. For example, how will your CMS help to make your website compliant with WCAG2.0AA? Accessibility also includes things like using plain English. See the DTA Content guide for more about [structuring, writing and creating accessible content](https://guides.service.gov.au/content-guide/).
 
 
-- **Costs** 
+- **Costs**
 
     Write down all the associated CMS costs. Also consider ongoing maintenance, training, licences, development and support costs.
 
 
-- **CMS roadmap** 
+- **CMS roadmap**
 
     Ask your CMS vendor about their product roadmap. How will their CMS technology direction and timing affect you as a client? What future changes might you need to be aware of.
-

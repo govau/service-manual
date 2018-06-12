@@ -34,7 +34,7 @@ const TopicTakeaway = ( page ) => {
 					<div className="col-md-offset-3 col-md-4 topic-takeaway-previous-card">
 						{page.previous_header  &&
 							<div className="topic-takeaway-card-content">
-								<p><span className="topic-takeaway-arrows">&larr;</span> <a href={ page.previous_link }>{ page.previous_header }</a></p>
+								<p><span className="topic-takeaway-arrows">&larr;</span> <a rel="prev" href={ page.previous_link }>{ page.previous_header }</a></p>
 								<p className="topic-takeaway-gray">&nbsp;&nbsp;&nbsp;&nbsp;{ page.previous_text }</p>
 							</div>
 						}
@@ -43,7 +43,7 @@ const TopicTakeaway = ( page ) => {
 					<div className="col-md-offset-1 col-md-4 topic-takeaway-next-card">
 						{page.next_header  &&
 							<div className="topic-takeaway-card-content">
-								<p><a href={ page.next_link }>{ page.next_header }</a>  <span className="topic-takeaway-arrows">&rarr;</span></p>
+								<p><a rel="next" href={ page.next_link }>{ page.next_header }</a>  <span className="topic-takeaway-arrows">&rarr;</span></p>
 								<p className="topic-takeaway-gray">{ page.next_text }&nbsp;&nbsp;&nbsp;&nbsp;</p>
 							</div>
 						}

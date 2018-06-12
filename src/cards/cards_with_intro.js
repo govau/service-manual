@@ -12,12 +12,12 @@ const CardsWithIntro = ( page ) => (
 	<div className="au-body au-grid">
 		<div className="container-fluid">
 			<div className="row">
-				<div className={"col-lg-offset-3 col-md-offset-3 col-md-9 col-lg-10 cards cardswithintro__container "+ (page.oddrow ? 'homepagebanner__oddrow' : '')}>
+				<div className={"col-md-offset-3 col-md-9 cards cardswithintro__container "+ (page.oddrow ? 'homepagebanner__oddrow cardswithintro__oddrow' : '')}>
 					<div className="col-lg-3 cardswithintro__intro">
 						<h2>{ page.intro_heading }</h2>
 						<p>{ page.intro_tagline }</p>
 					</div>
-					<div className="col-lg-6">
+					<div className="col-lg-7">
 						<ul className="cards__list">
 							{
 								page.cards.map( ( card, i ) => (
@@ -29,7 +29,6 @@ const CardsWithIntro = ( page ) => (
 											image={ card.image }
 											headline={ card.headline }
 											text={ card.text }
-											cta={ card.cta }
 										/>
 									</li>
 								))

@@ -1,3 +1,5 @@
+$card-text-colour : #1c344f;
+
 .guides-card {
 	border-top: 5px solid #4fc0f0;
 	box-sizing: border-box;
@@ -8,9 +10,57 @@
 	background-color: $AU-color-background;
 	position: relative;
 	transition: all 0.2s ease-in-out;
-	// box-shadow: 0 1px 2px rgba(0,0,0,0.15);
 	box-shadow: 0 2px 4px rgba(0,0,0,.3);
 }
+
+a.guides-card {
+	text-decoration: none;
+}
+
+.card__cta {
+	position: absolute;
+	bottom: 1rem;
+	right: 1.5rem;
+	transition: right 0.2s ease-in-out;
+
+	&.au-cta-link {
+		margin: 2em 0 0 0;
+		font-size: 12px;
+	}
+}
+
+.card__cta__carat {
+	width: 1rem;
+	height: 1rem;
+	background-image: AU-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">' +
+					'<path fill="#{ $AU-color-foreground-action }" d="M128 64l-64 64-16-16 64-64"/>' +
+					'<path fill="#{ $AU-color-foreground-action }" d="M128 64l-16 16-64-64L64 0"/>' +
+				'</svg>');
+}
+
+a.guides-card:hover,
+a.guides-card:focus {
+	color: $card-text-colour;
+	transition-property: color;
+	transition-duration: 0.6s;
+
+	// shift the cta carat on hover
+	.card__cta {
+		color: $card-text-colour;
+		right: 1.2rem;
+	}
+
+	.card__cta__carat {
+		background-image: AU-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">' +
+						'<path fill="#{ $card-text-colour }" d="M128 64l-64 64-16-16 64-64"/>' +
+						'<path fill="#{ $card-text-colour }" d="M128 64l-16 16-64-64L64 0"/>' +
+					'</svg>');
+	}
+}
+
+
+
+///////////////////////////////////////
 
 .cards--home .card__wrapper {
 	padding: 2rem;
@@ -24,20 +74,7 @@
 	margin-top: 2rem;
 }
 
-.au-body a.guides-card {
-	text-decoration: none;
-}
-
-.au-body a.guides-card:hover,
-.au-body a.guides-card:focus {
-	color: #1c344f;
-	transition-property: color;
-	transition-duration: 0.6s;
-}
-
 .cards {
-	//background-color: $AU-color-background-alt;
-	//margin: 1rem 0 4rem 0;
 	padding: 1rem 0 4rem 0;
 }
 
@@ -79,6 +116,9 @@
 .card__headline {
 	display: inline;
 	font-size: 1.2rem;
+	line-height: 1.6;
+	border-bottom: 2px solid;
+	transition: border-bottom 0.1s linear;
 
 	.cards--category & {
 		border: none;
@@ -125,29 +165,6 @@
 	}
 }
 
-.card__cta {
-	position: absolute;
-	bottom: 1rem;
-	right: 1rem;
-
-	&.au-cta-link {
-		margin: 2em 0 0 0;
-		font-size: 12px;
-
-		.cards--category & {
-			border-color: #fff;
-			color: #fff;
-
-			&:after {
-				background-image: uikit-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-					<path fill="#fff" d="M128 64l-64 64-16-16 64-64"/>
-					<path fill="#fff" d="M128 64l-16 16-64-64L64 0"/>
-				</svg>');
-			}
-		}
-	}
-}
-
 .cards__list {
 	list-style: none;
 	padding: 0;
@@ -163,7 +180,7 @@
 }
 
 .cards .cards__list > .cards__list__item {
-	margin-bottom: 1em;
+	margin-bottom: 1.4rem;
 	display: block;
 	float: left;
 	flex-basis: 100%;

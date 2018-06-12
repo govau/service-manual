@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: How to run a planning workshop
+section: How to run a content planning workshop
 ---
