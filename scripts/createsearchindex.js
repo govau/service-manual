@@ -28,16 +28,17 @@ var idx = lunr(function () {
 	})
 	this.add({
 		"title": "Superman",
-		"body": "A humanoid alien that grew up on earth with super-human powers",
+		"body": "A humanoid alien that grew up on earth with super-powers",
 		"author": "DC Comics",
 		"id": "/justiceleague/superman/"
 	})
 })
 
-const searchTerm = "metal";
+const searchTerm = "human";
 
-console.log(JSON.stringify(idx.search(searchTerm),null,2));
+console.log(JSON.stringify(idx.search(searchTerm + "*"),null,2));
 console.log("=================================");
 
 // Build the search index
 //console.log(JSON.stringify(idx));
+//console.log(JSON.stringify(idx,null,2));
