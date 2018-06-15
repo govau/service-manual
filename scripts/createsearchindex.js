@@ -8,7 +8,7 @@ console.log("=================================");
 
 var lunr = require('lunr');
 
-var idx = lunr(function () {
+var index = lunr(function () {
   this.field('title')
   this.field('body')
 	this.field('author')
@@ -36,9 +36,9 @@ var idx = lunr(function () {
 
 const searchTerm = "superman";
 
-console.log(JSON.stringify(idx.search(searchTerm + "*"),null,2));
+console.log(JSON.stringify(index.search(searchTerm + "*"),null,2));
 console.log("=================================");
 
 // Build the search index
-//console.log(JSON.stringify(idx));
-//console.log(JSON.stringify(idx,null,2));
+//console.log(JSON.stringify(index));
+//console.log(JSON.stringify(index,null,2));
