@@ -34,9 +34,21 @@ var index = lunr(function () {
 	})
 })
 
-const searchTerm = "superman";
+const searchTerm = "marvel";
+
+
+// TO DO: Serialise, store the file, and fetch the file.
+// SEARCH on the fetched index
+
+const serialisedIndex = JSON.stringify(index);
+// store serialisedIndex as "/site/searchindex.json"
+// data = fetch("/site/searchindex.json")
+// const index2 = lunr.Index.load(JSON.parse(data));
+
 
 console.log(JSON.stringify(index.search(searchTerm + "*"),null,2));
+
+
 console.log("=================================");
 
 // Build the search index
