@@ -52,6 +52,7 @@
 		"@gov.au/skip-link": "~2.0.2",
 		"cuttlebelle": "~1.0.0-alpha.57",
 		"express": "^4.16.2",
+		"lunr": "^2.2.1",
 		"marked": "^0.3.12",
 		"slugify": "^1.2.9"
 	},
