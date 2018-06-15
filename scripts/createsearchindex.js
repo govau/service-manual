@@ -1,5 +1,5 @@
 console.log("=================================");
-console.log("Lunr search...");
+console.log("         Lunr search...");
 console.log("=================================");
 
 // Scan through all content/ directories
