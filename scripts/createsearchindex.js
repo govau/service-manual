@@ -11,21 +11,33 @@ var lunr = require('lunr');
 var idx = lunr(function () {
   this.field('title')
   this.field('body')
+	this.field('author')
+	this.ref('id')
 
   this.add({
-    "title": "Twelfth-Night",
-    "body": "If music be the food of love, play on: Give me excess of it…",
-    "author": "William Shakespeare",
-    "id": "/william/shakespeare/"
+    "title": "Wolverine",
+    "body": "A animal-human hybrid with a indestructible metal skeleton",
+    "author": "Marvel Comics",
+    "id": "/xmen/wolverine/"
   })
 	this.add({
 		"title": "Batman",
-		"body": "Batman loves throwing batarangs.",
+		"body": "A cloaked hero with ninja like skills and dark personality",
 		"author": "DC Comics",
-		"id": "/dc/batman/"
+		"id": "/justiceleague/batman/"
+	})
+	this.add({
+		"title": "Superman",
+		"body": "A humanoid alien that grew up on earth with super-human powers",
+		"author": "DC Comics",
+		"id": "/justiceleague/superman/"
 	})
 })
 
-console.log(idx.search("love"));
+const searchTerm = "metal";
+
+console.log(JSON.stringify(idx.search(searchTerm),null,2));
 console.log("=================================");
-console.log(JSON.stringify(idx));
+
+// Build the search index
+//console.log(JSON.stringify(idx));
