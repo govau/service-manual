@@ -1,5 +1,5 @@
 console.log("=================================");
-console.log("Creating search index...");
+console.log("Lunr search...");
 console.log("=================================");
 
 // Scan through all content/ directories
@@ -12,29 +12,29 @@ var idx = lunr(function () {
   this.field('title')
   this.field('body')
 	this.field('author')
-	this.ref('id')
+	this.ref('path')
 
   this.add({
     "title": "Wolverine",
     "body": "A animal-human hybrid with a indestructible metal skeleton",
     "author": "Marvel Comics",
-    "id": "/xmen/wolverine/"
+    "path": "/xmen/wolverine/"
   })
 	this.add({
 		"title": "Batman",
-		"body": "A cloaked hero with ninja like skills and dark personality",
+		"body": "A cloaked hero with ninja like skills and dark personality. Enemies of Superman.",
 		"author": "DC Comics",
-		"id": "/justiceleague/batman/"
+		"path": "/justiceleague/batman/"
 	})
 	this.add({
 		"title": "Superman",
 		"body": "A humanoid alien that grew up on earth with super-powers",
 		"author": "DC Comics",
-		"id": "/justiceleague/superman/"
+		"path": "/justiceleague/superman/"
 	})
 })
 
-const searchTerm = "human";
+const searchTerm = "superman";
 
 console.log(JSON.stringify(idx.search(searchTerm + "*"),null,2));
 console.log("=================================");
