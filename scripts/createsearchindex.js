@@ -11,42 +11,36 @@ var lunr = require('lunr');
 var index = lunr(function () {
   this.field('title')
   this.field('body')
-	this.field('author')
 	this.ref('path')
 
   this.add({
-    "title": "Wolverine",
-    "body": "A animal-human hybrid with a indestructible metal skeleton",
-    "author": "Marvel Comics",
-    "path": "/xmen/wolverine/"
+    "title": "Discovery stage: exploring the problem",
+    "body": "discovery stage service design delivery process kick-off",
+    "path": "/topics/service-design-delivery-process/discovery-stage/"
   })
 	this.add({
-		"title": "Batman",
-		"body": "A cloaked hero with ninja like skills and dark personality. Enemies of Superman.",
-		"author": "DC Comics",
-		"path": "/justiceleague/batman/"
+		"title": "Roles",
+		"body": "roles team discovery culture service manager product manager designers developer",
+		"path": "/topics/starting-team/roles/"
 	})
 	this.add({
-		"title": "Superman",
-		"body": "A humanoid alien that grew up on earth with super-powers",
-		"author": "DC Comics",
-		"path": "/justiceleague/superman/"
+		"title": "Identify business needs",
+		"body": "content strategy align agreement",
+		"path": "/content-strategy/identify-business-needs/"
 	})
 })
 
-const searchTerm = "marvel";
+const searchTerm = "team";
 
 
-// TO DO: Serialise, store the file, and fetch the file.
-// SEARCH on the fetched index
+// TO DO: Serialise, store the file in FS, and fetch the file from a static page
 
 const serialisedIndex = JSON.stringify(index);
-// store serialisedIndex as "/site/searchindex.json"
-// data = fetch("/site/searchindex.json")
-// const index2 = lunr.Index.load(JSON.parse(data));
+// fs.store serialisedIndex as "/site/searchindex.json"
 
 
-console.log(JSON.stringify(index.search(searchTerm + "*"),null,2));
+
+console.log(JSON.stringify(index.search(searchTerm),null,2));
 
 
 console.log("=================================");
