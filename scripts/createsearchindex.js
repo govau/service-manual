@@ -1,12 +1,13 @@
 console.log("=================================");
-console.log("         Lunr search...");
-console.log("=================================");
+console.log("      Creating Lunr index...");
+
 
 // Scan through all content/ directories
 //   For each markdown file
 //     CreateIndex(title,content,path)
 
-var lunr = require('lunr');
+const lunr = require('lunr');
+const fs = require('fs');
 
 var index = lunr(function () {
   this.field('title')
@@ -30,21 +31,11 @@ var index = lunr(function () {
 	})
 })
 
-const searchTerm = "team";
-
-
-// TO DO: Serialise, store the file in FS, and fetch the file from a static page
-
 const serialisedIndex = JSON.stringify(index);
-// fs.store serialisedIndex as "/site/searchindex.json"
 
-
-
-console.log(JSON.stringify(index.search(searchTerm),null,2));
-
+fs.writeFile('site/search_index.json', serialisedIndex, (err) => {
+  if (err) throw err;
+  console.log('The Lunr search index has been created -> site/search_index.json');
+});
 
 console.log("=================================");
-
-// Build the search index
-//console.log(JSON.stringify(index));
-//console.log(JSON.stringify(index,null,2));
