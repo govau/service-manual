@@ -62,7 +62,10 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 										</Fragment>
 							}
 
-							<button id="mainmenu-toggle"
+						<form action="/search" method="get">
+							<input name="query" type="text" />
+						</form>
+						<button id="mainmenu-toggle"
 								className="mainmenu-toggle au-btn au-btn--tertiary au-btn--dark au-btn--block icon au-accordion--closed"
 								aria-controls="mainmenu"
 								aria-expanded="false"
