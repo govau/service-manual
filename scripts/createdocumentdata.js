@@ -3,7 +3,7 @@ console.log("🔍 Creating document data for Lunr...");
 const fs = require('fs');
 const yaml = require('js-yaml');
 
-
+// ♻️ LOOP THRU ALL THE FILES AND BUILD UP THE JSON
 
 
 
