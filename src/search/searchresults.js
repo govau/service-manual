@@ -7,17 +7,20 @@ import React, { Fragment } from 'react';
  *
  * @disable-docs
  */
-const SearchResults = ( page ) => (
-		<Fragment>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.2.1/lunr.min.js" />
-			<div className="au-body">
-					<h2>{ page.heading }</h2>
-					Your search for "<em><span id="searchresults__query" /></em>" returned:
+const SearchResults = ( page ) => {
 
-					<pre><div id="searchresults__resultslist" /></pre>
-			</div>
-		</Fragment>
-);
+	return (
+			<Fragment>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.2.1/lunr.min.js" />
+				<div className="au-body">
+						<h2>{ page.heading }</h2>
+						Your search for "<em><span id="searchresults__query" /></em>" returned:
+
+						<pre><div id="searchresults__resultslist" /></pre>
+				</div>
+			</Fragment>
+	);
+}
 
 
 SearchResults.propTypes = {
