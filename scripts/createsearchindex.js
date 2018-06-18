@@ -1,4 +1,4 @@
-console.log("      Creating Lunr index...");
+console.log(" 🌙 Creating Lunr index...");
 
 
 // Scan through all content/ directories
