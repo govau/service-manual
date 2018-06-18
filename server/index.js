@@ -30,15 +30,13 @@ const ForwardSSL = ( request, response, next ) => {
 	response.redirect(`https://${ request.headers.host }${ request.originalUrl }`);
 };
 
+
 /**
  * Start server
  */
 Server
 	// First we make sure all requests come through HTTPS
 	.all( '*', ForwardSSL )
-
-	// Let's make sure we had the password passed in
-	.get( '*', AddFakePassword )
 
 	// Then we add dynamic routes that overwrite static ones
 	.get( '/dynamic/', ( request, response ) => {
