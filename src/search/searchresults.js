@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import React from 'react';
+import React, { Fragment } from 'react';
 
 
 /**
@@ -8,10 +8,15 @@ import React from 'react';
  * @disable-docs
  */
 const SearchResults = ( page ) => (
-		<div className="au-body">
-				<h2>{ page.heading }</h2>
-				Your search for "<em><span id="searchresults__query" /></em>" returned:
-		</div>
+		<Fragment>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.2.1/lunr.min.js" />
+			<div className="au-body">
+					<h2>{ page.heading }</h2>
+					Your search for "<em><span id="searchresults__query" /></em>" returned:
+
+					<pre><div id="searchresults__resultslist" /></pre>
+			</div>
+		</Fragment>
 );
 
 
