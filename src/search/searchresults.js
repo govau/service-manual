@@ -10,7 +10,7 @@ import React from 'react';
 const SearchResults = ( page ) => (
 		<div className="au-body">
 				<h2>{ page.heading }</h2>
-				<div className="searchresults" />
+				Your search for "<em><span id="searchresults__query" /></em>" returned:
 		</div>
 );
 
