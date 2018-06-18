@@ -30,6 +30,11 @@ var index = lunr(function () {
 		"body": "content strategy align agreement",
 		"path": "/content-strategy/identify-business-needs/"
 	})
+	this.add({
+		"title": "SEO",
+		"body": "Search engine optimisation",
+		"path": "/content-strategy/search-engine-optimsation/"
+	})
 })
 
 const serialisedIndex = JSON.stringify(index);
