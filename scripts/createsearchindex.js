@@ -12,6 +12,7 @@ const fs = require('fs');
 var index = lunr(function () {
   this.field('title')
   this.field('body')
+	this.field('path')
 	this.ref('path')
 
   this.add({

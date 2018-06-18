@@ -15,6 +15,7 @@ if (window.location.pathname == "/search/" ) {
 	var index = lunr(function () {
 	  this.field('title')
 	  this.field('body')
+		this.field('path')
 		this.ref('path')
 
 	  this.add({
@@ -32,9 +33,14 @@ if (window.location.pathname == "/search/" ) {
 			"body": "content strategy align agreement",
 			"path": "/content-strategy/identify-business-needs/"
 		})
+		this.add({
+			"title": "Define your SEO",
+			"body": "Search engine optimisation in-page off-page",
+			"path": "/content-strategy/seo/"
+		})
 	})
 
-	let searchresults_json = index.search(query);
+	let searchresults_json = index.search(query + "~1");
 
 	searchresults__resultslist.innerHTML = JSON.stringify(searchresults_json,null,2);
 
