@@ -27,5 +27,5 @@ const serialisedIndex = JSON.stringify(index);
 
 fs.writeFile('site/search_index.json', serialisedIndex, (err) => {
   if (err) throw err;
-  console.log('The Lunr search index has been created -> site/search_index.json');
+  console.log('💾 The Lunr search index has been created -> site/search_index.json');
 });
