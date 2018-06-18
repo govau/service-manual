@@ -6,20 +6,20 @@ const fs = require('fs');
 const data = fs.readFileSync('scripts/documents.json');
 const documents = JSON.parse(data);
 
-const index = lunr(function () {
-  this.field('title')
-  this.field('body')
+const index = lunr(function() {
+	this.field('title')
+	this.field('body')
 	this.ref('path')
 
-	documents.forEach(function (doc) {
-    this.add(doc)
-  }, this)
+	documents.forEach(function(doc) {
+		this.add(doc)
+	}, this)
 
 })
 
 const serialisedIndex = JSON.stringify(index);
 
 fs.writeFile('site/search_index.json', serialisedIndex, (err) => {
-  if (err) throw err;
-  console.log('💾 The Lunr search index has been created -> site/search_index.json');
+	if (err) throw err;
+	console.log('💾 The Lunr search index has been created -> site/search_index.json');
 });
