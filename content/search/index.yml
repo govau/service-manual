@@ -1,0 +1,9 @@
+pagetitle: Search
+weight: 300
+description: Search page for Guides
+header:
+  - header.md
+main:
+
+footer:
+  - /_shared/footer.md
