@@ -4,6 +4,6 @@ description: Search page for Guides
 header:
   - header.md
 main:
-
+  - search.md
 footer:
   - /_shared/footer.md
