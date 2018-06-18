@@ -1,4 +1,4 @@
-console.log("🔍 Creating Document JSON for Lunr...");
+console.log("🔍 Creating document data for Lunr...");
 
 const fs = require('fs');
 const yaml = require('js-yaml');
