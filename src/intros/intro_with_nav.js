@@ -71,34 +71,19 @@ IntroNav.propTypes = {
 	category: PropTypes.string,
 
 	/**
-	 * attrTitle1: Created by
+	 * created_by: Digital Transformation Agency
 	 */
-	attrTitle1: PropTypes.string,
+	created_by: PropTypes.string,
 
 	/**
-	 * attrValue1: Digital Transformation Agency, Department of Immigration and Border Protection
+	 * published_date: "2018-03-15"
 	 */
-	attrValue1: PropTypes.string,
+	published_date: PropTypes.string,
 
 	/**
-	 * attrLink1: http://google.com
+	 * reviewed_date: "2018-06-25"
 	 */
-	attrLink1: PropTypes.string,
-
-	/**
-	 * attrTitle2: 4 June 2017
-	 */
-	attrTitle2: PropTypes.string,
-
-	/**
-	 * attrValue2: 4 June 2017
-	 */
-	attrValue2: PropTypes.string,
-
-	/**
-	 * attrLink2: http://google.com
-	 */
-	attrLink2: PropTypes.string,
+	reviewed_date: PropTypes.string,
 
 	/**
 	 * title: Page title  # if not given, it takes the title from the current page
