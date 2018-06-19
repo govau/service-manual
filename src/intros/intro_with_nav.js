@@ -26,26 +26,15 @@ const IntroNav = ( page ) => {
 						<div className="au-body textwrapper intro__textwrapper__withnav">
 							<div />
 							{ page.subtitle && <p className="guides-category-header-description intro-with-nav__subtitle">{ page.subtitle }</p> }
-							{ page.attrTitle1 &&
-								<p className="intro__metadata intro__metadata--intro small">
-								  <dl>
-									<dt>{ page.attrTitle1 }</dt>
-									<dd>{ page.attrLink1 ? (
-										<a href={ page.attrLink1 }>{ page.attrValue1 }</a>
-										) : (
-										<span>{ page.attrValue1 }</span>
-										)}
-									</dd>
-									<dt>{ page.attrTitle2 }</dt>
-									<dd>{ page.attrLink2 ? (
-										<a href={ page.attrLink2 }>{ page.attrValue2 }</a>
-										) : (
-										<span>{ page.attrValue2 }</span>
-										)}
-									</dd>
-								  </dl>
-								</p>
-							}
+
+							<p className="intro__metadata intro__metadata--intro small">
+							  <dl>
+									{ page.created_by && <React.Fragment><dt>Created by</dt><dd><span>{ page.created_by }</span></dd></React.Fragment> }
+									{ page.published_date && <React.Fragment><dt>Published</dt><dd><span>{ page.published_date }</span></dd></React.Fragment> }
+									{ page.reviewed_date && <React.Fragment><dt>Reviewed</dt><dd><span>{ page.reviewed_date }</span></dd></React.Fragment> }
+							  </dl>
+							</p>
+
 							<div className="spacer__med" />
 							<div className="au-body intro__text">{ page._body }</div>
 						</div>
