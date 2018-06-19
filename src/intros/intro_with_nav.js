@@ -10,6 +10,24 @@ import Childnav from '../nav/childnav';
  */
 const IntroNav = ( page ) => {
 
+	function formatDate(isodate) {
+		const date = new Date(isodate);
+		const month = new Array();
+		month[0] = "January";
+		month[1] = "February";
+		month[2] = "March";
+		month[3] = "April";
+		month[4] = "May";
+		month[5] = "June";
+		month[6] = "July";
+		month[7] = "August";
+		month[8] = "September";
+		month[9] = "October";
+		month[10] = "November";
+		month[11] = "December";
+		return date.getDate() + " " + month[date.getMonth()] + " " + date.getFullYear();
+	}
+
 	return (
 		<div className="au-grid intro intro--withnav intro__wrapper">
 			<div className="container-fluid">
@@ -30,8 +48,8 @@ const IntroNav = ( page ) => {
 							<p className="intro__metadata intro__metadata--intro small">
 							  <dl>
 									{ page.created_by && <React.Fragment><dt>Created by</dt><dd><span>{ page.created_by }</span></dd></React.Fragment> }
-									{ page.published_date && <React.Fragment><dt>Published</dt><dd><span>{ page.published_date }</span></dd></React.Fragment> }
-									{ page.reviewed_date && <React.Fragment><dt>Reviewed</dt><dd><span>{ page.reviewed_date }</span></dd></React.Fragment> }
+									{ page.published_date && <React.Fragment><dt>Published</dt><dd><span>{ formatDate(page.published_date) }</span></dd></React.Fragment> }
+									{ page.reviewed_date && <React.Fragment><dt>Reviewed</dt><dd><span>{ formatDate(page.reviewed_date) }</span></dd></React.Fragment> }
 							  </dl>
 							</p>
 
