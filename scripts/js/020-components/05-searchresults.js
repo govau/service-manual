@@ -20,6 +20,15 @@ if (window.location.pathname == "/search/" ) {
 	.then(function(json) {
 		const index = lunr.Index.load(json);
 		const searchresults_json = index.search(query + "~1");
-		searchresults__resultslist.innerHTML = JSON.stringify(searchresults_json,null,2);
+		const resultsObj = searchresults_json;
+		let htmlstring = "";
+
+		resultsObj.forEach (function (result) {
+			console.log(result.ref);
+			htmlstring = htmlstring + "<li>" + result.ref + "</li>";
+		});
+
+		searchresults__resultslist.innerHTML = htmlstring;
+		//searchresults__resultslist.innerHTML = JSON.stringify(searchresults_json,null,2);
 	});
 }
