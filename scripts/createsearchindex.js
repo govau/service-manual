@@ -3,12 +3,11 @@ console.log(" 🌙 Creating Lunr index...");
 const lunr = require('lunr');
 const fs = require('fs');
 
-const data = fs.readFileSync('scripts/documents.json');
+const data = fs.readFileSync('site/documents.json');
 const documents = JSON.parse(data);
 
 const index = lunr(function() {
 	this.field('title')
-	this.field('body')
 	this.ref('path')
 
 	documents.forEach(function(doc) {

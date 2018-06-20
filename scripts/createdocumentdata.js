@@ -32,10 +32,21 @@ function directoryWalker(dir, done) {
 			fs.stat(file, function(err, stat) {
 				// If directory, execute a recursive call
 				if (stat && stat.isDirectory()) {
-					// Add directory to array [comment if you need to remove the directories from the array]
 
 					let document = new Object();
-					document.title = "chris"
+
+					// load the index.yml and get the data
+					try {
+					  const indexyaml = yaml.safeLoad(fs.readFileSync(file + "/index.yml", 'utf8'));
+						document.title = indexyaml.pagetitle;
+						//document.body = indexyaml.description;
+						//console.log(indexyaml.pagetitle);
+					  //console.log(indexyaml);
+					} catch (e) {
+					  console.log(e);
+					}
+
+
 					document.path = file.replace(rootdir,"/");
 					documents.push(document);
 
