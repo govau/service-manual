@@ -1,5 +1,5 @@
 ---
 layout: category/category_header
 title: Content Strategy Guide
-description: A content strategy sets the foundation for the creation, structure and governance of content. It can be used for any new services, content redesigns or big changes such as Machinery of Government changes.
+description: A content strategy sets the foundation for the creation, structure and governance of content. You should apply a content strategy when building new services, doing content redesigns or for big changes such as Machinery of Government updates.
 ---
