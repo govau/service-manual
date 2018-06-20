@@ -39,7 +39,7 @@ function directoryWalker(dir, done) {
 					try {
 					  const indexyaml = yaml.safeLoad(fs.readFileSync(file + "/index.yml", 'utf8'));
 						document.title = indexyaml.pagetitle;
-						//document.body = indexyaml.description;
+						document.body = indexyaml.description;
 						//console.log(indexyaml.pagetitle);
 					  //console.log(indexyaml);
 					} catch (e) {

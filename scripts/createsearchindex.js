@@ -8,6 +8,7 @@ const documents = JSON.parse(data);
 
 const index = lunr(function() {
 	this.field('title')
+	this.field('body')
 	this.ref('path')
 
 	documents.forEach(function(doc) {
