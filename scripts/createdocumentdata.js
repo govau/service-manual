@@ -5,6 +5,7 @@ const yaml = require('js-yaml');
 // ♻️ LOOP THRU ALL THE FILES AND BUILD UP THE JSON
 const fs = require('fs');
 const path = require('path');
+const rootdir = path.dirname(__dirname)+"/content/";
 
 /**
  * Explores recursively a directory and returns all the filepaths and folderpaths in the callback.
@@ -16,15 +17,14 @@ const path = require('path');
  */
 function directoryWalker(dir, done) {
 	let results = [];
-	let paths = [];
-	let pagetitles = [];
+	let documents = [];
 
 	fs.readdir(dir, function(err, list) {
 		if (err) return done(err);
 
 		var pending = list.length;
 
-		if (!pending) return done(null, results);
+		if (!pending) return done(null, results, documents);
 
 		list.forEach(function(file) {
 			file = path.resolve(dir, file);
@@ -33,16 +33,23 @@ function directoryWalker(dir, done) {
 				// If directory, execute a recursive call
 				if (stat && stat.isDirectory()) {
 					// Add directory to array [comment if you need to remove the directories from the array]
+
+					let document = new Object();
+					document.title = "chris"
+					document.path = file.replace(rootdir,"/");
+					documents.push(document);
+
 					results.push(file);
 
-					directoryWalker(file, function(err, res) {
+					directoryWalker(file, function(err, res, docs) {
 						results = results.concat(res);
-						if (!--pending) done(null, results);
+						documents = documents.concat(docs);
+						if (!--pending) done(null, results, documents);
 					});
 				} else {
 					//results.push(file);
 
-					if (!--pending) done(null, results);
+					if (!--pending) done(null, results, documents);
 				}
 			});
 		});
@@ -51,16 +58,14 @@ function directoryWalker(dir, done) {
 
 ////////////////////////
 
-directoryWalker("./content/", function(err, data) {
+directoryWalker("./content/", function(err, dirs, documents) {
 	if (err) {
 		throw err;
 	}
-	//console.log(data);
+	//console.log(dirs);
 	const util = require('util')
-	console.log(util.inspect(data, { maxArrayLength: null }))
+	console.log(util.inspect(documents, { maxArrayLength: null }))
 });
-
-console.log("current dir:" + __dirname)
 
 
 // 💾 WRITE THE FILE
