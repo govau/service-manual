@@ -1,9 +1,7 @@
 ---
 layout: intros/intro_with_nav
 subtitle: When you create content, be mindful that users have diverse needs and abilities.
-attrTitle1: Created by
-attrValue1: Digital Transformation Agency and the Australian Taxation Office
-attrTitle2: Reviewed on
-attrValue2: 23 October 2017
+created_by: Digital Transformation Agency and the Australian Taxation Office
+reviewed_date: "2017-10-23"
 category: User research
 ---
