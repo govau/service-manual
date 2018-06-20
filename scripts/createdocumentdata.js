@@ -16,6 +16,8 @@ const path = require('path');
  */
 function directoryWalker(dir, done) {
 	let results = [];
+	let paths = [];
+	let pagetitles = [];
 
 	fs.readdir(dir, function(err, list) {
 		if (err) return done(err);
@@ -58,9 +60,11 @@ directoryWalker("./content/", function(err, data) {
 	console.log(util.inspect(data, { maxArrayLength: null }))
 });
 
+console.log("current dir:" + __dirname)
+
 
 // 💾 WRITE THE FILE
-// fs.writeFile('scripts/documents.json', serialisedIndex, (err) => {
+// fs.writeFile('site/documents.json', serialisedIndex, (err) => {
 //   if (err) throw err;
-//   console.log('💾 The Lunr document index has been created -> scripts/documents.json');
+//   console.log('💾 The Lunr document index has been created -> site/documents.json');
 // });
