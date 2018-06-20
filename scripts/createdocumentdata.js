@@ -58,6 +58,14 @@ function directoryWalker(dir, done) {
 
 ////////////////////////
 
+// 💾 WRITE THE FILE
+function writeDocumentData(data) {
+	fs.writeFile('site/documents.json', JSON.stringify(data), (err) => {
+	  if (err) throw err;
+	  console.log('💾 The Lunr document index has been created -> site/documents.json');
+	});
+}
+
 directoryWalker("./content/", function(err, dirs, documents) {
 	if (err) {
 		throw err;
@@ -65,11 +73,5 @@ directoryWalker("./content/", function(err, dirs, documents) {
 	//console.log(dirs);
 	const util = require('util')
 	console.log(util.inspect(documents, { maxArrayLength: null }))
+	writeDocumentData(documents);
 });
-
-
-// 💾 WRITE THE FILE
-// fs.writeFile('site/documents.json', serialisedIndex, (err) => {
-//   if (err) throw err;
-//   console.log('💾 The Lunr document index has been created -> site/documents.json');
-// });
