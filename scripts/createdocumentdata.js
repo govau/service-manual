@@ -10,10 +10,11 @@ const path = require('path');
  * Explores recursively a directory and returns all the filepaths and folderpaths in the callback.
  *
  * @see http://stackoverflow.com/a/5827895/4241030
+ * @see https://ourcodeworld.com/articles/read/420/how-to-read-recursively-a-directory-in-node-js
  * @param {String} dir
  * @param {Function} done
  */
-function filewalker(dir, done) {
+function directoryWalker(dir, done) {
 	let results = [];
 
 	fs.readdir(dir, function(err, list) {
@@ -32,12 +33,12 @@ function filewalker(dir, done) {
 					// Add directory to array [comment if you need to remove the directories from the array]
 					results.push(file);
 
-					filewalker(file, function(err, res) {
+					directoryWalker(file, function(err, res) {
 						results = results.concat(res);
 						if (!--pending) done(null, results);
 					});
 				} else {
-					results.push(file);
+					//results.push(file);
 
 					if (!--pending) done(null, results);
 				}
@@ -48,11 +49,13 @@ function filewalker(dir, done) {
 
 ////////////////////////
 
-filewalker("./content/", function(err, data) {
+directoryWalker("./content/", function(err, data) {
 	if (err) {
 		throw err;
 	}
-	console.log(data);
+	//console.log(data);
+	const util = require('util')
+	console.log(util.inspect(data, { maxArrayLength: null }))
 });
 
 
