@@ -23,12 +23,25 @@ if (window.location.pathname == "/search/" ) {
 		const resultsObj = searchresults_json;
 		let htmlstring = "";
 
-		resultsObj.forEach (function (result) {
-			console.log(result.ref);
-			htmlstring = htmlstring + "<li>" + result.ref + "</li>";
+		// fetch the document index to lookup title and form the link
+		fetch('../documents.json')
+		.then(function(response) {
+			return response.json();
+		})
+		.then(function(documentsjson) {
+
+			// form the results list
+			resultsObj.forEach (function (result) {
+				// lookup the title
+				let pagetitle = documentsjson.find(function(document) {
+					return document.path == result.ref;
+				});
+				htmlstring = htmlstring + "<li>" + pagetitle.title + result.ref + "</li>";
+			});
+			searchresults__resultslist.innerHTML = htmlstring;
 		});
 
-		searchresults__resultslist.innerHTML = htmlstring;
-		//searchresults__resultslist.innerHTML = JSON.stringify(searchresults_json,null,2);
+
+		//console.log(JSON.stringify(searchresults_json,null,2));
 	});
 }
