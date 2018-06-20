@@ -45,7 +45,7 @@ const IntroNav = ( page ) => {
 							<div />
 							{ page.subtitle && <p className="guides-category-header-description intro-with-nav__subtitle">{ page.subtitle }</p> }
 
-							<p className="intro__metadata intro__metadata--intro small">
+							<p className="intro__metadata">
 							  <dl>
 									{ page.created_by && <React.Fragment><dt>Created by</dt><dd><span>{ page.created_by }</span></dd></React.Fragment> }
 									{ page.published_date && <React.Fragment><dt>Published</dt><dd><span>{ formatDate(page.published_date) }</span></dd></React.Fragment> }
