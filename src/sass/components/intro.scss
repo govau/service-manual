@@ -17,36 +17,29 @@
 }
 
 .intro__metadata {
-	dl > dt {
-		margin: 0;
-		padding: AU-space( 0.5 ) AU-space( 0.5 ) 0 AU-space( 0.5 );
 
-		@include AU-media( sm ) {
-			width: 20%;
-		}
-	}
 
-	dl > dd {
-		margin: 0;
-	}
-
-	dd, dt {
-		display: block;
-
-		@include AU-media( xs ) {
-			display: inline-block;
-			vertical-align: top;
-		}
-	}
-
-	dd {
-		padding: 0.75em;
-
-		@include AU-media( sm ) {
-			width: 70%;
-		}
-	}
 }
+
+dl.intro__metadata {
+		margin-top: 2rem;
+    background-color: $AU-color-background-shade;
+    padding: 2rem;
+		font-size: 0.8rem;
+  }
+.intro__metadata dt {
+  float: left;
+  clear: left;
+  text-align: right;
+  font-weight: bold;
+	font-weight: 600;
+}
+.intro__metadata dd {
+  margin: 0 0 0 6rem;
+  padding: 0 0 0.5rem 0;
+	font-weight: 300;
+}
+
 
 .intro__headline {
 	font-size: 62px;
