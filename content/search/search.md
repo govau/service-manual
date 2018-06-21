@@ -1,4 +1,4 @@
 ---
 layout: search/searchresults
-heading: Search results
+heading: Search
 ---

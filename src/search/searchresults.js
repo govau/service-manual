@@ -12,12 +12,12 @@ const SearchResults = ( page ) => {
 	return (
 			<div className="container-fluid au-body">
 				<div className="row">
-					<div className="col-xs-12">
+					<div className="col-xs-12 searchresults__list">
 						<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.2.1/lunr.min.js" />
-						<h2>{ page.heading }</h2>
-						Your search for "<em><span id="searchresults__query" /></em>" returned:
+						<h2 className="au-display-xxxl">{ page.heading }</h2>
+						<h3>Your search for <em><span id="searchresults__query" /></em> returned:</h3>
 
-						<ul><div id="searchresults__resultslist" /></ul>
+						<ul id="searchresults__resultslist"></ul>
 					</div>
 				</div>
 			</div>
