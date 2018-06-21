@@ -70,7 +70,7 @@ function getAllUrlParams(url) {
 
 // Strip the + delimeters
 function stripDelimeters(string) {
-	return string.replace("+"," ");
+	return string.split('+').join(' ');
 }
 
 // only run Lunr code on the search page
