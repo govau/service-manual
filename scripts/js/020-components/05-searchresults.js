@@ -60,9 +60,6 @@ function getAllUrlParams(url) {
   return obj;
 }
 
-//var url_string = window.location.href;
-//var url = new URL(url_string);
-
 // only run Lunr code on the search page
 // as Lunr.min.js is not loaded by default
 if (window.location.pathname == "/search/" ) {
@@ -80,7 +77,6 @@ if (window.location.pathname == "/search/" ) {
 		var index = lunr.Index.load(obj);
 		var searchresults_json = index.search(query + "~1");
 		resultsObj = searchresults_json;
-		//console.log(JSON.stringify(resultsObj));
 
 		// fetch the path map to lookup title and form the link
 		var load_pathmap = new XMLHttpRequest();
@@ -93,19 +89,14 @@ if (window.location.pathname == "/search/" ) {
 
 	function pmListener() {
 		var documentsjson = JSON.parse(this.responseText);
-		//console.log(JSON.stringify(documentsjson));
+
 		// form the results list
 		resultsObj.forEach (function (result) {
+
 			// lookup the title
-
-			// var pagetitle = documentsjson.find(function(document) {
-			// 	return document.path == result.ref;
-			// });
-
 			var pagetitle = "";
 
 			for (var i = 0; i < documentsjson.length; i++ ) {
-				//console.log(documentsjson[i].title);
 				if (documentsjson[i].path == result.ref) {
 					pagetitle = documentsjson[i].title;
 					continue;
