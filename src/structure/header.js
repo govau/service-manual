@@ -29,7 +29,7 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 			<AUheader dark>
 				<div className="container-fluid">
 					<div className="row">
-						<div className="col-md-12">
+						<div className="col-md-9">
 
 							{/* If statement for Home / Content Page */}
 							{
@@ -62,17 +62,20 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 										</Fragment>
 							}
 
-						<form action="/search" method="get">
-							<input name="query" type="text" />
-						</form>
 						<button id="mainmenu-toggle"
 								className="mainmenu-toggle au-btn au-btn--tertiary au-btn--dark au-btn--block icon au-accordion--closed"
 								aria-controls="mainmenu"
 								aria-expanded="false"
 								aria-selected="false"
 								role="tab">Open menu</button>
-
 						</div>
+
+						<div className="col-md-3">
+							<form action="/search" method="get">
+								<input className="search__box" name="query" type="text" />
+							</form>
+						</div>
+
 					</div>
 				</div>
 			</AUheader>
