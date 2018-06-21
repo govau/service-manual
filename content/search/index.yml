@@ -1,4 +1,5 @@
 pagetitle: Search
+hidden: true
 weight: 300
 description: Search page for Guides
 header:

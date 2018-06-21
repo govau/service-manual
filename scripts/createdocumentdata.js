@@ -40,19 +40,23 @@ function directoryWalker(dir, done) {
 					// load the index.yml and get the data
 					try {
 					  const indexyaml = yaml.safeLoad(fs.readFileSync(file + "/index.yml", 'utf8'));
+
+						// do not index hidden pages
+						if (indexyaml.hidden) {
+							throw("Not indexing hidden page: " + file.replace(rootdir,"/"));
+						}
 						document.title = indexyaml.pagetitle;
 						document.body = indexyaml.description;
-
 						pathmapitem.title = indexyaml.pagetitle;
+
+						document.path = file.replace(rootdir,"/");
+						pathmapitem.path = file.replace(rootdir,"/");
+						documents.push(document);
+						pathmap.push(pathmapitem);
 
 					} catch (e) {
 					  console.log(e);
 					}
-
-					document.path = file.replace(rootdir,"/");
-					pathmapitem.path = file.replace(rootdir,"/");
-					documents.push(document);
-					pathmap.push(pathmapitem);
 
 					results.push(file);
 
