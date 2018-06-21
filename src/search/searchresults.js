@@ -16,7 +16,7 @@ const SearchResults = ( page ) => {
 						<h2>{ page.heading }</h2>
 						Your search for "<em><span id="searchresults__query" /></em>" returned:
 
-						<pre><div id="searchresults__resultslist" /></pre>
+						<div id="searchresults__resultslist" />
 				</div>
 			</Fragment>
 	);

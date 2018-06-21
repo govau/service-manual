@@ -36,7 +36,8 @@ if (window.location.pathname == "/search/" ) {
 				let pagetitle = documentsjson.find(function(document) {
 					return document.path == result.ref;
 				});
-				htmlstring = htmlstring + "<li>" + pagetitle.title + result.ref + "</li>";
+				// htmlstring = htmlstring + "<li>" + pagetitle.title + result.ref + "</li>";
+				htmlstring = htmlstring + "<li><a href='" + result.ref +"'>" + pagetitle.title + "</a></li>";
 			});
 			searchresults__resultslist.innerHTML = htmlstring;
 		});
