@@ -18,13 +18,14 @@ const rootdir = path.dirname(__dirname)+"/content/";
 function directoryWalker(dir, done) {
 	let results = [];
 	let documents = [];
+	let pathmap = [];
 
 	fs.readdir(dir, function(err, list) {
 		if (err) return done(err);
 
 		var pending = list.length;
 
-		if (!pending) return done(null, results, documents);
+		if (!pending) return done(null, results, documents, pathmap);
 
 		list.forEach(function(file) {
 			file = path.resolve(dir, file);
@@ -34,33 +35,37 @@ function directoryWalker(dir, done) {
 				if (stat && stat.isDirectory()) {
 
 					let document = new Object();
+					let pathmapitem = new Object();
 
 					// load the index.yml and get the data
 					try {
 					  const indexyaml = yaml.safeLoad(fs.readFileSync(file + "/index.yml", 'utf8'));
 						document.title = indexyaml.pagetitle;
 						document.body = indexyaml.description;
-						//console.log(indexyaml.pagetitle);
-					  //console.log(indexyaml);
+
+						pathmapitem.title = indexyaml.pagetitle;
+
 					} catch (e) {
 					  console.log(e);
 					}
 
-
 					document.path = file.replace(rootdir,"/");
+					pathmapitem.path = file.replace(rootdir,"/");
 					documents.push(document);
+					pathmap.push(pathmapitem);
 
 					results.push(file);
 
-					directoryWalker(file, function(err, res, docs) {
+					directoryWalker(file, function(err, res, docs, pthmp) {
 						results = results.concat(res);
 						documents = documents.concat(docs);
-						if (!--pending) done(null, results, documents);
+						pathmap = pathmap.concat(pthmp);
+						if (!--pending) done(null, results, documents, pathmap);
 					});
 				} else {
 					//results.push(file);
 
-					if (!--pending) done(null, results, documents);
+					if (!--pending) done(null, results, documents, pathmap);
 				}
 			});
 		});
@@ -77,12 +82,21 @@ function writeDocumentData(data) {
 	});
 }
 
-directoryWalker("./content/", function(err, dirs, documents) {
+function writePathmapData(data) {
+	fs.writeFile('site/pathmap.json', JSON.stringify(data), (err) => {
+	  if (err) throw err;
+	  console.log('💾 The Lunr path map has been created -> site/pathmap.json');
+	});
+}
+
+directoryWalker("./content/", function(err, dirs, documents, pathmap) {
 	if (err) {
 		throw err;
 	}
-	//console.log(dirs);
+
 	const util = require('util')
-	console.log(util.inspect(documents, { maxArrayLength: null }))
+	console.log(util.inspect(pathmap, { maxArrayLength: null }))
+
 	writeDocumentData(documents);
+	writePathmapData(pathmap);
 });

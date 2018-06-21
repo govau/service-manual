@@ -23,8 +23,8 @@ if (window.location.pathname == "/search/" ) {
 		const resultsObj = searchresults_json;
 		let htmlstring = "";
 
-		// fetch the document index to lookup title and form the link
-		fetch('../documents.json')
+		// fetch the path map to lookup title and form the link
+		fetch('../pathmap.json')
 		.then(function(response) {
 			return response.json();
 		})
