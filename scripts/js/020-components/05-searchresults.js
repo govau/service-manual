@@ -97,10 +97,22 @@ if (window.location.pathname == "/search/" ) {
 		// form the results list
 		resultsObj.forEach (function (result) {
 			// lookup the title
-			var pagetitle = documentsjson.find(function(document) {
-				return document.path == result.ref;
-			});
-			htmlstring = htmlstring + "<li><a href='" + result.ref +"'>" + pagetitle.title + "</a></li>";
+
+			// var pagetitle = documentsjson.find(function(document) {
+			// 	return document.path == result.ref;
+			// });
+
+			var pagetitle = "";
+
+			for (var i = 0; i < documentsjson.length; i++ ) {
+				//console.log(documentsjson[i].title);
+				if (documentsjson[i].path == result.ref) {
+					pagetitle = documentsjson[i].title;
+					continue;
+				}
+			}
+
+			htmlstring = htmlstring + "<li><a href='" + result.ref +"'>" + pagetitle + "</a></li>";
 		});
 		searchresults__resultslist.innerHTML = htmlstring;
 	}
