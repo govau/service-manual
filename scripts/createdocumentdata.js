@@ -1,11 +1,13 @@
+// ♻️ LOOP THRU ALL THE FILES AND BUILD UP THE JSON
+// Outputs a JSON document list for indexing by Lunr
+
 console.log("🔍 Creating document data for Lunr...");
 
 const yaml = require('js-yaml');
-
-// ♻️ LOOP THRU ALL THE FILES AND BUILD UP THE JSON
 const fs = require('fs');
 const path = require('path');
 const rootdir = path.dirname(__dirname)+"/content/";
+
 
 /**
  * Explores recursively a directory and returns all the filepaths and folderpaths in the callback.
@@ -99,7 +101,7 @@ directoryWalker("./content/", function(err, dirs, documents, pathmap) {
 	}
 
 	const util = require('util')
-	console.log(util.inspect(pathmap, { maxArrayLength: null }))
+	//console.log(util.inspect(pathmap, { maxArrayLength: null }))
 
 	writeDocumentData(documents);
 	writePathmapData(pathmap);
