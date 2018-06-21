@@ -1,14 +1,10 @@
 pagetitle: Content Strategy Guide
 weight: 60
-description: A content strategy sets the foundation for the creation, structure and governance of content.
-theme: blue
+description: 
 header:
   - /_shared/globalheader.md
   - header.md
 main:
-  - why.md
-  - how-head.md
-  - how.md
   - begin-cards.md
   - research-cards.md
   - develop-cards.md

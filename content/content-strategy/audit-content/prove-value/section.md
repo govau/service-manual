@@ -6,6 +6,6 @@ Content audits don’t just make things easier for the end user. They also help 
 
 A content audit can create efficiencies that:
 
-  * make it easier for website managers, administrators and content owners. It helps them to manage content with clear evidence – leading to less quantity but more quality
+  * make it easier for website managers, administrators and content owners. It helps them to manage content with clear evidence — leading to less quantity but more quality
   * can help website owners develop a content strategy to set up the direction for more improvements
 

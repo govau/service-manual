@@ -1,9 +1,7 @@
 ---
 layout: intros/intro_with_nav
 subtitle: A content management system (CMS) is a tool that helps you manage content all in one place. Learn how to choose the best CMS for your purposes and get the most out of it.
-attrTitle1: Created by
-attrValue1: Digital Transformation Agency and Department of Employment
-attrTitle2: Reviewed on 
-attrValue2: 8 June 2018
+created_by: Digital Transformation Agency and Department of Employment
+reviewed_date: "2018-06-08"
 category: Content strategy
 ---
