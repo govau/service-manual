@@ -10,15 +10,19 @@ import React, { Fragment } from 'react';
 const SearchResults = ( page ) => {
 
 	return (
-			<Fragment>
-				<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.2.1/lunr.min.js" />
-				<div className="au-body">
-						<h2>{ page.heading }</h2>
-						Your search for "<em><span id="searchresults__query" /></em>" returned:
+			<div className="container-fluid au-body">
+				<div className="row">
+					<div className="col-xs-12">
+						<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.2.1/lunr.min.js" />
+						<div>
+								<h2>{ page.heading }</h2>
+								Your search for "<em><span id="searchresults__query" /></em>" returned:
 
-						<div id="searchresults__resultslist" />
+								<div id="searchresults__resultslist" />
+						</div>
+					</div>
 				</div>
-			</Fragment>
+			</div>
 	);
 }
 
