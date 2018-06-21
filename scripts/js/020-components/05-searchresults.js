@@ -64,7 +64,8 @@ function getAllUrlParams(url) {
 // as Lunr.min.js is not loaded by default
 if (window.location.pathname == "/search/" ) {
 
-	var query = getAllUrlParams().query;
+	var rawQuery = getAllUrlParams().query;
+	var query = rawQuery.replace("+"," ");
 	var searchresults = document.getElementById("searchresults__query")
 	var searchresults__resultslist = document.getElementById("searchresults__resultslist")
 	var resultsObj = new Object();
