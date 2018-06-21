@@ -1,3 +1,11 @@
+// Get URL parameters as an object
+// USAGE:
+// getAllUrlParams().product; // 'shirt'
+// getAllUrlParams().color; // 'blue'
+// getAllUrlParams().newuser; // true
+// getAllUrlParams().nonexistent; // undefined
+// getAllUrlParams('http://test.com/?a=abc').a; // 'abc'
+
 function getAllUrlParams(url) {
 
   // get query string from url (optional) or window
@@ -60,12 +68,22 @@ function getAllUrlParams(url) {
   return obj;
 }
 
+// Strip the + delimeters
+function stripDelimeters(string) {
+	return string.replace("+"," ");
+}
+
 // only run Lunr code on the search page
 // as Lunr.min.js is not loaded by default
 if (window.location.pathname == "/search/" ) {
 
 	var rawQuery = getAllUrlParams().query;
-	var query = rawQuery.replace("+"," ");
+
+	// strip + delimeters from query
+	var query = stripDelimeters(rawQuery);
+	//var query = rawQuery.replace("+"," ");
+
+
 	var searchresults = document.getElementById("searchresults__query")
 	var searchresults__resultslist = document.getElementById("searchresults__resultslist")
 	var resultsObj = new Object();
