@@ -1,48 +1,56 @@
-const url_string = window.location.href;
-const url = new URL(url_string);
+var url_string = window.location.href;
+var url = new URL(url_string);
 
 // only run Lunr code on the search page
 // as Lunr.min.js is not loaded by default
 if (window.location.pathname == "/search/" ) {
 
-	const query = url.searchParams.get("query");
-	const searchresults = document.getElementById("searchresults__query")
-	const searchresults__resultslist = document.getElementById("searchresults__resultslist")
+	var query = url.searchParams.get("query");
+	var searchresults = document.getElementById("searchresults__query")
+	var searchresults__resultslist = document.getElementById("searchresults__resultslist")
+	var resultsObj = new Object();
+	var htmlstring = "";
 
 	searchresults.innerHTML = query;
 
-
-// fetch the serialised search index at site/search_index.json
-	fetch('../search_index.json')
-	.then(function(response) {
-		return response.json();
-	})
-	.then(function(json) {
-		const index = lunr.Index.load(json);
-		const searchresults_json = index.search(query + "~1");
-		const resultsObj = searchresults_json;
-		let htmlstring = "";
+	function reqListener() {
+	  var obj = JSON.parse(this.responseText);
+		var index = lunr.Index.load(obj);
+		var searchresults_json = index.search(query + "~1");
+		resultsObj = searchresults_json;
+		//console.log(JSON.stringify(resultsObj));
 
 		// fetch the path map to lookup title and form the link
-		fetch('../pathmap.json')
-		.then(function(response) {
-			return response.json();
-		})
-		.then(function(documentsjson) {
+		var load_pathmap = new XMLHttpRequest();
+		load_pathmap.onload = pmListener;
+		load_pathmap.onerror = reqError;
+		load_pathmap.open('get', '../pathmap.json', true);
+		load_pathmap.send();
 
-			// form the results list
-			resultsObj.forEach (function (result) {
-				// lookup the title
-				let pagetitle = documentsjson.find(function(document) {
-					return document.path == result.ref;
-				});
-				// htmlstring = htmlstring + "<li>" + pagetitle.title + result.ref + "</li>";
-				htmlstring = htmlstring + "<li><a href='" + result.ref +"'>" + pagetitle.title + "</a></li>";
+	}
+
+	function pmListener() {
+		var documentsjson = JSON.parse(this.responseText);
+		//console.log(JSON.stringify(documentsjson));
+		// form the results list
+		resultsObj.forEach (function (result) {
+			// lookup the title
+			var pagetitle = documentsjson.find(function(document) {
+				return document.path == result.ref;
 			});
-			searchresults__resultslist.innerHTML = htmlstring;
+			htmlstring = htmlstring + "<li><a href='" + result.ref +"'>" + pagetitle.title + "</a></li>";
 		});
+		searchresults__resultslist.innerHTML = htmlstring;
+	}
 
+	function reqError(err) {
+	  console.log('Fetch Error :-S', err);
+	}
 
-		//console.log(JSON.stringify(searchresults_json,null,2));
-	});
+	var load_index = new XMLHttpRequest();
+	load_index.onload = reqListener;
+	load_index.onerror = reqError;
+	load_index.open('get', '../search_index.json', true);
+	load_index.send();
+
 }
