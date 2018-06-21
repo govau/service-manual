@@ -18,7 +18,7 @@ const SearchResults = ( page ) => {
 								<h2>{ page.heading }</h2>
 								Your search for "<em><span id="searchresults__query" /></em>" returned:
 
-								<div id="searchresults__resultslist" />
+								<ul><div id="searchresults__resultslist" /></ul>
 						</div>
 					</div>
 				</div>
