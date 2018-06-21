@@ -10,6 +10,24 @@ import Childnav from '../nav/childnav';
  */
 const IntroNav = ( page ) => {
 
+	function formatDate(isodate) {
+		const date = new Date(isodate);
+		const month = new Array();
+		month[0] = "January";
+		month[1] = "February";
+		month[2] = "March";
+		month[3] = "April";
+		month[4] = "May";
+		month[5] = "June";
+		month[6] = "July";
+		month[7] = "August";
+		month[8] = "September";
+		month[9] = "October";
+		month[10] = "November";
+		month[11] = "December";
+		return date.getDate() + " " + month[date.getMonth()] + " " + date.getFullYear();
+	}
+
 	return (
 		<div className="au-grid intro intro--withnav intro__wrapper">
 			<div className="container-fluid">
@@ -26,26 +44,15 @@ const IntroNav = ( page ) => {
 						<div className="au-body textwrapper intro__textwrapper__withnav">
 							<div />
 							{ page.subtitle && <p className="guides-category-header-description intro-with-nav__subtitle">{ page.subtitle }</p> }
-							{ page.attrTitle1 &&
-								<p className="intro__metadata intro__metadata--intro small">
-								  <dl>
-									<dt>{ page.attrTitle1 }</dt>
-									<dd>{ page.attrLink1 ? (
-										<a href={ page.attrLink1 }>{ page.attrValue1 }</a>
-										) : (
-										<span>{ page.attrValue1 }</span>
-										)}
-									</dd>
-									<dt>{ page.attrTitle2 }</dt>
-									<dd>{ page.attrLink2 ? (
-										<a href={ page.attrLink2 }>{ page.attrValue2 }</a>
-										) : (
-										<span>{ page.attrValue2 }</span>
-										)}
-									</dd>
-								  </dl>
-								</p>
+
+							{ page.created_by &&
+						  <dl className="intro__metadata">
+								{ page.created_by && <React.Fragment><dt>Created by</dt><dd><span>{ page.created_by }</span></dd></React.Fragment> }
+								{ page.published_date && <React.Fragment><dt>Published</dt><dd><span>{ formatDate(page.published_date) }</span></dd></React.Fragment> }
+								{ page.reviewed_date && <React.Fragment><dt>Reviewed</dt><dd><span>{ formatDate(page.reviewed_date) }</span></dd></React.Fragment> }
+						  </dl>
 							}
+
 							<div className="spacer__med" />
 							<div className="au-body intro__text">{ page._body }</div>
 						</div>
@@ -64,34 +71,19 @@ IntroNav.propTypes = {
 	category: PropTypes.string,
 
 	/**
-	 * attrTitle1: Created by
+	 * created_by: Digital Transformation Agency
 	 */
-	attrTitle1: PropTypes.string,
+	created_by: PropTypes.string,
 
 	/**
-	 * attrValue1: Digital Transformation Agency, Department of Immigration and Border Protection
+	 * published_date: "2018-03-15"
 	 */
-	attrValue1: PropTypes.string,
+	published_date: PropTypes.string,
 
 	/**
-	 * attrLink1: http://google.com
+	 * reviewed_date: "2018-06-25"
 	 */
-	attrLink1: PropTypes.string,
-
-	/**
-	 * attrTitle2: 4 June 2017
-	 */
-	attrTitle2: PropTypes.string,
-
-	/**
-	 * attrValue2: 4 June 2017
-	 */
-	attrValue2: PropTypes.string,
-
-	/**
-	 * attrLink2: http://google.com
-	 */
-	attrLink2: PropTypes.string,
+	reviewed_date: PropTypes.string,
 
 	/**
 	 * title: Page title  # if not given, it takes the title from the current page
