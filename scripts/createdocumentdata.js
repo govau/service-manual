@@ -45,8 +45,8 @@ function directoryWalker(dir, done) {
 					try {
 					  const indexyaml = yaml.safeLoad(fs.readFileSync(file + "/index.yml", 'utf8'));
 
-						// do not index hidden pages
-						if (indexyaml.hidden) {
+						// do not index hidden pages or the homepage
+						if (indexyaml.hidden || path == "/homepage") {
 							throw("Not indexing hidden page: " + path);
 						}
 						document.title = indexyaml.pagetitle;
