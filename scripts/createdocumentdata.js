@@ -39,6 +39,10 @@ function directoryWalker(dir, done) {
 					let document = new Object();
 					let pathmapitem = new Object();
 
+					// we are currently on a directory (file)
+					// open all the markdown files inside this directory AND
+					// concat into the document.body
+
 					// load the index.yml and get the data
 					try {
 					  const indexyaml = yaml.safeLoad(fs.readFileSync(file + "/index.yml", 'utf8'));
@@ -48,7 +52,7 @@ function directoryWalker(dir, done) {
 							throw("Not indexing hidden page: " + file.replace(rootdir,"/"));
 						}
 						document.title = indexyaml.pagetitle;
-						document.body = indexyaml.description;
+						document.description = indexyaml.description;
 						pathmapitem.title = indexyaml.pagetitle;
 
 						document.path = file.replace(rootdir,"/");
