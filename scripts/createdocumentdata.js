@@ -35,13 +35,11 @@ function directoryWalker(dir, done) {
 			fs.stat(file, function(err, stat) {
 				// If directory, execute a recursive call
 				if (stat && stat.isDirectory()) {
+					// we are currently on a directory (file)
 
+					const path = file.replace(rootdir,"/");
 					let document = new Object();
 					let pathmapitem = new Object();
-
-					// we are currently on a directory (file)
-					// open all the markdown files inside this directory AND
-					// concat into the document.body
 
 					// load the index.yml and get the data
 					try {
@@ -49,20 +47,31 @@ function directoryWalker(dir, done) {
 
 						// do not index hidden pages
 						if (indexyaml.hidden) {
-							throw("Not indexing hidden page: " + file.replace(rootdir,"/"));
+							throw("Not indexing hidden page: " + path);
 						}
 						document.title = indexyaml.pagetitle;
 						document.description = indexyaml.description;
 						pathmapitem.title = indexyaml.pagetitle;
 
-						document.path = file.replace(rootdir,"/");
-						pathmapitem.path = file.replace(rootdir,"/");
+						document.path = path;
+						pathmapitem.path = path;
 						documents.push(document);
 						pathmap.push(pathmapitem);
 
 					} catch (e) {
 					  console.log(e);
 					}
+
+					// TODO: open all the markdown files inside this directory AND
+					// concat into the document.body
+					fs.readdir(file, function(err, items) {
+							//console.log(path);
+					    for (var i=0; i<items.length; i++) {
+					        //console.log("   " + items[i]);
+					    }
+					});
+
+					/////
 
 					results.push(file);
 
