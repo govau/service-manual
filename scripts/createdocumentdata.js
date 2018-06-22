@@ -37,7 +37,7 @@ function directoryWalker(dir, done) {
 				if (stat && stat.isDirectory()) {
 					// we are currently on a directory (file)
 
-					const path = file.replace(rootdir,"/");
+					const relativeUrl = file.replace(rootdir,"/");
 					let document = new Object();
 					let pathmapitem = new Object();
 
@@ -46,34 +46,37 @@ function directoryWalker(dir, done) {
 					  const indexyaml = yaml.safeLoad(fs.readFileSync(file + "/index.yml", 'utf8'));
 
 						// do not index hidden pages or the homepage
-						if (indexyaml.hidden || path == "/homepage") {
-							throw("Not indexing hidden page: " + path);
+						if (indexyaml.hidden || relativeUrl == "/homepage") {
+							throw("Not indexing hidden page: " + relativeUrl);
 						}
 						document.title = indexyaml.pagetitle;
 						document.description = indexyaml.description;
 						pathmapitem.title = indexyaml.pagetitle;
 
-						document.path = path;
-						pathmapitem.path = path;
+						document.path = relativeUrl;
+						pathmapitem.path = relativeUrl;
+
+						// TODO: open all the markdown files inside this directory AND
+						// concat into the document.body
+						fs.readdir(file, function(err, items) {
+								//console.log(relativeUrl);
+						    for (var i=0; i<items.length; i++) {
+										if (path.extname(items[i]) == '.md') {
+											//console.log("   " + items[i]);
+											// read the markdown file and add to document body
+											// document.body = document.body + parsemd(items[i]);
+										}
+						    }
+						});
+
+						// push to the arrays
+						documents.push(document);
+						pathmap.push(pathmapitem);
+						results.push(file);
 
 					} catch (e) {
 					  console.log(e);
 					}
-
-					// TODO: open all the markdown files inside this directory AND
-					// concat into the document.body
-					fs.readdir(file, function(err, items) {
-							//console.log(path);
-					    for (var i=0; i<items.length; i++) {
-					        //console.log("   " + items[i]);
-					    }
-					});
-
-
-					// push to the arrays
-					documents.push(document);
-					pathmap.push(pathmapitem);
-					results.push(file);
 
 					directoryWalker(file, function(err, res, docs, pthmp) {
 						results = results.concat(res);
