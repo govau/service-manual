@@ -55,8 +55,6 @@ function directoryWalker(dir, done) {
 
 						document.path = path;
 						pathmapitem.path = path;
-						documents.push(document);
-						pathmap.push(pathmapitem);
 
 					} catch (e) {
 					  console.log(e);
@@ -71,8 +69,10 @@ function directoryWalker(dir, done) {
 					    }
 					});
 
-					/////
 
+					// push to the arrays
+					documents.push(document);
+					pathmap.push(pathmapitem);
 					results.push(file);
 
 					directoryWalker(file, function(err, res, docs, pthmp) {
