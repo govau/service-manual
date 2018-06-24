@@ -59,12 +59,23 @@ function directoryWalker(dir, done) {
 						// TODO: open all the markdown files inside this directory AND
 						// concat into the document.body
 						fs.readdir(file, function(err, items) {
-								//console.log(relativeUrl);
+								console.log(relativeUrl);
 						    for (var i=0; i<items.length; i++) {
 										if (path.extname(items[i]) == '.md') {
-											//console.log("   " + items[i]);
+											let file_absolute = rootdir + relativeUrl + "/" +items[i];
+											file_absolute = path.normalize(file_absolute);
+											let data = fs.readFileSync(file_absolute);
+											document.body = document.body + data;
+											//console.log("   " + file_absolute);
 											// read the markdown file and add to document body
 											// document.body = document.body + parsemd(items[i]);
+											// fs.readFile(file_absolute, 'utf8', function (err,data) {
+											//   if (err) {
+											//     return console.log(err);
+											//   }
+											//   document.body = document.body + data;
+											// 	//console.log(data);
+											// });
 										}
 						    }
 						});
