@@ -13,7 +13,6 @@ const SearchResults = ( page ) => {
 			<div className="container-fluid au-body">
 				<div className="row">
 					<div className="col-xs-12 searchresults__list">
-						<script src="http://elasticlunr.com/elasticlunr.min.js" />
 						<h2 className="au-display-xxxl">{ page.heading }</h2>
 						<h3>Your search for <em><span id="searchresults__query" /></em> returned:</h3>
 
