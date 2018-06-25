@@ -10,6 +10,27 @@ const remark = require('remark');
 const strip = require('strip-markdown');
 const rootdir = path.dirname(__dirname)+"/content/";
 
+/**
+ * Returns a hash code for a string.
+ * (Compatible to Java's String.hashCode())
+ *
+ * The hash code for a string object is computed as
+ *     s[0]*31^(n-1) + s[1]*31^(n-2) + ... + s[n-1]
+ * using number arithmetic, where s[i] is the i th character
+ * of the given string, n is the length of the string,
+ * and ^ indicates exponentiation.
+ * (The hash value of the empty string is zero.)
+ *
+ * @param {string} s a string
+ * @return {number} a hash code value for the given string.
+ */
+hashCode = function(s) {
+  var h = 0, l = s.length, i = 0;
+  if ( l > 0 )
+    while (i < l)
+      h = (h << 5) - h + s.charCodeAt(i++) | 0;
+  return h;
+};
 
 /**
  * Explores recursively a directory and returns all the filepaths and folderpaths in the callback.
@@ -55,27 +76,28 @@ function directoryWalker(dir, done) {
 						document.description = indexyaml.description;
 						pathmapitem.title = indexyaml.pagetitle;
 
-						document.path = relativeUrl;
+						let hash = hashCode(relativeUrl);
+
+						document.hash = hash;
+						pathmapitem.hash = hash;
 						pathmapitem.path = relativeUrl;
 
 						// open all the markdown files inside this directory AND
 						// concat into the document.body
 						fs.readdir(file, function(err, items) {
-					    for (let i = 0; i<items.length; i++) {
+					    for (let i = 0; i < items.length; i++) {
 								if (path.extname(items[i]) == '.md') {
 									let file_absolute = rootdir + relativeUrl + "/" +items[i];
 									file_absolute = path.normalize(file_absolute);
 									let data = fs.readFileSync(file_absolute);
 
-									// TODO strip markdown tags
 									// TODO strip crosslink content e.g. layout/cards, menu
 
 									remark()
 									  .use(strip)
 									  .process(data, function (err, file) {
 									    if (err) throw err;
-									    //console.log(String(file));
-											document.body = document.body + file;
+									    document.body = document.body + String(file);
 									  });
 
 								}

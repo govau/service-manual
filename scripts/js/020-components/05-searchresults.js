@@ -114,15 +114,17 @@ if (window.location.pathname == "/search/" ) {
 
 			// lookup the title
 			var pagetitle = "";
+			var url = "";
 
 			for (var i = 0; i < documentsjson.length; i++ ) {
-				if (documentsjson[i].path == result.ref) {
+				if (documentsjson[i].hash == result.ref) {
 					pagetitle = documentsjson[i].title;
+					url = documentsjson[i].path;
 					continue;
 				}
 			}
 
-			htmlstring = htmlstring + "<li><a href='" + result.ref +"'>" + pagetitle + "</a></li>";
+			htmlstring = htmlstring + "<li><a href='" + url +"'>" + pagetitle + "</a></li>";
 		});
 		searchresults__resultslist.innerHTML = htmlstring;
 	}
