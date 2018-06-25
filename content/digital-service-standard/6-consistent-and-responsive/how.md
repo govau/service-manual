@@ -1,7 +1,7 @@
 ---
 layout: text/textblock
 ---
-During [Alpha stage](/topics/service-design-delivery-process/alpha-stage/) you need to consider the [design methods and patterns](https://guides.service.gov.au) you could apply in your service, and how you can communicate simply and clearly with your users. You should show that you:
+During [Alpha stage](/topics/service-design-delivery-process/alpha-stage/) you need to consider the [design methods and patterns](https://designsystem.gov.au/) you could apply in your service, and how you can communicate simply and clearly with your users. You should show that you:
 
 - understand how you will use responsive design for platform independence
 - understand how you will use existing design patterns and a front-end toolkit to make the service consistent
