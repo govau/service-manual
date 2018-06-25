@@ -8,29 +8,10 @@ const fs = require('fs');
 const path = require('path');
 const remark = require('remark');
 const strip = require('strip-markdown');
-const rootdir = path.dirname(__dirname)+"/content/";
 
-/**
- * Returns a hash code for a string.
- * (Compatible to Java's String.hashCode())
- *
- * The hash code for a string object is computed as
- *     s[0]*31^(n-1) + s[1]*31^(n-2) + ... + s[n-1]
- * using number arithmetic, where s[i] is the i th character
- * of the given string, n is the length of the string,
- * and ^ indicates exponentiation.
- * (The hash value of the empty string is zero.)
- *
- * @param {string} s a string
- * @return {number} a hash code value for the given string.
- */
-hashCode = function(s) {
-  var h = 0, l = s.length, i = 0;
-  if ( l > 0 )
-    while (i < l)
-      h = (h << 5) - h + s.charCodeAt(i++) | 0;
-  return h;
-};
+const rootdir = path.dirname(__dirname)+"/content/";
+let pageid = 0;
+
 
 /**
  * Explores recursively a directory and returns all the filepaths and folderpaths in the callback.
@@ -44,6 +25,7 @@ function directoryWalker(dir, done) {
 	let results = [];
 	let documents = [];
 	let pathmap = [];
+
 
 	fs.readdir(dir, function(err, list) {
 		if (err) return done(err);
@@ -76,10 +58,10 @@ function directoryWalker(dir, done) {
 						document.description = indexyaml.description;
 						pathmapitem.title = indexyaml.pagetitle;
 
-						let hash = hashCode(relativeUrl);
+						pageid = pageid + 1;
 
-						document.hash = hash;
-						pathmapitem.hash = hash;
+						document.hash = pageid;
+						pathmapitem.hash = pageid;
 						pathmapitem.path = relativeUrl;
 
 						// open all the markdown files inside this directory AND
