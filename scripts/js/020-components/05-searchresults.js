@@ -117,7 +117,7 @@ if (window.location.pathname == "/search/" ) {
 			var url = "";
 
 			for (var i = 0; i < documentsjson.length; i++ ) {
-				if (documentsjson[i].hash == result.ref) {
+				if (documentsjson[i].id == result.ref) {
 					pagetitle = documentsjson[i].title;
 					url = documentsjson[i].path;
 					continue;

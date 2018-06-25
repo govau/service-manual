@@ -10,7 +10,7 @@ const index = lunr(function() {
 	this.field('title')
 	this.field('description')
 	this.field('body')
-	this.ref('hash')
+	this.ref('id')
 
 	documents.forEach(function(doc) {
 		this.add(doc)

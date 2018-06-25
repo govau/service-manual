@@ -60,8 +60,8 @@ function directoryWalker(dir, done) {
 
 						pageid = pageid + 1;
 
-						document.hash = pageid;
-						pathmapitem.hash = pageid;
+						document.id = pageid;
+						pathmapitem.id = pageid;
 						pathmapitem.path = relativeUrl;
 
 						// open all the markdown files inside this directory AND
