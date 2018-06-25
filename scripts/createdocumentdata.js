@@ -70,13 +70,13 @@ function directoryWalker(dir, done) {
 									// TODO strip markdown tags
 									// TODO strip crosslink content e.g. layout/cards, menu
 
-								remark()
-								  .use(strip)
-								  .process(data, function (err, file) {
-								    if (err) throw err;
-								    //console.log(String(file));
-										document.body = document.body + file;
-								  });
+									remark()
+									  .use(strip)
+									  .process(data, function (err, file) {
+									    if (err) throw err;
+									    //console.log(String(file));
+											document.body = document.body + file;
+									  });
 
 								}
 					    }
