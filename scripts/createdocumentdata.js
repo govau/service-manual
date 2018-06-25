@@ -128,6 +128,34 @@ function writePathmapData(data) {
 	});
 }
 
+function addFederatedData(docsArray,pathsArray) {
+	// Design System
+	document = new Object();
+	pathmapitem = new Object();
+	document.title = "Design System";
+	document.description = "UI UIkit component layout Front End Toolkit react patterns button accordion grid forms css javascript style guide";
+	pathmapitem.title = "Design System";
+	pageid = pageid + 1;
+	document.id = pageid;
+	pathmapitem.id = pageid;
+	pathmapitem.path = "https://designsystem.gov.au/";
+	docsArray.push(document);
+	pathsArray.push(pathmapitem);
+
+	// Content Guide
+	document = new Object();
+	pathmapitem = new Object();
+	document.title = "GOV.AU Content Guide";
+	document.description = "A guide to help Australian Government teams design simple, clear and fast content. Content structure, writing style, punctuation and grammar, terms phrases, numbers, measurements formatting accessibility";
+	pathmapitem.title = "GOV.AU Content Guide";
+	pageid = pageid + 1;
+	document.id = pageid;
+	pathmapitem.id = pageid;
+	pathmapitem.path = "https://guides.service.gov.au/content-guide/";
+	docsArray.push(document);
+	pathsArray.push(pathmapitem);
+}
+
 directoryWalker("./content/", function(err, dirs, documents, pathmap) {
 	if (err) {
 		throw err;
@@ -135,7 +163,7 @@ directoryWalker("./content/", function(err, dirs, documents, pathmap) {
 
 	//const util = require('util')
 	//console.log(util.inspect(pathmap, { maxArrayLength: null }))
-
+	addFederatedData(documents,pathmap);
 	writeDocumentData(documents);
 	writePathmapData(pathmap);
 });
