@@ -96,6 +96,7 @@ if (window.location.pathname == "/search/" ) {
 		var index = lunr.Index.load(obj);
 		var searchresults_json = index.search(query + "~1");
 		resultsObj = searchresults_json;
+		//console.log(JSON.stringify(searchresults_json));
 
 		// fetch the path map to lookup title and form the link
 		var load_pathmap = new XMLHttpRequest();
@@ -108,10 +109,10 @@ if (window.location.pathname == "/search/" ) {
 
 	function pmListener() {
 		var documentsjson = JSON.parse(this.responseText);
-
+		var resultcount = 0;
 		// form the results list
 		resultsObj.forEach (function (result) {
-
+			resultcount ++;
 			// lookup the title
 			var pagetitle = "";
 			var url = "";
@@ -123,8 +124,9 @@ if (window.location.pathname == "/search/" ) {
 					continue;
 				}
 			}
-
-			htmlstring = htmlstring + "<li><a href='" + url +"'>" + pagetitle + "</a></li>";
+			if (resultcount < 15) {
+				htmlstring = htmlstring + "<li><a href='" + url +"'>" + pagetitle + "</a></li>";
+			}
 		});
 		searchresults__resultslist.innerHTML = htmlstring;
 	}
