@@ -94,7 +94,7 @@ if (window.location.pathname == "/search/" ) {
 	function reqListener() {
 	  var obj = JSON.parse(this.responseText);
 		var index = lunr.Index.load(obj);
-		var searchresults_json = index.search(query + "~1");
+		var searchresults_json = index.search(query);
 		resultsObj = searchresults_json;
 		//console.log(JSON.stringify(searchresults_json));
 
