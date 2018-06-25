@@ -6,6 +6,8 @@ console.log("🔍 Creating document data for Lunr...");
 const yaml = require('js-yaml');
 const fs = require('fs');
 const path = require('path');
+const remark = require('remark');
+const strip = require('strip-markdown');
 const rootdir = path.dirname(__dirname)+"/content/";
 
 
@@ -59,13 +61,23 @@ function directoryWalker(dir, done) {
 						// open all the markdown files inside this directory AND
 						// concat into the document.body
 						fs.readdir(file, function(err, items) {
-							console.log(relativeUrl);
-					    for (var i=0; i<items.length; i++) {
+					    for (let i = 0; i<items.length; i++) {
 								if (path.extname(items[i]) == '.md') {
 									let file_absolute = rootdir + relativeUrl + "/" +items[i];
 									file_absolute = path.normalize(file_absolute);
 									let data = fs.readFileSync(file_absolute);
-									document.body = document.body + data;
+
+									// TODO strip markdown tags
+									// TODO strip crosslink content e.g. layout/cards, menu
+
+								remark()
+								  .use(strip)
+								  .process(data, function (err, file) {
+								    if (err) throw err;
+								    //console.log(String(file));
+										document.body = document.body + file;
+								  });
+
 								}
 					    }
 						});
@@ -117,7 +129,7 @@ directoryWalker("./content/", function(err, dirs, documents, pathmap) {
 		throw err;
 	}
 
-	const util = require('util')
+	//const util = require('util')
 	//console.log(util.inspect(pathmap, { maxArrayLength: null }))
 
 	writeDocumentData(documents);
