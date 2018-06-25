@@ -11,6 +11,7 @@ const index = elasticlunr(function() {
 	this.addField('description')
 	this.addField('body')
 	this.setRef('id')
+	this.saveDocument(false);
 
 	documents.forEach(function(doc) {
 		this.addDoc(doc)
