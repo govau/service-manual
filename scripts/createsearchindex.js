@@ -1,19 +1,19 @@
-console.log(" 🌙 Creating Lunr index...");
+console.log(" 🌙 Creating ElasticLunr index...");
 
-const lunr = require('lunr');
+const elasticlunr = require('elasticlunr');
 const fs = require('fs');
 
 const data = fs.readFileSync('site/documents.json');
 const documents = JSON.parse(data);
 
-const index = lunr(function() {
-	this.field('title')
-	this.field('description')
-	this.field('body')
-	this.ref('id')
+const index = elasticlunr(function() {
+	this.addField('title')
+	this.addField('description')
+	this.addField('body')
+	this.setRef('id')
 
 	documents.forEach(function(doc) {
-		this.add(doc)
+		this.addDoc(doc)
 	}, this)
 
 })
