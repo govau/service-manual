@@ -2,6 +2,8 @@
 layout: intros/intro_with_nav
 subtitle: Understand and communicate the value of building services using the process.
 category: Service design and delivery process
+created_by: Digital Transformation Agency
+published_date: '2017-08-03'
 ---
 
 The service design and delivery process is a new way of delivering government services that makes it easier and quicker to build the right thing for users.

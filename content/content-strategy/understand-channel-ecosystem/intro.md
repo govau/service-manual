@@ -2,6 +2,8 @@
 layout: intros/intro_with_nav
 subtitle: Understand your channels and how they’re connected.
 category: Content Strategy
+created_by: Digital Transformation Agency
+published_date: '2018-04-12'
 ---
 As you investigate the channels in your agency there may be more than just a few websites. You may uncover many more websites, social media channels, apps, email newsletters, intranets and forgotten websites. You may even consider bringing in more traditional media like flyers and brochures. 
 

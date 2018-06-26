@@ -3,6 +3,8 @@ layout: intros/intro_with_nav
 category: Starting a team
 title: Digital capability of the team
 subtitle: The team needs to have a high level of digital capability to build services that meet the needs of users.
+created_by: Digital Transformation Agency
+published_date: '2017-08-07'
 ---
 
 A team with high digital capability can move quickly towards a minimum viable product (MVP). This means they can work faster with lower budgets to build services that are simple, clear and fast.
