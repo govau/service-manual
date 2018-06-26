@@ -3,6 +3,8 @@ layout: intros/intro_with_nav
 category: User research
 title: Interviewing users
 subtitle: Interviews help you learn more about users, how they use a service and what they need from it.
+created_by: Digital Transformation Agency
+published_date: '2017-07-31'
 ---
 
 Use interviews when you want to:
