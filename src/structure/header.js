@@ -71,8 +71,9 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 						</div>
 
 						<div className="col-md-3">
-							<form action="/search" method="get">
+							<form autocomplete="off" action="/search" method="get">
 								<input className="search__box" name="query" type="text" />
+								<input type="submit" value="Search" />
 							</form>
 						</div>
 
