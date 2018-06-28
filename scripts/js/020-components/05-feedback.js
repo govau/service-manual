@@ -1,13 +1,19 @@
-var helpful_yes = document.querySelectorAll( '.helpful_yes' );
+var helpful_yes = document.querySelector( '.helpful_yes' );
+var helpful_no = document.querySelector( '.helpful_no' );
+var helpful_text = document.querySelector( '.helpful__question' );
+
+function thanks(){
+	helpful_text.innerHTML = "Thanks for your response and helping us improve our content.";
+	helpful_no.remove();
+	helpful_yes.remove();
+}
 
 AddEvent( helpful_yes, 'click', function( event, $this ) {
 	PreventEvent( event );
-	console.log("Yes");
+	thanks();
 });
-
-var helpful_no = document.querySelectorAll( '.helpful_no' );
 
 AddEvent( helpful_no, 'click', function( event, $this ) {
 	PreventEvent( event );
-	console.log("No");
+	thanks();
 });
