@@ -6,13 +6,21 @@
 	text-align: center;
 }
 
+.helpful__buttons {
+	margin-top: 1rem;
+	display: block;
+	@include AU-media( xs ) {
+		display: inline;
+	}
+}
+
 .helpful__question {
-	margin-right: 1rem;
 	font-size: 1.2rem;
-	display: inline;
+	@include AU-media( xs ) {
+		margin-right: 1.5rem;
+	}
 }
 
 .feedback_container button {
 	margin: 0.5rem;
-	display: inline;
 }

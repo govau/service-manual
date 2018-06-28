@@ -14,8 +14,10 @@ const Feedback = ( page ) => {
 				<div className="row">
 					<div className="col-xs-12">
 						<span className="helpful__question">Was this page helpful?</span>
-						<button className="au-btn helpful_yes">Yes</button>
-						<button className="au-btn helpful_no">No</button>
+						<span className="helpful__buttons">
+							<button className="au-btn helpful_yes">Yes</button>
+							<button className="au-btn helpful_no">No</button>
+						</span>
 					</div>
 				</div>
 			</div>
