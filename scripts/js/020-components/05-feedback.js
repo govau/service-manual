@@ -11,9 +11,25 @@ function thanks(){
 AddEvent( helpful_yes, 'click', function( event, $this ) {
 	PreventEvent( event );
 	thanks();
+	ga('send', {
+	  hitType: 'event',
+	  eventCategory: 'helpful',
+	  eventAction: window.location.href,
+	  eventLabel: 'Feedback testing from chris - yes response',
+		eventValue: 1
+	});
+	console.log('Yes: ' + window.location.href)
 });
 
 AddEvent( helpful_no, 'click', function( event, $this ) {
 	PreventEvent( event );
 	thanks();
+	ga('send', {
+		hitType: 'event',
+		eventCategory: 'helpful',
+		eventAction: window.location.href,
+		eventLabel: 'Feedback testing from chris - no response',
+		eventValue: 0
+	});
+	console.log('No: ' + window.location.href)
 });
