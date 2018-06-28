@@ -28,6 +28,6 @@ AddEvent( helpful_no, 'click', function( event, $this ) {
 		eventCategory: 'helpful',
 		eventAction: window.location.href,
 		eventLabel: 'helpful: no',
-		eventValue: 0
+		eventValue: -1
 	});
 });
