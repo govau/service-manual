@@ -13,17 +13,9 @@ const Feedback = ( page ) => {
 			<div className="container-fluid">
 				<div className="row">
 					<div className="col-xs-12">
-						<div className="feedback_item feedback_tagline">
-							{ page.title }
-						</div>
-						<div className="feedback_item feedback_secondary">
-							<a className="au-cta-link au-cta-link--dark" href={ page.buttonUrl }>
-								{ page.buttonText }
-							</a>
-						</div>
-						<div className="feedback_item feedback_secondary">
-							Email: <a className="au-cta-link au-cta-link--dark" href={ page.email_link }>guides-feedback@digital.gov.au</a>
-						</div>
+						<span className="helpful__question">Was this page helpful?</span>
+						<button className="au-btn helpful_yes">Yes</button>
+						<button className="au-btn helpful_no">No</button>
 					</div>
 				</div>
 			</div>
