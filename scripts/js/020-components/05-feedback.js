@@ -13,7 +13,7 @@ AddEvent( helpful_yes, 'click', function( event, $this ) {
 	thanks();
 	ga('send', {
 	  hitType: 'event',
-	  eventCategory: 'helpful',
+	  eventCategory: 'helpful: yes',
 	  eventAction: window.location.href,
 	  eventLabel: 'helpful: yes',
 		eventValue: 1
@@ -25,7 +25,7 @@ AddEvent( helpful_no, 'click', function( event, $this ) {
 	thanks();
 	ga('send', {
 		hitType: 'event',
-		eventCategory: 'helpful',
+		eventCategory: 'helpful: no',
 		eventAction: window.location.href,
 		eventLabel: 'helpful: no',
 		eventValue: -1
