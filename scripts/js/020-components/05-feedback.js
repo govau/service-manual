@@ -15,6 +15,7 @@ AddEvent( helpful_yes, 'click', function( event, $this ) {
 	  hitType: 'event',
 	  eventCategory: 'helpful',
 	  eventAction: window.location.href,
+	  eventLabel: 'helpful: yes',
 		eventValue: 1
 	});
 });
@@ -26,6 +27,7 @@ AddEvent( helpful_no, 'click', function( event, $this ) {
 		hitType: 'event',
 		eventCategory: 'helpful',
 		eventAction: window.location.href,
+		eventLabel: 'helpful: no',
 		eventValue: 0
 	});
 });
