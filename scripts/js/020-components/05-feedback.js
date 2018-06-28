@@ -3,13 +3,13 @@ var helpful_no = document.querySelector( '.helpful_no' );
 var helpful_text = document.querySelector( '.helpful__question' );
 
 function thanksYes(){
-	helpful_text.innerHTML = "Thanks for your response and helping us improve our content.";
+	helpful_text.innerHTML = "Thank you for your response, it helps us improve our service.";
 	helpful_no.remove();
 	helpful_yes.remove();
 }
 
 function thanksNo(){
-	helpful_text.innerHTML = "Sorry about that. How can we improve it?";
+	helpful_text.innerHTML = "Sorry to hear that. How can we improve it?";
 	helpful_no.remove();
 	helpful_yes.remove();
 }
