@@ -1,11 +1,11 @@
 var helpful_yes = document.querySelector( '.helpful_yes' );
 var helpful_no = document.querySelector( '.helpful_no' );
 var helpful_text = document.querySelector( '.helpful__question' );
-var helpful_textarea = document.querySelector( '.helpful__suggestion' );
-var helpful_submit = document.querySelector( '.helpful__suggestion__submit' );
+var helpful__no__textarea = document.querySelector( '.helpful__no__textarea' );
+var helpful__no__suggestion__submit = document.querySelector( '.helpful__no__suggestion__submit' );
 
-helpful_textarea.style.display = "none";
-helpful_submit.style.display = "none";
+helpful__no__textarea.style.display = "none";
+helpful__no__suggestion__submit.style.display = "none";
 
 function thanksYes(){
 	helpful_text.innerHTML = "Thank you for your response, it helps us improve our service.";
@@ -17,14 +17,14 @@ function thanksNo(){
 	helpful_text.innerHTML = "Sorry to hear that. How can we improve it?";
 	helpful_no.remove();
 	helpful_yes.remove();
-	helpful_textarea.style.display = "inline";
-	helpful_submit.style.display = "inline";
+	helpful__no__textarea.style.display = "inline";
+	helpful__no__suggestion__submit.style.display = "inline";
 }
 
 function thanksForFeedback(){
 	helpful_text.innerHTML = "Thank you for your response, it helps us improve our service.";
-	helpful_textarea.remove();
-	helpful_submit.remove();
+	helpful__no__textarea.remove();
+	helpful__no__suggestion__submit.remove();
 }
 
 AddEvent( helpful_yes, 'click', function( event, $this ) {
@@ -51,13 +51,13 @@ AddEvent( helpful_no, 'click', function( event, $this ) {
 	});
 });
 
-AddEvent( helpful_submit, 'click', function( event, $this ) {
+AddEvent( helpful__no__suggestion__submit, 'click', function( event, $this ) {
 	PreventEvent( event );
 	thanksForFeedback();
 	ga('send', {
 		hitType: 'event',
-		eventCategory: 'helpful: feedback response',
+		eventCategory: 'helpful: no: feedback response',
 		eventAction: window.location.href,
-		eventLabel: helpful_textarea.value
+		eventLabel: helpful__no__textarea.value
 	});
 });
