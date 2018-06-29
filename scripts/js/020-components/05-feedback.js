@@ -13,7 +13,7 @@ helpful__no__textarea.style.display = "none";
 helpful__no__suggestion__submit.style.display = "none";
 
 function thanksYes(){
-	helpful_text.innerHTML = "Thank you. Let us know more!";
+	helpful_text.innerHTML = "Thank you. Your suggestions are welcome to help us improve our service.";
 	helpful_no.remove();
 	helpful_yes.remove();
 	helpful__yes__textarea.style.display = "inline";
