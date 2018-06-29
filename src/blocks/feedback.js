@@ -18,8 +18,14 @@ const Feedback = ( page ) => {
 							<button className="au-btn helpful_yes">Yes</button>
 							<button className="au-btn helpful_no">No</button>
 						</span>
-						<div><textarea placeholder="Hi, I think we can improve..." className="helpful__no__textarea" rows="3" cols="30" /></div>
+						<div>
+							<textarea placeholder="Please type your suggestion or feedback here" className="helpful__yes__textarea" rows="3" cols="30" />
+						</div>
+						<div>
+							<textarea placeholder="Please type your suggestion or feedback here" className="helpful__no__textarea" rows="3" cols="30" />
+						</div>
 						<span className="helpful__buttons">
+							<button className="au-btn helpful__yes__suggestion__submit">Submit</button>
 							<button className="au-btn helpful__no__suggestion__submit">Submit</button>
 						</span>
 					</div>
