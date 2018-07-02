@@ -63,14 +63,14 @@ AddEvent( helpful_no, 'click', function( event, $this ) {
 		eventCategory: 'helpful: no',
 		eventAction: window.location.href,
 		eventLabel: 'helpful: no',
-		eventValue: -1
+		eventValue: 0
 	});
 	ga('send', {
 		hitType: 'event',
 		eventCategory: 'helpful',
 		eventAction: window.location.href,
 		eventLabel: 'helpful',
-		eventValue: -1
+		eventValue: 0
 	});
 });
 
