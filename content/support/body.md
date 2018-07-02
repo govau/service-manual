@@ -1,13 +1,10 @@
 ---
-layout: text/textblock
+layout: text/textblock-no-nav
 ---
 
 ## Email the team
 Get in touch with any questions or feedback at [guides-feedback@digital.gov.au](mailto:guides-feedback@digital.gov.au)
- 
-## Help each other solve problems
-Our communities of practice help people in government share ideas and work more closely together.  
- 
+
 ## Content design and strategy community
 This community is for people who produce or manage content in any part of government in Australia. Members can contribute ideas to the Content Guide.
 
