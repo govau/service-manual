@@ -10,4 +10,5 @@ main:
   - intro.md
   - template.md
 footer:
+  - /_shared/feedback.md
   - /_shared/footer.md
