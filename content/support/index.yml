@@ -1,0 +1,12 @@
+pagetitle: Support
+weight: 500
+theme: blue
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - intro.md
+  - body.md
+footer:
+  - /_shared/feedback.md
+  - /_shared/footer.md
