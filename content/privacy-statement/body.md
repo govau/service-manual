@@ -1,5 +1,5 @@
 ---
-layout: text/textblock
+layout: text/textblock-no-nav
 ---
 
 This privacy statement is about [guides.service.gov.au](http://guides.service.gov.au) — this is an online service managed by the Digital Transformation Agency (DTA). The DTA is located in Canberra, Australia.

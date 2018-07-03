@@ -13,7 +13,7 @@ const Intro = ( page ) => {
 		<div className={`au-body au-grid intro intro--${ theme }`}>
 			<div className="container-fluid">
 				<div className="row">
-					<div className="col-md-offset-3 col-md-9">
+					<div className="col-md-9">
 						<div className="textwrapper">
 
 							<div><h2 className="au-display-xxxl guides-category-header-main-heading intro__headline">{ page.title ? page.title : page._pages[ page._ID ].pagetitle }</h2></div>

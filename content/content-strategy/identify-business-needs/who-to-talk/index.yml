@@ -18,4 +18,5 @@ main:
   - card-head.md
   - card.md #attachment
 footer:
+  - /_shared/feedback.md
   - /_shared/footer.md

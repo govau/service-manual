@@ -6,6 +6,8 @@ mainlist:
     link: /sitemap
   - text: GitHub
     link: https://github.com/govau/service-manual/
+  - text: Support
+    link: /support/
 legallist:
   - text: Privacy
     link: /privacy-statement/
