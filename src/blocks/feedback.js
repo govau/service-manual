@@ -25,8 +25,8 @@ const Feedback = ( page ) => {
 							<textarea placeholder="Please type your feedback here" className="helpful__no__textarea" rows="3" cols="30" />
 						</div>
 						<span className="helpful__buttons">
-							<button className="au-btn helpful__yes__suggestion__submit">Submit</button>
-							<button className="au-btn helpful__no__suggestion__submit">Submit</button>
+							<button className="au-btn au-btn--dark helpful__yes__suggestion__submit">Submit</button>
+							<button className="au-btn au-btn--dark helpful__no__suggestion__submit">Submit</button>
 						</span>
 					</div>
 				</div>
