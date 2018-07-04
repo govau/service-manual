@@ -30,9 +30,10 @@ const Page = ( page ) => (
 		<main id="content">
 			<a name="nav" />
 			{ page.main }
+			{ page.footer }
 		</main>
 
-		{ page.footer }
+
 
 		<script src="/assets/js/site.js" />
 		{ page.script != undefined
