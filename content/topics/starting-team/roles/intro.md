@@ -3,6 +3,8 @@ layout: intros/intro_with_nav
 category: Starting a team
 title: Roles
 subtitle: To build and maintain a user-centred service, you need team members with a range of skills and who are open to collaborating.
+created_by: Digital Transformation Agency
+published_date: '2017-08-07'
 ---
 
 To build the right thing in the best way, the service team must include specialists in specific  roles. As a team they bring capabilities in research, design and delivery. This is called a [multidisciplinary team](../multidisciplinary-team/).

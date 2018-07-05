@@ -19,4 +19,5 @@ main:
   - references-head.md
   - references.md
 footer:
+  - /_shared/feedback.md
   - /_shared/footer.md

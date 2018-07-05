@@ -13,17 +13,21 @@ const Feedback = ( page ) => {
 			<div className="container-fluid">
 				<div className="row">
 					<div className="col-xs-12">
-						<div className="feedback_item feedback_tagline">
-							{ page.title }
+						<span className="helpful__question">Was this page helpful?</span>
+						<span className="helpful__buttons">
+							<button className="au-btn au-btn--dark helpful_yes">Yes</button>
+							<button className="au-btn au-btn--dark helpful_no">No</button>
+						</span>
+						<div>
+							<textarea placeholder="Please type your feedback here" className="helpful__yes__textarea" rows="3" cols="30" />
 						</div>
-						<div className="feedback_item feedback_secondary">
-							<a className="au-cta-link au-cta-link--dark" href={ page.buttonUrl }>
-								{ page.buttonText }
-							</a>
+						<div>
+							<textarea placeholder="Please type your feedback here" className="helpful__no__textarea" rows="3" cols="30" />
 						</div>
-						<div className="feedback_item feedback_secondary">
-							Email: <a className="au-cta-link au-cta-link--dark" href={ page.email_link }>guides-feedback@digital.gov.au</a>
-						</div>
+						<span className="helpful__buttons">
+							<button className="au-btn au-btn--dark helpful__yes__suggestion__submit">Submit</button>
+							<button className="au-btn au-btn--dark helpful__no__suggestion__submit">Submit</button>
+						</span>
 					</div>
 				</div>
 			</div>
