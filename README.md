@@ -2,9 +2,6 @@
 
 > We aim to provide a single, clear, consistent and compelling service manual which will inspire teams and help support them with how to design and deliver great services.
 
-CHANGE
-CHANGE 2
-
 <!-- ## Production
 
 - **url**: [https://service-manual.apps.platform.digital.gov.au/](https://service-manual.apps.platform.digital.gov.au/)
