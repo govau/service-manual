@@ -9,7 +9,7 @@ const LongDescription = ( page ) => {
 
 	return (
 		<div className="longdescription__accordion">
-			<AUaccordion header="Full text description of image">
+			<AUaccordion closed="true" header="Full text description of image">
 				{ page._body }
 			</AUaccordion>
 		</div>
