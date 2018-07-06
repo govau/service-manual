@@ -1,7 +1,7 @@
 ---
 layout: text/textblock
 ---
-Your manager or stakeholder may be unaware of how your website measures up against:
+Your manager or stakeholders may not know how your website measures up against:
   * [digital content best practice](/content-guide/) (for example, user-centred, accessible content written in plain English)
   * government requirements (for example, the [Digital Service Standard](/digital-service-standard/))
 
