@@ -1,4 +1,5 @@
 pagetitle: 'Beta stage: building and testing the service'
+description: In Beta stage, the team builds an end-to-end service based on what they have learned in Alpha stage. They keep iterating until it is ready to test in a private beta release and then a public beta release.
 weight: 50
 hidden: false
 layout: layout/topic
