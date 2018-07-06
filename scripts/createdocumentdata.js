@@ -135,6 +135,7 @@ function addFederatedData(docsArray,pathsArray) {
 	pathmapitem = new Object();
 	document.title = "Design System";
 	document.description = "UI UIkit component layout Front End Toolkit react patterns button accordion grid forms css javascript style guide";
+	pathmapitem.description = "The Australian Government Design System provides a framework and a set of tools to help designers and developers build government products and services more easily.";
 	pathmapitem.title = "Design System";
 	pageid = pageid + 1;
 	document.id = pageid;
@@ -148,6 +149,7 @@ function addFederatedData(docsArray,pathsArray) {
 	pathmapitem = new Object();
 	document.title = "GOV.AU Content Guide";
 	document.description = "A guide to help Australian Government teams design simple, clear and fast content. Content structure, writing style, punctuation and grammar, terms phrases, numbers, measurements formatting accessibility";
+	pathmapitem.description = "A guide to help Australian Government teams design simple, clear and fast content.";
 	pathmapitem.title = "GOV.AU Content Guide";
 	pageid = pageid + 1;
 	document.id = pageid;
