@@ -1,4 +1,5 @@
 pagetitle: 10. Test the service
+description: Test the service from end to end, in an environment that replicates the live version.
 weight: 100
 childnav1lvl: true
 layout: layout/topic

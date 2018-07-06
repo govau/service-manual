@@ -126,9 +126,9 @@ if (window.location.pathname == "/search/" ) {
 					continue;
 				}
 			}
-			if (resultcount < 15) {
+			//if (resultcount < 15) {
 				htmlstring = htmlstring + "<h3><a href='" + url +"'>" + pagetitle + "</a></h3><p>" + pagedescription + "</p>";
-			}
+			//}
 		});
 		searchresults__resultslist.innerHTML = htmlstring;
 	}

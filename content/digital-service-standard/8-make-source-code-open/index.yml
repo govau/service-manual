@@ -1,4 +1,5 @@
 pagetitle: 8. Make source code open
+description: Make all new source code open by default.
 weight: 80
 childnav1lvl: true
 layout: layout/topic
