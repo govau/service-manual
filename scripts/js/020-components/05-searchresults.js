@@ -115,17 +115,19 @@ if (window.location.pathname == "/search/" ) {
 			resultcount ++;
 			// lookup the title
 			var pagetitle = "";
+			var pagedescription = "";
 			var url = "";
 
 			for (var i = 0; i < documentsjson.length; i++ ) {
 				if (documentsjson[i].id == result.ref) {
 					pagetitle = documentsjson[i].title;
+					pagedescription = documentsjson[i].description;
 					url = documentsjson[i].path;
 					continue;
 				}
 			}
 			if (resultcount < 15) {
-				htmlstring = htmlstring + "<li><a href='" + url +"'>" + pagetitle + "</a></li>";
+				htmlstring = htmlstring + "<h3><a href='" + url +"'>" + pagetitle + "</a></h3><p>" + pagedescription + "</p>";
 			}
 		});
 		searchresults__resultslist.innerHTML = htmlstring;
