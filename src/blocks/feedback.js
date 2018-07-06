@@ -15,8 +15,8 @@ const Feedback = ( page ) => {
 					<div className="col-xs-12">
 						<span className="helpful__question">Was this page helpful?</span>
 						<span className="helpful__buttons">
-							<button className="au-btn helpful_yes">Yes</button>
-							<button className="au-btn helpful_no">No</button>
+							<button className="au-btn au-btn--dark helpful_yes">Yes</button>
+							<button className="au-btn au-btn--dark helpful_no">No</button>
 						</span>
 						<div>
 							<textarea placeholder="Please type your feedback here" className="helpful__yes__textarea" rows="3" cols="30" />
@@ -25,8 +25,8 @@ const Feedback = ( page ) => {
 							<textarea placeholder="Please type your feedback here" className="helpful__no__textarea" rows="3" cols="30" />
 						</div>
 						<span className="helpful__buttons">
-							<button className="au-btn helpful__yes__suggestion__submit">Submit</button>
-							<button className="au-btn helpful__no__suggestion__submit">Submit</button>
+							<button className="au-btn au-btn--dark helpful__yes__suggestion__submit">Submit</button>
+							<button className="au-btn au-btn--dark helpful__no__suggestion__submit">Submit</button>
 						</span>
 					</div>
 				</div>
