@@ -2,6 +2,8 @@
 layout: intros/intro_with_nav
 subtitle: Understand what your agency's business objectives are so you can align your content strategy.
 category: Content Strategy
+created_by: Digital Transformation Agency
+published_date: '2018-04-12'
 ---
 
 ## [3]Why align with business needs

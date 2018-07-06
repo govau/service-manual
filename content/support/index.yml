@@ -1,14 +1,12 @@
-pagetitle: Content sign-off brief
-weight: 80
+pagetitle: Support
+weight: 500
 theme: blue
-hidden: false
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
-  - /_shared/breadcrumbs.md
 main:
   - intro.md
-  - template.md
+  - body.md
 footer:
   - /_shared/feedback.md
   - /_shared/footer.md

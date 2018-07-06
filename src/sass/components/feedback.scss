@@ -6,32 +6,30 @@
 	text-align: center;
 }
 
-.feedback_tagline {
-	position: relative;
-	top: 0.15rem;
-	font-size: 1.5rem;
-	font-weight: 500;
-}
-
-.feedback_item {
-	display: inline;
-	@media screen and ( max-width: 1000px ) {
-		display: block;
-		text-align: left;
+.helpful__buttons {
+	margin-top: 1rem;
+	display: block;
+	@include AU-media( xs ) {
+		display: inline;
 	}
 }
 
-.feedback_item a {
-	font-weight: 400;
-}
-
-.feedback_secondary {
+.helpful__question {
 	font-size: 1.2rem;
-	font-weight: 400;
-	margin-left: 2.6rem;
-	@media screen and ( max-width: 1000px ) {
-		font-size: 1rem;
-		margin-left: 0;
-		margin-top: 0.5rem;
+	@include AU-media( xs ) {
+		margin-right: 1.5rem;
 	}
+}
+
+.helpful__no__textarea, .helpful__yes__textarea {
+	outline: none;
+	font-size: 1.2rem;
+	padding: 1rem;
+	margin-top: 1.2rem;
+	border: none;
+	border-radius: 0.4rem;
+}
+
+.feedback_container button {
+	margin: 0.5rem;
 }

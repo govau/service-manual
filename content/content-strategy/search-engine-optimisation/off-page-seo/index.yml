@@ -21,4 +21,5 @@ main:
   - heading4.md #h2
   - section4.md #text
 footer:
+  - /_shared/feedback.md
   - /_shared/footer.md

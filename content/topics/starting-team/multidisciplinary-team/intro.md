@@ -3,6 +3,8 @@ layout: intros/intro_with_nav
 category: Starting a team
 title: Multidisciplinary team
 subtitle: You need a multidisciplinary team to build government services in an agile way. These kinds of teams help you to build quickly and iteratively, based on user needs.
+created_by: Digital Transformation Agency
+published_date: '2017-08-07'
 ---
 A multidisciplinary team brings together the [roles you need](../roles/) you need to build services quickly and efficiently.
 

@@ -5,21 +5,23 @@ body {
 	padding: 0;
 }
 
-@supports (display: flex) {
-	body {
-		flex-direction: column;
-		display: flex;
-	}
-}
+// Remove for Ipad Air 2, Iphone devices
 
-
-header[role='banner'] {
-	flex: none;
-}
-
-main {
-	flex: 1 0 auto;
-}
+// @supports (display: flex) {
+// 	body {
+// 		flex-direction: column;
+// 		display: flex;
+// 	}
+// }
+//
+//
+// header[role='banner'] {
+// 	flex: none;
+// }
+//
+// main {
+// 	flex: 1 0 auto;
+// }
 
 img {
 	border: 0;

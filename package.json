@@ -26,6 +26,11 @@
 	},
 	"contributors": [
 		{
+			"name": "Christopher Lee",
+			"email": "chrisleedesign@gmail.com",
+			"url": "https://github.com/sirleech"
+		},
+		{
 			"name": "Dominik Wilkowski",
 			"email": "hi@dominik-wilkowski.com",
 			"url": "https://dominik-wilkowski.com/"
@@ -36,21 +41,20 @@
 		}
 	],
 	"dependencies": {
-		"@gov.au/accordion": "~2.0.1",
-		"@gov.au/animate": "~1.0.0",
-		"@gov.au/body": "~2.0.2",
-		"@gov.au/breadcrumbs": "~2.0.1",
-		"@gov.au/buttons": "~2.0.1",
-		"@gov.au/cta-link": "~2.0.1",
-		"@gov.au/footer": "~2.0.1",
-		"@gov.au/grid-12": "~2.0.1",
-		"@gov.au/header": "~3.0.1",
-		"@gov.au/headings": "~2.0.1",
-		"@gov.au/inpage-nav": "~2.0.1",
-		"@gov.au/link-list": "~2.0.1",
-		"@gov.au/pancake": "~1.1.0",
-		"@gov.au/pancake-js": "~1.0.9",
-		"@gov.au/skip-link": "~2.0.2",
+		"@gov.au/accordion": "^3.0.5",
+		"@gov.au/animate": "^1.0.4",
+		"@gov.au/body": "^2.0.7",
+		"@gov.au/breadcrumbs": "^2.1.1",
+		"@gov.au/buttons": "^3.0.1",
+		"@gov.au/core": "^3.0.0",
+		"@gov.au/cta-link": "^2.1.1",
+		"@gov.au/footer": "^2.1.3",
+		"@gov.au/grid-12": "^2.0.5",
+		"@gov.au/header": "^4.1.1",
+		"@gov.au/headings": "^2.0.5",
+		"@gov.au/inpage-nav": "^2.0.5",
+		"@gov.au/link-list": "^2.1.1",
+		"@gov.au/skip-link": "^2.0.6",
 		"cuttlebelle": "~1.0.0-alpha.57",
 		"express": "^4.16.2",
 		"elasticlunr": "^0.9.5",
@@ -63,7 +67,7 @@
 		"autoprefixer": "^7.2.4",
 		"concat-cli": "^4.0.0",
 		"mkdirp": "^0.5.1",
-		"node-sass": "^4.9.0",
+		"node-sass": "^4.9.1",
 		"npm-run-all": "^4.1.2",
 		"onchange": "^3.3.0",
 		"postcss-cli": "^4.1.1"

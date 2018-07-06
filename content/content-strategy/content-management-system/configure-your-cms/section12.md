@@ -5,7 +5,7 @@ Migrating content means moving content from one platform (CMS or website) to ano
 
 If you do decide to migrate content, take the time to create a clear exit plan, assess risks, and put a clear and thorough process in place. Always refer to your [content strategy](/content-strategy/) along the way, so that your actions are in alignment with it.
 
-Badly implemented content migration can result in poor site performance, reduced SEO and traffic. It can also impact on the user experience.
+Badly implemented content migration can result in poor site performance, reduced SEO and poor-quality traffic. It can also impact on the user experience.
 
 There are several questions to ask before you start and to engage all [CMS stakeholders](/content-strategy/content-management-system/cms-requirements/#cms-stakeholders) in the process: 
 
