@@ -77,7 +77,7 @@ function stripDelimeters(string) {
 // as Lunr.min.js is not loaded by default
 if (window.location.pathname == "/search/" ) {
 
-	var rawQuery = getAllUrlParams().query;
+	var rawQuery = getAllUrlParams().q;
 
 	// strip + delimeters from query
 	var query = stripDelimeters(rawQuery);

@@ -72,7 +72,7 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 
 						<div className="col-md-3">
 							<form autoComplete="off" action="/search" method="get">
-								<input placeholder="Search" className="search__box" name="query" type="text" />
+								<input placeholder="Search" className="search__box" name="q" type="text" />
 								<input type="submit" value="🔍" />
 							</form>
 						</div>
