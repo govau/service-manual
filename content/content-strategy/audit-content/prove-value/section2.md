@@ -1,4 +1,4 @@
 ---
 layout: text/textblock
 ---
-Review your agency's strategic priorities in the corporate plan and in ministerial statements. Align your content audit goals with any comments about streamlining information or services. This will help when seeking support.
+Review the strategic priorities in your agency's corporate plan and in ministerial statements. Align your content audit goals with any comments about streamlining information or services. This can help when you are seeking support for the audit.
