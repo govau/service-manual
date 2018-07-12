@@ -84,18 +84,17 @@ if (window.location.pathname == "/search/" ) {
 	//var query = rawQuery.replace("+"," ");
 
 
-	var searchresults = document.getElementById("searchresults__query")
-	var searchresults__resultslist = document.getElementById("searchresults__resultslist")
+	var searchresults__count = document.getElementById("searchresults__count");
+	var searchresults__resultslist = document.getElementById("searchresults__resultslist");
 	var resultsObj = new Object();
 	var htmlstring = "";
-
-	searchresults.innerHTML = query;
 
 	function reqListener() {
 	  var obj = JSON.parse(this.responseText);
 		var index = lunr.Index.load(obj);
 		var searchresults_json = index.search(query, {});
 		resultsObj = searchresults_json;
+		searchresults__count.innerHTML = resultsObj.length;
 		//console.log(JSON.stringify(searchresults_json));
 
 		// fetch the path map to lookup title and form the link

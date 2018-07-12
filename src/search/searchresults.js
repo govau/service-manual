@@ -14,7 +14,7 @@ const SearchResults = ( page ) => {
 				<div className="row">
 					<div className="col-xs-12 searchresults__list">
 						<h2 className="au-display-xxxl">{ page.heading }</h2>
-						<h3>Your search for <em><span id="searchresults__query" /></em> returned:</h3>
+						<h3>Your search returned <em><span id="searchresults__count" /></em> matches</h3>
 
 						<ul id="searchresults__resultslist"></ul>
 					</div>
