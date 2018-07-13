@@ -16,7 +16,7 @@ const SearchResults = ( page ) => {
 						<h2 className="au-display-xxxl">{ page.heading }</h2>
 						<h3>Your search returned <em><span id="searchresults__count" /></em> matches</h3>
 
-						<ul id="searchresults__resultslist"></ul>
+						<ul className="searchresults__ul" id="searchresults__resultslist"></ul>
 					</div>
 				</div>
 			</div>
