@@ -70,9 +70,17 @@ function Debounce( runThisFunction, wait, immediate ) {
 	};
 };
 
-
-
 // Prevent event for IE8 and modern browsers
 function PreventEvent( event ) {
 	event.preventDefault ? event.preventDefault() : ( event.returnValue = false );
+}
+
+// Create Element.remove() function if not exist
+// Internet Explorer fix
+if (!('remove' in Element.prototype)) {
+	Element.prototype.remove = function() {
+		if (this.parentNode) {
+			this.parentNode.removeChild(this);
+		}
+	};
 }
