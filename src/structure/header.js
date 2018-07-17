@@ -27,7 +27,7 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 			<div className={ `header${ _ID === 'homepage' ? ' header--home' : '' }` }>
 				<div id="focustrap-top"></div>
 
-				<AUheader dark hero>
+				<AUheader dark hero={ _ID === 'homepage' ? true : false }>
 				  <div class="container-fluid">
 				    <div class="row">
 				      <div class="col-md-9">
