@@ -22,6 +22,10 @@ $nav_breakpoint: 1010px;
 	z-index: 300;
 }
 
+.au-header.au-header--hero {
+	padding-bottom: 0;
+}
+
 .header__blurb {
 	@include AU-space( max-width, 38unit );
 	@include AU-space( margin-top, 1unit );

@@ -44,16 +44,16 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 				        </form>
 				      </div>
 				    </div>
+						<button id="mainmenu-toggle"
+										className="mainmenu-toggle au-btn au-btn--tertiary au-btn--dark au-btn--block icon au-accordion--closed"
+										aria-controls="mainmenu"
+										aria-expanded="false"
+										aria-selected="false"
+										role="tab">Open menu
+						</button>
 				  </div>
 				</AUheader>
 
-				<button id="mainmenu-toggle"
-								className="mainmenu-toggle au-btn au-btn--tertiary au-btn--dark au-btn--block icon au-accordion--closed"
-								aria-controls="mainmenu"
-								aria-expanded="false"
-								aria-selected="false"
-								role="tab">Open menu
-				</button>
 
 				<div
 					aria-hidden="false"
