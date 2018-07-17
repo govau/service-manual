@@ -12,7 +12,7 @@ import PropTypes           from 'prop-types';
  * The header component
  */
 const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID, _pages, _body }) => (
-	<div className="header-wrapper">
+	<div>
 		<AUskipLink links={[
 			{
 				link: '#mainmenu',
@@ -24,78 +24,25 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 			},
 		]} />
 		{ header_govau }
-		<div className={ `header${ _ID === 'homepage' ? ' header--home' : '' }` }>
-			<div id="focustrap-top"></div>
-			<AUheader dark>
-				<div className="container-fluid">
-					<div className="row">
-						<div className="col-md-9">
-
-							{/* If statement for Home / Content Page */}
-							{
-								_ID === 'homepage'
-									? <Fragment>
-											<div className="header__logo-wrapper">
-												<img className="header--logo-coa" src="/assets/img/header-logo-agov.png" alt="The Australian Government coat of Arms"/>
-												<h1 className="header__title">{ title } {/* <- Space here is intentional */
-														title_badge
-															? <span className="header__badge"> { title_badge }</span>
-															: null
-													}
-												</h1>
-											</div>
-											<div className="header__blurb au-body au-body--dark">
-												<div className="header__blurb--content">{ _body }</div>
-											</div>
-										</Fragment>
-
-									: <Fragment>
-											<a href="/" className="header__logo-wrapper">
-												<img className="header--logo-coa" src="/assets/img/header-logo-agov.png" alt="The Australian Government coat of Arms"/>
-												<h1 className="header__title">{ title } {/* <- Space here is intentional */
-														title_badge
-															? <span className="header__badge">{ title_badge }</span>
-															: null
-													}
-												</h1>
-											</a>
-										</Fragment>
-							}
-
-						<button id="mainmenu-toggle"
-								className="mainmenu-toggle au-btn au-btn--tertiary au-btn--dark au-btn--block icon au-accordion--closed"
-								aria-controls="mainmenu"
-								aria-expanded="false"
-								aria-selected="false"
-								role="tab">Open menu</button>
-						</div>
-
-						<div className="col-md-3">
-							<form autoComplete="off" action="/search" method="get">
-								<input placeholder="Search" className="search__box" name="q" type="text" />
-								<input type="submit" value="🔍" />
-							</form>
-						</div>
-
+		<AUheader dark>
+		  <div class="container-fluid">
+		    <div class="row">
+		      <div class="col-md-9">
+		        <AUheaderBrand
+		          title="Digital Guides"
+		          brandImage="/assets/img/header-logo-agov.png"
+		          brandImageAlt="The Australian Government coat of Arms"
+		        />
+		      </div>
+					<div className="col-md-3">
+						<form autoComplete="off" action="/search" method="get">
+							<input placeholder="Search" className="search__box" name="q" type="text" />
+							<input type="submit" value="🔍" />
+						</form>
 					</div>
-				</div>
-			</AUheader>
-			<div
-				aria-hidden="false"
-				id="mainmenu"
-				tabIndex="-1"
-				className="mainmenu au-body au-body--dark au-accordion__body au-accordion--closed">
-				<div className="container-fluid">
-					<div className="row">
-						<div className="col-md-12">
-							{ mainmenu }
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="overlay" className="overlay"></div>
-			<div id="focustrap-bottom"></div>
-		</div>
+		    </div>
+		  </div>
+		</AUheader>
 	</div>
 );
 
