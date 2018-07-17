@@ -26,150 +26,150 @@ $nav_breakpoint: 1010px;
 	padding-bottom: 0;
 }
 
-.header__blurb {
-	@include AU-space( max-width, 38unit );
-	@include AU-space( margin-top, 1unit );
-}
-
-.header__blurb--content {
-	@include AU-fontgrid( md, heading );
-}
+// .header__blurb {
+// 	@include AU-space( max-width, 38unit );
+// 	@include AU-space( margin-top, 1unit );
+// }
+//
+// .header__blurb--content {
+// 	@include AU-fontgrid( md, heading );
+// }
 
 
 // Logo with title
-.header__logo {
-	@include AU-clearfix();
-	@include AU-focus( 'dark' );
-	display: inline-block;
-	text-decoration: none;
-
-	&:hover {
-		color: $AU-colordark-foreground-text;
-
-		.header__title {
-			text-decoration: underline;
-			text-decoration-skip: ink;
-		}
-	}
-
-	@include AU-focus( 'dark' );
-}
-
-
-// Home CoA
-.header--logo-coa {
-	@include AU-space( max-width, 14unit );
-	@include AU-space( width, 14unit );
-
-	.header--home & {
-		@include AU-space( max-width, 18unit );
-		@include AU-space( width, 18unit );
-	}
-}
+// .header__logo {
+// 	@include AU-clearfix();
+// 	@include AU-focus( 'dark' );
+// 	display: inline-block;
+// 	text-decoration: none;
+//
+// 	&:hover {
+// 		color: $AU-colordark-foreground-text;
+//
+// 		.header__title {
+// 			text-decoration: underline;
+// 			text-decoration-skip: ink;
+// 		}
+// 	}
+//
+// 	@include AU-focus( 'dark' );
+// }
 
 
-// Content CoA
-.header__logo-wrapper {
-	@include AU-clearfix;
-}
-
-a.header__logo-wrapper {
-	text-decoration: none;
-	color: $AU-colordark-foreground-text;
-
-	&:hover {
-		h1 {
-			text-decoration: underline;
-		}
-	}
-}
+// // Home CoA
+// .header--logo-coa {
+// 	@include AU-space( max-width, 14unit );
+// 	@include AU-space( width, 14unit );
+//
+// 	.header--home & {
+// 		@include AU-space( max-width, 18unit );
+// 		@include AU-space( width, 18unit );
+// 	}
+// }
+//
+//
+// // Content CoA
+// .header__logo-wrapper {
+// 	@include AU-clearfix;
+// }
+//
+// a.header__logo-wrapper {
+// 	text-decoration: none;
+// 	color: $AU-colordark-foreground-text;
+//
+// 	&:hover {
+// 		h1 {
+// 			text-decoration: underline;
+// 		}
+// 	}
+// }
 
 
 // Site Title
-.header__title {
-	@include AU-space( margin-top, 1.5unit );
-	@include AU-space( padding-top, 1.5unit );
-	@include AU-fontgrid( xl, nospace );
-	color: $AU-colordark-foreground-text;
-	//border-top: solid 1px $AU-colordark-foreground-border;
+// .header__title {
+// 	@include AU-space( margin-top, 1.5unit );
+// 	@include AU-space( padding-top, 1.5unit );
+// 	@include AU-fontgrid( xl, nospace );
+// 	color: $AU-colordark-foreground-text;
+// 	//border-top: solid 1px $AU-colordark-foreground-border;
+//
+// 	&.au-display-md {
+// 		font-weight: bold;
+// 	}
+// }
+//
+// .header__badge {
+// 	@include AU-space( padding, 2px 0.5unit );
+// 	@include AU-space( margin-left, 0.5unit );
+// 	border: solid 2px $AU-colordark-foreground-text;
+// 	border-radius: 2em;
+// 	font-size: 12px;
+// 	font-size: 0.75rem;
+// 	font-weight: normal;
+// 	vertical-align: super;
+// }
 
-	&.au-display-md {
-		font-weight: bold;
-	}
-}
 
-.header__badge {
-	@include AU-space( padding, 2px 0.5unit );
-	@include AU-space( margin-left, 0.5unit );
-	border: solid 2px $AU-colordark-foreground-text;
-	border-radius: 2em;
-	font-size: 12px;
-	font-size: 0.75rem;
-	font-weight: normal;
-	vertical-align: super;
-}
-
-
-// affiliate lock-up
-.header .header__affiliate {
-	@include AU-fontgrid( xs, nospace );
-	@include AU-space( padding, 0.25unit 0 0.25unit 0.75unit );
-	border-left: solid 1px $AU-colordark-foreground-border;
-
-	img {
-		@include AU-space( height, 1.25unit );
-		@include AU-space( margin-right, 0.25unit );
-		vertical-align: middle;
-	}
-
-	a {
-		color: $AU-colordark-foreground-text;
-		text-decoration: none;
-
-		&:hover {
-			text-decoration: none;
-		}
-		@include AU-focus( 'dark' );
-	}
-}
+// // affiliate lock-up
+// .header .header__affiliate {
+// 	@include AU-fontgrid( xs, nospace );
+// 	@include AU-space( padding, 0.25unit 0 0.25unit 0.75unit );
+// 	border-left: solid 1px $AU-colordark-foreground-border;
+//
+// 	img {
+// 		@include AU-space( height, 1.25unit );
+// 		@include AU-space( margin-right, 0.25unit );
+// 		vertical-align: middle;
+// 	}
+//
+// 	a {
+// 		color: $AU-colordark-foreground-text;
+// 		text-decoration: none;
+//
+// 		&:hover {
+// 			text-decoration: none;
+// 		}
+// 		@include AU-focus( 'dark' );
+// 	}
+// }
 
 
 // Responsive styles
 // Break point from _mainmenu.css
-	@media screen and ( min-width: $nav_breakpoint ) {
-	.header--logo-coa,
-	.header__title {
-		display: inline-block;
-		vertical-align: middle;
-
-		.header--home & {
-			display: block
-		}
-	}
-
-	.header__title {
-		@include AU-space( padding, 1unit );
-		@include AU-space( margin-left, 1unit );
-		@include AU-fontgrid( lg, nospace );
-		margin-top: 0;
-		margin-bottom: 0;
-		border-top: none;
-		border-left: solid 1px $AU-colordark-foreground-border;
-
-		.header--home & {
-			@include AU-space( margin-top, 4unit );
-			@include AU-fontgrid( xxxl, nospace );
-			border: none;
-			margin-left: 0;
-			padding: 0;
-		}
-	}
-
-	.header__blurb {
-		@include AU-space( margin-top, 2unit );
-	}
-	.header__blurb--content {
-		@include AU-fontgrid( md, heading );
-	}
-
-}
+// 	@media screen and ( min-width: $nav_breakpoint ) {
+// 	.header--logo-coa,
+// 	.header__title {
+// 		display: inline-block;
+// 		vertical-align: middle;
+//
+// 		.header--home & {
+// 			display: block
+// 		}
+// 	}
+//
+// 	.header__title {
+// 		@include AU-space( padding, 1unit );
+// 		@include AU-space( margin-left, 1unit );
+// 		@include AU-fontgrid( lg, nospace );
+// 		margin-top: 0;
+// 		margin-bottom: 0;
+// 		border-top: none;
+// 		border-left: solid 1px $AU-colordark-foreground-border;
+//
+// 		.header--home & {
+// 			@include AU-space( margin-top, 4unit );
+// 			@include AU-fontgrid( xxxl, nospace );
+// 			border: none;
+// 			margin-left: 0;
+// 			padding: 0;
+// 		}
+// 	}
+//
+// 	.header__blurb {
+// 		@include AU-space( margin-top, 2unit );
+// 	}
+// 	.header__blurb--content {
+// 		@include AU-fontgrid( md, heading );
+// 	}
+//
+// }

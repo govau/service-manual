@@ -1,7 +1,3 @@
-// copied from govau/designsystem with some tweaks
-// line 26, line 35
-// change 'index' -> 'homepage'
-
 import AUheader, { AUheaderBrand } from '../../scripts/uikit/header';
 import AUskipLink          from '../../scripts/uikit/skip-link';
 import React, { Fragment } from 'react';
@@ -24,7 +20,7 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 				},
 			]} />
 			{ header_govau }
-			<div className={ `header${ _ID === 'homepage' ? ' header--home' : '' }` }>
+			<div className="header">
 				<div id="focustrap-top"></div>
 
 				<AUheader dark hero={ _ID === 'homepage' ? true : false }>
