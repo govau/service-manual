@@ -3,7 +3,8 @@ hidden: true
 weight: 300
 description: Search page for Guides
 header:
-  - header.md
+  - /_shared/globalheader.md
+  - /_shared/header.md
 main:
   - search.md
 footer:

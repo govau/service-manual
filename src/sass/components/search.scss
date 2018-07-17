@@ -1,9 +1,12 @@
 .searchresults__list {
-	margin-top: 3rem;
 	margin-bottom: 5rem;
+	@include AU-media( xs ) {
+		margin-top: 1rem;
+	}
 }
 
-ul.searchresults__ul {
-	margin-left: -2.2rem;
-	margin-top: 2rem;
+.searchresults__list ul {
+	margin-left: -2.4rem;
 }
+
+.search__searchbox {}

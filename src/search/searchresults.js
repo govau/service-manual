@@ -13,8 +13,13 @@ const SearchResults = ( page ) => {
 			<div className="container-fluid au-body">
 				<div className="row">
 					<div className="col-xs-12 searchresults__list">
-						<h2 className="au-display-xxxl">{ page.heading }</h2>
-						<h3>Your search returned <em><span id="searchresults__count" /></em> matches</h3>
+						<h2 className="au-display-xxl">{ page.heading }</h2>
+						<span>Your search returned <em><span id="searchresults__count" /></em> matches</span>
+
+						<form className="search__searchbox" autoComplete="off" action="/search" method="get">
+							<input placeholder="Search" className="search__box" name="q" type="text" />
+							<input type="submit" value="🔍 Search" />
+						</form>
 
 						<ul className="searchresults__ul" id="searchresults__resultslist"></ul>
 					</div>
