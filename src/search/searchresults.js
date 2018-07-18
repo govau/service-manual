@@ -14,11 +14,11 @@ const SearchResults = ( page ) => {
 				<div className="row">
 					<div className="col-xs-12 searchresults__list">
 						<h2 className="au-display-xxl">{ page.heading }</h2>
-						<span>Your search returned <em><span id="searchresults__count" /></em> matches</span>
+						<p><span id="searchresults__count" /> results for [query]</p>
 
-						<form className="search__searchbox" autoComplete="off" action="/search" method="get">
-							<input placeholder="Search" className="search__box" name="q" type="text" />
-							<input type="submit" value="🔍 Search" />
+						<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
+							<input type="search" className="au-text-input" name="text-input" id="text-input" placeholder="Digital Guides"/>
+							<input type="submit" className="au-btn au-btn--light search__button" value="🔍 Search" />
 						</form>
 
 						<ul className="searchresults__ul" id="searchresults__resultslist"></ul>
