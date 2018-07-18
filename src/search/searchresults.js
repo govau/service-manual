@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Fragment } from 'react';
+import AUtextInput from '@gov.au/text-inputs';
 
 
 /**
@@ -17,7 +18,7 @@ const SearchResults = ( page ) => {
 						<p><span id="searchresults__count" /> results for [query]</p>
 
 						<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
-							<input type="search" className="au-text-input" name="text-input" id="text-input" placeholder="Digital Guides"/>
+							<input type="search" className="au-text-input" name="q" id="text-input" placeholder="Digital Guides"/>
 							<input type="submit" className="au-btn au-btn--light icon icon--search" value="Search" />
 						</form>
 
