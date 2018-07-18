@@ -58,7 +58,8 @@
 
 
 // Toggle styles
-.mainmenu-toggle.au-btn.au-btn--tertiary {
+.mainmenu-toggle.au-btn.au-btn--tertiary,
+.search-toggle.au-btn.au-btn--tertiary {
 	@include AU-fontgrid( sm );
 	@include AU-space( padding, 0.5unit 0 );
 	@include AU-space( margin-top, 1unit );
