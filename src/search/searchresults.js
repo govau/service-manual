@@ -15,7 +15,7 @@ const SearchResults = ( page ) => {
 				<div className="row">
 					<div className="col-xs-12 searchresults__list">
 						<h2 className="au-display-xxl">{ page.heading }</h2>
-						<p><span id="searchresults__count" /> results for [query]</p>
+						<p><span id="searchresults__count" /> results for <span id="searchresults__query"/></p>
 						<div className="row">
 							<div className="col-xs-12 col-sm-6 col-md-5">
 								<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
