@@ -26,25 +26,25 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 				<AUheader dark hero={ _ID === 'homepage' ? true : false }>
 				  <div className="container-fluid">
 				    <div className="row">
-				      <div className="col-md-9">
+				      <div className="col-md-8">
 				        <AUheaderBrand
 				          title="Digital Guides"
 				          brandImage="/assets/img/header-logo-agov.png"
 				          brandImageAlt="The Australian Government coat of Arms"
 				        />
 				      </div>
-				      <div className="col-md-3">
-				        <form className="searchheader__searchbox" autoComplete="off" action="/search" method="get">
-				          <input placeholder="Search" className="searchheader__box" name="q" type="search" />
-				          <input type="submit" value="🔍 Search" />
-				        </form>
+				      <div className="col-md-4">
+							<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
+								<input type="text" className="au-text-input au-text-input--dark round--left" name="q" id="search-input" placeholder="Digital Guides"/>
+								<button type="submit" className="au-btn au-btn--dark icon icon--search--dark round--right" id="search-btn">Search</button>
+							</form>
 				      </div>
 				    </div>
 						<div className="row">
 							<div className="col-xs-6">
 								<button id="search-toggle"
-												className="search-toggle au-btn au-btn--tertiary au-btn--dark au-btn--block icon au-accordion--closed"
-												aria-controls="mainmenu"
+												className="mainmenu-toggle au-btn au-btn--tertiary au-btn--dark au-btn--block icon au-accordion--closed"
+												aria-controls="searchmenu"
 												aria-expanded="false"
 												aria-selected="false"
 												role="tab">Open Search
