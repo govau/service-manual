@@ -18,7 +18,7 @@ const SearchResults = ( page ) => {
 
 						<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
 							<input type="search" className="au-text-input" name="text-input" id="text-input" placeholder="Digital Guides"/>
-							<input type="submit" className="au-btn au-btn--light search__button" value="🔍 Search" />
+							<input type="submit" className="au-btn au-btn--light icon icon--search" value="Search" />
 						</form>
 
 						<ul className="searchresults__ul" id="searchresults__resultslist"></ul>
