@@ -2,7 +2,7 @@
 layout: text/textblock
 ---
 
-Make sure you put all the outputs of your content strategy into the template. Follow the [content strategy framework](/content-strategy) so that you can create less content, better content and content that costs less to produce.
+Make sure you put all the outputs of your content strategy into the template. Our [content strategy guidance](/content-strategy) is designed to help you do this.
 
 Some other rules to follow are:
 
@@ -11,5 +11,5 @@ Some other rules to follow are:
 * Use it as a working document, adding information as it becomes available.
 * Summarise information and link to source material, rather than duplicate.
 * Amend it to work in your context — it’s not one size fits all.
-* Keep it up to date .
+* Keep it up to date.
 * Share it regularly so that everyone is on the same page.
