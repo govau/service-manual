@@ -1,14 +1,43 @@
 .searchresults__list {
-	margin-bottom: 5rem;
+	@include AU-space(margin-bottom, 5unit);
 	@include AU-media( xs ) {
 		margin-top: 1rem;
 	}
 }
-
+.searchresults__list p{
+	@include AU-space(margin-top, 1unit);
+}
 .searchresults__list ul {
-	margin-left: -2.4rem;
+	@include AU-space(margin-left, -2.4unit);
+	@include AU-space(margin-top, 2unit);
 }
 
-.search__button {
+.search__searchbox {
+	@include AU-space(margin-top, 0.5unit);
+	display: flex;
+	width: auto;
+}
+
+#search-input {
+	border-right:none;
+	display: block;
+    width: auto;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#search-btn {
+	display: block;
+    width: auto;
+}
+/* These should be available to all other control inputs and content which might have border radii.
+Question is, where's the right file to include these? */
+
+.round--right {
 	border-radius: 0px 4px 4px 0px;
+}
+
+.round--left {
+	border-radius: 4px 0px 0px 4px;
 }
