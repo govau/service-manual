@@ -16,12 +16,14 @@ const SearchResults = ( page ) => {
 					<div className="col-xs-12 searchresults__list">
 						<h2 className="au-display-xxl">{ page.heading }</h2>
 						<p><span id="searchresults__count" /> results for [query]</p>
-
-						<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
-							<input type="search" className="au-text-input" name="q" id="text-input" placeholder="Digital Guides"/>
-							<button type="submit" className="au-btn au-btn--light icon icon--search--dark search__button">Search</button>
-						</form>
-
+						<div className="row">
+							<div className="col-xs-12 col-sm-6 col-md-5">
+								<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
+									<input type="search" className="au-text-input round--left" name="q" id="search-input" placeholder="Digital Guides"/>
+									<button type="submit" className="au-btn icon icon--search--dark round--right" id="search-btn">Search</button>
+								</form>
+							</div>
+						</div>
 						<ul className="searchresults__ul" id="searchresults__resultslist"></ul>
 					</div>
 				</div>
