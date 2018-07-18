@@ -58,8 +58,16 @@
 
 
 // Toggle styles
-.mainmenu-toggle.au-btn.au-btn--tertiary,
-.search-toggle.au-btn.au-btn--tertiary {
+
+#search-toggle {
+	text-align: left;
+}
+#mainmenu-toggle {
+	text-align: right;
+}
+
+.mainmenu-toggle.au-btn.au-btn--tertiary
+ {
 	@include AU-fontgrid( sm );
 	@include AU-space( padding, 0.5unit 0 );
 	@include AU-space( margin-top, 1unit );
@@ -69,7 +77,6 @@
 	// button overrides
 	background-color: transparent;
 	border: none;
-	text-align: left;
 
 	// Homepage overrides
 	.header--home & {
