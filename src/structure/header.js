@@ -24,9 +24,9 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 				<div id="focustrap-top"></div>
 
 				<AUheader dark hero={ _ID === 'homepage' ? true : false }>
-				  <div class="container-fluid">
-				    <div class="row">
-				      <div class="col-md-9">
+				  <div className="container-fluid">
+				    <div className="row">
+				      <div className="col-md-9">
 				        <AUheaderBrand
 				          title="Digital Guides"
 				          brandImage="/assets/img/header-logo-agov.png"
