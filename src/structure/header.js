@@ -35,7 +35,7 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 				      </div>
 				      <div className="col-md-4">
 							<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
-								<input type="search" className="au-text-input round--left" name="q" id="search-input" placeholder="Digital Guides"/>
+								<input type="text" className="au-text-input round--left" name="q" id="search-input" placeholder="Digital Guides"/>
 								<button type="submit" className="au-btn icon icon--search--dark round--right" id="search-btn">Search</button>
 							</form>
 				      </div>
