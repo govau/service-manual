@@ -1,0 +1,17 @@
+.search__headercontainer {
+	display: none;
+	@media screen and ( min-width: $nav_breakpoint ) {
+		display: block;
+	}
+}
+
+#searchmenu {
+	display: block;
+	@media screen and ( min-width: $nav_breakpoint ) {
+		display: none;
+	}
+}
+
+.search__searchbox {
+	margin-bottom: 1rem;
+}

@@ -33,11 +33,11 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 				          brandImageAlt="The Australian Government coat of Arms"
 				        />
 				      </div>
-				      <div className="col-md-4">
-							<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
-								<input type="text" className="au-text-input au-text-input--dark round--left" name="q" id="search-input" placeholder="Digital Guides"/>
-								<button type="submit" className="au-btn au-btn--dark icon icon--search--dark round--right" id="search-btn">Search</button>
-							</form>
+				      <div className="col-md-4 search__headercontainer">
+								<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
+									<input type="text" className="au-text-input au-text-input--dark round--left" name="q" id="search-input" placeholder="Digital Guides"/>
+									<button type="submit" className="au-btn au-btn--dark icon icon--search--dark round--right" id="search-btn">Search</button>
+								</form>
 				      </div>
 				    </div>
 						<div className="row">
@@ -63,6 +63,22 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 				  </div>
 				</AUheader>
 
+				<div
+					aria-hidden="false"
+					id="searchmenu"
+					tabIndex="-1"
+					className="searchmenu au-body au-body--dark au-accordion__body au-accordion--closed">
+					<div className="container-fluid">
+						<div className="row">
+							<div className="col-md-12">
+								<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
+									<input type="text" className="au-text-input au-text-input--dark round--left" name="q" id="search-input" placeholder="Digital Guides"/>
+									<button type="submit" className="au-btn au-btn--dark icon icon--search--dark round--right" id="search-btn">Search</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
 
 				<div
 					aria-hidden="false"
@@ -79,6 +95,7 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 				</div>
 				<div id="overlay" className="overlay"></div>
 				<div id="focustrap-bottom"></div>
+
 
 			</div>
 		</div>
