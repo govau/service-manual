@@ -17,7 +17,7 @@ const SearchResults = ( page ) => {
 						<h2 className="au-display-xxl">{ page.heading }</h2>
 						<p><span id="searchresults__count" /> results for <span id="searchresults__query"/></p>
 						<div className="row">
-							<div className="col-xs-12 col-sm-6 col-md-5">
+							<div className="col-xs-12 col-sm-9 col-md-6 col-lg-6">
 								<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
 									<input type="text" className="au-text-input round--left" name="q" id="search-input" placeholder="Digital Guides"/>
 									<button type="submit" className="au-btn icon icon--search--dark round--right" id="search-btn"><label for="search-btn" id="search-btn__label">Search</label></button>
