@@ -26,14 +26,14 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 				<AUheader dark hero={ _ID === 'homepage' ? true : false }>
 				  <div className="container-fluid">
 				    <div className="row">
-				      <div className="col-md-8">
+				      <div className="col-md-7">
 				        <AUheaderBrand
 				          title="Digital Guides"
 				          brandImage="/assets/img/header-logo-agov.png"
 				          brandImageAlt="The Australian Government coat of Arms"
 				        />
 				      </div>
-				      <div className="col-md-4 search__headercontainer">
+				      <div className="col-md-5 search__headercontainer">
 								<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
 									<input type="text" className="au-text-input au-text-input--dark round--left" name="q" id="search-input" placeholder="Digital Guides"/>
 									<button type="submit" className="au-btn au-btn--dark icon icon--search round--right" id="search-btn"><label for="search-btn" id="search-btn__label">Search</label></button>
