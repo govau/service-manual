@@ -36,7 +36,7 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 				      <div className="col-md-4 search__headercontainer">
 								<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
 									<input type="text" className="au-text-input au-text-input--dark round--left" name="q" id="search-input" placeholder="Digital Guides"/>
-									<button type="submit" className="au-btn au-btn--dark icon icon--search round--right" id="search-btn">Search</button>
+									<button type="submit" className="au-btn au-btn--dark icon icon--search round--right" id="search-btn"><label for="search-btn" id="search-btn__label">Search</label></button>
 								</form>
 				      </div>
 				    </div>
@@ -73,7 +73,7 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 							<div className="col-md-12">
 								<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
 									<input type="text" className="au-text-input au-text-input--dark round--left" name="q" id="search-input" placeholder="Digital Guides"/>
-									<button type="submit" className="au-btn au-btn--dark icon icon--search round--right" id="search-btn">Search</button>
+									<button type="submit" className="au-btn au-btn--dark icon icon--search round--right" id="search-btn"><label for="search-btn" id="search-btn__label">Search</label></button>
 								</form>
 							</div>
 						</div>
