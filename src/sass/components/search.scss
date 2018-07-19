@@ -4,12 +4,15 @@
 		margin-top: 1rem;
 	}
 }
-.searchresults__list p{
-	@include AU-space(margin-top, 1unit);
-}
+
 .searchresults__list ul {
 	@include AU-space(margin-left, -2.4unit);
 	@include AU-space(margin-top, 2unit);
+}
+
+.searchresults__list ul > p {
+	@include AU-space(margin-top, 0.75unit);
+	@include AU-space(margin-bottom, 2.5unit);
 }
 
 .search__searchbox {
