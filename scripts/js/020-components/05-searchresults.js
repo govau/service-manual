@@ -86,6 +86,7 @@ if (window.location.pathname == "/search/" ) {
 
 	var searchresults__count = document.getElementById("searchresults__count");
 	var searchresults__resultslist = document.getElementById("searchresults__resultslist");
+  var searchresults__query = document.getElementById("searchresults__query");
 	var resultsObj = new Object();
 	var htmlstring = "";
 
@@ -94,7 +95,14 @@ if (window.location.pathname == "/search/" ) {
 		var index = lunr.Index.load(obj);
 		var searchresults_json = index.search(query, {});
 		resultsObj = searchresults_json;
-		searchresults__count.innerHTML = resultsObj.length;
+
+    if (resultsObj.length == 0){
+      searchresults__count.innerHTML = "No";
+    }
+    else {
+      searchresults__count.innerHTML = resultsObj.length;
+    }
+		searchresults__query.innerHTML = "<strong>" + query + "</strong>";
 		//console.log(JSON.stringify(searchresults_json));
 
 		// fetch the path map to lookup title and form the link
