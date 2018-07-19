@@ -5,7 +5,7 @@
 
 .guidesbreadcrumbs {
 	display: none;
-	@include AU-media( md ) {
+	@include AU-media( xs ) {
 		display: block;
 		margin-top: 1rem;
 	}
