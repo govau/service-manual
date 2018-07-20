@@ -10,6 +10,10 @@
 	margin-top: 6rem;
 }
 
+.search__headercontainer--serp {
+	display: none;
+}
+
 #searchmenu {
 	display: block;
 	@media screen and ( min-width: $nav_breakpoint ) {
