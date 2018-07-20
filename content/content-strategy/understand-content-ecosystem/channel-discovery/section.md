@@ -13,8 +13,6 @@ Set up interviews with anyone in your agency who has had something to do with co
 
 ### [1]Find out
 
-It will be useful for you to find out:
-
  * which channels you currently have or use
  * which channels you no longer use or use less
  * about the connections between channels

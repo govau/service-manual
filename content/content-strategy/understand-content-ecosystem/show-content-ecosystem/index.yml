@@ -10,8 +10,8 @@ header:
 main:
   - intro.md #text
   - text.md #text
-  - bad-mind-map.md #diagram
-  - good-mind-map.md #diagram
+  - mind-maps.md #diagram
+  - simple-ecosystem-map.md #diagram
   - venn.md #diagram
   - screenshots.md
   - /_shared/feedback.md
