@@ -43,7 +43,7 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 						<div className="row">
 							<div className="col-xs-6">
 								<button id="search-toggle"
-												className="mainmenu-toggle au-btn au-btn--tertiary au-btn--dark au-btn--block icon au-accordion--closed"
+												className="mainmenu-toggle au-btn au-btn--tertiary au-btn--dark au-btn--block icon mainmenu__search au-accordion--closed"
 												aria-controls="searchmenu"
 												aria-expanded="false"
 												aria-selected="false"
@@ -52,7 +52,7 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 							</div>
 							<div className="col-xs-6">
 								<button id="mainmenu-toggle"
-												className="mainmenu-toggle au-btn au-btn--tertiary au-btn--dark au-btn--block icon au-accordion--closed"
+												className="mainmenu-toggle au-btn au-btn--tertiary au-btn--dark au-btn--block icon mainmenu__nav au-accordion--closed"
 												aria-controls="mainmenu"
 												aria-expanded="false"
 												aria-selected="false"
