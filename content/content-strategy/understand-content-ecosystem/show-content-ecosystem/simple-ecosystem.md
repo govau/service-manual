@@ -2,7 +2,7 @@
 layout: blocks/image_content_landscape
 image: content-strategy/ecosystem/good-ecosystem-map.jpg
 link: content-strategy/ecosystem/good-ecosystem-map.jpg
-title: Good ecosystem
+title: Simple ecosystem
 reverse: false
 stackPosition: top
 imageAlt: A simple and clear content channel mind map showing just a few channels.
