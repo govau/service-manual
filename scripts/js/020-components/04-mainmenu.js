@@ -2,6 +2,7 @@
 
 var mainmenu        = document.getElementById( 'mainmenu' );
 var mainmenuToggle  = document.getElementById( 'mainmenu-toggle' );
+var searchToggle  	= document.getElementById( 'search-toggle' );
 var overlay         = document.getElementById( 'overlay' );
 
 var focustrapTop    = document.getElementById( 'focustrap-top' );
@@ -28,11 +29,34 @@ function ToggleMenu() {
 	});
 }
 
+function ToggleSearch() {
+	AU.accordion.Toggle( searchToggle, undefined, {
+		onOpen: function() {
+			searchToggle.innerHTML = 'Close search';         // Change the text in the toggle
+			focustrapTop.setAttribute( "tabindex", 0 );      // Enable the focus trap
+			focustrapBottom.setAttribute( "tabindex", 0 );
+			AddClass( document.body, 'overlay--open' );      // Stop scrolling when overlay is open
+		},
+		onClose: function() {
+			searchToggle.innerHTML = 'Open search';
+			focustrapTop.removeAttribute( "tabindex" );
+			focustrapBottom.removeAttribute( "tabindex" );
+			RemoveClass( document.body, 'overlay--open' );
+		},
+	});
+}
+
 
 // On click of the menu toggle open or close the menu
 AddEvent( mainmenuToggle, 'click', function( event ) {
 	PreventEvent( event );
 	ToggleMenu();
+});
+
+// On click of the search toggle open or close the search
+AddEvent( searchToggle, 'click', function( event ) {
+	PreventEvent( event );
+	ToggleSearch();
 });
 
 

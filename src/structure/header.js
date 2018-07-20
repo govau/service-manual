@@ -26,24 +26,24 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 				<AUheader dark hero={ _ID === 'homepage' ? true : false }>
 				  <div className="container-fluid">
 				    <div className="row">
-				      <div className="col-md-8">
+				      <div className="col-md-7">
 				        <AUheaderBrand
 				          title="Digital Guides"
 				          brandImage="/assets/img/header-logo-agov.png"
 				          brandImageAlt="The Australian Government coat of Arms"
 				        />
 				      </div>
-				      <div className="col-md-4">
-							<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
-								<input type="text" className="au-text-input au-text-input--dark round--left" name="q" id="search-input" placeholder="Digital Guides"/>
-								<button type="submit" className="au-btn au-btn--dark icon icon--search--dark round--right" id="search-btn">Search</button>
-							</form>
+				      <div className={ _ID === 'homepage' ? "col-md-5 search__headercontainer search__headercontainer--hero" : "col-md-5 search__headercontainer" }>
+								<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
+									<input type="text" className="au-text-input au-text-input--dark round--left" name="q" id="search-input" placeholder="Digital Guides"/>
+									<button type="submit" className="au-btn au-btn--dark icon icon--search round--right" id="search-btn"><label for="search-btn" id="search-btn__label">Search</label></button>
+								</form>
 				      </div>
 				    </div>
 						<div className="row">
 							<div className="col-xs-6">
 								<button id="search-toggle"
-												className="mainmenu-toggle au-btn au-btn--tertiary au-btn--dark au-btn--block icon au-accordion--closed"
+												className="mainmenu-toggle au-btn au-btn--tertiary au-btn--dark au-btn--block icon mainmenu__search au-accordion--closed"
 												aria-controls="searchmenu"
 												aria-expanded="false"
 												aria-selected="false"
@@ -52,7 +52,7 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 							</div>
 							<div className="col-xs-6">
 								<button id="mainmenu-toggle"
-												className="mainmenu-toggle au-btn au-btn--tertiary au-btn--dark au-btn--block icon au-accordion--closed"
+												className="mainmenu-toggle au-btn au-btn--tertiary au-btn--dark au-btn--block icon mainmenu__nav au-accordion--closed"
 												aria-controls="mainmenu"
 												aria-expanded="false"
 												aria-selected="false"
@@ -63,6 +63,22 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 				  </div>
 				</AUheader>
 
+				<div
+					aria-hidden="false"
+					id="searchmenu"
+					tabIndex="-1"
+					className="searchmenu au-body au-body--dark au-accordion__body au-accordion--closed">
+					<div className="container-fluid">
+						<div className="row">
+							<div className="col-md-12">
+								<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
+									<input type="text" className="au-text-input au-text-input--dark round--left" name="q" id="search-input" placeholder="Digital Guides"/>
+									<button type="submit" className="au-btn au-btn--dark icon icon--search round--right" id="search-btn"><label for="search-btn" id="search-btn__label">Search</label></button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
 
 				<div
 					aria-hidden="false"
@@ -79,6 +95,7 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 				</div>
 				<div id="overlay" className="overlay"></div>
 				<div id="focustrap-bottom"></div>
+
 
 			</div>
 		</div>
