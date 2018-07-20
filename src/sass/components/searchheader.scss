@@ -10,11 +10,19 @@
 	margin-top: 6rem;
 }
 
+.search__headercontainer--serp {
+	display: none;
+}
+
 #searchmenu {
 	display: block;
 	@media screen and ( min-width: $nav_breakpoint ) {
 		display: none;
 	}
+	border-bottom: .5rem solid #45c2f0;
+  position: absolute;
+  width: 100%;
+  z-index: 200;
 }
 
 .search__searchbox {
