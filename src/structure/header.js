@@ -27,11 +27,12 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 				  <div className="container-fluid">
 				    <div className="row">
 				      <div className="col-md-7">
-				        <AUheaderBrand
-				          title="Digital Guides"
-				          brandImage="/assets/img/header-logo-agov.png"
-				          brandImageAlt="The Australian Government coat of Arms"
-				        />
+								<AUheaderBrand
+					          title="Digital Guides"
+					          brandImage="/assets/img/header-logo-agov.png"
+					          brandImageAlt="The Australian Government coat of Arms"
+										link = "/"
+					        />
 				      </div>
 				      <div className={ _ID === 'homepage' ? "col-md-5 search__headercontainer search__headercontainer--hero" : "col-md-5 search__headercontainer" }>
 								<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
