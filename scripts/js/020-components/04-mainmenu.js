@@ -10,11 +10,20 @@ var focustrapBottom = document.getElementById( 'focustrap-bottom' );
 var mainmenuLinks   = document.querySelectorAll( '.header a, .header button' );
 var navSkipLink     = document.querySelectorAll( '.au-skip-link__link[href="#mainmenu"]' )[ 0 ];
 
+function CloseMenuOnly() {
+	AU.accordion.Close(mainmenuToggle, undefined);
+	mainmenuToggle.innerHTML = 'Open menu';							// Change the text in the toggle
+}
 
+function CloseSearchOnly() {
+	AU.accordion.Close(searchToggle, undefined);
+	searchToggle.innerHTML = 'Open search';         
+}
 
 function ToggleMenu() {
 	AU.accordion.Toggle( mainmenuToggle, undefined, {
 		onOpen: function() {
+			CloseSearchOnly();															 // Force close the search in case it's currently open
 			mainmenuToggle.innerHTML = 'Close menu';         // Change the text in the toggle
 			focustrapTop.setAttribute( "tabindex", 0 );      // Enable the focus trap
 			focustrapBottom.setAttribute( "tabindex", 0 );
@@ -32,6 +41,7 @@ function ToggleMenu() {
 function ToggleSearch() {
 	AU.accordion.Toggle( searchToggle, undefined, {
 		onOpen: function() {
+			CloseMenuOnly();																 // Force close the menu in case it's currently open
 			searchToggle.innerHTML = 'Close search';         // Change the text in the toggle
 			focustrapTop.setAttribute( "tabindex", 0 );      // Enable the focus trap
 			focustrapBottom.setAttribute( "tabindex", 0 );
