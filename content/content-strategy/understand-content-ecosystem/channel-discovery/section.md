@@ -12,7 +12,6 @@ At this stage you are not looking to audit each channel to unpack how much conte
 Set up interviews with anyone in your agency who has had something to do with commissioning or owning a channel, or who publishes content. Start with the communications, media, social media, and IT teams.
 
 ### [1]Find out
-
  * which channels you currently have or use
  * which channels you no longer use or use less
  * about the connections between channels
