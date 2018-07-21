@@ -5,8 +5,8 @@ module.exports = {
 		// Design System
 		document = new Object();
 		pathmapitem = new Object();
-		document.title = "Design System Design System Design System Design System Design System";
-		document.description = "Design System Design System Design System Design System Design System  UI UIkit component layout Front End Toolkit react patterns button accordion grid forms css javascript style guide";
+		document.title = "Design System";
+		document.description = "The Australian Government Design System provides a framework and a set of tools to help designers and developers build government products and services more easily. CSS Javascript UI";
 		pathmapitem.description = "The Australian Government Design System provides a framework and a set of tools to help designers and developers build government products and services more easily.";
 		pathmapitem.title = "Design System";
 		pageid = pageid + 1;
@@ -33,8 +33,8 @@ module.exports = {
 		// Content Guide
 		document = new Object();
 		pathmapitem = new Object()
-		document.title = "Content Guide Content Guide Content Guide Content Guide";
-		document.description = "Content Guide Content Guide Content Guide Content Guide A guide to help Australian Government teams design simple, clear and fast content.";
+		document.title = "Content Guide";
+		document.description = "A guide to help Australian Government teams design simple, clear and fast content.";
 		pathmapitem.description = "A guide to help Australian Government teams design simple, clear and fast content.";
 		pathmapitem.title = "GOV.AU Content Guide";
 		pageid = pageid + 1;
