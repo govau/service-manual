@@ -28,5 +28,22 @@ module.exports = {
 		pathmapitem.path = "https://guides.service.gov.au/content-guide/";
 		docsArray.push(document);
 		pathsArray.push(pathmapitem);
+
+		// Content Guide - Content structure
+		document = new Object();
+		pathmapitem = new Object();
+		document.title = "Content structure";
+		document.description = "Structure content to make it easy for the user to find what they need.";
+		pathmapitem.description = "Structure content to make it easy for the user to find what they need.";
+		pathmapitem.title = "Content structure";
+		pageid = pageid + 1;
+		document.id = pageid;
+		pathmapitem.id = pageid;
+		pathmapitem.path = "https://guides.service.gov.au/content-guide/content-structure/";
+		docsArray.push(document);
+		pathsArray.push(pathmapitem);
+
+
+
 	}
 }
