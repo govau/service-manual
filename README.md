@@ -32,12 +32,11 @@ npm run build
 npm run watch
 ```
 
-## Run search engine in Development
+## Rebuild the search indexes
 
-**Build the search index**
 
 ```shell
-npm run build
+npm run build:search
 ```
 
 

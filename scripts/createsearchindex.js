@@ -7,8 +7,8 @@ const data = fs.readFileSync('site/documents.json');
 const documents = JSON.parse(data);
 
 const index = lunr(function() {
-	this.field('title')
-	this.field('description')
+	this.field('title', { boost: 10 })
+	this.field('description' , { boost: 5 })
 	this.field('body')
 	this.ref('id')
 
