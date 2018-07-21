@@ -1,9 +1,11 @@
 module.exports = {
 		federate: function(docsArray,pathsArray,index) {
 		let pageid = index;
+
 		// Design System
 		document = new Object();
 		pathmapitem = new Object();
+		document.boostvalue = 10;
 		document.title = "Design System Design System Design System Design System Design System";
 		document.description = "Design System Design System Design System Design System Design System  UI UIkit component layout Front End Toolkit react patterns button accordion grid forms css javascript style guide";
 		pathmapitem.description = "The Australian Government Design System provides a framework and a set of tools to help designers and developers build government products and services more easily.";
@@ -17,9 +19,10 @@ module.exports = {
 
 		// Content Guide
 		document = new Object();
-		pathmapitem = new Object();
+		pathmapitem = new Object()
+		document.boostvalue = 10;
 		document.title = "Content Guide Content Guide Content Guide Content Guide";
-		document.description = "Content Guide Content Guide Content Guide Content Guide A guide to help Australian Government teams design simple, clear and fast content. Content structure, writing style, punctuation and grammar, terms phrases, numbers, measurements formatting accessibility";
+		document.description = "Content Guide Content Guide Content Guide Content Guide A guide to help Australian Government teams design simple, clear and fast content.";
 		pathmapitem.description = "A guide to help Australian Government teams design simple, clear and fast content.";
 		pathmapitem.title = "GOV.AU Content Guide";
 		pageid = pageid + 1;
@@ -32,6 +35,7 @@ module.exports = {
 		// Content Guide - Content structure
 		document = new Object();
 		pathmapitem = new Object();
+		document.boostvalue = 10;
 		document.title = "Content structure";
 		document.description = "Structure content to make it easy for the user to find what they need.";
 		pathmapitem.description = "Structure content to make it easy for the user to find what they need.";
@@ -60,6 +64,7 @@ module.exports = {
 		// Content Guide - Accessibility and inclusivity
 		document = new Object();
 		pathmapitem = new Object();
+		document.boostvalue = 10;
 		document.title = "Accessibility and inclusivity";
 		document.description = "Design content so everyone can use it.";
 		pathmapitem.description = "Design content so everyone can use it.";

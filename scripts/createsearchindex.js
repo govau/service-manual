@@ -13,7 +13,7 @@ const index = lunr(function() {
 	this.ref('id')
 
 	documents.forEach(function(doc) {
-		this.add(doc)
+		this.add(doc, { boost: doc.boostvalue })
 	}, this)
 
 })
