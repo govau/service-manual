@@ -94,7 +94,18 @@ if (window.location.pathname == "/search/" ) {
 	  var obj = JSON.parse(this.responseText);
 		var index = lunr.Index.load(obj);
 		var searchresults_json = index.search(query, {});
-		resultsObj = searchresults_json;
+
+		if (searchresults_json.length > 0) {
+			resultsObj = searchresults_json;
+		} else { //fuzzy search now
+			searchresults_json = index.search(query + "~1", {});
+			if (searchresults_json.length > 0) {
+				resultsObj = searchresults_json;
+			} else {
+				searchresults_json = index.search(query + "~2", {});
+				resultsObj = searchresults_json;
+			}
+		}
 
     if (resultsObj.length == 0){
       searchresults__count.innerHTML = "No";
