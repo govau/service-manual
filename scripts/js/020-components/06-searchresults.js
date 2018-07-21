@@ -133,9 +133,13 @@ if (window.location.pathname == "/search/" ) {
 					continue;
 				}
 			}
-			//if (resultcount < 15) {
-				htmlstring = htmlstring + "<h3><a href='" + url +"'>" + pagetitle + "</a></h3><p>" + pagedescription + "</p>";
-			//}
+
+			// form the HTML list result item
+			var rel = "";
+			if (url.substring(0,1) == "h") {
+				rel = "rel='external'";
+			}
+			htmlstring = htmlstring + "<h3><a " + rel + "href='" + url +"'>" + pagetitle + "</a></h3><p>" + pagedescription + "</p>";
 		});
 		searchresults__resultslist.innerHTML = htmlstring;
 	}
