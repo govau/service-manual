@@ -15,6 +15,7 @@ module.exports = {
 		pathmapitem.path = "https://designsystem.gov.au/";
 		docsArray.push(document);
 		pathsArray.push(pathmapitem);
+		console.log("Adding federated page: " + pathmapitem.path);
 
 		// Design System - components
 		document = new Object();
@@ -29,6 +30,7 @@ module.exports = {
 		pathmapitem.path = "https://designsystem.gov.au/components/";
 		docsArray.push(document);
 		pathsArray.push(pathmapitem);
+		console.log("Adding federated page: " + pathmapitem.path);
 
 		// Content Guide
 		document = new Object();
@@ -43,6 +45,7 @@ module.exports = {
 		pathmapitem.path = "https://guides.service.gov.au/content-guide/";
 		docsArray.push(document);
 		pathsArray.push(pathmapitem);
+		console.log("Adding federated page: " + pathmapitem.path);
 
 		// Content Guide - Content structure
 		document = new Object();
@@ -57,6 +60,7 @@ module.exports = {
 		pathmapitem.path = "https://guides.service.gov.au/content-guide/content-structure/";
 		docsArray.push(document);
 		pathsArray.push(pathmapitem);
+		console.log("Adding federated page: " + pathmapitem.path);
 
 		// Content Guide - Writing style
 		document = new Object();
@@ -71,6 +75,7 @@ module.exports = {
 		pathmapitem.path = "https://guides.service.gov.au/content-guide/writing-style/";
 		docsArray.push(document);
 		pathsArray.push(pathmapitem);
+		console.log("Adding federated page: " + pathmapitem.path);
 
 		// Content Guide - Accessibility and inclusivity
 		document = new Object();
@@ -85,6 +90,7 @@ module.exports = {
 		pathmapitem.path = "https://guides.service.gov.au/content-guide/accessibility-inclusivity/";
 		docsArray.push(document);
 		pathsArray.push(pathmapitem);
+		console.log("Adding federated page: " + pathmapitem.path);
 
 		// Content Guide - Punctuation and grammar
 		document = new Object();
@@ -99,6 +105,7 @@ module.exports = {
 		pathmapitem.path = "https://guides.service.gov.au/content-guide/punctuation-grammar/";
 		docsArray.push(document);
 		pathsArray.push(pathmapitem);
+		console.log("Adding federated page: " + pathmapitem.path);
 
 		// Content Guide - Terms and phrases
 		document = new Object();
@@ -113,6 +120,7 @@ module.exports = {
 		pathmapitem.id = pageid;
 		docsArray.push(document);
 		pathsArray.push(pathmapitem);
+		console.log("Adding federated page: " + pathmapitem.path);
 
 		// Content Guide - Numbers and measurements
 		document = new Object();
@@ -128,6 +136,7 @@ module.exports = {
 		pathmapitem.id = pageid;
 		docsArray.push(document);
 		pathsArray.push(pathmapitem);
+		console.log("Adding federated page: " + pathmapitem.path);
 
 		// Content Guide - Formatting
 		document = new Object();
@@ -142,6 +151,7 @@ module.exports = {
 		pathmapitem.id = pageid;
 		docsArray.push(document);
 		pathsArray.push(pathmapitem);
+		console.log("Adding federated page: " + pathmapitem.path);
 
 		// Content Guide - Types of content
 		document = new Object();
@@ -156,6 +166,7 @@ module.exports = {
 		pathmapitem.id = pageid;
 		docsArray.push(document);
 		pathsArray.push(pathmapitem);
+		console.log("Adding federated page: " + pathmapitem.path);
 
 		// Content Guide - Types of content
 		document = new Object();
@@ -170,6 +181,22 @@ module.exports = {
 		pathmapitem.id = pageid;
 		docsArray.push(document);
 		pathsArray.push(pathmapitem);
+		console.log("Adding federated page: " + pathmapitem.path);
+
+		// Digital Learning Design Standards
+		document = new Object();
+		pathmapitem = new Object();
+		document.title = "Digital Learning Design Standards";
+		pathmapitem.title = document.title;
+		document.description = "These learning design standards (LDS) are blueprints for learning and development and will guide APS training for digital skills.";
+		pathmapitem.description = document.description;
+		pathmapitem.path = "https://govau.github.io/learning-design-standards/";
+		pageid = pageid + 1;
+		document.id = pageid;
+		pathmapitem.id = pageid;
+		docsArray.push(document);
+		pathsArray.push(pathmapitem);
+		console.log("Adding federated page: " + pathmapitem.path);
 
 
 	}
