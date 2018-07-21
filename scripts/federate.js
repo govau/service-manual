@@ -43,6 +43,34 @@ module.exports = {
 		docsArray.push(document);
 		pathsArray.push(pathmapitem);
 
+		// Content Guide - Writing style
+		document = new Object();
+		pathmapitem = new Object();
+		document.title = "Writing style";
+		document.description = "Writing for digital is different to writing for print. Content must be user-focused, scannable and accessible across all devices.";
+		pathmapitem.description = "Writing for digital is different to writing for print. Content must be user-focused, scannable and accessible across all devices.";
+		pathmapitem.title = "Writing style";
+		pageid = pageid + 1;
+		document.id = pageid;
+		pathmapitem.id = pageid;
+		pathmapitem.path = "https://guides.service.gov.au/content-guide/writing-style/";
+		docsArray.push(document);
+		pathsArray.push(pathmapitem);
+
+		// Content Guide - Accessibility and inclusivity
+		document = new Object();
+		pathmapitem = new Object();
+		document.title = "Accessibility and inclusivity";
+		document.description = "Design content so everyone can use it.";
+		pathmapitem.description = "Design content so everyone can use it.";
+		pathmapitem.title = "Accessibility and inclusivity";
+		pageid = pageid + 1;
+		document.id = pageid;
+		pathmapitem.id = pageid;
+		pathmapitem.path = "https://guides.service.gov.au/content-guide/accessibility-inclusivity/";
+		docsArray.push(document);
+		pathsArray.push(pathmapitem);
+
 
 
 	}
