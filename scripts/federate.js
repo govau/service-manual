@@ -198,6 +198,66 @@ module.exports = {
 		pathsArray.push(pathmapitem);
 		console.log("Adding federated page: " + pathmapitem.path);
 
+		// Service Handbook
+		document = new Object();
+		pathmapitem = new Object();
+		document.title = "Service Handbook";
+		pathmapitem.title = document.title;
+		document.description = "Build excellent digital services. We're sharing our approach for building digital services that start with user needs, iterate quickly, and meet the Digital Service Standard.";
+		pathmapitem.description = document.description;
+		pathmapitem.path = "https://ausdto.github.io/service-handbook/";
+		pageid = pageid + 1;
+		document.id = pageid;
+		pathmapitem.id = pageid;
+		docsArray.push(document);
+		pathsArray.push(pathmapitem);
+		console.log("Adding federated page: " + pathmapitem.path);
+
+		// Service Handbook - Discovery
+		document = new Object();
+		pathmapitem = new Object();
+		document.title = "Discovery Handbook";
+		pathmapitem.title = document.title;
+		document.description = "This is a handbook to help teams going through the Discovery stage of the service delivery process. We’ve written it from our experience helping agencies run discoveries as part of our Digital Transformation Programme.";
+		pathmapitem.description = document.description;
+		pathmapitem.path = "http://ausdto.github.io/service-handbook/discovery/";
+		pageid = pageid + 1;
+		document.id = pageid;
+		pathmapitem.id = pageid;
+		docsArray.push(document);
+		pathsArray.push(pathmapitem);
+		console.log("Adding federated page: " + pathmapitem.path);
+
+		// Service Handbook - Discovery
+		document = new Object();
+		pathmapitem = new Object();
+		document.title = "Alpha Handbook";
+		pathmapitem.title = document.title;
+		document.description = "This guide is intended to help teams going through the Alpha stage of the service delivery process. It describes the DTO’s recommended approach to Alpha, drawing on our experiences from working with projects in the Digital Transformation Programme.";
+		pathmapitem.description = document.description;
+		pathmapitem.path = "http://ausdto.github.io/service-handbook/alpha/";
+		pageid = pageid + 1;
+		document.id = pageid;
+		pathmapitem.id = pageid;
+		docsArray.push(document);
+		pathsArray.push(pathmapitem);
+		console.log("Adding federated page: " + pathmapitem.path);
+
+		// Service Handbook - Capabilities
+		document = new Object();
+		pathmapitem = new Object();
+		document.title = "Capabilities Handbook";
+		pathmapitem.title = document.title;
+		document.description = "This is the first release of our capability model. We’ve focussed on the capabilities for technical delivery but over time we’ll be extending it to cover other digital delivery skills such as design, product management and user research.";
+		pathmapitem.description = document.description;
+		pathmapitem.path = "http://ausdto.github.io/service-handbook/capability/";
+		pageid = pageid + 1;
+		document.id = pageid;
+		pathmapitem.id = pageid;
+		docsArray.push(document);
+		pathsArray.push(pathmapitem);
+		console.log("Adding federated page: " + pathmapitem.path);
+
 
 	}
 }
