@@ -9,6 +9,10 @@ const path = require('path');
 const remark = require('remark');
 const strip = require('strip-markdown');
 
+// Lunr boost- give bias towards Digital Guides pages over federated pages
+const guidesBoost = 5;
+
+// Federated results
 const federator = require(path.resolve( __dirname, "federate.js" ));
 
 const rootdir = path.dirname(__dirname)+"/content/";
@@ -64,6 +68,7 @@ function directoryWalker(dir, done) {
 						pageid = pageid + 1;
 
 						document.id = pageid;
+						document.boost = guidesBoost;
 						pathmapitem.id = pageid;
 						pathmapitem.path = relativeUrl;
 

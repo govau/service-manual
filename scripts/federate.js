@@ -6,6 +6,7 @@ module.exports = {
 		document = new Object();
 		pathmapitem = new Object();
 		document.title = "Design System";
+		document.boost = 5;
 		document.description = "The Australian Government Design System provides a framework and a set of tools to help designers and developers build government products and services more easily. CSS Javascript UI";
 		pathmapitem.description = "The Australian Government Design System provides a framework and a set of tools to help designers and developers build government products and services more easily.";
 		pathmapitem.title = "Design System";
@@ -19,6 +20,7 @@ module.exports = {
 
 		// Design System - components
 		document = new Object();
+		document.boost = 5;
 		pathmapitem = new Object();
 		document.title = "Components";
 		document.description = "CSS UI Kit UiKit Javascript React Grid Accordion Header Footer Nav Navigation Text Input Button Form Link Skip Link Tag Select Breadcrumbs Here you can find design and development files for each component, findings we’ve collected from performing user research as well as documentation to help teams adopt the design system for their projects.";
@@ -34,6 +36,7 @@ module.exports = {
 
 		// Content Guide
 		document = new Object();
+		document.boost = 5;
 		pathmapitem = new Object()
 		document.title = "Content Guide";
 		document.description = "A guide to help Australian Government teams design simple, clear and fast content.";
@@ -125,7 +128,7 @@ module.exports = {
 		// Content Guide - Numbers and measurements
 		document = new Object();
 		pathmapitem = new Object();
-		document.boostvalue = 0;
+		document.boost = 0;
 		document.title = "Numbers and measurements";
 		pathmapitem.title = "Numbers and measurements";
 		document.description = "Numbers are easier to read on a screen than words, so use them where possible.";
@@ -185,6 +188,7 @@ module.exports = {
 
 		// Digital Learning Design Standards
 		document = new Object();
+		document.boost = 3;
 		pathmapitem = new Object();
 		document.title = "Digital Learning Design Standards";
 		pathmapitem.title = document.title;
@@ -200,6 +204,7 @@ module.exports = {
 
 		// Service Handbook
 		document = new Object();
+		document.boost = 3;
 		pathmapitem = new Object();
 		document.title = "Service Handbook";
 		pathmapitem.title = document.title;
