@@ -42,7 +42,7 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 					          title="Digital Guides"
 					          brandImage="/assets/img/header-logo-agov.png"
 					          brandImageAlt="The Australian Government coat of Arms"
-										link = "/"
+										link = { _ID === 'homepage' ?  "" : "/" }
 					        />
 				      </div>
 				      <div className={createClass(_ID)}>
