@@ -1,6 +1,7 @@
 // copied from govau/designsystem
 
 var mainmenu        = document.getElementById( 'mainmenu' );
+var searchmenu      = document.getElementById( 'searchmenu' );
 var mainmenuToggle  = document.getElementById( 'mainmenu-toggle' );
 var searchToggle  	= document.getElementById( 'search-toggle' );
 var overlay         = document.getElementById( 'overlay' );
@@ -11,13 +12,17 @@ var mainmenuLinks   = document.querySelectorAll( '.header a, .header button' );
 var navSkipLink     = document.querySelectorAll( '.au-skip-link__link[href="#mainmenu"]' )[ 0 ];
 
 function CloseMenuOnly() {
-	AU.accordion.Close(mainmenuToggle, undefined);
-	mainmenuToggle.innerHTML = 'Open menu';							// Change the text in the toggle
+ if (mainmenuToggle.innerHTML == "Close menu") {
+		AU.accordion.Toggle(mainmenuToggle, undefined);
+		mainmenuToggle.innerHTML = 'Open menu';
+	}
 }
 
 function CloseSearchOnly() {
-	AU.accordion.Close(searchToggle, undefined);
-	searchToggle.innerHTML = 'Open search';         
+	if (searchToggle.innerHTML == "Close search") {
+ 		AU.accordion.Toggle(searchToggle, undefined);
+ 		searchToggle.innerHTML = 'Open search';
+ 	}
 }
 
 function ToggleMenu() {
