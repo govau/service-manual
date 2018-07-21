@@ -17,6 +17,11 @@
 	}
 }
 
+// give images inside links focus
+.imagecontentblock__image a:focus img {
+	outline: 3px solid $AU-color-foreground-focus;
+}
+
 .imagecontentblock__content {
 	height: 100%;
 
