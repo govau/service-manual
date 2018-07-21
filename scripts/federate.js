@@ -5,7 +5,7 @@ module.exports = {
 		// Design System
 		document = new Object();
 		pathmapitem = new Object();
-		document.boostvalue = 10;
+		//document.boostvalue = 10;
 		document.title = "Design System Design System Design System Design System Design System";
 		document.description = "Design System Design System Design System Design System Design System  UI UIkit component layout Front End Toolkit react patterns button accordion grid forms css javascript style guide";
 		pathmapitem.description = "The Australian Government Design System provides a framework and a set of tools to help designers and developers build government products and services more easily.";
@@ -20,7 +20,7 @@ module.exports = {
 		// Content Guide
 		document = new Object();
 		pathmapitem = new Object()
-		document.boostvalue = 10;
+		document.boostvalue = 5;
 		document.title = "Content Guide Content Guide Content Guide Content Guide";
 		document.description = "Content Guide Content Guide Content Guide Content Guide A guide to help Australian Government teams design simple, clear and fast content.";
 		pathmapitem.description = "A guide to help Australian Government teams design simple, clear and fast content.";
@@ -35,7 +35,7 @@ module.exports = {
 		// Content Guide - Content structure
 		document = new Object();
 		pathmapitem = new Object();
-		document.boostvalue = 10;
+		//document.boostvalue = 10;
 		document.title = "Content structure";
 		document.description = "Structure content to make it easy for the user to find what they need.";
 		pathmapitem.description = "Structure content to make it easy for the user to find what they need.";
@@ -64,7 +64,7 @@ module.exports = {
 		// Content Guide - Accessibility and inclusivity
 		document = new Object();
 		pathmapitem = new Object();
-		document.boostvalue = 10;
+		document.boostvalue = 5;
 		document.title = "Accessibility and inclusivity";
 		document.description = "Design content so everyone can use it.";
 		pathmapitem.description = "Design content so everyone can use it.";
@@ -73,6 +73,66 @@ module.exports = {
 		document.id = pageid;
 		pathmapitem.id = pageid;
 		pathmapitem.path = "https://guides.service.gov.au/content-guide/accessibility-inclusivity/";
+		docsArray.push(document);
+		pathsArray.push(pathmapitem);
+
+		// Content Guide - Punctuation and grammar
+		document = new Object();
+		pathmapitem = new Object();
+		document.boostvalue = 0;
+		document.title = "Punctuation and grammar";
+		pathmapitem.title = "Punctuation and grammar";
+		document.description = "Use minimal punctuation.";
+		pathmapitem.description = "Use minimal punctuation.";
+		pageid = pageid + 1;
+		document.id = pageid;
+		pathmapitem.id = pageid;
+		pathmapitem.path = "https://guides.service.gov.au/content-guide/punctuation-grammar/";
+		docsArray.push(document);
+		pathsArray.push(pathmapitem);
+
+		// Content Guide - Terms and phrases
+		document = new Object();
+		pathmapitem = new Object();
+		document.boostvalue = 0;
+		document.title = "Terms and phrases";
+		pathmapitem.title = "Terms and phrases";
+		document.description = "Use consistent terms and phrases to help users find what they need.";
+		pathmapitem.description = "Use consistent terms and phrases to help users find what they need.";
+		pathmapitem.path = "https://guides.service.gov.au/content-guide/terms-phrases/";
+		pageid = pageid + 1;
+		document.id = pageid;
+		pathmapitem.id = pageid;
+		docsArray.push(document);
+		pathsArray.push(pathmapitem);
+
+		// Content Guide - Numbers and measurements
+		document = new Object();
+		pathmapitem = new Object();
+		document.boostvalue = 0;
+		document.title = "Numbers and measurements";
+		pathmapitem.title = "Numbers and measurements";
+		document.description = "Numbers are easier to read on a screen than words, so use them where possible.";
+		pathmapitem.description = "Numbers are easier to read on a screen than words, so use them where possible.";
+		pathmapitem.path = "https://guides.service.gov.au/content-guide/numbers-measurements/";
+		pageid = pageid + 1;
+		document.id = pageid;
+		pathmapitem.id = pageid;
+		docsArray.push(document);
+		pathsArray.push(pathmapitem);
+
+		// Content Guide - Formatting
+		document = new Object();
+		pathmapitem = new Object();
+		document.boostvalue = 0;
+		document.title = "Formatting";
+		pathmapitem.title = "Formatting";
+		document.description = "Use formatting carefully to make content easier to scan.";
+		pathmapitem.description = "Use formatting carefully to make content easier to scan.";
+		pathmapitem.path = "https://guides.service.gov.au/content-guide/formatting/";
+		pageid = pageid + 1;
+		document.id = pageid;
+		pathmapitem.id = pageid;
 		docsArray.push(document);
 		pathsArray.push(pathmapitem);
 
