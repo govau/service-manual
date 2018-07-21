@@ -9,6 +9,8 @@ const path = require('path');
 const remark = require('remark');
 const strip = require('strip-markdown');
 
+const federator = require(path.resolve( __dirname, "federate.js" ));
+
 const rootdir = path.dirname(__dirname)+"/content/";
 let pageid = 0;
 
@@ -129,36 +131,6 @@ function writePathmapData(data) {
 	});
 }
 
-function addFederatedData(docsArray,pathsArray) {
-	// Design System
-	document = new Object();
-	pathmapitem = new Object();
-	document.title = "Design System Design System Design System Design System Design System";
-	document.description = "Design System Design System Design System Design System Design System  UI UIkit component layout Front End Toolkit react patterns button accordion grid forms css javascript style guide";
-	pathmapitem.description = "The Australian Government Design System provides a framework and a set of tools to help designers and developers build government products and services more easily.";
-	pathmapitem.title = "Design System";
-	pageid = pageid + 1;
-	document.id = pageid;
-	pathmapitem.id = pageid;
-	pathmapitem.path = "https://designsystem.gov.au/";
-	docsArray.push(document);
-	pathsArray.push(pathmapitem);
-
-	// Content Guide
-	document = new Object();
-	pathmapitem = new Object();
-	document.title = "Content Guide Content Guide Content Guide Content Guide";
-	document.description = "Content Guide Content Guide Content Guide Content Guide A guide to help Australian Government teams design simple, clear and fast content. Content structure, writing style, punctuation and grammar, terms phrases, numbers, measurements formatting accessibility";
-	pathmapitem.description = "A guide to help Australian Government teams design simple, clear and fast content.";
-	pathmapitem.title = "GOV.AU Content Guide";
-	pageid = pageid + 1;
-	document.id = pageid;
-	pathmapitem.id = pageid;
-	pathmapitem.path = "https://guides.service.gov.au/content-guide/";
-	docsArray.push(document);
-	pathsArray.push(pathmapitem);
-}
-
 directoryWalker("./content/", function(err, dirs, documents, pathmap) {
 	if (err) {
 		throw err;
@@ -166,7 +138,7 @@ directoryWalker("./content/", function(err, dirs, documents, pathmap) {
 
 	//const util = require('util')
 	//console.log(util.inspect(pathmap, { maxArrayLength: null }))
-	addFederatedData(documents,pathmap);
+	federator.federate(documents,pathmap,pageid);
 	writeDocumentData(documents);
 	writePathmapData(pathmap);
 });
