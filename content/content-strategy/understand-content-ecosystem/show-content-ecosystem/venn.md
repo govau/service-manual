@@ -1,8 +1,8 @@
 ---
 layout: blocks/image_content_landscape
-image: content-strategy/ecosystem/venn-channel-ecosystem.jpg
-link: content-strategy/ecosystem/venn-channel-ecosystem.jpg
-title: Venn diagram
+image: content-strategy/ecosystem/venn-content-ecosystem.jpg
+link: content-strategy/ecosystem/venn-content-ecosystem.jpg
+title: Venn diagrams
 reverse: false
 stackPosition: top
 imageAlt: Venn diagram showing overlapping circles representing duplicate content in a content ecosystem. Each circle represents a content channel that is either a website, email newsletter, YouTube channel, app, intranet, or a Facebook or LinkedIn account.
