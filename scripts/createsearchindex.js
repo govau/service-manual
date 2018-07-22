@@ -14,6 +14,7 @@ const index = lunr(function() {
 	this.field('description' , { boost: 5 });
 	this.field('body');
 	this.ref('id');
+	this.metadataWhitelist = ['position'];
 
 	documents.forEach(function(doc) {
 		this.add(doc, { boost: doc.boost });
