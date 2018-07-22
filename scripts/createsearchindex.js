@@ -6,14 +6,17 @@ const fs = require('fs');
 const data = fs.readFileSync('site/documents.json');
 const documents = JSON.parse(data);
 
+// field and document BOOST docs:
+// https://github.com/olivernn/lunr.js/issues/267
+
 const index = lunr(function() {
-	this.field('title')
-	this.field('description')
-	this.field('body')
-	this.ref('id')
+	this.field('title', { boost: 10 });
+	this.field('description' , { boost: 5 });
+	this.field('body');
+	this.ref('id');
 
 	documents.forEach(function(doc) {
-		this.add(doc)
+		this.add(doc, { boost: doc.boost });
 	}, this)
 
 })

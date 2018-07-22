@@ -94,7 +94,18 @@ if (window.location.pathname == "/search/" ) {
 	  var obj = JSON.parse(this.responseText);
 		var index = lunr.Index.load(obj);
 		var searchresults_json = index.search(query, {});
-		resultsObj = searchresults_json;
+
+		if (searchresults_json.length > 0) {
+			resultsObj = searchresults_json;
+		} else { //fuzzy search now
+			searchresults_json = index.search(query + "~1", {});
+			if (searchresults_json.length > 0) {
+				resultsObj = searchresults_json;
+			} else {
+				searchresults_json = index.search(query + "~2", {});
+				resultsObj = searchresults_json;
+			}
+		}
 
     if (resultsObj.length == 0){
       searchresults__count.innerHTML = "No";
@@ -133,9 +144,13 @@ if (window.location.pathname == "/search/" ) {
 					continue;
 				}
 			}
-			//if (resultcount < 15) {
-				htmlstring = htmlstring + "<h3><a href='" + url +"'>" + pagetitle + "</a></h3><p>" + pagedescription + "</p>";
-			//}
+
+			// form the HTML list result item
+			var rel = "";
+			if (url.substring(0,1) == "h") {
+				rel = "rel='external'";
+			}
+			htmlstring = htmlstring + "<h3><a " + rel + "href='" + url +"'>" + pagetitle + "</a></h3><p>" + pagedescription + "</p>";
 		});
 		searchresults__resultslist.innerHTML = htmlstring;
 	}
