@@ -1,4 +1,5 @@
 pagetitle: 'Alpha stage: testing hypotheses'
+description: Alpha is an experimental stage. It’s an opportunity to use prototypes to work out the right thing to build.
 weight: 40
 hidden: false
 layout: layout/topic

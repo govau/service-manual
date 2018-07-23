@@ -1,12 +1,7 @@
-# Service Manual
+# Digital Guides
+> https://guides.service.gov.au/
 
 > We aim to provide a single, clear, consistent and compelling service manual which will inspire teams and help support them with how to design and deliver great services.
-
-<!-- ## Production
-
-- **url**: [https://service-manual.apps.platform.digital.gov.au/](https://service-manual.apps.platform.digital.gov.au/)
-- **branch**: `master`
-- **status**:  [![CircleCI](https://circleci.com/gh/govau/service-manual/tree/master.svg?style=svg)](https://circleci.com/gh/govau/service-manual/tree/master) -->
 
 ## Staging
 
@@ -35,6 +30,13 @@ npm run build
 
 ```shell
 npm run watch
+```
+
+## Rebuild the search indexes
+
+
+```shell
+npm run build:search
 ```
 
 

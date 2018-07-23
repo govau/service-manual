@@ -6,7 +6,7 @@ second_column_header: What to do
 first_column_content: topic-takeaway-listitems.md
 previous_header: "Do before: Understand your channel ecosystem"
 previous_text: Where to begin phase
-previous_link: /content-strategy/understand-channel-ecosystem/
+previous_link: /content-strategy/understand-content-ecosystem/
 next_header: "Do next: Identify business needs"
 next_text: Research and analyse phase
 next_link: /content-strategy/identify-business-needs/

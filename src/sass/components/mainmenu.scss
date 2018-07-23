@@ -58,41 +58,71 @@
 
 
 // Toggle styles
-.mainmenu-toggle.au-btn.au-btn--tertiary {
-	@include AU-fontgrid( sm );
-	@include AU-space( padding, 0.5unit 0 );
-	@include AU-space( margin-top, 1unit );
-	color: $AU-colordark-foreground-action;
-	text-decoration: none;
 
-	// button overrides
-	background-color: transparent;
-	border: none;
+#search-toggle {
 	text-align: left;
+}
+#mainmenu-toggle {
+	text-align: right;
+}
 
-	// Homepage overrides
-	.header--home & {
-		@include AU-space( margin-top, 2unit );
-	}
+.mainmenu-toggle.au-btn.au-btn--tertiary {
+		@include AU-fontgrid( sm );
+		@include AU-space( padding, 0.5unit 0 );
+		@include AU-space( margin-top, 1unit );
+		color: $AU-colordark-foreground-action;
+		text-decoration: none;
 
-	&:hover {
-		color: $AU-colordark-foreground-text;
-		text-decoration: underline;
-		text-decoration-skip: ink;
+		// button overrides
+		background-color: transparent;
+		border: none;
 
-		.ie8 & {
-			// Odd ie8 bug where background: #FFF !important is being applied
-			background: transparent !important;
+		// Homepage overrides
+		.header--home & {
+			@include AU-space( margin-top, 2unit );
+		}
+
+		&:hover {
+			color: $AU-colordark-foreground-text;
+			text-decoration: underline;
+			text-decoration-skip: ink;
+
+			.ie8 & {
+				// Odd ie8 bug where background: #FFF !important is being applied
+				background: transparent !important;
+			}
+		}
+
+		.no-js & {
+			display: none;
+		}
+
+		@media screen and ( min-width: $nav_breakpoint ) {
+			display: none;
+		}
+
+
+
+
+		&.au-accordion--open {
+			&:before {
+				background-image: AU-svguri('<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#{ $AU-colordark-foreground-action }">' +
+					'<path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>' +
+					'<path d="M0 0h24v24H0z" fill="none"/>' +
+				'</svg>');
+			}
+
+		&:hover:before {
+			background-image: AU-svguri('<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#{ $AU-colordark-foreground-text }">' +
+				'<path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>' +
+				'<path d="M0 0h24v24H0z" fill="none"/>' +
+			'</svg>');
 		}
 	}
+} // end mainmenu-toggle etc
 
-	.no-js & {
-		display: none;
-	}
-
-	@media screen and ( min-width: $nav_breakpoint ) {
-		display: none;
-	}
+// new class for nav menu
+.mainmenu__nav {
 
 	&:before {
 		background-image: AU-svguri('<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#{ $AU-colordark-foreground-action }">' +
@@ -108,20 +138,23 @@
 		'</svg>');
 	}
 
+}
 
-	&.au-accordion--open {
-		&:before {
-			background-image: AU-svguri('<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#{ $AU-colordark-foreground-action }">' +
-				'<path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>' +
-				'<path d="M0 0h24v24H0z" fill="none"/>' +
+.mainmenu__search {
+	&:before {
+		margin-top: 1px;
+		margin-right: 0;
+		background-image: AU-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21">' +
+			'<path fill="#{ $AU-colordark-foreground-action }" d="M11.077 6.77c0-1.187-.422-2.201-1.264-3.044-.843-.843-1.858-1.264-3.044-1.264s-2.2.421-3.043 1.264-1.264 1.857-1.264 3.043c0 1.186.421 2.2 1.264 3.043s1.857 1.265 3.043 1.265c1.186 0 2.2-.422 3.043-1.264.843-.843 1.265-1.858 1.265-3.044zm4.923 8c0 .333-.122.621-.365.865a1.183 1.183 0 0 1-.866.365c-.346 0-.634-.122-.865-.365l-3.298-3.289a6.584 6.584 0 0 1-3.837 1.192 6.652 6.652 0 0 1-2.63-.533 6.768 6.768 0 0 1-2.163-1.443A6.768 6.768 0 0 1 .534 9.4 6.652 6.652 0 0 1 0 6.769c0-.916.178-1.793.534-2.63a6.768 6.768 0 0 1 1.442-2.163A6.768 6.768 0 0 1 4.139.534 6.652 6.652 0 0 1 6.77 0c.917 0 1.793.178 2.63.534a6.768 6.768 0 0 1 2.164 1.442 6.768 6.768 0 0 1 1.442 2.163c.356.837.533 1.714.533 2.63 0 1.41-.397 2.69-1.192 3.837l3.298 3.298c.237.237.356.525.356.865z"/>' +
 			'</svg>');
-		}
-
-		&:hover:before {
-			background-image: AU-svguri('<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#{ $AU-colordark-foreground-text }">' +
-				'<path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>' +
-				'<path d="M0 0h24v24H0z" fill="none"/>' +
-			'</svg>');
-		}
 	}
+
+	&:hover:before {
+		margin-top: 1px;
+		margin-right: 0;
+		background-image: AU-svguri('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21">' +
+			'<path fill="#{ $AU-colordark-foreground-text }" d="M11.077 6.77c0-1.187-.422-2.201-1.264-3.044-.843-.843-1.858-1.264-3.044-1.264s-2.2.421-3.043 1.264-1.264 1.857-1.264 3.043c0 1.186.421 2.2 1.264 3.043s1.857 1.265 3.043 1.265c1.186 0 2.2-.422 3.043-1.264.843-.843 1.265-1.858 1.265-3.044zm4.923 8c0 .333-.122.621-.365.865a1.183 1.183 0 0 1-.866.365c-.346 0-.634-.122-.865-.365l-3.298-3.289a6.584 6.584 0 0 1-3.837 1.192 6.652 6.652 0 0 1-2.63-.533 6.768 6.768 0 0 1-2.163-1.443A6.768 6.768 0 0 1 .534 9.4 6.652 6.652 0 0 1 0 6.769c0-.916.178-1.793.534-2.63a6.768 6.768 0 0 1 1.442-2.163A6.768 6.768 0 0 1 4.139.534 6.652 6.652 0 0 1 6.77 0c.917 0 1.793.178 2.63.534a6.768 6.768 0 0 1 2.164 1.442 6.768 6.768 0 0 1 1.442 2.163c.356.837.533 1.714.533 2.63 0 1.41-.397 2.69-1.192 3.837l3.298 3.298c.237.237.356.525.356.865z"/>' +
+			'</svg>');
+	}
+
 }

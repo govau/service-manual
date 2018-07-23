@@ -1,8 +1,4 @@
-// copied from govau/designsystem with some tweaks
-// line 26, line 35
-// change 'index' -> 'homepage'
-
-import AUheader            from '../../scripts/uikit/header';
+import AUheader, { AUheaderBrand } from '../../scripts/uikit/header';
 import AUskipLink          from '../../scripts/uikit/skip-link';
 import React, { Fragment } from 'react';
 import PropTypes           from 'prop-types';
@@ -11,85 +7,110 @@ import PropTypes           from 'prop-types';
 /**
  * The header component
  */
+
+function createClass(pageId) {
+	let classString = "col-md-5 search__headercontainer ";
+	if (pageId == "homepage") {
+		classString = classString + "search__headercontainer--hero";
+	} else if (pageId == "search") {
+		classString = classString + "search__headercontainer--serp";
+	}
+	return classString;
+}
+
 const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID, _pages, _body }) => (
 	<div className="header-wrapper">
-		<AUskipLink links={[
-			{
-				link: '#mainmenu',
-				text: 'Skip to navigation',
-			},
-			{
-				link: '#content',
-				text: 'Skip to content',
-			},
-		]} />
-		{ header_govau }
-		<div className={ `header${ _ID === 'homepage' ? ' header--home' : '' }` }>
-			<div id="focustrap-top"></div>
-			<AUheader dark>
-				<div className="container-fluid">
-					<div className="row">
-						<div className="col-md-12">
+			<AUskipLink links={[
+				{
+					link: '#mainmenu',
+					text: 'Skip to navigation',
+				},
+				{
+					link: '#content',
+					text: 'Skip to content',
+				},
+			]} />
+			{ header_govau }
+			<div className="header">
+				<div id="focustrap-top"></div>
 
-							{/* If statement for Home / Content Page */}
-							{
-								_ID === 'homepage'
-									? <Fragment>
-											<div className="header__logo-wrapper">
-												<img className="header--logo-coa" src="/assets/img/header-logo-agov.png" alt="The Australian Government coat of Arms"/>
-												<h1 className="header__title">{ title } {/* <- Space here is intentional */
-														title_badge
-															? <span className="header__badge"> { title_badge }</span>
-															: null
-													}
-												</h1>
-											</div>
-											<div className="header__blurb au-body au-body--dark">
-												<div className="header__blurb--content">{ _body }</div>
-											</div>
-										</Fragment>
+				<AUheader dark hero={ _ID === 'homepage' ? true : false }>
+				  <div className="container-fluid">
+				    <div className="row">
+				      <div className="col-md-7">
+								<AUheaderBrand
+					          title="Digital Guides"
+					          brandImage="/assets/img/header-logo-agov.png"
+					          brandImageAlt="The Australian Government coat of Arms"
+										link = { _ID === 'homepage' ?  "" : "/" }
+					        />
+				      </div>
+				      <div className={createClass(_ID)}>
+								<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
+									<input type="text" className="au-text-input au-text-input--dark round--left" name="q" id="search-input__header" placeholder="Digital Guides"/>
+									<button type="submit" className="au-btn au-btn--dark icon icon--search round--right" id="search-btn__header"><span className="search-btn__label">Search</span></button>
+								</form>
+				      </div>
+				    </div>
+						<div className="row">
+							<div className="col-xs-6">
+								<button id="search-toggle"
+												className="mainmenu-toggle au-btn au-btn--tertiary au-btn--dark au-btn--block icon mainmenu__search au-accordion--closed"
+												aria-controls="searchmenu"
+												aria-expanded="false"
+												aria-selected="false"
+												role="tab">Open Search
+								</button>
+							</div>
+							<div className="col-xs-6">
+								<button id="mainmenu-toggle"
+												className="mainmenu-toggle au-btn au-btn--tertiary au-btn--dark au-btn--block icon mainmenu__nav au-accordion--closed"
+												aria-controls="mainmenu"
+												aria-expanded="false"
+												aria-selected="false"
+												role="tab">Open menu
+								</button>
+							</div>
+						</div>
+				  </div>
+				</AUheader>
 
-									: <Fragment>
-											<a href="/" className="header__logo-wrapper">
-												<img className="header--logo-coa" src="/assets/img/header-logo-agov.png" alt="The Australian Government coat of Arms"/>
-												<h1 className="header__title">{ title } {/* <- Space here is intentional */
-														title_badge
-															? <span className="header__badge">{ title_badge }</span>
-															: null
-													}
-												</h1>
-											</a>
-										</Fragment>
-							}
-
-							<button id="mainmenu-toggle"
-								className="mainmenu-toggle au-btn au-btn--tertiary au-btn--dark au-btn--block icon au-accordion--closed"
-								aria-controls="mainmenu"
-								aria-expanded="false"
-								aria-selected="false"
-								role="tab">Open menu</button>
-
+				<div
+					aria-hidden="false"
+					id="searchmenu"
+					tabIndex="-1"
+					className="searchmenu au-body au-body--dark au-accordion__body au-accordion--closed">
+					<div className="container-fluid">
+						<div className="row">
+							<div className="col-md-12">
+								<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
+									<input type="text" className="au-text-input au-text-input--dark round--left" name="q" id="search-input__menu" placeholder="Digital Guides"/>
+									<button type="submit" className="au-btn au-btn--dark icon icon--search round--right" id="search-btn__menu"><span className="search-btn__label">Search</span></button>
+								</form>
+							</div>
 						</div>
 					</div>
 				</div>
-			</AUheader>
-			<div
-				aria-hidden="false"
-				id="mainmenu"
-				tabIndex="-1"
-				className="mainmenu au-body au-body--dark au-accordion__body au-accordion--closed">
-				<div className="container-fluid">
-					<div className="row">
-						<div className="col-md-12">
-							{ mainmenu }
+
+				<div
+					aria-hidden="false"
+					id="mainmenu"
+					tabIndex="-1"
+					className="mainmenu au-body au-body--dark au-accordion__body au-accordion--closed">
+					<div className="container-fluid">
+						<div className="row">
+							<div className="col-md-12">
+								{ mainmenu }
+							</div>
 						</div>
 					</div>
 				</div>
+				<div id="overlay" className="overlay"></div>
+				<div id="focustrap-bottom"></div>
+
+
 			</div>
-			<div id="overlay" className="overlay"></div>
-			<div id="focustrap-bottom"></div>
 		</div>
-	</div>
 );
 
 Header.propTypes = {

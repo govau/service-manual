@@ -1,0 +1,12 @@
+pagetitle: Search
+hidden: true
+weight: 300
+description: Search page for Guides
+header:
+  - /_shared/globalheader.md
+  - /_shared/header.md
+main:
+  - search.md
+footer:
+  - /_shared/feedback.md
+  - /_shared/footer.md

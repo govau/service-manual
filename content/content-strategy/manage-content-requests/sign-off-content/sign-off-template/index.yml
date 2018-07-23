@@ -1,4 +1,5 @@
 pagetitle: Content sign-off brief
+description: Use this sign-off brief to ask for final sign-off from the approver. Ensure you select all the supporting checks as having been done.
 weight: 80
 theme: blue
 hidden: false

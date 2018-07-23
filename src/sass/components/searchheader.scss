@@ -1,0 +1,30 @@
+.search__headercontainer {
+	display: none;
+	@media screen and ( min-width: $nav_breakpoint ) {
+		display: block;
+	}
+	@include AU-space( margin-top, -0.5unit );
+}
+
+.search__headercontainer--hero {
+	@include AU-space( margin-top, 6unit );
+}
+
+.search__headercontainer--serp {
+	display: none;
+}
+
+#searchmenu {
+	display: block;
+	@media screen and ( min-width: $nav_breakpoint ) {
+		display: none;
+	}
+	@include AU-space( border-bottom, 0.5unit solid $AU-colordark-foreground-action );
+	position: absolute;
+  width: 100%;
+  z-index: 200;
+}
+
+.search__searchbox {
+	@include AU-space( margin-bottom, 1unit );
+}
