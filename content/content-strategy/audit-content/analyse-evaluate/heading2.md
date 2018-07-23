@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Checking the data
+section: Check the data
 ---
