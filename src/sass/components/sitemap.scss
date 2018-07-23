@@ -1,14 +1,9 @@
 .sitemap {
-	margin-top: 1rem;
-	margin-bottom: 7rem;
+	@include AU-space( margin-top, 1unit );
+	@include AU-space( margin-bottom, 7unit );
 
 	.navigation--level-3 {
 		border-top: 0;
-
-		& .navigation__item__anchor,
-		& .navigation__item__span {
-			padding-left: 1em;
-		}
 	}
 
 	&.au-body {
@@ -20,5 +15,5 @@
 }
 
 .sitemapnav__wrapper {
-	margin-top: 3rem;
+	@include AU-space( margin-top, 3unit );
 }
