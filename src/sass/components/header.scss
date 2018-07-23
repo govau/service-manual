@@ -28,5 +28,9 @@ $nav_breakpoint: 1010px;
 
 .au-header__brand .au-header__brand-image {
 	position: relative;
-	top: -0.5rem;
+	@include AU-space( top, -0.5unit);
+	}
+
+.au-btn--dark.icon.icon--search.round--right:hover {
+	border-left: 2px solid $AU-color-foreground-border;
 }
