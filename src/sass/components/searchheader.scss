@@ -3,11 +3,11 @@
 	@media screen and ( min-width: $nav_breakpoint ) {
 		display: block;
 	}
-	margin-top: -0.5rem;
+	@include AU-space( margin-top, -0.5unit );
 }
 
 .search__headercontainer--hero {
-	margin-top: 6rem;
+	@include AU-space( margin-top, 6unit );
 }
 
 .search__headercontainer--serp {
@@ -19,12 +19,12 @@
 	@media screen and ( min-width: $nav_breakpoint ) {
 		display: none;
 	}
-	border-bottom: .5rem solid #45c2f0;
-  position: absolute;
+	@include AU-space( border-bottom, 0.5unit solid $AU-colordark-foreground-action );
+	position: absolute;
   width: 100%;
   z-index: 200;
 }
 
 .search__searchbox {
-	margin-bottom: 1rem;
+	@include AU-space( margin-bottom, 1unit );
 }
