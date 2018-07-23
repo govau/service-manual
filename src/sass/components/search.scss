@@ -1,7 +1,7 @@
 .searchresults__list {
 	@include AU-space(margin-bottom, 5unit);
 	@include AU-media( xs ) {
-		margin-top: 1rem;
+		@include AU-space(margin-top, 1unit);
 	}
 }
 
