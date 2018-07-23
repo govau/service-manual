@@ -47,8 +47,8 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 				      </div>
 				      <div className={createClass(_ID)}>
 								<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
-									<input type="text" className="au-text-input au-text-input--dark round--left" name="q" id="search-input" placeholder="Digital Guides"/>
-									<button type="submit" className="au-btn au-btn--dark icon icon--search round--right" id="search-btn"><span id="search-btn__label">Search</span></button>
+									<input type="text" className="au-text-input au-text-input--dark round--left" name="q" id="search-input__header" placeholder="Digital Guides"/>
+									<button type="submit" className="au-btn au-btn--dark icon icon--search round--right" id="search-btn__header"><span className="search-btn__label">Search</span></button>
 								</form>
 				      </div>
 				    </div>
@@ -84,8 +84,8 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 						<div className="row">
 							<div className="col-md-12">
 								<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
-									<input type="text" className="au-text-input au-text-input--dark round--left" name="q" id="search-input" placeholder="Digital Guides"/>
-									<button type="submit" className="au-btn au-btn--dark icon icon--search round--right" id="search-btn"><span id="search-btn__label">Search</span></button>
+									<input type="text" className="au-text-input au-text-input--dark round--left" name="q" id="search-input__menu" placeholder="Digital Guides"/>
+									<button type="submit" className="au-btn au-btn--dark icon icon--search round--right" id="search-btn__menu"><span className="search-btn__label">Search</span></button>
 								</form>
 							</div>
 						</div>

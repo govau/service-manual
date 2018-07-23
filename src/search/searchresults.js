@@ -19,8 +19,8 @@ const SearchResults = ( page ) => {
 						<div className="row">
 							<div className="col-xs-12 col-sm-9 col-md-6 col-lg-6">
 								<form className="search__searchbox" role="search" autoComplete="off" action="/search" method="get">
-									<input type="text" className="au-text-input round--left" name="q" id="search-input" placeholder="Digital Guides"/>
-									<button type="submit" className="au-btn icon icon--search--dark round--right" id="search-btn"><span id="search-btn__label">Search</span></button>
+									<input type="text" className="au-text-input round--left" name="q" id="search-input__serp" placeholder="Digital Guides"/>
+									<button type="submit" className="au-btn icon icon--search--dark round--right" id="search-btn__serp"><span className="search-btn__label">Search</span></button>
 								</form>
 							</div>
 						</div>

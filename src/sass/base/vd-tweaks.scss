@@ -13,6 +13,12 @@
 	border-width: 2px;
 }
 
+.au-body mark {
+	color: $AU-color-foreground-text;
+	background-color: $AU-color-background;
+  font-weight: bold;
+}
+
 .au-body *+h2, .au-body *+.au-display-xl {
 	@include AU-space( margin-top, 5unit );
 }
