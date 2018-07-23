@@ -1,12 +1,12 @@
 ---
 layout: blocks/image_content_landscape
-image: content-strategy/ecosystem/complex-ecosystem-map.jpg
-link: content-strategy/ecosystem/complex-ecosystem-map.jpg
+image: content-strategy/ecosystem/bad-ecosystem-map.jpg
+link: content-strategy/ecosystem/bad-ecosystem-map.jpg
 title: Mind maps
 reverse: false
 stackPosition: top
 imageAlt: A confusing and complex content ecosystem mind map showing many duplicate channels.
-caption: This mind map shows the main website at the centre, surrounded by four content channel types: websites, email newsletters, social media, and apps. The channels are interconnected in a complicated and confusing way, and there are many subsets with duplicate channels.
+caption: This complex ecosystem map shows the main website at the centre, surrounded by four content channel types, websites, email newsletters, social media, and apps. The channels are interconnected in a complicated and confusing way, and there are many subsets with duplicate channels.
 level: 3
 display: 3
 ---
