@@ -21,7 +21,7 @@
 	width: auto;
 }
 
-#search-input {
+.search__searchbox input {
 	border-right:none;
 	display: block;
     width: auto;
@@ -30,15 +30,16 @@
     flex: 1;
 }
 
-#search-btn {
+.search__searchbox button {
 	display: block;
     width: auto;
 }
-#search-btn__label {
-		display: none;
+
+.search-btn__label {
+	display: none;
 	@include AU-media( xs ) {
-			display: inline-block;
-		}
+		display: inline-block;
+	}
 }
 /* These should be available to all other control inputs and content which might have border radii.
 Question is, where's the right file to include these? */
