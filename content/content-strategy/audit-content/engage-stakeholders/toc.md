@@ -5,6 +5,6 @@ sections:
   - Get agreement
   - Skills needed
   - Manage expectations
-  - Working with subject experts
+  - Work with subject experts
   - Manage content publishing schedule
 ---
