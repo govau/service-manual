@@ -9,7 +9,7 @@ It helps to highlight what it costs your agency:
 * to police and prosecute non-compliance that could have been avoided if people had known what to do
 * to manage and maintain your current website — and what outcomes your agency is getting for that investment
 
-You could calculate a cost-per-view rate by working out the total yearly cost of managing and maintaining your site. This could include costs for technical development, staffing, and content development. Then divide this total by the number of views you get from users.
+You could calculate a cost-per-view rate by working out the total yearly cost of managing and maintaining your site. This could include costs for technical development, staffing, and content development. Then divide this total by the number of page views you get from users.
 
 If you have data on user satisfaction rates, you could plot the yearly spend against user satisfaction rates and see if there are any relationships or trends.
 
