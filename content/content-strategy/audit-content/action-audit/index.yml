@@ -15,10 +15,10 @@ main:
   - example2.md #spreadsheet file attachment
   - heading2.md #remove content
   - section2.md #remove content
-  - heading3.md #archive
-  - section3.md #archive
   - heading4.md #rewrite
   - section4.md #rewrite
+  - heading3.md #archive
+  - section3.md #archive
   - /_shared/feedback.md
 footer:
   - /_shared/footer.md

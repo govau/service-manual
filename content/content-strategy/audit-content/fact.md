@@ -5,4 +5,4 @@ layout: text/callout
 
 Research shows that 50% of users of government services have difficulty finding information online. Of those, 24% resort to making a telephone call.
 
-Source: KPMG study: Digital Government Ease of Use Index 2015
+Source: [KPMG study: Digital Government Ease of Use Index 2015](http://www.globalreviews.com/reports/digital-government-ease-use-index)

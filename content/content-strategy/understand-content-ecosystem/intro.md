@@ -11,4 +11,4 @@ As you investigate the channels in your agency, you may find more than just a we
 
 Learning about your content ecosystem is vital to understanding overlaps, gaps and scope. This can help you to gain executive support for your content strategy project.
 
-## [3]Discover your content channels
+## [3]Discover and map your content channels

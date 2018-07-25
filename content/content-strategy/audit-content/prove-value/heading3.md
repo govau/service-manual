@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Check the data
+section: Show the costs
 ---
