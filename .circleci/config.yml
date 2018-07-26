@@ -79,9 +79,8 @@ jobs:
       - run: rm -rf node_modules
       - run: npm install
       - run: npm run build
-      - run: sudo npm install broken-link-checker -g
-      - run: node server/index.js
-      - run: blc -r --exclude "/content-guide/" --exclude "/webmasters/tools/" https://localhost/
+      - run: sudo npm install -g broken-link-checker-local
+      - run: blcl ./site -ro
       - run: rm -rf node_modules
       - run: sudo apt-get install apt-transport-https
       - run: wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo apt-key add -
