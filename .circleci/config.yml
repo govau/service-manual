@@ -91,6 +91,8 @@ jobs:
       - run: cf login -a api.system.y.cld.gov.au -o $CF_ORG_STAGING -s $CF_SPACE_STAGING -u $CF_USER_STAGING -p $CF_PASSWORD_STAGING
       - run: tree -C
       - run: cf zero-downtime-push service-manual-$CIRCLE_BRANCH -f manifest-testing.yml
+      - run: npm install broken-link-checker -g
+      - run: blc -r --exclude "/content-guide/" --exclude "/webmasters/tools/" --exclude-external https://service-manual-test-staging.apps.y.cld.gov.au/
 
 
 # OUR WORKFLOW
