@@ -2,4 +2,4 @@
 layout: text/callout
 ---
 #### Example
-Since we reduced 45% of pages on the Department of X website, the number of online transactions increased by 30% and call centre contacts reduced by 25%. This saved the agency $X.
+Since Agency X reduced the number of pages on their website by 45%, the number of online transactions has increased by 30% and call centre contacts have reduced by 25%. This has saved the agency $X.

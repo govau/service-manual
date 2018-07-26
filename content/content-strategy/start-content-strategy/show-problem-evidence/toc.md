@@ -2,7 +2,7 @@
 layout: nav/sections
 sections:
   - Use metrics
-  - Use usability tests
+  - Share what you know about users
   - Use existing research
   - Case studies
 ---
