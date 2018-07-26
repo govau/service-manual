@@ -6,4 +6,4 @@ Share your pitch with a couple of senior executives first to get their feedback.
 
 Engage regularly with each of your three groups. Set up regular touchpoints while you are creating your strategy. This will also help with implementing your strategy down the track.
 
-You may also need to get buy-in from external stakeholders to join up content across government agencies.
+You may also need to get buy-in from external stakeholders so that content across government agencies can be joined up.
