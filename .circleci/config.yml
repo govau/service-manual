@@ -28,6 +28,9 @@ jobs:
       - run: rm -rf node_modules       # delete node_modules to bust caching
       - run: npm install               # duh
       - run: npm run build             # required build step
+      # broken link checker (no external links checked)
+      - run: sudo npm install -g broken-link-checker-local
+      - run: blcl -r --exclude "/content-guide/" --exclude "/webmasters/tools/" --exclude-external ./site
       - run: rm -rf node_modules       # delete node_modules folder again to not push it to cf
       # install packages: cf-cli and tree
       - run: sudo apt-get install apt-transport-https
@@ -43,7 +46,7 @@ jobs:
       - run: cf zero-downtime-push service-manual -f manifest-staging.yml
 
 
-  # DEPLOY-STAGING JOB
+  # DEPLOY-PROD JOB
   # installing dependencies, building assets and deploying to production
   deploy-prod:
     docker:
@@ -79,6 +82,8 @@ jobs:
       - run: rm -rf node_modules
       - run: npm install
       - run: npm run build
+      - run: sudo npm install -g broken-link-checker-local
+      - run: blcl -r --exclude "/content-guide/" --exclude "/webmasters/tools/" --exclude-external ./site
       - run: rm -rf node_modules
       - run: sudo apt-get install apt-transport-https
       - run: wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo apt-key add -
@@ -91,8 +96,7 @@ jobs:
       - run: cf login -a api.system.y.cld.gov.au -o $CF_ORG_STAGING -s $CF_SPACE_STAGING -u $CF_USER_STAGING -p $CF_PASSWORD_STAGING
       - run: tree -C
       - run: cf zero-downtime-push service-manual-$CIRCLE_BRANCH -f manifest-testing.yml
-      - run: sudo npm install broken-link-checker -g
-      - run: blc -r --exclude "/content-guide/" --exclude "/webmasters/tools/" --exclude-external https://service-manual-test-staging.apps.y.cld.gov.au/
+
 
 
 # OUR WORKFLOW
