@@ -79,6 +79,9 @@ jobs:
       - run: rm -rf node_modules
       - run: npm install
       - run: npm run build
+      - run: sudo npm install broken-link-checker -g
+      - run: node server/index.js
+      - run: blc -r --exclude "/content-guide/" --exclude "/webmasters/tools/" https://localhost/
       - run: rm -rf node_modules
       - run: sudo apt-get install apt-transport-https
       - run: wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo apt-key add -
@@ -91,8 +94,7 @@ jobs:
       - run: cf login -a api.system.y.cld.gov.au -o $CF_ORG_STAGING -s $CF_SPACE_STAGING -u $CF_USER_STAGING -p $CF_PASSWORD_STAGING
       - run: tree -C
       - run: cf zero-downtime-push service-manual-$CIRCLE_BRANCH -f manifest-testing.yml
-      - run: sudo npm install broken-link-checker -g
-      - run: blc -r --exclude "/content-guide/" --exclude "/webmasters/tools/" --exclude-external https://service-manual-test-staging.apps.y.cld.gov.au/
+
 
 
 # OUR WORKFLOW
