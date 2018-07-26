@@ -8,7 +8,9 @@ published_date: '2018-04-12'
 
 ## [3]Why a content strategy
 
-Your content strategy should govern all content created by your agency. It will:
+Your content strategy should govern all content created by your agency.
+
+It will:
 
 - define a process and a structure for content that meets your user needs
 - align your people and processes to the agency goals
