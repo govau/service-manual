@@ -80,7 +80,7 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: sudo npm install -g broken-link-checker-local
-      - run: blcl ./site -ro
+      - run: blcl -r --exclude "/content-guide/" --exclude "/webmasters/tools/" --exclude-external ./site
       - run: rm -rf node_modules
       - run: sudo apt-get install apt-transport-https
       - run: wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo apt-key add -
