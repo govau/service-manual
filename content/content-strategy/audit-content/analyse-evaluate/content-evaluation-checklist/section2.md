@@ -33,13 +33,13 @@ Ask a content expert to evaluate the quality of each content item in the audit s
 
   * Does the first sentence help users to decide if the page is relevant?
   * Is the content written in plain English?
-  * Is the content written in active voice
+  * Is the content written in active voice?
   * Is a consistent tone used across the website?
   * What is the readability level of each page? You can use a readability tool to estimate this.
 
 ### [2]Accessibility
 
-Ensure content meets [WCAG 2.0 accessibility requirements for content authors](https://guides.service.gov.au/content-guide/accessibility-inclusivity/#wcag-2-0-for-content-authors).
+Ensure content meets [WCAG 2.0 requirements for content authors](https://guides.service.gov.au/content-guide/accessibility-inclusivity/#wcag-2-0-for-content-authors).
 
   * Is the content written so that all users can read and understand it? Have you thought about people who speak English as a second, third or fourth language?
   * Are the headings structured?
