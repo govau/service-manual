@@ -4,7 +4,4 @@ subtitle: Report your findings to get stakeholder support to action your audit d
 category: Content strategy
 ---
 
-Once you have stakeholder agreement, combine the data in your spreadsheet with user research and knowledge, to make content decisions.
-
-The metrics of each page will only tell you so much. You will need to do a subjective qualitative analysis of the content to know whether to remove, rewrite or leave it as is. Record an action for each piece of content in your spreadsheet.
-
+Web content analytics can provide useful metrics for each page, but these can only tell you so much. You'll need to do a qualitative analysis of your content to help you decide whether to remove it, rewrite it or leave it as is. Another option is to archive the content. Record a recommended action for each piece of content in your spreadsheet.

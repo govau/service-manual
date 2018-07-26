@@ -3,6 +3,6 @@ layout: nav/sections
 sections:
   - Report your findings
   - Remove content
-  - Archive content
-  - Rewrite content  
+  - Rewrite content
+  - Archive content  
 ---

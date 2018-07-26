@@ -150,7 +150,7 @@ if (window.location.pathname == "/search/" ) {
 			if (url.substring(0,1) == "h") {
 				rel = "rel='external'";
 			}
-			htmlstring = htmlstring + "<h3><a " + rel + "href='" + url +"'>" + pagetitle + "</a></h3><p>" + pagedescription + "</p>";
+			htmlstring = htmlstring + "<li><h3><a " + rel + "href='" + url +"'>" + pagetitle + "</a></h3><p>" + pagedescription + "</p></li>";
 		});
 		searchresults__resultslist.innerHTML = htmlstring;
 	}

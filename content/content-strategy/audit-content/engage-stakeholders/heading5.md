@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Working with subject experts
+section: Work with subject experts
 ---
