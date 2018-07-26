@@ -1,6 +1,6 @@
 ---
 layout: text/textblock
 ---
-Work out when the best time is to ask for budget. Find out when budgets are being planned  for the next financial year. This may be at the end of the year when teams may have spare budget.
+Work out when the best time is to ask for budget. This may be at the end of the year when teams may have spare money in their budgets. Find out when budgets are being planned for the next financial year.
 
-Most business owners think in terms of return-on-investment. You should show the value of improving content in numbers if you can.
+Senior decision-makers may think in terms of return on investment. If you can, you should show the value of improving your content in dollar terms.
