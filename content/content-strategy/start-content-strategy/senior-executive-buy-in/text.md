@@ -14,4 +14,4 @@ Your governance group is made up of:
 
 Identify and include decision-makers with the most influence. Establish an informal group of senior executives (about 4 people) that you can regularly draw on for feedback and advice.
 
-You should also consider people who will be affected by changes to your agency's content. You could create a working group made up of people in your agency who are involved in the content process. Include content managers, leads and policy people. This will ensure your strategy is able to be carried out.
+You should also consider people who will be affected by changes to your agency's content. Create a working group made up of people in your agency who are involved in the content process. Include content managers, leads and policy people. This will ensure your strategy is able to be carried out.
