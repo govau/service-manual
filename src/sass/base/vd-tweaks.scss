@@ -90,6 +90,12 @@
 
 // print
 
+body {
+	@media print {
+		display: block;
+	}
+}
+
 .au-grid .col-md-3{
 	@media print {
 		width: 0;
