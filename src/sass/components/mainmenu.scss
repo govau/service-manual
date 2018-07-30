@@ -61,9 +61,15 @@
 
 #search-toggle {
 	text-align: left;
+	@media print {
+		display: none;
+	}
 }
 #mainmenu-toggle {
 	text-align: right;
+	@media print {
+		display: none;
+	}
 }
 
 .mainmenu-toggle.au-btn.au-btn--tertiary {
