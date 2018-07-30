@@ -14,7 +14,7 @@ const Categoryheader = ( page ) => {
 <div className="au-grid">
 	<div className="container-fluid">
 		<div className="row guides-category-header">
-				<div className="col-md-3">
+				<div className="col-md-3 childnav__container">
 					<Childnav page={ page } />
 				</div>
 				<div className="au-body col-md-9">
