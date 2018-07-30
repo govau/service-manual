@@ -34,3 +34,32 @@ $nav_breakpoint: 1010px;
 .au-btn--dark.icon.icon--search.round--right:hover {
 	border-left: 2px solid $AU-color-foreground-border;
 }
+
+// Print
+
+.au-header__heading {
+	@media print {
+		display: none;
+	}
+}
+
+.header__brand--print {
+	display:none;
+	@media print {
+		display: inline;
+	}
+	img {
+		@media print {
+			display: inline;
+			width: 5rem;
+		}
+	}
+	strong {
+		@media print {
+			display: inline;
+			margin-left: 1.5rem;
+			position: relative;
+			top: -1.2rem;
+		}
+	}
+}
