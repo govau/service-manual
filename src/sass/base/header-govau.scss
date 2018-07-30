@@ -8,6 +8,9 @@
 	font-size: 12px;
 	font-size: 0.75rem;
 	line-height: 1;
+	@media print {
+		display: none;
+	}
 }
 
 .headergovau__content__title {

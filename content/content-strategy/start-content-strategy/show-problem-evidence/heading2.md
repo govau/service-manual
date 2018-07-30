@@ -1,4 +1,4 @@
 ---
 layout: nav/section
-section: Use usability tests
+section: Share what you know about users
 ---

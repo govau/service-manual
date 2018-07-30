@@ -9,6 +9,9 @@ $activeborderwidth: -8px;
 		top: -2rem;
 		left: -1.4rem;
 	}
+	@media print {
+		display: none;
+	}
 }
 
 #guides-childnav-accordion .au-accordion__title {

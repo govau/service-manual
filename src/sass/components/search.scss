@@ -20,6 +20,9 @@
 	@include AU-space(margin-top, 0.5unit);
 	display: flex;
 	width: auto;
+	@media print {
+		display: none;
+	}
 }
 
 .search__searchbox input {

@@ -4,6 +4,9 @@
 	background: $AU-colordark-background-alt-shade;
 	margin-top: 3.2rem;
 	text-align: center;
+	@media print {
+		display: none;
+	}
 }
 
 .helpful__buttons {
