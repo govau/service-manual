@@ -9,4 +9,7 @@
 		display: block;
 		margin-top: 1rem;
 	}
+	@media print {
+		display: none;
+	}
 }
