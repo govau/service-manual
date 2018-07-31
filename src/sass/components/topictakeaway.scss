@@ -50,8 +50,10 @@
 
 .topic-takeaway-paginator {
 	margin-top: 20px;
-	//margin-bottom: 40px;
 	font-size: 90%;
+	@media print {
+		display: none;
+	}
 }
 
 .topic-takeaway-paginator a, .topic-takeaway-arrows {
