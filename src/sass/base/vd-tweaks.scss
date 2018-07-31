@@ -88,16 +88,25 @@
 	}
 }
 
-// print
+/////////////////////
+// print styles
+////////////////////
 
-.au-grid .col-md-3{
+body {
+	// firefox print fix
 	@media print {
-		width: 0;
+		display: block;
 	}
 }
 
 .au-grid .col-md-offset-3 {
 	@media print {
 		margin-left: 0;
+	}
+}
+
+nav {
+	@media print {
+		display: none;
 	}
 }

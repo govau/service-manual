@@ -1,5 +1,11 @@
 $activeborderwidth: -8px;
 
+.au-grid .childnav__container {
+	@media print {
+		width: 0;
+	}
+}
+
 .childnav {
 	width: 100%;
 

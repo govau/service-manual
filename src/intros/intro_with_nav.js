@@ -32,7 +32,7 @@ const IntroNav = ( page ) => {
 		<div className="au-grid intro intro--withnav intro__wrapper">
 			<div className="container-fluid">
 				<div className="row">
-					<div className="col-md-3">
+					<div className="col-md-3 childnav__container">
 						<Childnav page={ page } />
 					</div>
 					<div className="col-md-9">
