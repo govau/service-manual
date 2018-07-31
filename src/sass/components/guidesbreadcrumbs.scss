@@ -10,6 +10,9 @@
 		margin-top: 1rem;
 	}
 	@media print {
-		display: none;
+	  a[href]:after {
+	    content: none;
+			font-size: 0.5rem;
+	  }
 	}
 }

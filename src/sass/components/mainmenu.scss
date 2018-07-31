@@ -1,3 +1,9 @@
+.mainmenu__container {
+	@media print {
+		display: none;
+	}
+}
+
 .mainmenu {
 	@include AU-space( border-bottom, 0.5unit solid $AU-colordark-foreground-action );
 	@include AU-clearfix();

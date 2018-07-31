@@ -102,7 +102,7 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 					className="mainmenu au-body au-body--dark au-accordion__body au-accordion--closed">
 					<div className="container-fluid">
 						<div className="row">
-							<div className="col-md-12">
+							<div className="col-md-12 mainmenu__container">
 								{ mainmenu }
 							</div>
 						</div>
