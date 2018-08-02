@@ -2,7 +2,7 @@
 
 var printedCount = 0;
 
-function logPrintEvent() {
+function trackPrintEvent() {
 	printedCount++;
 	if (printedCount < 2) {
 		ga('send', {
@@ -13,11 +13,12 @@ function logPrintEvent() {
 	}
 }
 
-window.onbeforeprint = function() {logPrintEvent()};
+window.onbeforeprint = function() {trackPrintEvent()};
 
+// this is for Safari only
 var mediaQueryList = window.matchMedia('print');
 mediaQueryList.addListener(function(mql) {
   if(mql.matches) {
-    logPrintEvent();
+    trackPrintEvent();
   }
 });

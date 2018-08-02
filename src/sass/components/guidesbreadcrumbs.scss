@@ -5,14 +5,14 @@
 
 .guidesbreadcrumbs {
 	display: none;
-	@include AU-media( xs ) {
+	@include AU-media(xs) {
 		display: block;
 		margin-top: 1rem;
 	}
 	@media print {
-	  a[href]:after {
-	    content: none;
+		a[href]:after {
+			content: none;
 			font-size: 0.5rem;
-	  }
+		}
 	}
 }

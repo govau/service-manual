@@ -51,18 +51,18 @@ $nav_breakpoint: 1010px;
 	img {
 		@media print {
 			display: inline;
-			width: 8rem;
-			margin-bottom: 1rem;
-			padding-right: 1rem;
-			border-right: 1px solid black;
+			@include AU-space( width, 8unit);
+			@include AU-space( margin-bottom, 1unit);
+			@include AU-space( padding-right, 1unit);
+			@include AU-space( border-right, 1px solid lightgray);
 		}
 	}
 	strong {
 		@media print {
 			display: inline;
 			position: relative;
-			padding-left: 1rem;
-			top: -2.5rem;
+			@include AU-space( padding-left, 1unit);
+			@include AU-space( top, -2.5unit);
 		}
 	}
 }
