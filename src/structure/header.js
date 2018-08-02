@@ -39,7 +39,7 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 				    <div className="row">
 				      <div className="col-md-7">
 								<div className="header__brand--print">
-									<img src="/assets/img/coa.png"/><strong>Digital Guides</strong>
+									<img src="/assets/img/coa-black.png"/><strong>Digital Guides</strong>
 								</div>
 								<AUheaderBrand
 					          title="Digital Guides"
@@ -102,7 +102,7 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 					className="mainmenu au-body au-body--dark au-accordion__body au-accordion--closed">
 					<div className="container-fluid">
 						<div className="row">
-							<div className="col-md-12">
+							<div className="col-md-12 mainmenu__container">
 								{ mainmenu }
 							</div>
 						</div>
