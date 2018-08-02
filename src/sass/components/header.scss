@@ -51,15 +51,18 @@ $nav_breakpoint: 1010px;
 	img {
 		@media print {
 			display: inline;
-			width: 5rem;
+			width: 8rem;
+			margin-bottom: 1rem;
+			padding-right: 1rem;
+			border-right: 1px solid black;
 		}
 	}
 	strong {
 		@media print {
 			display: inline;
-			margin-left: 1.5rem;
 			position: relative;
-			top: -1.2rem;
+			padding-left: 1rem;
+			top: -2.5rem;
 		}
 	}
 }
