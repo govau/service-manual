@@ -10,6 +10,7 @@ header:
   - /_shared/breadcrumbs.md
 main:
   - intro.md
+  - how.md
   - guidance-head.md
   - guidance.md
   - further-head.md
