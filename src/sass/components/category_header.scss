@@ -1,9 +1,9 @@
 .guides-category-header {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+	@include AU-space( margin-top, 2unit );
+	@include AU-space( margin-bottom, 2unit );
 	@include AU-media( md ) {
-		margin-top: 5rem;
-		margin-bottom: 3rem;
+		@include AU-space( margin-top, 5unit );
+		@include AU-space( margin-bottom, 3unit );
 	}
 }
 
@@ -15,7 +15,7 @@
 }
 
 p.guides-category-header-description {
-	margin-bottom: 3rem;
+	@include AU-space( margin-bottom, 2unit );
 	@include AU-media( xs ) {
 		margin-bottom: 0;
 	}
