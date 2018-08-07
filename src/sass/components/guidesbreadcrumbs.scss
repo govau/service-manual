@@ -7,12 +7,16 @@
 	display: none;
 	@include AU-media(xs) {
 		display: block;
-		margin-top: 1rem;
+		@include AU-space(margin-top, 1unit);
 	}
 	@media print {
 		a[href]:after {
 			content: none;
 			font-size: 0.5rem;
 		}
+	}
+	//Edge only fix
+	@supports (-ms-ime-align:auto) {
+		@include AU-space(margin-top, 3unit);
 	}
 }
