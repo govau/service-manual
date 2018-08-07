@@ -15,4 +15,8 @@
 			font-size: 0.5rem;
 		}
 	}
+	//Edge only fix
+	@supports (-ms-ime-align:auto) {
+  	@include AU-space( margin-top, 3unit );
+	}
 }
