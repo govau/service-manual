@@ -1,9 +1,9 @@
 .guides-category-header {
-	@include AU-space( margin-top, 2unit );
-	@include AU-space( margin-bottom, 2unit );
-	@include AU-media( md ) {
-		@include AU-space( margin-top, 5unit );
-		@include AU-space( margin-bottom, 3unit );
+	@include AU-space(margin-top, 2unit);
+	@include AU-space(margin-bottom, 2unit);
+	@include AU-media(md) {
+		@include AU-space(margin-top, 5unit);
+		@include AU-space(margin-bottom, 3unit);
 	}
 }
 
@@ -15,8 +15,8 @@
 }
 
 p.guides-category-header-description {
-	@include AU-space( margin-bottom, 2unit );
-	@include AU-media( xs ) {
+	@include AU-space(margin-bottom, 2unit);
+	@include AU-media(xs) {
 		margin-bottom: 0;
 	}
 }

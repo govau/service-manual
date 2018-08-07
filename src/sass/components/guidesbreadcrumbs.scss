@@ -7,7 +7,7 @@
 	display: none;
 	@include AU-media(xs) {
 		display: block;
-		@include AU-space( margin-top, 1unit );
+		@include AU-space(margin-top, 1unit);
 	}
 	@media print {
 		a[href]:after {
@@ -17,6 +17,6 @@
 	}
 	//Edge only fix
 	@supports (-ms-ime-align:auto) {
-  	@include AU-space( margin-top, 3unit );
+		@include AU-space(margin-top, 3unit);
 	}
 }
