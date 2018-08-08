@@ -1,8 +1,8 @@
 .feedback_container {
-	padding: 3.0rem 0 4rem 0;
+	@include AU-space( padding, 3unit 0 4unit 0);
 	color: $AU-colordark-foreground-text;
 	background: $AU-colordark-background-alt-shade;
-	margin-top: 3.2rem;
+	@include AU-space( margin-top, 3.2unit );
 	text-align: center;
 	@media print {
 		display: none;
@@ -10,7 +10,7 @@
 }
 
 .helpful__buttons {
-	margin-top: 1rem;
+	@include AU-space( margin-top, 1unit );
 	display: block;
 	@include AU-media( xs ) {
 		display: inline;
@@ -20,19 +20,22 @@
 .helpful__question {
 	font-size: 1.2rem;
 	@include AU-media( xs ) {
-		margin-right: 1.5rem;
+		@include AU-space( margin-right, 1.5unit );
 	}
 }
 
-.helpful__no__textarea, .helpful__yes__textarea {
-	outline: none;
-	font-size: 1.2rem;
-	padding: 1rem;
-	margin-top: 1.2rem;
-	border: none;
-	border-radius: 0.4rem;
+.feedback_response__container {
+	width: 100%;
+	margin: auto;
+	@include AU-media( md ) {
+		width: 50%;
+	}
+	textarea {
+		@include AU-space( margin-top, 1unit );
+		@include AU-space( margin-bottom, 1unit );
+	}
 }
 
 .feedback_container button {
-	margin: 0.5rem;
+	@include AU-space( margin, 0.5unit );
 }
