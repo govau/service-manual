@@ -1,6 +1,6 @@
 ---
 layout: blocks/image_content_landscape
-image: content-strategy/ecosystem/bad-ecosystem-map.jpg
+image: content-strategy/ecosystem/bad-ecosystem-map-thumbnail.png
 link: content-strategy/ecosystem/bad-ecosystem-map.jpg
 title: Mind maps
 reverse: false
