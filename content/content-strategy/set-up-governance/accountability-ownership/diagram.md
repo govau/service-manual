@@ -5,11 +5,10 @@ link: content-strategy/governance/content-teams.svg
 reverse: false
 stackPosition:
 imageAlt: Diagram showing accountability of a content team with leaders, doers and specialists
-caption: 
+caption: A pyramid displays the hierarchy of a content team from leaders, to doers, then finally specialists.
 title: Content teams 
 level: 2
 display: 3
-long_description: new-long-description.md
 ---
 
 Set up content teams with content leads as points of escalation. Doers and specialists apply their expertise to the content lifecycle stages. They create and deliver quality content.
