@@ -1,6 +1,6 @@
 ---
 layout: blocks/image_content_block
-image: content-strategy/journey-map-example.jpg
+image: content-strategy/journey-map-example-thumbnail.png
 link: content-strategy/journey-map-example.jpg
 reverse: false
 stackPosition:
