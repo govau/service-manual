@@ -2,6 +2,8 @@ pagetitle: Topics
 weight: 20
 theme: dark
 description: Topics to help you in delivering towards the Digital Service Standard
+created_by: Digital Transformation Agency
+published_date: '2017-07-31'
 header:
   - header.md
 main:
