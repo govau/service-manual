@@ -15,7 +15,7 @@ jobs:
       - run: npm install
       - run: npm run build             # required build step
       - run: sudo npm install -g broken-link-checker
-      - run: http-server site . > http.log 2>&1 & sleep 5 && sudo blc -r --exclude-external http://localhost:8081
+      - run: http-server ./site > http.log 2>&1 & sleep 5 && sudo blc -r --exclude-external http://localhost:8081
       - run: rm -rf node_modules       # delete node_modules folder again to not push it to cf
       # install packages: cf-cli and tree
       - run: sudo apt-get install apt-transport-https
