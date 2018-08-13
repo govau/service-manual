@@ -14,8 +14,9 @@ jobs:
       - run: rm -rf node_modules       # delete node_modules to bust caching
       - run: npm install
       - run: npm run build             # required build step
-      - run: sudo npm install -g broken-link-checker-local
-      - run: sudo blcl -r --exclude "/content-guide/" --exclude "/webmasters/tools/" --exclude-external ./site
+      - run: sudo npm install -g broken-link-checker
+      - run: http-server site . > http.log 2>&1 &
+      - run: blc -r --exclude-external http://localhost:8081
       - run: rm -rf node_modules       # delete node_modules folder again to not push it to cf
       # install packages: cf-cli and tree
       - run: sudo apt-get install apt-transport-https
@@ -67,8 +68,8 @@ jobs:
       - run: rm -rf node_modules
       - run: npm install
       - run: npm run build
-      - run: sudo npm install -g broken-link-checker-local
-      - run: sudo blcl -r --exclude "/content-guide/" --exclude "/webmasters/tools/" --exclude-external ./site
+      # - run: sudo npm install -g broken-link-checker-local
+      # - run: blcl -r --exclude "/content-guide/" --exclude "/webmasters/tools/" --exclude-external ./site
       - run: rm -rf node_modules
       - run: sudo apt-get install apt-transport-https
       - run: wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo apt-key add -
