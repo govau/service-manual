@@ -2,8 +2,6 @@
 layout: intros/intro_with_nav
 subtitle: The kind of user research you do changes as you move through the service design and delivery process.
 category: User research
-created_by: Digital Transformation Agency
-published_date: '2017-07-31'
 ---
 
 The needs and goals of the users define the service. You will uncover these needs and goals through your research in the Discovery stage and build on them through the other stages.

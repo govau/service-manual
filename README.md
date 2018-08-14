@@ -14,6 +14,12 @@
 
 ❗️All pull requests should be compared against `develop`
 
+**If using NVM**
+
+```shell
+nvm use
+```
+
 **Install dependencies**
 
 ```shell

@@ -62,6 +62,7 @@ function directoryWalker(dir, done) {
 						}
 						document.title = indexyaml.pagetitle;
 						document.description = indexyaml.description;
+						document.keywords = indexyaml.keywords;
 						pathmapitem.description = indexyaml.description;
 						pathmapitem.title = indexyaml.pagetitle;
 

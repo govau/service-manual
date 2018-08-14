@@ -3,8 +3,6 @@ layout: intros/intro_with_nav
 category: Service design and delivery process
 title: Own the whole user experience
 subtitle: A service may have multiple products built by different teams — you need a service manager who understands and owns the whole user experience.
-created_by: Digital Transformation Agency
-published_date: '2017-08-03'
 ---
 
 We know that [people struggle to get things done with government](https://www.dta.gov.au/blog/gov-au-is-a-mental-model-for-government/) because services are fragmented. We force people to learn how government is structured to do what they need to do.

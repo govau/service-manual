@@ -3,6 +3,8 @@ weight: 10
 hidden: true
 theme: blue
 description: Structure content in a consistent way, so that it makes sense to users and is easily reusable in different places.
+created_by: Digital Transformation Agency and Australian Bureau of StatisticsReviewed on
+reviewed_date: "2018-05-01"
 header:
   - /_shared/globalheader.md
   - /_shared/header.md

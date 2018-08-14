@@ -12,6 +12,7 @@ const documents = JSON.parse(data);
 const index = lunr(function() {
 	this.field('title', { boost: 10 });
 	this.field('description' , { boost: 5 });
+	this.field('keywords' , { boost: 5 });
 	this.field('body');
 	this.ref('id');
 	this.metadataWhitelist = ['position'];

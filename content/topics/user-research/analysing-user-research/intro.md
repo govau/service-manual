@@ -2,8 +2,6 @@
 layout: intros/intro_with_nav
 subtitle: How to understand your user research and use insights to build the right service.
 category: User research
-created_by: Digital Transformation Agency
-published_date: '2017-07-31'
 ---
 
 User research activities produce a lot of raw data, for example:

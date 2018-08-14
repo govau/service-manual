@@ -2,8 +2,6 @@
 layout: intros/intro_with_nav
 subtitle: To start a content strategy you will need to involve senior executives, and persuade them to give you the go-ahead.
 category: Content strategy
-created_by: Digital Transformation Agency
-published_date: '2018-04-12'
 ---
 
 ## [3]Why a content strategy

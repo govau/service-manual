@@ -2,6 +2,8 @@ pagetitle: Identify business needs
 weight: 30
 theme: blue
 description: Understand what your agency is trying to achieve so you can align your content strategy.
+created_by: Digital Transformation Agency
+published_date: '2018-04-12'
 header:
   - /_shared/globalheader.md
   - /_shared/header.md

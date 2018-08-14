@@ -69,6 +69,20 @@
 	}
 }
 
+.au-body h2{
+	font-size: 1.5rem;
+	@include AU-media( xs ) {
+		font-size: 2rem;
+	}
+}
+
+.au-body h3, .au-body h4{
+	font-size: 1.2rem;
+	@include AU-media( xs ) {
+		font-size: 1.6rem;
+	}
+}
+
 // fade in the main menu hover colour
 .navigation.navigation--dark .au-link-list>li>a {
 	transition: color 0.1s ease-in-out;

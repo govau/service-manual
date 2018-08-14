@@ -45,11 +45,11 @@ const IntroNav = ( page ) => {
 							<div />
 							{ page.subtitle && <p className="guides-category-header-description intro-with-nav__subtitle">{ page.subtitle }</p> }
 
-							{ page.created_by &&
+							{ page._pages[ page._ID ].created_by &&
 						  <dl className="intro__metadata">
-								{ page.created_by && <React.Fragment><dt>Created by</dt><dd><span>{ page.created_by }</span></dd></React.Fragment> }
-								{ page.published_date && <React.Fragment><dt>Published</dt><dd><span>{ formatDate(page.published_date) }</span></dd></React.Fragment> }
-								{ page.reviewed_date && <React.Fragment><dt>Reviewed</dt><dd><span>{ formatDate(page.reviewed_date) }</span></dd></React.Fragment> }
+								{ page._pages[ page._ID ].created_by && <React.Fragment><dt>Created by</dt><dd><span>{ page._pages[ page._ID ].created_by }</span></dd></React.Fragment> }
+								{ page._pages[ page._ID ].published_date && <React.Fragment><dt>Published</dt><dd><span>{ formatDate(page._pages[ page._ID ].published_date) }</span></dd></React.Fragment> }
+								{ page._pages[ page._ID ].reviewed_date && <React.Fragment><dt>Reviewed</dt><dd><span>{ formatDate(page._pages[ page._ID ].reviewed_date) }</span></dd></React.Fragment> }
 						  </dl>
 							}
 

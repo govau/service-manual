@@ -2,8 +2,6 @@
 layout: intros/intro_with_nav
 subtitle: Everyone in the service team should be involved in watching and analysing research with real users.
 category: User research
-created_by: Digital Transformation Agency
-published_date: '2017-07-31'
 ---
 
 Involving team members in research helps them to develop empathy for users. For this reason, we recommend doing research yourself rather than outsourcing it. Ideally, involve each of your team members for at least 2 hours every 6 weeks.

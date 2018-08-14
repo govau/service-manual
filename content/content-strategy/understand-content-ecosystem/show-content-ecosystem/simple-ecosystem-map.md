@@ -1,6 +1,6 @@
 ---
 layout: blocks/image_content_landscape
-image: content-strategy/ecosystem/good-ecosystem-map.jpg
+image: content-strategy/ecosystem/good-ecosystem-map-thumbnail.png
 link: content-strategy/ecosystem/good-ecosystem-map.jpg
 title: Simple ecosystem map
 reverse: false

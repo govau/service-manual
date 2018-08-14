@@ -1,6 +1,8 @@
 pagetitle: Manage content requests
 weight: 120
 description: Know who's involved and what needs to be done to manage business-as-usual content requests.
+created_by: Digital Transformation Agency and the Attorney-General's Department
+reviewed_date: "2018-03-01"
 theme: blue
 header:
   - /_shared/globalheader.md

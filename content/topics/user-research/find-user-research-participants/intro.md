@@ -2,8 +2,6 @@
 layout: intros/intro_with_nav
 subtitle: How to recruit current or future potential users of the service.
 category: User research
-created_by: Digital Transformation Agency
-published_date: '2017-07-31'
 ---
 
 Do your research with people who are existing or potential future users of your service. Representative experts aren't substitutes for actual users.

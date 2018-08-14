@@ -2,20 +2,6 @@
 
 version: 2
 jobs:
-  # TEST JOB
-  # installing dependencies, building assets and testing
-  # test:
-  #   docker:
-  #     - image: circleci/node:8.9.1
-
-  #   steps:
-  #     - checkout
-  #     - run: sudo apt-get install tree
-  #     - run: rm -rf node_modules
-  #     - run: npm install
-  #     - run: tree -C
-  #     - run: npm test
-
 
   # DEPLOY-STAGING JOB
   # installing dependencies, building assets and deploying to staging
@@ -24,11 +10,16 @@ jobs:
       - image: circleci/node:8.9.1
 
     steps:
-      - checkout                       # get the files from the repo (why would you ever not want the files????)
+      - checkout                       # get the files from the repo
       - run: rm -rf node_modules       # delete node_modules to bust caching
-      - run: npm install               # duh
+      - run: npm install
       - run: npm run build             # required build step
-      - run: rm -rf node_modules       # delete node_modules folder again to not push it to cf
+      # broken link check
+      - run: sudo npm install -g broken-link-checker
+      - run: sudo npm install -g http-server
+      - run: http-server ./site > http.log 2>&1 & sleep 5 && sudo blc -r --exclude "/content-guide/" --exclude-external http://localhost:8080
+      # delete node_modules folder again to not push it to cf
+      - run: rm -rf node_modules
       # install packages: cf-cli and tree
       - run: sudo apt-get install apt-transport-https
       - run: wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo apt-key add -
@@ -79,8 +70,11 @@ jobs:
       - run: rm -rf node_modules
       - run: npm install
       - run: npm run build
-      - run: sudo npm install -g broken-link-checker-local
-      - run: blcl -r --exclude "/content-guide/" --exclude "/webmasters/tools/" --exclude-external ./site
+      # broken link check
+      - run: sudo npm install -g broken-link-checker
+      - run: sudo npm install -g http-server
+      - run: http-server ./site > http.log 2>&1 & sleep 5 && sudo blc -r --exclude "/content-guide/" --exclude-external http://localhost:8080
+      # delete node_modules folder again to not push it to cf
       - run: rm -rf node_modules
       - run: sudo apt-get install apt-transport-https
       - run: wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo apt-key add -
