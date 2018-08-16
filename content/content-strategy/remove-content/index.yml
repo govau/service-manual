@@ -2,6 +2,8 @@ pagetitle: Remove content
 weight: 80
 theme: blue
 description: Remove redundant, out-of-date content. Reduce clutter so that users can find what they need.
+created_by: Digital Transformation Agency and National Archives of Australia
+reviewed_date: "2018-03-01"
 header:
   - /_shared/globalheader.md
   - /_shared/header.md

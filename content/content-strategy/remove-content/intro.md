@@ -1,8 +1,6 @@
 ---
 layout: intros/intro_with_nav
 subtitle: Remove redundant, out-of-date content. Reduce clutter so that users can find what they need.
-created_by: Digital Transformation Agency and National Archives of Australia
-reviewed_date: "2018-03-01"
 category: Content Strategy
 ---
 

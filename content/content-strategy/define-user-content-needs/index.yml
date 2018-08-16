@@ -2,6 +2,8 @@ pagetitle: Define user content needs
 weight: 40
 theme: blue
 description: Get to know your users and create artefacts that help you action what you’ve learned.
+created_by: Digital Transformation Agency
+published_date: '2018-04-12'
 header:
   - /_shared/globalheader.md
   - /_shared/header.md

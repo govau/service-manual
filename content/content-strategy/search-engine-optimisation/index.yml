@@ -3,6 +3,8 @@ weight: 100
 hidden: false
 theme: blue
 description: Use search engine optimisation (SEO) to get better search results for government websites. Optimise content to make it easy for people to find your information via search engines.
+created_by: Digital Transformation Agency and the Australian Taxation Office
+reviewed_date: "2018-03-18"
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
