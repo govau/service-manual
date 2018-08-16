@@ -5,7 +5,7 @@ link: content-strategy/governance/content-teams.svg
 reverse: false
 stackPosition:
 imageAlt: Diagram showing accountability of a content team with leaders, doers and specialists
-caption: A pyramid displays the hierarchy of a content team from leaders, to doers, then finally specialists.
+caption: A pyramid that displays the hierarchy of a content team from leaders, to doers, then finally specialists.
 title: Content teams 
 level: 2
 display: 3
