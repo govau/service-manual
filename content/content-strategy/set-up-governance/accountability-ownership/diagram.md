@@ -11,7 +11,9 @@ level: 2
 display: 3
 ---
 
-Set up content teams with content leads as points of escalation. Doers and specialists apply their expertise to the content lifecycle stages. They create and deliver quality content.
+Set up content teams with content leads as points of escalation. 
+
+Doers and specialists apply their expertise to the content lifecycle stages. They create and deliver quality content.
 
 With clear lines of accountability, teams are better able to work together and to break down silos.
 
@@ -20,8 +22,7 @@ Regular reporting on measures of success is part of content governance. Reportin
 You can imagine this model as a pyramid that displays the hierarchy of a content team from leaders to doers and specialists:
 
 **Leaders:**
-- lead with strategy
-- champion quality
+- lead with strategy to champion quality
 - build capability
 - report on success
 - can say ‘no’
