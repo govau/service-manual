@@ -92,11 +92,15 @@ function specialCombos(query) {
 	specials[4] = "interaction designer";
 	specials[5] = "visual designer";
 	specials[6] = "service design";
+	specials[7] = "technical architect";
+	specials[8] = "user researcher";
+	specials[9] = "content designer";
+	specials[10] = "performance analyst";
 
 	var words = query.split(' ');
 	for (var i = 0; i < specials.length ; i++) {
 		if (query == specials[i]) {
-			return "keywords:" + words[0] + " " + "keywords:" + words[1];
+			return "+keywords:" + words[0] + " " + "+keywords:" + words[1];
 			continue;
 		}
 	}
