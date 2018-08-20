@@ -5,6 +5,7 @@ theme: blue
 description: Practical guidance for government agencies to improve or develop an information architecture (IA).
 created_by: Digital Transformation Agency and Department of Agriculture and Water Resources
 reviewed_date: "2018-05-12"
+boost: 1
 header:
   - /_shared/globalheader.md
   - /_shared/header.md

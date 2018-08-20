@@ -5,6 +5,7 @@ theme: blue
 description: Learn how to choose the best content management system (CMS) for your purposes and get the most out of it. Manage content efficiently and smoothly all in one place.
 created_by: Digital Transformation Agency and Department of Employment
 reviewed_date: "2018-06-08"
+boost: 1
 header:
   - /_shared/globalheader.md
   - /_shared/header.md
