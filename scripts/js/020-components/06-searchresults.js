@@ -83,7 +83,7 @@ function stripDelimeters(string) {
 // keyword search
 
 function specialCombos(query) {
-	// query = "keywords:product keywords:manager";
+
 	var specials = new Array();
 	specials[0] = "delivery manager";
 	specials[1] = "service designer";
