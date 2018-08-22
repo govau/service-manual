@@ -63,13 +63,14 @@ function directoryWalker(dir, done) {
 						document.title = indexyaml.pagetitle;
 						document.description = indexyaml.description;
 						document.keywords = indexyaml.keywords;
+						document.boost = indexyaml.boost;
 						pathmapitem.description = indexyaml.description;
 						pathmapitem.title = indexyaml.pagetitle;
 
 						pageid = pageid + 1;
 
 						document.id = pageid;
-						document.boost = guidesBoost;
+						document.boost = guidesBoost + document.boost;
 						pathmapitem.id = pageid;
 						pathmapitem.path = relativeUrl;
 

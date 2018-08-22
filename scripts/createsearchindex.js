@@ -10,9 +10,9 @@ const documents = JSON.parse(data);
 // https://github.com/olivernn/lunr.js/issues/267
 
 const index = lunr(function() {
+	this.field('keywords' , { boost: 30 });
 	this.field('title', { boost: 10 });
 	this.field('description' , { boost: 5 });
-	this.field('keywords' , { boost: 5 });
 	this.field('body');
 	this.ref('id');
 	this.metadataWhitelist = ['position'];

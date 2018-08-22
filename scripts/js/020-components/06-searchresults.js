@@ -68,10 +68,46 @@ function getAllUrlParams(url) {
   return obj;
 }
 
+
+
 // Strip the + delimeters
+
 function stripDelimeters(string) {
 	return string.split('+').join(' ');
 }
+
+
+
+// specialCombos()
+// if the query matches the predefined combination word terms, use a
+// keyword search
+
+function specialCombos(query) {
+
+	var specials = new Array();
+	specials[0] = "delivery manager";
+	specials[1] = "service designer";
+	specials[2] = "service manager";
+	specials[3] = "product manager";
+	specials[4] = "interaction designer";
+	specials[5] = "visual designer";
+	specials[6] = "service design";
+	specials[7] = "technical architect";
+	specials[8] = "user researcher";
+	specials[9] = "content designer";
+	specials[10] = "performance analyst";
+
+	var words = query.split(' ');
+	for (var i = 0; i < specials.length ; i++) {
+		if (query == specials[i]) {
+			return "+keywords:" + words[0] + " " + "+keywords:" + words[1];
+			continue;
+		}
+	}
+	return query;
+}
+
+
 
 // only run Lunr code on the search page
 // as Lunr.min.js is not loaded by default
@@ -93,16 +129,17 @@ if (window.location.pathname == "/search/" ) {
 	function reqListener() {
 	  var obj = JSON.parse(this.responseText);
 		var index = lunr.Index.load(obj);
-		var searchresults_json = index.search(query, {});
+
+		var searchresults_json = index.search(specialCombos(query), {});
 
 		if (searchresults_json.length > 0) {
 			resultsObj = searchresults_json;
 		} else { //fuzzy search now
-			searchresults_json = index.search(query + "~1", {});
+			searchresults_json = index.search(specialCombos(query) + "~1", {});
 			if (searchresults_json.length > 0) {
 				resultsObj = searchresults_json;
 			} else {
-				searchresults_json = index.search(query + "~2", {});
+				searchresults_json = index.search(specialCombos(query) + "~2", {});
 				resultsObj = searchresults_json;
 			}
 		}
