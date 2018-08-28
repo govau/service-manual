@@ -114,7 +114,15 @@ Keywords can be added in a comma delimited list.
 
 External pages can be federated by adding data to `scripts/federate.js`
 
-**Search data (json)**
+**Special combos**
+
+Two word special word combinations can be added to improve specific results. An example is the role 'delivery manager'. 
+
+How to add a special combo:
+1. Append the combination to the `function specialCombos(query)` in [`06-search-results.js`](https://github.com/govau/service-manual/blob/master/scripts/js/020-components/06-searchresults.js).
+2. Add the two word term into the keywords of the page
+
+**Search data static files**
 
 Search data and indexes are stored in the following static files, which are deployed with the site:
 
