@@ -116,7 +116,7 @@ External pages can be federated by adding data to `scripts/federate.js`
 
 **Special combos**
 
-Two word special word combinations can be added to improve specific results. An example is the role 'delivery manager'. 
+Two word special word combinations can be added to improve results for specific queries. An example is the role 'delivery manager'. 
 
 How to add a special combo:
 1. Append the combination to the `function specialCombos(query)` in [`06-search-results.js`](https://github.com/govau/service-manual/blob/master/scripts/js/020-components/06-searchresults.js).
