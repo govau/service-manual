@@ -1,7 +1,7 @@
 # Digital Guides
 > https://guides.service.gov.au/
 
-> We aim to provide a single, clear, consistent and compelling service manual which will inspire teams and help support them with how to design and deliver great services.
+> We aim to provide clear, consistent and compelling guidance which will inspire teams and help support them with how to design and deliver great digital services.
 
 ## Staging
 
@@ -12,9 +12,9 @@
 
 ## Development
 
-❗️All pull requests should be compared against `develop`
+All pull requests should be compared against `develop`
 
-**If using NVM**
+**It's good to use NVM**
 
 ```shell
 nvm use
@@ -38,14 +38,6 @@ npm run build
 npm run watch
 ```
 
-## Rebuild the search indexes
-
-
-```shell
-npm run build:search
-```
-
-
 ## Content
 
 All content for the Service Manual is in the `/content` folder. We use [Cuttlebelle](https://github.com/dominikwilkowski/cuttlebelle) as static site generator
@@ -55,7 +47,7 @@ Images for content pages can be stored in the `/content/assets` folder.
 
 ## Metadata
 
-Metadata can be stored on pages within the `index.yml` file.
+Metadata can be stored on pages within the `index.yml` file. All fields except for `pagetitle` are optional.
 
 **Fields**
 - `pagetitle (string required)`
@@ -65,8 +57,13 @@ Metadata can be stored on pages within the `index.yml` file.
 - `keywords (string, comma delimited list, optional)`
   - for search engine
 - `created_by (string optional)`
+  - is displayed on pages using *intro_with_nav*
 - `published_date (ISO date yyyy-mm-dd optional)`
+  - is displayed on pages using *intro_with_nav*
+  - make sure to form as a string e.g. "2018-05-12"
 - `reviewed_date (ISO date yyyy-mm-dd optional)`
+  - is displayed on pages using *intro_with_nav*
+  - make sure to form as a string e.g. "2018-05-12"
 - `boost (integer optional)`
   - influences the search engine results
 - `hidden (boolean optional)`
@@ -78,15 +75,14 @@ Metadata can be stored on pages within the `index.yml` file.
 
 Search is provided by the [Lunr](https://lunrjs.com/) javascript search engine.
 
-Priority to search score is ordered by matches to:
-1. keywords
-2. title
-3. description
-4. page body
+Weight to search scoring is in the following descending order:
+
+1. `keywords` (boost = 30)
+2. `title` (boost = 10)
+3. `description` (boost = 5)
+4. `body` (no boost)
 
 The content is indexed at build time, and can be influenced with the optional metadata fields `keywords` and `boost`.
-
-When experimenting with search tuning in development it is necessary to rebuild the search index after changing content or metadata.
 
 **Boost**
 
@@ -100,7 +96,17 @@ Keywords can be added in a comma delimited list.
 
 External pages can be federated by adding data to `scripts/federate.js`
 
+**Search data (json)**
+
+Search data and indexes are stored in the following static files, which are deployed with the site:
+
+1. [documents.json](https://guides.service.gov.au/documents.json) (the site document data)
+2. [pathmap.json](https://guides.service.gov.au/pathmap.json) (lookup table for the SERP)
+3. [search_index.json](https://guides.service.gov.au/search_index.json) (lunr's serialised index)
+
 **Rebuilding the search index in development**
+
+When experimenting with search tuning in development it is necessary to rebuild the [search index](https://lunrjs.com/guides/index_prebuilding.html) after changing content or metadata. This can be done hot in another terminal window with Cuttlebelle running.
 
 ```
 npm run build:search
