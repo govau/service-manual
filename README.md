@@ -57,27 +57,27 @@ Images for content pages can be stored in the `/content/assets` folder.
 
 Metadata can be stored on pages within the `index.yml` file.
 
-** Fields **
-- pagetitle (string required)
+**Fields**
+- `pagetitle (string required)`
   - the page title
-- description (string optional)
+- `description (string optional)`
   - the meta description
-- keywords (string, comma delimited list, optional)
+- `keywords (string, comma delimited list, optional)`
   - for search engine
-- created_by (string optional)
-- published_date (ISO date yyyy-mm-dd optional)
-- reviewed_date (ISO date yyyy-mm-dd optional)
-- boost (integer optional)
+- `created_by (string optional)`
+- `published_date (ISO date yyyy-mm-dd optional)`
+- `reviewed_date (ISO date yyyy-mm-dd optional)`
+- `boost (integer optional)`
   - influences the search engine results
-- hidden (boolean optional)
+- `hidden (boolean optional)`
   - hides the page if set to true
-- weight (integer optional)
+- `weight (integer optional)`
   - influences the ordering of menu items
 
 ## Search engine
 
 Search is provided by the [Lunr](https://lunrjs.com/) javascript search engine.
 
-** Rebuilding the seach index in development **
+**Rebuilding the seach index in development**
 
 `npm run build:search`
