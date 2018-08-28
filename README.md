@@ -78,6 +78,30 @@ Metadata can be stored on pages within the `index.yml` file.
 
 Search is provided by the [Lunr](https://lunrjs.com/) javascript search engine.
 
-**Rebuilding the seach index in development**
+Priority to search score is ordered by matches to:
+1. keywords
+2. title
+3. description
+4. page body
 
-`npm run build:search`
+The content is indexed at build time, and can be influenced with the optional metadata fields `keywords` and `boost`.
+
+When experimenting with search tuning in development it is necessary to rebuild the search index after changing content or metadata.
+
+**Boost**
+
+Use small values, like 0.5 - 1 until your desired search result is attained.
+
+**Keywords**
+
+Keywords can be added in a comma delimited list.
+
+**Federated pages**
+
+External pages can be federated by adding data to `scripts/federate.js`
+
+**Rebuilding the search index in development**
+
+```
+npm run build:search
+```
