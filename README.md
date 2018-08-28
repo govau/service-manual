@@ -3,6 +3,10 @@
 
 > We aim to provide clear, consistent and compelling guidance which will inspire teams and help support them with how to design and deliver great digital services.
 
+## Layout documentation
+
+https://govau.github.io/service-manual/docs/
+
 ## Staging
 
 - **url**: [https://service-manual.apps.y.cld.gov.au/](https://service-manual.apps.y.cld.gov.au/)
