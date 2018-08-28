@@ -3,13 +3,21 @@
 
 > We aim to provide clear, consistent and compelling guidance which will inspire teams and help support them with how to design and deliver great digital services.
 
-### Layout documentation
+### Partial (layout) documentation
 
 https://govau.github.io/service-manual/docs/
+
+The Cuttlebelle auto-docs are deployed to the `gh-pages` branch.
+
+To update the documentation after changing or adding a partial, change to the `gh-pages` branch and run `npm run docs`. Push it to deploy.
 
 ### Visual regression tests
 
 https://github.com/govau/backstop-guides-tests
+
+These can be optionally run before a production deployment to visually see the difference.
+
+It's good for non-functional changes to ensure there is no visual regression.
 
 ## Staging environment
 
@@ -20,9 +28,11 @@ https://github.com/govau/backstop-guides-tests
 
 ## Development
 
-All pull requests should be compared against `develop`
+All pull requests should be compared against `develop`.
 
-**It's good to use NVM**
+It's recommended you install `nvm` to manage your local node version.
+
+**Change node version**
 
 ```shell
 nvm use
