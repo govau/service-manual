@@ -25,6 +25,11 @@ It's good for non-functional changes to ensure there is no visual regression.
 - **branch**: `develop`
 - **status**:  [![CircleCI](https://circleci.com/gh/govau/service-manual/tree/develop.svg?style=svg)](https://circleci.com/gh/govau/service-manual/tree/develop)
 
+## Test environments (automatic provisioning)
+- Branches deployed with the '-staging' suffix will be deployed to a new environment.
+- `https://service-manual-[branchname-staging].apps.y.cld.gov.au/``
+- example branch `test-staging` https://service-manual-test-staging.apps.y.cld.gov.au/
+
 
 ## Development
 
