@@ -14,5 +14,4 @@ The benefits of pair writing are:
 - the content will follow the appropriate style and tone, in line with the [Content Guide](https://guides.service.gov.au/content-guide/)
 - there is less chance of error and miscommunication between teams
 
-It's best to do a pair writing expercise at the start of content development, after you have completed user research.
-
+It's best to do a pair writing exercise at the start of content development, after you have completed user research.
