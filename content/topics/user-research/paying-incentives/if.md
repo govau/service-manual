@@ -6,8 +6,7 @@ Paying incentives for participation in user research is common practice. They ar
 
 Incentives are rewards that can motivate people to take part in research. They are different to reimbursements for costs such as travel expenses.
 
-Check if your agency has a policy around paying incentives for user research. The Australian Government [National Statement on Ethical Conduct in Human Research 618KB PDF
-](https://nhmrc.gov.au/about-us/publications/national-statement-ethical-conduct-human-research-2007-updated-2018) may also help guide your decision.
+Check if your agency has a policy around paying incentives for user research. The Australian Government [National Statement on Ethical Conduct in Human Research](https://nhmrc.gov.au/about-us/publications/national-statement-ethical-conduct-human-research-2007-updated-2018) may also help guide your decision.
 
 It’s usual to pay incentives to people who take part in usability testing. But there are some other types of research where incentives might not be appropriate. For example, payment may:
 - represent a conflict of interest
