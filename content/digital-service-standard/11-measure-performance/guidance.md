@@ -2,4 +2,4 @@
 layout: text/textblock
 ---
 
-[Measuring service performance](https://www.dta.gov.au/standard/measuring-performance/)
+[Measure success](/content-strategy/set-goals-measure-success/measure-success/)
