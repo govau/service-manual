@@ -37,7 +37,7 @@ How does the MVP create value for users and government by better meeting user ne
 ### [2]In Beta stage
 During the [Beta stage](/topics/service-design-delivery-process/beta-stage/) your understanding of what your users value will have matured through testing design prototypes with them.
 
-By the end of the Beta stage you should be able to show greater depth and diversity of knowledge on all of the points above from Alpha and Beta. You should also as be able to show the following.
+By the end of the Beta stage you should be able to show greater depth and diversity of knowledge on all of the points above from Alpha and Beta. You should also be able to show the following.
 
 #### [1]How has your service been shaped by user needs?
 
