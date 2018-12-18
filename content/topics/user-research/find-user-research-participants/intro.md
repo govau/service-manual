@@ -6,7 +6,7 @@ category: User research
 
 Do your research with people who are existing or potential future users of your service. Representative experts aren't substitutes for actual users.
 
-Remember to include all [user groups](https://www.dta.gov.au/standard/design-principles/#this-is-for-everyone), including those who:
+Remember to include all user groups, including those who:
  - are disabled or use assistive technologies
  - have low digital skills
  - have low literacy
