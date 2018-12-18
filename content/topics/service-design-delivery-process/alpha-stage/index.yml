@@ -36,8 +36,6 @@ main:
   - not-move-on.md
   - new-alpha-head.md
   - new-alpha.md
-  - case-head.md
-  - case.md
   - /_shared/feedback.md
 footer:
   - /_shared/footer-gds.md
