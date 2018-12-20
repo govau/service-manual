@@ -12,5 +12,4 @@ sections:
   - Moving on to Beta stage
   - Deciding not to move on to Beta stage
   - Deciding to start a new Alpha stage
-  - Case studies and examples
 ---

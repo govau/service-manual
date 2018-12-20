@@ -5,5 +5,4 @@ sections:
   - Finding participants
   - How to write a recruitment brief
   - Make your research inclusive
-  - Case studies and examples
 ---

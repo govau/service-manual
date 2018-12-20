@@ -10,5 +10,4 @@ sections:
   - How long the Beta stage takes
   - How you know Beta stage is finished
   - When you’re ready to move on to Live stage
-  - Case studies and examples
 ---
