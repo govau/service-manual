@@ -9,6 +9,6 @@ cards:
 - image: '/sddp/hardworkmakesimple.jpg'
   headline: The challenges of meeting the Digital Service Standard
   text: This blog discusses some of the challenges faced by teams working to meet the Standard, including the DTA’s Digital Marketplace.
-  link: 'https://www.dta.gov.au/blog/challenges-of-meeting-the-digital-service-standard/'
+  link: 'https://www.dta.gov.au/blogs/challenges-meeting-digital-service-standard'
   cta: Read on DTA blog
 ---
