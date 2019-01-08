@@ -15,6 +15,6 @@ From the UK Government Digital Service blogs:
 Other resources:
 * [Indi Young — Mental models](http://boxesandarrows.com/what-is-your-mental-model/)
 * [18F Method cards](https://methods.18f.gov/index.html)
-* [David Travis — Evangelising user research](https://medium.com/@userfocus/evangelising-user-research-849430701b6e#.bugjnqz76)
+* [David Travis — Evangelising user research](https://medium.com/@userfocus/evangelising-user-research-849430701b6e)
 
 You can learn more about user research by [joining the Australian Cross Government Service Design Community](/topics/user-research/#support).

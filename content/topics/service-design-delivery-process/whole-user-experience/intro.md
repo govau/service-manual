@@ -5,7 +5,7 @@ title: Own the whole user experience
 subtitle: A service may have multiple products built by different teams — you need a service manager who understands and owns the whole user experience.
 ---
 
-We know that [people struggle to get things done with government](https://www.dta.gov.au/blog/gov-au-is-a-mental-model-for-government/) because services are fragmented. We force people to learn how government is structured to do what they need to do.
+We know that people struggle to get things done with government because services are fragmented. We force people to learn how government is structured to do what they need to do.
 
 We need to understand the current user experience and where it includes different products that may be owned by other parts of government.
 

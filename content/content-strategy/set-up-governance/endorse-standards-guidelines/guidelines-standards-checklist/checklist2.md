@@ -6,7 +6,7 @@ These are government standards you'll need to meet:
 
 - **Accessibility**
 
-    How you make content available for everyone. 
+    How you make content available for everyone.
     This includes people from non-English speaking backgrounds.
 - **Copyright**
 
@@ -20,10 +20,10 @@ These are government standards you'll need to meet:
     How you manage the purchase, registration and use of internet domain names.
 - **Freedom of Information**
 
-    What you need to do to comply with the [Freedom of Information Act](/content-strategy/remove-content/get-approval-remove/#freedom-of-information-foi-risks)
+    What you need to do to comply with the [Freedom of Information Act](/content-strategy/remove-content/get-approval-remove/#freedom-of-information-risks)
 - **Language**
 
-    How you ensure content is available for everyone. 
+    How you ensure content is available for everyone.
     This includes people from non-English speaking backgrounds.
 - **Privacy**
 
@@ -36,5 +36,5 @@ These are government standards you'll need to meet:
     What security measures are in place for your online information?
 - **Social media**
 
-    Social media standards of use for employees. 
+    Social media standards of use for employees.
     To apply when they engage in conversations or interact for official, professional or personal use.
