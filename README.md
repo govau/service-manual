@@ -40,7 +40,7 @@ git clone github.com/govau/service-manual
 cd service-manual
 ```
 
-### Docker 
+### Option 1: Docker 
 
 Build the Docker image:
 ```
@@ -54,7 +54,7 @@ service-manual$ docker run --rm --volume="$PWD:/workdir" -p 80:8080 -it service-
 
 Now point your browser to your docker host with something like `http://localhost/`
 
-### DIY option
+### Optino 2: DIY option
 
 It's recommended you install `nvm` to manage your local node version.
 
