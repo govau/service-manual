@@ -33,7 +33,28 @@ It's good for non-functional changes to ensure there is no visual regression.
 
 ## Development
 
-All pull requests should be compared against `develop`.
+All pull requests should be compared against `develop`. To keep things simple, opt for the Docker option but the DIY is also provided. First check out the repository:
+
+```
+git clone github.com/govau/service-manual
+cd service-manual
+```
+
+### Option 1: Docker 
+
+Build the Docker image:
+```
+service-manual$ docker build -t service-manual .
+```
+
+Run the image:
+```
+service-manual$ docker run --rm --volume="$PWD:/workdir" -p 80:8080 -it service-manual
+```
+
+Now point your browser to your docker host with something like `http://localhost/`
+
+### Optino 2: DIY option
 
 It's recommended you install `nvm` to manage your local node version.
 
