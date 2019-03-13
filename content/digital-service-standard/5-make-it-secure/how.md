@@ -10,16 +10,16 @@ You should:
 
 - identify secure and private methods of generating or processing data within or between datastores, the solution and users
 - identify appropriate authentication methods that are as seamless as possible to the user
-- understand to what degree the solution has to comply with the [Information Security Manual](http://www.asd.gov.au/infosec/ism/) and [Protective Security Policy Framework](https://www.protectivesecurity.gov.au/Pages/default.aspx), and internal agency security policies, and create a plan on how to achieve this
+- understand to what degree the solution has to comply with the [Information Security Manual](https://www.asd.gov.au/infosec/ism/) and [Protective Security Policy Framework](https://www.protectivesecurity.gov.au/Pages/default.aspx), and internal agency security policies, and create a plan on how to achieve this
 - conduct a privacy impact assessment
-- conduct a threat and risk assessment, and an [Information Security Registered Assessors Program Assessment](http://www.asd.gov.au/infosec/irap/index.htm) (IRAP) if appropriate
+- conduct a threat and risk assessment, and an [Information Security Registered Assessors Program Assessment](https://www.asd.gov.au/infosec/irap/index.htm) (IRAP) if appropriate
 - identify potential threats to your service, including potential pathways for insider threats and hackers, and demonstrate an understanding of how to mitigate the identified threats
 
 To support the work in Alpha you should:
 
 - map the systems, data and responsible agencies
 - understand what user data might be needed or collected by the service
-- understand what existing statistical datasets may be relevant to your service and the [Australian Government principles on data integration](http://statistical-data-integration.govspace.gov.au/)
+- understand what existing statistical datasets may be relevant to your service and the [Australian Government principles on data integration](https://statistical-data-integration.govspace.gov.au/)
 - understand which data you collect is (and isn’t) personal information and how it might be stored, accessed and disseminated
 - involve relevant security professionals throughout the Alpha stage
 
