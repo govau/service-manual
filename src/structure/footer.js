@@ -32,11 +32,8 @@ const Footer = ({ headline, legallist, mainlist, _body, _ID, _relativeURL }) => 
 
 					<div className="col-md-3 col-md-pull-9 footer__logo">
 						<p className="footer__affiliate">
-							<span>An initiative of the </span>
-							<span>Digital Transformation Agency </span>
-							<span className="footer__affiliate-link">
-								<a href="https://www.dta.gov.au/">More projects</a>
-							</span>
+							<span>Digital Guides is a </span>
+							<span><a href="https://www.dta.gov.au/our-projects">Digital Transformation Agency product</a>.</span>
 						</p>
 						{/* <a href="http://dta.gov.au"><img className="footer__image" src={ _relativeURL( '/assets/img/footer-logo-dta.png', _ID ) } alt="Digital Transformation Agency" title="Digital Transformation Agency"/></a> */}
 					</div>

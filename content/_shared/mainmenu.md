@@ -14,4 +14,6 @@ navigation:
           link: /topics
         - text: Content Strategy Guide
           link: /content-strategy
+        - text: Content Guide
+          link: /content-guide
 ---

@@ -7,7 +7,7 @@ You can use schema to also add your business address, link to a map, contact inf
 
 Schema enhances the way web pages appear in search results. This can impact on CTR (click through rates), which also affects the ranking of your pages.
 
-[Schema.org](http://schema.org/docs/gs.html) provides a shared markup vocabulary that is accepted and readable by many search engines. 
+[Schema.org](https://schema.org/docs/gs.html) provides a shared markup vocabulary that is accepted and readable by many search engines. 
 
 **Search result enhancements include:**
 - business information such as location and contact information

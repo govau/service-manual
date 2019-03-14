@@ -39,7 +39,7 @@
 .footer__affiliate {
 	@include AU-fontgrid( xs );
 
-	a {
+	.footer__affiliate-link a {
 		&:after {
 			content: ' ';
 			@include AU-space( width, 0.75unit );
