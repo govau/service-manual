@@ -1,4 +1,4 @@
-FROM circleci/node:8.9.1
+FROM circleci/node:8.9.4-stretch
 
 RUN echo '#!/usr/bin/env bash \n\
 \n\
