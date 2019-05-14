@@ -5,4 +5,4 @@ button_link: /digital-service-standard/
 oddrow: false
 heading: Meet the Digital Service Standard
 ---
-13 criteria to help government teams build and run digital services to meet the needs of users.
+30 criteria to help government teams build and run digital services to meet the needs of users.
