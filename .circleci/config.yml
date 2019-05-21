@@ -7,7 +7,7 @@ jobs:
   # installing dependencies, building assets and deploying to staging
   deploy-staging:
     docker:
-      - image: circleci/node:8.9.4-stretch
+      - image: circleci/node:lts-stretch
 
     steps:
       - checkout                       # get the files from the repo
@@ -39,7 +39,7 @@ jobs:
   # installing dependencies, building assets and deploying to production
   deploy-prod:
     docker:
-      - image: circleci/node:8.9.4-stretch
+      - image: circleci/node:lts-stretch
 
     steps:
       - checkout
@@ -65,7 +65,7 @@ jobs:
   # installing dependencies, building assets and deploying to test branches
   deploy-test:
     docker:
-      - image: circleci/node:8.9.4-stretch
+      - image: circleci/node:lts-stretch
 
     steps:
       - checkout
