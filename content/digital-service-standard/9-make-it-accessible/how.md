@@ -20,7 +20,7 @@ During the [Alpha stage](/topics/service-design-delivery-process/alpha-stage/), 
 - your prototypes can accommodate users from different backgrounds and users with disability
 - any accessibility issues and barriers that might need addressing in the Beta stage
 - you have access to facilities to perform testing on various devices or platforms (for example, a plan for testing)
-- The procurement of any platform or service whether paid or unpaid is in line with the Digital Sourcing Consider First Policy accessibility requirements and meets [Accessibility requirements suitable for public procurement of ICT products and services](https://infostore.saiglobal.com/en-au/Standards/AS-EN-301-549-2016-100620_SAIG_AS_AS_211428/) (AS EN 301 549)
+- The procurement of any platform or service whether paid or unpaid is in line with the [Digital Sourcing Consider First Policy](https://www.dta.gov.au/help-and-advice/ict-procurement/digital-sourcing-framework-ict-procurement/digital-sourcing-policies/digital-sourcing-consider-first-policy/digital-sourcing-consider-first-policy-consultation-paper) accessibility requirements and meets [Accessibility requirements suitable for public procurement of ICT products and services](https://infostore.saiglobal.com/en-au/Standards/AS-EN-301-549-2016-100620_SAIG_AS_AS_211428/) (AS EN 301 549)
 
 ### [2]In Beta stage
 
