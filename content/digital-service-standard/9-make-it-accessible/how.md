@@ -8,7 +8,7 @@ layout: text/textblock
 
 During the [Discovery stage](/topics/service-design-delivery-process/discovery-stage/) you will have developed a good understanding of how your users may access your service. To make sure everyone will be able to use your service you need to show:
 
-- the type of environments users may access the service in, including with different browsers and desktop and mobile devices, and when connections are slower and there may be limited data (for example, through user stories)
+- the type of environments where users may access the service in, including with different browsers and desktop and mobile devices, and when connections are slower and there may be limited data (for example, through user stories)
 - diversity in research recruitment and targeted users, including people from different cultural backgrounds and people with disability
 - consideration of situational and environmental limitations that affect a user’s ability to access the product
 - the plan to meet accessibility requirements in the design of the product (for example, how it will meet [WCAG 2 AA](https://www.w3.org/WAI/intro/wcag))
