@@ -7,9 +7,10 @@ const Server = Express();
 var redirect_map = require('./redirect-map.json');
 Server.locals.redirect_map = redirect_map;
 for (var key in redirect_map) {
-        Server.get(key, (req, res) => {
-                res.redirect(301, Server.locals.redirect_map[req.path]);
-        });
+	Server.get(key, (req, res) => {
+//		res.redirect(301, Server.locals.redirect_map[req.path]);
+		res.redirect(301, Server.locals.redirect_map[key]);
+	});
 }
 
 
