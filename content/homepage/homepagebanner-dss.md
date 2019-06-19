@@ -1,7 +1,7 @@
 ---
 layout: text/homepagebanner
 button_text: View the Standard
-button_link: /digital-service-standard/
+button_link: https://www.dta.gov.au/help-and-advice/about-digital-service-standard
 oddrow: false
 heading: Meet the Digital Service Standard
 ---
