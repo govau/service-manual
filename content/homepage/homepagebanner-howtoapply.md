@@ -1,7 +1,7 @@
 ---
 layout: text/homepagebanner
 button_text: View topics
-button_link: /topics/
+button_link: https://www.dta.gov.au/help-and-advice/build-and-improve-services 
 oddrow: true
 heading: How to apply the Standard
 ---
