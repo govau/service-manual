@@ -54,7 +54,7 @@ service-manual$ docker run --rm --volume="$PWD:/workdir" -p 80:8080 -it service-
 
 Now point your browser to your docker host with something like `http://localhost/`
 
-### Optino 2: DIY option
+### Option 2: DIY
 
 It's recommended you install `nvm` to manage your local node version.
 
