@@ -2,15 +2,13 @@
 layout: blocks/imageblock
 image: /content-strategy/dto-content-design.jpg
 section: Support
-title: Join the content community
+title: Join the Content Community of Practice
 reverse: true
 level: 2
 noBottomMargin: true
 ---
-Content Design in Australian Government is a community of practice for people working in government content — including content editing, content design, content strategy, communications, marketing, publishing, user experience, accessibility and more.
 
+The Content Community of Practice is a place for government content specialists, practitioners and leaders to share ideas, solve problems, connect to peers and work in the open.
 
-The group shares experiences, ideas and learnings so that we can all help to build better public services for Australians. It is open to anyone working in government who can provide a government email.
+This community is hosted by the Digital Transformation Agency. People from all levels of government are welcome. You will need a government email address to join. Email [content@dta.gov.au](mailto:content@dta.gov.au) to join the Content Community of Practice.
 
-
-To become a part of this group please email [content@digital.gov.au](mailto:content@digital.gov.au)
