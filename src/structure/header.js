@@ -36,6 +36,13 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 
 				<AUheader dark hero={ _ID === 'homepage' ? true : false }>
 				  <div className="container-fluid">
+					<div className="row">
+						<div className="col-md-12" style={{ 'margin-bottom': '3rem' }}>
+							<div class="au-body au-page-alerts au-page-alerts--warning">
+								The Australian Government Digital Guides site has been decommissioned and will be taken down from 31 May 2022.
+							</div>
+						</div>
+					</div>
 				    <div className="row">
 				      <div className="col-md-7">
 								<div className="header__brand--print">
