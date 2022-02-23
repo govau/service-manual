@@ -1,6 +1,6 @@
 ---
 host: guides
-buildpack: nodejs_buildpack
+buildpack: nodejs10_buildpack
 memory: 256M
 instances: 3
 env:

@@ -7,7 +7,7 @@ jobs:
   # installing dependencies, building assets and deploying to staging
   deploy-staging:
     docker:
-      - image: circleci/node:lts-stretch
+      - image: circleci/node:10-stretch
 
     steps:
       - checkout                       # get the files from the repo
@@ -16,7 +16,7 @@ jobs:
       - run: npm run build             # required build step
       # broken link check
       - run: sudo npm install -g broken-link-checker
-      - run: sudo npm install -g http-server
+      - run: sudo npm install -g http-server@13.0.2
       - run: http-server ./site > http.log 2>&1 & sleep 5 && sudo blc -r --exclude "/content-guide" --exclude-external http://localhost:8080
       # delete node_modules folder again to not push it to cf
       - run: rm -rf node_modules
@@ -39,7 +39,7 @@ jobs:
   # installing dependencies, building assets and deploying to production
   deploy-prod:
     docker:
-      - image: circleci/node:lts-stretch
+      - image: circleci/node:10-stretch
 
     steps:
       - checkout
@@ -65,7 +65,7 @@ jobs:
   # installing dependencies, building assets and deploying to test branches
   deploy-test:
     docker:
-      - image: circleci/node:lts-stretch
+      - image: circleci/node:10-stretch
 
     steps:
       - checkout
@@ -74,7 +74,7 @@ jobs:
       - run: npm run build
       # broken link check
       - run: sudo npm install -g broken-link-checker
-      - run: sudo npm install -g http-server
+      - run: sudo npm install -g http-server@13.0.2
       - run: http-server ./site > http.log 2>&1 & sleep 5 && sudo blc -r --exclude "/content-guide" --exclude-external http://localhost:8080
       # delete node_modules folder again to not push it to cf
       - run: rm -rf node_modules
