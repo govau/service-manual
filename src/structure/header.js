@@ -40,6 +40,7 @@ const Header = ({ title, title_badge, mainmenu, header_govau, _relativeURL, _ID,
 						<div className="col-md-12" style={{ 'margin-bottom': '3rem' }}>
 							<div class="au-body au-page-alerts au-page-alerts--warning">
 								The Australian Government Digital Guides site has been decommissioned and will be taken down from 31 May 2022.
+								The Content Strategy Guide has moved to the <a href="https://digitalprofession.gov.au/content-strategy" rel="noopener noreferrer" target="_blank">Digital Profession</a>.
 							</div>
 						</div>
 					</div>
